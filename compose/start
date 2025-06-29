@@ -4,7 +4,7 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-# Basically we watch only README.rst, LICENCE.rst and everything under django_structlog
+# Basically we watch only README.rst, LICENCE.rst
 sphinx-autobuild docs /docs/_build/html \
 -b ${SPHINX_COMMAND} \
 --port 8080 \
