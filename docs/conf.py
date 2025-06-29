@@ -26,7 +26,7 @@ master_doc = "index"
 # -- Project information -----------------------------------------------------
 
 project = "Exalted 1e Charms"
-copyright = "2025, Jules Robichaud-Gagnon"
+copyright = "2025, White-Wolf."
 author = "Jules Robichaud-Gagnon"
 
 
