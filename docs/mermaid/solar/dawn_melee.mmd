@@ -260,3 +260,215 @@ flowchart TD
         a Melee attack. Sandstorm-Wind Attack can strike characters
         up to (10 x the character's Essence) yards away.
         "
+
+    iron_raptor_technique --> edge_of_morning_sunlight[Edge of Morning Sunlight]
+    click edge_of_morning_sunlight callback "
+        Edge of Morning Sunlight<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Melee: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Iron Raptor Technique<br>
+        <br>
+        The character concentrates on manifesting his Essence
+        through the medium of his weapon. The weapon
+        becomes invested with Solar power and is highly effective
+        against creatures of darkness, the undead and the Abyssal
+        Exalted. The weapon adds the character's Essence to its
+        regular damage when used against such creatures.
+        "
+
+    edge_of_morning_sunlight --> corona_of_radiance[Corona of Radiance]
+    click corona_of_radiance callback "
+        Corona of Radiance<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Melee: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Edge of Morning Sunlight<br>
+        <br>
+        The character channels Essence through her body, using
+        her weapon as an aggressive focus. Her flesh coruscates with
+        flickering Solar energy, and attacks against her by undead,
+        creatures of the night and Abyssal Exalted are at + 1 difficulty.
+        In addition, if such creatures strike her without using a
+        weapon, they must soak aggravated damage equal to the
+        character's Essence. While Corona of Radiance is active, the
+        Exalted's attacks against such creatures do aggravated damage
+        and have a damage bonus equal to the character's Essence.
+        "
+
+    blazing_solar_bolt[Blazing Solar Bolt]
+    sandstorm_wind_attack --> blazing_solar_bolt
+    corona_of_radiance --> blazing_solar_bolt
+    click blazing_solar_bolt callback "
+        Blazing Solar Bolt<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Melee: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Corona of Radiance, Sandstorm-Wind Attack<br>
+        <br>
+        The character channels pure Solar Essence though herself,
+        focusing it with her will and through the medium of her
+        weapon. A powerful lance of energy leaps between the Solar's
+        Caste Mark, her weapon and the target. The character makes
+        an attack with her Dexterity + Melee dice pool, which cannot
+        be blocked or dodged without the use of Charms. The attack
+        does lethal damage and has a base damage of the Exalted's
+        Strength + her Willpower. Against inhabitants of Malfeas and
+        the Underworld, Blazing Solar Bolt inflicts aggravated damage.
+        "
+    golden_solar_block[Golden Solar Block]
+    click golden_solar_block callback "
+        Golden Solar Block<br>
+        <br>
+        Cost: 1 mote per 2 dice<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Melee: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Through this Charm, the character uses Essence to guide
+        her weapon on the defense, allowing her to parry the attacks
+        of many foes at once. The character may trade Essence for dice
+        to block any hand-to-hand attack that she is aware of, at the
+        cost of 1 mote per 2 dice. The player cannot use more dice to
+        parry any single attack than her Melee dice pool. If there are
+        an odd number of dice in her Melee pool, then the fractional
+        mote left over after buying the last die is lost.
+        "
+
+    golden_solar_block --> dipping_swallow_defense[Dipping Swallow Defense]
+    click dipping_swallow_defense callback "
+        Dipping Swallow Defense<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Melee: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Golden Essence Block<br>
+        <br>
+        The character has achieved further mastery of defensive
+        Essence flows and can now more smoothly block
+        attacks. Dipping Swallow Defense allows the character to
+        use his full Dexterity + Melee dice pool to parry any one
+        incoming hand-to-hand attack that he is aware of.
+        "
+
+    dipping_swallow_defense --> bulwark_stance[Bulwark Stance]
+    click bulwark_stance callback "
+        Bulwark Stance<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Until next action<br>
+        Type: Simple<br>
+        Minimum Melee: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Dipping Swallow Defense<br>
+        <br>
+        The character now has the ability to use defensive
+        Essence flows to gain perfect form and poise. Until her
+        next action, the character may use her full Dexterity +
+        Melee dice pool to parry any attack she is aware of, so long
+        as the attack has a physical component and is not specifically
+        noted as being impossible to block.
+        "
+
+    bulwark_stance --> heavenly_guardian_defense[Heavenly Guardian Defense]
+    click heavenly_guardian_defense callback "
+        Heavenly Guardian Defense<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Melee: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Bulwark Stance<br>
+        <br>
+        The character may block, without his player rolling, any
+        one attack against him that he is aware of, even if the attack
+        is not normally blockable, such as that from an arrow, a bolt
+        of acid or a hurtling boulder. Blocking the tremendously
+        powerful attacks ofbeings such as godlings and demon princes
+        will almost certainly cause non-magical weapons to perish,
+        but the attack will be stopped at no harm to the Exalted.
+        "
+
+    bulwark_stance --> fivefold_bulwark_stance[Fivefold Bulwark Stance]
+    click fivefold_bulwark_stance callback "
+        Fivefold Bulwark Stance<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Melee: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Bulwark Stance<br>
+        <br>
+        For the rest of the scene, the character is surrounded by
+        glowing Essence arcs, outlining his ideal protective moves
+        and guiding his weapon in defense. The character may use
+        his full Dexterity + Melee dice pool to parry any attacks
+        against him of which he is aware, even missile weapons and
+        magical attacks that possess a physical component.
+        "
+
+    dipping_swallow_defense --> solar_counterattack[Solar Counterattack]
+    click solar_counterattack callback "
+        Solar Counterattack<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Melee: 4<br>
+        Minimum Essence: 1<br>
+        <br>
+        Prerequisite Charms: Dipping Swallow Defense
+        Essence guides the character's tempo, allowing her
+        to strike when her enemy extends for an attack. The
+        character may immediately make an attack at her full
+        Dexterity + Melee dice pool against anyone executing a
+        hand-to-hand attack against her. This attack is made
+        after the roll to hit the counterattacking Exalted but
+        before damage is determined.<br>
+        The Solar Counterattack is not an action and does
+        not subtract from the character's dice pools or affect her
+        action for the turn. A character can make as many Solar
+        Counterattacks in a turn as she can afford to pay for, but a
+        character cannot use Solar Counterattack in response to
+        Solar Counterattack or any other counterattack Charm.
+        "
+
+    solar_counterattack --> ready_in_eight_direction_stance[Ready in Eight Directions<br>Stance]
+    click ready_in_eight_direction_stance callback "
+        Ready in Eight Directions Stance<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One turn<br>
+        Type: Reflexive<br>
+        Minimum Melee: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Solar Counterattack<br>
+        <br>
+        The character now rides the impulses of Essence
+        with supple perfection. To attack him is to invite a lethal
+        counterstroke. Until the character's next action, he may
+        respond to all incoming hand-to-hand attacks with an
+        immediate counterattack at his full Dexterity + Melee
+        dice pool. As with Solar Counterattack, Ready in Eight
+        Directions Stance comes after the opponent's attack roll
+        but before damage effects are applied. Ready in Eight
+        Directions Stance in no way mitigates the attack's effects.
+        A character cannot use Ready in Eight Directions
+        Stance in response to Solar Counterattack or any other
+        counterattack Charm.
+        "
