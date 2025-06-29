@@ -1,0 +1,242 @@
+flowchart TD
+
+    ferocious_jab[Ferocious Jab]
+    click ferocious_jab callback "
+        Ferocious Jab<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Brawl: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character infuses his anima with Essence, making
+        his strikes much more damaging. On a successful attack,
+        the character may count his extra successes twice for the
+        purposes of determining damage. The Essence for this
+        Charm may be spent after the character rolls the attack.
+        "
+
+    ferocious_jab --> fist_of_iron_technique[Fist of Iron Technique]
+    click fist_of_iron_technique callback "
+        Fist of Iron Technique<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Brawl: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Ferocious Jab<br>
+        <br>
+        The character suffuses her fists with Essence, hardening
+        them into deadly weapons. Until her next action, her
+        hand-to-hand strikes do lethal damage, and she can safely parry
+        lethal damage blows with her hands. However, she is no
+        faster than normal and so, generally, cannot parry incoming
+        arrows or magical attacks without a well-described stunt.
+        "
+
+    fist_of_iron_technique --> ox_stunning_blow[Ox-Stunning Blow]
+    click ox_stunning_blow callback "
+        Ox-Stunning Blow<br>
+        <br>
+        Cost: 1 mote per die<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Brawl: 4<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Fists of Iron Technique<br>
+        <br>
+        The character concentrates her anima around her fist
+        and smashes it into her enemy, stunning and disorienting
+        him. The character makes a normal attack with her Dexterity
+        + Brawl. If successful, the attack does no normal
+        damage but, instead, does a base of one point of stunning
+        damage for every mote spent on the Charm. This stunning
+        damage is soaked as bashing damage, but can only be
+        soaked with the target's Stamina. Extra successes on the
+        attack add to damage as usual. However, rather than doing
+        health levels of damage, each success on the damage roll
+        imposes a -1 penalty to the target's dice pools for a number
+        of turns equal to (7 - the target's Stamina).<br>
+        The Exalted using this Charm cannot spend more
+        motes of Essence to power this Charm than twice his
+        Strength, and the Storyteller may rule that certain types of
+        opponents (mechanical constructs, shambling corpses or
+        giant man-eating trees, for example) are too sturdy or
+        insensible to be stunned by the character's mighty blows.
+        "
+
+    fist_of_iron_technique --> dragon_coil_technique[Dragon Coil Technique]
+    click dragon_coil_technique callback "
+        Dragon Coil Technique<br>
+        <br>
+        Cost: 3 motes per turn<br>
+        Duration: Varies<br>
+        Type: Simple<br>
+        Minimum Brawl: 4<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Fists of Iron Technique<br>
+        <br>
+        The character may wrap his opponents in his mighty
+        arms and crush the very life from them. The character makes
+        a clinch attack as normal, but the attack does the character's
+        Strength + Essence + 2 in lethal damage, while the subject of
+        the clinch does only the normal Strength + 2 bashing. If the
+        target attempts to escape the clinch, the character performing
+        the Dragon Coil Technique may add his Essence in automatic
+        successes to the reflexive roll to resist the escape attempt.<br>
+        If the target also has Dragon Coil Technique, she may
+        choose to activate it as her action on subsequent turns and
+        do her Strength + Essence + 2 in lethal damage as well.
+        Maintaining this Charm over multiple turns prevents the
+        character from using simple and supplemental Charms but
+        does not prevent the use of reflexive defensive Charms.
+        This Charm is not compatible with Hammer on Iron
+        Technique or other Charms of the extra action type and
+        cannot be placed in Combos with them.
+        "
+
+    ferocious_jab --> thunderclap_rush_attack[Thunderclap Rush Attack]
+    click thunderclap_rush_attack callback "
+        Thunderclap Rush Attack<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Brawl: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Ferocious Jab<br>
+        <br>
+        The character pours Essence into quickening her
+        motions and rushes aggressively toward her enemy. She
+        automatically wins initiative over a single opponent.<br>
+        Characters cannot split their dice pools on the turn they
+        use Thunderclap Rush Attack. Two characters using
+        Thunderclap Rush Attack in competition roll for initiative normally.
+        "
+
+    thunderclap_rush_attack --> hammer_on_iron_technique[Hammer on Iron Technique]
+    click hammer_on_iron_technique callback "
+        Hammer on Iron Technique<br>
+        <br>
+        Cost: 4 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Brawl: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Thunderclap Rush Attack<br>
+        <br>
+        The character suffuses his body with Essence, turning
+        him into a virtual killing machine, with arms like pounding
+        triphammers. He gains a number of additional attacks
+        equal to his Essence but must make all his attacks against
+        the same target. Hammer on Iron Technique cannot be
+        Comboed with defensive Charms that allow the character
+        to dodge or otherwise avoid attacks, but may be combined
+        with those that allow her to soak or ignore damage.
+        "
+
+    sledgehammer_fist_punch[Sledgehammer Fist Punch]
+    click sledgehammer_fist_punch callback "
+        Sledgehammer Fist Punch<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Brawl: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character can suffuse his body with Essence,
+        concentrating his anima until it is a crackling nimbus
+        around him, and become capable of great destruction. This
+        Charm must be used to attack inanimate objects and
+        doubles the amount of damage the character does after
+        extra successes are added but before the object's soak is
+        applied. This increase in Strength does not add directly to
+        combat damage, though it may assist the character in
+        causing indirect damage (for example, by causing a tower
+        to collapse on top of his opponent).
+        "
+
+    sledgehammer_fist_punch --> crashing_wave_throw[Crashing Wave Throw]
+    click crashing_wave_throw callback "
+        Crashing Wave Throw<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Brawl: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Sledgehammer Fist Punch<br>
+        <br>
+        The character tightly focuses his anima, making him
+        able to apply his Strength more effectively. In addition to
+        doing normal damage, the character also throws his opponent
+        on a successful attack. The target is hurled a number
+        of yards equal to the character's Strength + his extra
+        successes on the attack roll. This attack cannot be blocked,
+        only dodged. A target who strikes a solid object takes dice
+        of damage equal to the number of yards she would have
+        continued flying had the object not been in the way. This
+        damage is typically bashing but can be lethal if (for
+        example) the object is covered in sharp steel spikes.
+        Obviously, the target can also suffer serious injury if she is
+        tossed over a cliff or off a ship at sea.
+        "
+
+    sledgehammer_fist_punch --> heaven_thunder_hammer[Heaven Thunder Hammer]
+    click heaven_thunder_hammer callback "
+        Heaven Thunder Hammer<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Brawl: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Sledgehammer Fist Punch<br>
+        <br>
+        The character fully concentrates his anima, gathering
+        dense Essence around his fists. Not only do the character's
+        unarmed attacks do normal damage, they also hurl his
+        opponents great distances. For each health level of damage
+        he inflicts before soak, the target is hurled backward a yard,
+        as per the effects of the Crashing Wave Throw Charm.
+        "
+
+    crashing_wave_throw --> shockwave_technique[Shockwave Technique]
+    click shockwave_technique callback "
+        Shockwave Technique<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Brawl: 4<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Crashing Wave Throw<br>
+        <br>
+        The character burns with Essence, increasing her
+        strength and agility to superhuman levels. She seizes one
+        opponent and picks him up bodily, using him to strike
+        another foe. The character makes one attack roll against the
+        primary target. The attack cannot be blocked, only dodged.
+        If successful, this attack does no damage, but the attacker
+        may immediately make a reflexive Brawl attack at her full
+        dice pool against another target within hand-to-hand range.<br>
+        If the second attack is successful, both the targets take
+        bashing damage equal to the character's Strength + the
+        extra successes on the Exalted's reflexive attack. The second
+        target may parry or dodge to reduce damage or avoid the
+        attack, but if the attack is parried, the character being used
+        as a club takes bashing damage equal to the Strength of the
+        Exalted swinging him around + the number of successes the
+        parrying character rolled to block the attacks.<br>
+        If the Exalted hits with her second attack, both targets are
+        left in a heap on the ground and must spend an action to return
+        to their feet. If the second attack misses, the character being
+        used as a club is hurled a number of yards equal to the Exalted's
+        Strength, in a direction of the Exalted's choice, as if he had been
+        successfully attacked with the Crashing Wave Throw Charm.
+        "

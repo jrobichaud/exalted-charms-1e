@@ -1,0 +1,203 @@
+flowchart TD
+
+    striking_cobra_technique[Striking Cobra Technique]
+    click striking_cobra_technique callback "
+        Striking Cobra Technique<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character charges her form with Essence to move
+        with the speed and deftness of the snake she seeks to
+        emulate. During the turn when this Charm is activated,
+        the character adds her Martial Arts score to her initiative
+        total. This Charm may be used only once per turn.
+        "
+
+    striking_cobra_technique --> serpentine_evasion[Serpentine Evasion]
+    click serpentine_evasion callback "
+        Serpentine Evasion<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Striking Cobra Technique<br>
+        <br>
+        The character's infuses her anima with Essence, and
+        it guides her body to flow with serpentine grace. By
+        invoking this Charm, she may add a number of dice equal
+        to her Martial Arts score to a single dodge attempt.
+        "
+
+    serpentine_evasion --> snake_form[Snake Form]
+    click snake_form callback "
+        Snake Form<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Serpentine Evasion<br>
+        <br>
+        The Exalted adopts the attitude and stance of a wary
+        snake - head back, ready to strike or retreat. For the rest
+        of the scene, he adds his Martial Arts score to his initiative
+        totals and his bashing soak. Also, his sinuous, hypnotic
+        movements slow and distract enemies. Enemies attacking
+        him subtract a number of dice from their pool equal to the
+        Exalted's Essence. This latter effect only works if the target
+        can see the characters movements — a blind opponent
+        would be unfazed by this aspect of Snake Form. This
+        Charm is incompatible with the use of armor.<br>
+        Characters cannot use more than one Martial Arts
+        Form-type Charm at a time. Snake Form is the only Form-type
+        Charm in the Exalted book, but more Martial Arts
+        styles will be introduced in later supplements.
+        "
+
+    snake_form --> essence_fangs_and_scales_technique[Essence Fangs and<br>Scales Technique]
+    click essence_fangs_and_scales_technique callback "
+        Essence Fangs and Scales Technique<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Snake Form<br>
+        <br>
+        Thought training and the use of Essence, the character
+        learns to harden her fingers into talons, like the fangs of a
+        striking snake. Likewise, she can toughen her skin until it is
+        as strong and supple as snake's skin. For the rest of the scene,
+        the character's Martial Arts attacks do lethal damage, and
+        she soaks lethal damage with her bashing soak total. This
+        Charm is incompatible with the use of armor or weapons.
+        "
+
+    essence_fangs_and_scales_technique --> armor_penetrating_fang_strike[Armor-Penetrating<br>Fang Strike]
+    click armor_penetrating_fang_strike callback "
+        Armor-Penetrating Fang Strike<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Essence Fangs and Scales Technique<br>
+        <br>
+        The character can harden her fingers to the degree
+        that they can punch through nearly anything and cause
+        trauma merely by the intensity of their Essence. The
+        character's attack ignores the soak of the target's armor
+        and can be soaked only by the target's Stamina.
+        "
+
+    snake_form --> snake_strikes_the_heel[Snake Strikes the Heel]
+    click snake_strikes_the_heel callback "
+        Snake Strikes the Heel<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Snake Form<br>
+        <br>
+        Like the snake, the Exalted defends herself by attacking.
+        Whenever she is successfully attacked, the character
+        may immediately (before damage is determined) make a
+        Martial Arts counterattack with a dice pool equal to her
+        Martial Arts Ability plus the attacker's extra successes on
+        his attack. The damage from her opponent's attack and her
+        own counterstrike is applied simultaneously. Snake Strikes
+        the Heel cannot be used to retaliate against Solar Counter-
+        attack or any other counterattack Charm.
+        "
+
+    snake_strikes_the_heel --> crippling_pressure_point_strike[Crippling Pressure-Point<br> Strike]
+    click crippling_pressure_point_strike callback "
+        Crippling Pressure-Point Strike<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Snake Strikes the Heel<br>
+        <br>
+        The character makes a Martial Arts attack as normal,
+        including the roll for damage. However, the attack
+        does no actual damage. Rather, for every health level
+        the character would have inflicted, her target is at a -1
+        penalty to all rolls for a number of turns equal to the
+        Martial Arts of the Exalted who used the Crippling
+        Pressure-Point Strike.
+        "
+
+    snake_form --> uncoiling_serpent_prana[Uncoiling Serpent Prana]
+    click uncoiling_serpent_prana callback "
+        Uncoiling Serpent Prana<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Snake Form<br>
+        <br>
+        The character infuses his anima with Essence and
+        lashes out, his anima flashing forward like a striking snake.
+        The Exalted may invoke this Charm and make a Martial
+        Arts attack a number of yards away equal to his Essence.
+        The character's anima actually strikes the target, so there
+        must be a clear path to the target, and the character must
+        be able to perceive the target well enough to attack.
+        "
+
+    uncoiling_serpent_prana --> striking_serpent_speed[Striking Serpent Speed]
+    click striking_serpent_speed callback "
+        Striking Serpent Speed<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Uncoiling Serpent Prana<br>
+        <br>
+        The character internalizes the reflexes and raw speed
+        of a coiled snake. The player rolls the Exalted's Martial
+        Arts Ability, and for every success, she may take an extra
+        action during the turn. This extra action need not be an
+        attack. A character may not split her dice pool during the
+        round she uses Striking Serpent Speed.
+        "
+    essence_venom_strike[Essence Venom Strike]
+    armor_penetrating_fang_strike --> essence_venom_strike
+    crippling_pressure_point_strike --> essence_venom_strike
+    striking_serpent_speed --> essence_venom_strike
+    click essence_venom_strike callback "
+        Essence Venom Strike<br>
+        <br>
+        Cost:10 motes, 1 Willpower, 1 health level<br>
+        Duration: Instant<br>
+        Type:Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Armor-Penetrating Fang Strike, Crippling Pressure-Point Strike, Striking Serpent Speed<br>
+        <br>
+        The character concentrates her Essence on the tips of
+        two fingers, making her attack as quick as lightning and as
+        deadly as the strike of a dozen serpents. The character
+        invokes the Charm and makes a Martial Arts attack as
+        normal, but adds her Essence score to the damage of the
+        attack. The attack does aggravated damage.
+        "

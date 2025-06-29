@@ -1,0 +1,15 @@
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: ./compose/Dockerfile
+      args:
+        PYTHON_VERSION: 3.13
+    image: exalted_1e_docs
+    volumes:
+      - .:/app:cached
+    command: /start
+    environment:
+      - SPHINX_COMMAND=html
+    ports:
+      - "8080:8080"
