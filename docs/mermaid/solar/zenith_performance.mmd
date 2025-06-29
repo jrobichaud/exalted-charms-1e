@@ -1,0 +1,256 @@
+---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    respect_commanding_attitude[Respect Commanding<br>Attitude]
+    click respect_commanding_attitude callback "
+        Respect Commanding Attitude<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Performance: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows a character to command the respect
+        of an audience. While they may not be swayed by his
+        arguments or impressed by his performance, they will pay him
+        heed and refrain from heckling him or leaving the venue in
+        significant numbers prior to the end of the performance.
+        "
+
+    respect_commanding_attitude --> unruly_mob_dispersing_rebuke[Unruly Mob-Dispersing<br>Rebuke]
+    click unruly_mob_dispersing_rebuke callback "
+        Unruly Mob-Dispersing Rebuke<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Performance: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Respect Commanding Attitude<br>
+        <br>
+        Violent mobs can endanger even the Exalted. Their numbers
+        can drag down even the mightiest of the Chosen, but those who
+        compose the mob are probably not normally so violent or dangerous.
+        Chances are, the riot has begun over some legitimate grievance
+        — laying about with lethal force is likely to cause serious repercussions.
+        Through the use of this Charm, a character can deliver astern
+        rebuke and shatter the inertia holding an angry mob together.
+        Without significant further impetus, the crowd will disperse. This
+        Charm does nothing to an organized or disciplined force.
+        "
+
+    unruly_mob_dispersing_rebuke --> rout_stemming_gesture[Rout-Stemming Gesture]
+    click rout_stemming_gesture callback "
+        Rout-Stemming Gesture<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: 3 turns<br>
+        Type: Simple<br>
+        Minimum Performance: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Unruly Mob Dispersing Rebuke<br>
+        <br>
+        If an angry mob is a danger to its victims, then a stampeding
+        crowd or a routing unit is a danger to everyone in the
+        vicinity. The crush of a panicked crowd will clog a door and
+        leave no room for escape, where an orderly exit would have
+        saved most or even all of the persons involved. A routing unit
+        will shatter, leaving its members vulnerable to attacks that
+        could never have been pressed home against the formation.<br>
+        When using this Charm, the character burns with an
+        incandescent blaze of Essence, radiating power and reassurance.
+        All those within a radius of (10 x the Exalted's Essence
+        rating) yards are immediately steadied. Those who have failed
+        Valor checks can roll again, and characters who must make
+        new Valor checks are assumed to succeed. Rout-Stemming
+        Gesture can even overcome supernatural panic, such as that
+        caused by the Terrifying Apparition of Glory Charm or by the
+        anima power of a Dawn Caste Solar Exalted.
+        "
+
+    unruly_mob_dispersing_rebuke --> fury_inciting_presence[Fury Inciting Presence]
+    click fury_inciting_presence callback "
+        Fury Inciting Presence<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Performance: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Unruly Mob Dispersing Rebuke<br>
+        <br>
+        The persuasive power of an Exalted channeling Essence
+        into Social Charms can raise mobs as well as disperse them.
+        With 10 to 20 minutes of haranguing a crowd on nearly any
+        subject, an Exalted can whip the listeners into an angry mob.
+        A mob raised in this fashion lasts a number of hours equal to
+        the character's Essence rating but (like a natural mob) will
+        disperse if subjected to organized opposition that cannot be
+        immediately overwhelmed or if the mob is left idle without
+        things to smash or burn for more than 10 or 20 minutes.
+        "
+
+    fury_inciting_presence --> heroism_encouraging_presence[Heroism-Encouraging<br>Presence]
+    click heroism_encouraging_presence callback "
+        Heroism-Encouraging Presence<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Performance: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Fury Inciting Presence<br>
+        <br>
+        The Solar Exalted can inspire far more than simple
+        mob violence. An Exalted in battle can radiate the
+        confidence and the surety of the Unconquered Sun,
+        lifting the souls of those around her and inspiring them
+        to feats of great heroism. All friendly troops within a
+        radius equal to the character's Essence x 100 yards are
+        affected. While subject to this Charm, assume that
+        individual soldiers all operate with a bonus die to all
+        combat-related dice pools from improved morale and do
+        not fail Valor rolls. The effect on the overall outcome of
+        the battle is up to the Storyteller to decide, but it should
+        have considerable influence.
+        "
+
+    tiger_warrior_training_technique[Tiger-Warrior Training<br>Technique]
+    rout_stemming_gesture --> tiger_warrior_training_technique
+    heroism_encouraging_presence --> tiger_warrior_training_technique
+    click tiger_warrior_training_technique callback "
+        Tiger-Warrior Training Technique<br>
+        <br>
+        Cost: 10 motes, 2 Willpower<br>
+        Duration: One week<br>
+        Type: Simple<br>
+        Minimum Performance: 5<br>
+        Minimum Essence: 3<br>
+        <br>
+        Prerequisite Charms: Heroism-Encouraging Presence, Rout-Stemming Gesture
+        Actual combat is only the end of a long process that
+        begins with the recruitment and training of the soldiers.
+        Exalted who know the Tiger- Warrior Training Technique
+        Charm can take even the worst gutter-sweepings or bandits
+        and train them into a deadly, disciplined fighting
+        force. Characters may supervise the training of up to (their
+        Essence rating x 100) soldiers in a given week. Soldiers
+        trained for one or more months by Exalted using this
+        Charm should be treated as elite troops — they are well-disciplined,
+        have ratings of at least 3 in the relevant
+        combat Abilities, at least one specialty, Valor ratings of at
+        least 3 and at least one Physical Attribute at 3. Already-trained
+        troops or troops trained for more than one month
+        can excel even these ratings.
+        "
+
+    masterful_performance_exercise[Masterful Performance<br>Exercise]
+    click masterful_performance_exercise callback "
+        Masterful Performance Exercise<br>
+        <br>
+        Cost: 2 motes per success<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Performance: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character channels Essence through his voice or
+        his instrument, enhancing his delivery and making the
+        final result flow far more effectively than it would natu-
+        rally. To use this Charm, the player first makes a regular
+        Charisma + Performance roll for the character. Then, the
+        player may &quot;buy&quot; additional successes, up to (the character's
+        permanent Essence rating + the number of successes rolled
+        on the Charisma + Performance roll). Each success bought
+        in this fashion costs 2 motes of Essence.
+        "
+
+    phantom_conjuring_performance[Phantom Conjuring<br>Performance]
+    masterful_performance_exercise --> phantom_conjuring_performance
+    respect_commanding_attitude --> phantom_conjuring_performance
+    click phantom_conjuring_performance callback "
+        Phantom Conjuring Performance<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Supplemental<br>
+        Minimum Performance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Masterful Performance Exercise, Respect-Commanding Attitude<br>
+        <br>
+        A character who possesses this Charm can give a
+        performance so compelling that it plays out in the form
+        of phantom images that swirl through the air around
+        her. If it is a narrative performance, then the images
+        illustrate the narrative, while if it is an abstract performance,
+        then the images simply underscore and highlight
+        the performance. Typically, this adds a number of dice
+        equal to the character's Essence rating to the player's
+        next Charisma + Performance roll. Note that the images
+        actually appear, fading in and out of existence
+        around the character. This Charm is compatible with
+        Masterful Performance Exercise.
+        "
+
+    masterful_performance_exercise --> heart_compelling_methodology[Hearth-Compelling<br>Methodology]
+    click heart_compelling_methodology callback "
+        Hearth-Compelling Methodology<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Supplemental<br>
+        Minimum Performance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Masterful Performance Exercise<br>
+        <br>
+        The character can channel Essence through her performance
+        to evoke a certain emotion in those who witness it.
+        The player chooses the emotion to be evoked, which may be
+        anger, fear, pride, happiness, jealousy or whatever else the
+        player wishes. He then makes a Manipulation + Performance
+        roll for the character. Targets with a Willpower
+        lower than the number of successes the player achieves on
+        this roll are overcome with the emotion in question and act
+        accordingly. Those with Willpower below twice the number
+        of successes rolled may make a Willpower roll to resist
+        the emotion. Those whose Willpower is greater than twice
+        the number of successes are unaffected.
+        "
+
+    memory_reweaving_discipline[Memory-Reweaving<br>Discipline]
+    phantom_conjuring_performance --> memory_reweaving_discipline
+    heart_compelling_methodology --> memory_reweaving_discipline
+    click memory_reweaving_discipline callback "
+        Memory-Reweaving Discipline<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Performance: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Heart-Compelling Method, Phantom-Conjuring Performance<br>
+        <br>
+        This Charm allows a character to weave a narrative
+        so plausible and so compelling that those who hear it
+        forget the truth of a matter and come to believe the
+        narrative. The player makes a Manipulation + Performance
+        roll. The number of successes determines how
+        much evidence to the contrary the target must be con-
+        fronted with before he is able to shake off the lingering
+        effects of the Charm. For each success, the target must be
+        presented with one piece of evidence that contradicts the
+        narrative. A Solar Exalted in a situation where there is
+        very little clear evidence can effectively rewrite history
+        with a little careful planning.<br>
+        Note that this Charm need not be used as part of a
+        performance, per se. Characters who know it can use also
+        it during conversation, making them quite dangerous in
+        the world of courtly intrigue.
+        "

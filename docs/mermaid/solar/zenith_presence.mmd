@@ -1,0 +1,138 @@
+---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    harmonious_presence_meditation[Harmonious Presence<br>Meditation]
+    click harmonious_presence_meditation callback "
+        Harmonious Presence Meditation<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One hour<br>
+        Type: Simple<br>
+        Minimum Presence: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        An Exalted using this Charm increases her personal magnetism
+        greatly, making her words seem wise and her arguments
+        persuasive. While this Charm is in effect, add a number of dice
+        equal to her permanent Essence to any Socialize, Presence or
+        Bureaucracy rolls that involve one-on-one interactions.
+        "
+
+    harmonious_presence_meditation --> listener_swaying_argument[Listener-Swaying<br>Argument]
+    click listener_swaying_argument callback "
+        Listener-Swaying Argument<br>
+        <br>
+        Cost: 2 motes per die, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Presence: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Harmonious Presence Meditation<br>
+        <br>
+        The character can use Essence to make himself almost
+        irresistibly persuasive. For every two motes of Essence spent
+        on this Charm, add another die to any Socialize, Presence or
+        Bureaucracy roll involving one-on-one interaction. A character
+        cannot more than double his pool using this Charm.
+        "
+
+    listener_swaying_argument --> hypnotic_tongue_technique[Hypnotic Tongue Technique]
+    click hypnotic_tongue_technique callback "
+        Hypnotic Tongue Technique<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: Special<br>
+        Type: Simple<br>
+        Minimum Presence: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Listener-Swaying Argument<br>
+        <br>
+        Through this Charm, an Exalted can program a target to
+        undertake an action at a future time. The Exalted must touch
+        the target, and the player makes an opposed Willpower roll.
+        If the Exalted wins the Willpower roll, she may give the target
+        an unspoken command. This command can be as specific and
+        elaborate as the character wishes, and the target will not be
+        aware of having received it. The suggestion will stay in place
+        for a number of days equal to the Charisma of the Exalted
+        using the Charm, after which the target forgets it.<br>
+        The command can take no more time to execute than the
+        Exalted's Essence score in tums. The target can forget or remember
+        the act after executing it, at the choice of the Exalted when the
+        suggestion is implanted. Characters will not attack themselves or
+        others unless already strongly predisposed to do so. If the target wins
+        the Willpower roll, she is instantly aware of what the Exalted has
+        attempted to do and what the suggestion and conditions were.
+        "
+
+    harmonious_presence_meditation --> majestic_radiant_presence[Majestic Radiant Presence]
+    click majestic_ratiant_presence callback "
+        Majestic Radiant Presence<br>
+        <br>
+        Cost: 8 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Presence: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Harmonious Presence Meditation<br>
+        <br>
+        A character with this Charm active burns with the
+        incandescent radiance of the Unconquered Sun. The
+        players of characters attempting to attack the Exalted or to
+        stand against him in argument must make a successful
+        Willpower roll to have their characters do so. This Charm
+        is not compatible with the Dawn Caste anima power.
+        "
+
+    majestic_radiant_presence --> underlying_promoting_touch[Underlying Promoting<br>Touch]
+    click underlying_promo_touch callback "
+        Underlying Promoting Touch<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Presence: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Majestic Radiant Presence
+        <br>
+        This Charm causes the target (typically a mortal servant
+        of the Exalted) to be imbued with the majesty of the Exalted's
+        office. While this Charm is in effect, individuals will treat him
+        with the respect and deference they would normally reserve for
+        the Exalted who used the Charm (or for any powerful magical
+        being, if they are not acquainted with the target's benefactor).
+        Players who wish their characters to do otherwise must succeed
+        at a Willpower roll with a difficulty of 1 + the Essence score of
+        the Exalted who deputized the character.
+        "
+
+    majestic_radiant_presence --> terrifying_apparition_of_glory[Terrifying Apparition<br>of Glory]
+    click terrifying_apparition_glory callback "
+        Terrifying Apparition of Glory<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Presence: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Majestic Radiant Presence<br>
+        <br>
+        If the Majestic Radiant Presence Charm makes the character
+        seem terrible and powerful, then Terrifying Apparition of
+        Glory makes him unspeakably so. While Terrifying Apparition
+        of Glory is in effect, a successful Valor roll is required to attack
+        the character. Most animals, even trained attack animals, will
+        simply flee. Players of characters who are not actively hostile to
+        the Exalted using Terrifying Apparition of Glory must make a
+        successful Conviction roll not to obey immediately any non-
+        suicidal orders the character gives. This compulsion lasts for at
+        least a scene after the target leaves the Exalted's presence.
+        Those who are able to attack the Exalted do so at a die penalty
+        equal to the character's Essence score. This Charm is not
+        compatible with the Dawn Caste's anima ability.
+        "

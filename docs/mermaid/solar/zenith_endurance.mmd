@@ -1,0 +1,201 @@
+---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    ox_body_technique[Ox-Body Technique]
+    click ox_body_technique callback "
+        Ox-Body Technique<br>
+        <br>
+        Cost: None<br>
+        Duration: Permanent<br>
+        Type: Special<br>
+        Minimum Endurance: Varies<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The bodies of the Exalted are far more durable than
+        those of mere mortals. To help simulate this, an Exalted may
+        buy extra health levels as if they were a Charm. A player may
+        purchase this Charm up to once per dot of the Endurance
+        Ability his character possesses. Each Ox-Body Technique
+        Charm purchased can provide one of the following, at the
+        player's option, determined at the time of purchase:<br>
+        • One -0 health level<br>
+        • Two -1 health levels<br>
+        • One -1 health level and two -2 health levels<br>
+        "
+
+    armored_scouts_invigoration[Armored Scout's<br>Invigoration]
+    click armored_scouts_invigoration callback "
+        Armored Scout's Invigoration<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Endurance: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The Exalted causes her anima to encompass her gear as
+        well as her person, and she adapts perfectly to wearing her
+        armor, even in conditions of brutal heat or freezing cold. This
+        Charm reduces the fatigue value and mobility penalty of the
+        character's armor by one each. A fatigue value of zero means
+        that the character need never roll to see if he becomes fatigued
+        from wearing the armor. This Charm cannot reduce a
+        character's mobility penalty or fatigue value below zero.
+        "
+
+    armored_scouts_invigoration --> front_line_warriors_stamina[Front-Line Warrior's<br>Stamina]
+    click front_line_warriors_stamina callback "
+        Front-Line Warrior's Stamina<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Endurance: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Armored Scout's Invigoration<br>
+        <br>
+        This Charm is a more powerful version of the Armored
+        Scout's Invigoration. This Charm reduces the fatigue value and
+        mobility penalty of the character's armor by two each. A fatigue
+        value of zero means that the character need never roll to see if he
+        becomes fatigued from wearing the armor. This Charm cannot
+        reduce a character's mobility penalty or fatigue value below zero.
+        "
+
+    front_line_warriors_stamina --> tiger_warriors_endurance[Tiger-Warrior's<br>Endurance]
+    click tiger_warriors_endurance callback "
+        Tiger Warrior's Endurance<br>
+        <br>
+        Cost: 15 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Endurance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Front-Line Warrior's Stamina<br>
+        <br>
+        The most powerful of the armor Charms, Tiger-Warrior's
+        Endurance reduces the fatigue value and mobility penalty of
+        the character's armor by three each. A fatigue value of zero
+        means that the character need never roll to see if he becomes
+        fatigued from wearing the armor. This Charm cannot reduce
+        a character's mobility penalty or fatigue value below zero.
+        "
+
+    essence_gathering_temper[Essence-Gathering Temper]
+    click essence_gathering_temper callback "
+        Essence-Gathering Temper<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Endurance: 1<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        Many Exalted learn to tap the wellsprings of Essence
+        that are pain and rage. A character who knows this Charm
+        may activate it whenever he is hit in combat. For every point
+        of damage he takes before soak is applied, his player may roll
+        one die. Each success on this roll causes the character to gain
+        a mote of Essence. A character cannot gain more Essence
+        from any given attack than his Stamina score.
+        "
+
+    essence_gathering_temper --> willpower_enhancing_spirit[Willpower-Enhancing Spirit]
+    click willpower_enhancing_spirit callback "
+        Willpower-Enhancing Spirit<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Endurance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Essence-Gathering Temper<br>
+        <br>
+        With this Charm, the character does not simply tap her
+        inner rage and pain to refill her Essence pool, but internalizes it
+        to gain true inner strength. The Exalted's player may roll one die
+        for each health level of damage the character takes when hit in
+        combat (that is, damage successes rolled after the character's soak
+        is applied). Each success on this roll causes the Exalted to regain
+        a point of temporary Willpower. A character using this Charm
+        may not raise her temporary Willpower over its permanent value.
+        "
+
+    willpower_enhancing_spirit --> battle_fury_focus[Battle Fury Focus]
+    click battle_fury_focus callback "
+        Battle Fury Focus<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Endurance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Willpower-Enhancing Spirit<br>
+        <br>
+        Through the use of this Charm, the character taps his
+        inner rage, not to replenish his stores of Essence, but in
+        conjunction with them. He channels his anger and infuses it
+        with primal magic, making him capable of superhuman feats.<br>
+        For the duration of the scene, the character has + 1 die to
+        all pools related to combat and subtracts -1 from all wound
+        penalties. However, the character must either be engaged in
+        combat or attempting to become so engaged. He can attack
+        at range and differentiate friend from foe, but his player must
+        make a Willpower roll for him to utter sentences of more than
+        a few words, move away from the enemy or perform a complex
+        action, such as retrieving a small object from a pack. Failure
+        means the character simply chooses to ignore whatever the
+        action is in favor of attacking or readying himself to attack.
+        Success means the character can do whatever it was he
+        wished, but the Battle Fury Focus immediately ends, with the
+        dice pool bonus dissipating and wound penalties returning.
+        The bonus vanishes, and the penalties return starting with
+        the action that broke the Battle Fury Focus.
+        "
+
+    battle_fury_focus --> bloodthirsty_sword_dancer_spirit[Bloodthirsty Sword-Dancer<br>Spirit]
+    click bloodthirsty_sword_dancer_spirit callback "
+        Bloodthirsty Sword-Dancer Spirit<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Endurance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Battle Fury Focus<br>
+        <br>
+        The battle-trance engendered by Bloodthirsty Sword-Dancer
+        Spirit is similar to that of Battle Fury Focus, but greater
+        in all ways. While in effect, the character is at +3 to all dice
+        pools and suffers no wound penalties. However, her awareness
+        of the world around her narrows to little more than a
+        narrow red tunnel with things that must die at the far end. The
+        character cannot use ranged weapons, cannot speak coherently,
+        cannot retreat and cannot choose to fight another foe
+        until the one she is attacking is definitively dead. She may
+        only attack or move toward the nearest foe via the most direct
+        route. A character under the effect of Bloodthirsty Sword-Dancer
+        Spirit may opt to die where she stands (for example,
+        when holding a gate or bridge against tremendous odds) and,
+        in this case, need not move toward the next enemy.<br>
+        The character may have difficulty telling friend from
+        foe if they are dressed similarly but will generally not attack
+        close friends, relatives or lovers unless they attempt to get
+        between her and her target or otherwise restrain her.<br>
+        Bloodthirsty Sword-Dancer Spirit lasts until the character
+        can no longer locate an enemy to kill.<br>
+        If the character wishes to leave the state earlier, her
+        player may make a Willpower roll to snap the character out
+        of it. The Willpower roll is normally difficulty 3, but it is made
+        at normal difficulty if there is a loved one or friend attempting
+        to restrain the character. Unfortunately, in the event that the
+        roll fails when a loved one is attempting to calm the character
+        down, she is almost certain to lash out at the unrecognizable
+        blur obstructing her from slaying her target.
+        "

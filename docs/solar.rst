@@ -1,8 +1,8 @@
 Solar Charms
 ============
 
-Dawn
-----
+Dawn Caste
+----------
 
 Archery
 ^^^^^^^
@@ -23,3 +23,27 @@ Melee
 ^^^^^
 
 .. mermaid:: ./mermaid/solar/dawn_melee.mmd
+
+Thrown
+^^^^^^
+
+.. mermaid:: ./mermaid/solar/dawn_thrown.mmd
+
+
+Zenith Caste
+------------
+
+Endurance
+^^^^^^^^^
+
+.. mermaid:: ./mermaid/solar/zenith_endurance.mmd
+
+Performance
+^^^^^^^^^^^
+
+.. mermaid:: ./mermaid/solar/zenith_performance.mmd
+
+Presence
+^^^^^^^^
+
+.. mermaid:: ./mermaid/solar/zenith_presence.mmd

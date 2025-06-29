@@ -1,0 +1,213 @@
+---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    precision_of_the_striking_raptor[Precision of the<br>Striking Raptor]
+    click precision_of_the_striking_raptor callback "
+        Precision of the Striking Raptor<br>
+        <br>
+        Cost: 1 mote per die<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Thrown: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character infuses her thrown weapon, be it a
+        hatchet, knife or shuriken, with Essence, coming to a
+        perfect understanding of the weapon's balance and behavior
+        at the moment of release. For each mote of Essence
+        spent, the player may add 1 die to a Thrown attack roll but
+        cannot more than double her character's dice pool. The
+        player must declare how much Essence she is going to use
+        in this Charm prior to making the attack roll.
+        "
+
+    precision_of_the_striking_raptor --> joint_wounding_attack[Joint-Wounding Attack]
+    click joint_wounding_attack callback "
+        Joint-Wounding Attack<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Thrown: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Precision of the Striking Raptor<br>
+        <br>
+        The character attacks, not only to do damage, but to
+        stun or cripple his opponent. The character attacks and
+        damage is rolled as normal. However, for every health level
+        of damage the attack inflicts, the target suffers a -1 penalty
+        to all dice pools related to physical activity until the end
+        of the scene. It is up to the player and Storyteller to
+        describe how this is inflicted - it could be an injured
+        hand, slashed tendons or a stunning blow to the head.
+        While a very small number of creatures (such as animated
+        statues of solid iron or marble) might be unaffected by this
+        attack, it works on automata, the undead and so forth.
+        Storytellers will have to work with players to help describe
+        the attacks' adverse effects on more exotic opponents.
+        "
+
+    joint_wounding_attack --> falling_icicle_strike[Falling Icicle Strike]
+    click falling_icicle_strike callback "
+        Falling Icicle Strike<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Thrown: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Joint-Wounding Attack<br>
+        <br>
+        This deadly Charm is the friend of assassins everywhere.
+        The Exalted charges her weapon with Essence and strikes from
+        surprise. The defender applies soak, and the attacker's player
+        rolls for damage as normal, but doubles the number of successes
+        when determining damage. This Charm amplifies the natural
+        shock of a surprise attack and must be used from ambush — it
+        has no effect when used against an alerted opponent.
+        "
+
+    joint_wounding_attack --> observer_deceiving_attack[Observer-Deceiving Attack]
+    click observer_deceiving_attack callback "
+        Observer-Deceiving Attack<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Thrown: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Joint-Wounding Attack<br>
+        <br>
+        The art of thrown weapons is an art often practiced by
+        assassins and others who attack from ambush. Through the use
+        of this Charm, the character can mislead his target (or his
+        target's avengers) as to his location, buying him a chance to
+        escape or giving him a chance to make further attacks. The
+        Exalted makes an attack as normal, gaining no special bonuses
+        to attack or damage. However, attacks made using this Charm
+        appear to have been made from a totally different direction. For
+        example, a character attacking her target from behind might
+        inflict a wound to the chest or side. Obviously, the sight of the
+        character actually hurling the knife will ruin the effect, but the
+        difficulty of the Awareness roll to spot the attacker is raised by
+        one (or more, at the Storyteller's discretion).
+        "
+
+    observer_deceiving_attack --> mist_on_water_attack[Mist on Water Attack]
+    click mist_on_water_attack callback "
+        Mist on Water Attack<br>
+        <br>
+        Cost: 3 motes per turn<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Thrown: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Observer-Deceiving Attack<br>
+        <br>
+        The character strikes his unsuspecting opponent with a
+        weapon imbued with Essence, stifling her outcry and muting
+        the sensory impressions of the attack. The character may
+        impose silence on the attack for up to a number of turns equal
+        to his Essence score, but he must pay 3 motes per turn of silence.<br>
+        If the target is killed outright by the attack, her death willnot
+        be noticed for a number of tums equal to the length of the silence.
+        She will stand upright even though already dead, circumstances
+        will conspire to make her companions look away and assume she
+        us still alive, and so forth. If the target is still alive, she may react
+        to the attack normally, but she cannot speak or otherwise raise
+        an alarm for a number of turns equal to the silence's length.<br>
+        Obviously, someone seeing the target fighting is likely
+        to draw some obvious conclusions regardless of whether she
+        can speak or not. This Charm amplifies the natural shock of
+        a surprise attack and must be used from ambush — it has no
+        effect when used against an alerted opponent. It's left up to
+        the Storyteller's discretion as to what qualifies as &quot;alerted&quot;.
+        "
+
+
+    triple_distance_attack_technique[Triple-Distance Attack<br>Technique]
+    click triple_distance_attack_technique callback "
+        Triple-Distance Attack Technique<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Thrown: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character imbues her arm and weapon with
+        Essence, lightening the weapon at the moment of launch
+        and correcting for tiny errors in aim. The weapon's range
+        is tripled for the purposes of determining penalties based
+        on distance to the target.
+        "
+
+    triple_distance_attack_technique --> cascade_of_cutting_terror[Cascade of Cutting Terror]
+    click cascade_of_cutting_terror callback "
+        Cascade of Cutting Terror<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Thrown: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Triple-Distance Attack Technique<br>
+        <br>
+        The character hurls dozens or even hundreds of Essence
+        duplicates of his favored throwing weapon, saturating
+        an area with countless attacks. The character doubles his
+        Thrown pool for the purposes of the attack, which cannot
+        be dodged, only blocked. This attack effects only a single
+        individual. However, it can be used for utility purposes —
+        for example, to clear tree branches and undergrowth from
+        the façade of an overgrown stepped pyramid or to ruin the
+        rigging of a ship. The thrown weapons fade away a few
+        seconds after impact. The character need not have any
+        actual copies of the weapon he is conjuring.
+        "
+
+    cascade_of_cutting_terror --> shower_of_deadly_blades[Shower of Deadly Blades]
+    click shower_of_deadly_blades callback "
+        Shower of Deadly Blades<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Thrown: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Cascade of Cutting Terror<br>
+        <br>
+        The Exalted hurls a number of throwing weapons with
+        the same hand. The character makes one attack roll but
+        applies the result to every weapon. The weapons can be
+        thrown at one or several targets without penalty. The
+        character cannot hurl more weapons than his Essence score and
+        must have enough ammunition. If this Charm is Comboed
+        with supplemental Charms, the cost of the supplemental
+        Charms must be paid for every weapon the character hurls.
+        "
+
+    cascade_of_cutting_terror --> fiery_solar_chakram[Fiery Solar Chakram]
+    click fiery_solar_chakram callback "
+        Fiery Solar Chakram<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Thrown: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Cascade of Cutting Terror<br>
+        <br>
+        The character hurls a mote of burning light at her target.
+        This mote does a lethal damage of 6 + the number of extra
+        successes the character rolls on his attack and has a range of
+        100 yards. Against demons, ghosts or other creatures of the
+        night, the character may add a number of automatic successes
+        to her attack roll equal to her Essence score.
+        "
