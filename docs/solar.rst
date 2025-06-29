@@ -47,3 +47,8 @@ Presence
 ^^^^^^^^
 
 .. mermaid:: ./mermaid/solar/zenith_presence.mmd
+
+Resistance
+^^^^^^^^^^
+
+.. mermaid:: ./mermaid/solar/zenith_resistance.mmd

@@ -1,0 +1,282 @@
+---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    durability_of_oak_meditation[Durability of Oak<br>Meditation]
+    click durability_of_oak_meditation callback "
+        Durability of Oak Meditation<br>
+        <br>
+        Cost: 1 mote per die
+        Duration: One scene
+        Type: Simple
+        Minimum Resistance: 1
+        Minimum Essence: 1
+        Prerequisite Charms: None
+        The Exalted uses Essence to enhance his ability to withstand
+        attack. The player may roll up to his character's Stamina
+        + Resistance in dice, but must spend one mote of Essence per
+        die rolled. For every success on this roll, the character adds 1 to
+        his bashing soak for the remainder of the scene. This Charm
+        may be used again on subsequent rounds, but a character
+        cannot gain more dice of bashing soak via Durability of Oak
+        Meditation than his Stamina + Resistance.
+        "
+
+    durability_of_oak_meditation --> iron_skin_concentration[Iron Skin Concentration]
+    click iron_skin_concentration callback "
+        Iron Skin Concentration<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: Varies<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Durability of Oak Meditation<br>
+        <br>
+        The character's anima hardens, and his skin is made incredibly
+        difficult to cut or pierce. The player makes a Stamina +
+        Resistance roll. For a number of turns equal to the character's
+        Essence + the number of successes the player rolls on the Resistance
+        roll, the character soaks lethal damage with his bashing soak. This
+        Charm cannot be used by characters wearing armor.
+        "
+
+    durability_of_oak_meditation --> spirit_strengthens_the_skin[Spirit Strengthens the Skin]
+    click spirit_strengthens_the_skin callback "
+        Spirit Strengthens the Skin<br>
+        <br>
+        Cost: 3 motes per point<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Durability of Oak Meditation<br>
+        <br>
+        The Solar pours Essence into her skin and muscles,
+        hardening and toughening them far beyond those of any
+        mere mortal. The Exalted may add up to her score in the
+        Resistance Ability to her bashing soak, at a cost of 3
+        Essence motes per additional point of bashing soak. These
+        additional points of bashing soak are above and beyond
+        those provided by Durability of Oak Meditation and do
+        not count against that Charm's maximum soak bonus.<br>
+        The character can use Spirit Strengthens the Skin
+        more than once during a scene, increasing her soak repeatedly
+        as her assessment of the situation changes. However,
+        a character cannot at any given time gain more points of
+        bashing soak through Spirit Strengthens the Skin than her
+        score in the Resistance Ability.
+        "
+
+    adamant_skin_technique[Adamant Skin Technique]
+    iron_skin_concentration --> adamant_skin_technique
+    spirit_strengthens_the_skin --> adamant_skin_technique
+    click adamant_skin_technique callback "
+        Adamant Skin Technique<br>
+        <br>
+        Cost: 5 motes, 1 health level, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Iron Skin Concentration, Spirit Strengthens the Skin<br>
+        <br>
+        Through the use of this Charm, the Exalted hardens
+        his skin into impenetrability, sacrificing some of his life
+        force to gain the strength of unbreakable diamond. The
+        character using this Charm takes no damage whatsoever
+        from a single attack. This Charm does not protect the
+        character from the secondary effects of the attack - for
+        example, a character smashed down through a sheet of ice
+        and into a frozen lake by the blow of a giant beastman's
+        club would take no damage from the impact or from
+        passing through the ice, but she would have to contend
+        with the dangers of drowning and hypothermia.<br>
+        The Adamant Skin Technique can also be used to
+        withstand physical damage not associated with combat. It is as
+        effective at withstanding the impact of a fall as the blow of a
+        sword. However, Storytellers should keep in mind that the
+        defense offered by the Adamant Skin Technique is of a very
+        short duration — the character might use it to withstand the
+        impact of a falling idol or a plunge from the top of a tower, but
+        a character who hurled himself into a blazing firepit would only
+        be protected for a second or two. A character must invoke the
+        Adamant Skin Technique before his opponent's attack roll.
+        "
+
+    durability_of_oak_meditation --> unfailing_tortoise_technique[Unfailing Tortoise<br>Technique]
+    click unfailing_tortoise_technique callback "
+        Unfailing Tortoise Technique<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Durability of Oak Meditation<br>
+        <br>
+        This Charm strengthens the character's awareness of the
+        world around him and allows him to resist even unanticipated
+        attacks. If hit by an attack, even one he is not anticipating, the
+        character may spend 1 mote of Essence to add his Resistance
+        score to his bashing soak total for the purposes of soaking that
+        attack. Characters must invoke Unfailing Tortoise Technique
+        before soak is subtracted from the damage.
+        "
+
+    unfailing_tortoise_technique --> iron_kettle_body[Iron Kettle Body]
+    click iron_kettle_body callback "
+        Iron Kettle Body<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Unfailing Tortoise Technique<br>
+        <br>
+        As Unfailing Tortoise Technique, but the character's
+        Resistance is also added to her lethal soak as well.
+        "
+
+    whirlwind_armor_donning_prana[Whirlwind Armor-Donning<br>Prana]
+    click whirlwind_armor_donning_prana callback "
+        Whirlwind Armor-Donning Prana<br>
+        <br>
+        Cost: 2 motes per turn<br>
+        Duration: Special<br>
+        Type: Simple<br>
+        Minimum Resistance: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Through the use of this Charm, the character can
+        speed the process of donning his armor. The character can
+        don his armor in a number of turns equal to the armor's
+        mobility penalty. Each turn of effort costs 2 motes of
+        Essence. The character must have the armor readily available
+        and at hand to don it so quickly — this Charm does
+        not speed the process of getting the armor out of a trunk.
+        "
+
+    whirlwind_armor_donning_prana --> hauberk_summoning_gesture[Hauberk-Summoning<br>Gesture]
+    click hauberk_summoning_gesture callback "
+        Hauberk-Summoning Gesture<br>
+        <br>
+        Cost: 5 motes
+        Duration: Instant
+        Type: Simple
+        Minimum Resistance: 3
+        Minimum Essence: 3
+        Prerequisite Charms: Whirlwind Armor-Donning Prana
+
+        This Charm allows a character to call her armor to her. In
+        an eyeblink, it appears on her. She is instantly fully armored,
+        with all the straps and buckles adjusted properly. If the character
+        uses a shield, that appears on her person as well. The
+        character cannot call her armor from further away than 100
+        yards x her Essence rating. This Charm can't be used to steal
+        armor off an opponent or off a display dummy— the armor must
+        be the character's own. She must have worn it for at least several
+        hours and established her possession of it.
+        "
+
+    hauberk_summoning_gesture --> glorious_solar_plate[Glorious Solar Plate]
+    click glorious_solar_plate callback "
+        Glorious Solar Plate<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Hauberk-Summoning Gesture<br>
+        <br>
+        The characters materializes his Essence into a suit of
+        golden lamellar armor. This armor is an expression of the
+        character's anima and, so, reflects his personality and predispositions.
+        It can be sleek, imposing, ornate, simple — it is the
+        character's ideal armor. Regardless of its appearance, the
+        armor glows with an golden inner light bright enough to read
+        by in a several-yard radius. Glorious Solar Plate provides 10
+        lethal and 10 bashing soak, with only a -1 penalty to maneuvers
+        requiring dexterity and grace.
+        "
+
+    poison_resisting_meditation[Poison-Resisting<br>Meditation]
+    click poison_resisting_meditation callback "
+        Poison-Resisting Meditation<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character's metabolism is strengthened by Essence,
+        allowing him to easily endure the effects of toxins.
+        The player may add a number of automatic successes
+        equal to the character's Stamina to her Stamina + Resistance
+        roll to resist the effects of poison. Though even the
+        hardiest Exalted can still be slain by massive doses of
+        poison while using this Charm, they are largely invulnerable
+        to poisoned food and envenomed blades. Characters
+        need not invoke this Charm before exposure to poison —
+        they may call upon its effects after they are exposed but
+        before the Stamina + Resistance roll is made to survive
+        the toxin. <br>
+        Use of this Charm allows a character to withstand
+        incidental toxins such as spoiled food. A character under
+        the effect of this Charm may also consume without penalty
+        a number of drinks equal to his Stamina.
+        "
+
+    illness_resisting_meditation[Illness-Resisting<br>Meditation]
+    click illness_resisting_meditation callback "
+        Illness-Resisting Meditation<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One day<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        While the Exalted are little-affected by disease, they
+        can still become sick. Fevers can slow them at critical
+        moments. Further, while the Chosen can withstand even
+        the most serious illnesses with little more than a feeling of
+        weariness and discomfort, those illnesses are as lethal as
+        ever to mortals who contract them from exposure to the
+        infected Exalted.<br>
+        This Charm allows the player to add a number of
+        automatic successes equal to her character's Stamina to the
+        Stamina + Resistance roll to avoid contracting an illness.
+        Further, the player may add a like number of automatic
+        successes to her character's daily Stamina + Endurance roll
+        to overcome an illness she has already contracted.
+        "
+
+    immunity_to_everything_technique[Immunity to Everything<br>Technique]
+    poison_resisting_meditation --> immunity_to_everything_technique
+    illness_resisting_meditation --> immunity_to_everything_technique
+    click immunity_to_everything_technique callback "
+        Immunity to Everything Technique<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Poison-Resisting Meditation<br>
+        <br>
+        The Exalted's body becomes a perfect vessel of Essence,
+        immune to all toxins and poisons. The character is immune
+        to all poisons and toxins, including those that would normally
+        be fatal to Exalted. This Charm does not protect the
+        character from the effects of diseases, however.
+        "
