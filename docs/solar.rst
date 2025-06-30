@@ -58,3 +58,7 @@ Craft
 Investigation
 ^^^^^^^^^^^^^
 .. mermaid:: ./mermaid/solar/twilight_investigation.mmd
+
+Lore
+^^^^
+.. mermaid:: ./mermaid/solar/twilight_lore.mmd
