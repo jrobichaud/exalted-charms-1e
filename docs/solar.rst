@@ -47,3 +47,10 @@ Resistance
 Survival
 ^^^^^^^^
 .. mermaid:: ./mermaid/solar/zenith_survival.mmd
+
+Twilight Caste
+--------------
+
+Craft
+^^^^^
+.. mermaid:: ./mermaid/solar/twilight_craft.mmd
