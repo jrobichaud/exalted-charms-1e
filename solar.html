@@ -1,0 +1,3087 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Solar Charms &#8212; Exalted 1e Charms 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/groundwork.css?v=594d7a89" />
+    <link rel="stylesheet" type="text/css" href="_static/css/mermaid.css?v=76895b9b" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Contents, indices and tables" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Contents, indices and tables"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Exalted 1e Charms 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Solar Charms</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="solar-charms">
+<h1>Solar Charms<a class="headerlink" href="#solar-charms" title="Link to this heading">¶</a></h1>
+<section id="dawn-caste">
+<h2>Dawn Caste<a class="headerlink" href="#dawn-caste" title="Link to this heading">¶</a></h2>
+<section id="archery">
+<h3>Archery<a class="headerlink" href="#archery" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    wise_arrow[Wise Arrow]
+    click wise_arrow callback &quot;
+        Wise Arrow&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character extends her anima into the world around
+        her, and joins archer, target and arrow into a single being. Truly,
+        the arrow knows the way to the target, for that is its natural
+        home. For each mote of Essence the player spends, he may add
+        1 die to an Archery attack roll, but the number of bonus dice
+        added to any single roll cannot exceed her normal Dexterity +
+        Archery dice pool. The player must declare how much Essence
+        she is going to use in this Charm prior to making the attack roll.&quot;
+
+    wise_arrow --&gt; sight_without_eyes[Sight Without Eyes]
+    click sight_without_eyes callback &quot;
+        Sight Without Eyes&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Wise Arrow&lt;br&gt;
+        &lt;br&gt;
+        The character opens her eyes not to the visual world,
+        but to the world of Essence and senses her target in that
+        fashion. She may make an Archery attack without penalty
+        for visual conditions. Other negative modifiers (high winds,
+        range and so forth) still impose their regular penalties.
+        &quot;
+
+
+    sight_without_eyes --&gt; accuracy_without_distance[Accuracy Without Distance]
+    click accuracy_without_distance callback &quot;
+        Accuracy Without Distance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 5&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Sight Without Eyes&lt;br&gt;
+        &lt;br&gt;
+        The character extends her sense of the local Essence flows
+        to greater heights and can now shoot with perfect assurance. The
+        character may make an Archery attack out to the maximum
+        range of the bow with absolute certainty that the shot will hit.&lt;br&gt;
+        The player rolls to attack as normal, but if he rolls insufficient
+        successes for his character to hit the target, he still hits it, doing
+        the arrow's base damage. This Charm can also be used to hit small
+        objects, to cut cords and ropes and for other trick shots. It does not,
+        however, allow the archer to negate their target's armor via a
+        called shot to the eye, throat or what have you.
+        &quot;
+
+    sight_without_eyes --&gt; there_is_no_wind[The Is No Wind]
+    click there_is_no_wind callback &quot;
+        The Is No Wind&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 4&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Sight Without Eyes&lt;br&gt;
+        &lt;br&gt;
+        The character's Essence flows into the bow and arrow, and he
+        fires with a perfect, supple grace. The character may make a
+        Archery attack without any environmental penalties of any sort,
+        be they for range, high winds, bad weather, bad ammunition or
+        what have you — the Charmed shot is absolutely flawless. Splitting
+        a dice pool for multiple actions is not an environmental penalty.
+        &quot;
+
+    wise_arrow --&gt; trance_of_unhesitating_speed[Trance of&lt;br&gt;Unhesitating Speed]
+    click trance_of_unhesitating_speed callback &quot;
+        Trance of&lt;br&gt;Unhesitating Speed&lt;br&gt;
+        &lt;br&gt;
+        Cost: Varies&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Archery: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Wise Arrow&lt;br&gt;
+        &lt;br&gt;
+        The character flows with soft and unhesitating grace
+        through the motions of firing her weapon. Before the
+        character takes her first action for the turn, the player must
+        declare how many attacks the character will make this
+        turn. Each extra attack costs a number of motes of Essence
+        equal to twice the total number of attacks the character has
+        made so far, including the attack the character is buying.&lt;br&gt;
+        For Example: Harmonious Jade is surrounded by Dragon-Blooded
+        hunters and needs to act now, regardless of cost. She uses
+        the Trance of Unhesitating Speed to make three extra attacks (for
+        a total of four attacks that turn). The cost is 18 motes of Essence;
+        4 motes for the first extra attack, 6 motes for the second extra attack,
+        and 8 motes for the third extra attack. The cost of the Charm must
+        be paid before Harmonious Jade makes her first attack.&lt;br&gt;
+        The player must decide how many attacks the character
+        will make and pay for them all before he makes any
+        attack rolls. Obviously, a character cannot attack more
+        times than she has ammunition.
+        &quot;
+    trance_of_unhesitating_speed --&gt; arrow_storm_technique[Arrow Storm Technique]
+    click arrow_storm_technique callback &quot;
+        Arrow Storm Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Archery: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Trance of Unhesitating Speed&lt;br&gt;
+        &lt;br&gt;
+        The character's motions become smooth and economical,
+        optimized for the release of arrows with a minimal
+        expenditure of effort. So long as the character hits (she need
+        not do damage) with an attack, she may make another attack
+        immediately thereafter. Each attack must be at a different
+        target, and the character cannot make more attacks than she
+        has ammunition. This Charm ends when the character misses
+        or when she has hit every possible target once.
+        &quot;
+
+    fiery_arrow_attack[Fiery Arrow Attack]
+    click fiery_arrow_attack callback &quot;
+        Fiery Arrow Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character concentrates Essence in an arrow and then
+        launches it, causing it to burst into flame in mid-flight. Not only
+        will the arrow ignite flammable materials it hits, it also adds dice
+        equal to the character's Essence score to the arrow's damage.
+        Arrows that have had the Fiery Arrow Attack Charm used on
+        them are burnt to cinders and cannot be recovered. Keep in mind
+        that indiscriminately firing burning arrows in a forest or grassland
+        during the dry season is generally a bad idea.
+        &quot;
+
+    fiery_arrow_attack --&gt; dazzling_flare_attack[Dazzling Flare Attack]
+    click dazzling_flare_attack callback &quot;
+        Dazzling Flare Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2 damage&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Fiery Arrow Attack&lt;br&gt;
+        &lt;br&gt;
+        The character pours greater amounts of Essence into an
+        arrow, and it roars and flashes with Essence as it streaks toward its
+        target. The arrow flies faster and straighter than normal, adding
+        one die to the character's Archery pool. Also, for every mote of
+        Essence the character spends on the Charm, it adds two points
+        to the base damage of the arrow. The Exalted cannot spend more
+        motes of Essence activating this Charm than her permanent
+        Essence rating. Characters using this Charm must spend at least
+        one mote to do so — the Charm cannot be activated &amp;quot;for free&amp;quot;
+        to gain the bonus die to the character's Archery pool.&lt;br&gt;
+        As the Charm's name suggests, if fired on a high arc through
+        the air, the arrow forms a beacon that can be seen for miles.
+        Arrows that have had the Dazzling Flare Attack Charm used on
+        them are burned to fine gray ash and cannot be recovered.
+        &quot;
+
+    fiery_arrow_attack --&gt; phantom_arrow_technique[Phantom Arrow Technique]
+    click phantom_arrow_technique callback &quot;
+        Phantom Arrow Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per arrow&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Fiery Arrow Attack&lt;br&gt;
+        &lt;br&gt;
+        The bane of the archer is his dependence on ammunition.
+        Through the use of this Charm, the Exalted can
+        transcend the need for ammunition, at least while he
+        possesses the Essence needed to power this Charm. As the
+        character draws his bow, he shapes a mote of Essence into
+        a glittering arrow. This arrow has normal range and damage,
+        but winks out of existence a few seconds after impact.
+        The Essence Arrow can be Comboed with Charms such as
+        Dazzling Flare Attack or Rain of Feathered Death, allowing
+        a character to conjure powerful attacks from thin air.
+        &quot;
+
+    phantom_arrow_technique --&gt; solar_spike[Solar Spike]
+    click solar_spike callback &quot;
+        Solar Spike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2 dice of damage&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Archery: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Phantom Arrow Technique&lt;br&gt;
+        &lt;br&gt;
+        The character pulls a blazing bolt of Essence across her
+        bow. This is fired as a normal arrow, but does a base damage
+        of twice the number of Essence motes that the character
+        spent conjuring the Solar Spike. A character cannot spend
+        more motes of Essence conjuring a Solar Spike than she
+        has dots in the Archery Ability. The Solar Spike moves as
+        quickly as a flash of lightning and is not subject to penalties
+        for range or wind, though poor visibility can hamper
+        shooting. A Solar Spike can be fired out to a distance of
+        (the firing character's Essence * 100) yards.&lt;br&gt;
+        Regardless of the target's soak, Solar Spikes that
+        strike demons, undead and other creatures of the night
+        will always roll at least as many dice of damage as the
+        firing character's Essence. Solar Spike is not compatible
+        with arrow-enhancing Charms such as Fiery Arrow
+        Attack and Rain of Feathered Death. The damage of the
+        Solar Spike is determined only by the amount of Essence
+        the character spends on the bolt and the number
+        of extra successes she rolls on her attack — do not add
+        the damage of the bow.
+        &quot;
+
+    solar_spike --&gt; immaculate_golden_bow[Immaculate Golden Bow]
+    click immaculate_golden_bow callback &quot;
+        Immaculate Golden Bow&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: One Scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Archery: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Phantom Arrow Technique&lt;br&gt;
+        &lt;br&gt;
+        The Exalted can not only substitute his Essence for
+        ammunition, but for his weapon as well. Through this
+        Charm, the character shapes Essence into a deadly bow. As
+        an extension of the character's anima, each bow is unique
+        to the Exalted who conjured it. All, however, have the
+        same statistics - they do the character's Strength +
+        Essence damage and have the range of a compound bow.
+        The Immaculate Golden Bow does not come with ammunition,
+        so characters without arrows will need to use
+        Phantom Arrow Technique.
+        &quot;
+
+    </pre></section>
+<section id="brawl">
+<h3>Brawl<a class="headerlink" href="#brawl" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    ferocious_jab[Ferocious Jab]
+    click ferocious_jab callback &quot;
+        Ferocious Jab&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character infuses his anima with Essence, making
+        his strikes much more damaging. On a successful attack,
+        the character may count his extra successes twice for the
+        purposes of determining damage. The Essence for this
+        Charm may be spent after the character rolls the attack.
+        &quot;
+
+    ferocious_jab --&gt; fist_of_iron_technique[Fist of Iron Technique]
+    click fist_of_iron_technique callback &quot;
+        Fist of Iron Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Ferocious Jab&lt;br&gt;
+        &lt;br&gt;
+        The character suffuses her fists with Essence, hardening
+        them into deadly weapons. Until her next action, her
+        hand-to-hand strikes do lethal damage, and she can safely parry
+        lethal damage blows with her hands. However, she is no
+        faster than normal and so, generally, cannot parry incoming
+        arrows or magical attacks without a well-described stunt.
+        &quot;
+
+    fist_of_iron_technique --&gt; ox_stunning_blow[Ox-Stunning Blow]
+    click ox_stunning_blow callback &quot;
+        Ox-Stunning Blow&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Brawl: 4&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Fists of Iron Technique&lt;br&gt;
+        &lt;br&gt;
+        The character concentrates her anima around her fist
+        and smashes it into her enemy, stunning and disorienting
+        him. The character makes a normal attack with her Dexterity
+        + Brawl. If successful, the attack does no normal
+        damage but, instead, does a base of one point of stunning
+        damage for every mote spent on the Charm. This stunning
+        damage is soaked as bashing damage, but can only be
+        soaked with the target's Stamina. Extra successes on the
+        attack add to damage as usual. However, rather than doing
+        health levels of damage, each success on the damage roll
+        imposes a -1 penalty to the target's dice pools for a number
+        of turns equal to (7 - the target's Stamina).&lt;br&gt;
+        The Exalted using this Charm cannot spend more
+        motes of Essence to power this Charm than twice his
+        Strength, and the Storyteller may rule that certain types of
+        opponents (mechanical constructs, shambling corpses or
+        giant man-eating trees, for example) are too sturdy or
+        insensible to be stunned by the character's mighty blows.
+        &quot;
+
+    fist_of_iron_technique --&gt; dragon_coil_technique[Dragon Coil Technique]
+    click dragon_coil_technique callback &quot;
+        Dragon Coil Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes per turn&lt;br&gt;
+        Duration: Varies&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Brawl: 4&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Fists of Iron Technique&lt;br&gt;
+        &lt;br&gt;
+        The character may wrap his opponents in his mighty
+        arms and crush the very life from them. The character makes
+        a clinch attack as normal, but the attack does the character's
+        Strength + Essence + 2 in lethal damage, while the subject of
+        the clinch does only the normal Strength + 2 bashing. If the
+        target attempts to escape the clinch, the character performing
+        the Dragon Coil Technique may add his Essence in automatic
+        successes to the reflexive roll to resist the escape attempt.&lt;br&gt;
+        If the target also has Dragon Coil Technique, she may
+        choose to activate it as her action on subsequent turns and
+        do her Strength + Essence + 2 in lethal damage as well.
+        Maintaining this Charm over multiple turns prevents the
+        character from using simple and supplemental Charms but
+        does not prevent the use of reflexive defensive Charms.
+        This Charm is not compatible with Hammer on Iron
+        Technique or other Charms of the extra action type and
+        cannot be placed in Combos with them.
+        &quot;
+
+    ferocious_jab --&gt; thunderclap_rush_attack[Thunderclap Rush Attack]
+    click thunderclap_rush_attack callback &quot;
+        Thunderclap Rush Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Brawl: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Ferocious Jab&lt;br&gt;
+        &lt;br&gt;
+        The character pours Essence into quickening her
+        motions and rushes aggressively toward her enemy. She
+        automatically wins initiative over a single opponent.&lt;br&gt;
+        Characters cannot split their dice pools on the turn they
+        use Thunderclap Rush Attack. Two characters using
+        Thunderclap Rush Attack in competition roll for initiative normally.
+        &quot;
+
+    thunderclap_rush_attack --&gt; hammer_on_iron_technique[Hammer on Iron Technique]
+    click hammer_on_iron_technique callback &quot;
+        Hammer on Iron Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Brawl: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Thunderclap Rush Attack&lt;br&gt;
+        &lt;br&gt;
+        The character suffuses his body with Essence, turning
+        him into a virtual killing machine, with arms like pounding
+        triphammers. He gains a number of additional attacks
+        equal to his Essence but must make all his attacks against
+        the same target. Hammer on Iron Technique cannot be
+        Comboed with defensive Charms that allow the character
+        to dodge or otherwise avoid attacks, but may be combined
+        with those that allow her to soak or ignore damage.
+        &quot;
+
+    sledgehammer_fist_punch[Sledgehammer Fist Punch]
+    click sledgehammer_fist_punch callback &quot;
+        Sledgehammer Fist Punch&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Brawl: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character can suffuse his body with Essence,
+        concentrating his anima until it is a crackling nimbus
+        around him, and become capable of great destruction. This
+        Charm must be used to attack inanimate objects and
+        doubles the amount of damage the character does after
+        extra successes are added but before the object's soak is
+        applied. This increase in Strength does not add directly to
+        combat damage, though it may assist the character in
+        causing indirect damage (for example, by causing a tower
+        to collapse on top of his opponent).
+        &quot;
+
+    sledgehammer_fist_punch --&gt; crashing_wave_throw[Crashing Wave Throw]
+    click crashing_wave_throw callback &quot;
+        Crashing Wave Throw&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Brawl: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Sledgehammer Fist Punch&lt;br&gt;
+        &lt;br&gt;
+        The character tightly focuses his anima, making him
+        able to apply his Strength more effectively. In addition to
+        doing normal damage, the character also throws his opponent
+        on a successful attack. The target is hurled a number
+        of yards equal to the character's Strength + his extra
+        successes on the attack roll. This attack cannot be blocked,
+        only dodged. A target who strikes a solid object takes dice
+        of damage equal to the number of yards she would have
+        continued flying had the object not been in the way. This
+        damage is typically bashing but can be lethal if (for
+        example) the object is covered in sharp steel spikes.
+        Obviously, the target can also suffer serious injury if she is
+        tossed over a cliff or off a ship at sea.
+        &quot;
+
+    sledgehammer_fist_punch --&gt; heaven_thunder_hammer[Heaven Thunder Hammer]
+    click heaven_thunder_hammer callback &quot;
+        Heaven Thunder Hammer&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Sledgehammer Fist Punch&lt;br&gt;
+        &lt;br&gt;
+        The character fully concentrates his anima, gathering
+        dense Essence around his fists. Not only do the character's
+        unarmed attacks do normal damage, they also hurl his
+        opponents great distances. For each health level of damage
+        he inflicts before soak, the target is hurled backward a yard,
+        as per the effects of the Crashing Wave Throw Charm.
+        &quot;
+
+    crashing_wave_throw --&gt; shockwave_technique[Shockwave Technique]
+    click shockwave_technique callback &quot;
+        Shockwave Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Brawl: 4&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Crashing Wave Throw&lt;br&gt;
+        &lt;br&gt;
+        The character burns with Essence, increasing her
+        strength and agility to superhuman levels. She seizes one
+        opponent and picks him up bodily, using him to strike
+        another foe. The character makes one attack roll against the
+        primary target. The attack cannot be blocked, only dodged.
+        If successful, this attack does no damage, but the attacker
+        may immediately make a reflexive Brawl attack at her full
+        dice pool against another target within hand-to-hand range.&lt;br&gt;
+        If the second attack is successful, both the targets take
+        bashing damage equal to the character's Strength + the
+        extra successes on the Exalted's reflexive attack. The second
+        target may parry or dodge to reduce damage or avoid the
+        attack, but if the attack is parried, the character being used
+        as a club takes bashing damage equal to the Strength of the
+        Exalted swinging him around + the number of successes the
+        parrying character rolled to block the attacks.&lt;br&gt;
+        If the Exalted hits with her second attack, both targets are
+        left in a heap on the ground and must spend an action to return
+        to their feet. If the second attack misses, the character being
+        used as a club is hurled a number of yards equal to the Exalted's
+        Strength, in a direction of the Exalted's choice, as if he had been
+        successfully attacked with the Crashing Wave Throw Charm.
+        &quot;
+
+    </pre></section>
+<section id="martial-arts">
+<h3>Martial Arts<a class="headerlink" href="#martial-arts" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    striking_cobra_technique[Striking Cobra Technique]
+    click striking_cobra_technique callback &quot;
+        Striking Cobra Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Martial Arts: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character charges her form with Essence to move
+        with the speed and deftness of the snake she seeks to
+        emulate. During the turn when this Charm is activated,
+        the character adds her Martial Arts score to her initiative
+        total. This Charm may be used only once per turn.
+        &quot;
+
+    striking_cobra_technique --&gt; serpentine_evasion[Serpentine Evasion]
+    click serpentine_evasion callback &quot;
+        Serpentine Evasion&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Martial Arts: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Striking Cobra Technique&lt;br&gt;
+        &lt;br&gt;
+        The character's infuses her anima with Essence, and
+        it guides her body to flow with serpentine grace. By
+        invoking this Charm, she may add a number of dice equal
+        to her Martial Arts score to a single dodge attempt.
+        &quot;
+
+    serpentine_evasion --&gt; snake_form[Snake Form]
+    click snake_form callback &quot;
+        Snake Form&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Martial Arts: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Serpentine Evasion&lt;br&gt;
+        &lt;br&gt;
+        The Exalted adopts the attitude and stance of a wary
+        snake - head back, ready to strike or retreat. For the rest
+        of the scene, he adds his Martial Arts score to his initiative
+        totals and his bashing soak. Also, his sinuous, hypnotic
+        movements slow and distract enemies. Enemies attacking
+        him subtract a number of dice from their pool equal to the
+        Exalted's Essence. This latter effect only works if the target
+        can see the characters movements — a blind opponent
+        would be unfazed by this aspect of Snake Form. This
+        Charm is incompatible with the use of armor.&lt;br&gt;
+        Characters cannot use more than one Martial Arts
+        Form-type Charm at a time. Snake Form is the only Form-type
+        Charm in the Exalted book, but more Martial Arts
+        styles will be introduced in later supplements.
+        &quot;
+
+    snake_form --&gt; essence_fangs_and_scales_technique[Essence Fangs and&lt;br&gt;Scales Technique]
+    click essence_fangs_and_scales_technique callback &quot;
+        Essence Fangs and Scales Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Snake Form&lt;br&gt;
+        &lt;br&gt;
+        Thought training and the use of Essence, the character
+        learns to harden her fingers into talons, like the fangs of a
+        striking snake. Likewise, she can toughen her skin until it is
+        as strong and supple as snake's skin. For the rest of the scene,
+        the character's Martial Arts attacks do lethal damage, and
+        she soaks lethal damage with her bashing soak total. This
+        Charm is incompatible with the use of armor or weapons.
+        &quot;
+
+    essence_fangs_and_scales_technique --&gt; armor_penetrating_fang_strike[Armor-Penetrating&lt;br&gt;Fang Strike]
+    click armor_penetrating_fang_strike callback &quot;
+        Armor-Penetrating Fang Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Essence Fangs and Scales Technique&lt;br&gt;
+        &lt;br&gt;
+        The character can harden her fingers to the degree
+        that they can punch through nearly anything and cause
+        trauma merely by the intensity of their Essence. The
+        character's attack ignores the soak of the target's armor
+        and can be soaked only by the target's Stamina.
+        &quot;
+
+    snake_form --&gt; snake_strikes_the_heel[Snake Strikes the Heel]
+    click snake_strikes_the_heel callback &quot;
+        Snake Strikes the Heel&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Snake Form&lt;br&gt;
+        &lt;br&gt;
+        Like the snake, the Exalted defends herself by attacking.
+        Whenever she is successfully attacked, the character
+        may immediately (before damage is determined) make a
+        Martial Arts counterattack with a dice pool equal to her
+        Martial Arts Ability plus the attacker's extra successes on
+        his attack. The damage from her opponent's attack and her
+        own counterstrike is applied simultaneously. Snake Strikes
+        the Heel cannot be used to retaliate against Solar Counter-
+        attack or any other counterattack Charm.
+        &quot;
+
+    snake_strikes_the_heel --&gt; crippling_pressure_point_strike[Crippling Pressure-Point&lt;br&gt; Strike]
+    click crippling_pressure_point_strike callback &quot;
+        Crippling Pressure-Point Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Snake Strikes the Heel&lt;br&gt;
+        &lt;br&gt;
+        The character makes a Martial Arts attack as normal,
+        including the roll for damage. However, the attack
+        does no actual damage. Rather, for every health level
+        the character would have inflicted, her target is at a -1
+        penalty to all rolls for a number of turns equal to the
+        Martial Arts of the Exalted who used the Crippling
+        Pressure-Point Strike.
+        &quot;
+
+    snake_form --&gt; uncoiling_serpent_prana[Uncoiling Serpent Prana]
+    click uncoiling_serpent_prana callback &quot;
+        Uncoiling Serpent Prana&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Snake Form&lt;br&gt;
+        &lt;br&gt;
+        The character infuses his anima with Essence and
+        lashes out, his anima flashing forward like a striking snake.
+        The Exalted may invoke this Charm and make a Martial
+        Arts attack a number of yards away equal to his Essence.
+        The character's anima actually strikes the target, so there
+        must be a clear path to the target, and the character must
+        be able to perceive the target well enough to attack.
+        &quot;
+
+    uncoiling_serpent_prana --&gt; striking_serpent_speed[Striking Serpent Speed]
+    click striking_serpent_speed callback &quot;
+        Striking Serpent Speed&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Uncoiling Serpent Prana&lt;br&gt;
+        &lt;br&gt;
+        The character internalizes the reflexes and raw speed
+        of a coiled snake. The player rolls the Exalted's Martial
+        Arts Ability, and for every success, she may take an extra
+        action during the turn. This extra action need not be an
+        attack. A character may not split her dice pool during the
+        round she uses Striking Serpent Speed.
+        &quot;
+    essence_venom_strike[Essence Venom Strike]
+    armor_penetrating_fang_strike --&gt; essence_venom_strike
+    crippling_pressure_point_strike --&gt; essence_venom_strike
+    striking_serpent_speed --&gt; essence_venom_strike
+    click essence_venom_strike callback &quot;
+        Essence Venom Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost:10 motes, 1 Willpower, 1 health level&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type:Simple&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Armor-Penetrating Fang Strike, Crippling Pressure-Point Strike, Striking Serpent Speed&lt;br&gt;
+        &lt;br&gt;
+        The character concentrates her Essence on the tips of
+        two fingers, making her attack as quick as lightning and as
+        deadly as the strike of a dozen serpents. The character
+        invokes the Charm and makes a Martial Arts attack as
+        normal, but adds her Essence score to the damage of the
+        attack. The attack does aggravated damage.
+        &quot;
+
+    </pre></section>
+<section id="melee">
+<h3>Melee<a class="headerlink" href="#melee" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    excellent_strike[Excellent Strike]
+    click excellent_strike callback &quot;
+        Excellent Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The Exalted fills her weapon with crackling Essence,
+        making her swing hard and true. For each mote of Essence
+        spent on this Charm, the player may add one die to a single
+        attack but can no more than double her character's regular
+        Dexterity + Melee dice pool.
+        &quot;
+
+    excellent_strike --&gt; hungry_tiger_technique[Hungry Tiger Technique]
+    click hungry_tiger_technique callback &quot;
+        Hungry Tiger Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Minimum Melee&lt;br&gt;
+        Supplemental: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Excellent Strike&lt;br&gt;
+        &lt;br&gt;
+        To activate the Hungry Tiger Technique, the Exalted
+        charges her body and weapon with Essence, unifying the
+        two and making her attack as if the weapon were an
+        extension of her being. If the attack is successful, the player
+        counts the extra successes twice for the purposes of determining
+        damage. The Essence to power this Charm must be
+        spent prior to making the attack roll.
+        &quot;
+
+    hungry_tiger_technique --&gt; fire_and_stone_strike[Fire and Stone Strike]
+    click fire_and_stone_strike callback &quot;
+        Fire and Stone Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per health level&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Hungry Tiger Technique&lt;br&gt;
+        &lt;br&gt;
+        The character focuses her Essence into her weapon and
+        swings a terrible blow against her opponent. If the blow is
+        successful, the character's attack does an additional die of
+        damage against her opponent for every mote of Essence she
+        spent activating the Charm. Characters cannot spend more
+        Essence activating Fire and Stones Strike than they have
+        dots of Strength. Note that the Essence cost of Fire and
+        Stones Strike must be spent before the attack roll. If a
+        non-orichalcum weapon is used to do more automatic damage
+        successes than its damage rating, it will probably break.
+        &quot;
+
+    excellent_strike --&gt; one_weapon_two_blows[One Weapon, Two Blows]
+    click one_weapon_two_blows callback &quot;
+        One Weapon, Two Blows&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Melee: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Excellent Strike&lt;br&gt;
+        &lt;br&gt;
+        The Exalted charges her weapon arm with Essence,
+        and it becomes as fast as a striking snake. The character
+        may attack a target twice in one turn. The attacks both
+        occur on the character's initiative, but each is rolled
+        separately. If the defender attempts to dodge or parry, one
+        roll is made and the results are applied to both attacks.
+        &quot;
+
+    one_weapon_two_blows --&gt; peony_blossom_attack[Peony Blossom Attack]
+    click peony_blossom_attack callback &quot;
+        Peony Blossom Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: Varies&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: One Weapon, Two Blows&lt;br&gt;
+        &lt;br&gt;
+        The Exalted surrounds herself with a nimbus of Essence,
+        and her movements become as rapid and smooth as
+        ice on hot metal. The character may make multiple attacks,
+        either against multiple targets or a single opponent.
+        The character may attack as many times as she likes, so
+        long as she has sufficient Essence to fuel the Charm. Each
+        attack costs motes of Essence equal to the twice the total
+        number of attacks the character has made that turn,
+        including his normal attack. A character making 5 attacks
+        would pay 28 (4 + 6 + 8 + 10) motes of Essence to activate
+        the Peony Blossom Attack.&lt;br&gt;
+        The player must declare how many attacks the character
+        will make this turn before the character takes her first
+        action. The character cannot split her Melee dice pool and
+        use this Charm in the same turn, so a Combo with some
+        sort of defensive Charm is recommended. Defenders must
+        dodge or parry each attack separately.
+        &quot;
+
+    peony_blossom_attack --&gt; iron_whirlwind_attack[Iron Whirlwind Attack]
+    click iron_whirlwind_attack callback &quot;
+        Iron Whirlwind Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Peony Blossom Attack&lt;br&gt;
+        &lt;br&gt;
+        The character permeates his body with raw Essence,
+        so much that it wraps around him in a gauzy corona and
+        leaves trailing streaks behind his lightning-fast strikes and
+        thrusts. On the turn he uses this Charm, the character may
+        make a total number of attacks equal to his Dexterity.
+        The character cannot split his Melee dice pool and
+        use this Charm in the same turn, so a Combo with some
+        sort of defensive Charm is recommended.
+        &quot;
+
+    retrieve_the_fallen_weapon[Retrieve the Fallen Weapon]
+    click retrieve_the_fallen_weapon callback &quot;
+        Retrieve the Fallen Weapon&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The Exalted may use the bonds that form between a
+        weapon and its wielder to call his chosen implement of battle
+        to his hand. This Charm can overcome friction and gravity to
+        carry the weapon through the air to the character but cannot
+        defeat doors, chains and other such substantial hindrances.
+        The character must have his weapon hand empty and must be
+        able to see the weapon in order to call it to himself. The
+        character must have used the weapon and be familiar with it
+        to use this Charm on it — it must be his weapon.
+        &quot;
+
+    retrieve_the_fallen_weapon --&gt; call_the_blade[Call the Blade]
+    click call_the_blade callback &quot;
+        Call the Blade&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Retrieve the Fallen Weapon&lt;br&gt;
+        &lt;br&gt;
+        The character may call her weapon back to her hand, even
+        if she cannot see it. The weapon does not traverse the space
+        between its location and the character's hand, it simply flashes into
+        her grasp. The call of this Charm reaches only (10x the character's
+        Essence) yards, if the weapon is farther than that, the Charm will
+        fail. As with Retrieve the Fallen Weapon, the character cannot use
+        this power to steal weapons, only to call her own weapon to her.
+        &quot;
+
+    call_the_blade --&gt; summoning_the_loyal_steel[Summoning the Loyal Steel]
+    click summoning_the_loyal_steel callback &quot;
+        Summoning the Loyal Steel&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote to summon or banish&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Call the Blade&lt;br&gt;
+        &lt;br&gt;
+        The character simply gestures, and his weapon flashes to
+        his hand, appearing instantly in his grasp regardless of its
+        previous location. A character who is holding his weapon can
+        also banish it, spending a mote of Essence to place it Elsewhere.
+        Weapons that have been placed Elsewhere are gone from the
+        world and can only be reached by their Exalted owner through
+        the use of Summoning the Loyal Steel. The Exalted must have
+        &quot;
+
+    call_the_blade --&gt; glorious_solar_saber[Glorious Solar Saber]
+    click glorious_solar_saber callback &quot;
+        Glorious Solar Saber&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes + 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Call the Blade&lt;br&gt;
+        &lt;br&gt;
+        The character can now never be disarmed. She can
+        concentrate Essence in her hand, forming a glittering
+        golden blade of pure magical energy that does a base lethal
+        damage equal to the character's Strength plus her Essence
+        score. The blade glows brightly enough to light an area
+        three or four yards across. Each Exalted's blade is different,
+        perfectly matching her personality and fighting style.
+        &quot;
+
+    retrieve_the_fallen_weapon --&gt; iron_raptor_technique[Iron Raptor Technique]
+    click iron_raptor_technique callback &quot;
+        Iron Raptor Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Retrieve the Fallen Weapon&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows the character to use his weapon to
+        attack up to Dexterity x 5 yards away. The weapon whirls
+        through the air to its strike its target, like a bloodthirsty, metal
+        bird of prey, and then spins obediently back to the wielder's
+        hand. The character attacks with his Melee pool, as usual, and
+        the damage is determined using his Strength as if it was anormal
+        Melee attack. Iron Raptor attacks can be blocked like normal
+        Melee attacks. Botched Iron Raptor attacks can result in stuck
+        or lost weapons or injury to the Exalted using the Charm.
+        &quot;
+
+    iron_raptor_technique --&gt; sandstorm_wind_attack[Sandstorm-Wind Attack]
+    click sandstorm_wind_attack callback &quot;
+        Sandstorm-Wind Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Iron Raptor Technique&lt;br&gt;
+        &lt;br&gt;
+        The character charges his weapon with Essence and
+        strikes a blow at a distant target. A slashing edge of concentrated
+        force leaps from the weapon and races toward the target.&lt;br&gt;
+        The character attacks with his Dexterity + Melee dice pool and
+        does a base lethal damage of his Strength + his Essence. The
+        Sandstorm-Wind Attack is blocked as a ranged attack, not as
+        a Melee attack. Sandstorm-Wind Attack can strike characters
+        up to (10 x the character's Essence) yards away.
+        &quot;
+
+    iron_raptor_technique --&gt; edge_of_morning_sunlight[Edge of Morning Sunlight]
+    click edge_of_morning_sunlight callback &quot;
+        Edge of Morning Sunlight&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Iron Raptor Technique&lt;br&gt;
+        &lt;br&gt;
+        The character concentrates on manifesting his Essence
+        through the medium of his weapon. The weapon
+        becomes invested with Solar power and is highly effective
+        against creatures of darkness, the undead and the Abyssal
+        Exalted. The weapon adds the character's Essence to its
+        regular damage when used against such creatures.
+        &quot;
+
+    edge_of_morning_sunlight --&gt; corona_of_radiance[Corona of Radiance]
+    click corona_of_radiance callback &quot;
+        Corona of Radiance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Edge of Morning Sunlight&lt;br&gt;
+        &lt;br&gt;
+        The character channels Essence through her body, using
+        her weapon as an aggressive focus. Her flesh coruscates with
+        flickering Solar energy, and attacks against her by undead,
+        creatures of the night and Abyssal Exalted are at + 1 difficulty.
+        In addition, if such creatures strike her without using a
+        weapon, they must soak aggravated damage equal to the
+        character's Essence. While Corona of Radiance is active, the
+        Exalted's attacks against such creatures do aggravated damage
+        and have a damage bonus equal to the character's Essence.
+        &quot;
+
+    blazing_solar_bolt[Blazing Solar Bolt]
+    sandstorm_wind_attack --&gt; blazing_solar_bolt
+    corona_of_radiance --&gt; blazing_solar_bolt
+    click blazing_solar_bolt callback &quot;
+        Blazing Solar Bolt&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Corona of Radiance, Sandstorm-Wind Attack&lt;br&gt;
+        &lt;br&gt;
+        The character channels pure Solar Essence though herself,
+        focusing it with her will and through the medium of her
+        weapon. A powerful lance of energy leaps between the Solar's
+        Caste Mark, her weapon and the target. The character makes
+        an attack with her Dexterity + Melee dice pool, which cannot
+        be blocked or dodged without the use of Charms. The attack
+        does lethal damage and has a base damage of the Exalted's
+        Strength + her Willpower. Against inhabitants of Malfeas and
+        the Underworld, Blazing Solar Bolt inflicts aggravated damage.
+        &quot;
+    golden_solar_block[Golden Solar Block]
+    click golden_solar_block callback &quot;
+        Golden Solar Block&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2 dice&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Through this Charm, the character uses Essence to guide
+        her weapon on the defense, allowing her to parry the attacks
+        of many foes at once. The character may trade Essence for dice
+        to block any hand-to-hand attack that she is aware of, at the
+        cost of 1 mote per 2 dice. The player cannot use more dice to
+        parry any single attack than her Melee dice pool. If there are
+        an odd number of dice in her Melee pool, then the fractional
+        mote left over after buying the last die is lost.
+        &quot;
+
+    golden_solar_block --&gt; dipping_swallow_defense[Dipping Swallow Defense]
+    click dipping_swallow_defense callback &quot;
+        Dipping Swallow Defense&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Golden Essence Block&lt;br&gt;
+        &lt;br&gt;
+        The character has achieved further mastery of defensive
+        Essence flows and can now more smoothly block
+        attacks. Dipping Swallow Defense allows the character to
+        use his full Dexterity + Melee dice pool to parry any one
+        incoming hand-to-hand attack that he is aware of.
+        &quot;
+
+    dipping_swallow_defense --&gt; bulwark_stance[Bulwark Stance]
+    click bulwark_stance callback &quot;
+        Bulwark Stance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Until next action&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Dipping Swallow Defense&lt;br&gt;
+        &lt;br&gt;
+        The character now has the ability to use defensive
+        Essence flows to gain perfect form and poise. Until her
+        next action, the character may use her full Dexterity +
+        Melee dice pool to parry any attack she is aware of, so long
+        as the attack has a physical component and is not specifically
+        noted as being impossible to block.
+        &quot;
+
+    bulwark_stance --&gt; heavenly_guardian_defense[Heavenly Guardian Defense]
+    click heavenly_guardian_defense callback &quot;
+        Heavenly Guardian Defense&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Bulwark Stance&lt;br&gt;
+        &lt;br&gt;
+        The character may block, without his player rolling, any
+        one attack against him that he is aware of, even if the attack
+        is not normally blockable, such as that from an arrow, a bolt
+        of acid or a hurtling boulder. Blocking the tremendously
+        powerful attacks ofbeings such as godlings and demon princes
+        will almost certainly cause non-magical weapons to perish,
+        but the attack will be stopped at no harm to the Exalted.
+        &quot;
+
+    bulwark_stance --&gt; fivefold_bulwark_stance[Fivefold Bulwark Stance]
+    click fivefold_bulwark_stance callback &quot;
+        Fivefold Bulwark Stance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Bulwark Stance&lt;br&gt;
+        &lt;br&gt;
+        For the rest of the scene, the character is surrounded by
+        glowing Essence arcs, outlining his ideal protective moves
+        and guiding his weapon in defense. The character may use
+        his full Dexterity + Melee dice pool to parry any attacks
+        against him of which he is aware, even missile weapons and
+        magical attacks that possess a physical component.
+        &quot;
+
+    dipping_swallow_defense --&gt; solar_counterattack[Solar Counterattack]
+    click solar_counterattack callback &quot;
+        Solar Counterattack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        &lt;br&gt;
+        Prerequisite Charms: Dipping Swallow Defense
+        Essence guides the character's tempo, allowing her
+        to strike when her enemy extends for an attack. The
+        character may immediately make an attack at her full
+        Dexterity + Melee dice pool against anyone executing a
+        hand-to-hand attack against her. This attack is made
+        after the roll to hit the counterattacking Exalted but
+        before damage is determined.&lt;br&gt;
+        The Solar Counterattack is not an action and does
+        not subtract from the character's dice pools or affect her
+        action for the turn. A character can make as many Solar
+        Counterattacks in a turn as she can afford to pay for, but a
+        character cannot use Solar Counterattack in response to
+        Solar Counterattack or any other counterattack Charm.
+        &quot;
+
+    solar_counterattack --&gt; ready_in_eight_direction_stance[Ready in Eight Directions&lt;br&gt;Stance]
+    click ready_in_eight_direction_stance callback &quot;
+        Ready in Eight Directions Stance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Solar Counterattack&lt;br&gt;
+        &lt;br&gt;
+        The character now rides the impulses of Essence
+        with supple perfection. To attack him is to invite a lethal
+        counterstroke. Until the character's next action, he may
+        respond to all incoming hand-to-hand attacks with an
+        immediate counterattack at his full Dexterity + Melee
+        dice pool. As with Solar Counterattack, Ready in Eight
+        Directions Stance comes after the opponent's attack roll
+        but before damage effects are applied. Ready in Eight
+        Directions Stance in no way mitigates the attack's effects.
+        A character cannot use Ready in Eight Directions
+        Stance in response to Solar Counterattack or any other
+        counterattack Charm.
+        &quot;
+
+    </pre></section>
+<section id="thrown">
+<h3>Thrown<a class="headerlink" href="#thrown" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    precision_of_the_striking_raptor[Precision of the&lt;br&gt;Striking Raptor]
+    click precision_of_the_striking_raptor callback &quot;
+        Precision of the Striking Raptor&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Thrown: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character infuses her thrown weapon, be it a
+        hatchet, knife or shuriken, with Essence, coming to a
+        perfect understanding of the weapon's balance and behavior
+        at the moment of release. For each mote of Essence
+        spent, the player may add 1 die to a Thrown attack roll but
+        cannot more than double her character's dice pool. The
+        player must declare how much Essence she is going to use
+        in this Charm prior to making the attack roll.
+        &quot;
+
+    precision_of_the_striking_raptor --&gt; joint_wounding_attack[Joint-Wounding Attack]
+    click joint_wounding_attack callback &quot;
+        Joint-Wounding Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Thrown: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Precision of the Striking Raptor&lt;br&gt;
+        &lt;br&gt;
+        The character attacks, not only to do damage, but to
+        stun or cripple his opponent. The character attacks and
+        damage is rolled as normal. However, for every health level
+        of damage the attack inflicts, the target suffers a -1 penalty
+        to all dice pools related to physical activity until the end
+        of the scene. It is up to the player and Storyteller to
+        describe how this is inflicted - it could be an injured
+        hand, slashed tendons or a stunning blow to the head.
+        While a very small number of creatures (such as animated
+        statues of solid iron or marble) might be unaffected by this
+        attack, it works on automata, the undead and so forth.
+        Storytellers will have to work with players to help describe
+        the attacks' adverse effects on more exotic opponents.
+        &quot;
+
+    joint_wounding_attack --&gt; falling_icicle_strike[Falling Icicle Strike]
+    click falling_icicle_strike callback &quot;
+        Falling Icicle Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Thrown: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Joint-Wounding Attack&lt;br&gt;
+        &lt;br&gt;
+        This deadly Charm is the friend of assassins everywhere.
+        The Exalted charges her weapon with Essence and strikes from
+        surprise. The defender applies soak, and the attacker's player
+        rolls for damage as normal, but doubles the number of successes
+        when determining damage. This Charm amplifies the natural
+        shock of a surprise attack and must be used from ambush — it
+        has no effect when used against an alerted opponent.
+        &quot;
+
+    joint_wounding_attack --&gt; observer_deceiving_attack[Observer-Deceiving Attack]
+    click observer_deceiving_attack callback &quot;
+        Observer-Deceiving Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Thrown: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Joint-Wounding Attack&lt;br&gt;
+        &lt;br&gt;
+        The art of thrown weapons is an art often practiced by
+        assassins and others who attack from ambush. Through the use
+        of this Charm, the character can mislead his target (or his
+        target's avengers) as to his location, buying him a chance to
+        escape or giving him a chance to make further attacks. The
+        Exalted makes an attack as normal, gaining no special bonuses
+        to attack or damage. However, attacks made using this Charm
+        appear to have been made from a totally different direction. For
+        example, a character attacking her target from behind might
+        inflict a wound to the chest or side. Obviously, the sight of the
+        character actually hurling the knife will ruin the effect, but the
+        difficulty of the Awareness roll to spot the attacker is raised by
+        one (or more, at the Storyteller's discretion).
+        &quot;
+
+    observer_deceiving_attack --&gt; mist_on_water_attack[Mist on Water Attack]
+    click mist_on_water_attack callback &quot;
+        Mist on Water Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes per turn&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Thrown: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Observer-Deceiving Attack&lt;br&gt;
+        &lt;br&gt;
+        The character strikes his unsuspecting opponent with a
+        weapon imbued with Essence, stifling her outcry and muting
+        the sensory impressions of the attack. The character may
+        impose silence on the attack for up to a number of turns equal
+        to his Essence score, but he must pay 3 motes per turn of silence.&lt;br&gt;
+        If the target is killed outright by the attack, her death willnot
+        be noticed for a number of tums equal to the length of the silence.
+        She will stand upright even though already dead, circumstances
+        will conspire to make her companions look away and assume she
+        us still alive, and so forth. If the target is still alive, she may react
+        to the attack normally, but she cannot speak or otherwise raise
+        an alarm for a number of turns equal to the silence's length.&lt;br&gt;
+        Obviously, someone seeing the target fighting is likely
+        to draw some obvious conclusions regardless of whether she
+        can speak or not. This Charm amplifies the natural shock of
+        a surprise attack and must be used from ambush — it has no
+        effect when used against an alerted opponent. It's left up to
+        the Storyteller's discretion as to what qualifies as &amp;quot;alerted&amp;quot;.
+        &quot;
+
+
+    triple_distance_attack_technique[Triple-Distance Attack&lt;br&gt;Technique]
+    click triple_distance_attack_technique callback &quot;
+        Triple-Distance Attack Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Thrown: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character imbues her arm and weapon with
+        Essence, lightening the weapon at the moment of launch
+        and correcting for tiny errors in aim. The weapon's range
+        is tripled for the purposes of determining penalties based
+        on distance to the target.
+        &quot;
+
+    triple_distance_attack_technique --&gt; cascade_of_cutting_terror[Cascade of Cutting Terror]
+    click cascade_of_cutting_terror callback &quot;
+        Cascade of Cutting Terror&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Thrown: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Triple-Distance Attack Technique&lt;br&gt;
+        &lt;br&gt;
+        The character hurls dozens or even hundreds of Essence
+        duplicates of his favored throwing weapon, saturating
+        an area with countless attacks. The character doubles his
+        Thrown pool for the purposes of the attack, which cannot
+        be dodged, only blocked. This attack effects only a single
+        individual. However, it can be used for utility purposes —
+        for example, to clear tree branches and undergrowth from
+        the façade of an overgrown stepped pyramid or to ruin the
+        rigging of a ship. The thrown weapons fade away a few
+        seconds after impact. The character need not have any
+        actual copies of the weapon he is conjuring.
+        &quot;
+
+    cascade_of_cutting_terror --&gt; shower_of_deadly_blades[Shower of Deadly Blades]
+    click shower_of_deadly_blades callback &quot;
+        Shower of Deadly Blades&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Thrown: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Cascade of Cutting Terror&lt;br&gt;
+        &lt;br&gt;
+        The Exalted hurls a number of throwing weapons with
+        the same hand. The character makes one attack roll but
+        applies the result to every weapon. The weapons can be
+        thrown at one or several targets without penalty. The
+        character cannot hurl more weapons than his Essence score and
+        must have enough ammunition. If this Charm is Comboed
+        with supplemental Charms, the cost of the supplemental
+        Charms must be paid for every weapon the character hurls.
+        &quot;
+
+    cascade_of_cutting_terror --&gt; fiery_solar_chakram[Fiery Solar Chakram]
+    click fiery_solar_chakram callback &quot;
+        Fiery Solar Chakram&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Thrown: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Cascade of Cutting Terror&lt;br&gt;
+        &lt;br&gt;
+        The character hurls a mote of burning light at her target.
+        This mote does a lethal damage of 6 + the number of extra
+        successes the character rolls on his attack and has a range of
+        100 yards. Against demons, ghosts or other creatures of the
+        night, the character may add a number of automatic successes
+        to her attack roll equal to her Essence score.
+        &quot;
+
+    </pre></section>
+</section>
+<section id="zenith-caste">
+<h2>Zenith Caste<a class="headerlink" href="#zenith-caste" title="Link to this heading">¶</a></h2>
+<section id="endurance">
+<h3>Endurance<a class="headerlink" href="#endurance" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    ox_body_technique[Ox-Body Technique]
+    click ox_body_technique callback &quot;
+        Ox-Body Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: None&lt;br&gt;
+        Duration: Permanent&lt;br&gt;
+        Type: Special&lt;br&gt;
+        Minimum Endurance: Varies&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The bodies of the Exalted are far more durable than
+        those of mere mortals. To help simulate this, an Exalted may
+        buy extra health levels as if they were a Charm. A player may
+        purchase this Charm up to once per dot of the Endurance
+        Ability his character possesses. Each Ox-Body Technique
+        Charm purchased can provide one of the following, at the
+        player's option, determined at the time of purchase:&lt;br&gt;
+        • One -0 health level&lt;br&gt;
+        • Two -1 health levels&lt;br&gt;
+        • One -1 health level and two -2 health levels&lt;br&gt;
+        &quot;
+
+    armored_scouts_invigoration[Armored Scout's&lt;br&gt;Invigoration]
+    click armored_scouts_invigoration callback &quot;
+        Armored Scout's Invigoration&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Endurance: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The Exalted causes her anima to encompass her gear as
+        well as her person, and she adapts perfectly to wearing her
+        armor, even in conditions of brutal heat or freezing cold. This
+        Charm reduces the fatigue value and mobility penalty of the
+        character's armor by one each. A fatigue value of zero means
+        that the character need never roll to see if he becomes fatigued
+        from wearing the armor. This Charm cannot reduce a
+        character's mobility penalty or fatigue value below zero.
+        &quot;
+
+    armored_scouts_invigoration --&gt; front_line_warriors_stamina[Front-Line Warrior's&lt;br&gt;Stamina]
+    click front_line_warriors_stamina callback &quot;
+        Front-Line Warrior's Stamina&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Endurance: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Armored Scout's Invigoration&lt;br&gt;
+        &lt;br&gt;
+        This Charm is a more powerful version of the Armored
+        Scout's Invigoration. This Charm reduces the fatigue value and
+        mobility penalty of the character's armor by two each. A fatigue
+        value of zero means that the character need never roll to see if he
+        becomes fatigued from wearing the armor. This Charm cannot
+        reduce a character's mobility penalty or fatigue value below zero.
+        &quot;
+
+    front_line_warriors_stamina --&gt; tiger_warriors_endurance[Tiger-Warrior's&lt;br&gt;Endurance]
+    click tiger_warriors_endurance callback &quot;
+        Tiger Warrior's Endurance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 15 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Endurance: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Front-Line Warrior's Stamina&lt;br&gt;
+        &lt;br&gt;
+        The most powerful of the armor Charms, Tiger-Warrior's
+        Endurance reduces the fatigue value and mobility penalty of
+        the character's armor by three each. A fatigue value of zero
+        means that the character need never roll to see if he becomes
+        fatigued from wearing the armor. This Charm cannot reduce
+        a character's mobility penalty or fatigue value below zero.
+        &quot;
+
+    essence_gathering_temper[Essence-Gathering Temper]
+    click essence_gathering_temper callback &quot;
+        Essence-Gathering Temper&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Endurance: 1&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        Many Exalted learn to tap the wellsprings of Essence
+        that are pain and rage. A character who knows this Charm
+        may activate it whenever he is hit in combat. For every point
+        of damage he takes before soak is applied, his player may roll
+        one die. Each success on this roll causes the character to gain
+        a mote of Essence. A character cannot gain more Essence
+        from any given attack than his Stamina score.
+        &quot;
+
+    essence_gathering_temper --&gt; willpower_enhancing_spirit[Willpower-Enhancing Spirit]
+    click willpower_enhancing_spirit callback &quot;
+        Willpower-Enhancing Spirit&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Endurance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Essence-Gathering Temper&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, the character does not simply tap her
+        inner rage and pain to refill her Essence pool, but internalizes it
+        to gain true inner strength. The Exalted's player may roll one die
+        for each health level of damage the character takes when hit in
+        combat (that is, damage successes rolled after the character's soak
+        is applied). Each success on this roll causes the Exalted to regain
+        a point of temporary Willpower. A character using this Charm
+        may not raise her temporary Willpower over its permanent value.
+        &quot;
+
+    willpower_enhancing_spirit --&gt; battle_fury_focus[Battle Fury Focus]
+    click battle_fury_focus callback &quot;
+        Battle Fury Focus&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Endurance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Willpower-Enhancing Spirit&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the character taps his
+        inner rage, not to replenish his stores of Essence, but in
+        conjunction with them. He channels his anger and infuses it
+        with primal magic, making him capable of superhuman feats.&lt;br&gt;
+        For the duration of the scene, the character has + 1 die to
+        all pools related to combat and subtracts -1 from all wound
+        penalties. However, the character must either be engaged in
+        combat or attempting to become so engaged. He can attack
+        at range and differentiate friend from foe, but his player must
+        make a Willpower roll for him to utter sentences of more than
+        a few words, move away from the enemy or perform a complex
+        action, such as retrieving a small object from a pack. Failure
+        means the character simply chooses to ignore whatever the
+        action is in favor of attacking or readying himself to attack.
+        Success means the character can do whatever it was he
+        wished, but the Battle Fury Focus immediately ends, with the
+        dice pool bonus dissipating and wound penalties returning.
+        The bonus vanishes, and the penalties return starting with
+        the action that broke the Battle Fury Focus.
+        &quot;
+
+    battle_fury_focus --&gt; bloodthirsty_sword_dancer_spirit[Bloodthirsty Sword-Dancer&lt;br&gt;Spirit]
+    click bloodthirsty_sword_dancer_spirit callback &quot;
+        Bloodthirsty Sword-Dancer Spirit&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Endurance: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Battle Fury Focus&lt;br&gt;
+        &lt;br&gt;
+        The battle-trance engendered by Bloodthirsty Sword-Dancer
+        Spirit is similar to that of Battle Fury Focus, but greater
+        in all ways. While in effect, the character is at +3 to all dice
+        pools and suffers no wound penalties. However, her awareness
+        of the world around her narrows to little more than a
+        narrow red tunnel with things that must die at the far end. The
+        character cannot use ranged weapons, cannot speak coherently,
+        cannot retreat and cannot choose to fight another foe
+        until the one she is attacking is definitively dead. She may
+        only attack or move toward the nearest foe via the most direct
+        route. A character under the effect of Bloodthirsty Sword-Dancer
+        Spirit may opt to die where she stands (for example,
+        when holding a gate or bridge against tremendous odds) and,
+        in this case, need not move toward the next enemy.&lt;br&gt;
+        The character may have difficulty telling friend from
+        foe if they are dressed similarly but will generally not attack
+        close friends, relatives or lovers unless they attempt to get
+        between her and her target or otherwise restrain her.&lt;br&gt;
+        Bloodthirsty Sword-Dancer Spirit lasts until the character
+        can no longer locate an enemy to kill.&lt;br&gt;
+        If the character wishes to leave the state earlier, her
+        player may make a Willpower roll to snap the character out
+        of it. The Willpower roll is normally difficulty 3, but it is made
+        at normal difficulty if there is a loved one or friend attempting
+        to restrain the character. Unfortunately, in the event that the
+        roll fails when a loved one is attempting to calm the character
+        down, she is almost certain to lash out at the unrecognizable
+        blur obstructing her from slaying her target.
+        &quot;
+
+    </pre></section>
+<section id="performance">
+<h3>Performance<a class="headerlink" href="#performance" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    respect_commanding_attitude[Respect Commanding&lt;br&gt;Attitude]
+    click respect_commanding_attitude callback &quot;
+        Respect Commanding Attitude&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows a character to command the respect
+        of an audience. While they may not be swayed by his
+        arguments or impressed by his performance, they will pay him
+        heed and refrain from heckling him or leaving the venue in
+        significant numbers prior to the end of the performance.
+        &quot;
+
+    respect_commanding_attitude --&gt; unruly_mob_dispersing_rebuke[Unruly Mob-Dispersing&lt;br&gt;Rebuke]
+    click unruly_mob_dispersing_rebuke callback &quot;
+        Unruly Mob-Dispersing Rebuke&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Respect Commanding Attitude&lt;br&gt;
+        &lt;br&gt;
+        Violent mobs can endanger even the Exalted. Their numbers
+        can drag down even the mightiest of the Chosen, but those who
+        compose the mob are probably not normally so violent or dangerous.
+        Chances are, the riot has begun over some legitimate grievance
+        — laying about with lethal force is likely to cause serious repercussions.
+        Through the use of this Charm, a character can deliver astern
+        rebuke and shatter the inertia holding an angry mob together.
+        Without significant further impetus, the crowd will disperse. This
+        Charm does nothing to an organized or disciplined force.
+        &quot;
+
+    unruly_mob_dispersing_rebuke --&gt; rout_stemming_gesture[Rout-Stemming Gesture]
+    click rout_stemming_gesture callback &quot;
+        Rout-Stemming Gesture&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: 3 turns&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Unruly Mob Dispersing Rebuke&lt;br&gt;
+        &lt;br&gt;
+        If an angry mob is a danger to its victims, then a stampeding
+        crowd or a routing unit is a danger to everyone in the
+        vicinity. The crush of a panicked crowd will clog a door and
+        leave no room for escape, where an orderly exit would have
+        saved most or even all of the persons involved. A routing unit
+        will shatter, leaving its members vulnerable to attacks that
+        could never have been pressed home against the formation.&lt;br&gt;
+        When using this Charm, the character burns with an
+        incandescent blaze of Essence, radiating power and reassurance.
+        All those within a radius of (10 x the Exalted's Essence
+        rating) yards are immediately steadied. Those who have failed
+        Valor checks can roll again, and characters who must make
+        new Valor checks are assumed to succeed. Rout-Stemming
+        Gesture can even overcome supernatural panic, such as that
+        caused by the Terrifying Apparition of Glory Charm or by the
+        anima power of a Dawn Caste Solar Exalted.
+        &quot;
+
+    unruly_mob_dispersing_rebuke --&gt; fury_inciting_presence[Fury Inciting Presence]
+    click fury_inciting_presence callback &quot;
+        Fury Inciting Presence&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Unruly Mob Dispersing Rebuke&lt;br&gt;
+        &lt;br&gt;
+        The persuasive power of an Exalted channeling Essence
+        into Social Charms can raise mobs as well as disperse them.
+        With 10 to 20 minutes of haranguing a crowd on nearly any
+        subject, an Exalted can whip the listeners into an angry mob.
+        A mob raised in this fashion lasts a number of hours equal to
+        the character's Essence rating but (like a natural mob) will
+        disperse if subjected to organized opposition that cannot be
+        immediately overwhelmed or if the mob is left idle without
+        things to smash or burn for more than 10 or 20 minutes.
+        &quot;
+
+    fury_inciting_presence --&gt; heroism_encouraging_presence[Heroism-Encouraging&lt;br&gt;Presence]
+    click heroism_encouraging_presence callback &quot;
+        Heroism-Encouraging Presence&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Fury Inciting Presence&lt;br&gt;
+        &lt;br&gt;
+        The Solar Exalted can inspire far more than simple
+        mob violence. An Exalted in battle can radiate the
+        confidence and the surety of the Unconquered Sun,
+        lifting the souls of those around her and inspiring them
+        to feats of great heroism. All friendly troops within a
+        radius equal to the character's Essence x 100 yards are
+        affected. While subject to this Charm, assume that
+        individual soldiers all operate with a bonus die to all
+        combat-related dice pools from improved morale and do
+        not fail Valor rolls. The effect on the overall outcome of
+        the battle is up to the Storyteller to decide, but it should
+        have considerable influence.
+        &quot;
+
+    tiger_warrior_training_technique[Tiger-Warrior Training&lt;br&gt;Technique]
+    rout_stemming_gesture --&gt; tiger_warrior_training_technique
+    heroism_encouraging_presence --&gt; tiger_warrior_training_technique
+    click tiger_warrior_training_technique callback &quot;
+        Tiger-Warrior Training Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 2 Willpower&lt;br&gt;
+        Duration: One week&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        &lt;br&gt;
+        Prerequisite Charms: Heroism-Encouraging Presence, Rout-Stemming Gesture
+        Actual combat is only the end of a long process that
+        begins with the recruitment and training of the soldiers.
+        Exalted who know the Tiger- Warrior Training Technique
+        Charm can take even the worst gutter-sweepings or bandits
+        and train them into a deadly, disciplined fighting
+        force. Characters may supervise the training of up to (their
+        Essence rating x 100) soldiers in a given week. Soldiers
+        trained for one or more months by Exalted using this
+        Charm should be treated as elite troops — they are well-disciplined,
+        have ratings of at least 3 in the relevant
+        combat Abilities, at least one specialty, Valor ratings of at
+        least 3 and at least one Physical Attribute at 3. Already-trained
+        troops or troops trained for more than one month
+        can excel even these ratings.
+        &quot;
+
+    masterful_performance_exercise[Masterful Performance&lt;br&gt;Exercise]
+    click masterful_performance_exercise callback &quot;
+        Masterful Performance Exercise&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes per success&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Performance: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character channels Essence through his voice or
+        his instrument, enhancing his delivery and making the
+        final result flow far more effectively than it would natu-
+        rally. To use this Charm, the player first makes a regular
+        Charisma + Performance roll for the character. Then, the
+        player may &amp;quot;buy&amp;quot; additional successes, up to (the character's
+        permanent Essence rating + the number of successes rolled
+        on the Charisma + Performance roll). Each success bought
+        in this fashion costs 2 motes of Essence.
+        &quot;
+
+    phantom_conjuring_performance[Phantom Conjuring&lt;br&gt;Performance]
+    masterful_performance_exercise --&gt; phantom_conjuring_performance
+    respect_commanding_attitude --&gt; phantom_conjuring_performance
+    click phantom_conjuring_performance callback &quot;
+        Phantom Conjuring Performance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Performance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Masterful Performance Exercise, Respect-Commanding Attitude&lt;br&gt;
+        &lt;br&gt;
+        A character who possesses this Charm can give a
+        performance so compelling that it plays out in the form
+        of phantom images that swirl through the air around
+        her. If it is a narrative performance, then the images
+        illustrate the narrative, while if it is an abstract performance,
+        then the images simply underscore and highlight
+        the performance. Typically, this adds a number of dice
+        equal to the character's Essence rating to the player's
+        next Charisma + Performance roll. Note that the images
+        actually appear, fading in and out of existence
+        around the character. This Charm is compatible with
+        Masterful Performance Exercise.
+        &quot;
+
+    masterful_performance_exercise --&gt; heart_compelling_methodology[Hearth-Compelling&lt;br&gt;Methodology]
+    click heart_compelling_methodology callback &quot;
+        Hearth-Compelling Methodology&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Performance: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Masterful Performance Exercise&lt;br&gt;
+        &lt;br&gt;
+        The character can channel Essence through her performance
+        to evoke a certain emotion in those who witness it.
+        The player chooses the emotion to be evoked, which may be
+        anger, fear, pride, happiness, jealousy or whatever else the
+        player wishes. He then makes a Manipulation + Performance
+        roll for the character. Targets with a Willpower
+        lower than the number of successes the player achieves on
+        this roll are overcome with the emotion in question and act
+        accordingly. Those with Willpower below twice the number
+        of successes rolled may make a Willpower roll to resist
+        the emotion. Those whose Willpower is greater than twice
+        the number of successes are unaffected.
+        &quot;
+
+    memory_reweaving_discipline[Memory-Reweaving&lt;br&gt;Discipline]
+    phantom_conjuring_performance --&gt; memory_reweaving_discipline
+    heart_compelling_methodology --&gt; memory_reweaving_discipline
+    click memory_reweaving_discipline callback &quot;
+        Memory-Reweaving Discipline&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Heart-Compelling Method, Phantom-Conjuring Performance&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows a character to weave a narrative
+        so plausible and so compelling that those who hear it
+        forget the truth of a matter and come to believe the
+        narrative. The player makes a Manipulation + Performance
+        roll. The number of successes determines how
+        much evidence to the contrary the target must be con-
+        fronted with before he is able to shake off the lingering
+        effects of the Charm. For each success, the target must be
+        presented with one piece of evidence that contradicts the
+        narrative. A Solar Exalted in a situation where there is
+        very little clear evidence can effectively rewrite history
+        with a little careful planning.&lt;br&gt;
+        Note that this Charm need not be used as part of a
+        performance, per se. Characters who know it can use also
+        it during conversation, making them quite dangerous in
+        the world of courtly intrigue.
+        &quot;
+
+    </pre></section>
+<section id="presence">
+<h3>Presence<a class="headerlink" href="#presence" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    harmonious_presence_meditation[Harmonious Presence&lt;br&gt;Meditation]
+    click harmonious_presence_meditation callback &quot;
+        Harmonious Presence Meditation&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One hour&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        An Exalted using this Charm increases her personal magnetism
+        greatly, making her words seem wise and her arguments
+        persuasive. While this Charm is in effect, add a number of dice
+        equal to her permanent Essence to any Socialize, Presence or
+        Bureaucracy rolls that involve one-on-one interactions.
+        &quot;
+
+    harmonious_presence_meditation --&gt; listener_swaying_argument[Listener-Swaying&lt;br&gt;Argument]
+    click listener_swaying_argument callback &quot;
+        Listener-Swaying Argument&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes per die, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Presence: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Harmonious Presence Meditation&lt;br&gt;
+        &lt;br&gt;
+        The character can use Essence to make himself almost
+        irresistibly persuasive. For every two motes of Essence spent
+        on this Charm, add another die to any Socialize, Presence or
+        Bureaucracy roll involving one-on-one interaction. A character
+        cannot more than double his pool using this Charm.
+        &quot;
+
+    listener_swaying_argument --&gt; hypnotic_tongue_technique[Hypnotic Tongue Technique]
+    click hypnotic_tongue_technique callback &quot;
+        Hypnotic Tongue Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: Special&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Listener-Swaying Argument&lt;br&gt;
+        &lt;br&gt;
+        Through this Charm, an Exalted can program a target to
+        undertake an action at a future time. The Exalted must touch
+        the target, and the player makes an opposed Willpower roll.
+        If the Exalted wins the Willpower roll, she may give the target
+        an unspoken command. This command can be as specific and
+        elaborate as the character wishes, and the target will not be
+        aware of having received it. The suggestion will stay in place
+        for a number of days equal to the Charisma of the Exalted
+        using the Charm, after which the target forgets it.&lt;br&gt;
+        The command can take no more time to execute than the
+        Exalted's Essence score in tums. The target can forget or remember
+        the act after executing it, at the choice of the Exalted when the
+        suggestion is implanted. Characters will not attack themselves or
+        others unless already strongly predisposed to do so. If the target wins
+        the Willpower roll, she is instantly aware of what the Exalted has
+        attempted to do and what the suggestion and conditions were.
+        &quot;
+
+    harmonious_presence_meditation --&gt; majestic_radiant_presence[Majestic Radiant Presence]
+    click majestic_radiant_presence callback &quot;
+        Majestic Radiant Presence&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Harmonious Presence Meditation&lt;br&gt;
+        &lt;br&gt;
+        A character with this Charm active burns with the
+        incandescent radiance of the Unconquered Sun. The
+        players of characters attempting to attack the Exalted or to
+        stand against him in argument must make a successful
+        Willpower roll to have their characters do so. This Charm
+        is not compatible with the Dawn Caste anima power.
+        &quot;
+
+    majestic_radiant_presence --&gt; underlying_promoting_touch[Underlying Promoting&lt;br&gt;Touch]
+    click underlying_promoting_touch callback &quot;
+        Underlying Promoting Touch&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Majestic Radiant Presence
+        &lt;br&gt;
+        This Charm causes the target (typically a mortal servant
+        of the Exalted) to be imbued with the majesty of the Exalted's
+        office. While this Charm is in effect, individuals will treat him
+        with the respect and deference they would normally reserve for
+        the Exalted who used the Charm (or for any powerful magical
+        being, if they are not acquainted with the target's benefactor).
+        Players who wish their characters to do otherwise must succeed
+        at a Willpower roll with a difficulty of 1 + the Essence score of
+        the Exalted who deputized the character.
+        &quot;
+
+    majestic_radiant_presence --&gt; terrifying_apparition_of_glory[Terrifying Apparition&lt;br&gt;of Glory]
+    click terrifying_apparition_of_glory callback &quot;
+        Terrifying Apparition of Glory&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Majestic Radiant Presence&lt;br&gt;
+        &lt;br&gt;
+        If the Majestic Radiant Presence Charm makes the character
+        seem terrible and powerful, then Terrifying Apparition of
+        Glory makes him unspeakably so. While Terrifying Apparition
+        of Glory is in effect, a successful Valor roll is required to attack
+        the character. Most animals, even trained attack animals, will
+        simply flee. Players of characters who are not actively hostile to
+        the Exalted using Terrifying Apparition of Glory must make a
+        successful Conviction roll not to obey immediately any non-suicidal
+        orders the character gives. This compulsion lasts for at
+        least a scene after the target leaves the Exalted's presence.
+        Those who are able to attack the Exalted do so at a die penalty
+        equal to the character's Essence score. This Charm is not
+        compatible with the Dawn Caste's anima ability.
+        &quot;
+
+    </pre></section>
+<section id="resistance">
+<h3>Resistance<a class="headerlink" href="#resistance" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    durability_of_oak_meditation[Durability of Oak&lt;br&gt;Meditation]
+    click durability_of_oak_meditation callback &quot;
+        Durability of Oak Meditation&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die
+        Duration: One scene
+        Type: Simple
+        Minimum Resistance: 1
+        Minimum Essence: 1
+        Prerequisite Charms: None
+        The Exalted uses Essence to enhance his ability to withstand
+        attack. The player may roll up to his character's Stamina
+        + Resistance in dice, but must spend one mote of Essence per
+        die rolled. For every success on this roll, the character adds 1 to
+        his bashing soak for the remainder of the scene. This Charm
+        may be used again on subsequent rounds, but a character
+        cannot gain more dice of bashing soak via Durability of Oak
+        Meditation than his Stamina + Resistance.
+        &quot;
+
+    durability_of_oak_meditation --&gt; iron_skin_concentration[Iron Skin Concentration]
+    click iron_skin_concentration callback &quot;
+        Iron Skin Concentration&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes, 1 Willpower&lt;br&gt;
+        Duration: Varies&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Resistance: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Durability of Oak Meditation&lt;br&gt;
+        &lt;br&gt;
+        The character's anima hardens, and his skin is made incredibly
+        difficult to cut or pierce. The player makes a Stamina +
+        Resistance roll. For a number of turns equal to the character's
+        Essence + the number of successes the player rolls on the Resistance
+        roll, the character soaks lethal damage with his bashing soak. This
+        Charm cannot be used by characters wearing armor.
+        &quot;
+
+    durability_of_oak_meditation --&gt; spirit_strengthens_the_skin[Spirit Strengthens the Skin]
+    click spirit_strengthens_the_skin callback &quot;
+        Spirit Strengthens the Skin&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes per point&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Durability of Oak Meditation&lt;br&gt;
+        &lt;br&gt;
+        The Solar pours Essence into her skin and muscles,
+        hardening and toughening them far beyond those of any
+        mere mortal. The Exalted may add up to her score in the
+        Resistance Ability to her bashing soak, at a cost of 3
+        Essence motes per additional point of bashing soak. These
+        additional points of bashing soak are above and beyond
+        those provided by Durability of Oak Meditation and do
+        not count against that Charm's maximum soak bonus.&lt;br&gt;
+        The character can use Spirit Strengthens the Skin
+        more than once during a scene, increasing her soak repeatedly
+        as her assessment of the situation changes. However,
+        a character cannot at any given time gain more points of
+        bashing soak through Spirit Strengthens the Skin than her
+        score in the Resistance Ability.
+        &quot;
+
+    adamant_skin_technique[Adamant Skin Technique]
+    iron_skin_concentration --&gt; adamant_skin_technique
+    spirit_strengthens_the_skin --&gt; adamant_skin_technique
+    click adamant_skin_technique callback &quot;
+        Adamant Skin Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 health level, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Resistance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Iron Skin Concentration, Spirit Strengthens the Skin&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the Exalted hardens
+        his skin into impenetrability, sacrificing some of his life
+        force to gain the strength of unbreakable diamond. The
+        character using this Charm takes no damage whatsoever
+        from a single attack. This Charm does not protect the
+        character from the secondary effects of the attack - for
+        example, a character smashed down through a sheet of ice
+        and into a frozen lake by the blow of a giant beastman's
+        club would take no damage from the impact or from
+        passing through the ice, but she would have to contend
+        with the dangers of drowning and hypothermia.&lt;br&gt;
+        The Adamant Skin Technique can also be used to
+        withstand physical damage not associated with combat. It is as
+        effective at withstanding the impact of a fall as the blow of a
+        sword. However, Storytellers should keep in mind that the
+        defense offered by the Adamant Skin Technique is of a very
+        short duration — the character might use it to withstand the
+        impact of a falling idol or a plunge from the top of a tower, but
+        a character who hurled himself into a blazing firepit would only
+        be protected for a second or two. A character must invoke the
+        Adamant Skin Technique before his opponent's attack roll.
+        &quot;
+
+    durability_of_oak_meditation --&gt; unfailing_tortoise_technique[Unfailing Tortoise&lt;br&gt;Technique]
+    click unfailing_tortoise_technique callback &quot;
+        Unfailing Tortoise Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Resistance: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Durability of Oak Meditation&lt;br&gt;
+        &lt;br&gt;
+        This Charm strengthens the character's awareness of the
+        world around him and allows him to resist even unanticipated
+        attacks. If hit by an attack, even one he is not anticipating, the
+        character may spend 1 mote of Essence to add his Resistance
+        score to his bashing soak total for the purposes of soaking that
+        attack. Characters must invoke Unfailing Tortoise Technique
+        before soak is subtracted from the damage.
+        &quot;
+
+    unfailing_tortoise_technique --&gt; iron_kettle_body[Iron Kettle Body]
+    click iron_kettle_body callback &quot;
+        Iron Kettle Body&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Resistance: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Unfailing Tortoise Technique&lt;br&gt;
+        &lt;br&gt;
+        As Unfailing Tortoise Technique, but the character's
+        Resistance is also added to her lethal soak as well.
+        &quot;
+
+    whirlwind_armor_donning_prana[Whirlwind Armor-Donning&lt;br&gt;Prana]
+    click whirlwind_armor_donning_prana callback &quot;
+        Whirlwind Armor-Donning Prana&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes per turn&lt;br&gt;
+        Duration: Special&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the character can
+        speed the process of donning his armor. The character can
+        don his armor in a number of turns equal to the armor's
+        mobility penalty. Each turn of effort costs 2 motes of
+        Essence. The character must have the armor readily available
+        and at hand to don it so quickly — this Charm does
+        not speed the process of getting the armor out of a trunk.
+        &quot;
+
+    whirlwind_armor_donning_prana --&gt; hauberk_summoning_gesture[Hauberk-Summoning&lt;br&gt;Gesture]
+    click hauberk_summoning_gesture callback &quot;
+        Hauberk-Summoning Gesture&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes
+        Duration: Instant
+        Type: Simple
+        Minimum Resistance: 3
+        Minimum Essence: 3
+        Prerequisite Charms: Whirlwind Armor-Donning Prana
+
+        This Charm allows a character to call her armor to her. In
+        an eyeblink, it appears on her. She is instantly fully armored,
+        with all the straps and buckles adjusted properly. If the character
+        uses a shield, that appears on her person as well. The
+        character cannot call her armor from further away than 100
+        yards x her Essence rating. This Charm can't be used to steal
+        armor off an opponent or off a display dummy— the armor must
+        be the character's own. She must have worn it for at least several
+        hours and established her possession of it.
+        &quot;
+
+    hauberk_summoning_gesture --&gt; glorious_solar_plate[Glorious Solar Plate]
+    click glorious_solar_plate callback &quot;
+        Glorious Solar Plate&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Hauberk-Summoning Gesture&lt;br&gt;
+        &lt;br&gt;
+        The characters materializes his Essence into a suit of
+        golden lamellar armor. This armor is an expression of the
+        character's anima and, so, reflects his personality and predispositions.
+        It can be sleek, imposing, ornate, simple — it is the
+        character's ideal armor. Regardless of its appearance, the
+        armor glows with an golden inner light bright enough to read
+        by in a several-yard radius. Glorious Solar Plate provides 10
+        lethal and 10 bashing soak, with only a -1 penalty to maneuvers
+        requiring dexterity and grace.
+        &quot;
+
+    poison_resisting_meditation[Poison-Resisting&lt;br&gt;Meditation]
+    click poison_resisting_meditation callback &quot;
+        Poison-Resisting Meditation&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Resistance: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character's metabolism is strengthened by Essence,
+        allowing him to easily endure the effects of toxins.
+        The player may add a number of automatic successes
+        equal to the character's Stamina to her Stamina + Resistance
+        roll to resist the effects of poison. Though even the
+        hardiest Exalted can still be slain by massive doses of
+        poison while using this Charm, they are largely invulnerable
+        to poisoned food and envenomed blades. Characters
+        need not invoke this Charm before exposure to poison —
+        they may call upon its effects after they are exposed but
+        before the Stamina + Resistance roll is made to survive
+        the toxin. &lt;br&gt;
+        Use of this Charm allows a character to withstand
+        incidental toxins such as spoiled food. A character under
+        the effect of this Charm may also consume without penalty
+        a number of drinks equal to his Stamina.
+        &quot;
+
+    illness_resisting_meditation[Illness-Resisting&lt;br&gt;Meditation]
+    click illness_resisting_meditation callback &quot;
+        Illness-Resisting Meditation&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Resistance: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        While the Exalted are little-affected by disease, they
+        can still become sick. Fevers can slow them at critical
+        moments. Further, while the Chosen can withstand even
+        the most serious illnesses with little more than a feeling of
+        weariness and discomfort, those illnesses are as lethal as
+        ever to mortals who contract them from exposure to the
+        infected Exalted.&lt;br&gt;
+        This Charm allows the player to add a number of
+        automatic successes equal to her character's Stamina to the
+        Stamina + Resistance roll to avoid contracting an illness.
+        Further, the player may add a like number of automatic
+        successes to her character's daily Stamina + Endurance roll
+        to overcome an illness she has already contracted.
+        &quot;
+
+    immunity_to_everything_technique[Immunity to Everything&lt;br&gt;Technique]
+    poison_resisting_meditation --&gt; immunity_to_everything_technique
+    illness_resisting_meditation --&gt; immunity_to_everything_technique
+    click immunity_to_everything_technique callback &quot;
+        Immunity to Everything Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Poison-Resisting Meditation&lt;br&gt;
+        &lt;br&gt;
+        The Exalted's body becomes a perfect vessel of Essence,
+        immune to all toxins and poisons. The character is immune
+        to all poisons and toxins, including those that would normally
+        be fatal to Exalted. This Charm does not protect the
+        character from the effects of diseases, however.
+        &quot;
+
+    </pre></section>
+<section id="survival">
+<h3>Survival<a class="headerlink" href="#survival" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    friendship_with_animals_approach[Friendship with&lt;br&gt;Animals Approach]
+    click friendship_with_animals_approach callback &quot;
+        Friendship with Animals Approach&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: One Scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the character can deal
+        well with nearly any wild animal. The character must be
+        within one yard of the target per point of her Essence.
+        Herbivores and smaller omnivores will become somewhat
+        docile, even letting the character pet or handle them.
+        Predators are less susceptible to this power, and most will
+        simply let the character pass unmolested through their
+        territory. This power does not work on sentient animals,
+        animals that are trained to attack or animals that are
+        insane from pain, hunger or disease.
+        &quot;
+
+    friendship_with_animals_approach --&gt; spirit_tied_pet[Spirit-Tied Pet]
+    click spirit_tied_pet callback &quot;
+        Spirit-Tied Pet&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower, 1 experience point&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Friendship With Animals Approach&lt;br&gt;
+        &lt;br&gt;
+        By handling an animal, feeding it, petting and scratching
+        it and otherwise interacting with it, a character who
+        knows this Charm can forge a permanent magical bond
+        with the beast. Each time the character uses this Charm
+        on the target, it is as if he gained a point of the Familiar
+        Background with the target animal as the Familiar. So a
+        character who wished to tame a tiger would have to use
+        it at least three times to cause the beast to become well-disposed
+        to him and an additional two times to gain the
+        ability to see through the beast's eyes and communicate
+        with it. Obviously, using this Charm on animals such as
+        bears, tigers and tyrant lizards can be problematic, as they
+        will not allow themselves to be handled, even under the
+        effects of Friendship with Animals Approach. A strong
+        wrestling ability or a willingness to raise the animal from
+        a cub is useful in such instances. Characters cannot have
+        more than one Spirit-Tied Pet at a time.
+        &quot;
+
+    spirit_tied_pet --&gt; bestial_traits_technique[Bestial Traits Technique]
+    click bestial_traits_technique callback &quot;
+        Bestial Traits Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Spirit-Tied Pet&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, a character can gain
+        the traits of her Spirit-Tied Pet. Each use of this Charm
+        allows the character to gain a single characteristic. Obviously,
+        animals have too many characteristics to easily
+        model them all. Typically, the character will gain the
+        ability to climb rough surfaces, fall great distances without
+        &quot;
+
+    hardship_surviving_mendicant_spirit[Hardship-Surviving&lt;br&gt;Mendicant Spirit]
+    click hardship_surviving_mendicant_spirit callback &quot;
+        Hardship-Surviving Mendicant Spirit&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the character becomes
+        able to survive in even the most hostile conditions without
+        special preparations. Blazing heat or terrible cold are no danger
+        to the character, nor are hypothermia from rain or water
+        exposure, trench foot, snow and sand blindness, leeches, mosquitoes
+        and other potentially deadly biting insects — the
+        character is perfectly at home in a harsh wilderness environment.
+        This magic protects the character even if he personally
+        is not prepared for the environment. A character using Hardship-Surviving
+        Mendicant Spirit is at home on a glacier if he is
+        bundled in the warmest clothing available or if he is clad in
+        nothing but silk slippers and a pair of pantaloons (though he
+        may have difficulty walking over ice in silk slippers).&lt;br&gt;
+        Note that this Charm does not protect against the most
+        hostile of environments - ocean survival, underwater
+        survival or the extreme elemental effects near the elemental
+        poles. To exist in those environments, characters must use
+        the Element-Resisting Prana Charm (p. 182).
+        &quot;
+
+    hardship_surviving_mendicant_spirit --&gt; trackless_region_navigation_charm[Trackless Region&lt;br&gt;Navigation Charm]
+    click trackless_region_navigation_charm callback &quot;
+        Trackless Region Navigation Charm&lt;br&gt;
+        &lt;br&gt;
+        Cost: 7 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Hardship-Surviving Mendicant Spirit&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, the character can find his way safely and
+        surely through even the worst terrain. The character (and a
+        number of persons following him equal to twice his Essence
+        score) can travel through even the worst terrain with ease.
+        Travel through most terrain (forest, light marsh, rock and sand
+        desert) is about as fast as if the character was walking over flat,
+        level ground - characters will travel about 20 miles a day.
+        Travel over very harsh terrain (muskeg at high summer, glacier,
+        bayou, dense scrub or fresh-growth jungle) is at half this speed.
+        &quot;
+
+    trackless_region_navigation_charm --&gt; food_gathering_technique[Food Gathering Technique]
+    click food_gathering_technique callback &quot;
+        Food Gathering Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes per person&lt;br&gt;
+        Duration: One hour&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Trackless Region Navigation Charm&lt;br&gt;
+        &lt;br&gt;
+        A character with this Charm will never go hungry. In
+        a hour of foraging for food, she can gather enough nuts,
+        berries, edible tubers, slugs, bugs and small animals to make
+        a large meal for a number of people equal to her Essence
+        score. Note that this skill typically does not involve
+        hunting game, and so, the character does not need a
+        hunting tool such as a spear, sling or bow — the character
+        will probably not bring back anything larger than a rabbit.
+        Storytellers may wish to make it more difficult to gather
+        food in certain environments (deep sandy desert and pack
+        ice, for example) but should not impose a penalty greater
+        than halving the Exalted's take. This is, after all, magic.
+        &quot;
+
+    hardship_surviving_mendicant_spirit --&gt; unshakeable_bloodhound_technique[Unshakeable Bloodhound&lt;br&gt;Technique]
+    click unshakeable_bloodhound_technique callback &quot;
+        Unshakeable Bloodhound Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Hardship-Surviving Mendicant Spirit&lt;br&gt;
+        &lt;br&gt;
+        The character can track anyone in the wilderness,
+        following the most minute signs and, sometimes, nothing
+        more than a magical intuition of where the target has gone.
+        The character can track anyone through any terrain, so long
+        as the trail is fresh enough. Over difficult terrain for tracking
+        (open ocean, rocky desert, grasslands), the trail remains
+        fresh for typically one day per point of the tracking character's
+        permanent Essence. Over terrain more amenable to tracking,
+        it can be two or even three times that long.&lt;br&gt;
+        This ability can be foiled by the Traceless Passage Charm.
+        If the target is using Traceless Passage, then the tracker and
+        target resolve the matter as if neither was using magic. See
+        &amp;quot;Tracking&amp;quot; on page 245 of the Drama chapter for details.
+        &quot;
+
+    hardship_surviving_mendicant_spirit --&gt; eye_deceiving_camouflage[Eye-Deceiving Camouflage]
+    click eye_deceiving_camouflage callback &quot;
+        Eye-Deceiving Camouflage&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Hardship-Surviving Mendicant Spirit&lt;br&gt;
+        &lt;br&gt;
+        Trough the use of this Charm, the character can conceal
+        himself or an object no bigger around than his Essence rating
+        in yards so well as to be undetectable. In order to gain the
+        benefit of this Charm, the character must spend one hour
+        camouflaging his position or the object to be concealed. So
+        long as the character stays still and takes no violent action, he
+        will not be seen. Note that a character or object camouflaged
+        in this fashion is essentially fixed in position. If the character
+        moves suddenly or at great length, the effect is disturbed and
+        the Charm ceases to have its effect.&lt;br&gt;
+        Camouflaged objects or characters can be found
+        after a number of hours of intensive searching in their
+        immediate area equal to the camouflaging character's
+        Essence score or by a character with Unsurpassed (Sense)
+        Discipline or some similarly powerful perception power
+        whose player succeeds in a Perception + Awareness roll
+        against the character's Intelligence + Survival. Note that
+        camouflage covers scent and other detection methods as
+        well as visual stealth.
+        &quot;
+
+    unshakeable_bloodhound_technique --&gt; traceless_passage[Traceless Passage]
+    click traceless_passage callback &quot;
+        Traceless Passage&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes per person, 1 Willpower&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Unshakeable Bloodhound Technique&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the character can
+        make his passage and the passage of additional persons
+        equal to his Essence score totally traceless. They cannot be
+        tracked by conventional means, not even with the aid of
+        tracking animals or other tracking aids. Only characters
+        with the Unshakeable Bloodhound Technique Charm
+        can follow them, and even then, it's played out as if they
+        were tracking him without magical assistance.
+        &quot;
+
+    hardship_surviving_mendicant_spirit --&gt; element_resisting_prana[Element-Resisting Prana]
+    click element_resisting_prana callback &quot;
+        Element-Resisting Prana&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Hardship-Surviving Mendicant Spirit&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the character becomes
+        able to survive in any environment. The character
+        can survive in extreme environments, such as the extreme
+        heat and toxic fumes within the caldera of active volcanoes,
+        can exist underwater with no ill effects and can even
+        exist without danger in conditions as harsh as those of the
+        elemental poles. While this Charm is active, the character
+        adds her Endurance to her soak when she takes damage
+        from elemental sources such as cold, fire and lightning.
+        &quot;
+
+    </pre></section>
+</section>
+<section id="twilight-caste">
+<h2>Twilight Caste<a class="headerlink" href="#twilight-caste" title="Link to this heading">¶</a></h2>
+<section id="craft">
+<h3>Craft<a class="headerlink" href="#craft" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    flawless_handiwork_method[Flawless Handiwork Method]
+    click flawless_handiwork_method callback &quot;
+        Flawless Handiwork Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes per success&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Craft: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character channels Essence through his hands and
+        tools, enhancing his efforts and making the final produce of his
+        work far more impressive than the fruits of any mortal craftsman's
+        labor. To use this Charm, the player first makes a regular
+        Intelligence or Stamina + Craft roll for the character. Then, the
+        player may &amp;quot;buy&amp;quot; additional successes, up to the character's
+        Essence rating + the number of successes rolled on the Craft roll.
+        Each success bought in this fashion costs 3 motes of Essence.&lt;br&gt;
+        Storytellers should consider strongly granting special bonuses
+        to objects that are made from good or exceptional
+        materials to start and that have astonishing numbers of successes.
+        For more details on this, see the &amp;quot;Craft&amp;quot; section of the
+        Drama chapter, page 245. Note that Flawless Handiwork
+        Method's effects do not occur instantly — the character must
+        still take the regular amount of time necessary to construct an
+        object of that type, though he need take no longer. An Exalted
+        craftsman can knock together in a morning items that would
+        take a mortal craftsman months or years to produce.
+        &quot;
+
+    flawless_handiwork_method --&gt; object_strengthening_touch[Object-Strengthening&lt;br&gt;Touch]
+    click object_strengthening_touch callback &quot;
+        Object-Strengthening Touch&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One Scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Craft: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Flawless Handiwork Method&lt;br&gt;
+        &lt;br&gt;
+        This Charm strengthens objects, allowing them to
+        endure far more damage than normal. Very fragile objects
+        such as those made of paper or glass cannot be damaged
+        without the full exertion of a Strength at least equal to the
+        Essence rating of the character who used the Object-
+        Strengthening Touch Charm on them. Objects that are
+        not so fragile take roughly twice as much force as normal
+        to harm. For rules on breaking and lifting objects, see the
+        &amp;quot;Athletics&amp;quot; section of the Drama chapter, page 251.&lt;br&gt;
+        Object-Strengthening Touch does not just protect
+        against breakage — strengthened objects are also resistant
+        to fire, acid, freezing and other forms of damage. The
+        character using Object-Strengthening Touch must touch
+        the object in order to cause this Charm to take effect.
+        Characters can strengthen any object, not just objects that
+        are at the focus of the character's Craft Ability. This
+        Charm does not work on animals or sentient beings.
+        &quot;
+
+    object_strengthening_touch --&gt; durability_enhancing_technique[Durability-Enhancing&lt;br&gt;Technique]
+    click durability_enhancing_technique callback &quot;
+        Durability-Enhancing Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Craft: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Object-Strengthening Touch&lt;br&gt;
+        &lt;br&gt;
+        Objects subjected to this Charm do not have the immense
+        durability of objects subjected to Object-Strengthening
+        Touch, but the enhancement is permanent. While objects
+        treated with Durability-Enhancing Technique are not completely
+        immune to the ravages of time and nature, they are
+        very resistant, enduring at least 10 times as long as untreated
+        objects. Objects treated with Durability-Enhancing Technique
+        add twice the Exalted's score in the Crafts Ability to the
+        Strength + Athletics dice pool required to break them. Items
+        such as swords and axes that have been treated with
+        Durability-Enhancing Technique hold their edges longer, even if
+        used to hack through doors or otherwise mistreated
+        &quot;
+
+    object_strengthening_touch --&gt; shattering_grasp[Shattering Grasp]
+    click shattering_grasp callback &quot;
+        Shattering Grasp&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Craft: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Object-Strengthening Touch&lt;br&gt;
+        &lt;br&gt;
+        Someone who works with a material for a long time
+        learns its strengths and weaknesses. A character who knows
+        this Charm can channel Essence to intensify this knowledge
+        and can rend stone and metal with his bare hands and tear
+        apart wooden doors with his fingers. A character using the
+        Shattering Grasp Charm multiplies his Strength + Athletics
+        by 2 for the purposes of breaking or damaging the basic
+        material he works with for the focus of his Craft skill -
+        typically metal, stone or wood. If the character is making an
+        attack against such an object, double his damage successes.
+        Tanners and leathercrafters do not gain the ability to do extra
+        damage in hand-to-hand combat with this Charm.
+        &quot;
+
+    shattering_grasp --&gt; craftsman_needs_no_tools[Craftsman Needs No Tools]
+    click craftsman_needs_no_tools callback &quot;
+        Craftsman Needs No Tools&lt;br&gt;
+        &lt;br&gt;
+        Cost: 7 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Craft: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Shattering Grasp&lt;br&gt;
+        &lt;br&gt;
+        The greatest burden of a craftsman is the pressing need for
+        tools and a workshop. For an Exalted who has mastered this
+        Charm, that is no problem at all. A character who knows this
+        Charm can work directly with her chosen material, shaping it
+        with hands and voice, laboring without any need for tools.
+        Characters using this Charm slowly croon and purr to their
+        work as they shape and form the material with their fingertips
+        &quot;
+
+    object_strengthening_touch --&gt; chaos_resistance_preparation[Chaos-Resistance&lt;br&gt;Preparation]
+    click chaos_resistance_preparation callback &quot;
+        Chaos-Resistance Preparation&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Craft: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Object-Strengthening Touch&lt;br&gt;
+        The ravages of the Wyld can twist objects, as well as men. For
+        every object that is made better suited to its task, 100 are ruined by
+        the energies of unbounded change. This Charm makes an object
+        far more resistant to the twisting effects of Wyld energy. Chaos
+        Resistance Preparation is not as complete as the Lore Charms that:
+        stabilize persons, causing an object protected by this Charm to take
+        only take 10 times as long to change as it would normally. However,
+        the effects of Chaos-Resistance Preparation are permanent. Objects
+        treated with this Charm lend no protective qualities to their
+        bearers — a suit of Chaos-Resistant armor will not protect the
+        character wearing it from Wyld-induced mutation.
+        &quot;
+
+    crack_mending_technique[Crack-Mending Technique]
+    durability_enhancing_technique --&gt; crack_mending_technique
+    craftsman_needs_no_tools --&gt; crack_mending_technique
+    click crack_mending_technique callback &quot;
+        Crack-Mending Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower, 1 health level&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Craft: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Craftsman Needs No Tools, Durability-Enhancing Technique&lt;br&gt;
+        &lt;br&gt;
+        A character using the Crack-Mending Technique can fix
+        any broken object, no matter how severely damaged, so long as
+        it was not totally unmade (for example, by powerful sorcery,
+        digestion in a Behemoth's gullet or immersion in molten rock).
+        The character must spend a number of hours working on the
+        object equal to 10 - her Essence, slowly piecing it back together
+        and coaxing the fragments to bind to one another.&lt;br&gt;
+        This Charm can even remake extremely damaged things
+        such as shattered crystal and burnt paper, but it cannot
+        remake metaphorical or conceptual things —it cannot mend
+        broken hearts, oaths or promises, for example, nor can it
+        remake shattered dreams or smashed hopes. Also, it cannot
+        remake an object more yards in radius than the character's
+        Essence rating. Crack-Mending Technique can restore damaged
+        items of First Age manufacture but can do nothing to
+        repair those whose magic has fled or been exhausted.
+        &quot;
+
+    </pre></section>
+<section id="investigation">
+<h3>Investigation<a class="headerlink" href="#investigation" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    ten_magistrate_eyes[Ten Magistrate Eyes]
+    click ten_magistrate_eyes callback &quot;
+        Ten Magistrate Eyes&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Investigation: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character attunes himself to the world's ambient
+        Essence and becomes preternaturally aware of the order of and
+        links between objects. For the remainder of the scene, add his
+        Essence score in automatic successes to any Investigation rolls.
+        &quot;
+
+    ten_magistrate_eyes --&gt; crafty_observation_method[Crafty Observation Method]
+    click crafty_observation_method callback &quot;
+        Crafty Observation Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Investigation: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Ten Magistrate Eyes&lt;br&gt;
+        &lt;br&gt;
+        By examining the undisturbed physical evidence of
+        an event, the character can reconstruct the physical
+        process behind that event. For example, finding a body
+        with a knife wound, the character can tell what sort of
+        knife was used, from what direction the blow was struck
+        and so on. This effect need not be limited to bodies and
+        the scenes of crimes — characters can likewise recon-
+        struct the evidence left behind by liaisons, examine the
+        details of a camp site, etc.&lt;br&gt;
+        Obviously, the event must have left significant physical
+        evidence for a character to analyze. If the evidence is
+        disturbed significantly, the Charm doesn't function automatically.
+        The player must instead make a Perception
+        + Investigation roll with a difficulty determined by the
+        amount of disturbance the evidence has been subjected
+        to, with success indicating that the character can reconstruct
+        the events.
+        &quot;
+
+    ten_magistrate_eyes --&gt; judges_ear_technique[Judge's Ear Technique]
+    click judges_ear_technique callback &quot;
+        Judge's Ear Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Ability: 2&lt;br&gt;
+        Minimum Investigation: 1&lt;br&gt;
+        Prerequisite Charms: Ten Magistrate Eyes&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows the character to tell if a specific
+        individual is lying to her. This Charm is infallible, within its
+        limits. If the target refuses to answer or answers in an unclear
+        fashion, the Charm will not indicate him as having lied.
+        Likewise, it can only detect lies the target knows to be lies. If the
+        target sincerely believes something to be the case, then the
+        Charm will not detect him as having lied. This Charm in no
+        way compels or reveals the truth — it only detects falsehoods.
+        &quot;
+
+    judges_ear_technique --&gt; evidence_discerning_method[Evidence-Discerning&lt;br&gt;Method]
+    click evidence_discerning_method callback &quot;
+        Evidence-Discerning Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Investigation: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Judge's Ear Technique&lt;br&gt;
+        &lt;br&gt;
+        By sorting through possessions, physical evidence and so
+        on left by a particular individual, an Exalted using this Charm
+        may construct a psychological profile of the character who left
+        the evidence. The clarity of this profile is determined by the
+        amount of material the Exalted employing this Charm has to
+        sort through. The more material, the more likely the character
+        is to derive an accurate picture; the use of the Investigation
+        Charm Crafty Observation Method is extremely beneficial as
+        an aid to the use of this Charm. If there is material mixed in
+        that does not actually belong to the target of analysis, then the
+        Exalted's picture of the target will be distorted.
+        &quot;
+
+    judges_ear_technique --&gt; irresistable_questioning_technique[Irresistible Questioning&lt;br&gt;Technique]
+    click irresistable_questioning_technique callback &quot;
+        Irresistible Questioning Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Investigation: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Judge's Ear Technique&lt;br&gt;
+        &lt;br&gt;
+        An Exalted using this Charm can make her questions
+        impossible to resist. During the extended interrogation of a
+        target whose Willpower is equal to or less than her Essence, she
+        may wring him utterly dry — he is unable to lie, dissimulate or
+        otherwise prevaricate. If the target has Willpower equal to or
+        less than twice the Exalted's Essence, the Exalted's player may
+        make a Manipulation + Investigation roll. For every success,
+        the target must truthfully and to the best of his ability answer
+        a single question. The Charm Ten Magistrate Eyes cannot be
+        used to gain extra successes on this roll.&lt;br&gt;
+        This Charm does not work on targets whose Willpower is
+        higher than twice the Exalted's Essence. In any event, this
+        Charm loses its effectiveness with repeated use — if used by an
+        Exalted on the same target more than once during a period equal
+        to the target's Willpower in weeks, the Charm has no effect.
+        &quot;
+
+    unknown_wisdow_epiphany[Unknown Wisdom Epiphany]
+    evidence_discerning_method --&gt; unknown_wisdow_epiphany
+    crafty_observation_method --&gt; unknown_wisdow_epiphany
+    click unknown_wisdow_epiphany callback &quot;
+        Unknown Wisdom Epiphany&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Investigation: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Crafty Observation Method, Evidence-Discerning Method&lt;br&gt;
+        &lt;br&gt;
+        By visiting the scene of an event and attuning himself to
+        local Essence flows and residues, the Exalted can psychically
+        reenact history, reconstructing the event to the point of
+        gaining insight he could not normally receive from evidence
+        alone. The character must have time alone to go over the
+        scene, touch and examine the largely undisturbed evidence
+        and &amp;quot;get into the shoes&amp;quot; of one of the people involved.&lt;br&gt;
+        The Exalted experiences flashbacks of the event from the
+        perspective of the person he is emulating and gains insight into
+        the target's persona, including her Nature and her superficial
+        feelings and attitudes over the course of the reenacted event.
+        Characters involved in reenacting an event are rarely danger-
+        ous, but if disturbed, they may very briefly cling to the adopted
+        persona before snapping back to the current moment.
+        &quot;
+
+    </pre></section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.webp" alt="Logo of Exalted 1e Charms"/>
+            </a></p>
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Solar Charms</a><ul>
+<li><a class="reference internal" href="#dawn-caste">Dawn Caste</a><ul>
+<li><a class="reference internal" href="#archery">Archery</a></li>
+<li><a class="reference internal" href="#brawl">Brawl</a></li>
+<li><a class="reference internal" href="#martial-arts">Martial Arts</a></li>
+<li><a class="reference internal" href="#melee">Melee</a></li>
+<li><a class="reference internal" href="#thrown">Thrown</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#zenith-caste">Zenith Caste</a><ul>
+<li><a class="reference internal" href="#endurance">Endurance</a></li>
+<li><a class="reference internal" href="#performance">Performance</a></li>
+<li><a class="reference internal" href="#presence">Presence</a></li>
+<li><a class="reference internal" href="#resistance">Resistance</a></li>
+<li><a class="reference internal" href="#survival">Survival</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#twilight-caste">Twilight Caste</a><ul>
+<li><a class="reference internal" href="#craft">Craft</a></li>
+<li><a class="reference internal" href="#investigation">Investigation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="index.html"
+                          title="previous chapter">Contents, indices and tables</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/solar.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Contents, indices and tables"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Exalted 1e Charms 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Solar Charms</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, White-Wolf..
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>
