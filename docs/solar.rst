@@ -66,3 +66,7 @@ Lore
 Medicine
 ^^^^^^^^
 .. mermaid:: ./mermaid/solar/twilight_medicine.mmd
+
+Occult
+^^^^^^
+.. mermaid:: ./mermaid/solar/twilight_occult.mmd

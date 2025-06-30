@@ -1,0 +1,206 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    terrestrial_circle_sorcery[Terrestrial Circle Sorcery]
+    click terrestrial_circle_sorcery callback "
+        Terrestrial Circle Sorcery<br>
+        <br>
+        Cost: 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Occult: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: None<br>
+        <br>
+        While some mortals can manage, by supreme effort, to
+        perform magical rituals, magic is simply another, more
+        draining way of channeling Essence to the Exalted. Characters
+        who have learned the Terrestrial Circle Sorcery Charm
+        are able to hone their will into the needle-sharp focus
+        needed to perform magic of the so-called First Circle. Note
+        that the cost of the Charm is only to enable the character to
+        cast a single spell. The actual spell itself has an Essence cost,
+        often very high, that the character must pay to actualize the
+        spell. This cost is listed in the spell's description. For
+        descriptions of spells, see the &quot;Sorcery&quot; section on page 215.
+        Terrestrial Circle Sorcery can never be part of a Combo.
+        "
+
+    terrestrial_circle_sorcery --> celestial_circle_sorcery[Celestial Circle Sorcery]
+    click celestial_circle_sorcery callback "
+        Celestial Circle Sorcery<br>
+        <br>
+        Cost: 2 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Occult: 4<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Terrestrial Circle Sorcery<br>
+        <br>
+        Similar to, but more powerful than, magic of the
+        Terrestrial Circle, Celestial Circle magic is mighty indeed.
+        Dragon-Blooded and mortals are unable to practice this
+        form of magic, but Celestial Exalted can. It is worth noting
+        that there are only a handful of individuals in the world
+        who know the secrets of Celestial Circle magic. Characters
+        who wish to learn magic of this circle will have to find
+        these entities and convince them to share their wisdom.
+        Celestial Circle Sorcery can never be part of a Combo.
+        "
+
+    celestial_circle_sorcery --> solar_circle_sorcery[Solar Circle Sorcery]
+    click solar_circle_sorcery callback "
+        Solar Circle Sorcery<br>
+        <br>
+        Cost: 3 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Occult: 5<br>
+        Minimum Essence: 5<br>
+        Prerequisite Charms: Celestial Circle Sorcery<br>
+        <br>
+        The most powerful form of magic available to the
+        Exalted. Sorcery of the Solar Circle rivals the anger of the Five
+        Elemental Dragons in its power. Only the Solar Exalted can
+        practice magic of this magnitude, and most of it was lost after
+        the murder of the Solars, many centuries ago. As a result, there
+        are practically no spells of the Solar Circle left outside the
+        Imperial Library. Characters who wish to reclaim the sorcerous
+        power that is their legacy without centuries of magical
+        research will have to either search far and wide for magic or
+        else bargain with the Yozis and Deathlords for such scraps of
+        power as they can be persuaded to part with. Solar Circle
+        Sorcery can never be part of a Combo.
+        "
+
+    spirit_detecting_glance[Spirit Detecting Glance]
+    click spirit_detecting_glance callback "
+        Spirit Detecting Glance<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Occult: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows the character to perceive
+        unmanifested spirits. Normally, spirits must manifest (appear
+        but remain intangible) or materialize (appear in physical
+        form) to be perceived. However, characters with this Charm
+        can see spirits when they have done neither. Spirits in their
+        natural form appear much as they do when manifested or
+        materialized, though the character can clearly distinguish
+        them from those that are actually visible. Note that this
+        Charm does not make the character any more able to strike
+        or harm spirits, though it does make it much easier for her to
+        direct her attacks. For more information on spirits and their
+        powers, see the Antagonists chapter, page 289.
+        "
+
+    spirit_detecting_glance --> spirit_cutting_attack[Spirit-Cutting Attack]
+    click spirit_cutting_attack callback "
+        Spirit-Cutting Attack<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Occult: 2<br>
+        Minimum Essence: 2<br>
+        <br>
+        Prerequisite Charms: Spirit-Detecting Glance<br>
+        This Charm allows the character to launch a single
+        attack at an unmanifested spirit. For the purposes of the
+        individual attack, the character attacks the spirit as if it
+        was manifested normally. Characters who do not have
+        Spirit-Detecting Glance active (or who are not using some
+        other means of perceiving spirits) will be attacking blind
+        — a +2 difficulty modifier. Spirits killed via Spirit-Cutting
+        Attack will eventually regenerate, but this process takes
+        some time (potentially decades) and is quite unpleasant
+        for the spirit. Spirit-Cutting Attack is explicitly permitted
+        to be part of a Combo with Charms of other Abilities.
+        "
+
+    spirit_cutting_attack --> ghost_eating_technique[Ghost-Eating Technique]
+    click ghost_eating_technique callback "
+        Ghost-Eating Technique<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Occult: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Spirit-Cutting Attack<br>
+        <br>
+        This Charm is similar to Spirit-Cutting Attack, but the
+        character's blows are much more dangerous. Name aside, the
+        character does not actually place the spirit into her mouth,
+        though she does consume its Essence, and its death at her
+        hands is permanent. A blow struck using this Charm does
+        aggravated damage to unmaterialized spirits and drains away
+        motes of the spirit's Essence equal to twice the character's
+        permanent Essence, which are added to the character's own
+        store of motes. Drained motes that would take the character
+        above her normal maximum are still drained but dissipate
+        without benefit to the Exalted. Spirits that have materialized
+        are no longer vulnerable to the Ghost-Eating Technique.
+        This Charm is the weapon by which the Exalted slew the
+        enemies of the gods, and spirits hate and fear it. The Ghost-Eating
+        Technique is explicitly permitted to be part of a
+        Combo with Charms of other Abilities.
+        "
+
+    spirit_cutting_attack --> spirit_repelling_diagram[Spirit-Repelling Diagram]
+    click spirit_repelling_diagram callback "
+        Spirit-Repelling Diagram<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Occult: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spirit-Cutting Attack<br>
+        <br>
+        Through the use of this Charm, characters can drive away
+        unmaterialized spirits from an area and bar them from entry. The
+        character spreads her arms, and a blazing circle of gold-white light
+        erupts a number of yards in radius equal to the character's Essence.
+        All unmaterialized spirits within the diagram who have a lower
+        maximum Essence pool than the character must either flee the
+        warded area or materialize. Unmaterialized spirits outside the
+        diagram with maximum Essence pools lower than the character's
+        may not use their Charms to effect those within the diagram, nor
+        may they enter it. Spirits that have materialized are no longer
+        subject to the diagram.
+        "
+
+    spirit_detecting_glance --> all_encompassing_sorcerers_sight[All-Encompassing<br>Sorcerer's Sight]
+    click all_encompassing_sorcerers_sight callback "
+        All-Encompassing Sorcerer's Sight<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Occult: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spirit-Detecting Glance<br>
+        <br>
+        This powerful Charm allows a character to perceive the
+        flows of Essence at work in the world around him. Far more
+        detailed than Spirit-Detecting Glance or the intuition for
+        magic at work that every sorcerer possesses, this Charm allows
+        characters to actually see the Essence of the world. Characters
+        can not only perceive spirits, they can also see the great gauzy
+        rivers of the dragon tracks and the shatteringly brilliant fountains
+        and spires of Manses and Demesnes. Exalted using this
+        Charm can distinguish the diamond-bright lattices of Charms
+        and sorcery at work, allowing them to spot most enchantments
+        without the need for any roll. With a successful Intelligence +
+        Occult roll, a character can even identify the kind of enchantment
+        and (if he is sufficiently familiar with her handiwork) the
+        Exalted who caused the magic to come into existence.
+        "
