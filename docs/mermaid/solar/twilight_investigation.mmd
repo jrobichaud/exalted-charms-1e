@@ -1,0 +1,155 @@
+---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    ten_magistrate_eyes[Ten Magistrate Eyes]
+    click ten_magistrate_eyes callback "
+        Ten Magistrate Eyes<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Supplemental<br>
+        Minimum Investigation: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character attunes himself to the world's ambient
+        Essence and becomes preternaturally aware of the order of and
+        links between objects. For the remainder of the scene, add his
+        Essence score in automatic successes to any Investigation rolls.
+        "
+
+    ten_magistrate_eyes --> crafty_observation_method[Crafty Observation Method]
+    click crafty_observation_method callback "
+        Crafty Observation Method<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Investigation: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Ten Magistrate Eyes<br>
+        <br>
+        By examining the undisturbed physical evidence of
+        an event, the character can reconstruct the physical
+        process behind that event. For example, finding a body
+        with a knife wound, the character can tell what sort of
+        knife was used, from what direction the blow was struck
+        and so on. This effect need not be limited to bodies and
+        the scenes of crimes — characters can likewise recon-
+        struct the evidence left behind by liaisons, examine the
+        details of a camp site, etc.<br>
+        Obviously, the event must have left significant physical
+        evidence for a character to analyze. If the evidence is
+        disturbed significantly, the Charm doesn't function automatically.
+        The player must instead make a Perception
+        + Investigation roll with a difficulty determined by the
+        amount of disturbance the evidence has been subjected
+        to, with success indicating that the character can reconstruct
+        the events.
+        "
+
+    ten_magistrate_eyes --> judges_ear_technique[Judge's Ear Technique]
+    click judges_ear_technique callback "
+        Judge's Ear Technique<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Ability: 2<br>
+        Minimum Investigation: 1<br>
+        Prerequisite Charms: Ten Magistrate Eyes<br>
+        <br>
+        This Charm allows the character to tell if a specific
+        individual is lying to her. This Charm is infallible, within its
+        limits. If the target refuses to answer or answers in an unclear
+        fashion, the Charm will not indicate him as having lied.
+        Likewise, it can only detect lies the target knows to be lies. If the
+        target sincerely believes something to be the case, then the
+        Charm will not detect him as having lied. This Charm in no
+        way compels or reveals the truth — it only detects falsehoods.
+        "
+
+    judges_ear_technique --> evidence_discerning_method[Evidence-Discerning<br>Method]
+    click evidence_discerning_method callback "
+        Evidence-Discerning Method<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Investigation: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Judge's Ear Technique<br>
+        <br>
+        By sorting through possessions, physical evidence and so
+        on left by a particular individual, an Exalted using this Charm
+        may construct a psychological profile of the character who left
+        the evidence. The clarity of this profile is determined by the
+        amount of material the Exalted employing this Charm has to
+        sort through. The more material, the more likely the character
+        is to derive an accurate picture; the use of the Investigation
+        Charm Crafty Observation Method is extremely beneficial as
+        an aid to the use of this Charm. If there is material mixed in
+        that does not actually belong to the target of analysis, then the
+        Exalted's picture of the target will be distorted.
+        "
+
+    judges_ear_technique --> irresistable_questioning_technique[Irresistible Questioning<br>Technique]
+    click irresistable_questioning_technique callback "
+        Irresistible Questioning Technique<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Investigation: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Judge's Ear Technique<br>
+        <br>
+        An Exalted using this Charm can make her questions
+        impossible to resist. During the extended interrogation of a
+        target whose Willpower is equal to or less than her Essence, she
+        may wring him utterly dry — he is unable to lie, dissimulate or
+        otherwise prevaricate. If the target has Willpower equal to or
+        less than twice the Exalted's Essence, the Exalted's player may
+        make a Manipulation + Investigation roll. For every success,
+        the target must truthfully and to the best of his ability answer
+        a single question. The Charm Ten Magistrate Eyes cannot be
+        used to gain extra successes on this roll.<br>
+        This Charm does not work on targets whose Willpower is
+        higher than twice the Exalted's Essence. In any event, this
+        Charm loses its effectiveness with repeated use — if used by an
+        Exalted on the same target more than once during a period equal
+        to the target's Willpower in weeks, the Charm has no effect.
+        "
+
+    unknown_wisdow_epiphany[Unknown Wisdom Epiphany]
+    evidence_discerning_method --> unknown_wisdow_epiphany
+    crafty_observation_method --> unknown_wisdow_epiphany
+    click unknown_wisdow_epiphany callback "
+        Unknown Wisdom Epiphany<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Investigation: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Crafty Observation Method, Evidence-Discerning Method<br>
+        <br>
+        By visiting the scene of an event and attuning himself to
+        local Essence flows and residues, the Exalted can psychically
+        reenact history, reconstructing the event to the point of
+        gaining insight he could not normally receive from evidence
+        alone. The character must have time alone to go over the
+        scene, touch and examine the largely undisturbed evidence
+        and &quot;get into the shoes&quot; of one of the people involved.<br>
+        The Exalted experiences flashbacks of the event from the
+        perspective of the person he is emulating and gains insight into
+        the target's persona, including her Nature and her superficial
+        feelings and attitudes over the course of the reenacted event.
+        Characters involved in reenacting an event are rarely danger-
+        ous, but if disturbed, they may very briefly cling to the adopted
+        persona before snapping back to the current moment.
+        "

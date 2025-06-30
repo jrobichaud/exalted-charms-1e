@@ -54,3 +54,7 @@ Twilight Caste
 Craft
 ^^^^^
 .. mermaid:: ./mermaid/solar/twilight_craft.mmd
+
+Investigation
+^^^^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/twilight_investigation.mmd
