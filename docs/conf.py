@@ -26,7 +26,7 @@ master_doc = "index"
 # -- Project information -----------------------------------------------------
 
 project = "Exalted 1e Charms"
-copyright = "White-Wolf"
+copyright = ": All the content belong to White-Wolf. I am not affiliated with them in any way except in my love for their games"
 author = "Jules Robichaud-Gagnon"
 
 
@@ -70,3 +70,8 @@ html_css_files = [
 ]
 
 html_logo = "_static/logo.webp"
+html_show_sphinx = False
+html_domain_indices = False
+html_sidebars = {
+    '**': ['globaltoc.html'],
+}

@@ -62,3 +62,7 @@ Investigation
 Lore
 ^^^^
 .. mermaid:: ./mermaid/solar/twilight_lore.mmd
+
+Medicine
+^^^^^^^^
+.. mermaid:: ./mermaid/solar/twilight_medicine.mmd

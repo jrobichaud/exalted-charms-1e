@@ -1,0 +1,263 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    body_mending_meditation[Body-Mending Meditation]
+    click body_mending_meditation callback "
+        Body-Mending Meditation<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One day<br>
+        Type: Reflexive<br>
+        Minimum Medicine: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows the character to channel Essence
+        through her own body, knitting broken bones and mending
+        cut and burnt flesh with supernatural speed. When this
+        Charm is active, the character heals at 10 times the normal
+        rate. For healing times, see the Drama chapter, page 234. This
+        Charm works only on the Exalted herself and cannot be used
+        on others. This Charm does not speed the healing of aggravated
+        damage, nor does it allow the regeneration of amputated
+        or destroyed tissue — a character who loses an eye or hand will
+        have to seek more powerful magical remedies. Characters can
+        activate this Charm even if unconscious.
+        "
+
+    body_mending_meditation --> flawless_diagnosis_technique[Flawless Diagnosis<br>Technique]
+    click flawless_diagnosis_technique callback "
+        Flawless Diagnosis Technique<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Five minutes<br>
+        Type: Simple<br>
+        Minimum Medicine: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Through the use of this Charm, the character hones
+        his medical abilities to an unearthly degree. By examining
+        a patient closely and hearing about her symptoms, the
+        character can flawlessly diagnose her illness. Note that this
+        is an improvement of the character's perception, not
+        access to a vast store of medical wisdom - knowledge of
+        formal medicine is a function of the character's Medicine
+        and Lore skills. If the character has never heard of a disease,
+        she will only be able to diagnose its general type and
+        determine if it is magical in nature or not. The character's
+        ability to actually treat the disease will be strictly contingent
+        on her skill as a physician. However, regardless of her
+        degree of skill, she will never misdiagnose a disease, mis-
+        taking one she doesn't know for one she does.
+        "
+
+    flawless_diagnosis_technique --> ailment_rectifying_method[Ailment-Rectifying Method]
+    click ailment_rectifying_method callback "
+        Ailment-Rectifying Method<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: Six hours<br>
+        Type: Simple<br>
+        Minimum Medicine: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Flawless Diagnosis Technique<br>
+        <br>
+        The Charm Ailment-Rectifying Method allows an
+        Exalted to recover rapidly from even the most serious
+        illness. Non-life-threatening illnesses dissipate immediately.
+        The player of a character suffering from a more
+        serious ailment may make a Stamina + Resistance roll
+        (without any wound or disease-related penalties). Success
+        indicates that the character's illness fades over the
+        course of the Charm's duration. Very serious diseases may
+        require two or more successes, so it may take a character
+        several days of use to accumulate enough successes to
+        recover fully. However, even the most serious illnesses
+        are halted in their progress by this Charm, and even the
+        Great Contagion requires but five accumulated successes
+        to overcome. Note that this Charm can only be used on
+        the Exalted herself - to heal others of sickness, the
+        Exalted must use Contagion-Curing Touch.
+        "
+
+    ailment_rectifying_method --> contagion_curing_touch[Contagion-Curing Touch]
+    click contagion_curing_touch callback "
+        Contagion-Curing Touch<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Medicine: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Ailment-Rectifying Method<br>
+        <br>
+        Through the use of this Charm, the character can
+        successfully treat serious or even normally incurable diseases.
+        The Exalted's player makes an Intelligence +
+        Medicine roll. Normal diseases are cured with a single
+        success, while more serious ailments may require as many
+        as five successes. Regardless of success, once treatment has
+        begun, the course of the disease is halted, and unless use of
+        this Charm is discontinued, the illness will grow no worse.
+        No medicine is required, though the person being treated
+        must be bathed, kept warm, fed well and given all the other
+        prerequisites of bed rest. The Exalted himself must perform
+        this care and, as a result, cannot treat more individuals
+        during a given day than his score in the Medicine Ability.
+        "
+
+    body_mending_meditation --> touch_of_blissful_release[Touch of Blissful Release]
+    click touch_of_blissful_release callback "
+        Touch of Blissful Release<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Six hours<br>
+        Type: Simple<br>
+        Minimum Medicine: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Body-Mending Meditation<br>
+        <br>
+        The Touch of Blissful Release allows the character to
+        lessen the suffering of wounded or ill individuals, dulling
+        their pains and easing the discomforts of illness. Wounded
+        characters reduce their wound penalties by two, and sick
+        characters likewise ignore up to two dice of negative
+        symptoms. However, Touch of Blissful Release has a
+        narcotic effect as well as an analgesic one, and characters
+        under its influence are at a -3 die penalty to performing any
+        action that requires thought, memory or coordination.
+        "
+
+    body_mending_meditation --> grievous_injury_recovery_method[Grievous Injury<br>Recovery Method]
+    click grievous_injury_recovery_method callback "
+        Grievous Injury Recovery Method<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Medicine: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Body-Mending Meditation<br>
+        <br>
+        By channeling Essence through her body, the character
+        can increase her rate of healing immensely. Over the
+        duration of the Charm, which must be spent in bed rest,
+        the character heals health levels equal to her Essence score
+        plus a number of additional health levels equal to the
+        number of successes the character's player achieves on a
+        Stamina + Endurance roll. This Charm does not speed the
+        healing of aggravated damage, nor does it allow the regeneration
+        of amputated or destroyed tissue.
+        "
+
+    wound_mending_care_technique[Wound-Mending<br>Care Technique]
+    touch_of_blissful_release --> wound_mending_care_technique
+    grievous_injury_recovery_method --> wound_mending_care_technique
+    click wound_mending_care_technique callback "
+        Wound-Mending Care Technique<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Medicine: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Grievous Injury Recovery Method, Touch of Blissful Release<br>
+        <br>
+        Similar in effect to Grievous Injury Recovery Method,
+        this Charm allows the character to heal others at an
+        incredible pace. For each day the character spends treating
+        the subject (who must rest in bed during the treatment),
+        she heals health levels equal to her permanent Essence
+        plus a number of additional levels equal to the number of
+        successes her player achieves on an Intelligence + Medicine
+        roll. A character cannot tend to more than one
+        individual undergoing Wound-Mending Care Technique
+        at a time. This Charm does not speed the healing of
+        aggravated damage, nor does it allow the regeneration of
+        amputated or destroyed tissue.
+        "
+
+    anointment_of_miraculous_health[Anointment of Miraculous<br>Health]
+    contagion_curing_touch --> anointment_of_miraculous_health
+    wound_mending_care_technique --> anointment_of_miraculous_health
+    click anointment_of_miraculous_health callback "
+        Anointment of Miraculous Health<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Contagion-Curing Touch, Wound-Mending Care Technique<br>
+        <br>
+        This Charm allows the character to actually cure
+        injuries with nothing but a touch. Where the character's
+        Essence-charged hands go, shattered bones are made whole
+        and torn flesh is instantly mended. With each use of this
+        Charm, the character instantly heals a number of health
+        levels equal to his Essence score. The Exalted cannot heal
+        herself with this Charm. This Charm does not speed the
+        healing of aggravated damage, nor does it allow the regeneration
+        of amputated or destroyed tissue.
+        "
+
+    bodily_regeneration_prana[Bodily Regeneration<br>Prana]
+    wound_mending_care_technique --> bodily_regeneration_prana
+    click bodily_regeneration_prana callback "
+        Bodily Regeneration Prana<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One hour<br>
+        Type: Simple<br>
+        Minimum Medicine: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Wound-Mending Care Technique<br>
+        <br>
+        The character enters a healing trance, during which he
+        loses all awareness of the world around him. For every hour
+        he is in this trance, he heals a number of health levels equal
+        to his Essence score. This healing trance will cure aggravated
+        damage, as well as allow the regrowth of destroyed
+        tissues, amputated limbs, lost eyes and so forth. Eyes, tongues,
+        hands, feet, mouths full of smashed teeth and other lesser
+        maimings are the equivalent of a health level. Lost limbs are
+        the equivalent of two health levels and, so, take two hours
+        each to regrow. During the period the Exalted is so entranced,
+        she regains no Essence - prolonged periods of
+        healing can leave a Solar helpless before her enemies.
+        "
+
+    healing_trance_meditation[Healing Trance<br>Meditation]
+    anointment_of_miraculous_health --> healing_trance_meditation
+    bodily_regeneration_prana --> healing_trance_meditation
+    click healing_trance_meditation callback "
+        Healing Trance Meditation<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One hour<br>
+        Type: Simple<br>
+        Minimum Medicine: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Anointment of Miraculous<br>
+        <br>
+        Health, Bodily Regeneration Prana
+        Similar to the Charm Bodily Regeneration Prana, the
+        Healing Trance Meditation Charm allows the character to
+        heal similarly serious injuries in others. The Exalted must
+        touch her target, and the target must be cooperative. Both
+        she and the target fall into a healing trance, during which
+        they have no awareness of the outside world. For each hour
+        they remain in this trance, the target heals a number of
+        health levels equal to the Exalted's Essence score. As with
+        Healing Trance Meditation, this Charm can heal aggravated
+        damage and replace lost limbs and other, similar
+        maimings. The times required to heal these injuries are as
+        for Bodily Regeneration Prana, above. Neither of the
+        characters involved regains Essence during the healing
+        period (assuming that the target has any Essence to regain
+        — he may, after all, be an unExalted mortal).
+        "
