@@ -15,8 +15,8 @@
     max-width: 500px;
     margin-left: -100px;
   }
-}
 
-.bodywrapper {
-  padding-bottom: 500px;
+  .bodywrapper {
+    padding-bottom: 500px;
+  }
 }
