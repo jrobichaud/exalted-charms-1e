@@ -86,3 +86,7 @@ Awareness
 Dodge
 ^^^^^
 .. mermaid:: ./mermaid/solar/night_dodge.mmd
+
+Larceny
+^^^^^^^
+.. mermaid:: ./mermaid/solar/night_larceny.mmd
