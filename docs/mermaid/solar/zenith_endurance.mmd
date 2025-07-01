@@ -49,7 +49,8 @@ flowchart TD
         character's mobility penalty or fatigue value below zero.
         "
 
-    armored_scouts_invigoration --> front_line_warriors_stamina[Front-Line Warrior's<br>Stamina]
+    front_line_warriors_stamina[Front-Line Warrior's<br>Stamina]
+    armored_scouts_invigoration --> front_line_warriors_stamina
     click front_line_warriors_stamina callback "
         Front-Line Warrior's Stamina<br>
         <br>
@@ -68,7 +69,8 @@ flowchart TD
         reduce a character's mobility penalty or fatigue value below zero.
         "
 
-    front_line_warriors_stamina --> tiger_warriors_endurance[Tiger-Warrior's<br>Endurance]
+    tiger_warriors_endurance[Tiger-Warrior's<br>Endurance]
+    front_line_warriors_stamina --> tiger_warriors_endurance
     click tiger_warriors_endurance callback "
         Tiger Warrior's Endurance<br>
         <br>
@@ -106,7 +108,8 @@ flowchart TD
         from any given attack than his Stamina score.
         "
 
-    essence_gathering_temper --> willpower_enhancing_spirit[Willpower-Enhancing Spirit]
+    willpower_enhancing_spirit[Willpower-Enhancing Spirit]
+    essence_gathering_temper --> willpower_enhancing_spirit
     click willpower_enhancing_spirit callback "
         Willpower-Enhancing Spirit<br>
         <br>
@@ -127,7 +130,8 @@ flowchart TD
         may not raise her temporary Willpower over its permanent value.
         "
 
-    willpower_enhancing_spirit --> battle_fury_focus[Battle Fury Focus]
+    battle_fury_focus[Battle Fury Focus]
+    willpower_enhancing_spirit --> battle_fury_focus
     click battle_fury_focus callback "
         Battle Fury Focus<br>
         <br>
@@ -159,7 +163,8 @@ flowchart TD
         the action that broke the Battle Fury Focus.
         "
 
-    battle_fury_focus --> bloodthirsty_sword_dancer_spirit[Bloodthirsty Sword-Dancer<br>Spirit]
+    bloodthirsty_sword_dancer_spirit[Bloodthirsty Sword-Dancer<br>Spirit]
+    battle_fury_focus --> bloodthirsty_sword_dancer_spirit
     click bloodthirsty_sword_dancer_spirit callback "
         Bloodthirsty Sword-Dancer Spirit<br>
         <br>

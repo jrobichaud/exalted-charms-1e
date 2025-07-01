@@ -26,7 +26,8 @@ flowchart TD
         in this Charm prior to making the attack roll.
         "
 
-    precision_of_the_striking_raptor --> joint_wounding_attack[Joint-Wounding Attack]
+    joint_wounding_attack[Joint-Wounding Attack]
+    precision_of_the_striking_raptor --> joint_wounding_attack
     click joint_wounding_attack callback "
         Joint-Wounding Attack<br>
         <br>
@@ -52,7 +53,8 @@ flowchart TD
         the attacks' adverse effects on more exotic opponents.
         "
 
-    joint_wounding_attack --> falling_icicle_strike[Falling Icicle Strike]
+    falling_icicle_strike[Falling Icicle Strike]
+    joint_wounding_attack --> falling_icicle_strike
     click falling_icicle_strike callback "
         Falling Icicle Strike<br>
         <br>
@@ -72,7 +74,8 @@ flowchart TD
         has no effect when used against an alerted opponent.
         "
 
-    joint_wounding_attack --> observer_deceiving_attack[Observer-Deceiving Attack]
+    observer_deceiving_attack[Observer-Deceiving Attack]
+    joint_wounding_attack --> observer_deceiving_attack
     click observer_deceiving_attack callback "
         Observer-Deceiving Attack<br>
         <br>
@@ -98,7 +101,8 @@ flowchart TD
         one (or more, at the Storyteller's discretion).
         "
 
-    observer_deceiving_attack --> mist_on_water_attack[Mist on Water Attack]
+    mist_on_water_attack[Mist on Water Attack]
+    observer_deceiving_attack --> mist_on_water_attack
     click mist_on_water_attack callback "
         Mist on Water Attack<br>
         <br>
@@ -129,7 +133,6 @@ flowchart TD
         the Storyteller's discretion as to what qualifies as &quot;alerted&quot;.
         "
 
-
     triple_distance_attack_technique[Triple-Distance Attack<br>Technique]
     click triple_distance_attack_technique callback "
         Triple-Distance Attack Technique<br>
@@ -148,7 +151,8 @@ flowchart TD
         on distance to the target.
         "
 
-    triple_distance_attack_technique --> cascade_of_cutting_terror[Cascade of Cutting Terror]
+    cascade_of_cutting_terror[Cascade of Cutting Terror]
+    triple_distance_attack_technique --> cascade_of_cutting_terror
     click cascade_of_cutting_terror callback "
         Cascade of Cutting Terror<br>
         <br>
@@ -172,7 +176,8 @@ flowchart TD
         actual copies of the weapon he is conjuring.
         "
 
-    cascade_of_cutting_terror --> shower_of_deadly_blades[Shower of Deadly Blades]
+    shower_of_deadly_blades[Shower of Deadly Blades]
+    cascade_of_cutting_terror --> shower_of_deadly_blades
     click shower_of_deadly_blades callback "
         Shower of Deadly Blades<br>
         <br>
@@ -193,7 +198,8 @@ flowchart TD
         Charms must be paid for every weapon the character hurls.
         "
 
-    cascade_of_cutting_terror --> fiery_solar_chakram[Fiery Solar Chakram]
+    fiery_solar_chakram[Fiery Solar Chakram]
+    cascade_of_cutting_terror --> fiery_solar_chakram
     click fiery_solar_chakram callback "
         Fiery Solar Chakram<br>
         <br>

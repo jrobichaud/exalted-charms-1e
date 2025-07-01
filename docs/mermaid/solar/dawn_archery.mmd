@@ -24,7 +24,8 @@ flowchart TD
         Archery dice pool. The player must declare how much Essence
         she is going to use in this Charm prior to making the attack roll."
 
-    wise_arrow --> sight_without_eyes[Sight Without Eyes]
+    sight_without_eyes[Sight Without Eyes]
+    wise_arrow --> sight_without_eyes
     click sight_without_eyes callback "
         Sight Without Eyes<br>
         <br>
@@ -43,7 +44,8 @@ flowchart TD
         "
 
 
-    sight_without_eyes --> accuracy_without_distance[Accuracy Without Distance]
+    accuracy_without_distance[Accuracy Without Distance]
+    sight_without_eyes --> accuracy_without_distance
     click accuracy_without_distance callback "
         Accuracy Without Distance<br>
         <br>
@@ -66,7 +68,8 @@ flowchart TD
         called shot to the eye, throat or what have you.
         "
 
-    sight_without_eyes --> there_is_no_wind[The Is No Wind]
+    there_is_no_wind[The Is No Wind]
+    sight_without_eyes --> there_is_no_wind
     click there_is_no_wind callback "
         The Is No Wind<br>
         <br>
@@ -85,7 +88,8 @@ flowchart TD
         a dice pool for multiple actions is not an environmental penalty.
         "
 
-    wise_arrow --> trance_of_unhesitating_speed[Trance of<br>Unhesitating Speed]
+    trance_of_unhesitating_speed[Trance of<br>Unhesitating Speed]
+    wise_arrow --> trance_of_unhesitating_speed
     click trance_of_unhesitating_speed callback "
         Trance of<br>Unhesitating Speed<br>
         <br>
@@ -115,7 +119,9 @@ flowchart TD
         attack rolls. Obviously, a character cannot attack more
         times than she has ammunition.
         "
-    trance_of_unhesitating_speed --> arrow_storm_technique[Arrow Storm Technique]
+
+    arrow_storm_technique[Arrow Storm Technique]
+    trance_of_unhesitating_speed --> arrow_storm_technique
     click arrow_storm_technique callback "
         Arrow Storm Technique<br>
         <br>
@@ -157,7 +163,8 @@ flowchart TD
         during the dry season is generally a bad idea.
         "
 
-    fiery_arrow_attack --> dazzling_flare_attack[Dazzling Flare Attack]
+    dazzling_flare_attack[Dazzling Flare Attack]
+    fiery_arrow_attack --> dazzling_flare_attack
     click dazzling_flare_attack callback "
         Dazzling Flare Attack<br>
         <br>
@@ -184,7 +191,8 @@ flowchart TD
         them are burned to fine gray ash and cannot be recovered.
         "
 
-    fiery_arrow_attack --> phantom_arrow_technique[Phantom Arrow Technique]
+    phantom_arrow_technique[Phantom Arrow Technique]
+    fiery_arrow_attack --> phantom_arrow_technique
     click phantom_arrow_technique callback "
         Phantom Arrow Technique<br>
         <br>
@@ -207,7 +215,8 @@ flowchart TD
         a character to conjure powerful attacks from thin air.
         "
 
-    phantom_arrow_technique --> solar_spike[Solar Spike]
+    solar_spike[Solar Spike]
+    phantom_arrow_technique --> solar_spike
     click solar_spike callback "
         Solar Spike<br>
         <br>
@@ -240,7 +249,8 @@ flowchart TD
         the damage of the bow.
         "
 
-    solar_spike --> immaculate_golden_bow[Immaculate Golden Bow]
+    immaculate_golden_bow[Immaculate Golden Bow]
+    solar_spike --> immaculate_golden_bow
     click immaculate_golden_bow callback "
         Immaculate Golden Bow<br>
         <br>
