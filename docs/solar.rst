@@ -90,3 +90,7 @@ Dodge
 Larceny
 ^^^^^^^
 .. mermaid:: ./mermaid/solar/night_larceny.mmd
+
+Stealth
+^^^^^^^
+.. mermaid:: ./mermaid/solar/night_stealth.mmd
