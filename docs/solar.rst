@@ -82,3 +82,7 @@ Athletics
 Awareness
 ^^^^^^^^^
 .. mermaid:: ./mermaid/solar/night_awareness.mmd
+
+Dodge
+^^^^^
+.. mermaid:: ./mermaid/solar/night_dodge.mmd

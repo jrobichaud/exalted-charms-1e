@@ -1,0 +1,116 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    reed_in_the_wind[Reed in the Wind]
+    click reed_in_the_wind callback "
+        Reed in the Wind<br>
+        <br>
+        Cost: 1 mote per 2 dice
+        Duration: Instant
+        Type: Reflexive
+        Minimum Dodge: 2
+        Minimum Essence: 1
+        Prerequisite Charms: None
+        The Exalted lets Essence flow through her body, making
+        her motions as smooth as those of reeds and willows in the
+        wind. For each mote spent, add 2 dice to an attempt to dodge
+        an attack that the character can anticipate coming. A character
+        cannot gain more dice than her regular Dexterity +
+        Dodge pool. The player must declare she is using this Charm
+        and how much Essence she will spend on it before her
+        character's opponent makes his attack roll. If there are an odd
+        number of dice in the characters Dexterity + Dodge pool, the
+        fractional mote left over after buying the last die is lost.
+        "
+
+    shadow_over_water[Shadow Over Water]
+    reed_in_the_wind --> shadow_over_water
+    click shadow_over_water callback "
+        Shadow Over Water<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Reed in the Wind<br>
+        <br>
+        Like shadows over water, the Exalted moves with perfect,
+        fluid grace and speed. The character may dodge a single
+        attack that he can anticipate with his full Dexterity + Dodge
+        pool. Characters must spend the Essence for Shadow Over
+        Water before his opponent makes her attack roll.
+        "
+
+    seven_shadow_evasion[Seven Shadow Evasion]
+    shadow_over_water --> seven_shadow_evasion
+    click seven_shadow_evasion callback "
+        Seven Shadow Evasion<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 5<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Shadow Over Water<br>
+        <br>
+        From Shadows Over Water to shadow itself, the
+        character is too quick to be hit at all. The character can use
+        this Charm to evade, without the need for a roll, any single
+        attack that she can anticipate, even one that has an area
+        of effect. A character must invoke Seven Shadow Evasion
+        before her opponent makes his attack roll.
+        "
+
+    reflex_sidestep_technique[Reflex Sidestep Technique]
+    reed_in_the_wind --> reflex_sidestep_technique
+    click reflex_sidestep_technique callback "
+        Reflex Sidestep Technique<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Reed in the Wind<br>
+        <br>
+        The character's attunement to the interaction of her
+        anima with the ambient Essence of Creation makes her
+        preternaturally aware of her surroundings. By using this
+        Charm, she may dodge attacks that she is not even aware of.
+        If the character is attacked, even by an attack she does not
+        anticipate, she may spend 2 motes of Essence to attempt to
+        evade the attack. The character's dice pool for dodging such
+        attacks is equal to (2 x her permanent Essence score).
+        Reflex Sidestep Technique cannot be used as part of
+        a Combo with other Dodge Charms. Although the character
+        does not perceive the situation until she has already
+        dodged, the player may choose whether or not the character
+        spends the Essence to dodge the blow. If she chooses to
+        dodge, she must spend the Essence to do so before the
+        attacker makes his roll.
+        "
+
+    flow_like_blood[Flow Like Blood]
+    reflex_sidestep_technique --> flow_like_blood
+    seven_shadow_evasion --> flow_like_blood
+    click flow_like_blood callback "
+        Flow Like Blood<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Dodge: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Reflex Sidestep Technique, Seven Shadow Evasion<br>
+        <br>
+        The character permeates his being with Essence,
+        becoming partly atomized. He moves with an impossible
+        fluid grace, and those attacks that he cannot dodge often
+        pass harmlessly through his dreamlike body. For the rest of
+        the scene, the character may use his full Dexterity + Dodge
+        dice pool to dodge all physical attacks, perceived or not.
+        "
