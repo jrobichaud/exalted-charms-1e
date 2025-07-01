@@ -105,3 +105,11 @@ Bureaucracy
 Linguistics
 ^^^^^^^^^^^
 .. mermaid:: ./mermaid/solar/eclipse_linguistics.mmd
+
+Ride
+^^^^
+.. mermaid:: ./mermaid/solar/eclipse_ride.mmd
+
+Sail
+^^^^
+.. mermaid:: ./mermaid/solar/eclipse_sail.mmd

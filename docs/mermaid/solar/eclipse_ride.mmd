@@ -1,0 +1,173 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    master_horsemans_eye[Master Horseman's Eye]
+    click master_horsemans_eye callback "
+        Master Horseman's Eye<br>
+        <br>
+        Cost: 1 mote
+        Duration: Instant
+        Type: Simple
+        Minimum Ride: 1
+        Minimum Essence: 1
+        Prerequisite Charms: None
+        With but a glance, the character can evaluate the age,
+        health and temperament of a mount or draft animal. The
+        Charm will effortlessly penetrate the sorts of ruses used to
+        pawn substandard animals off at full price.
+        "
+
+    horse_summoning_whistle[Horse-Summoning Whistle]
+    master_horsemans_eye --> horse_summoning_whistle
+    click horse_summoning_whistle callback "
+        Horse-Summoning Whistle<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Ride: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Master Horseman's Eye<br>
+        <br>
+        Through the use of this Charm, the character silently
+        summons her mount, which will move toward her at the best
+        possible speed. This Charm has a range of (10 x the character's
+        Essence) miles. The character must have built up a relationship
+        with the summoned animal — typically riding and
+        caring for it for several days — before it will respond to this
+        Charm. While the character's steed will always respond to
+        this call and will not become distracted or lost, it's still an
+        animal. It can't get through locked doors or penetrate
+        complex obstacles any better than it normally could.
+        "
+
+    phantom_steed[Phantom Steed]
+    horse_summoning_whistle --> phantom_steed
+    click phantom_steed callback "
+        Phantom Steed<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Ride: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Horse-Summoning Whistle<br>
+        <br>
+        This Charm allows a character to summon up from raw
+        Essence a great white steed with a burning golden mane and
+        tail. It has the same statistics as a warhorse of excellent
+        quality, but it is tireless and fearless and need not eat or sleep.
+        "
+
+    spirit_steadying_assurances[Spirit-Steadying Assurances]
+    master_horsemans_eye --> spirit_steadying_assurances
+    click spirit_steadying_assurances callback "
+        Spirit-Steadying Assurances<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Ride: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Master Horseman's Eye<br>
+        <br>
+        Horses' instincts are to run away from what they perceive as
+        danger — the smells of fire and blood or the sounds of conflict and
+        wounded animals. This often puts them at odds with adventurous
+        riders, who are probably trying to reach and linger near the stimuli.
+        Through the use of this Charm, a character can render her mount
+        immune to terror for the rest of the scene, thus obviating the need
+        for rolls to control the animal around frightening sensations.
+        "
+
+    steed_sustaining_method[Steed-Sustaining Method]
+    spirit_steadying_assurances --> steed_sustaining_method
+    click steed_sustaining_method callback "
+        Steed-Sustaining Method<br>
+        <br>
+        Cost: 6 motes per mount<br>
+        Duration: One day's march<br>
+        Type: Simple<br>
+        Minimum Ride: 5<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Spirit-Steadying Assurances<br>
+        <br>
+        While their speed in battle is tremendously greater than
+        that of a man on foot, traveling long distances with mounts is
+        often slower than walking. Mounts must be rested during the
+        march and must be cared for before and after the day's travel.
+        Through the use of this Charm, the character can reduce the
+        need to care for animals during travel. Mounts under the effect
+        of this Charm are very resistant to problems such as thrown
+        shoes and injured hooves and legs. They can also keep up a brisk
+        walk for an entire day without resting, even when burdened
+        with armored riders or cargo panniers. Keep in mind that, unless
+        this Charm is used on the characters' remounts or their pack
+        animals, the characters' overall marching speed will still be
+        limited by the speed of the slowest beast in the group.
+        "
+
+    horse_healing_technique[Horse Healing Technique]
+    steed_sustaining_method --> horse_healing_technique
+    click horse_healing_technique callback "
+        Horse Healing Technique<br>
+        <br>
+        Cost: 4 motes, 1 health level<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Ride: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Steed-Sustaining Method<br>
+        <br>
+        A sick or injured mount is a serious problem for its rider.
+        Even outside of a battle, the loss of an animal can be a tremendous
+        expense. By the use of this Charm, the character heals a number
+        of his mount's health levels equal to his Essence rating. If the
+        mount is unwounded, then this Charm cures any diseases or
+        parasites the beast possesses. This Charm does not take effect
+        instantly - the character must spend a scene tending to the
+        mount by dressing its wounds, feeding it, currying or otherwise
+        grooming it — for the healing effects to set in.
+        "
+
+    flawless_partnership_meditation[Flawless Partnership<br>Meditation]
+    spirit_steadying_assurances --> flawless_partnership_meditation
+    click flawless_partnership_meditation callback "
+        Flawless Partnership Meditation<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Ride: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Spirit-Steadying Assurances<br>
+        <br>
+        Through the use of this Charm, the Exalted and her mount
+        become as one. The player need never roll for her character to
+        accidentally be thrown or fall from her steed. Her mount will never
+        panic, and she receives a bonus equal to her Essence score to all Ride
+        rolls that cause the horse to jump, rear or otherwise perform tricks.
+        "
+
+    flashing_thunderbolt_steed[Flashing Thunderbolt Steed]
+    steed_sustaining_method --> flashing_thunderbolt_steed
+    click flashing_thunderbolt_steed callback "
+        Flashing Thunderbolt Steed<br>
+        <br>
+        Cost: 5 motes, 1 Willpower, 1 health level<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Ride: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Steed-Sustaining Method<br>
+        <br>
+        By using this Charm, the Exalted can imbue his steed
+        with endless energy. While under the effect of this Charm,
+        the steed can run at full speed for a full scene (a full march,
+        outside of dramatic time) without becoming fatigued. This
+        Charm has no long-term ill effects on the mount — the
+        Exalted pays the price in Essence and his own health.
+        "
