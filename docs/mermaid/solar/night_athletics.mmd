@@ -1,0 +1,269 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    graceful_crane_stance[Graceful Crane Stance]
+    click graceful_crane_stance callback "
+        Graceful Crane Stance<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: 1 Scene<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Through the use of this Charm, the Exalted channels
+        Essence through his body, making it extraordinarily limber, deft
+        and light. For the remainder of the scene, the character has near-perfect
+        balance and can stand on things far too narrow and weak
+        to normally support him (the tips of pine trees, horizontal
+        flagpoles, roof gables and so forth) with no fear of falling or
+        breaking the object. The Storyteller may wish to call for Athletics
+        rolls in the most extraordinary of circumstances (the character is
+        leaping from branch to branch on a moonless night in a
+        snowstorm), but generally, the character can run along even the
+        narrowest ledges orstand on the flimsiest perches with no worries.
+        "
+
+    graceful_crane_stance --> monkey_leap_technique[Monkey Leap Technique]
+    click monkey_leap_technique callback "
+        Monkey Leap Technique<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: One Turn<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Graceful Crane Stance<br>
+        <br>
+        The character leaps with the grace of a flying crane and
+        the speed of a striking hawk. Rather than make her normal
+        movement action, the character may make a leap of up to her
+        Strength x 10 feet vertically or twice that distance horizontally.
+        The character can attack during the round she performs
+        Monkey Leap Technique, but gains no special bonuses.
+        "
+
+    monkey_leap_technique --> thunderbolt_attack_prana[Thunderbolt Attack Prana]
+    click thunderbolt_attack_prana callback "
+        Thunderbolt Attack Prana<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Athletics: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Monkey Leap Technique<br>
+        <br>
+        The character leaps high into the air, swinging his
+        weapon (or fist or feet) in a brilliant Essence-laden arc. The
+        character makes an attack as normal, but the amount of
+        damage he inflicts is doubled after it is rolled. Characters
+        cannot move during a turn when they use Thunderbolt
+        Attack Prana, which effectively rules out the use of Thunderbolt
+        Attack Prana and Leaping Tiger Attack as part of the
+        same Combo. Thunderbolt Attack Prana is explicitly permitted
+        to be part of a Combo with Charms of other Abilities.
+        "
+
+    graceful_crane_stance --> lightning_speed[Lightning Speed]
+    click lightning_speed callback "
+        Lightning Speed<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: One Turn<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Graceful Crane Stance<br>
+        <br>
+        The character becomes a blur of motion, Essence
+        leaking from her anima in fine streaks, as she flashes from
+        point to point almost faster than the eye can follow. The
+        character may double her sprinting distance for the turn and
+        has no chance of becoming winded from the exertion, as she
+        is relying on her Essence, not her merely human endurance.
+        "
+
+    lightning_speed --> spider_foot_style[Spider-Foot Style]
+    click spider_foot_style callback "
+        Spider-Foot Style<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Lightning Speed<br>
+        <br>
+        When using this Charm, the character's speed and
+        balance become so heightened that she can perform acts of
+        truly supernatural athleticism. Not only may she run
+        without fear across even the most uneven of surfaces, she
+        may scuttle up even the sheerest vertical surfaces or even
+        dash upside down across horizontal surfaces such as ceilings
+        or the undersides of tree limbs. This not only allows
+        the Exalted to circumvent many obstacles, it also allows
+        her to bypass shields or move behind enemies. Storytellers
+        should assign bonuses as appropriate.
+        If the character is in a position she could not naturally hold
+        (fighting while standing upside down on a ceiling, for example)
+        and fails to spend Essence on Spider-Foot Style during a turn,
+        she becomes subject to the normal forces of gravity and inertia
+        again and may be seriously injured in the resulting fall.
+        "
+
+    lightning_speed --> feather_foot_style[Feather-Foot Style]
+    click feather_foot_style callback "
+        Feather-Foot Style<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Lightning Speed<br>
+        <br>
+        The Exalted lightens her footfalls with Essence and spreads
+        her weight, allowing her to walk or run across fluid surfaces such as
+        water, quicksand, loose sand, acid, lava, lakes of writhing maggots
+        and the like. The character may traverse such surfaces just as if they
+        were solid earth during a turn in which she uses this Charm. Note
+        that the bottom of the character's feet are still touching the
+        material, so barefoot or lightly shod characters running across acid
+        or lava or man-eating maggots are still risking serious injury.
+        As with Spider-Foot Style, if the character fails to spend
+        Essence on this Charm during a turn in which she is standing
+        on a fluid, she becomes subject to the normal laws of gravity and
+        buoyancy. All but the most lightly burdened character will risk
+        death by drowning (or worse, in the case of more exotic fluids).
+        "
+
+    lightning_speed --> leaping_tiger_attack[Leaping Tiger Attack]
+    click leaping_tiger_attack callback "
+        Leaping Tiger Attack<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Athletics: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Lightning Speed<br>
+        <br>
+        The character flashes toward his opponent, attacking
+        as he blurs past her. The character makes the attack as
+        normal, but the amount of damage he does is doubled after
+        soak but before damage is rolled.<br>
+        The character can move up to his normal sprinting distance
+        without penalty in the turn he launches the Leaping Tiger Attack.
+        The character need not move this far — the attack needs only a
+        yard or so - but the character cannot be bound or otherwise
+        unable to move when he launches the attack. This means that
+        Thunderbolt Attack Prana and Leaping Tiger Attack cannot be
+        part of the same Combo. Leaping Tiger Attack is explicitly
+        permitted to be part of a Combo with Charms of other Abilities.
+        "
+
+    racing_hare_method[Racing Hare Method]
+    monkey_leap_technique --> racing_hare_method
+    spider_foot_style --> racing_hare_method
+    click racing_hare_method callback "
+        Racing Hare Method<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One hour<br>
+        Type: Simple<br>
+        Minimum Athletics: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Monkey Leap Technique, Spider-Foot Style<br>
+        <br>
+        The character attunes himself to his own Essence and
+        that of the world around him and moves as though in a
+        waking dream. He travels in great, graceful leaps, over the
+        ground, off roofpeaks, from tree limb to tree limb. Moving
+        in this fashion, the character can traverse a number of
+        miles per hour equal to his (Stamina + Essence) × 10.<br>
+        This state is trancelike and ends if the character stops
+        for any reason. Likewise, the character is not preternaturally
+        aware of his location, and his perceptions of the world
+        beyond the next leap are often hazy, at best. He will notice
+        only the most urgent stimuli (very large landmarks, hordes
+        of hobgoblins ambushing him) and can easily become lost
+        when traveling through areas he is unfamiliar with.
+        "
+
+    increasing_strength_exercise[Increasing Strength<br>Exercise]
+    click increasing_strength_exercise callback "
+        Increasing Strength Exercise<br>
+        <br>
+        Cost: 3 motes per dot<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Athletics: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows a character to increase her Strength
+        tremendously for short periods of time. For every 3 motes
+        of Essence the character spends, her Strength increases by
+        1. A character cannot increase her Strength by more than
+        her Essence rating through the use of this Charm. The
+        Strength lent by this Charm increases the damage of the
+        character's attacks, just as if it were normal Strength.
+        "
+
+    increasing_strength_exercise --> thunders_might[Thunder's Might]
+    click thunders_might callback "
+        Thunder's Might<br>
+        <br>
+        Cost: 2 motes per point<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Athletics: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Increasing Strength Exercise<br>
+        <br>
+        Through the use of this Charm, the character can
+        increase his Strength even further. For every 2 motes of
+        Essence the character spends, he may increase his Strength
+        + Athletics by one for the purposes of lifting and breaking
+        objects. The character can no more than double his regular
+        Strength + Athletics pool through the use of this Charm -
+        keep in mind that the Charm Increasing Strength Exercise
+        counts as a bonus, and thus, its bonus cannot be doubled
+        through the use of this Charm. If the character makes an
+        attack with the intent of destroying an inanimate object,
+        each point adds one to the character's raw damage. This
+        Charm does not increase the amount of damage the charac-
+        ter does in combat.
+        "
+
+    thunders_might --> ten_ox_meditation[Ten-Ox Meditation]
+    click ten_ox_meditation callback "
+        Ten-Ox Meditation<br>
+        <br>
+        Cost: 1 mote per 2 points<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Athletics: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Thunder's Might<br>
+        <br>
+        By burning vast quantities of Essence, a character can
+        increase his physical might greatly for a few moments. For
+        every mote of Essence the character spends on this Charm,
+        he can increase his Strength + Athletics by 2 for the
+        purposes of a single attempt to lift or break something. If it
+        is used to aid a character in a hand-to-hand attack to break
+        or destroy an object, each mote spent adds two to the raw
+        damage of the attack. A character cannot burn more motes
+        of Essence powering this Charm than he has points of
+        permanent Willpower. Ten Ox Meditation does not increase
+        the damage of a character's attacks against animate
+        beings, though it can cause indirect damage. For example,
+        if the character pulls down the main pillars of a temple,
+        those inside will probably be killed or injured.
+        "
