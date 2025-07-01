@@ -1,0 +1,174 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    sensory_acuity_prana[Sensory Acuity Prana]
+    click sensory_acuity_prana callback "
+        Sensory Acuity Prana<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Awareness: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Though the use of this Charm, the character extends
+        his perception, heightening all five senses. The
+        character can see farther and in less light, hear softer
+        sounds and distinguish between them more easily and
+        differentiate various tastes, textures and scents quite
+        easily — he could be a master chef or perfumer. The
+        basic mechanical effect is to increase the character's
+        Awareness by a number of dice equal to his Essence,
+        though there are obviously many other situations where
+        these senses might come into play — it's up to the
+        Storyteller to make a character's extended perceptions
+        a reality by increasing the amount of information available
+        to the player. Characters using this Charm are not
+        any more or less vulnerable to sensory overload than
+        normal mortals - the extended perceptions include
+        the ability to manage the sensations more effectively.
+        "
+
+    keen_sense_technique["Keen (Sense)<br>Technique"]
+    sensory_acuity_prana --> keen_sense_technique
+    click keen_sense_technique callback "
+        Keen (Sense) Technique<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Awareness: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Sensory Acuity Prana<br>
+        <br>
+        The character channels Essence into one of his senses,
+        heightening his perceptions to an immense degree. When
+        he purchases this Charm, the character must choose which
+        sense it affects. Characters may purchase this Charm more
+        than once in order to gain the ability to heighten different
+        senses. However, a character may not have more than one
+        sense heightened at any given time. Generally, this Charm
+        does not add dice to a character's pools, but instead,
+        changes what actions she can undertake at a given difficulty.
+        For example, recognizing someone by her scent is
+        normally difficulty 2 or 3, but a character with Keen Smell
+        and Taste Technique could do it without a roll.<br>
+        The effects of various Keen (Sense) Techniques are
+        listed below<br>
+        • Sight — The character's visual acuity is heightened
+        to several times that of a normal mortal. He can pick out
+        tiny details at 100 yards, quickly count masses of troops and
+        so on. In fog, dusk and other poor visual conditions, he can
+        see as well as a normal person in good visual conditions.<br>
+        • Hearing and Touch - The character's hearing and
+        sense of touch are tremendously increased. The character
+        can easily judge the quality of fabric and metals with casual
+        inspection, hear animals burrowing beneath the ground,
+        listen in clearly on conversations through thick doors and
+        perform other, similar feats.<br>
+        • Smell and Taste - The character can detect poisons
+        by taste and smell and recognize individuals by their scents
+        (even if they are no longer present). The character may track
+        by scent but is not good at it — add a + 2 bonus to all Survival
+        rolls involving tracking or hunting for food.<br>
+        This Charm is incompatible with Sensory Acuity
+        Prana, above. The character can either extend all her
+        senses or one of them.
+        "
+
+    unsurpassed_sense_discipline["Unsurpassed (Sense)<br>Discipline"]
+    keen_sense_technique --> unsurpassed_sense_discipline
+    click unsurpassed_sense_discipline callback "
+        Unsurpassed (Sense) Discipline<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Awareness: 5<br>
+        Minimum Essence: 2<br>
+        <br>
+        Prerequisite Charms: Keen (Sense) Technique
+        The character channels Essence to hone one of her
+        senses As with Keen (Sense) Technique, above, the character
+        must choose a sense to be enhanced when she
+        purchases this Charm. The Charm may be purchased
+        multiple times to cover multiple senses, but the character
+        may not invoke Unsurpassed (Sense) Discipline and Keen
+        (Sense) Technique at the same time, and only one sense
+        at a time can be enhanced via the Unsurpassed (Sense)
+        Discipline Charm. A character can only purchase the
+        Unsurpassed (Sense) Discipline Charm for a sense for
+        which she has already purchased the Keen (Sense) Technique
+        Charm. Also, as with Keen (Sense) Technique, this
+        Charm is incompatible with Sensory Acuity Prana.<br>
+        • Sight - The character gains eyes equal to those of
+        the greatest raptors. In good light, the character can see a
+        field mouse a mile away, pick a face out of a crowded street
+        with a casual glance and detect the tiniest details and
+        imperfections without effort. In the dark or in poor visual
+        conditions such as smoke, haze and mist, her senses are
+        diminished, and she sees only as well as an individual using
+        Keen Sight Technique does in normal conditions.<br>
+        • Hearing and Touch - The character can listen in
+        on a whispered conversation a mile away in still air or 100
+        yards away indoors, in windy conditions or in noisy situations
+        such as a bazaar or coliseum. The character can read
+        by passing her fingers over a page and feeling the ink
+        beneath her fingertips.<br>
+        • Smell and Taste - The character can track by scent
+        almost as well as a bloodhound, adding his Perception as
+        automatic successes to all Survival rolls involving tracking or
+        hunting for food. She can distinguish poisons at a distance by
+        scent alone and can tell how much and how recently some-
+        thing was poisoned with but a harmless touch of the tongue.
+        She can read an individual or animal's actual mood by scent.
+        "
+
+    surprise_anticipation_method[Surprise Anticipation<br>Method]
+    sensory_acuity_prana --> surprise_anticipation_method
+    click surprise_anticipation_method callback "
+        Surprise Anticipation Method<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Awareness: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Sensory Acuity Prana<br>
+        <br>
+        The character develops a preternatural sense for haz-
+        ard. Whenever she is about to be placed in immediate
+        danger, her Surprise Anticipation Method activates. There
+        is no roll - the character simply becomes aware of
+        immanent danger. This effect costs a mote of Essence and
+        makes it almost impossible to ambush the character. Storytellers
+        should keep in mind that Surprise Anticipation
+        Method is an asset, not a liability. Don't use it as an excuse
+        to drain the character's Essence.<br>
+        Storytellers should also keep in mind that Surprise
+        Anticipation Method operates by increasing the character's
+        awareness, not by precognition or mind reading. It alerts
+        characters to anything they would perceive as dangerous if
+        they saw it and gave it a quick glance. A character with
+        Surprise Anticipation Method can occasionally guess wrong
+        about an individual's intentions, particularly when on
+        edge. While the character will detect invisible individuals
+        from subtle environmental clues, she can fall into carefully
+        concealed pits, and she can be taken by surprise by the
+        unexpected treachery of a trusted friend. She is not pre-
+        scient so much as nearly impossible to catch flat-footed.<br>
+        Characters may place other Charms in a Combo with
+        Surprise Anticipation Method. When Surprise Anticipation
+        Method activates, the character has the option of spending a
+        point of temporary Willpower and activating the rest of the
+        Charms. However, she must do this immediately upon the
+        activation of Surprise Anticipation Method. Most Exalted
+        Combo in defensive Charms since, while Surprise Anticipation
+        Method is generally reliable, it is hardly infallible. It only takes
+        one accidentally murdered loved one or terrible diplomatic
+        incident to make an Exalted into a broken or hunted creature.
+        "

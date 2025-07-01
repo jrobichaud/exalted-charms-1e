@@ -78,3 +78,7 @@ Night Caste
 Athletics
 ^^^^^^^^^
 .. mermaid:: ./mermaid/solar/night_athletics.mmd
+
+Awareness
+^^^^^^^^^
+.. mermaid:: ./mermaid/solar/night_awareness.mmd
