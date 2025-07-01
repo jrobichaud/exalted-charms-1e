@@ -101,3 +101,7 @@ Eclipse Caste
 Bureaucracy
 ^^^^^^^^^^^
 .. mermaid:: ./mermaid/solar/eclipse_bureaucracy.mmd
+
+Linguistics
+^^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/eclipse_linguistics.mmd
