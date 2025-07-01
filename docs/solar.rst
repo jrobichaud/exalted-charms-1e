@@ -94,3 +94,10 @@ Larceny
 Stealth
 ^^^^^^^
 .. mermaid:: ./mermaid/solar/night_stealth.mmd
+
+Eclipse Caste
+-------------
+
+Bureaucracy
+^^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/eclipse_bureaucracy.mmd

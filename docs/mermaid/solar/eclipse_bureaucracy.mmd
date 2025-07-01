@@ -1,0 +1,269 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    frugal_merchant_method[Frugal Merchant Method]
+    click frugal_merchant_method callback "
+        Frugal Merchant Method<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows an Exalted to evaluate the quality
+        of goods offered for sale. The character has an intuitive
+        sense of if the goods are shoddy, exceptional, average or
+        whatever. Note that this doesn't give the character market
+        knowledge he doesn't have. If a character has no idea how
+        much a good is supposed to cost, use of this power still
+        won't tell him if he's being overcharged. Likewise, this
+        power grants no actual knowledge of the good under
+        examination, only knowledge of its quality. Presented
+        with a totally unfamiliar object, the character will be able
+        to tell if it is shoddy or broken but will still not know
+        anything about its purpose or operation. This Charm
+        works on found objects as well as those offered for sale and
+        can, for example, tell if a piece of First Age magic is still
+        functional or not simply by handling it.
+        "
+
+    insightful_buyer_technique[Insightful Buyer Technique]
+    frugal_merchant_method --> insightful_buyer_technique
+    click insightful_buyer_technique callback "
+        Insightful Buyer Technique<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Frugal Merchant Method<br>
+        <br>
+        Through the use of this Charm, the character gains an
+        intuitive feel for a marketplace at a given instant, allowing
+        her to intuit roughly how much a given object will fetch in
+        any one market. Though the character need not be physically
+        present in the market, this Charm must be used with
+        a particular sales venue in mind. A character cannot discover
+        previously unknown markets through the use of this
+        Charm. She can, however, review markets she is familiar
+        with, even distant ones, to determine which would be the
+        best place to sell a given good. The more specific the venue
+        contemplated, the more accurate the forecast.<br>
+        This Charm is perfectly accurate if used at the moment
+        of sale. However, the more time that elapses between
+        the use of the Charm and the actual sale of the goods, the
+        greater the chance of an error in the character's projection.
+        "
+
+    consumer_evaluating_glance[Consumer-Evaluating<br>Glance]
+    frugal_merchant_method --> consumer_evaluating_glance
+    click consumer_evaluating_glance callback "
+        Consumer-Evaluating Glance<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Frugal Merchant Method<br>
+        <br>
+        An Exalted using this Charm may evaluate a given
+        buyer's intentions and budget with but a glance. He can
+        tell if a given potential buyer has no real intention of
+        purchasing, if she's already decided to buy or if she requires
+        swaying. The Exalted also has a good idea of the target's
+        budget for the purchase, at least in relation to the price the
+        Exalted desires to obtain. Finally, the character will know
+        if the target plans to attempt to swindle or betray him in
+        some fashion, making it an essential tool for characters
+        dealing in illegal or extremely valuable goods.
+        "
+
+    irresistable_salesman_spirit[Irresistable Salesman<br>Spirit]
+    consumer_evaluating_glance --> irresistable_salesman_spirit
+    insightful_buyer_technique --> irresistable_salesman_spirit
+    click irresistable_salesman_spirit callback "
+        Irresistable Salesman Spirit<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Consumer-Evaluating Glance, Insightful Buyer Technique<br>
+        <br>
+        A character utilizing this Charm becomes the ultimate
+        high-pressure salesman, able to sell practically
+        anything to anyone for outrageous prices. If the target's
+        Willpower is equal to or lower than the Exalted's Essence,
+        he can be sold literally anything at any price — the Exalted
+        may cause him to sell himself into slavery for a handful of
+        potsherds or a kiss. If the target's Willpower is less than
+        twice the Exalted's Essence, the Exalted's player must
+        make a Wits + Bureaucracy roll. The number of successes
+        is how many times the object's normal price the character
+        manages to extract from the target. This Charm does not
+        work on characters whose Willpower is greater than twice
+        the Exalted's Essence.<br>
+        Note that this Charm does not actually enforce the
+        deal in any way, and that it works only for a single scene.
+        Afterward, the target will be acutely aware of having just
+        been swindled — the greater the swindle, the more likely
+        he is to seek redress.
+        "
+
+    depth_officials_way[Depth Official's Way]
+    click depth_officials_way callback "
+        Depth Official's Way<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One task<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        An Exalted who uses this Charm becomes preternaturally
+        adept at navigating through bureaucracies. The
+        character can naturally sense who to talk to in order to
+        produce results, who expects or is amenable to bribes, which
+        functionaries are actually useful or friendly and which are
+        simply petty individuals enjoying their tiny sliver of power.
+        A player whose character uses this Charm may add the
+        character's Essence score in automatic successes to any
+        Bureaucracy rolls when attempting to achieve a given result
+        in a bureaucracy (for example, obtain a license, passport,
+        grant or audience). Note that this Charm does not make the
+        impossible possible or allow an impoverished character to
+        pay bribes she cannot afford, but it may allow the character
+        to find away around such obstacles.
+        "
+
+    speed_of_the_wheels[Speed of the Wheels]
+    depth_officials_way --> speed_of_the_wheels
+    click speed_of_the_wheels callback "
+        Speed of the Wheels<br>
+        <br>
+        Cost: 8 motes<br>
+        Duration: One task<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Deft Official's Way<br>
+        <br>
+        Through the use of this Charm, a character can cause
+        a bureaucracy to accomplish a task in record time. An
+        Exalted using Speed the Wheels causes the bureaucracy to
+        work (her Essence + 1) times faster for the duration of a
+        particular job. For example, a character with Essence 3 who
+        uses the Speed the Wheels Charm to expedite an appeal to
+        the ruler of a city to use the naval dry-docks to repair her ship
+        would be able to make the appropriate appointments and
+        cause the proper papers to be read four times faster than
+        normal. Note that this Charm simply speeds the process, it
+        does not increase the character's chances of success. Characters
+        who wish to improve their chances of success should
+        use Social Charms or Deft Official's Way.
+        "
+
+    bureau_rectifying_method[Bureau-Rectifying Method]
+    speed_of_the_wheels --> bureau_rectifying_method
+    click bureau_rectifying_method callback "
+        Bureau-Rectifying Method<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: One investigation<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Speed the Wheels<br>
+        <br>
+        An Exalted who knows this Charm may use it to aid in
+        an investigation of corruption in a bureaucracy. In order for
+        this Charm to work, the character must either request or
+        take part in the investigation. The result will be an actual
+        investigation — there will be genuine inquiries, real punishments
+        and, potentially, even meaningful reform. If this
+        Charm is used by an Exalted who is heading an investigation,
+        it causes questioned individuals to be much more
+        cooperative than they would be otherwise, and subordinates
+        who would otherwise go through the motions of their jobs
+        will instead actually attempt to ferret out the corruption.<br>
+        Note that there is a finite upper limit on the how wide-ranging
+        an investigation this Charm can support. If the
+        character is reforming an entire bureaucracy, the Storyteller
+        should feel free to force him to commit Essence to this
+        Charm more than once. Typically, an Exalted can bolster
+        the efforts of (her Essence rating × 20) individuals per use of
+        this Charm. This Charm does not cause an investigation to
+        be launched, merely reinforces one that is already in progress.
+        "
+
+    indolent_official_charm[Indolent Official Charm]
+    depth_officials_way --> indolent_official_charm
+    click indolent_official_charm callback "
+        Indolent Official Charm<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: One task<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Deft Official's Way<br>
+        <br>
+        Solar Exalted can use their powers to slow as well as
+        hasten the actions of a bureaucracy. Through the use of the
+        Indolent Official Charm, a character may bring the wheels
+        of government to a screeching, grinding halt with regard to
+        a single task. Papers will be lost at every turn, every petty
+        official who could possibly interfere or request a bribe will do
+        so, and petitions and requests will inevitably end up neglected
+        at the bottom of the pile. For every point of Essence
+        the character possesses, the amount of time the bureaucracy
+        needs to accomplish a given task is multiplied by one.<br>
+        The character need not be part of the matter to be
+        delayed, but must know about the situation well enough to
+        specify it. Characters may invest Essence speculatively (for
+        example, &quot;the ongoing secret police investigation into my
+        affair&quot; is a perfectly valid target, even if the character isn't
+        sure one exists) but will not know if the Charm had an
+        effect or not — as long as she keeps the Essence committed,
+        an investigation that meets her criteria will be hampered.
+        As with Bureau-Rectifying Method, there is an upper limit
+        to the size of the delay that the character can impose. Each
+        use of this Charm can hinder the efforts of a number of
+        investigators equal to (the character's Essence * 20).
+        "
+
+    foul_air_of_argument_technique[Foul Air of Argument<br>Technique]
+    indolent_official_charm --> foul_air_of_argument_technique
+    click foul_air_of_argument_technique callback "
+        Foul Air of Argument Technique<br>
+        <br>
+        Cost: 12 motes, 1 Willpower<br>
+        Duration: One task<br>
+        Minimum Bureaucracy: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Indolent Official Charm<br>
+        <br>
+        The character can cause a request, project or initiative
+        to become the kiss of death for a bureaucracy. Meetings
+        produce nothing, initiatives fall into pointless squabbling,
+        and departmental infighting hampers even the simplest
+        matters. Worse, the fighting spreads, rippling out from the
+        issue in question to other matters and, eventually, hamper-
+        ing or even crippling the bureaus involved. When
+        bureaucracies are subject to the Foul Air of Argument
+        Technique, they operate at a fraction of their efficiency
+        equal to 1/(1 + the Essence score of the character), so a
+        character with Essence 1 would make a bureau work at 1/2
+        efficiency, one with Essence 2 would make it work at 1/3,
+        Essence 3 at 1/4, and so on. A character cannot use multiple
+        invocations of this Charm on the same bureau at once.
+        "
