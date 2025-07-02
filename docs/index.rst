@@ -8,6 +8,3 @@ Contents, indices and tables
   solar
   spirits
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
