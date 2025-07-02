@@ -8,7 +8,8 @@ Compassion
 
 Conviction
 ----------
-.. mermaid:: ./mermaid/spirits/conviction.mmd
+.. mermaid:: ./mermaid/spirits/conviction_1.mmd
+.. mermaid:: ./mermaid/spirits/conviction_2.mmd
 
 Temperance
 ----------

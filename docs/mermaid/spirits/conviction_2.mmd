@@ -1,0 +1,154 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    confusion[Confusion]
+    click confusion callback "
+        Confusion<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Conviction: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Roll the spirit's Manipulation + Conviction with a
+        difficulty equal to the target's Essence. Simple success or
+        one extra success indicates that the target is mildly confused.
+        He might confuse one direction along a path with
+        another. Two or three extra successes indicate that the
+        target is quite confused. He might believe that traveling
+        after dark in the woods without a lantern is a perfectly
+        reasonable thing to do. Four or more extra successes
+        indicate that the target is completely addled and may well
+        do something very dangerous. He could try to scale a cliff
+        face in the dark or go to sleep in a bear's den. Fair Folk are
+        immune to this power.
+        "
+
+    memory_mirror[Memory Mirror]
+    click memory_mirror callback "
+        Memory Mirror<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Conviction: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The spirit must touch its target in order to employ this
+        Charm (normal Dexterity + Brawl or Martial Arts check).
+        If successful, roll the spirit's Manipulation + Conviction
+        with a difficulty equal to the target's Essence. The more
+        successes, the more of the target's memories the spirit
+        absorbs. This may temporarily befuddle the target, but
+        Memory Mirror does not actually remove the target's
+        memories, just duplicates them. With a simple success, the
+        spirit obtains only the most basic details: profession, name
+        and any major life events. Four or more extra successes
+        indicate near-total memor; absorption.
+        "
+
+    memory_sponge[Memory Sponge]
+    memory_mirror --> memory_sponge
+    click memory_sponge callback "
+        Memory Sponge<br>
+        <br>
+        Cost: 12 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Conviction: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Memory Mirror<br>
+        <br>
+        This Charm works like Memory Mirror, except that
+        the memories are drained out of the target as they enter the
+        spirit's mind. Roll the spirit's Manipulation + Conviction
+        with a difficulty equal to the target's Essence. The more
+        successes the spirit achieves, the fewer details the target
+        remembers, until only the smallest details remain. Four or
+        more extra successes indicate that the target suffers from
+        near-total amnesia. The memories have actually been
+        removed and cannot be recovered through association or
+        prompting.
+        "
+
+    memory_transference[Memory Transference]
+    memory_sponge --> memory_transference
+    click memory_transference callback "
+        Memory Transference<br>
+        <br>
+        Cost: 15 motes, 2 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Conviction: 4<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Memory Sponge<br>
+        <br>
+        This Charm allows a spirit to transfer memories between
+        two subjects. The spirit must be able to touch both
+        subjects at once, and if they are evading, the spirit must
+        succeed on a Dexterity + Brawl or Martial Arts roll. This
+        is not a reflexive attack, and if the spirit is attempting to
+        touch both targets in the same turn it activates the Charm,
+        split its dice pool at least three ways.
+        After the spirit touches the targets, roll its Manipulation
+        + Conviction with a difficult equal to the higher of the
+        two target's Essences. The memories are moved from one
+        subject to another, not copied. The spirit gets a vague idea
+        of the shape of the memories - enough to identify blocks
+        of them and figure out what should be moved. The spirit
+        remembers only vague details afterward, not specifics.
+        The more successes on the roll, the more precisely the
+        spirit can identify and choose what to move, and the more
+        it can move. Simple success allows the movement of a few
+        random memories, three successes allows large, important
+        memories, and five or more extra successes allow the spirit
+        to transfer an entire lifetime's worth of memories, or just a
+        single dark and hidden secret. Note that the transfer is one
+        way — a spirit that wishes to swap two personalities
+        between bodies has to roll five or more extra success on two
+        uses of the Charm.
+        "
+
+
+    dreambane["Dreambane"]
+    dreamscape["... Dreamscape<br>(Compassion)"] --> dreambane
+    click dreambane callback "
+        Dreambane<br>
+        <br>
+        Cost: 15 motes, 1 Willpower<br>
+        Duration: Reflexive<br>
+        Minimum Conviction: 3<br>
+        Minimum Essence: 6<br>
+        Prerequisite Charms: Dreamscape<br>
+        <br>
+        This Charm acts exactly as the Compassion Charm
+        Dreamscape, except that the roll made is Manipulation +
+        Conviction, and any harm done to the target within the
+        dream has a chance of leaking through to the target's physical
+        body (as either bashing or lethal damage, as appropriate).<br>
+        If the target takes damage in the dream, her player must
+        make a reflexive Wits roll to see how much slips through to
+        harm the character's real body. For every success on the wits
+        roll, one health level is subtracted from the damage that the
+        character took in the hallucination before it is applied to her
+        real body. The character can never take more damage to her
+        real body from a single event in the hallucination than the
+        Essence of the spirit that used Dreambane on her.<br>
+        Each time damage gets through the soak roll, the
+        target's player may make a Willpower roll. With three or
+        more successes, the character wakes up. The player must
+        also succeed a Willpower roll if the character takes enough
+        damage to kill her in the dream before she wakes up. If the
+        roll botches, the character dies (if mortal) or enters a coma
+        for one week per point of the spirit's Essence (if Exalted).
+        If the roll fails, the character wakes up at Incapacitated and
+        must heal normally. If the roll succeeds, she wakes up with
+        only one additional health level of bashing damage. This
+        Charm may only be used on one target at a time.
+        "
