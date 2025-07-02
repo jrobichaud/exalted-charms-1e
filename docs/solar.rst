@@ -113,3 +113,7 @@ Ride
 Sail
 ^^^^
 .. mermaid:: ./mermaid/solar/eclipse_sail.mmd
+
+Socialize
+^^^^^^^^^
+.. mermaid:: ./mermaid/solar/eclipse_socialize.mmd

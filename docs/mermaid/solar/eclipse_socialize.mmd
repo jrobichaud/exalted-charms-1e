@@ -1,0 +1,168 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    wise_eyed_courtier_method[Wise-Eyed Courtier Method]
+    click wise_eyed_courtier_method callback "
+        Wise-Eyed Courtier Method<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Socialize: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Use of this Charm allows a character to instantly read
+        the superficial subtext of a social situation. The surface
+        attitudes (&quot;she is angry at him&quot;) and relationships (&quot;she
+        respects him a great deal, perhaps he is her father or like a
+        father&quot;) of the individuals involved are apparent at a mere
+        glance. Characters who are skilled at concealing their
+        motives will project the exterior emotions they are pretending.
+        It's up to the Storyteller's discretion as to how
+        skilled a character must be to appear to feel other than they
+        really do - Socialize or Performance 2 and a serious effort
+        should suffice. This Charm is not a form of mind reading,
+        nor does it offer precise results — it simply allows the
+        Exalted get his bearings when faced with confusing or
+        unfamiliar social situations.
+        "
+
+    motive_discerning_technique[Motive-Discerning<br>Technique]
+    wise_eyed_courtier_method --> motive_discerning_technique
+    click motive_discerning_technique callback "
+        Motive-Discerning Technique<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Socialize: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Wise-Eyed Courtier Method<br>
+        <br>
+        This Charm allows an Exalted to tell, through a short,
+        topical interaction, what the target's true motives in a situation
+        are. For example, an Exalted who talked to a woman
+        about her sick father would be able to tell if she was at his
+        bedside out of love, filial loyalty or greed for her inheritance.
+        Where there are mixed motives, the Exalted will gain a rough
+        feel of in what proportions they occur. This power is especially
+        useful for Exalted leaders, as it lets them keep their entourages
+        free of the self-serving and the corrupt.
+        "
+
+    mastery_of_small_manners[Mastery of Small Manners]
+    click mastery_of_small_manners callback "
+        Mastery of Small Manners<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Socialize: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character attunes himself to the patterns of human
+        interaction and allows Essence to guide his responses to
+        social situations. While this Charm is active, the character
+        will reflexively respond in the appropriate and mannerly
+        fashion for the situation at hand. These manners are not
+        deep, covering only simple things such as greetings, eating
+        customs, gift customs and flirtation mores. The character
+        will never make an unintentional faux pas but is not
+        charismatic so much as simply well behaved. Too much
+        active interaction spoils the effect of this Charm.
+        "
+
+    knowing_the_souls_price[Knowing the Soul's Price]
+    mastery_of_small_manners --> knowing_the_souls_price
+    motive_discerning_technique --> knowing_the_souls_price
+    click knowing_the_souls_price callback "
+        Knowing the Soul's Price<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Socialize: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Mastery of Small Manners, Motive-Discerning Technique<br>
+        <br>
+        Everyone has a price, though it may not be in gold. It
+        could be aid in a personal endeavor, flattery, sex with an
+        unachievable object of desire, the recovery of a lost possession
+        or any number of things — but there is invariably
+        something that, when offered, will crack the strongest
+        morals and ethics. To have it, an individual will betray
+        trusts, engage in corruption, plant evidence - almost
+        anything. This Charm allows the character to know what
+        that thing is for a given individual. It is up to the Storyteller
+        to define precisely what a given person's weakness is — the
+        things some people require may be difficult or impossible
+        to obtain, while other characters may simply need to be
+        offered a large sum of money. Generally, the higher a
+        character's Temperance score, the more likely her price
+        will be something other than money and the more likely it
+        will be difficult to arrange.
+        "
+
+    understanding_the_court[Understanding the Court]
+    motive_discerning_technique --> understanding_the_court
+    click understanding_the_court callback "
+        Understanding the Court<br>
+        <br>
+        Cost: 20 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Socialize: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Motive-Discerning Technique<br>
+        <br>
+        This Charm allows an Exalted to read motives on a
+        grand scale, gaining a picture of the flows and eddies of
+        power in an extended social situation such as a king's court
+        or a mercantile community. The character must spend a
+        number of days equal to (10 - her Essence score) in
+        observation of the situation. The character need not be
+        part of the social milieu to observe, she need simply be
+        close to it; a character disguised as a servant or maid will be
+        able to observe adequately as well. It's up to the Storyteller
+        to decide how the information is conveyed. Some Storytellers
+        will want to draw a diagram, while others may
+        simply explain who says &quot;jump!&quot; and who asks &quot;how high?&quot;<br>
+        The character's understanding is limited by what she
+        has witnessed - for example, if an important figure is
+        absent during her period of observation, she may be able to
+        deduce a great deal from how people act in his absence but
+        will not know for certain until she can reconstruct her
+        picture once he has returned. Also, the character's preternatural
+        understanding is rooted in the time it was made.
+        Unless the mapped situation is extremely stagnant, events
+        will cause the pattern of interactions to change over time.
+        Characters relying on years-old understanding are liable to
+        make errors in judgment.
+        "
+
+    venomous_rumors_technique[Venomous Rumors<br>Technique]
+    knowing_the_souls_price --> venomous_rumors_technique
+    understanding_the_court --> venomous_rumors_technique
+    click venomous_rumors_technique callback "
+        Venomous Rumors Technique<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One day<br>
+        Minimum Socialize: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Knowing the Soul's Price, Understanding the Court<br>
+        <br>
+        Through the use of this Charm, an Exalted can turn her
+        target into a social outcast. The target's words seem false,
+        tentative or devious, by turns, and even his friends notice the
+        worst parts of his personality — and all of it is true. This Charm
+        is not an illusion. It simply brings the worst parts of the target
+        to the fore. The Exalted must touch her target to use this
+        Charm. For a full day afterward, the target takes a penalty on all
+        social rolls equal to twice the Exalted's Essence score.
+        "
