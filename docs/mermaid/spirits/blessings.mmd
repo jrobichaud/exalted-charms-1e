@@ -1,0 +1,131 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    tiny_gift[Tiny Gift]
+    click tiny_gift callback "
+        Tiny Gift<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Compassion: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The effects of this Charm always fade by the next
+        sunset, and the Charm may not be used more than once per
+        day. Some possible gifts:<br>
+        • One extra dot added to an Ability of the spirit's
+        choice.<br>
+        • The return of two motes of Essence.<br>
+        • Good luck: The target gains one extra die to add to
+        all normal Ability checks (not Charms).
+        "
+
+    benefaction[Benefaction]
+    tiny_gift --> benefaction
+    click benefaction callback "
+        Benefaction<br>
+        <br>
+        Cost: 10 motes
+        Duration: One week
+        Type: Simple
+        Minimum Compassion: 1
+        Minimum Essence: 2
+        Prerequisite Charms: Tiny Gift
+        The effects of this Charm last for one week, and the
+        Charm may not be used more than once per week. Some
+        possible benefactions:<br>
+        • Two dots of Abilities, distributed as the spirit sees fit.<br>
+        • One dot added to an Attribute.<br>
+        • The return of five motes of Essence.<br>
+        • Create a good luck charm, walkaway or other
+        talisman that lasts for a week.<br>
+        • Good luck: the target gains one extra die to add to
+        normal Ability checks (not Charms).<br>
+        • A mark appears on the target in an obvious place
+        (forehead, hand, etc.) that can be seen only by spirits and
+        Exalted using a sensory Charm that allows them to perceive
+        Essence at work. This power is most often used to
+        grant safe passage through an area or as a mark of favor.<br>
+        "
+
+    largess[Largess]
+    benefaction --> largess
+    click largess callback "
+        Largess<br>
+        <br>
+        Cost: 15 motes, 1 Willpower<br>
+        Duration: One week<br>
+        Type: Simple<br>
+        Minimum Compassion: 2<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Benefaction<br>
+        <br>
+        The effects of this Charm last for one week, and the
+        Charm may not be used more than once every other week
+        Some possible effects:<br>
+        • Four dots to Abilities, distributed as the spirit sees
+        fit. This may include Abilities the target does not normally
+        possess, unless he is not physically capable of possessing
+        them. 1 his may not raise a target s Ability score above six.<br>
+        • Two dots to Attributes, distributed as the spirit sees fit.<br>
+        • The return of one temporary Willpower point. (The
+        target's Willpower may not be raised above his maximum.
+        The returned Willpower may be used up normally, but will
+        not disappear when the week is over.)<br>
+        • The return of ten motes of Essence.<br>
+        • The effects of one Charm (maximum Virtue 1,
+        Essence 1) that the spirit possesses may be conferred upon
+        the target. These effects last no longer than one week.<br>
+        • Good luck: the target gains one extra die to add to
+        normal Ability checks and to Charm checks.<br>
+        • Create a good luck charm, walkaway of other
+        talisman of permanent duration.<br>
+        • A permanent mark appears on the target in an
+        obvious place. This mark can be seen only by spirits and
+        Exalted using a sensory Charm that allows them to per-
+        ceive Essence at work. While mortals cannot see the mark,
+        it obviously alters the character's horoscope and can be
+        detected in that fashion. Effects vary, depending on the
+        meaning of the mark.<br>
+        "
+
+    endowment[Endowment]
+    largess --> endowment
+    click endowment callback "
+        Endowment<br>
+        <br>
+        Cost: 20 motes, 1 permanent Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Compassion: 3<br>
+        Minimum Essence: 5<br>
+        Prerequisite Charms: Largess<br>
+        <br>
+        This blessing is never given lightly. Great tales are told
+        of the massive quests that lead to such rewards, and the
+        heroes who achieve them. This Charm may only be used
+        once per year.<br>
+        • One dot added to an Attribute, duration permanent.<br>
+        • Two dots to Abilities, distributed as the spirit sees
+        fit, duration permanent. This may include Abilities the
+        target does not normally possess, unless he is not physically
+        capable of possessing them.<br>
+        • One permanent Essence point.<br>
+        • The return of all temporary Willpower that the
+        target has lost.<br>
+        • The effects of one Charm (maximum Virtue 2,
+        Essence 2) that the spirit possesses may be conferred upon
+        the target. These effects last for as long as the effects of the
+        Charm that was conferred would normally last. In rare cases,
+        the effect may be permanent (Storyteller's discretion).<br>
+        • Good luck: the target's temporary Willpower is
+        always one higher than her permanent Willpower. The
+        effect is permanent.<br>
+        • Create a double- or triple-effect talisman of permanent
+        duration.<br>
+        "

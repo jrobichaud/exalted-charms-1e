@@ -17,3 +17,7 @@ Temperance
 Valor
 -----
 .. mermaid:: ./mermaid/spirits/valor.mmd
+
+Blessings
+---------
+.. mermaid:: ./mermaid/spirits/blessings.mmd
