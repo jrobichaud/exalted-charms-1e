@@ -1,0 +1,232 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    dreamspeak[Dreamspeak]
+    click dreamspeak callback "
+        Dreamspeak
+        <br>
+        Cost: 5 motes
+        Duration: One scene
+        Type: Simple
+        Minimum Compassion: 1
+        Minimum Essence: 2
+        Prerequisite Charms: None
+        This Charm allows a spirit to speak with the target in
+        his dreams. The target must be asleep, and the spirit must
+        know approximately where he is, although the spirit need
+        not be present there. Roll the spirit's Intelligence + Compassion.
+        The more successes the spirit gets, the more easily
+        it converses with the dreamer. Four or more successes
+        indicates that not only can the spirit appear in the dream,
+        but it will seem to be of extreme significance to the dreamer.
+        "
+
+    dreamscape[Dreamscape]
+    dreamspeak --> dreamscape
+    click dreamscape callback "
+        Dreamscape
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Compassion: 1<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Dreamspeak<br>
+        <br>
+        This Charm allows a spirit to govern the dream of a
+        sleeping mortal. It may shape that dream in whatever way
+        it wishes, appearing or not appearing in the dream as it
+        pleases. Roll the spirit's Manipulation + Compassion. The
+        more successes, the more the spirit can manipulate. The
+        spirit must know either the approximate location of the
+        dreamer or his identity. While the spirit may harm the
+        dreamer inside of the dream, no damage carries over to the
+        real world.
+        "
+
+    natural_prognostication[Natural Prognostication]
+    click natural_prognostication callback "
+        Natural Prognostication
+        <br>
+        Cost: 2 motes
+        Duration: Instant
+        Type: Reflexive
+        Minimum Compassion: 1
+        Minimum Essence: 1
+        Prerequisite Charms: None
+        The spirit is naturally in tune with the patterns of
+        destiny and the astrological forces. A simple success on a
+        Perception + Compassion check causes this spirit's behavior
+        (actions, words) to reflect in some small way the path
+        of things to come. Most spirits with this Charm don't
+        notice themselves using it and would shrug if it was pointed
+        out to them; it's simply a part of what they are. The number
+        of successes indicates the importance of the event that is
+        prognosticated and/or the level of detail provided. The
+        words and actions of such spirits are frequently ambiguous
+        and often enigmatic.
+        "
+
+    foretell_the_future[Foretell the Future]
+    natural_prognostication --> foretell_the_future
+    click foretell_the_future callback "
+        Foretell the Future
+        <br>
+        Cost: 10 motes<br>
+        Duration: Variable<br>
+        Type: Simple<br>
+        Minimum Compassion: 1<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Natural Prognostication<br>
+        <br>
+        This spirit may deliberately attempt to foresee what
+        may come with a successful Perception + Compassion
+        check. The number of successes determines how long it
+        takes the spirit to glean the information. The spirit must
+        sleep, meditate or in some other way &quot;go within&quot; for one
+        day per success. More successes means more information
+        means more time spent &quot;under.&quot; This spirit sees what may
+        be, not what must be.
+        "
+
+    hand_of_destiny[Hand of Destiny]
+    foretell_the_future --> hand_of_destiny
+    click hand_of_destiny callback "
+        Hand of Destiny
+        <br>
+        Cost: 14 motes, 1 Willpower<br>
+        Duration: Variable<br>
+        Type: Simple<br>
+        Minimum Compassion: 1<br>
+        Minimum Essence: 6<br>
+        Prerequisite Charms: Foretell the Future<br>
+        <br>
+        This Charm allows a powerful spirit to glimpse the hand
+        of Destiny moving behind the curtains of reality, upon a
+        successful Perception + Compassion check. The number of
+        successes determines how much of Destiny's plan the spirit
+        glimpses. It also determines how much of that plan notices the
+        spirit. The more the spirit sees, the more the spirit becomes
+        caught up in whatever is happening. The spirit may feel
+        compelled to take part in the plan, and not necessarily in the
+        way it would have chosen. Few spirits will use this Charm
+        lightly, and they may require great boons or services in
+        return for its use. If the Storyteller chooses, this Charm may
+        have the same sleep or meditation requirement as Foretell
+        the Future — except that the spirit must go within for at least
+        one week for each success. Spirits can spend months dreaming,
+        trying to comprehend Destiny's plan.
+        "
+
+    landscape_travel[Landscape Travel]
+    click landscape_travel callback "
+        Landscape Travel
+        <br>
+        Cost: 4 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Compassion: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        This Charm allows a spirit to travel quickly, comfortably
+        and easily in its natural element. A forest spirit might
+        gain perfect balance and sticky feet to allow it to travel
+        easily along tree limbs and jump from tree to tree. A water
+        spirit might walk on water, or develop gills and fins if it
+        didn't have them already.
+        "
+
+    landscape_camouflage[Landscape Camouflage]
+    landscape_travel --> landscape_camouflage
+    click landscape_camouflage callback "
+        Landscape Camouflage
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Compassion: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Landscape Travel<br>
+        <br>
+        This Charm allows a spirit to camouflage itself, as long
+        as it is within its natural element (a forest spirit must be
+        within the trees; an earth spirit could camouflage itself against
+        grass, earth, or stone; a fire spirit could camouflage
+        itself within or against a fire, or against hot desert sands).
+        Roll the spirit's Wits + Compassion. Every success adds
+        one to the difficulty of Perception + Awareness checks to
+        notice the spirit.
+        "
+
+    landscape_hide[Landscape Hide]
+    landscape_camouflage --> landscape_hide
+    click landscape_hide callback "
+        Landscape Hide
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Compassion: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Landscape Camouflage<br>
+        <br>
+        This Charm allows a spirit to hide within a solid piece
+        of its natural landscape. A forest spirit might sink into a
+        tree trunk; a spirit of the plains might sink into the sound.
+        During its time within its element, the spirit's senses are
+        muted. Roll the spirit's Stamina + Resistance if the item in
+        which it hides suffers any damage. If the roll fails, the spirit
+        is forced out of the item. If the roll succeeds, the spirit may
+        choose to stay in the item, but it will take any damage that
+        the item takes, health level for health level. If the item is
+        particularly sturdy, it may add up to five health levels to the
+        spirit's rotal, at the Storyteller's discretion — one health
+        level per success on the original roll.
+        "
+
+    tracking[Tracking]
+    click tracking callback "
+        Tracking
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Compassion: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows a spirit to track someone or some-
+        thing on a successful Perception + Compassion chock.
+        One success is all that's needed for a spirit to track a normal
+        human in the spirit's natural domain, regardless of the
+        prey's Survival skill. More successes are needed if the spirit
+        wishes to track an Exalted, another spirit or some other
+        supernatural creature capable of supernatural Stealth, or if
+        it wishes to track outside of its natural domain. Other
+        modifiers (such as familiarity with the prey or weather
+        conditions) apply only to tracking beings capable of supernatural
+        misdirection — see the rules in the main Exalted book for details.
+        "
+
+    summon_food[Summon Food]
+    click summon_food callback "
+        Summon Food
+        <br>
+        Cost: 5 or 10 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Compassion: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Spirits use this Charm to summon food for those who
+        need it. The spirit must succeed at a Stamina + Compassion
+        check. Each success the spirit achieves allows it to summon
+        enough food for a full meal for one person (the spirit may
+        choose to summon less than its successes allow it to). For
+        five motes, the food summoned is edible. For ten motes, the
+        food is some of the finest nourishment ever tasted.
+        "

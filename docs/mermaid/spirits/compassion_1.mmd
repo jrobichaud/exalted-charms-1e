@@ -1,0 +1,95 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    measure_the_wind[Measure the Wind]
+    click measure_the_wind callback "
+        Measure the Wind<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Compassion: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This power enables the spirit to sense nearby Essence,
+        whether it exists in objects or within Exalted. Rolls the
+        spirit's Perception + Compassion. One success is enough to
+        sense Essence in the vaguest of measures. Three or more
+        successes means the spirit not only senses Essence, but
+        knows its source and potential powers (if possessed by
+        Exalted, for example).
+        "
+
+    stoic_endurance[Stoic Endurance]
+    click stoic_endurance callback "
+        Stoic Endurance<br>
+        <br>
+        Cost: 2 motes per die<br>
+        Duration: Varies<br>
+        Type: Simple<br>
+        Minimum Compassion: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        For each success on the roll, the spirit may improve an
+        individual's Stamina by one dot. More dice than the
+        spirit's Charisma + Compassion may not be rolled, nor may
+        the spirit increase the target's Stamina by more dots than
+        the spirit's Essence. Only one use of this Charm may be
+        active on an individual at any given time. This Charm
+        fades at a rate of one dot per (the spirit's Willpower) turns.
+        "
+
+    touch_of_grace[Touch of Grace]
+    click touch_of_grace callback "
+        Touch of Grace<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Compassion: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The spirit may heal itself or others. Spends the 3
+        motes of Essence and make a Compassion roll. If the roll
+        succeeds, the Charm heals one health level of bashing or
+        lethal damage.
+        "
+
+    sense_domain[Sense Domain]
+    measure_the_wind --> sense_domain
+    click sense_domain callback "
+        Sense Domain<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Compassion: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Measure the Wind<br>
+        <br>
+        This Charm enables the spirit to get a feel for how
+        things are going within its domain of influence (up to a half
+        mile in diameter per point of Essence, but most often related
+        to a geographical feature — for instance, a single tree and a
+        little land surrounding it might be a spirit's area of influence).
+        Roll the spirit's Perception + Compassion. One
+        success allows the spirit to sense the presence of any direct
+        and immediate danger (to itself or to the domain) in the
+        area. Two successes allow a reasonably thorough catalogue
+        of the influences at work in the area and the intentions they
+        have with regard to the spirit or its domain. Three or more
+        successes allows the spirit to know almost anything currently
+        going on within its domain that isn't protected by some sott
+        of supernatural ward or misdirection. Charms, sorcery and
+        exceptional Ability rolls or stunts may block this insight or
+        remove successes, at the Storyteller's discretion. Some spir-
+        its that have no natural domain may be able to use this ability
+        in any area they've spent several days exploring (Storyteller's
+        discretion; two additional successes required).
+        "

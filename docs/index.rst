@@ -6,6 +6,7 @@ Contents, indices and tables
   :maxdepth: 2
 
   solar
+  spirits
 
 * :ref:`genindex`
 * :ref:`modindex`
