@@ -1,0 +1,231 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    hoodwink[Hoodwink]
+    click hoodwink callback "
+        Hoodwink<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Temperance: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        This Charm allows the spirit to temporarily distract the
+        target, causing his attention to focus on something other
+        than the spirit. Roll the spirit's Manipulation + Conviction
+        with a difficulty equal to the target's Essence. Simple success
+        distracts the target for a turn - long enough for the spirit
+        to run away or dematerialize. Three or more extra successes
+        distract the target from anything it was thinking about the
+        spirit, such as suspicions, accusations, anger, etc. Five or
+        more extra successes means the target does not remember
+        the spirit until something or someone reminds him of what
+        he was thinking. This Charm requires extra successes to
+        distract a target who is feeling negative emotions toward the
+        spirit, and it requires at least three additional success to
+        affect someone in combat with it.
+        "
+
+    stillness[Stillness]
+    click stillness callback "
+        Stillness<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Temperance: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows the spirit to remain absolutely,
+        perfectly still.
+        "
+
+    camouflage[Camouflage]
+    stillness --> camouflage
+    click camouflage callback "
+        Camouflage<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Temperance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Stillness<br>
+        <br>
+        This Charm allows the spirit to camouflage itself within
+        whatever environment it happens to be in. A spirit standing
+        against a rock takes on the coloration of that rock, and its
+        edges might soften a bit, making its outline difficult to make
+        out against the background. Roll the spirit's Wits + Temperance.
+        Successes on this roll are added to any successes on the
+        spirit's Dexterity + Stealth roll if it is attempting to actively
+        hide. The result is the number of successes observers' players
+        must roll on their Wits + Temperance checks (four net
+        successes are required if the spirit is still, three if it moves
+        slowly, two if it moves normally, and one if it moves quickly).
+        "
+
+    hurry_home[Hurry Home]
+    click hurry_home callback "
+        Hurry Home<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Temperance: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        With a successful Wits + Temperance check, a spirit
+        may escape whatever situation it is in and return to its own
+        home — what exactly constitutes the spirit's home is a
+        matter for Storyteller discretion. The more tense and
+        hurried the situation, the more successes the spirit requires.
+        One success is all that's needed in a relaxed, quiet
+        setting. Five successes take the spirit home even in the
+        middle of a combat.
+        "
+
+    portal[Portal]
+    hurry_home --> portal
+    click portal callback "
+        Portal<br>
+        <br>
+        Cost: 15 motes, 1 Willpower<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Temperance: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Hurry Home<br>
+        <br>
+        A successful Intelligence + Temperance check allows
+        the spirit to open up a portal large enough for it to step
+        through. The portal lasts for one turn; during that time,
+        anyone else may step through it as long as they can fit
+        through the opening. With one success, the portal takes
+        the travelers to a random (though not immediately harmful)
+        location. With two successes, the spirit may loosely
+        direct the exit point (&quot;Southern Deserts, please&quot;) or go
+        directly to its home. Five or more successes allow the spirit
+        to direct the portal wherever it pleases. Extra successes
+        beyond the successes required for pinpointing the portal's
+        exit point allow the spirit to triple the radius of the portal.
+        "
+
+    transport[Transport]
+    portal --> transport
+    click transport callback "
+        Transport<br>
+        <br>
+        Cost: 20 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Temperance: 4<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Portal<br>
+        <br>
+        A successful Dexterity + Temperance check allows
+        the spirit to transport itself wherever it chooses. For each
+        success, it may transport one passenger (willing or unwilling)
+        as well, though it costs one additional Willpower
+        point if there are passengers involved. All passengers must
+        be within the line of sight of the spirit. The spirit must have
+        been to the destination before.
+        "
+
+    banish[Banish]
+    transport --> banish
+    click banish callback "
+        Banish<br>
+        <br>
+        Cost: 10 motes, 1 Willpower per target<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Temperance: 4<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Transport<br>
+        With this Charm, a spirit may banish any targets
+        within line of site to a random habitable location up one.
+        mile distant (Le., a human would not be banished to an
+        underwater location or dumped in a lava flow). Roll the
+        spirit's Perception + Temperance. Each success allow one
+        target to be banished in this manner. The more successes
+        the farther away the target is likely to be sent. This Charm
+        must be used within the bounds of the spirits home
+        territory.
+        "
+
+    capture[Capture]
+    banish --> capture
+    click capture callback "
+        Capture<br>
+        <br>
+        Cost: 15 motes, 1 Will power per target<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Temperance: 5<br>
+        Minimum Essence: 6<br>
+        Prerequisite Charms: Banish<br>
+        <br>
+        With this Charm, a spirit may transport any targets
+        within line of site to a location of the spirit's choosing, as
+        long as it isn't immediately deadly to the target (the target
+        could be transported into a cage or into the cave of a
+        dangerous beast, but not into a lava flow or the bottom of
+        the ocean unless the target could survive those places).
+        Roll the spirit's Dexterity + Temperance. Each success
+        allows one target to be captured in this manner.
+        "
+
+    sustenance[Sustenance]
+    click sustenance callback "
+        Sustenance<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Temperance: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The spirit must touch a mortal in order to activate his
+        Charm. This does not involve a Brawl or Martial Ats
+        check, as this Charm works only on a sleeping moral.
+        After the spirit touches the target, roll its Wits+ Temperance.
+        For each success, the spirit devours one mote of
+        Essence. This Charm always involves some other method
+        of sustenance as well. The spirit might feed on the dreams
+        and nightmares of the mortal, or on her breath. Whatever
+        the spirit feeds on does not harm the mortal, although it
+        might have mild (and temporary) effects when the mortal
+        wakes up. Even if the spirit does not regain the Essence it
+        spent, it still feels satiated from the other part of its meal.
+        "
+
+    steal_sustenance[Steal Sustenance]
+    sustenance --> steal_sustenance
+    click steal_sustenance callback "
+        Steal Sustenance<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Essence: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Sustenance<br>
+        <br>
+        The spirit must touch a sleeping mortal in order to
+        activate this Charm. Roll the spirit's Strength + Temperance.
+        At least two successes are required. Not only does this
+        Charm steal two motes of Essence per success, but it also
+        devours something that leaves the mortal impaired in some
+        way — hearing, sight, etc. — although it leaves the body
+        apparently unharmed. Only supernatural healing of some
+        sort restores the loss; it never heals normally. Even if the
+        spirit does not replenish the Essence it spent, it feels satiated.
+        "

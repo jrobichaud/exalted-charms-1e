@@ -1,0 +1,322 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    details[Details]
+    click details callback "
+        Details<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Spirits use the Details Charm to change small details of
+        their physical appearance, upon a successful Charisma +
+        Valor check. Each use of this Charm allows one discrete
+        detail to be changed. The size and complexity of the detail
+        depends on the number of successes the spirit achieves. One
+        or two successes allow a small detail to be changed: hair
+        length, the shape of the spirit's pupils. Three or four allow
+        the spirit to change larger details: the design of a dress, the
+        length of its limbs. Five or more successes allow the spirit to
+        create details from nothing: a bracelet where there was none.
+        "
+
+    form_match[Form Match]
+    details --> form_match
+    click form_match callback "
+        Form Match<br>
+        <br>
+        Cost: 8 motes per day, 1 Willpower<br>
+        Duration: Variable<br>
+        Type: Reflexive<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Details<br>
+        <br>
+        The spirit may take on another's physical form upon a
+        successful Charisma + Valor check. This requires the spirit
+        to touch the being to be emulated, which may require a
+        successful Dexterity + Brawl or Martial Arts check, depending
+        on the circumstances. The spirit must pay in advance
+        and choose up front how many motes to spend; if it chooses
+        to break the Charm early, those motes are not recovered.
+        A very successful Perception + Awareness check may
+        see through the disguise. Four successes indicate that small
+        elements of the disguise seem wrong, while five or more
+        indicate that the shapechanging seems patently false.
+        Some spirits and Exalted may possess Charms designed to
+        see through such trickery.<br>
+        Certain actions may allow someone to see through
+        such a disguise or may momentarily break through the
+        disguise; superstitions of various areas prescribe different
+        actions. Some of these are: looking at someone's reflection
+        in a fractured mirror, looking at someone through lenses
+        that have been soaked in a special herbal solution, blowing
+        ashes of certain types of wood into someone's face. Which
+        superstitions apply depends on the spirit. Some particularly
+        difficult &quot;rituals&quot; may break the disguise entirely.
+        "
+
+    shapechange[Shapechange]
+    click shapechange callback "
+        Shapechange<br>
+        <br>
+        Cost: 12 motes per day<br>
+        Duration: Variable<br>
+        Type: Simple<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The spirit may take on any physical form it wishes upon
+        a successful Charisma + Valor check; it must pay the cost for
+        the full duration in advance (if the spirit breaks the Charm
+        early, the extra motes are not recovered). After that, the
+        spirit must reactivate the Charm if it wishes to continue the
+        masquerade, making the Charisma + Valor check again.
+        The spirit must spend another 10 motes and a Willpower
+        point in advance (once per use of the Charm, not per day)
+        if it wishes its Abilities, Attributes, etc. to change with its
+        form. This latter restriction does not apply if the spirit has
+        a very limited number of forms and knows them very well.<br>
+        The Shapechange Charm may be seen through in the
+        same manner as the Form Match Charm, above.
+        "
+
+    will_o_wisp[Will-o-Wisp]
+    click will_o_wisp callback "
+        Will-o-Wisp<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The spirit causes brief, somewhat muddled manifestations
+        of sound, smell, and light, such as a ball of light or
+        indistinct sounds of conversation. Roll the spirit's Manipulation
+        + Valor. The more successes, the more noticeable these
+        manifestations are (louder, brighter) and the longer they may
+        last. This Charm may not be used in precise ways — no writing
+        words or making pictures in light; no speaking distinct phrases.
+        "
+
+    ghostly_presence[Ghostly Presence]
+    will_o_wisp --> ghostly_presence
+    click ghostly_presence callback "
+        Ghostly Presence<br>
+        <br>
+        Cost: 8 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Valor: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Will-o-Wisp<br>
+        <br>
+        The spirit may cause the same manifestations as Will-o-Wisp,
+        again making a Manipulation + Valor check. This
+        time, however, it may create distinct patterns. Ghostly
+        writing may be created. This Charm may be used to hold
+        a conversation with a target while the spirit is unmanifested.
+        The number of successes affects how distinct the manifestations
+        are, how precisely controlled they are, and just how
+        thoroughly the spirit may manipulate its medium. With
+        five successes, the spirit may paint simple scenes out of
+        light, sound and smell. These scenes may not be larger than
+        ten feet in any direction, and they are obvious to anyone
+        who is close enough to observe them.
+        "
+
+    paralyze[Paralyze]
+    click paralyze callback "
+        Paralyze<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Through the use of this Charm, spirits can paralyze
+        targets. It must touch its target for this Charm to work,
+        which may require a successful Dexterity + Brawl or
+        Martial Arts check. If the spirit successfully touches its
+        target, roll its Strength + Valor with a difficulty equal to
+        the target's Stamina. Every extra success the spirit achieves
+        causes the target to suffer a -2 penalty to all rolls involving
+        movement or agility for the rest of the scene.
+        "
+
+    affinity_element_control[Affinity Element<br>Control]
+    click affinity_element_control callback "
+        Affinity Element Control<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The spirit may use this Charm to affect whichever
+        element (s) it shares an affinity with. For example, a forest
+        spirit could affect Wood, and possibly Earth (Storyteller's
+        discretion). This allows spirits to cause or calm small floods
+        and rainstorms, twist a small torch into a raging inferno or
+        a delicate dance of firelight, create gusts of wind, open a
+        hole in the earth or twist tree limbs into manacles.<br>
+        Roll the spirit's Manipulation + Valor. The number of
+        successes indicates how fine a level of control the spirit has
+        and how powerful an effect it can create. One success
+        allows a spirit to call forth a mild rain or light a campfire,
+        while three allow a spirit to cause a rainy day or build a
+        torch into a bonfire without any extra fuel. Five successes
+        might allow a spirit to create a phantom lover out of air
+        itself or instantly consume a large wooden structure in
+        flames. The spirit may manipulate a one-yard cube of an
+        element per point of Essence it possess. In the case of area
+        effects like rain, it could cause the effect in a five-meter
+        radius per permanent Essence point.
+        "
+
+    element_control[Element Control]
+    affinity_element_control --> element_control
+    click element_control callback "
+        Element Control<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Valor: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Affinity Element Control<br>
+        The same as Affinity Element Control, except that
+        the spirit can control any element, not just one to which
+        it is attuned.
+        "
+
+    weather_control[Weather Control]
+    click weather_control callback "
+        Weather Control<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Valor: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Affinity Element Control<br>
+        <br>
+        This Charm allows the spirit to control the weather.
+        Note that this may duplicate some effects of the Element
+        Control Charms, but its effects are limited to weather
+        phenomena: rain, fog, floods, storms, heat, cold, etc. This
+        charm affects a larger area as well — a one- mile radius per
+        permanent Essence point. Roll the spirit's Manipulation +
+        Valor; the number of successes determines the size of the
+        effect the spirit can create, and the length of time before the
+        area's natural climate reasserts itself. One success allows
+        small changes — a low wind could be created, or a heavy
+        wind could be downgraded to a moderate wind. Three
+        successes allow the creation of a moderate rainstorm or a
+        mild heat wave. Five successes allow wild changes in local
+        weather patterns, such as high heat in the middle of the
+        month of Ascending Water. It takes one hour per success
+        for the local weather patterns to reassert themselves. Unnatural
+        or one-time meteorological effects that are halted by
+        the use of this Charm can be considered ended.
+        "
+
+    ignite[Ignite]
+    click ignite callback "
+        Ignite<br>
+        <br>
+        Cost: 1 or 5 motes
+        Duration: Instant
+        Type: Reflexive
+        Minimum Valor: 2
+        Minimum Essence: 2
+        Prerequisite Charms: None
+        The spirit may, upon a successful Stamina + Valor
+        check, set fire to whatever item it touches. This requires 5
+        motes if the item is nonflammable.
+        "
+
+    element_touch[Element Touch]
+    click element_touch callback "
+        Element Touch<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One day<br>
+        Type: Reflexive<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm causes its target to become &quot;touched&quot; by
+        the spirit's element. The spirit must touch its target for this
+        Charm to work, possibly requiring a successful Dexterity +
+        Brawl or Martial Arts attack. Roll the spirit's Manipulation
+        + Valor with a difficulty equal to the target's Essence.
+        The more extra successes, the more intense the target's
+        reaction to this Charm. A Fire-aspected spirit causes
+        someone to grow feverish. The target might take on some
+        of the personality traits associated with fire: a hotheaded
+        temper, lusty libido, curiosity, anger, vengeance, forceful-
+        ness or willfulness. The effects of this Charm last for one
+        day or until the spirit chooses to release the target, whichever
+        comes sooner. This Charm is a favorite among demons,
+        who use it to bring out the worst in targets.
+        "
+
+    element_kiss[Element Kiss]
+    element_touch --> element_kiss
+    click element_kiss callback "
+        Element Kiss<br>
+        <br>
+        Cost: 20 motes, 1 Willpower<br>
+        Duration: One week<br>
+        Type: Reflexive<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Element Touch<br>
+        <br>
+        This Charm is the same as Element Touch, but it lasts
+        for one week or until the spirit chooses to release the target,
+        whichever comes sooner. Like Element Touch, this Charm
+        requires the spirit to touch its target. If the spirit achieves
+        three or more successes, the target may have hallucinations
+        that support and intensify his reaction.
+        "
+
+    element_infusion[Element Infusion]
+    element_kiss --> element_infusion
+    click element_infusion callback "
+        Element Infusion<br>
+        <br>
+        Cost: 30 motes, 2 Willpower<br>
+        Duration: One month<br>
+        Type: Reflexive<br>
+        Minimum Valor: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Element Kiss<br>
+        <br>
+        This Charm is similar to the lesser Element Kiss and
+        Element Touch Charms, but lasts for one month or until
+        the spirit chooses to release the target (whichever comes
+        sooner). Like the two lesser Charms, the spirit must either
+        touch the target or look into the target's eyes. Roll the
+        spirit's Manipulation + Valor with a difficulty equal to the
+        target's Essence. With two or more successes, the target has
+        the hallucinations described under Element Kiss. At three
+        or more successes, the target may well harm herself under
+        the force of her reaction.
+        "

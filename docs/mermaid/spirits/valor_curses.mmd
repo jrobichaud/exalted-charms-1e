@@ -1,0 +1,128 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    tiny_damnation[Tiny Damnation]
+    click tiny_damnation callback "
+        Tiny Damnation<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Valor: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The effects of this Charm always fade by the next
+        morning's sunrise, and it may not be cast more than once
+        per day on the same target. Some possible curses:<br>
+        • One dot lost from an Ability of the spirit's choosing.<br>
+        • The loss of one temporary Willpower point.<br>
+        • The loss of two motes of Essence.<br>
+        • Bad luck: the target loses one die from any normal
+        Ability checks (not Charm checks) that relate to the way
+        in which the target offended the spirit.
+        "
+
+    imprecation[Imprecation]
+    tiny_damnation --> imprecation
+    click imprecation callback "
+        Imprecation<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One week<br>
+        Type: Simple<br>
+        Minimum Valor: 1<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Tiny Damnation<br>
+        <br>
+        The effects of this Charm last for one week, and it may
+        not be cast more than once per week on the same target.
+        Some possible curses:<br>
+        • Loss of two Ability dots, distributed as the spirit sees fit.<br>
+        • The loss of two temporary Willpower points.<br>
+        • The loss of one Attribute dot of the spirit's choosing.<br>
+        • The loss of five motes of Essence.<br>
+        • Bad luck: the target removes one die from normal Ability checks (not Charm checks).<br>
+        • A mark appears in an obvious place on the target<br>
+        that only spirits or Exalted with some sort of supernatural
+        sight can see. This may, for example, urge any spirits who
+        meet the target to torment him.
+        "
+
+    malediction[Malediction]
+    imprecation --> malediction
+    click malediction callback "
+        Malediction<br>
+        <br>
+        Cost: 15 motes, 1 Willpower<br>
+        Duration: One week<br>
+        Type: Simple<br>
+        Minimum Valor: 2<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Imprecation<br>
+        <br>
+        The effects of this Charm last for one week, and it may
+        not be used on a target more than once every two weeks.
+        Some possible effects:<br>
+        • Loss of four Ability points, distributed as the spirit
+        sees fit.<br>
+        • Loss of two Attribute points, distributed as the spirit
+        sees fit.<br>
+        • Loss of three temporary Willpower points.<br>
+        • Loss of ten motes of Essence.<br>
+        • Bad luck: the target removes one die from both
+        normal Ability checks and Charm checks.<br>
+        • The effects of one Charm (of Virtue 1, Essence 1) that
+        the spirit possesses may be conferred upon the target, but that
+        effect is twisted in some way. If Natural Prognostication were
+        converted, the target might predict only the bad things that
+        will happen to his companions. Or his predictions might be
+        more than a little mixed up. Landscape Travel, if cast on
+        someone traveling through a forest, might force him to travel
+        through the trees and prevent him from ever touching the
+        ground. I his twisted Charm lasts tor no more than one week.
+        "
+
+    scourge[Scourge]
+    malediction --> scourge
+    click scourge callback "
+        Scourge<br>
+        <br>
+        Cost: 20 motes, l permanent Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Valor: 3<br>
+        Minimum Essence: 5<br>
+        Prerequisite Charms: Malediction<br>
+        <br>
+        This curse is never cast lightly, and it may not be cast
+        more than once per year. Only spirits that have been
+        drastically wronged in heinous ways would consider using
+        this curse (if just because they wouldn't be able to cast it
+        again for another year).<br>
+        • Loss of one Attribute point, permanently. It must be
+        bought back up through practice (and experience points),
+        Against a mortal character, this Charm also permanently
+        lowers the character's maximum score in that Ability by one.<br>
+        • Loss of two Ability points, permanently, distributed
+        as the spirit sees fit. Only practice and experience points
+        may buy this back up again.<br>
+        • Loss of one permanent Willpower point.<br>
+        • Loss of one permanent Essence point.<br>
+        • Loss of all temporary Willpower.<br>
+        • The effects of one Charm (maximum Virtue 2,
+        Essence 2) that the spirit possesses may be conferred upon
+        the target, but the effect is twisted in some way (as
+        Malediction). This lasts for twice as long as the Charm
+        would normally last. In rare cases (Storyteller discretion)
+        the effect may be permanent.<br>
+        • Bad luck: the target attracts ill-intentioned spirits
+        wherever he goes. Duration permanent.<br>
+        • The spirit may permanently change some physical
+        feature of the target, such as facial hair or eye color. (This
+        alteration may not change any Attributes by more than
+        one point.)
+        "
