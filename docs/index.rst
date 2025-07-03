@@ -7,5 +7,6 @@ Contents, indices and tables
 
   solar
   sidereals
+  dragon_blooded
   spirits
 
