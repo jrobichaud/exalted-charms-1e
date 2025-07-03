@@ -6,5 +6,6 @@ Contents, indices and tables
   :maxdepth: 2
 
   solar
+  sidereals
   spirits
 
