@@ -7,6 +7,7 @@ Contents, indices and tables
 
   solar
   lunar
+  abyssal
   sidereals
   dragon_blooded
   spirits
