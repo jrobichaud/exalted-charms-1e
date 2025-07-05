@@ -9,6 +9,7 @@ Archery
 
 Brawl
 ^^^^^
+.. mermaid:: ./mermaid/abyssal/dusk_brawl_1.mmd
 
 Martial Arts
 ^^^^^^^^^^^^
@@ -28,9 +29,11 @@ Endurance
 
 Performance
 ^^^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/midnight_performance_1.mmd
 
 Presence
 ^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/midnight_presence_1.mmd
 
 Resistance
 ^^^^^^^^^^
@@ -43,15 +46,19 @@ Daybreak Caste
 
 Craft
 ^^^^^
+.. mermaid:: ./mermaid/abyssal/daybreak_craft_1.mmd
 
 Investigation
 ^^^^^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/daybreak_investigation_1.mmd
 
 Lore
 ^^^^
+.. mermaid:: ./mermaid/abyssal/daybreak_lore_1.mmd
 
 Medicine
 ^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/daybreak_medicine_1.mmd
 
 Occult
 ^^^^^^
@@ -92,3 +99,4 @@ Sail
 
 Socialize
 ^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/moonshadow_socialize_1.mmd
