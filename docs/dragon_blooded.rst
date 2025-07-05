@@ -80,6 +80,7 @@ Archery
 Survival
 ^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/wood_survival_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/wood_survival_2.mmd
 
 Medicine
 ^^^^^^^^
