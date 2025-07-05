@@ -17,6 +17,10 @@ Occult
 .. mermaid:: ./mermaid/dragon_blooded/air_occult_1.mmd
 .. mermaid:: ./mermaid/dragon_blooded/air_occult_2.mmd
 
+Throw
+^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/air_throw_1.mmd
+
 
 Earth
 -----
@@ -44,6 +48,7 @@ Athletics
 Dodge
 ^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/fire_dodge_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/fire_dodge_2.mmd
 
 Melee
 ^^^^^
@@ -85,3 +90,4 @@ Survival
 Medicine
 ^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/wood_medicine_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/wood_medicine_2.mmd
