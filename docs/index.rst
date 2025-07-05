@@ -6,7 +6,7 @@ Contents, indices and tables
   :maxdepth: 2
 
   solar
+  lunar
   sidereals
   dragon_blooded
   spirits
-
