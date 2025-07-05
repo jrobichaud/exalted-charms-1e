@@ -6,8 +6,9 @@ Contents, indices and tables
   :maxdepth: 2
 
   solar
-  lunar
-  abyssal
-  sidereals
   dragon_blooded
+  lunar
+  sidereals
+  abyssal
+  alchemical
   spirits
