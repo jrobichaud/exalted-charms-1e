@@ -299,3 +299,254 @@ flowchart TD
         be fatal to Exalted. This Charm does not protect the
         character from the effects of diseases, however.
         "
+
+    subgraph Castebook Zenith
+        direction TB
+        environmental_hazard_resisting_meditation[Environmental Hazard-Resisting<br>Meditation]
+        click environmental_hazard_resisting_meditation callback "
+            Environmental Hazard-Resisting Meditation<br>
+            <br>
+            Cost: None<br>
+            Duration: Permanent<br>
+            Type: Special<br>
+            Minimum Resistance: 5<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: None<br>
+            <br>
+            Some Exalted, in their years of wandering the wilder-
+            ness, develop an immunity to nature's rigors. To simulate
+            this, a character can take this Charm to grant permanent
+            resistance to one of the following conditions. Each time she
+            purchases this Charm, she can choose one of the following:<br>
+            • Resistance to Extreme Heat<br>
+            • Resistance to Extreme Cold<br>
+            • Resistance to Acid<br>
+            • Resistance to Windblown Particles<br>
+            A character with one of these resistances suffers no
+            damage from natural occurrences of the condition and is
+            comfortable acting in it wearing normal gear. For instance,
+            a Chosen with Resistance to Extreme Heat may walk
+            across the most brutal of deserts without penalty, but still
+            suffers damage if caught in a forest fire or magical flame.
+            This Charm is similar to Ox-Body Technique, in that an
+            Exalt can take it repeatedly, until she has purchased all
+            four versions. A character cannot purchase this Charm
+            more times than she has dots in the Resistance Ability.
+        "
+
+        alcohol_resisting_prana[Alcohol-Resisting<br>Prana]
+        click alcohol_resisting_prana callback "
+            Alcohol-Resisting Prana<br>
+            <br>
+            Cost: 1 mote<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Resistance: 1<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: None<br>
+            <br>
+            By invoking this Charm, the Exalted becomes
+            immune to the negative effects of alcohol for the rest
+            of the scene. He suffers no penalties during or after the
+            scene in which Alcohol-Resisting Prana is used, and in
+            fact, the effect is quite pleasant, as the character
+            experiences the euphoric feelings of drunkenness without
+            any of the impairment normally associated with
+            heavy drinking. If the character is already drunk, then
+            all negative effects of the alcohol are negated until the
+            Charm ends. In addition, invoking this Charm prevents
+            any chance of hangover from alcohol drunk
+            during the scene, whether or not the Charm was in
+            effect when the alcohol was consumed.
+            "
+
+        drunken_warrior_technique[Drunken Warrior<br>Technique]
+        alcohol_resisting_prana --> drunken_warrior_technique
+        click drunken_warrior_technique callback "
+            Drunken Warrior Technique<br>
+            Cost: 2 motes
+            Duration: Instant
+            Type: Reflexive
+            Minimum Resistance: 2
+            Minimum Performance: 2
+            Minimum Essence: 1
+            Prerequisite Charms: Alcohol-Resisting Prana
+            The Drunken Warrior Technique allows the invoking
+            Exalted to harness the unpredictability of
+            drunkenness in combat. When this Charm is invoked,
+            the character may add dice to an attempt to attack or an
+            attempt to dodge or to parry an attack. The Charm may
+            be invoked multiple times per turn, but the total num-
+            ber of dice added in a given turn cannot exceed the
+            number of drinks the character has had during the scene
+            or the sum of the character's Resistance and Perfor-
+            mance Abilities, whichever is lower.
+            For the purposes of this Charm, a &quot;drink&quot; is a glass of
+            wine, a tankard of beer, a dram of hard liquor or the
+            equivalent. This Charm does not provide any immunity
+            to the negative effects of drinking, but may be used even
+            if the alcohol's effects have been negated though the use
+            of the Alcohol-Resisting Prana.
+            "
+
+        inebriated_fool_defense[Inebriated Fool<br>Defense]
+        drunken_warrior_technique --> inebriated_fool_defense
+        click inebriated_fool_defense callback "
+            Inebriated Fool Defense<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Resistance: 4<br>
+            Minimum Performance: 3<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: Drunken Warrior Technique, Spirit Strengthens the Skin<br>
+            <br>
+            The Inebriated Fool Defense allows the Exalted to
+            utilize the effects alcohol has on the human body,
+            loosening its muscles and joints, to withstand damage.
+            When this Charm is invoked, the character may add a
+            number of points to his bashing soak equal the number
+            of drinks he has consumed during the scene. This
+            number can be no greater than the sum of the Exalted's
+            Resistance and Performance Abilities. The Charm may
+            be invoked multiple times per turn, and the bonus is the
+            same each time it is invoked. The effects of this Charm
+            are compatible with other Resistance Charms that in-
+            crease the character's bashing soak.
+            For the purposes of this Charm, a &quot;drink&quot; is a glass of
+            wine, a tankard of beer, a dram of hard liquor or the
+            equivalent. This Charm does not provide any immunity to
+            the negative effects of drinking, but may be used even if the
+            alcohol's effects have been negated though the use of th
+            Alcohol-Resisting Prana.
+            "
+
+        interrogation_resisting_attitude[Interrogation-Resisting<br>Attitude]
+        click interrogation_resisting_attitude callback "
+            Interrogation-Resisting Attitude<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Resistance: 2<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: None<br>
+            <br>
+            The character's will and body are strengthened by
+            Essence, allowing her to easily endure all forms of
+            torture and interrogation. The player may add a num-
+            ber of automatic successes equal to the character's
+            permanent Essence to any Resistance rolls to avoid
+            breaking under interrogation. The character need not
+            call upon this power before the interrogation and may
+            even invoke it after giving some information during
+            the interrogation.<br>
+            Use of this Charm does not negate the effects of any
+            toxins used in the interrogation, nor does it prevent
+            damage. It merely allows the character complete control
+            over what she chooses to say.
+            "
+
+        pain_reducing_meditation[Pain-Reducing<br>Meditation]
+        interrogation_resisting_attitude --> pain_reducing_meditation
+        click pain_reducing_meditation callback "
+            Pain-Reducing Meditation<br>
+            <br>
+            Cost: 1 mote per -1
+            Duration: One scene
+            Type: Reflexive
+            Minimum Resistance: 3
+            Minimum Essence: 2
+            Prerequisite Charms: Interrogation-Resisting Attitude, Durability of Oak Meditation
+            The cumulative effects of pain can bring down even
+            the hardiest of Exalted. This Charm allows a Chosen to
+            ignore pain through the application of Essence. To activate
+            the Charm, the Exalted chooses to what degree he
+            wishes to ignore wound penalties for the remainder of the
+            scene. For each -1 wound penalty the character ignores,
+            the Charm costs 1 mote to activate. This Charm may be
+            used multiple times during a single scene, with cumulative
+            effects. A character can also negate more points of
+            wound penalties than he is currently suffering, to anesthetize
+            himself against later injury.
+            "
+
+        armor_of_virtue_technique[Armor of Virtue<br>Technique]
+        click armor_of_virtue_technique callback "
+            Armor of Virtue Technique<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Resistance: 2<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Durability of Oak Meditation<br>
+            <br>
+            Through the expenditure of Essence, this Charm
+            allows the Exalted to reinforce his ability to withstand
+            attack with one of his Virtues. The character must
+            choose the Virtue at the beginning of the scene and act
+            in accordance with that Virtue for the duration of the
+            scene. If at any point he acts contrary to the chosen
+            Virtue, the Armor of Virtue fades immediately, Specifically,
+            attempting any action that would require failing a
+            Virtue check causes the Charm's effects to expire. For
+            example, abandoning or attempting to abandon a loved
+            one to perish miserably while under the protection of
+            Compassion causes the Armor of Virtue to fail.<br>
+            When invoked, the Armor of Virtue Technique
+            increases the character's bashing soak by the value of the
+            character's chosen Virtue for the rest of the scene. This
+            Charm may be used again on subsequent turns, but a
+            character cannot gain a greater bonus to his bashing soak
+            via Armor of Virtue Technique than his Stamina +
+            Resistance. The effects of this Charm are compatible
+            with the effects of other Resistance Charms that increase
+            the character's soak.
+            While under the effect of the Armor of Virtue Technique,
+            the Exalted's Caste Mark glows brightly, as if the
+            character had spent 4 to 7 motes of Peripheral Essence.
+            Invoking this Charm automatically adds one point to the
+            character's Limit.
+            "
+
+        fivefold_armon_of_virtue_technique[Fivefold Armor of Virtue<br>Technique]
+        armor_of_virtue_technique --> fivefold_armon_of_virtue_technique
+        click fivefold_armon_of_virtue_technique callback "
+            Fivefold Armor of Virtue Technique<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Resistance: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Armor of Virtue Technique<br>
+            <br>
+            Through the expenditure of Essence, the Fivefold
+            Armor of Virtue Technique allows the Exalted to reinforce
+            his ability to withstand attack with one of his Virtues.
+            The character must choose the Virtue at the beginning of
+            the scene and act in accordance with it for the duration of
+            the scene. If at any point he acts contrary to the chosen
+            virtue, the Fivefold Armor of Virtue fades immediately, as
+            per the Armor of Virtue Technique.<br>
+            When invoked, the Fivefold Armor of Virtue
+            Technique increases the character's lethal soak roll by
+            the value of the character's chosen Virtue for the rest
+            of the scene. This Charm may be used again on subsequent
+            turns, but a character cannot gain a greater
+            bonus to his lethal soak via Fivefold Armor of Virtue
+            than his Stamina + Resistance.<br>
+            While under the effect of the Fivefold Armor of
+            Virtue Technique, the Exalted's anima glows brightly
+            enough to read by, as if the character had spent 8 to 10
+            motes of Peripheral Essence. Characters wearing armor
+            cannot use this Charm. Invoking this Charm automatically
+            adds one point to the character's Limit.
+        "
+    end
+
+    spirit_strengthens_the_skin --> inebriated_fool_defense
+    durability_of_oak_meditation --> pain_reducing_meditation
+    durability_of_oak_meditation --> armor_of_virtue_technique

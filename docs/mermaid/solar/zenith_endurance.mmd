@@ -204,3 +204,175 @@ flowchart TD
         down, she is almost certain to lash out at the unrecognizable
         blur obstructing her from slaying her target.
         "
+
+    subgraph Castebook Zenith
+        empty_stomach_fasting_meditation[Empty Stomach Fasting<br>Meditation]
+        click empty_stomach_fasting_meditation callback "
+            Empty Stomach Fasting Meditation<br>
+            <br>
+            Cost: 1 mote<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Endurance: 1<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: None<br>
+            <br>
+            The constitutions of Exalted are far more resilient
+            than those of mere mortals, yet even the Chosen must
+            eat. Through the use of this Charm, an Exalted may
+            eliminate her need to eat for a single day. Activation of
+            this Charm takes the normal investment of Essence and
+            meditation for one-quarter hour. Use of this Charm
+            does not alleviate the need to drink water. The Charm
+            may be used for up to 40 days in a row without penalty.
+            Afterward, the Chosen must eat and drink normally for
+            three days in a row. This Charm will not work again
+            until the Chosen has so eaten.
+            "
+
+        ascetic_monks_purification_discipline[Ascetic Monk's<br>Purification Discipline]
+        empty_stomach_fasting_meditation --> ascetic_monks_purification_discipline
+        click ascetic_monks_purification_discipline callback "
+            Ascetic Monk's Purification Discipline<br>
+            <br>
+            Cost: 10 motes<br>
+            Duration: Three days<br>
+            Type: Simple<br>
+            Minimum Endurance: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Empty Stomach Fasting Meditation<br>
+            <br>
+            In the harsh conditions of the wilderness, even fresh
+            water can be hard to come by. The Exalted who has
+            mastered this Charm can go without food and water for
+            three days. Activation of this Charm takes the normal
+            investment of Essence and meditation for a full hour. The
+            Exalt must eat and drink normally for at least one day
+            before this Charm can be used again.
+            "
+
+        controlled_breathing_exercise[Controlled Breathing<br>Exercise]
+        click controlled_breathing_exercise callback "
+            Controlled Breathing Exercise<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Endurance: 2<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: None<br>
+            <br>
+            The Exalted uses Essence to reduce his need for
+            breathing. Once the Charm is activated, the Chosen need
+            not breath until the scene is over, as long as he does nor
+            speak and only attempts simple actions. Each turn the
+            Exalted attempts a complicated action, including combat,
+            he must make a reflexive Stamina + Endurance roll to
+            avoid breathing. Obviously, this Charm is of great use in
+            poisoned environments.
+            "
+
+        sleep_of_death_technique[Sleep of Death Technique]
+        controlled_breathing_exercise --> sleep_of_death_technique
+        click sleep_of_death_technique callback "
+            Sleep of Death Technique<br>
+            <br>
+            Cost: 15 motes<br>
+            Duration: Special<br>
+            Type: Simple<br>
+            Minimum Endurance: 4<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Controlled Breathing Exercise<br>
+            <br>
+            Through the use of this Charm, an Exalted can give
+            the illusion of death. Her heartbeat slows to
+            imperceptibility, and she does not breath. To every mortal
+            inspection, the Chosen is dead. The Exalted can remain in
+            this state for as long as she chooses, but the Charm does not
+            remove the need to eat or drink, putting a practical limit
+            on its use without the invocation of additional Charms.
+            "
+
+        unsleeping_watchman_technique[Unsleeping Watchman<br>Technique]
+        click unsleeping_watchman_technique callback "
+            Unsleeping Watchman Technique<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One night<br>
+            Type: Simple<br>
+            Minimum Endurance: 2<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: None<br>
+            <br>
+            Even the most careful of Exalted must sleep sometime,
+            and it is when they sleep that they are most vulnerable.
+            The use of this Charm replaces the need for a night's sleep
+            with spent Essence, allowing the Exalt to act without
+            penalty both day and night. There is no limitation on the
+            number of concurrent days on which the Charm may be
+            used. However, each night that Unsleeping Watchman
+            Technique is invoked is a night without dreaming. After
+            a number of consecutive days equal to the Chosen's
+            Stamina + Endurance, the Exalted will begin to experience
+            waking dreams, seeing and hearing weird, seemingly
+            disconnected objects and sounds. Mechanically, the distraction
+            of these hallucinations will cause the character to
+            suffer a one die penalty on all checks. This penalty increases
+            by one day for each additional period of (Stamina
+            + Endurance) consecutive days.
+            "
+
+        tireless_runners_stride[Tireless Runner's<br>Stride]
+        unsleeping_watchman_technique --> tireless_runners_stride
+        click tireless_runners_stride callback "
+            Tireless Runner's Stride<br>
+            <br>
+            Cost: 10 motes<br>
+            Duration: Special<br>
+            Type: Simple<br>
+            Minimum Endurance: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Unsleeping Watchman Technique<br>
+            <br>
+            An Exalted with Tireless Runner's Stride can run for
+            an extended period to complete her tasks. The Chosen
+            must have a specific target in mind when invoking the
+            Charm and must invest the Essence as normal. Afterward,
+            the Exalted can run without ceasing until her goal is
+            reached. She needs no sleep, nor does she need to perform
+            bodily functions. If a sufficient supply of food and water is
+            carried, the Exalted may eat and drink without stopping or
+            slowing her running speed. Her pace is tripled by the
+            investiture of Essence and by the lack of need to stop. If the
+            Exalted stops running, the Charm ends. This running
+            prevents the Exalt from regaining Essence naturally, just
+            like any other strenuous exercise. The Exalted must clearly
+            know the location she seeks to properly invoke this Charm.
+            "
+
+        extended_life_prana[Extended Life<br>Prana]
+        tireless_runners_stride --> extended_life_prana
+        empty_stomach_fasting_meditation --> extended_life_prana
+        sleep_of_death_technique --> extended_life_prana
+        click extended_life_prana callback "
+            Extended Life Prana<br>
+            <br>
+            Cost: None<br>
+            Duration: Permanent<br>
+            Type: Special<br>
+            Minimum Endurance: 7<br>
+            Minimum Essence: 7<br>
+            Prerequisite Charms: Empty Stomach Fasting Meditation, Sleep of Death Technique, Tireless Runner's Stride<br>
+            <br>
+            The Exalted who masters this Charm has his natural life
+            extended many times, staving off the reaper with his righteousness.
+            While the typical Solar Exalted lives for 2,000 to
+            3,000 years, this Charm extends his life to 5,000 to 7,000
+            years. The possessor of this Charm shows no sign of aging or
+            degradation of health until his very last days walking Creation.
+            This Charm offers no protection from damage or
+            disease, it merely extends the lifespan of the Chosen. In
+            addition to the prerequisites listed above, the Exalted must
+            have a rating of at least three in all of his Virtues.
+            "
+    end

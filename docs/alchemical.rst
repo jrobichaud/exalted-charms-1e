@@ -11,14 +11,12 @@ Dexterity
 
 Stamina
 -------
-.. mermaid:: ./mermaid/alchemical/stamina_1.mmd
 
 Charisma
 --------
 
 Manipulation
 ------------
-.. mermaid :: ./mermaid/alchemical/manipulation_1.mmd
 
 Appearance
 ----------

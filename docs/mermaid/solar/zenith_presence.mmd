@@ -215,3 +215,58 @@ flowchart TD
 
     harmonious_presence_meditation --> prey_freezing_gaze
     hypnotic_tongue_technique --> command_voice
+
+    subgraph Castebook Zenith
+        impassioned_orator_technique[Impassioned Orator<br>Technique]
+        click impassioned_orator_technique callback "
+            Impassioned Orator Technique<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One turn<br>
+            Type: Supplemental<br>
+            Minimum Presence: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Listener-Swaying Argument<br>
+            <br>
+            An Exalted acting in accordance with virtue is an
+            impressive figure indeed — an Exalted using this Charm
+            is even more so. By using this Charm, the Chosen puts
+            the weight of her passions behind her arguments. She
+            may add one of her Virtue ratings in automatic successes
+            to a single Presence roll. The Virtue may be chosen
+            when the Charm is invoked, but the Exalted must be
+            acting in accordance with the virtue in question. If the
+            Exalted is not, or does not, act according to the Virtue,
+            the Essence is spent, but no bonus is gained. Invoking
+            this Charm automatically adds one point to the
+            character's Limit.
+            "
+
+        countenance_of_vast_wrath[Countenance of Vast<br>Wrath]
+        impassioned_orator_technique --> countenance_of_vast_wrath
+        click countenance_of_vast_wrath callback "
+            Countenance of Vast Wrath<br>
+            <br>
+            Cost: 10 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Presence: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Impassioned Orator Technique<br>
+            <br>
+            When driven by his passions, an Exalted can be an
+            almost irresistible force. Through the use of this Charm,
+            one of the Chosen may spend Essence to let the
+            strength of her virtue strike fear in the hearts of those
+            who would oppose her. For the remainder of the Scene,
+            any character with a Willpower lower than the Exalted's
+            current Limit suffers a penalty to his dice pools equal
+            to the Exalt's Essence when attempting to attack her.
+            Invoking this Charm automatically adds one point to
+            the character's Limit, which counts toward the
+            character's Limit for the purposes of determining this
+            Charm's effect.
+            "
+    end
+
+    listener_swaying_argument --> impassioned_orator_technique

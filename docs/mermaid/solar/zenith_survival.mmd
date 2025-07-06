@@ -263,3 +263,164 @@ flowchart TD
         adds her Endurance to her soak when she takes damage
         from elemental sources such as cold, fire and lightning.
         "
+
+
+    subgraph Castebook Zenith
+        storm_warden_concentration[Storm Warden<br>Concentration]
+        click storm_warden_concentration callback "
+            Storm Warden Concentration<br>
+            <br>
+            Cost: 6 motes<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Survival: 3<br>
+            Minimum Essence: 1<br>
+            <br>
+            Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+            This Charm protects the invoker from the adverse
+            affects of natural weather. The Exalted may move through
+            heavy winds without being impeded by them, travel
+            through a sand- or snowstorm without being blinded or
+            spend a stormy night with no shelter without fear of
+            becoming waterlogged. The Chosen's anima deflects
+            these conditions, providing a nearly skintight zone of
+            protection for the Exalted and any possessions worn
+            against her body. This Charm does not protect against
+            damage from temperature extremes.
+            "
+
+        salamanders_touch_technique[Salamander's Touch<br>Technique]
+        click salamanders_touch_technique callback "
+            Salamander's Touch Technique<br>
+            <br>
+            Cost: 1 mote<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Survival: 3<br>
+            Minimum Essence: 2<br>
+            <br>
+            Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+            Through the use of this Charm, the Exalted can
+            light small, controlled fires. These are normal fires in
+            every way. They can cause no damage by themselves,
+            but if allowed to blaze out of control, they can be as
+            dangerous as any other fire. The fires this Charm can
+            light are limited to normally flammable materials. The
+            Charm is useless against water-soaked wood or other
+            noncombustible substances.
+            "
+
+        unquenchable_conflagration_technique[Unquenchable<br>Conflagration Technique]
+        salamanders_touch_technique --> unquenchable_conflagration_technique
+        click unquenchable_conflagration_technique callback "
+            Unquenchable Conflagration Technique<br>
+            <br>
+            Cost: 10 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Survival: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Salamander's Touch Technique<br>
+            <br>
+            When all the available wood is soaked or, worse,
+            when there is no wood to be found, even the most skilled
+            survivalist can find herself forced to live without heat
+            and flame. This Charm allows the Exalted to cause a fire
+            of up to bonfire size to spring into existence with but a
+            gesture. The fire will burn for a complete scene, even in
+            high winds or driving rain, but it will not spread unless
+            normally flammable materials are introduced. This power
+            cannot be used as a direct attack.
+            "
+
+        suns_flaming_tongue_attack[Suns Flaming Tongue<br>Attack]
+        unquenchable_conflagration_technique --> suns_flaming_tongue_attack
+        click suns_flaming_tongue_attack callback "
+            Sun's Flaming Tongue Attack<br>
+            <br>
+            Cost: 15 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Survival: 5<br>
+            Minimum Essence: 3<br>
+            <br>
+            Prerequisite Charms: Unquenchable Conflagration Technique<br>
+            <br>
+            Through the use of this Charm, the Exalted rains
+            down solar fire upon a single opponent. After investing
+            the required Essence, make a Willpower roll. The
+            fire does a number of points of lethal damage equal to
+            the Exalted's Survival score, plus one point of damage
+            per success on the character's Willpower roll. This
+            power can strike at a range of line of sight. Against
+            demons, ghosts or other creatures of the night, the
+            damage is aggravated. This attack cannot normally be
+            blocked or dodged, but targets may have Charms that
+            allow them to do either in their defense.
+            "
+
+        game_snaring_huntsmans_method[Game-Snaring<br>Huntsman's Method]
+        click game_snaring_huntsmans_method callback "
+            Game-Snaring Huntsman's Method<br>
+            <br>
+            Cost: 1 mote per die<br>
+            Duration: One day<br>
+            Type: Supplemental<br>
+            Minimum Survival: 4<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: Hardship-Surviving Mendicant Spirit<br>
+            <br>
+            When invoking this Charm, the Exalted names a
+            single breed of animal, which may include &quot;human.&quot; He
+            then crafts a snare appropriate for trapping the species of
+            interest. For each mote invested in the Charm, the
+            Survival roll to create the snare is increased by one die.
+            In addition, for each mote invested, the targeted breed
+            suffers a one-die penalty to detect or escape the trap. The
+            trap will not be triggered by any species other than the
+            one named. This trap cannot be used to snare a specific
+            specimen, but instead, affects the first member of the
+            species that encounters it.<br>
+            Game-Snaring Huntsman's Method cannot be used
+            to create a trap that will innately do damage, such as spike-pits
+            or deadfalls. It can only be used to enhance snares, pit
+            traps and the like. If incidental damage is done to a target
+            in escaping the trap, then the trap may still be eligible for
+            the Game-Snaring Huntsman's Method.
+            "
+
+        devil_pit_technique[Devil-Pit Technique]
+        game_snaring_huntsmans_method --> devil_pit_technique
+        click devil_pit_technique callback "
+            Devil-Pit Technique<br>
+            <br>
+            Cost: 2 motes per die<br>
+            Duration: One week<br>
+            Type: Supplemental<br>
+            Minimum Survival: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Game-Snaring Huntsman's Method<br>
+            <br>
+            The Devil-Pit Technique functions in many ways
+            like the Game-Snaring Huntsman's Method. The Exalted
+            names a breed of animal to be targeted by the trap.
+            The roll for creating the trap is increased by one die for
+            every 2 motes invested in the Charm, and the targeted
+            breed suffers a like number of dice in penalty for rolls to
+            detect or escape the trap. The trap will not be triggered
+            by any species other than the named one, nor can it be set
+            to trap a specific individual.
+            Unlike Game-Snaring Huntsman's Method, Devil-Pit
+            Technique can be used to enhance traps that are
+            designed to cause damage or death to their targets, rather
+            than restrain them. A trap enhanced by the Devil-Pit
+            Technique does one die of soakable lethal damage per 2
+            motes invested in the Charm. This damage is in addition
+            to any damage a normal trap of the design might do.
+            "
+    end
+
+    hardship_surviving_mendicant_spirit --> storm_warden_concentration
+    hardship_surviving_mendicant_spirit --> salamanders_touch_technique
+    hardship_surviving_mendicant_spirit --> game_snaring_huntsmans_method
+
