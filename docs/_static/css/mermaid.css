@@ -10,6 +10,10 @@
   box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
 }
 
+.mermaid {
+  margin-right: 100px;
+}
+
 @media not screen, not (max-width: 600px) {
   .mermaidTooltip {
     max-width: 500px;
