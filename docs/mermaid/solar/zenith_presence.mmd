@@ -141,3 +141,77 @@ flowchart TD
         equal to the character's Essence score. This Charm is not
         compatible with the Dawn Caste's anima ability.
         "
+
+    subgraph Castebook Dawn
+        prey_freezing_gaze[Prey-Freezing Gaze]
+        click prey_freezing_gaze callback "
+            Prey-Freezing Gaze<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: One scene or special<br>
+            Type: Simple<br>
+            Minimum Presence: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Harmonious Presence Meditation<br>
+            <br>
+            When the character uses this Charm, she impresses a single
+            target with the overwhelming power of her commanding
+            nature. Targets who fail a Valor roll at difficulty +2 are frozen in
+            place, unable to move for the next scene. This paralysis is
+            emotional rather than physical, but cannot be broken as long as
+            the attacking character continues to gaze intently at the target.
+            While keeping this eye contact, the character can be no more
+            than five yards from the target. She also cannot move faster than
+            a walk or perform any complex or difficult actions. The target
+            receives additional Valor rolls whenever anyone harms or
+            obviously attempts to harm him. If the character ceases to gaze
+            at the target, the paralysis continues for the next three full turns,
+            but the target instantly breaks free if anyone harms or obviously
+            attempts to harm him. This Charm has no effect on targets
+            whose Essence is higher than the casting character's.
+            "
+
+        command_voice[Command Voice]
+        click command_voice callback "
+            Command Voice<br>
+            <br>
+            Cost: 8 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Presence: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Hypnotic Tongue Technique<br>
+            <br>
+            The character surrounds herself with a potent aura of
+            authority. Unlike Terrifying Apparition of Glory, this Charm
+            does not produce an obvious or overwhelming effect. Instead,
+            everyone who is inclined to follow orders — including
+            peasants, servants, shop assistants, enlisted military person-
+            nel and similar individuals— will obey the character as if she
+            were in a position of authority over them. Any target that
+            makes a successful opposed Willpower roll against the char-
+            acter realizes that the character does not have the authority
+            to command him. Everyone else will obey all reasonable-
+            sounding commands given by the character. Orders to
+            commit suicide, go on killing rampages, or requests to give
+            the character most or all of the target's money or possessions
+            will end the character's influence over the target, However,
+            requests for information or admittance to otherwise restricted
+            areas will be instantly granted, as will demands for
+            moderately expensive merchandise (up to Resources ••) in
+            a shop, even if the character does not pay for it.<br>
+            Targets may make another opposed Willpower roll to
+            disobey the character if a recognized superior contradicts the
+            character's orders. Targets who fail this roll will ignore their
+            actual superior's requests. One of this Charm's most potent
+            and useful features is that others observing the interaction
+            will see nothing odd or magical about the character or the
+            target'sreaction. This Charm has no effect on beings with an
+            Essence greater than 1, though it has proven effective on Fair
+            Folk commoners and other supernatural creatures of an
+            inherently servile nature.
+            "
+    end
+
+    harmonious_presence_meditation --> prey_freezing_gaze
+    hypnotic_tongue_technique --> command_voice

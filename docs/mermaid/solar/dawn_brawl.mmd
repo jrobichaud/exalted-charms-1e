@@ -252,3 +252,89 @@ flowchart TD
         Strength, in a direction of the Exalted's choice, as if he had been
         successfully attacked with the Crashing Wave Throw Charm.
         "
+
+    subgraph Castebook Dawn
+        direction TB
+
+        knockout_blow[Knockout Blow]
+        click knockout_blow callback "
+            Knockout Blow<br>
+            <br>
+            Cost: 3 motes + 2 motes per additional die<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Brawl: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Ox-Stunning Blow<br>
+            <br>
+            With greater skill and Essence comes greater power and
+            control. This Charm allows the character to precisely gauge the
+            amount of damage he is causing. Punches enhanced by this
+            Charm cannot accidentally do lethal damage to the target. If the
+            player rolls more health levels of damage than the target has
+            remaining health levels, all remaining damage is ignored. If the
+            damage rolled is insufficient to knock out the target, then the
+            attacker can roll additional dice in an attempt to do enough
+            damage to knock the target out. The character may buy
+            additional damage dice at 2 motes per die. These dice are bought
+            and rolled one at a time as a Reflexive Action, and a character
+            can continue buying and rolling them for as long as he can pay
+            for them. A character cannot buy dice to gain additional damage
+            levels beyond those required to knock out the target.<br>
+            Characters can easily run out of Essence if they use this
+            Charm repeatedly. If a character runs out of Essence while
+            using this Charm, count all damage dice that have been paid
+            for. This Charm cannot be used if the character is wielding
+            Tiger Claws or any other weapon or magical effect that
+            causes his punches to do lethal damage.
+            "
+
+        pounding_hammer_of_devastation_technique[Pounding Hammer of Devastation Technique]
+        click pounding_hammer_of_devastation_technique callback "
+            Pounding Hammer of Devastation Technique<br>
+            <br>
+            Cost: 7 motes<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Brawl: 5<br>
+            Minimum Essence: 5<br>
+            Prerequisite Charms: Heaven Thunder Hammer<br>
+            <br>
+            The character concentrates vast amounts of Essence
+            around her hands, allowing her to inflict terrible wounds. The
+            character's blow does lethal damage. In addition, when used
+            against a living target, this Charm adds a bonus to the base
+            damage of the attack equal to the attacking character's Permanent
+            Essence. However, this Charm is far more effective when
+            used against inanimate targets. If the character attacks an
+            inanimate object, add a number of damage levels equal to four
+            times the attacking character's Permanent Essence. A single
+            such punch or kick can knock down a sturdy oak door or break
+            a hole in a ship's hull large enough to walk through.
+            "
+
+        adamantine_fists_of_battle[Adamantine Fists<br>of Battle]
+        click adamantine_fists_of_battle callback "
+            Adamantine Fists of Battle<br>
+            <br>
+            Cost: 7 motes, 1 Willpower<br>
+            Duration: One scene<br>
+            Type: Supplemental<br>
+            Minimum Brawl: 5<br>
+            Minimum Essence: 6<br>
+            Prerequisite Charms: Heaven Thunder Hammer, Hammer on Iron Technique<br>
+            <br>
+            Essence concentrates around the character's hands, infusing
+            them with great and lasting power. For the next full scene, the
+            character adds a number of levels of damage equal to twice her
+            Permanent Essence to all Brawling attacks. When this Charm is
+            performed, the caster can also specify whether these attacks will
+            do bashing or lethal damage. Using this Charm, the character can
+            even choose to do bashing damage when wielding a weapon that
+            would normally cause his blow to do lethal damage.
+            "
+    end
+    ox_stunning_blow --> knockout_blow
+    heaven_thunder_hammer --> pounding_hammer_of_devastation_technique
+    hammer_on_iron_technique --> adamantine_fists_of_battle
+    hammer_on_iron_technique --> adamantine_fists_of_battle

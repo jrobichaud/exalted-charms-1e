@@ -491,3 +491,54 @@ flowchart TD
         Stance in response to Solar Counterattack or any other
         counterattack Charm.
         "
+
+    subgraph Castebook Dawn
+        direction TB
+
+        whirlwind_of_searing_blows[Whirlwind of Searing Blows]
+        click whirlwind_of_searing_blows callback "
+            Whirlwind of Searing Blows<br>
+            <br>
+            Cost: 7 motes, 1 Willpower<br>
+            Duration: One scene<br>
+            Type: Supplemental<br>
+            Minimum Melee: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Fire and Stones Strike<br>
+            <br>
+            The character increases her mastery of her power and learns
+            to charge her weapon with Essence for an entire battle. Filled
+            with devastating might, the weapon can deliver punishing blows
+            to all opponents. Add the character's permanent Essence to the
+            weapon's damage for the rest of the scene. Any weapon save one
+            of exceptional quality will fall to pieces after the end of this scene,
+            and only weapons made of the Five Magical Materials can stand
+            up to repeated uses of this Charm. A character can benefit from
+            the effects of only one application of this Charm at a time.
+            "
+
+        protection_of_celestial_bliss[Protection of<br>Celestial Bliss]
+        click protection_of_celestial_bliss callback "
+            Protection of Celestial Bliss<br>
+            <br>
+            Cost: 7 motes, 1 Willpower<br>
+            Duration: Special<br>
+            Type: Reflexive<br>
+            Minimum Melee: 5<br>
+            Minimum Essence: 6<br>
+            Prerequisite Charms: Heavenly Guardian Defense, Fivefold Bulwark Stance<br>
+            <br>
+            The character may block, without rolling, a number
+            attacks against him that he is aware of equal to his Melee Ability,
+            even if the attack is not normally blockable (like a bolt of acid
+            or a hurtling boulder). Blocking even a single strong attack by
+            a powerful spirit or a Yozi will cause any non-magical weapons
+            to perish, but the Charm will blunt the attack at no harm to the
+            blocking character. Characters wielding magical weapons can
+            parry any number of incredibly powerful attacks without risk.
+            "
+    end
+
+    fire_and_stone_strike --> whirlwind_of_searing_blows
+    heavenly_guardian_defense --> protection_of_celestial_bliss
+    fivefold_bulwark_stance --> protection_of_celestial_bliss

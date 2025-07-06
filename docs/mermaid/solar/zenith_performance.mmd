@@ -259,3 +259,79 @@ flowchart TD
         it during conversation, making them quite dangerous in
         the world of courtly intrigue.
         "
+
+    subgraph Castebook Dawn
+        commanding_the_ideal_celestial_army[Commanding the<br>Ideal Celestial Army]
+        click commanding_the_ideal_celestial_army callback "
+            Commanding the Ideal Celestial Army<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Performance: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Heroism-Encouraging Presence<br>
+            <br>
+            One of the greatest dangers of warfare is troops being out
+            of touch with their commander. This Charm allows the caster
+            to shout a short message to every soldier under her command.
+            All friendly troops within a radius equal to the caster's Essence
+            x 100 yards will hear the message. The message must be
+            possible to call out during a single turn of combat and cannot
+            contain more than a dozen words. In general, only its intended
+            targets can hear it; opponents will not hear the message unless
+            they are within earshot of the character using this Charm.
+            "
+
+        general_of_the_all_seeing_sun[General of the<br>All-Seeing Sun]
+        click general_of_the_all_seeing_sun callback "
+            General of the All-Seeing Sun<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Performance: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Commanding the Ideal Celestial Army<br>
+            <br>
+            As with Commanding the Ideal Celestial Army, a
+            character using this Charm can give an order audible to all
+            troops under her command. In addition, the instant before
+            she gives the order, she receives impressions of how the battle
+            is going on every front. The character is aware of any
+            weakness in her lines and of which troops (if any) can safely
+            be moved elsewhere. This knowledge combined with the
+            ability to give a short command (two dozen words or less) to
+            either the entire army or to any section of it — for example,
+            &quot;the cavalry&quot; or &quot;the troops on the left flank&quot; — enables the
+            character to exercise amazing control over her soldiers.
+            "
+
+        ideal_battle_knowledge_prana[Ideal Battle Knowledge<br>Prana]
+        click ideal_battle_knowledge_prana callback "
+            Ideal Battle Knowledge Prana<br>
+            <br>
+            Cost: 10 motes, 1 Willpower<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Performance: 5<br>
+            Minimum Essence: 6<br>
+            Prerequisite Charms: General of the All-Seeing Sun<br>
+            <br>
+            The fog of war is banished for those who are truly blessed
+            by the Unconquered Sun. For the rest of the scene, a
+            character using this Charm knows how all areas of the battle
+            are going and is instantly aware of any weakness in his lines
+            or of any troops who have crushed their opponents. The
+            character can, at will, speak messages that will be heard by his
+            entire army, or by any specific portion of it to which he wishes
+            to give orders. This ability to continuously direct the battle
+            gives all soldiers under the character's command one additional
+            die for all combat-related rolls and reduces by 1 the
+            difficulty of all Valor rolls made by those same troops.
+            "
+    end
+
+    heroism_encouraging_presence --> commanding_the_ideal_celestial_army
+    commanding_the_ideal_celestial_army --> general_of_the_all_seeing_sun
+    general_of_the_all_seeing_sun --> ideal_battle_knowledge_prana
