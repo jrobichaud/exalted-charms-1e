@@ -46,4 +46,185 @@ flowchart TD
         suitable for Dragon-Blooded attuned to Water.)
         "
 
+    spirit_detecting_mirror_technique[Spirit-Detecting<br>Mirror Technique]
+    click spirit_detecting_mirror_technique callback "
+        Spirit-Detecting Mirror Technique<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Occult: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Air is the most closely connected to the spirit world of
+        all of the five elements. As such, it is easier for the Aspects
+        of Air to pierce the veil and see the unseen.<br>
+        To invoke a Spirit Mirror requires an ordinary mirror,
+        a piece of polished metal or some other reflective surface.
+        Even a pool of still water will suffice. For the remainder of
+        the scene, the Exalt using this Charm can see nearby spirits
+        reflected in such surfaces and, if they are reflected, hear
+        what they say. A clever Dragon-Blood might even do this
+        without the spirits noticing — for instance, by using a
+        goblet of water and taking a sip now and then or by
+        polishing a sword blade.
+        "
 
+    harmonious_wind_luring_song[Harmonious Wind-Luring Song]
+    spirit_detecting_mirror_technique --> harmonious_wind_luring_song
+    click harmonious_wind_luring_song callback "
+        Harmonious Wind-Luring Song<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One hour<br>
+        Type: Simple<br>
+        Minimum Occult: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Spirit-Detecting Mirror Technique<br>
+        <br>
+        The Dragon-Blooded are not born occultists and
+        magicians like some Celestial Exalted, but a number of
+        them study the supernatural lore of their favored element.
+        Many Air-aspected Dragon-Blooded learn the ways of the
+        spirits who create the weather through their dances and
+        processions in the sky. Exalted who know the ways of the
+        sky-spirits can call them to direct the wind. To do so, the
+        Exalted must speak to the elementals in their own tongue:
+        the sounds of wind sighing over stony crags and through
+        treetops, and the rumbles of thunder. Some Aspects of Air
+        imitate such sounds with their voice and a bull-roarer.
+        Others might play a flute or position a harp so that the
+        wind plucks its strings. Whatever the method used, inviting
+        the winds to blow takes five minutes.<br>
+        This basic Charm evokes nothing more than a stiff
+        breeze — still enough to interfere with archery or send a
+        sailing ship scudding through the waves at a good speed.
+        During the hour of the Charm's effect, the character can
+        control the magic wind's direction by singing for a turn.
+        "
+
+    spirit_grounding_shout[Spirit-Grounding Shout]
+    spirit_detecting_mirror_technique --> spirit_grounding_shout
+    click spirit_grounding_shout callback "
+        Spirit-Grounding Shout<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Occult: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Spirit-Detecting Mirror Technique<br>
+        <br>
+        The Dragon-Bloods must protect the common people
+        of the Realm from the various supernatural beings that
+        roam the landscape. Often, the most effective method of
+        accomplishing this task with regard to spirits is to simply.
+        force them into the physical world and defeat them there.
+        This Charm aids greatly in that tactic. The character utters
+        the Spirit-Grounding Shout, and reflexive opposed Essence
+        rolls are made for both her and the target spirit. If the
+        Exalt wins, the spirit is forced to materialize, If she loses,
+        the spirit may remain dematerialized.<br>
+        A successful Spirit-Grounding Shout forces the spirit
+        to manifest itself for no less that the Exalt's permanent
+        Essence in minutes. The Essence for this materialization
+        (assuming the spirit is naturally immaterial and must pay.
+        to materialize) is first drained from the spirit's reserves, but
+        any remaining cost is drained from the Exalt uttering the
+        shout. If there is not enough Essence between the spirit
+        and the character to pay for the manifestation, the spirit
+        remains immaterial, but the Essence is still lost.
+        This Charm has no effect on spirits with permanent
+        Essences higher than the Dragon-Blood's.
+        "
+
+    spirit_chaining_strike[Spirit-Chaining Strike]
+    spirit_grounding_shout --> spirit_chaining_strike
+    click spirit_chaining_strike callback "
+        Spirit-Chaining Strike<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: 5 minutes<br>
+        Type: Supplemental<br>
+        Minimum Occult: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Spirit-Grounding Shout<br>
+        <br>
+        This Charm allows the Dragon-Blooded to immobilize
+        spirit beings, which is often the first step toward
+        eliminating them.<br>
+        The character must strike the spirit with an attack,
+        and then his player immediately makes a reflexive Intelligence
+        + Occult roll with a difficulty equal to the spirit's
+        Essence. Each extra success imposes as a one-die penalty
+        to any and all actions taken by the spirit. If the penalty
+        exceeds the spirit's Essence rating, it is immobilized and
+        unable to act for the rest of the scene. Subsequent uses of
+        this Charm are additive, so long as the Charm never
+        lapses. Additionally, Spirit Chains used by other Dragon-Blood
+        are additive as well.<br>
+        Spirit Chains affect a spirit whether it is manifested
+        or not, but the character must be able to perceive and
+        strike the spirit to bind it. Spirit-Chaining Strike is
+        explicitly permitted to be made part of a Combo with
+        Charms of other Abilities.
+        "
+
+    spirit_shredding_attack[Spirit-Shredding Attack]
+    spirit_grounding_shout --> spirit_shredding_attack
+    click spirit_shredding_attack callback "
+        Spirit-Shredding Attack<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Occult: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Spirit-Grounding Shout<br>
+        <br>
+        Sometimes, restraining a spirit is not enough, and
+        destruction becomes necessary. The Spirit-Shredding
+        Attack is an effective tool for this. Invoking this Charm
+        requires a successful physical attack against a Spirit. This
+        means that the spirit must be materialized and/or the
+        character must have some method of actually affecting the
+        spirit, whether it is a weapon or an attack that can affect
+        incorporeal beings.<br>
+        A blow struck with this Charm does its normal damage
+        to spirits. In addition, the attacking Exalt's player
+        reflexively rolls his characters Willpower + Essence against
+        a difficulty of the spirit's Essence: Each extra success reduces
+        the spirit's temporary Essence by an amount equal to the
+        Dragon-Blooded characters permanent Essence. The character
+        does not absorb the essence a it just dissipates. If a
+        spirit is destroyed by a Spirit-Shredding Arrack it is
+        irrevocably gone.
+        This Charm is explicitly permitted to be part of a
+        Combo with Charms of other Abilities.
+        "
+
+    terrestrial_circle_sorcery[Terrestrial Circle Sorcery]
+    click terrestrial_circle_sorcery callback "
+        Terrestrial Circle Sorcery<br>
+        <br>
+        Cost: 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Occult: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Handling the mysteries of sorcery is a much more
+        difficult endeavor for Terrestrial Exalted than for the
+        Anathema. The enchantments of the Celestial and Solar
+        circles are far beyond the grasp of the Dragon-Blooded.
+        However, sorcery of the Terrestrial Circle is available to
+        them, assuming this Charm is learned.<br>
+        Note that invoking this Charm only enables the
+        character to cast a single Terrestrial Circle sorcery spell.
+        The actual spell itself has an Essence cost, often very high,
+        that the character must pay to actualize it. This cost is
+        listed in the spell's description. Terrestrial Circle Sorcery
+        can never be part of a Combo.
+        "
