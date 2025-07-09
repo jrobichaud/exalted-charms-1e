@@ -15,6 +15,7 @@ Linguistics
 Lore
 ^^^^
 .. mermaid:: ./mermaid/dragon_blooded/air_lore_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/air_lore_2.mmd
 
 Occult
 ^^^^^^

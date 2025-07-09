@@ -1,0 +1,168 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    elemental_concentration_trance[Elemental Concentration Trance]
+    click elemental_concentration_trance callback "
+        Elemental Concentration Trance<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Lore: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm is the most basic of Lore techniques
+        known by the Dragon-Blooded. Through the use of this
+        Charm, the character concentrates on her aligned element,
+        centering herself and opening her mind. The Exalt
+        can compact a week's worth of learning into a single day,
+        assuming she has access to all the necessary materials. This
+        Charm can be used on sequential days, but use of it for more
+        days than the character's Lore skill causes one level of
+        unsoakable lethal damage per day. This damage can only
+        be healed by time, and it does not begin healing until one
+        week after the characters suffers it.
+        "
+
+    elemental_empowerment_meditation[Elemental Empowerment Meditation]
+    elemental_concentration_trance --> elemental_empowerment_meditation
+    click elemental_empowerment_meditation callback "
+        Elemental Empowerment Meditation<br>
+        <br>
+        Cost: 1+ Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Lore: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Elemental Concentration Trance<br>
+        <br>
+        Proper knowledge of the Elemental Dragons allows a
+        Dynast to draw energy directly from an elemental source,
+        restoring depleted reserves in times of crisis.<br>
+        The Elemental Empowerment Meditation requires
+        the character to spend Willpower points while in contact
+        with her aligned element. The character must be able to
+        physically touch the element she is aligned with to draw
+        Essence from it. For every point of willpower spent in this
+        way, the character instantly gains Essence motes equal to
+        her Lore. These motes can be spent normally.<br>
+        There is a price to be paid for handling elementals
+        energy in such a raw fashion. If a character spends more
+        Willpower in a single day to draw elemental energy than
+        her permanent Essence score, each additional use of Willpower
+        to increase her Essence causes one unsoakable level
+        of bashing damage.
+        "
+
+    elemental_succor_method[Elemental Succor Method]
+    elemental_empowerment_meditation --> elemental_succor_method
+    click elemental_succor_method callback "
+        Elemental Succor Method<br>
+        <br>
+        Cost: 5 motes and 1 Willpower per lethal health level, 2 motes per bashing health level<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Lore: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Elemental Empowerment Meditation<br>
+        <br>
+        In addition to providing raw energy, a Dynast's
+        connection to the Elemental Dragons can be a source of
+        great resilience and strength in desperate times. Elemental
+        Succor Method lets a Dragon-Blood tap into
+        the elemental energy of the Dragons to restore her body,
+        healing her injuries. That character must be able to
+        immerse herself in her favored element to the greatest
+        degree possible (standing in a burning fire, submerged
+        in water, etc.) and must spend 5 motes and 1 Willpower
+        for every lethal health level to be healed of 2 motes per
+        bashing health level to be healed. The Elemental Succor
+        Method will not restore lost limbs or repair other
+        such mutilations.
+        "
+
+    elemental_bolt_attack[Elemental Bolt Attack]
+    click elemental_bolt_attack callback "
+        Elemental Bolt Attack<br>
+        <br>
+        Cost: 1 mote per 2L damage<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Lore: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character extends her hand, and a bolt of elemental
+        force flashes forth from it — a shaft of ice, a blast
+        of fire, a barbed wooden javelin, a stroke of lightning or
+        slashing shards of crystal. The character's player rolls
+        Dexterity + Athletics or Archery (whichever she prefers)
+        to hit. This attack has a range of 20 yards x the character's
+        permanent Essence, and it does a base damage of 2L for
+        every mote of Essence spent. The accuracy of the attack
+        is equal to the character's Essence. A character cannot
+        spend more motes on this Charm than her Stamina.
+        "
+
+    elemental_burst_technique[Elemental Burst Technique]
+    elemental_bolt_attack --> elemental_burst_technique
+    click elemental_burst_technique callback "
+        Elemental Burst Technique<br>
+        <br>
+        Cost: 1 more per IL damage<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Lore: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Elemental Bolt Attack
+        <br>
+        This Charm has effects similar to Elemental Bolt
+        Attack but it creates a blast of elemental power rather
+        than hurling a bolt. The character's player rolls Dexterity
+        Athletics or Archery (whichever he prefers) to hit,
+        with an accuracy bonus equal to the character's permanent
+        Essence. This attack has a range increment of 20
+        yards x the character's permanent Essence. The Elemental
+        Burst Technique affects a circular area with a radius
+        equal to the character's permanent Essence in yards.
+        Anyone in that area who fails to dodge or parry the attack
+        takes a base damage of 1L for every more the Dragon-Blooded
+        invested in the Charm.
+        "
+
+    dragon_vortex_attack[Dragon Vortex Attack]
+    elemental_empowerment_meditation --> dragon_vortex_attack
+    elemental_burst_technique --> dragon_vortex_attack
+    click dragon_vortex_attack callback "
+        Dragon Vortex Attack<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Lore: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Elemental Empowerment Meditation, Element Burst Technique<br>
+        <br>
+        Rather than just summoning a temporary damaging
+        burst of elemental energy, this Charm creates a deadly
+        maelstrom of the character's elemental aspect. Whether it
+        is a sudden rain of fire, a roiling whirlwind of air or a
+        grinding cloud of stone and earth, all within the area of
+        effect suffer the character's wrath.<br>
+        Anyone in the area of the Dragon Vortex Attack,
+        other than the character who summoned it, takes lethal
+        damage equal to the character's Essence every turn, as she
+        is battered by flying shards of stone, sliced by razor-thin ice
+        crystals, burned by swirling gouts of flame, and so on. This
+        damage cannot be dodged or parried. The Dragon-Blooded
+        who created it is exempt from these effects, and may act
+        normally in all respects. The Dragon Vortex extends 10
+        feet from the character per point of his permanent Essence.
+        It is stationary once invoked, and not even the character
+        can voluntarily terminate it before its duration expires,
+        although killing the character will end it.
+        "
