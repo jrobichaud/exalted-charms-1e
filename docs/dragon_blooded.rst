@@ -22,6 +22,10 @@ Occult
 .. mermaid:: ./mermaid/dragon_blooded/air_occult_1.mmd
 .. mermaid:: ./mermaid/dragon_blooded/air_occult_2.mmd
 
+Stealth
+^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/air_stealth_1.mmd
+
 Thrown
 ^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/air_thrown_1.mmd
