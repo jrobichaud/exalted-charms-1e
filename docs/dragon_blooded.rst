@@ -8,6 +8,10 @@ Common
 Air
 ---
 
+Linguistics
+^^^^^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/air_linguistics_1.mmd
+
 Lore
 ^^^^
 .. mermaid:: ./mermaid/dragon_blooded/air_lore_1.mmd
