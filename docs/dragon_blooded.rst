@@ -29,6 +29,7 @@ Stealth
 Thrown
 ^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/air_thrown_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/air_thrown_2.mmd
 
 
 Earth
