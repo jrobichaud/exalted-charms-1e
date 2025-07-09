@@ -38,6 +38,7 @@ Earth
 Awareness
 ^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/earth_awareness_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/earth_awareness_2.mmd
 
 Craft
 ^^^^^
