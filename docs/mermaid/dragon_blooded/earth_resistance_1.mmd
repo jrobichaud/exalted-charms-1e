@@ -8,36 +8,151 @@ flowchart TD
     click strength_of_stone_technique callback "
         Strength of stone Technique<br>
         <br>
-        Cost: 2 motes per person<br>
-        Duration: The Dragon-Blooded's Essence in scenes<br>
-        Type: Reflexive<br>
-        Minimum Resistance: 2<br>
-        Minimum Essence: 1<br>
-        Prerequisite Charms: None<br>
-        <br>
+        Cost: 2 motes per person
+        Duration: One scene
+        Type: Simple
+        Minimum Resistance: 2
+        Minimum Essence: 1
+        Prerequisite Charms: None
         One of the most notable traits of the element of Earth
         is its strength and resistance to damage. Through this
         Charm, a Dragon-Blooded can take on some of the strength
         and hardness of stone and share it with other people.
-        After a short meditation while holding and concentrating
+        After a short meditation spent holding and concentrating
         upon the Essence within a pebble, the character
-        becomes stronger and tougher, gaining one dot of both
+        becomes stronger and tougher, gaining one dot each of
         Strength and Stamina for the next five minutes. If the
         Dragon-Blooded character wants to include other people
-        Dragon-Blooded character wants to include other people
-        in the Charm, the recipients must all hold hands in a circle
-        with a pebble between each pair of palms. An individual
-        cannot benefit from multiple simultaneous uses of this
-        Charm, even if different Dragon-Blooded invoke it.<br>
-        Cascade Charms:<br>
-        • An obvious extension grants actual dots of armor by
-        making the character's skin as hard as stone while retain-
-        ing the flexibility of life.<br>
-        • A more advanced variation lets a Dragon-Blooded
-        character become as invulnerable as a stone statue. Unfortunately,
-        the character also becomes stiff and slow, cutting
-        all Dexterity-based dice pools in half for the Charm's
-        duration.
+        in the Charm, they must all hold hands in a circle with a
+        pebble between each pair of palms. A character can only
+        benefit from one application of Strength of Stone Technique
+        at a time.
         "
 
+    impervious_skin_of_stone_meditation[Impervious Skin of<br>Stone Meditation]
+    strength_of_stone_technique --> impervious_skin_of_stone_meditation
+    click impervious_skin_of_stone_meditation callback "
+        Impervious Skin of Stone Meditation<br>
+        <br>
+        Cost: 1 mote per 2L/2B soak<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Strength of Stone Technique<br>
+        <br>
+        With this Charm in effect, a Dragon-Blood's skin
+        gains the toughness of the native rock of the earth itself.
+        Swords and arrows glance from her skin as if off a cliff face.
+        Every mote of Essence invested in the Charm give the
+        character two points of additional soak against lethal and
+        bashing damage. The bonus to soak cannot be greater than
+        the character's Essence. This Charm is weak against Essence
+        and does not apply to damage caused by sorcery or by
+        attacks enhanced with Charms.
+        "
 
+    mountain_toppling_method[Mountain Toppling Method]
+    strength_of_stone_technique --> mountain_toppling_method
+    click mountain_toppling_method callback "
+        Mountain Toppling Method<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: One turn<br>
+        Type: Supplemental<br>
+        Minimum Resistance: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Strength of Stone Technique<br>
+        <br>
+        Through this Charm, a Dragon-Blooded character
+        links his own Essence to the Essence within any great mass.
+        By inverting the principles of resistance against the mass, it
+        enables him to exert vastly magnified strength. After a
+        moment's concentration, the Dynast can hurl boulders,
+        topple pillars, stomp on the edge of a cliff to start a
+        landslide or perform other momentary feats of superhuman
+        strength. In game terms, for one turn, the character's
+        Strength increases by 5, but he can only apply that extra
+        Strength to objects made of earth or stone. This height-
+        ened Strength may be used in an attack (for instance,
+        throwing a boulder at an opponent for Strength-based
+        damage), and jade-alloy weapons such as daiklaves are
+        &quot;stone&quot; enough to benefit from the effects of this Charm.
+        "
+
+    element_protection_form["(Element) Protection Form"]
+    impervious_skin_of_stone_meditation --> element_protection_form
+    click element_protection_form callback "
+        (Element) Protection Form<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Impervious Skin of Stone Meditation<br>
+        <br>
+        This is actually a cluster of five separate Charms, each
+        offering protection from the harmful effects of the element
+        of one of Five Immaculate Dragons. While this Charm in
+        effect, the character gets a bonus to lethal and bashing soak
+        equal to her Essence when attacked by an appropriate
+        source of elemental damage. This soak applies to attacks as
+        well as to environmental damage (from say drowning;
+        crushing rock or molten lava). For the purposes of this
+        Charm, metal is earth and fists, teeth and other natural
+        attacks are wood. As with Impervious. Skin of Stone
+        Meditation, this protection is brittle and offers no additional
+        resistance against attacks enhanced with Charms or
+        against damage caused by sorcery.<br>
+        These Charms must be each bought separately. A
+        character may apply the discount for buying Charms of her
+        own elemental attunement when learning the protection
+        technique for her element.
+        "
+
+    chaos_warding_prana[Chaos-Warding Prana]
+    element_protection_form --> chaos_warding_prana
+    click chaos_warding_prana callback "
+        Chaos-Warding Prana<br>
+        <br>
+        Cost: One scene<br>
+        Duration: 5 motes, 1 Willpower<br>
+        Type: Simple<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 3<br>
+        <br>
+        Prerequisite Charms: (Element) Protection Form
+        The disruptive predations of beings and creatures of
+        the Wyld are a constant danger to the Realm. Naturally,
+        the Dynasts of Earth - paragons of stability - have
+        developed methods for combating these roiling energies.
+        For the remainder of the scene after invoking this Charm,
+        a Dynast may ignore the warping effects of the Wyld. Both
+        his person and his gear are protected and cannot be
+        mutated or changed by Wyld effects. The character can
+        extend this protection to others by paying the full cost of
+        the Charm and touching them.
+        "
+
+    defense_from_anathema_method[Defense from Anathema<br>Method]
+    chaos_warding_prana --> defense_from_anathema_method
+    click defense_from_anathema_method callback "
+        Defense from Anathema Method<br>
+        <br>
+        Cost: 6 motes, 1 Willpower
+        Duration: One scene
+        Type: Simple
+        Minimum Resistance: 5
+        Minimum Essence: 4
+        Prerequisite Charms: Chaos-Warding Prana
+        The most powerful of the Terrestrial Exalted know
+        methods to shield themselves from the powerful magic of the
+        Anathema. For the remainder of the scene after invoking this
+        Charm, a Dynast may add her Essence to the difficulty of
+        magical attacks made against her by the Anathema. This
+        includes both Charm-enhanced attacks and sorcery. These
+        are effective automatic successes to avoid the attack and are
+        additive with dodges and parries. This Charm offers no
+        protection against more subtle effects, such as mind control.
+        "
