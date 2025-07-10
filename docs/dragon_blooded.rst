@@ -87,6 +87,7 @@ Fire
 Athletics
 ^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/fire_athletics_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/fire_athletics_2.mmd
 
 Dodge
 ^^^^^
