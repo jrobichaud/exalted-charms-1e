@@ -1,6 +1,30 @@
 Dragon-Blooded Charms
 =====================
 
+
+**Elemental Attunement**
+
+Dragon-Blooded wielding Charms of a different element than their aspect
+must always pay one more mote of Essence than the
+Charm would normally require. This is a flat fee. of 1
+mote. If a Charm is used multiple times in a sinele turn,
+the extra mote need be paid only for the first activation
+of the turn. If using in a Combo, the character must pay
+the 1 mote surcharge once for each Charm of an element
+different from her own. The Combo surcharge is payable
+immediately upon activation of the Combo.
+
+For Example: A Wood-aspected Dynast uses a Combo
+containing Wood, Fire and Water Charms. She must pay
+a 2 mote surcharge upon activating the Combo; I mote for
+Fire Charms, 1 mote for Wood Charms. This is on top of
+any costs to activate the individual Charms and the 1
+temporary Willpower to activate the Combo.
+
+Members of the Eclipse Caste who learn these Charms
+have no element and, thus, have no Charms for which they
+do not pay the surcharge.
+
 Common
 ------
 .. mermaid:: ./mermaid/dragon_blooded/common.mmd
