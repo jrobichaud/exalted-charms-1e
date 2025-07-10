@@ -1,0 +1,221 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    dragon_graced_weapon[Dragon-Graced Weapon]
+    click dragon_graced_weapon callback "
+        Dragon-Graced Weapon<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Melee: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character with Dragon-Graced Weapon can
+        impart special properties to the melee weapon in hand by
+        merely concentrating for a moment. The effect on the
+        character's weapon is based on his elemental aspect, as
+        described below. This effect is instantaneous; the Exalt
+        must pay Essence for every attack, and he must do so before
+        making his attack roll.<br>
+        Air: Fierce winds surround the weapon, knocking
+        your foe off his feet. A successful hit means the enemy takes
+        normal damage and her player must succeed at a Dexterity
+        + Athletics roll at difficulty 2 or have her character
+        knocked prone.<br>
+        Earth: A thunderous shaking of the earth accompanies
+        the weapon's strike. The enemy loses two dice
+        from all dice pools for physical actions until he's done
+        with his next turn.<br>
+        Fire: The target bursts into flames and, on his next
+        action, must soak another 4L damage from fire. This
+        damage is separate from the normal attack and without any
+        extra successes added. The fire gutters out after one turn.<br>
+        Water: The target is gripped in a drowning embrace.
+        Next turn (or this turn, if he hasn't acted yet) subtract 3
+        from his initiative total as struggles to clear water from his
+        lungs and throat.<br>
+        Wood: Thorns cover all the striking surfaces of the
+        weapon, and it increases the damage of the attack by + 2L.
+        "
+
+    ghost_fire_blade[Ghost-Fire Blade]
+    dragon_graced_weapon --> ghost_fire_blade
+    click ghost_fire_blade callback "
+        Ghost-Fire Blade<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Melee: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Dragon-Graced Weapon<br>
+        <br>
+        Ghosts and dematerialized spirits cannot be hit by
+        ordinary weapons. Though many powerful weapons can
+        strike those immaterial beings, warriors caught without
+        that kind of armament are in great danger when facing
+        spirit foes. This Charm allows a Dragon-Blooded warrior
+        to call upon the Dragon of Fire to enchant his weapon,
+        allowing it to strike immaterial creatures normally. The
+        character must spend the Essence and activate the Charm
+        before making her attack, and her player must still roll to
+        hit the creature as if it were material. This Charm provides
+        no additional bonus beyond allowing the character to hit
+        dematerialized spirits.
+        "
+
+    refining_the_inner_blade[Refining the Inner Blade]
+    dragon_graced_weapon --> refining_the_inner_blade
+    click refining_the_inner_blade callback "
+        Refining the Inner Blade<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Melee: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Dragon-Graced Weapon<br>
+        <br>
+        With a few seconds' concentration, the Exalted can
+        conjure up a weapon created entirely from his favored
+        element. This weapon has the same qualities as an ordinary
+        weapon of its type; it also has the qualities of a weapon
+        enchanted by the Dragon-Graced Weapon Charm (see
+        above). As the weapon is created out of raw elemental
+        matter and Essence, it does not last for long, but a combat-
+        ant can be sure that it will remain intact until the end of
+        his current battle. When the scene ends, the elemental
+        weapon dissipates, evaporating into a sparkle of light and
+        a whiff of the character's aspected element. The conjured
+        weapon can be any sort of melee weapon.
+        "
+
+    stoking_bonfire_style[Stoking Bonfire Style]
+    click stoking_bonfire_style callback "
+        Stoking Bonfire Style<br>
+        <br>
+        Cost: 1 mote per two dice<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Melee: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The Exalt with this basic Charm learns how to lend the
+        ferocity of fire to his weapon's blows. His hand becomes
+        steadier, and his strike truer. Add two dice to the character's
+        Melee dice pool for every mote spent; however, a Dragon-Blood
+        cannot more than double his Melee Ability with this
+        Charm. The player must declare that his character is using this
+        Charm and spend the Essence before making the attack roll.
+        "
+
+    portentous_comet_deflecting_mode[Portentous Comet-Deflecting Mode]
+    stoking_bonfire_style --> portentous_comet_deflecting_mode
+    click portentous_comet_deflecting_mode callback "
+        Portentous Comet-Deflecting Mode<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Melee: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Stoking Bonfire Style<br>
+        <br>
+        This particularly costly Charm is also particularly effective.
+        Fiery sparks leap from the Exalted's weapon, interposing
+        themselves between the Exalt and a potentially deadly
+        blow. Spend the necessary Essence and roll Dexterity +
+        Melee after an opponent's hand-to-hand attack. If even one
+        success is achieve, regardless of how many successes the
+        Dragon-Blood's opponent achieved, the attack is blocked
+        completely. The Charm may be invoked after the opponent's
+        player makes his attack roll. This Charm provides no
+        protection against sorcery or attacks enhanced by Charms.
+        "
+
+    deadly_wildfire_legion[Deadly Wildfire Legion]
+    stoking_bonfire_style --> deadly_wildfire_legion
+    click deadly_wildfire_legion callback "
+        Deadly Wildfire Legion<br>
+        <br>
+        Cost: 1 mote per 2 dice + mote per subject<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Melee: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Stoking Bonfire Style<br>
+        <br>
+        With this Charm, you briefly empower a group of your
+        allies to attack at greatly improved effectiveness. They are
+        surrounded by a fiery halo when this empowerment occurs,
+        and the tips of their weapons scorch the air as the blades
+        cut through their opponents' defenses. You may ensorcel
+        one ally per mote spent, to a maximum of your Essence
+        Trait; you must spend additional Essence to improve their
+        Melee Ability, by two dice per mote spent. You cannot add
+        more dice to your allies' Abilities than you have in Melee,
+        nor can you more than double their effective Melee.
+        "
+
+    threshold_floor_technique[Threshold Floor Technique]
+    stoking_bonfire_style --> threshold_floor_technique
+    click threshold_floor_technique callback "
+        Threshold Floor Technique<br>
+        <br>
+        Cost: 2 motes + 1 more per targeted ally<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Melee: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Stoking Bonfire Style<br>
+        <br>
+        There is a practical limit, imposed by geometry and space,
+        on the number of people that can attack a single target at once.
+        Although it is unlikely that a Dragon-Blood has ever participated
+        in grain threshing, this technique was so named due to its
+        similarity to that activity. Only five foes can possibly effectively
+        attack a single target simultaneously, and that number is greatly
+        reduced should a target find himself in a defensible position -
+        his back against a wall, for instance, or standing between two
+        trees. With Threshing Floor Technique, the only limit to the
+        number of attackers that can assault a single foe in one turn is
+        the amount of Essence the Dragon-Blooded spends. The Exalt
+        designates a target and spends 2 motes of Essence to activate the
+        Charn and l mote of Essence per attacker. Then, so long as an
+        attacker is within her ordinary movement distance from the
+        target (that is, [Dexterity + 12] &divide; 2 yards), she may make a melee
+        attack at the designated target on her normal action; she dashes
+        in, makes an attack normally and then pulls back to her
+        previous position. Characters so empowered are not required to
+        attack the target on their action, though, if they do not, the
+        Essence spent to enable them to do so is still lost. Likewise, if the
+        target is slain, Essence spent to empower characters who never
+        got their shot is also still lost.
+        "
+
+    ringing_anvil_onslaught[Ringing Anvil Onslaught]
+    threshold_floor_technique --> ringing_anvil_onslaught
+    click ringing_anvil_onslaught callback "
+        Ringing Anvil Onslaught<br>
+        <br>
+        Cost: 8 motes<br>
+        Duration: Instant<br>
+        Type: Extra Actions<br>
+        Minimum Melee: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Threshing Bloor Technique<br>
+        <br>
+        With this Charm, a Dragon-Blooded character can keep
+        a foe entirely off-balance until he is slain, if his skill is sufficient
+        to the task. The Exalt using Ringing Anvil Onslaught designates
+        a single target, and his player rolls the character's Melee
+        Ability (no Attribute is added) For each success, the Exalted
+        gains an extra attack against the target this turn. The Dynast
+        cannot gain more extra attacks than his Melee.
+        "

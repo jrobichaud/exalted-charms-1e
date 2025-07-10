@@ -97,6 +97,7 @@ Dodge
 Melee
 ^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/fire_melee_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/fire_melee_2.mmd
 
 Presence
 ^^^^^^^^
