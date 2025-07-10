@@ -1,0 +1,194 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    ox_body_technique[Ox-Body Technique]
+    click ox_body_technique callback "
+        Ox-Body Technique<br>
+        <br>
+        Cost: Permanent<br>
+        Duration: None<br>
+        Type: Special<br>
+        Minimum Endurance: Varies<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The Terrestrial Exalted may not be quite as resilient
+        as the Anathema they oppose, but they can still take a good
+        deal more punishment than normal humans. Like their
+        Solar enemies, the Dragon-Blooded may buy extra health
+        levels as if they were a Charm.
+        Each level of the Dragon-Blooded Ox-Body Technique
+        provides one - 1 and one -2 health level. Characters
+        cannot take Ox-Body Technique more times than they
+        have points of Endurance.
+        "
+
+    unsleeping_earth_meditation[Unsleeping Earth Meditation]
+    click unsleeping_earth_meditation callback "
+        Unsleeping Earth Meditation<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Endurance: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        By simply invoking the strength of the Earth Dragon, a
+        Dragon-Blooded using this Charm is able to go without sleep
+        for 24 hours without ill effect. The character suffers no penalties
+        of any kind during this period due to fatigue from sleep and is
+        fully alert. The character still has to rest from physical exertion.
+        Using this Charm for more than the character's Essence
+        + Endurance days is not recommended. For every
+        day past that point, the Exalt loses one temporary Willpower
+        per day. This Willpower cannot be recovered until
+        he has had at least 24 hours of uninterrupted sleep.
+        "
+
+    uneating_earth_meditation[Uneating Earth Meditation]
+    unsleeping_earth_meditation --> uneating_earth_meditation
+    click uneating_earth_meditation callback "
+        Uneating Earth Meditation<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Endurance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Unsleeping Earth Meditation<br>
+        <br>
+        Stone does not need nourishment, and with this Charm,
+        neither do the Dragon-Blooded. A character under the influence
+        of this Charm does not need to eat or drink. The Exalted
+        functions perfectly well with no nourishment whatsoever and
+        suffers none of the penalties associated with hunger.
+        Using this Charm for more than the character's Essence
+        + Endurance days is remarkably hard on the body. For
+        every day past that point, the character loses one bashing
+        health level per day, which cannot be healed until use of the
+        Charm is discontinued. Most Terrestrial Exalted using this
+        Charm for extended periods tend to go without its effects for
+        a day or two before reinvoking it.
+        "
+
+    unbreathing_earth_meditation[Unbreathing Earth Meditation]
+    uneating_earth_meditation --> unbreathing_earth_meditation
+    click unbreathing_earth_meditation callback "
+        Unbreathing Earth Meditation<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Endurance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Uneating Earth Meditation<br>
+        <br>
+        The mountains do not breathe, Neither need a Dynast who
+        has mastered this Charm. For the rest of the scene after activating
+        this Charm, the Dragon-Blooded does not breathe. She can
+        survive under water, in clouds of poison gas and in other
+        asphyxiating environments with no ill effects whatsoever,
+        Keep in mind that, for the duration of the Charm, the
+        character is incapable of breathing. This also means that
+        speech is out of the question, since the noise of it is caused
+        by expelled air. This Charm can be used on others, if they
+        are willing. All the character need do to affect a voluntary
+        target is to simply touch him.
+        "
+
+    unfeeling_earth_meditation[Unfeeling Earth Meditation]
+    unbreathing_earth_meditation --> unfeeling_earth_meditation
+    click unfeeling_earth_meditation callback "
+        Unfeeling Earth Meditation<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: Varies<br>
+        Type: Reflexive<br>
+        Minimum Endurance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Unbreathing Earth Meditation<br>
+        <br>
+        The pain and frailty of mortal flesh may be avoided for very
+        short periods of time by the invocation of this Charm. Once
+        active, the character may ignore all wound penalties fora number
+        of tums equal to his Stamina + Endurance. This Charm does
+        nothing to actually protect the character from damage — it only
+        temporarily alleviates the symptoms of injury.
+        "
+
+    untiring_earth_meditation[Untiring Earth Meditation]
+    unsleeping_earth_meditation --> untiring_earth_meditation
+    click untiring_earth_meditation callback "
+        Untiring Earth Meditation<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Endurance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Unsleeping Earth Meditation<br>
+        <br>
+        This Charm roots the Dragon-Blooded's Essence down
+        into the elemental Earth, magically sustaining him. As long as
+        the Dragon-Blood's feet touch the earth once every two turns,
+        he incurs no fatigue whatsoever from any source, whether it be
+        armor, encumbrance, great physical exertion or magical effect.
+        This Charm does not relieve fatigue already present when it is
+        invoked, however. The Dynast under the influence of the
+        Charm also may ignore wound penalties up to his permanent
+        Essence rating. If the character does not touch the earth at least
+        once every two turns, this Charm is instantly disrupted.
+        "
+
+    unflagging_earth_meditation[Unflagging Earth Meditation]
+    unfeeling_earth_meditation --> unflagging_earth_meditation
+    untiring_earth_meditation --> unflagging_earth_meditation
+    click unflagging_earth_meditation callback "
+        Unflagging Earth Meditation<br>
+        <br>
+        Cost: 3 motes + 1 Willpower per person<br>
+        Duration: Until satisfied<br>
+        Type: Simple<br>
+        Minimum Endurance: 4<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Unfeeling Earth Meditation, Untiring Earth Meditation<br>
+        <br>
+        As well as protecting an Exalted's flesh from harm, the
+        steady strength of the Earth Dragon can be used to fuel the
+        inner flame of vengeance. This Charm is invoked through
+        speaking aloud the terms of the vendetta, to which the
+        character commits himself with all his soul: The goal must be
+        a simply stated purpose such as: &quot;Find the person who killed my
+        father&quot; or &quot;Avenge the stain to my honor inflicted upon me
+        by the cowardly vassal of the Lord of Singing Birds.&quot;
+        Until the terms of the vendetta are fulfilled, the Exalted
+        does not need to eat, sleep or rest, so long as he remains in
+        pursuit of the vendetta. The character incurs no penalties
+        from any sort of fatigue, whether it be magical or natural. He
+        will walk tirelessly and fight tirelessly in pursuit of his aim
+        and takes no fatigue from armor. He may soak both lethal
+        and bashing damage with his Stamina, and he adds his
+        Endurance to both his lethal and bashing soaks.<br>
+        Unflagging Vengeance Meditation can be sustained without
+        ill effect for up to the Exalt's Essence in days. After that, the
+        character begins losing one health level of unsoakable bashing
+        damage every time his Essence in days passes. The Exalted
+        grows pale and draw, his face ser into a mask of vengeance.
+        These health levels may be healed only after the Charm is
+        allowed to lapse. Healing damage taken from this effect of the
+        Unflagging Vengeance Meditation takes twice as longas usual.<br>
+        A number of additional characters can join the vendetta
+        equal to the Essence of the character initiating the oath. Other
+        characters involved must each pay a point of temporary Willpower
+        to take the oath. Unflagging Vengeance Meditation ends
+        when either the vendetta is satisfied or the individual who
+        invoked it consciously stops it. If anyone involved terminates her
+        part in the oath prematurely, she takes a number of unsoakable
+        levels of lethal damage equal to sum of the permanent Essences
+        of the characters involved. This damage may not be reduced in
+        any fashion, either with armor or natural protection.
+        "

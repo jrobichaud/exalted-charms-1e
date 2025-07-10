@@ -45,6 +45,11 @@ Craft
 .. mermaid:: ./mermaid/dragon_blooded/earth_craft_1.mmd
 .. mermaid:: ./mermaid/dragon_blooded/earth_craft_2.mmd
 
+Endurance
+^^^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/earth_endurance_1.mmd
+
+
 Resistance
 ^^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/earth_resistance_1.mmd
