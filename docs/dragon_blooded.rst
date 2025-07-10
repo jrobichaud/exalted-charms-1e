@@ -49,6 +49,9 @@ Endurance
 ^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/earth_endurance_1.mmd
 
+Martial Arts
+^^^^^^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/earth_martial_arts_1.mmd
 
 Resistance
 ^^^^^^^^^^

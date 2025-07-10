@@ -1,0 +1,192 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    five_dragon_fortitude[Five-Dragon Fortitude]
+    click five_dragon_fortitude callback "
+        Five-Dragon Fortitude<br>
+        <br>
+        Cost: 1 mote per 2B or 1L<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The armored scales of the Elemental Dragons can
+        afford great protection to their disciples. The Dragon-
+        Blooded using this Charm may invoke the colossal stamina
+        of the Dragons and soak the damage from one particular
+        attack by paying Essence. Soaking bashing damage costs 1
+        mote per two health levels of raw damage reduced. Lethal
+        damage costs 1 mote per health level of raw damage. This
+        soak is applied before damage is rolled and is compatible
+        with the use of armor.
+        "
+
+    five_dragon_blocking_technique[Five-Dragon Blocking Technique]
+    five_dragon_fortitude --> five_dragon_blocking_technique
+    click five_dragon_blocking_technique callback "
+        Five-Dragon Blocking Technique<br>
+        <br>
+        Cost: 4 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Five-Dragon Fortitude<br>
+        <br>
+        The powerful claws of the Elemental Dragons easily
+        bat away attacks upon them. This Charm lets a Dragon-Blood
+        emulate this ability, boosting parry prowess with a
+        weapon or allowing the Exalt to turn attacks aside with his
+        bare hands. For the remainder of the scene, the Dragon-Blood
+        may add his permanent Essence to all parry rolls,
+        even those made with Abilities other than Martial Arts.
+        This bonus is applied to parries made with split dice pools
+        after the multiple action penalty is applied, and the Charm
+        also allows the character to make reflexive parries at his
+        permanent Essence if he has no other way to parry an
+        attack. If he is unarmed, the character may parry lethal
+        damage without a stunt.
+        "
+
+    five_dragon_claw[Five-Dragon Claw]
+    click five_dragon_claw callback "
+        Five-Dragon Claw<br>
+        <br>
+        Cost: 1 more<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The power of the Five Elemental Dragons can empower
+        a Dragon-Blooded's blows with deadly force. The
+        character does lethal rather than bashing damage on an
+        unarmed attack.
+        "
+
+    five_dragon_force_blow[Five-Dragon Force Blow]
+    five_dragon_claw --> five_dragon_force_blow
+    click five_dragon_force_blow callback "
+        Five-Dragon Force Blow<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Five-Dragon Claw<br>
+        <br>
+        The character makes a normal martial arts attack, but
+        he does double the normal base damage (extra successes do
+        not double). In addition to the normal damage of the
+        attack, roll the character's Strengths + Martial Arts in a
+        reflexive opposed roll against the targets Strength +
+        Resistance. If the character wins, the target is knocked
+        down and must spend an action clearing her head and
+        getting back to her feet See the knockback and knockdown
+        rules on pages 234-235 of the Exalted main rulebook.
+        "
+
+    five_dragon_form[Five-Dragon Form]
+    five_dragon_blocking_technique --> five_dragon_form
+    five_dragon_force_blow --> five_dragon_form
+    click five_dragon_form callback "
+        Five-Dragon Form<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Five-Dragon Blocking Technique, Five-Dragon-Force Blow<br>
+        <br>
+        Once a Dragon-Blooded has mastered the basic of the
+        Five-Dragon Path, she may master the physical emulation
+        of the Five Dragons. The Dynast tries to take on the aspect
+        and attitude of the Elemental Dragons. Her demeanor
+        becomes haughty and arrogant, her movements swift,
+        graceful and lethal.<br>
+        This lethality is exhibited in her combat prowess. For
+        the remainder of the scene, the character may do lethal
+        damage with her martial arts attacks instead of the normal
+        bashing damage, and she may also soak lethal damage with
+        her bashing soak. She also adds her permanent Essence to
+        her Dexterity or Strength when determining her running
+        speed, jumping distance or the amount she can lift or carry.<br>
+        Characters cannot use more than one martial arts
+        form-type Charm at a time. Using a form-type Charm ends
+        the effects of any other form-type Charm the character was
+        previously utilizing
+        "
+
+    five_dragon_fist[Five-Dragon Fist]
+    five_dragon_form --> five_dragon_fist
+    click five_dragon_fist callback "
+        Five-Dragon Fist<br>
+        <br>
+        Cost: 6 motes, 1 Willpower, 1 health level<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Five-Dragon Form<br>
+        <br>
+        With a mighty effort, the martial artist channels some
+        of the raw fury of the Five Elemental Dragons. The Dynast
+        makes a punch or kick attacking using his Dexterity +
+        Martial Arts, as usual. This attack does aggravated dam-
+        age. The Five-Dragon Fist cannot be placed in a Combo or
+        used by a character wielding a weapon — the energy of the
+        Five Elemental Dragons must be channeled purely.
+        "
+
+    five_dragon_invulnerability[Five-Dragon Invulnerability]
+    five_dragon_form --> five_dragon_invulnerability
+    click five_dragon_invulnerability callback "
+        Five-Dragon Invulnerability<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Five Dragon Form<br>
+        <br>
+        Invoking this Charm allows the Exalt to completely
+        ignore damage from any single non-magical atrack. If the
+        attack is made with a weapon of the Five Magical Materials,
+        caused by sorcery or boosted with Charms, then the
+        character only receives a soak bonus to his lethal and
+        bashing soak equal to his permanent Essence.
+        "
+
+    five_dragon_wrath[Five-Dragon Wrath]
+    five_dragon_invulnerability --> five_dragon_wrath
+    five_dragon_fist --> five_dragon_wrath
+    click five_dragon_wrath callback "
+        Five-Dragon Wrath<br>
+        <br>
+        Cost: 1 mote per attack, 1 health level<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Five-Dragon Invulnerability, Five-Dragon Fist<br>
+        <br>
+        Suffused with the energy of the Five Elemental Dragons,
+        the Exalted explodes into a flurry of action. His hands
+        and legs become a blur of motion, and he unleashes an
+        unbelievable amount of devastation in the blink of an eye.<br>
+        After invoking this Charm, the Dragon Blooded may
+        make an extra attack per mote spent, all against a single
+        target. All of these attacks are rolled as normal. If the target
+        dodges or parries, she makes one roll that is compared to all
+        the attacks. The maximum number of extra attacks a
+        Dynast can make is equal to his Essence.
+        "
