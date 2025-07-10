@@ -4,38 +4,42 @@ config:
 ---
 flowchart TD
 
-    leaping_flame_attitude[Leaping Flame Attitude]
-    click leaping_flame_attitude callback "
-        Leaping Flame Attitude<br>
-        <br>
-        Cost: 5 motes<br>
-        Duration: The Dragon-Blooded's Essence in scenes<br>
-        Type: Simple<br>
-        Minimum Dodge: 2<br>
-        Minimum Essence: 1<br>
-        Prerequisite Charms: None<br>
-        <br>
-        Fire is the most mobile of the elements. The Dragon-Blooded
-        who learn its mysteries can infuse the Essence of
-        Fire into themselves or a single target, granting them the
-        agility of a leaping flame. The player rolls Wits + Dodge.
-        The target gains one dot of the Dodge Ability for every
-        success rolled by the Dragon-Blooded character, to a
-        maximum of the target's own Dodge rating, for the duration
-        of the Charm. The recipient also gains one extra dot
-        in Athletics (no more), but only for purposes of jumping
-        and keeping his balance. The target cannot more than
-        double his Dodge ability, even if multiple Dragon-Blooded
-        invoke this Charm on him.<br>
-        Cascade Charms:<br>
-        • An improved Charm could increase the recipient's
-        movement rate, allowing the character to move his full
-        distance (walking, running or sprinting) while still per-
-        forming other actions in a turn.<br>
-        • A considerably more powerful Dynast might learn
-        to perform an Essence-fueled dodge so agile that she
-        becomes impossible to hit by any hand-to-hand attack that
-        is not itself reinforced with Essence.
-        "
+    subgraph wood_dodge[Wood Dodge Charms]
+        direction TB
 
+        snarling_undergrowth_form[Snarling Undergrowth Form]
+        click snarling_undergrowth_form callback "
+            Snarling Undergrowth Form<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: 1 turn per success<br>
+            Type: Reflexive<br>
+            Minimum Dodge: 2<br>
+            Minimum Essence: 1<br>
+            <br>
+            This Charm reverses the effect of the Forest Passage
+            Method and turns it against an enemy. For a short time, the
+            local plant life hinders the Dragon-Blooded character's opponent
+            any way it can. Branches somehow manage to get in the
+            way of his sword arm. Twigs and briars catch at his clothes.
+            Even someone fighting on a close-cropped lawn finds his feet
+            slipping on the grass. The player rolls Charisma + Dodge. For
+            every success, the effect hinders the target for one turn. As a
+            result of this hindrance, the Dynast's foe suffers a + 1 difficulty
+            penalty on all attack and Dodge rolls, and has his movement
+            speed halved. The Dragon-Blooded character can even use
+            this Charm to add to natural combat penalties from vegetation.
+            The Charm only works against one opponent per use.<br>
+            Cascade Charms:<br>
+            • One obvious improvement is a Charm that hinders
+            every opponent of the Dragon-Blooded character.<br>
+            • Another version increases the degree of hindrance,
+            or its duration.<br>
+            • A still more powerful version could actually trap an
+            enemy so that he could not fight at all. This requires fairly
+            sturdy vegetation, though — shrubbery or heavy vines at least.<br>
+            • Snarling Undergrowth Form and the Forest Passage
+            Method are a splendid Combo.
+            "
 
+    end
