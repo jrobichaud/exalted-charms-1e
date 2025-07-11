@@ -167,3 +167,7 @@ Immaculate
 Spirit
 ^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/immaculate.mmd
+
+Air Dragon Style
+^^^^^^^^^^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/immaculate_air.mmd
