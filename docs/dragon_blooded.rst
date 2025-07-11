@@ -155,3 +155,7 @@ Medicine
 Performance
 ^^^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/wood_performance_1.mmd
+
+Ride
+^^^^
+.. mermaid:: ./mermaid/dragon_blooded/wood_ride_1.mmd
