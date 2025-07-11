@@ -46,3 +46,202 @@ flowchart TD
         may want to restrict how &quot;magical&quot; an effect
         characters can achieve through Medicine-based Charms.
     "
+
+    infection_banishing_prana[Infection-Banishing Prana]
+    click infection_banishing_prana callback "
+        Infection-Banishing Prana<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Nearly any Exalted with the Medicine Ability can tell
+        at a glance whether a wound has been infected. Infections
+        rarely strike the Exalted themselves, but their servants,
+        henchmen and bodyguards often suffer from such maladies
+        in the hours and days following battle. Regardless of the
+        nature of the character suffering from infection, Dragon-Blooded
+        with this Charm can remove the infection with
+        just a touch and the expenditure of a mote of Essence.
+        Removing the infection does not eliminate damage already
+        done, but it removes the source of infection and
+        prevents it from recurring to this injury - even if the
+        Charm's subject does something foolish, like enter the
+        sewers of Nexus with an open wound. So long as the wound
+        has been treated with Infection Banishing Prana, it will
+        not become infected. Note that Infection Banishing Prana
+        only works on infections caused by physical injury; ordinary
+        and magical plagues are unaffected by it.
+        "
+
+    dread_infection_strike[Dread Infection Strike]
+    infection_banishing_prana --> dread_infection_strike
+    click dread_infection_strike callback "
+        Dread Infection Strike<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Medicine: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Infection-Banishing Prana<br>
+        <br>
+        The character's knowledge of the medicinal arts
+        and the sources of infection has grown to such levels
+        that he can magically infect his own weapon as he
+        strikes; if he does at least one lethal wound to the target,
+        the wound is much more likely to become infected. The
+        difficulty of the Stamina + Resistance roll to avoid
+        infection from the attack goes up by +2, even for
+        Exalted. Frequent use of this Charm is sure to win the
+        character enemies, as there is no more hated weapon
+        than disease. The Essence must be spent to activate this
+        Charm before the character makes his attack roll, and if
+        the attack does not do at least one lethal wound, the
+        Essence is wasted. This Charm can explicitly be used in
+        a Combo with Charms of other Abilities.
+        "
+
+    disease_banishing_technique[Disease-Banishing Technique]
+    infection_banishing_prana --> disease_banishing_technique
+    click disease_banishing_technique callback "
+        Disease-Banishing Technique<br>
+        <br>
+        Cost: 4 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Infection-Banishing Prana<br>
+        <br>
+        With this technique, the Dragon-Blood becomes
+        like a healer out of legend. He can remove all but the
+        most powerful magical plagues from his allies with a
+        touch of his hand. The Exalt must make an ordinary
+        diagnosis with his Medicine Ability at some time before
+        using Disease-Banishing Technique, as it is necessary to
+        know what plague it is the character intends to eliminate.
+        If the diagnosis roll is successful, however, then the
+        simple expenditure of a few seconds' time, the touch of
+        the Exalted's hand and the expenditure of the necessary
+        Essence combine to violently purge the disease from the
+        subject's body. The subject is likely to convulse and expel
+        some foul substance from her mouth and nose as this
+        Charm takes effect, costing her his next turn if one had
+        been available. Should the subject suffer from multiple
+        plagues — a terrible fate indeed! - then this Charm
+        must be used multiple times. Disease-Banishing Technique
+        does work on battlefield infection - however,
+        Infection-Banishing Prana is a far more effective tool for
+        such things. This Charm, like so much other magic, is
+        powerless against the Great Contagion.
+        "
+
+    wound_closing_touch[Wound-Closing Touch]
+    disease_banishing_technique --> wound_closing_touch
+    click wound_closing_touch callback "
+        Wound-Closing Touch<br>
+        <br>
+        Cost: 2 motes per health level converted, plus 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Disease-Banishing Technique<br>
+        <br>
+        With this simple Charm, the Exalted can rapidly close
+        open and bleeding wounds on his body, allowing himself to
+        heal those wounds far more quickly than a mortal could.
+        The Charm leaves only bruises and sprains behind, rather
+        than life-threatening injury. So long as at least 1 mote of
+        Essence is spent, any bleeding wounds automatically close.
+        In addition, every 2 motes of Essence spent turns one lethal
+        wound level into a bashing wound level instead. The
+        character does not have to convert all of his lethal wounds
+        into bashing wounds if he does not wish to do so. This
+        Charm can also be used on other characters.
+        "
+
+    grievous_wound_alteration_energy[Grievous Wound Alteration Energy]
+    wound_closing_touch --> grievous_wound_alteration_energy
+    click grievous_wound_alteration_energy callback "
+        Grievous Wound Alteration Energy<br>
+        <br>
+        Cost: 3 motes and 1 Willpower per health level converted<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Wound-Closing Touch<br>
+        <br>
+        This complex Charm allows the Exalted to turn
+        truly horrific injuries, such as those inflicted by supernatural
+        sources, into mere lacerations and broken bones.
+        By spending 3 motes of Essence, he can convert an
+        aggravated wound level into a lethal wound level. The
+        Dragon-Blooded does not have to convert all of his
+        aggravated wounds to lethal wounds if he does not wish
+        to do so or cannot afford the Essence. This Charm also
+        automatically closes any bleeding wounds from which
+        the character suffers. Aggravated wounds converted to
+        lethal wounds with this Charm can later be converted
+        to bashing wounds with Wound-Closing Touch, above.
+        This Charm can also be used on other characters.
+        "
+
+    madness_analysis_stare[Madness Analysis Stare]
+    infection_banishing_prana --> madness_analysis_stare
+    click madness_analysis_stare callback "
+        Madness Analysis Stare<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Infection-Banishing Prana<br>
+        <br>
+        This Charm allows a Dragon-Blood to analyze another
+        character and see what external influences there are
+        over his mind; this includes low-Willpower compulsions,
+        mind-affecting sorcery or Charms and/or derangements. A
+        Perception + Medicine roll is called for here, with a
+        difficulty of 2. Should this roll be successful, the Exalt can
+        detect any external influences on the target. With four or
+        more successes, she can trace magical influences backward
+        to their source. The Exalted cannot use this Charm on
+        herself, as one's mind often proves too nimble for cogent
+        self-analysis. This Charm cannot diagnose or help in the
+        treatment of the Great Curse.
+        "
+
+    purity_of_mind_method[Purity of Mind Method]
+    wound_closing_touch --> purity_of_mind_method
+    madness_analysis_stare --> purity_of_mind_method
+    click purity_of_mind_method callback "
+        Purity of Mind Method<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Wound-Closing Touch, Madness-Analyzing Method<br>
+        <br>
+        With a strike of the palm and a touch of the lips, an
+        Exalted with this level of mastery over the medicinal arts
+        can remove the pain of insanity or external influence from
+        the Charm's subject. The Dragon-Blood must have first
+        used Madness-Analyzing Stare to learn the source of the
+        subject's mental problems - whether it be madness,
+        compulsion or sorcerous meddling. This Charm must be
+        used repeatedly if its subject suffers from multiple sources
+        of mental influence. Purity of Mind Method works to
+        counteract only sorcery spells of instant duration — ones
+        whose effects are still ongoing must be targeted with
+        Emerald Countermagic. Like Madness-Analyzing Stare,
+        this Charm is powerless in the face of the Great Curse.
+        "
