@@ -31,3 +31,187 @@ flowchart TD
         Dragon-Blooded invoke it.<br>
         Cascade Charms:<br>
         "
+
+    phantom_fire_warrior_horde[Phantom Fire-Warrior<br>Horde]
+    click phantom_fire_warrior_horde callback "
+        Phantom Fire-Warrior Horde<br>
+        <br>
+        Cost: 1 mote per two dice<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Presence: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        When activating this Charm, the Dragon-Blooded ap-
+        pears to be surrounded by a group of fiery warriors. These
+        individuals are nor visible when looked at directly; they are only
+        visible through the target's peripheral vision, for indeed, they
+        are only phantoms. The phantoms are intimidating, however,
+        and they serve to increase the Exalted's intimidation abilities
+        and make his presence more imposing. The character using this
+        Charm can add two dice to his Presence for every mote spent
+        but can no more than double his Presence Ability.
+        "
+
+    blazing_courageous_swordsmen_inspiration[Blazing Courageous<br>Swordsmen Inspiration]
+    phantom_fire_warrior_horde --> blazing_courageous_swordsmen_inspiration
+    click blazing_courageous_swordsmen_inspiration callback "
+        Blazing Courageous Swordsmen Inspiration<br>
+        <br>
+        Cost: 1 mote per subject<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Presence: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Phantom Fire-Warrior Horde<br>
+        <br>
+        The Exalted calls up a fiery passion in soldiers under his
+        command, and they charge to the offensive, heedless of
+        personal danger. The Dragon-Blood spends one mote of
+        Essence per warrior that he commands, to a maximum of
+        twice his Essence, and each of those warriors receives a single
+        temporary Bruised health level. This temporary level is the
+        first one lost when damage is taken, and it cannot be healed
+        back even if curative magic is somehow applied to the soldier
+        during the same scene that the Charm is activated.<br>
+        If the soldier is undamaged when the scene ends, the bonus
+        health level fades; if he is damaged, the lost health level disappears
+        with no further ill effect. This Charm can only be used on
+        soldiers that the Exalted directly commands (typically those
+        purchased with the Command Background): While it can be
+        used on other players' characters, any subject of the Charm loses
+        the bonus health level immediately if he does not act as part of
+        a unit under the Exalted's command. A given individual can only
+        benefit from one application of this Charm in a scene.
+        "
+
+    glowing_coal_radiance[Glowing Coal Radiance]
+    click glowing_coal_radiance callback "
+        Glowing Coal Radiance<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Presence 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        A nimbus of fire encircles the character's head and torso
+        making it difficult for others to so much as look at him, much
+        less attack him directly. The player of any foe that wishes to
+        attack the Exalt in hand-to-hand combat any time before the
+        character's next turn must first succeed at a reflexive Will-
+        power test. One success allows the enemy to act normally.
+        Enemies may attack the Exalted at range without concern.
+        "
+
+    aura_of_invulnerability[Aura of Invulnerability]
+    glowing_coal_radiance --> aura_of_invulnerability
+    click aura_of_invulnerability callback "
+        Aura of Invulnerability<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Presence: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Glowing Coal Radiance<br>
+        <br>
+        The character's overwhelming force of personality takes
+        on a life of its own, as he can stare down even the strongest foe,
+        causing enemies to flinch slightly before their weapons hit
+        him. The Dragon-Blooded gains a point of soak and three
+        temporary. Bruised health levels, which last for this scene,
+        only. Those health levels are the first lost when the character
+        takes damage, and they cannot bế healed back, even if magics
+        are applied which would ordinarily restore lost health levels.
+        When the scene is over, the three health levels fade, whether
+        they have been last to combat or not, the fading has no other
+        ill effects on the character. A character cannot benefit from.
+        this Charm more than once pet scene.
+        "
+
+    warlords_convocation[Warlord's Convocation]
+    blazing_courageous_swordsmen_inspiration --> warlords_convocation
+    aura_of_invulnerability --> warlords_convocation
+    click warlords_convocation callback "
+        Warlord's Convocation<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: One scene or instant<br>
+        Type: Simple<br>
+        Minimum Presence: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Blazing Courageous Swordsmen Inspiration, Aura of Invulnerability<br>
+        <br>
+        The Exalt's aura of might and his overwhelming charisma
+        combine to sway the loyalty of nearly any character.
+        The Exalt can spend 8 motes and 1 Willpower to attempt to
+        gain a Storyteller character's loyalty. Roil Manipulation +
+        Presence; the target of the Charm reflexively resists with his
+        Willpower. For every net success the Dragon-Blood achieves,
+        the target will serve him as a loyal servant for one week; at
+        the Storyteller's discretion the Exalted can extend that
+        period by asking only minor or trivial tasks of the target.<br>
+        If the Exalt achieves five or more successes, the target
+        will serve him for the long term; characters swayed to serve
+        the Exalted for the long term essentially become Henchmen.
+        However, they do need to be treated well, or they,
+        may eventually overcome the effects of the Charm.
+        "
+
+    unbearable_taunt_technique[Unbearable Taunt<br>Technique]
+    glowing_coal_radiance --> unbearable_taunt_technique
+    click unbearable_taunt_technique callback "
+        Unbearable Taunt Technique<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Exalt's Essence in turns<br>
+        Type: Simple<br>
+        Minimum Presence: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Glowing Coal Radiance<br>
+        <br>
+        The Dragon-Blood becomes adept at getting an-
+        other person's attention and, in so doing, making that
+        person look foolish. In combat, this Charm can get the
+        attention of an enemy within 20 yards. The target loses
+        two dice from his dodge and parry dice pools when
+        fighting anyone other than the Exalt who targeted him
+        with this Charm due to distraction.<br>
+        Unbearable Taunt Technique can also be used outside
+        of combat, in which case a successful Manipulation +
+        Presence roll and a suitably cutting comment are all that
+        is needed to make the target look foolish in front of an
+        assembled crowd. Obviously, the social use of this Charm
+        may prove dangerous; the wise Dragon-Blooded is advised
+        to use it sparingly - and only in front of a friendly crowd.
+        "
+
+    moth_to_the_candle[Moth to the Candle]
+    unbearable_taunt_technique --> moth_to_the_candle
+    click moth_to_the_candle callback "
+        Moth to the Candle<br>
+        <br>
+        Cost: 4 motes, 1 Willpower<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Presence: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Unbearable Taunt Technique<br>
+        <br>
+        The character using this Charm becomes an irresistible
+        target to the Charm's subject. The target of this Charm will
+        cross through hazards and place himself into great danger in
+        order to get off a hand-to-hand combat attack against the Exalt
+        who uses it. The Dragon-Blood must spend the required
+        Essence to activate this Charm; her target, who must be within
+        10 yards and have an Essence lower than the Exalts, must use
+        his next action to approach the Exalted and attack her (if he
+        can), regardless of the intervening hazard or the danger in doing
+        so. Characters cannot be compelled to obvious suicide through
+        the use of this Charm (they will not, for example, leap into a
+        chasm), but they will attempt to cross damaging hazards such
+        as fires and raging rivers to reach the Exalt.
+        "
