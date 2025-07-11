@@ -151,3 +151,7 @@ Medicine
 ^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/wood_medicine_1.mmd
 .. mermaid:: ./mermaid/dragon_blooded/wood_medicine_2.mmd
+
+Performance
+^^^^^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/wood_performance_1.mmd

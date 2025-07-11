@@ -1,0 +1,153 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    memorable_performance_technique[Memorable Performance Technique]
+    click memorable_performance_technique callback "
+        Memorable Performance Technique<br>
+        <br>
+        Cost: 1 mote per two dice<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Performance: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The Exalt can call upon her own Essence to draw
+        truly outstanding performances from within. Whether
+        the performance is music, theater or another performing
+        art, the character enhances her talent with this
+        Charm. The character can add two dice to her Performance
+        dice pool for every mote of Essence spent. She
+        can no more than double her Performance Ability with
+        this Charm, and if she wishes to add just a single die (for
+        example, if she has an odd Performance score) she must
+        spend a full mote to get it.
+        "
+
+    talented_improvisation[Talented Improvisation]
+    memorable_performance_technique --> talented_improvisation
+    click talented_improvisation callback "
+        Talented Improvisation<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Performance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Memorable Performance Technique<br>
+        <br>
+        The character with Talented Improvisation can catch
+        herself in a misstep in any performance and work her way out
+        of it. Whether turning a bad note into an unexpected chord
+        or moving from a forgotten line into an unforgettable soliloquy,
+        the character is never in serious danger when performing
+        onstage. If the player spends the necessary Essence immediately
+        upon making a Performance roll, she can reroll it at
+        once. This must be done before the Storyteller describes the
+        general success or failure of her attempt. She must take the
+        second result, no matter what it is. If this Charm is part of a
+        Combo, the other Charms in the Combo must be paid for a
+        second time when Talented Improvisation is used, but if they
+        require dice rolls, those rolls cannot be remade.
+        "
+
+    dance_of_flashing_swords[Dance of Flashing Swords]
+    talented_improvisation --> dance_of_flashing_swords
+    click dance_of_flashing_swords callback "
+        Dance of Flashing Swords<br>
+        <br>
+        Cost: 2 motes, 1 Willpower, + 1 mote per extra enemy<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Performance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Talented Improvisation<br>
+        <br>
+        Occasionally, a Dragon-Blooded warrior has no choice
+        but to engage in combat in a crowded area or finds himself in
+        another situation in which he does not want to be seen
+        fighting: Perhaps an ally's mind has been subverted by an evil
+        sorcerer, and the Exalt must subdue the ally without letting
+        Political enemies know of his circle's internal strife. Regardless
+        of the reason, this Charm lets a combatant hide his actions
+        and those of a foe within what appears to be stage combat.
+        Simply spend the necessary Essence to activate this Charm,
+        and most observers will not realize that the ongoing battle is
+        not for show alone, no matter how implausible the circumstances
+        seem. If the Exalted faces many enemies simultaneously,
+        he can extend this cover to include them so long as they are
+        extras: He spends one additional mote per extra. He cannot
+        extend such cover over a group of characters that are not
+        extras, nor can he extend his cover to protect any allies of his
+        that show up. This Charm will not fool characters with
+        Essence higher than the character using the Charm.
+        "
+
+    enchanting_performance[Enchanting Performance]
+    memorable_performance_technique --> enchanting_performance
+    click enchanting_performance callback "
+        Enchanting Performance<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Performance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Memorable Performance Technique<br>
+        <br>
+        At this level of mastery, the Dragon-Blood's performances
+        become so awe-inspiring, so staggeringly beautiful,
+        that she can insinuate minor suggestions into audience
+        members who behold them. If the suggestions violate individual
+        audience members' Natures, then those viewers will
+        not obey them; more generally, the suggestions must be the
+        sorts of things that won't bring the audience to any real harm.
+        They might find themselves more willing to travel to a
+        particular part of town at a particular time or to buy their goods
+        from a particular merchant or to trust a particular leader more
+        than they would otherwise. Only one sort of performance can
+        violate the rule against bringing audience members to obvious
+        harm, and that is a performance designed to incite a riot.
+        Perhaps obviously, this is just as dangerous to the Exalt as it is
+        to the audience members and should not be attempted lightly.
+        The player must spend the necessary Essence and
+        Willpower to enact this Charm, and she must also roll
+        Charisma + Performance. With a basic success, the character
+        can instill a simple suggestion into a small crowd; the
+        group will remember where they got the idea. For each
+        additional success, the crowd can be somewhat larger:
+        Three successes implies a crowd of hundreds and five a
+        crowd of thousands. Additionally, if the character sacrifices
+        one success, the crowd will not remember where they
+        received the suggestion that spurred their mass activity.
+        "
+
+    protective_performance[Protective Performance]
+    enchanting_performance --> protective_performance
+    click protective_performance callback "
+        Protective Performance<br>
+        <br>
+        Cost: 8 motes<br>
+        Duration: Until performance ends<br>
+        Type: Simple<br>
+        Minimum Performance: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Enchanting Performance<br>
+        <br>
+        This performance lends a bit of defensive magic to an
+        entire crowd of viewers. This magic can be used to protect
+        the crowd from hostile or mind-affecting sorcery or from
+        impersonal ranged attacks such as volleyed arrow fire. The
+        Charm provides no protection against hand-to-hand attacks.
+        To activate the Charm, the character must spend
+        the necessary Essence. All those watching the performance
+        in question receive the following benefits so long as
+        the performance continues:<br>
+        • Treat their Essences as being one higher than it is
+        for the purposes of withstanding mind-affecting powers.<br>
+        • Add two additional soak, both lethal and bashing,
+        against ranged attacks.
+        "
