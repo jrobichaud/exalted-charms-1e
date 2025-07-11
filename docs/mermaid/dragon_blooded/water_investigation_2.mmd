@@ -1,0 +1,164 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    indisputable_physical_analysis_technique[Indisputable Physical Analysis Technique]
+    click revealing_light_method callback "
+        Indisputable Physical Analysis Technique<br>
+        <br>
+        Cost: 1 mote per two dice<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Investigation: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The magistrate or investigator with this Charm learns
+        the myriad ways of the criminal; his eye is better able to
+        connect seemingly disparate clues, and his intuition greatly
+        improves. The character can improve his Investigation
+        dice pool by two dice for every mote of Essence spent. The
+        character cannot do more than double his Investigation
+        Trait with this Charm, and he must pay the full motes of
+        Essence even if he needs to raise a Trait by only one die.
+        "
+
+    scent_of_crime_method[Scent of Crime Method]
+    click scent_of_crime_method callback "
+        Scent of Crime Method<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Investigation: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        A good investigator quickly learns to discern the nervous
+        habits, tics and mannerisms of people suffering under
+        a load of guilt. Since most guilt is associated with a crime, the
+        character becomes better able to discover a criminal among
+        a group of people. After spending Essence, the character's
+        player should make a Manipulation + Investigation roll. A
+        success here will point the investigator to the character
+        within eyesight currently suffering from the greatest load of
+        guilt. This is purely subjective, of course, and mostly left in
+        the hands of the Storyteller. Additionally, characters who
+        commit heinous crimes without a shred of conscience might
+        feel no guilt whatsoever from the acts they perform, making
+        this Charm useless in finding them.
+        "
+
+    falsehood_unearthing_attitude[Falsehood-Unearthing Attitude]
+    scent_of_crime_method --> falsehood_unearthing_attitude
+    click falsehood_unearthing_attitude callback "
+        Falsehood-Unearthing Attitude<br>
+        <br>
+        Cost: 5 motes + 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Investigation: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Scent-of-Crime Method<br>
+        <br>
+        The Exalted's ability to sense dishonesty finally reaches
+        supernatural levels when he learns this Charm. With it, he
+        can ferret out false statements in conversation, helping
+        him find the truth of a situation. This Charm does not
+        detect evasions or half-truths; it only points out statements
+        that the speaker knows to be false. The Exalted must pick
+        a target and spend the Essence and Willpower necessary to
+        activate this Charm; for the rest of the scene, falsehoods
+        spoken by that target will trigger a tingling sensation on
+        the back of the character's neck. If the target is aware of the
+        scrutiny he is under, he may conceal lies by spending 1
+        point of Willpower per statement. This Charm has no
+        effect if the target's permanent Essence is equal to or higher
+        than the Essence of the Exalt using this Charm.
+        "
+
+    bloodhounds_nose_technique[Bloodhound's Nose Technique]
+    indisputable_physical_analysis_technique --> bloodhounds_nose_technique
+    scent_of_crime_method --> bloodhounds_nose_technique
+    click bloodhounds_nose_technique callback "
+        Bloodhound's Nose Technique<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Investigation: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Indisputable Physical Analysis Technique, Scent-of-Crime Method<br>
+        <br>
+        The Exalted spends around 10 minutes walking around
+        the scene of a crime (or any event he wishes to investigate);
+        his player must then make an ordinary Investigation roll for
+        the Dynast to find ordinary pieces of evidence (footprints,
+        stray hairs, blood, etc.). This Charm uses a touch of sympathetic
+        magic to trace that evidence back to its creator. Roll
+        Intelligence + Investigation after spending the necessary
+        Essence to activate the Charm. With one success, the character
+        receives an impulse — a mild tugging — that pulls him
+        in the direction of the culprit. With three or more successes,
+        the character receives that impulse along with a fleeting
+        glimpse of the culprit as he appeared at the time of the crime.
+        "
+
+    revelation_of_associates_hunch[Revelation of Associates Hunch]
+    indisputable_physical_analysis_technique --> revelation_of_associates_hunch
+    click revelation_of_associates_hunch callback "
+        Revelation of Associates Hunch<br>
+        <br>
+        Cost: 4 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Investigation: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Indisputable Physical Analysis Technique<br>
+        <br>
+        By simply meeting a person and coming within a few
+        yards of him, the Exalted can sense the identities of his
+        closest associates. Typically, these will be the character's
+        family members, business associates and members of any
+        sworn brotherhoods the Exalt belongs to, but they can also
+        be characters delineated by certain Backgrounds. Roll
+        Perception + Investigation; every success gives the name
+        and one-sentence description of two of the target's compatriots
+        or servants. Even if the roll fails, the Dragon-Blood
+        will still learn information about one of the target's associates.
+        Associates are revealed in roughly the following
+        order: family members, members of sworn brotherhoods,
+        allies, mentors, connections, henchmen; the Storyteller
+        can change that order as he sees fit.
+        "
+
+    homeward_trail_discovery_method[Homeward Trail Discovery Method]
+    revelation_of_associates_hunch --> homeward_trail_discovery_method
+    click homeward_trail_discovery_method callback "
+        Homeward Trail Discovery Method<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Investigation: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Revelation of Associates Hunch<br>
+        <br>
+        By simply meeting a person and coming within a few
+        yards of him, the Exalted can determine the place that the
+        person calls home. Usually, this is the character's primary
+        residence, but in the case of the Dragon-Blooded, who
+        might have several residences, it is the place that the
+        subject truly considers to be his home. If the subject has
+        any dots in the Manse Background, the Charm is almost
+        certain to point directly at his Manse of primary residence.
+        If the subject or one of his allies is a sorcerer, his home may
+        be warded against such divinations. In that case, this
+        Charm will point to another of the character's residences.
+        The Charm will only identify a building, not a particular
+        apartment or room within that building — and in the case
+        of longtime travelers or the impoverished, the Charm will
+        simply indicate that the subject has no true home.
+        "

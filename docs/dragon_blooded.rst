@@ -123,6 +123,7 @@ Bureaucracy
 Investigation
 ^^^^^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/water_investigation_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/water_investigation_2.mmd
 
 Sail
 ^^^^
