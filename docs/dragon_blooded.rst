@@ -175,3 +175,7 @@ Air Dragon Style
 Earth Dragon Style
 ^^^^^^^^^^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/immaculate_earth.mmd
+
+Fire Dragon Style
+^^^^^^^^^^^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/immaculate_fire.mmd
