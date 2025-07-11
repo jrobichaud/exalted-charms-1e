@@ -116,6 +116,10 @@ Brawl
 ^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/water_brawl_1.mmd
 
+Bureaucracy
+^^^^^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/water_bureaucracy_1.mmd
+
 Investigation
 ^^^^^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/water_investigation_1.mmd
