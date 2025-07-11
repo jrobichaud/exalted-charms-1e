@@ -107,6 +107,7 @@ Presence
 Socialize
 ^^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/fire_socialize_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/fire_socialize_2.mmd
 
 Water
 -----
