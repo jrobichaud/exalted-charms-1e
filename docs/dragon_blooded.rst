@@ -142,11 +142,6 @@ Archery
 .. mermaid:: ./mermaid/dragon_blooded/wood_archery_1.mmd
 .. mermaid:: ./mermaid/dragon_blooded/wood_archery_2.mmd
 
-Survival
-^^^^^^^^
-.. mermaid:: ./mermaid/dragon_blooded/wood_survival_1.mmd
-.. mermaid:: ./mermaid/dragon_blooded/wood_survival_2.mmd
-
 Medicine
 ^^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/wood_medicine_1.mmd
@@ -159,3 +154,8 @@ Performance
 Ride
 ^^^^
 .. mermaid:: ./mermaid/dragon_blooded/wood_ride_1.mmd
+
+Survival
+^^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/wood_survival_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/wood_survival_2.mmd
