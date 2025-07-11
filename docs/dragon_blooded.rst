@@ -125,6 +125,10 @@ Investigation
 .. mermaid:: ./mermaid/dragon_blooded/water_investigation_1.mmd
 .. mermaid:: ./mermaid/dragon_blooded/water_investigation_2.mmd
 
+Larceny
+^^^^^^^
+.. mermaid:: ./mermaid/dragon_blooded/water_larceny_1.mmd
+
 Sail
 ^^^^
 .. mermaid:: ./mermaid/dragon_blooded/water_sail_1.mmd
