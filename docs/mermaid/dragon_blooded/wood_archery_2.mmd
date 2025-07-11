@@ -1,0 +1,177 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    spring_follows_winter[Spring Follows Winter]
+    click spring_follows_winter callback "
+        Spring Follows Winter<br>
+        <br>
+        Cost: 2 motes
+        Duration: Instant
+        Type: Reflexive
+        Minimum Archery: 2
+        Minimum Essence: 1
+        Prerequisite Charms: None
+        Just as green leaves will bloom after the harshest winter,
+        so a Dragon-Blood with this Charm will always strike her
+        target. After spending the 2 motes of Essence, the archer's
+        player may reroll the character's Dexterity + Archery completely.
+         She must accept the second result. If this Charm is
+        included in a Combo, the Essence cost for all other incorporated
+        Charms must be paid again as if for a second shot, but
+        only one (hopefully accurate) arrow is actually fired.
+        "
+
+    swallows_defend_the_nest[Swallows Defend the Nest]
+    spring_follows_winter --> swallows_defend_the_nest
+    click swallows_defend_the_nest callback "
+        Swallows Defend the Nest<br>
+        <br>
+        Cost: 1 mote per arrow<br>
+        Duration: Instant<br>
+        Type: Extra Actions<br>
+        Minimum Archery: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spring Follows Winter<br>
+        <br>
+        The physical limitations of wood and sinew are overcome
+        by this Charm, allowing the Exalted archer to
+        launch a flurry of arrows at his foe. Each arrow fired after
+        the first costs 1 mote of Essence, but is fired using the
+        archer's full dice pool. The Dragon-Blood is limited to
+        firing his permanent Essence rating in arrows per turn, and
+        he may not split his dice pool for extra actions.
+        "
+
+    harvest_of_the_hunter[Harvest of the Hunter]
+    spring_follows_winter --> harvest_of_the_hunter
+    click harvest_of_the_hunter callback "
+        Harvest of the Hunter<br>
+        <br>
+        Cost: 2 motes
+        Duration: Instant
+        Type: Simple
+        Minimum Archery: 3
+        Minimum Essence: 2
+        Prerequisite Charms:
+        Spring Follows Winter
+        A Wood-aspected Dragon-Blood may go to hunt with
+        an empty quiver yet never lack for arrows. Anything that
+        grows will yield up appropriate ammunition to the archer's
+        gathering hands. The chosen plant — even something as
+        odd as a desert cactus or a marsh reed — sprouts a number
+        of arrows equal to the Exalt's permanent Essence in response
+        to her desires. The archer may specify the type of
+        arrow she desires, and the arrows may be shared with others
+        — they are perfectly normal (if often somewhat odd-looking)
+        arrows.
+        "
+
+    life_swelling_sap_strike[Life-Swelling Sap Strike]
+    harvest_of_the_hunter --> life_swelling_sap_strike
+    click life_swelling_sap_strike callback "
+        Life-Swelling Sap Strike<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Archery: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Harvest of the Hunter<br>
+        <br>
+        In the hands of the Dragon-Blooded, an arrow is not
+        merely a pointy stick — it is an extension of the living tree
+        from which it came, and as such, it is inimical to the
+        undead. As soon as it is fired from the bow, an arrow
+        imbued with this Charm begins to bolt leaves (without
+        interfering with the arrow's flight). Upon striking an
+        undead creature, it erupts into full bloom, wrapping the
+        foul creature in blossoms and leaves and causing aggravated,
+        rather than lethal, damage. This Charm has no
+        effect on living creatures. The Charm has no effect on the
+        Abyssals and their Deathlord masters, but it is as effective
+        on materialized ghosts and nemissaries as it is on hungry
+        ghosts and the walking dead.
+        "
+
+    dragonfly_finds_mate[Dragonfly Finds Mate]
+    spring_follows_winter --> dragonfly_finds_mate
+    click dragonfly_finds_mate callback "
+        Dragonfly Finds Mate<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Archery: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spring Follows Winter<br>
+        <br>
+        Dragon-Blooded students of the bow have learned,
+        through hard practice, to track the expected path of a
+        projectile. Using this Charm, an Exalt at the sharp end of
+        an arrow's flight may attempt to turn it aside before impact
+        with a missile of his own. If the attempt's Dexterity +
+        Archery total, including any penalties for multiple actions,
+        equals or exceeds the attacker's successes, the
+        incoming missile is deflected. A partial parry is not possible;
+        this is an all or nothing attempt. Not just arrows, but
+        any projectile may be turned aside, including knives, axes,
+        chamber pots, shoes and other oddments.
+        "
+
+    seven_year_swarm_volley[Seven-Year Swarm Volley]
+    dragonfly_finds_mate --> seven_year_swarm_volley
+    click seven_year_swarm_volley callback "
+        Seven-Year Swarm Volley<br>
+        <br>
+        Cost: 3 motes, 1 Willpower + 1 mote per person defended<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Archery: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Dragonfly Finds Mate<br>
+        <br>
+        An Exalt with this Charm is now a master of the
+        arrow's flight. By filling the sky above her allies with a
+        barrage of arrows, the archer may defend her companions
+        from ranged attacks. The archer must have and fire two
+        arrows per protected ally, which can include himself. The
+        character's player then makes a Dexterity + Archery roll.
+        Until the character's next action, compare any ranged
+        attack against a protected character to the result of this
+        Dexterity + Archery roll. If the number of successes equals
+        or exceeds those generated by the attacker, the attack is
+        foiled. If it is less, the successes subtract from the attack as
+        the missile is turned aside. The Exalted archer may not
+        split her dice pool or take any other actions during the time
+        she protects her allies, or the protection ends immediately.
+        "
+
+    sparrow_dives_at_hawk[Sparrow Dives at Hawk]
+    seven_year_swarm_volley --> sparrow_dives_at_hawk
+    click sparrow_dives_at_hawk callback "
+        Sparrow Dives at Hawk<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Archery: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Seven-Year Swarm Volley<br>
+        <br>
+        Using this Charm, a Dragon-Blooded archer may
+        imbue an arrow fired from his bow with enough Essence
+        and will that it will turn aside any assault within the range
+        of his bow. The archer's player rolls Dexterity + Archery;
+        successes on this roll subtract from the successes of the
+        attack the archer is attempting to deflect. If the archer
+        exceeds the attacker's successes, immediately apply the
+        remaining successes as an archery attack against the character
+        who launched the assault against which the Exalt is
+        defending. The archer may not use any other Charms
+        during the turn in which he executes Sparrow Dives at
+        Hawk; although the action is complete in the blink of an
+        eye, it requires intense spiritual concentration.
+        "

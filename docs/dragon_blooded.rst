@@ -140,6 +140,7 @@ Wood
 Archery
 ^^^^^^^
 .. mermaid:: ./mermaid/dragon_blooded/wood_archery_1.mmd
+.. mermaid:: ./mermaid/dragon_blooded/wood_archery_2.mmd
 
 Survival
 ^^^^^^^^
