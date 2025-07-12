@@ -1,0 +1,375 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    eyes_of_the_wood_dragon[Eyes of the Wood Dragon]
+    click eyes_of_the_wood_dragon callback "
+        Eyes of the Wood Dragon<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Five turns or until used<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        By invoking the Eyes of the Wood Dragon, an Immaculate
+        can perceive the patterns of a victim's soul and
+        easily find the place to strike to cause the most damage.<br>
+        When the Exalt next makes a martial arts attack that
+        succeeds, roll her Essence rating as extra damage dice. This
+        damage is delivered after the damage from the attack itself
+        has been soaked. This damage ignores any armor, magical
+        or otherwise, but may be soaked normally. If, for some
+        reason (for example, the effects of the spell Invulnerable
+        Skin of Bronze), the attack does not roll dice of damage,
+        the extra dice of damage are not applied.<br>
+        This attack may also affect dematerialized spirits as if
+        materialized. This Charm is only effective against living
+        beings and spirits — constructs and automata are immune
+        to its effects. A character cannot invoke the effects of more
+        than one instance of this Charm on a single attack.
+        "
+
+    mind_over_body_meditation[Mind-Over-Body Meditation]
+    eyes_of_the_wood_dragon --> mind_over_body_meditation
+    click mind_over_body_meditation callback "
+        Mind-Over-Body Meditation<br>
+        <br>
+        Cost: 2 motes per health level<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Eyes of the Wood Dragon<br>
+        <br>
+        The followers of the Wood Dragon have mastered the
+        flow of life force in their own bodies, and healing minor
+        damage is a simple task for them. By simply concentrating
+        and focusing for a moment, the Immaculate invoking the
+        Charm can marshal his own Essence to heal.<br>
+        For every 2 motes the Immaculate spends on this
+        Charm, he may instantly heal one level of bashing damage.
+        This Charm cannot heal lethal or aggravated damage.
+        "
+
+    wood_dragon_vitality[Wood Dragon Vitality]
+    mind_over_body_meditation --> wood_dragon_vitality
+    click wood_dragon_vitality callback "
+        Wood Dragon Vitality<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Mind-Over-Body Meditation<br>
+        <br>
+        Essence surges through the Immaculate's body, bolstering
+        her life force with that of the Wood Dragon. For the
+        rest of the turn, the Immaculate's bashing soak is boosted
+        by her Martial Arts rating, and she may soak lethal damage
+        with her normal bashing soak.
+        "
+
+    soul_marking_strike[Soul-Marking Strike]
+    wood_dragon_vitality --> soul_marking_strike
+    click soul_marking_strike callback "
+        Soul-Marking Strike<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Minimum Martial Arts<br>
+        Supplemental 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Wood Dragon Vitality<br>
+        <br>
+        To use this Charm, a Wood Dragon Immaculate need
+        merely caress her opponent, which results in a sharp pain
+        in the target's head and no other obvious effects. If done in
+        combat, this caress must be part of a successful attack.<br>
+        For the remainder of the scene in which the Soul
+        Mark is placed, any attacks the Immaculate makes against
+        the Soul-Marked target have an automatic success added
+        to the attack roll before the target's player makes her
+        defense roll. Multiple soul marks are cumulative.<br>
+        Soul Marking is especially painful to spirits — as
+        painful as a real brand is to mortals. In addition to the
+        effects listed above, each Soul Mark reduces a spirit's dice
+        pools by -1 for the remainder of the scene, representing the
+        constant burning pain the being endures.<br>
+        For 24 hours following the use of this Charm, an
+        Immaculate can sense when a being she has Soul Marked
+        is within her Essence in yards, and which being it is.
+        "
+
+    wood_dragon_form[Wood Dragon Form]
+    soul_marking_strike --> wood_dragon_form
+    click wood_dragon_form callback "
+        Wood Dragon Form<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Soul-Marking Strike<br>
+        <br>
+        Invoking the Wood Dragon Form puts the Immaculate
+        in deeper touch with his own life force and healing
+        ability. The martial artist strikes his own body with a series
+        of precise, quick blows, which activate certain pressure
+        points and strengthen the flow of Essence through the
+        character's mortal shell.<br>
+        For the remainder of the scene after successful invocation
+        of the Wood Dragon Form, the Immaculate
+        regenerates one health level of bashing damage per turn
+        and one health level of lethal damage every two turns until
+        killed. These health levels return at the beginning of each
+        turn. Health levels lost to aggravated damage cannot be
+        regenerated in this manner.<br>
+        Invoking the form also requires a successful Dexterity
+        + Martial Arts roll, representing the basic execution of the
+        move itself. If the roll fails, the motes for this Charm are
+        not spent, but the action is wasted.<br>
+        Only one Form-type Charm can be invoked at any
+        one time. Invoking a new Form-type Charm automatically
+        ends the effects of any currently active Form-type Charm.
+        "
+
+    unbreakable_fascination_kata[Unbreakable Fascination<br>Kata]
+    wood_dragon_form --> unbreakable_fascination_kata
+    click unbreakable_fascination_kata callback "
+        Unbreakable Fascination Kata<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Until abandoned<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Wood Dragon Form<br>
+        <br>
+        By executing a sinuous series of moves and undulations
+        of the body, a Wood-aspected Immaculate can
+        fascinate and distract opponents. Those characters affected
+        by the Charm are transfixed by the hypnotic
+        movements, standing rooted to the spot.<br>
+        As long as the Exalt maintains the series of moves, the
+        player of anyone wishing to take any action other than to
+        stare in rapt fascination must win a reflexive opposed
+        check between her character's Wits and the Immaculate's
+        Martial Arts + Charisma. While executing the Unbreakable
+        Fascination Kata, the Exalt may speak, move at half
+        pace and dodge. Anything else, including an attack, breaks
+        the Charm. Many Wood Dragons use this technique to
+        draw close to an opponent before attacking.
+        "
+
+    enthralling_blow_attack[Enthralling Blow Attack]
+    unbreakable_fascination_kata --> enthralling_blow_attack
+    click enthralling_blow_attack callback "
+        Enthralling Blow Attack<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Unbreakable Fascination Kata<br>
+        <br>
+        The Dynast wishing to make an Enthralling Blow
+        Attack must succeed in a normal martial arts attack
+        against his target. Instead of rolling damage, the
+        Immaculate's player and the target's both immediately
+        make a reflexive opposed roll pitting the martial artist's
+        Essence + Martial Arts against the victim's Essence +
+        Willpower. If the Immaculate beats the target in the roll,
+        the target is enthralled. She loses any action for the rest of
+        the turn, and may take no actions at all other than to stand
+        there, slack-jawed and vacant-eyed. On each subsequent
+        turn the victim may attempt to shake off the effects of the
+        Enthralling Blow Attack, her player rolling the character's
+        Essence + Willpower, with a difficulty of 1 + the number of
+        successes that the Immaculate got on the opposed roll.<br>
+        This Charm only works on living creatures.
+        "
+
+    spirit_wracking_method[Spirit-Wracking Method]
+    wood_dragon_form --> spirit_wracking_method
+    click spirit_wracking_method callback "
+        Spirit-Wracking Method<br>
+        <br>
+        Cost: 4 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Wood Dragon Form<br>
+        <br>
+        When striking a spirit, the Wood Dragon Immaculate's
+        knowledge of spirit energy allows her to channel her own
+        Essence into the spirit's form, disrupting it temporarily.<br>
+        The Immaculate must make a successful martial arts
+        attack, either bare handed or with a weapon. This attack
+        affects spirits as if they were materialized and does normal
+        damage. If the Dynast actually wounds the spirit, her
+        player immediately makes a reflexive Essence + Martial
+        Arts roll with a difficulty equal to the spirit's Essence
+        rating. For every success that the martial artist gets on the
+        roll, the spirit must subtract one die from all its dice pools.
+        This penalty fades at the rate of one die per turn.
+        "
+
+    spirit_rending_technique[Spirit-Rending Technique]
+    spirit_wracking_method --> spirit_rending_technique
+    click spirit_rending_technique callback "
+        Spirit-Rending Technique<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Spirit-Wracking Method<br>
+        <br>
+        Much like Spirit-Wracking Method, Spirit-Rending
+        Technique allows an Immaculate to strike a spirit being.
+        But the effects are far more deadly than simple disruption.<br>
+        The martial artist makes a normal martial arts attack,
+        whether armed or unarmed. If she hits, instead of
+        doing normal damage, make a reflexive Essence + Willpower
+        roll. If the number of successes equals or exceeds
+        the spirit's permanent Essence, it takes one automatic
+        health level of aggravated damage. If the number of
+        successes exceeds multiples of the spirit's Essence, then
+        the spirit will take multiple health levels of damage. If the
+        roll does not equal the spirit's Essence, the Spirit-Rending
+        Technique has no effect.<br>
+        For Example: Tiphanie chooses to make an example of
+        her fight with Talia, a weak nature spirit. She strikes Talia,
+        and her player rolls eight successes on the Essence + Willpower
+        roll. Talia is a weak spirit, and her permanent
+        Essence is 3. She thus takes two automatic unsoakable levels
+        of aggravated damage from the attack because the result is
+        more than twice Talia's Essence. The extra two successes
+        are wasted. If Tiphanie's player had rolled nine successes,
+        Talia would have taken three levels of aggravated damage.
+        "
+
+    death_pattern_sensing_attitude[Death-Pattern<br>Sensing Attitude]
+    wood_dragon_form --> death_pattern_sensing_attitude
+    click death_pattern_sensing_attitude callback "
+        Death-Pattern Sensing Attitude<br>
+        <br>
+        Cost: 5 motes, 1 Willpower + 1 mote per attack dodged<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Wood Dragon Form<br>
+        <br>
+        Once a Wood Dragon Immaculate is truly attuned to
+        the patterns of soul energy, she can perceive the patterns
+        of death as well — at least those directed against her person
+        by other beings.<br>
+        For the remainder of the scene after invoking the
+        Death-Pattern Sensing Attitude, the Immaculate may
+        make a full dodge against any hand-to-hand attack
+        launched at her in a turn by a living being — or a being
+        animated by spiritual energy. This includes spirits and
+        the undead. This full dodge can even be used against
+        ranged attacks, so long as the attacker is within the
+        Immaculate's Essence in yards. Each dodge roll costs the
+        Immaculate a single mote. The maximum number of
+        attacks that can be dodged in this manner per turn is
+        equal to the Immaculate's Essence. This dodge does not
+        cost the Exalted her action for the turn and may even be
+        made after she has acted in a turn.<br>
+        The Dynast does not have to be aware of the attack,
+        but the Patterns of Death do not alert an Immaculate to the
+        mere presence of other living beings, only of their attacks.
+        This Charm is ineffective against traps, attacks from automata
+        and ranged attacks that occur from outside the
+        radius of the Death-Pattern Sensing Attitude.
+        "
+
+    wood_dragon_succor[Wood Dragon Succor]
+    death_pattern_sensing_attitude --> wood_dragon_succor
+    click wood_dragon_succor callback "
+        Wood Dragon Succor<br>
+        <br>
+        Cost: 3 motes per health level<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Death-Pattern Sensing Attitude<br>
+        <br>
+        This technique heals the wounds of others — but the
+        Wood-aspected Immaculate cannot dissipate another's
+        injuries directly as he can his own. He must first take these
+        injuries onto his own body. All the Immaculate needs to do
+        to activate this Charm is to touch the target. For every 3
+        motes of Essence the character invests in the Charm, he
+        can draw one health level of damage out of a target and
+        into himself. Even the most grievous wounds on the target
+        close and heal, while the same injuries immediately appear
+        on the Immaculate's body.<br>
+        Taking on the wounds of others can be quite painful
+        and dangerous. The character immediately assumes
+        the proper level of impairment, although he can heal
+        this damage with the Wood Dragon Form, assuming it
+        is not aggravated.
+        "
+
+    soul_mastery[Soul Mastery]
+    spirit_rending_technique --> soul_mastery
+    enthralling_blow_attack --> soul_mastery
+    wood_dragon_succor --> soul_mastery
+    click soul_mastery callback "
+        Soul Mastery<br>
+        <br>
+        Cost: 10 motes, 1 health level<br>
+        Duration: Essence in turns or until discharged<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Spirit-Rending Technique, Enthralling Blow Attack, Wood Dragon Succor<br>
+        <br>
+        This Charm is the highest mystery of the Dragon of
+        Wood. Few have seen this Charm executed - and even
+        fewer who have seen it have lived to tell anyone about it.
+        The close alignment of the Wood Dragon with the forces
+        of life allows the most highly skilled of its disciples mastery
+        over life and death itself.<br>
+        Invoking this Charm is an action in and of itself, and
+        it absorbs the character's dice action for the turn. After the
+        character invokes this Charm, it lingers on his hands as a
+        sizzling green-and-black aura. In order to discharge the
+        aura, the Immaculate must make a successful attack, though
+        touching an unsuspecting victim would also work. If discharged
+        by an attack, the attack does normal damage in
+        addition to the effects of Soul Mastery.<br>
+        The martial artist's player rolls a reflexive contested
+        roll of his character's Essence + Martial Arts against his
+        opponent's Stamina + Endurance. If the target loses this
+        contest, her soul is severed from her body, killing her
+        instantly. Even if she ties or beats the martial artist, the
+        shock to the soul is considerable, and the character takes
+        a number of dice of aggravated damage equal to the
+        Immaculate's Essence.<br>
+        In addition to its effects on living beings, any spirit
+        with an Essence equal to or lower than the Immaculate's
+        that is struck by Soul Mastery is annihilated utterly, ripped
+        asunder by the Immaculate's wrath and permanently destroyed.
+        Spirits can sense the presence of Exalted schooled
+        in Soul Mastery and fear and dislike them intensely.<br>
+        Using Soul Mastery is a not easy on the Immaculate.
+        In addition to its considerable cost, once invoked, the
+        power must be used — and quickly, lest the powerful
+        Essence shred the martial artist's own soul. The Immaculate
+        has her Essence in turns to successfully unleash the
+        Charm, or she must resist the effects herself!
+        "
