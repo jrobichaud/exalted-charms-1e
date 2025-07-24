@@ -172,3 +172,86 @@ flowchart TD
         one accidentally murdered loved one or terrible diplomatic
         incident to make an Exalted into a broken or hunted creature.
         "
+
+    subgraph savage_seas[Savage Seas]
+        piercing_the_nights_veil_practice[Piercing the Night's<br>Veil Practice]
+        click piercing_the_nights_veil_practice callback "
+            Piercing the Night's Veil Practice<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Awareness: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Sensory Acuity Prana<br>
+            <br>
+            This Charm allows the user to see in darkness as if she
+            were in broad daylight. The Exalted needs no light source
+            of any kind, so long as this Charm is in effect; whether
+            down in the deepest cave or under a new moon on a cloudy
+            night, she will see with normal clarity and detail. Charms
+            used to increase her vision will work just like they normally
+            do; if she uses the Hundred Leagues Sight Procedure
+            (below) after activating this Charm, she will be able to
+            flawlessly focus on a target dozens of leagues away, as if in
+            daylight. As with the Sensory Acuity Prana (see Exalted,
+            p. 196), the Exalted is not more or less susceptible to bright
+            lights or sudden flashes. If she enters a torch-lit tent, she
+            will see normally, and if suddenly startled by the flare of an
+            anima banner, she will be blinded no longer than someone
+            using his ordinary senses would.
+            "
+
+        vision_of_the_murky_depths_method[Vision of the Murky<br>Depths Method]
+        click vision_of_the_murky_depths_method callback "
+            Vision of the Murky Depths Method<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Awareness: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Keen Sight Technique<br>
+            <br>
+            The Exalted shifts his vision so that he can see in
+            water as if in air. For the duration of the Charm, he can
+            adjust his vision to see in water, in air or to see through
+            them both. While shifted to see in either water or air, he
+            sees normally. When looking through both (as when
+            peering over the railing of a vessel to see if there is anything
+            in the waters below or when looking up onto the deck of
+            a ship from below the water's surface to locate a guard), he
+            sees without the distortions and shifting that normally
+            occurs, but his vision is halved (see &quot;Vision in the Depths,&quot;
+            this page). It takes one turn to change sight over from
+            water to air or from either to seeing in both.
+            "
+
+        hundred_leagues_sight_procedure[Hundred Leagues<br>Sight Procedure]
+        click hundred_leagues_sight_procedure callback "
+            Hundred Leagues Sight Procedure<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Awareness: 5<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Unsurpassed Sight Discipline<br>
+            <br>
+            Whereas, before, the Exalted could extend his vision
+            out to a mile or more using the Unsurpassed Sight Discipline,
+            with this Charm, he can see further than even the
+            sharpest-eyed mospid. The user of this Charm can clearly
+            focus and notice details out to a range equal to his (Essence
+            x 20) miles. Anything within that range can be seen just
+            as if it were close to hand — even the furthest objects will
+            appear as if they were no more than 100 yards or so away.
+            This ability is rarely of use on land, where terrain ensures
+            that the Exalted will never actually be able to see that far,
+            but at sea, the information gleaned may prove vital.
+            "
+    end
+
+    sensory_acuity_prana --> piercing_the_nights_veil_practice
+    keen_sense_technique -->|Sight| vision_of_the_murky_depths_method
+    unsurpassed_sense_discipline -->|Sight| hundred_leagues_sight_procedure

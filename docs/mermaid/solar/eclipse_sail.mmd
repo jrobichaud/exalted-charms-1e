@@ -184,3 +184,127 @@ flowchart TD
         cannot use this Charm to protect a ship of more than (20
         x the character's Essence rating) feet in length.
         "
+
+    subgraph savage_seas[Savage Seas]
+        direction TB
+        seeking_the_earths_bounty_method[Seeking the Earth's<br>Bounty Method]
+        click seeking_the_earths_bounty_method callback "
+            Seeking the Earth's Bounty Method<br>
+            <br>
+            Cost: 6 motes<br>
+            Duration: One turn<br>
+            Type: Simple<br>
+            Minimum Sail: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Perfect Reckoning Technique<br>
+            <br>
+            By casting his will forth upon the waters, the Chosen
+            can uncover where the nearest safe harbor or beaching site
+            is located and how to get there. Although the approach to
+            the harbor will be clear of hazards and the beach there
+            usable for small craft (even if the vessel itself cannot
+            beach), the harbor will not necessarily be safe for the crew.
+            There might well be monsters in the bay or surroundings,
+            the nearby natives (if any) may be unfriendly, or other
+            hidden dangers may exist.
+            "
+
+        fires_kiss_resistance_prana[Fire's Kiss<br>Resistance Prana]
+        click fires_kiss_resistance_prana callback "
+            Fire's Kiss Resistance Prana<br>
+            <br>
+            Cost: 6 motes, 1 Willpower<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Sail: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Wind-Defying Course Technique<br>
+            <br>
+            Fire is rightly feared on all sea-going vessels. Even a ship
+            with a First Age hull is filled with furnishings and supplies
+            that will burn — and the crew has nowhere to go. Even small
+            fires are tolerated only because of necessity, and the galley
+            on a ship is the most carefully designed part of most vessels.
+            This Charm renders a vessel completely immune to the
+            ravages of fire altogether; while it is in effect, no natural fire
+            can start aboard the ship. Although existing fires will not be
+            affected, neither will they spread further, confining themselves
+            to destroying what they are actually burning at that
+            moment; any fuel added to the fire will simply refuse to burn.
+            Magical or elemental fires can be set normally, but they will
+            burn for half as long and take half the effort to douse than
+            usual. While burning, they will inflict whatever damage
+            they normally would, however.
+            "
+
+        ignore_the_winds_course_technique[Ignore the Wind's<br>Course Technique]
+        click ignore_the_winds_course_technique callback "
+            Ignore the Wind's Course Technique<br>
+            <br>
+            Cost: 10 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Sail: 5<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Wind-Defying Course Technique<br>
+            <br>
+            By dint of this Charm, an Exalted helmsman can not
+            only tack deeper into the wind than any mortal helmsman,
+            she may ignore its direction completely. So long as the
+            Charm is in effect, her vessel moves as if the wind were full
+            in its sails, no matter what direction the winds actually blow
+            or what course the helmsman sets. Anyone watching the
+            Exalted's vessel while it sails in defiance of the winds will
+            obviously know that some sort of powerful magic is in use.
+            "
+
+        masts_unbreakable_will_prana[Mast's Unbreakable<br>Will Prana]
+        click masts_unbreakable_will_prana callback "
+            Mast's Unbreakable Will Prana<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Sail: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Wind-Defying Course Method<br>
+            <br>
+            A ship's mast is its life; without the mast, a sailing vessel
+            is utterly subject to tide and current, and few vessels survive
+            an attack or sudden squall that wrecks the mast. By way of
+            this Charm, the Exalt can render the mast of a ship he is on
+            immune to even the greatest winds or the strongest attacks.
+            Only actions taken by Deathlords, extremely powerful
+            elementals or spirits and the most powerful Exalted (those
+            with a permanent Essence of 6 or greater) can hope to
+            destroy a ship's mast while this Charm is in effect.
+            "
+
+        harden_the_hull_practice[Harden the Hull<br>Practice]
+        click harden_the_hull_practice callback "
+            Harden the Hull Practice<br>
+            <br>
+            Cost: 3 motes + 2 per (Essence)L of soak<br>
+            Duration: One scene<br>
+            Type: Reflexive<br>
+            Minimum Sail: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Storm-Weathering Essence Infusion<br>
+            <br>
+            Unseen hazards and dangers are a threat to every sailing
+            vessel. Using this Charm, an Exalt can reinforce the hull of
+            her vessel to resist these unforeseen problems. For every 2
+            motes of Essence she spends, the hull gains lethal soak equal
+            to the Exalted's permanent Essence. This Charm can be
+            applied multiple times to the same vessel in a scene, but
+            under no circumstances can the soak gained through the use
+            of this Charm exceed the highest Stamina + Sail total of any
+            Exalt who used this Charm on the ship during the scene.
+            "
+    end
+
+    perfect_reckoning_technique --> seeking_the_earths_bounty_method
+    wind_defying_course_technique --> fires_kiss_resistance_prana
+    wind_defying_course_technique --> ignore_the_winds_course_technique
+    wind_defying_course_technique --> masts_unbreakable_will_prana
+    storm_weathering_essence_infusion --> harden_the_hull_practice

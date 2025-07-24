@@ -194,3 +194,121 @@ flowchart TD
         items of First Age manufacture but can do nothing to
         repair those whose magic has fled or been exhausted.
         "
+
+    subgraph time_of_tumult[Time of Tumult]
+        direction TB
+        world_within_a_picture_style[World Within a<br>Picture Style]
+        click world_within_a_picture_style callback "
+            World Within a Picture Style<br>
+            <br>
+            Cost: 20 motes<br>
+            Duration: One day or more<br>
+            Type: Simple<br>
+            Minimum Craft: 5<br>
+            Minimum Occult: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Flawless Handiwork Method<br>
+            <br>
+            A Solar who truly masters some form of representational
+            art — most obviously painting, but other possibilities
+            include tapestry-weaving, carving and metal-casting -
+            can fashion miniature worlds within a lifelike representation.
+            A being that knows how to expend Essence can step
+            into the image and experience it as if it were real. Although
+            the examples within the Invisible Fortress are &quot;life sized,&quot;
+            a World Within a Picture's physical matrix could be much
+            smaller; for instance, a metal brooch chased and enameled
+            with an uncannily realistic miniature scene.<br>
+            The World Within a Picture can include planes,
+            animals or even people, but none of the people are actually
+            real. They react only in simple, stereotyped ways, like
+            automata. (A Solar can trap real people or spirits within a
+            still life to become permanent characters, but this involves
+            a spell of Celestial Circle Sorcery.) A World Within a
+            Picture's simulated world cannot exceed one acre in area,
+            although it may look much larger: A person who tries to
+            travel beyond the boundaries of the still life either goes in
+            a circle or steps out of the still life.<br>
+            Creating a World Within a Picture takes weeks or
+            months, depending on the artist's medium and the level of
+            detail the artist desires. Once created, a World Within a
+            Picture lasts until someone or something destroys it. Other
+            Charms and sorceries can piggyback on a World Within a
+            Picture if the artist wants to include magical effects within
+            the simulated world, such a still life in which people can
+            fly, or one that transforms visitors into other forms.<br>
+            Entering a World Within a Picture costs 1 mote of
+            Essence. Departing is free. Anyone caught within a completely
+            destroyed Still Life dies. A Still Life that is merely damaged can
+            be repaired, and prisoners retrieved, but only by someone who
+            knows the World Within a Picture Style Charm.
+            "
+
+        rock_spinning_technique[Rock-Spinning<br>Technique]
+        click rock_spinning_technique callback "
+            Rock-Spinning Technique<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: One hour<br>
+            Type: Simple<br>
+            Minimum Craft: 2<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Shattering Grasp<br>
+            <br>
+            This Charm enables a Solar to spin raw stone into
+            flexible thread or yarn. Rock thread is fireproof but no
+            stronger than linen and rather scratchy to wear. It is
+            entirely adequate for tapestries, tablecloths, rugs and other
+            utilitarian purposes, though, and in large quantities, it
+            makes excellent insulation. The thread or yarn remains
+            the same color as the original rock, making most spun rock
+            rather drab — but a Solar with this Charm can spin jade or
+            diamond as easily as slate or sandstone. A handkerchief of
+            spun jewels would make an understated yet truly royal gift.
+            The basic Charm requires no more than a simple
+            drop-spindle or spinning wheel and a quantity of rock. The
+            listed Essence cost and duration are for spinning a cubic
+            foot of rock into a cubic yard of fluffy fiber. The process
+            takes a full hour. A more elaborate apparatus (such as the
+            broken machine in the Fortress) reduces the Essence cost
+            to 1 mote, and the machine runs by itself once set running.
+            Indeed, the apparatus reduces rock-spinning to magic that
+            even unExalted mortals can perform.
+            "
+
+        spiritual_sustenance[Spiritual Sustenance]
+        click spiritual_sustenance callback "
+            Spiritual Sustenance<br>
+            <br>
+            Cost: Variable<br>
+            Duration: Variable<br>
+            Type: Simple<br>
+            Minimum Craft: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Object-Strengthening Touch<br>
+            <br>
+            Characters utilizing this Charm can mold
+            edible food out of any other material, be it rock,
+            wood or even snow. The simpler the food and
+            the smaller the portion, the less it costs to make.
+            Conjuring a loaf of bread requires just 1 mote of
+            Essence and about five minutes, while sculpting
+            an entire feast can cost 10 motes or more and
+            take an entire day. This food can be stored.
+            However, it will gradually lose its reality and
+            after a week, it will fade to wisps of Essence
+            when handled.<br>
+            While it will fill the belly, conjured food
+            offers little in the way of vitamins or minerals.
+            For every week that food created in this manner,
+            makes up more than 50 percent of a character's
+            diet, he will lose one dot in Willpower. Obviously,
+            if a character has mastered a sorcery that
+            allows him to conjure real food, these penalties
+            do not apply.
+            "
+    end
+
+    flawless_handiwork_method --> world_within_a_picture_style
+    shattering_grasp --> rock_spinning_technique
+    object_strengthening_touch --> spiritual_sustenance
