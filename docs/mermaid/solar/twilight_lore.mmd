@@ -224,3 +224,124 @@ flowchart TD
         During the First Age, Exalted often used this ability to bolster
         their lictors and pages for important tasks.
         "
+
+    subgraph Castebook Twilight
+        direction TB
+        earth_firming_method[Earth-Firming Method]
+        click earth_firming_method callback "
+            Earth-Firming Method<br>
+            <br>
+            Cost: 15 motes, 1 Willpower<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Lore: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Chaos-Repelling Pattern<br>
+            <br>
+            With this Charm, an Exalted can protect a large area
+            from the ravages of the Wyld for a single day. While it lasts,
+            the earth and vegetation within the warded area, together
+            with any living beings present inside it, will not be affected
+            by the Wyld's changes, and the air will remain breathable
+            and safe. The Solar paces around the area that he wishes to
+            ward (which may not have more than a five yard radius per
+            dot of permanent Essence that he has) and invokes the
+            Charm. Unfortunately, although the contents of the area
+            will be safe from change, faeries or Wyld-mutated beings
+            are not prevented from entering the protected area.
+            "
+
+        injury_forcing_technique[Injury-Forcing Technique]
+        click injury_forcing_technique callback "
+            Injury-Forcing Technique<br>
+            <br>
+            Cost: 5 motes per health level, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Lore: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Wound-Accepting Technique<br>
+            <br>
+            With this Charm, an Exalt may transfer his current
+            injuries to another person. The character must be in skin-to-skin
+            contact with the target of the Charm for a turn, and
+            his player must spend a point of temporary Willpower and
+            the appropriate amount of Essence. The Exalt's wounds
+            close up and heal on his own body, while appearing at the
+            same time on that of the subject. The Solar using the
+            Charm immediately heals a number of health levels of
+            bashing or lethal damage, and the target of the Charm
+            immediately takes a like number of levels of bashing
+            damage. The maximum number of health levels transfer-
+            able is the lower of the two characters' Staminas. This
+            Charm cannot be used to transfer aggravated damage:
+            However, it is quite possible to kill somebody with it. It can
+            be used in combat, but it requires that the character have
+            concluded a successful grab or clinch maneuver and have
+            the target trapped at the time the Charm is used.
+            "
+
+        order_affirming_blow[Order-Affirming Blow]
+        click order_affirming_blow callback "
+            Order-Affirming Blow<br>
+            <br>
+            Cost: 15 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Lore: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Chaos-Repelling Pattern<br>
+            <br>
+            By means of this Charm, an Exalt can use his singular
+            knowledge of both chaos and order to restore a Wyld-corrupted
+            living creature or object. By placing his hands
+            upon the target and focusing his will, the Solar can restore
+            it to its original physical and mental state. However, any
+            time that has passed will be taken into account: The target
+            of the Charm will be restored to his appropriate age and
+            may age significantly if the Wyld has preserved him from
+            the passing years. For a full day after this Charm has been
+            used, the target is immune to the effects of the Wyld:
+            However, if he remains in Wyld areas after that time, he
+            will once again be subject to its changes and may eventually
+            be returned to his previous altered form. Note that this
+            Charm does nothing to cure Wyld addiction - exposure
+            to the energies of the madlands is still pleasurable.
+            "
+
+        sorcery_conferring_contemplation[Sorcery-Conferring<br>Contemplation]
+        click sorcery_conferring_contemplation callback "
+            Sorcery-Conferring Contemplation<br>
+            <br>
+            Cost: 10 motes, 1 Willpower, 1 experience point<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Lore: 6<br>
+            Minimum Essence: 6<br>
+            Prerequisite Charms: Power-Awarding Prana<br>
+            <br>
+            By means of this Charm, a character can lend one of
+            her spells to another Exalted sorcerer. For each dot of the
+            loaning character's Essence, she can lend a spell for one
+            use. The recipient must have the appropriate Sorcery
+            Charm to be able to use the spell. These spells draw directly
+            on the Essence of the Exalted who lent them, but the
+            recipient must pay any non-Essence costs - for example
+            the Willpower to activate the appropriate Sorcery Charm.<br>
+            The Solar is still able to use these spells while the
+            Charm is in effect, but as soon as the recipient has cast any
+            of them as many times as the lending character has
+            permanent Essence, the recipient loses the ability to cast
+            that particular spell again. Use of this Charm does not aid
+            in the study of the spell — it merely imprints the spell on
+            the target, giving him the ability to use it once per dot of
+            the lending character's Essence. Powerful Solars often
+            used this ability to empower lesser minions — particularly
+            the Dragon-Blooded - for particular missions.
+            "
+    end
+
+    chaos_repelling_pattern --> earth_firming_method
+    wound_accepting_technique --> injury_forcing_technique
+    chaos_repelling_pattern --> order_affirming_blow
+    power_awarding_prana --> sorcery_conferring_contemplation

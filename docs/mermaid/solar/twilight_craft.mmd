@@ -312,3 +312,124 @@ flowchart TD
     flawless_handiwork_method --> world_within_a_picture_style
     shattering_grasp --> rock_spinning_technique
     object_strengthening_touch --> spiritual_sustenance
+
+    subgraph Castebook Twilight
+        direction TB
+        impurity_hammering_blow[Impurity-Hammering<br>Blow]
+        click impurity_hammering_blow callback "
+            Impurity-Hammering Blow<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Craft: 2<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: Flawless Handiwork Method<br>
+            <br>
+            With this Charm, an Exalted can purify base metal or
+            other raw substances of natural taints and flaws, working
+            badly tanned raw leather into butter-soft suede, cheap
+            marble into smooth stone worthy of the palace of the
+            Empress and flawed jewels into pure specimens of their
+            kind. Characters cannot use this Charm to convert raw
+            materials into any of the Five Magical Materials - for
+            example, turning gold into orichalcum. That must be done
+            by the usual long, slow process of extraction. However, the
+            Exalt can greatly improve the quality of raw materials by
+            invoking this Charm as he creates an item. The character
+            may purify the materials for an object in an equal number
+            of Dexterity or Stamina + Crafts successes as required to
+            create the item. Players may roll for their characters once
+            per scene of work. For the purposes of this Charm, each
+            scene is normally a day of work, though it can be less (for
+            example, if the Solar is using the Charm Craftsman Needs
+            No Tools, a scene is probably about an hour).
+            "
+
+        body_forging_travail[Body-Forging<br>Travail]
+        click body_forging_travail callback "
+            Body-Forging Travail<br>
+            <br>
+            Cost: 8 motes, 1 Willpower<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Craft: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Object-Strengthening Touch<br>
+            <br>
+            This Charm allows an Exalt to confer physical integrity
+            upon a living being, human or animal, just as he
+            might instill strength into an object. The Solar places his
+            hands upon the subject of this Charm and uses his powers
+            to force the subject's living body to conform to principles
+            of stability and good construction, enhancing its ability
+            to receive blows or other damage. For the remainder of
+            the scene, the subject of the Charm takes half damage
+            after soak (but before damage is rolled, to a minimum of
+            one die) from all blows struck by beings with a Craft
+            Ability equal to or less than that of the Exalted who
+            invoked the Charm. The character also has some degree
+            of protection from forces such as cold, fire, lightning or
+            acid and soaks two additional levels of lethal damage
+            from such attacks until the end of the scene. A sorcerer
+            can use this Charm on himself.
+            "
+
+        edifice_smashing_strike[Edifice-Smashing<br>Strike]
+        click edifice_smashing_strike callback "
+            Edifice-Smashing Strike<br>
+            <br>
+            Cost: 7 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Craft: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Shattering Grasp<br>
+            <br>
+            This Charm enables an Exalted to shake the foundations
+            of buildings and pound down walls with his bare fists
+            due to his understanding of the nature of craftsmanship
+            and the principles of workmanship. When attempting to
+            destroy or break any nonliving crafted material of any
+            substance, add his Essence + Craft to his Strength +
+            Athletics to determine if he can break something or to the
+            amount of damage he does in an attack against an object.
+            A character can use this Charm against any sort of material,
+            regardless of the material she crafts. The only
+            requirement is that the subject of his strikes, be it a wall, a
+            door, a weapon or a building's foundation, be in some way
+            worked or shaped by intelligent beings. This Charm is
+            explicitly permitted to be part of a Combo with Charms of
+            other Abilities. This Charm cannot be used to attack worn
+            or carried gear.
+            "
+
+        stability_conferring_establishment[Stability-Conferring<br>Establishment]
+        click stability_conferring_establishment callback "
+            Stability-Conferring Establishment<br>
+            <br>
+            Cost: 1 mote, 1 Willpower, 1 health level<br>
+            Duration: One year<br>
+            Type: Simple<br>
+            Minimum Craft: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Chaos-Resistance Preparation<br>
+            <br>
+            With this Charm, an Exalted can create objects that
+            are not only resistant to the effects of the Wyld, but also
+            protect those who wear them. Infusing a part of his own life
+            into the item — which can be anything from a ring to a full
+            suit of armor — the Solar instills a natural aura of order and
+            stability into it, causing it to remain safe from changes for
+            a full year. As long as the object endures unchanged
+            preserved by the Charm, its wearer will also be protected
+            from the Wyld's ravages. Remember that the mote in-
+            vested remains committed for the duration of the Charm
+            or until the magic is canceled by the Exalt.
+            "
+    end
+
+    flawless_handiwork_method --> impurity_hammering_blow
+    object_strengthening_touch --> body_forging_travail
+    shattering_grasp --> edifice_smashing_strike
+    chaos_resistance_preparation --> stability_conferring_establishment

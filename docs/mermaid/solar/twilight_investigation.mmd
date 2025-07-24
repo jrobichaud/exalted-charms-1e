@@ -165,3 +165,97 @@ flowchart TD
         ous, but if disturbed, they may very briefly cling to the adopted
         persona before snapping back to the current moment.
         "
+
+    subgraph Castebook Twilight
+        direction TB
+        abiding_blood_observation[Abiding Blood<br>Observation]
+        click abiding_blood_observation callback "
+            Abiding Blood Observation<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Investigation: 2<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: Ten Magistrate Eyes<br>
+            <br>
+            When a character uses this Charm, he will perceive
+            blood dripping from the hands of anyone within 10 yards of
+            him who has killed someone within the last five days. The
+            vision is momentary, but quite clear. The Charm lasts long
+            enough for him to turn around and look all around him,
+            though if someone takes pains to hide her hands, he will not
+            be able to see any blood that might be there and judge
+            whether or not she has killed. A target who has merely killed
+            a single person will have simple bloodstains on her hands; an
+            Exalted who has massacred a troop of guards will have hands
+            dripping with gore. The Charm makes no distinctions on
+            the basis of motives for killing or types of killing, but merely
+            shows whether or not those close by have killed.
+            "
+
+        hawk_aloft_gaze[Hawk Aloft Gaze]
+        click hawk_aloft_gaze callback "
+            Hawk Aloft Gaze<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Investigation: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Crafty Observation Method<br>
+            <br>
+            This Charm allows the Exalted to scan a crowd of
+            people or a landscape, as far as the eye can see, searching
+            for a particular person or thing, focusing all his attention
+            on his prey. If any part of his target is theoretically within
+            his view — however great the distance — then he will see
+            it as clearly as if he were only 10 yards away, together with
+            the immediate surroundings for five yards around the
+            target. This applies even if his target is camouflaged or
+            partly concealed, in which case the visible part of the
+            target will be identified as obviously part of the complete
+            target. The only way to avoid this Charm is to be wholly
+            concealed by some object between the target and the
+            Exalt. However, the Exalted must know what he is looking
+            for; attempts merely to look for &quot;something odd&quot; will be
+            fruitless. Characters who are invisible cannot be detected
+            with this spell, but even the cleverest of magical camouflage
+            is penetrated by it.
+            "
+        guilt_finding_inquisitor_method[Guilt-Finding<br>Inquisitor Method]
+        click guilt_finding_inquisitor_method callback "
+            Guilt-Finding Inquisitor Method<br>
+            <br>
+            Cost: 7 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Investigation: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Judge's Ear Technique<br>
+            <br>
+            With this Charm, an Exalt can hear the private
+            whispers of guilt that underlie most speech, betraying the
+            dark secrets of an interrogated person. When invoked, it
+            will allow the Solar to know the single thing about which
+            the target feels guiltiest concerning the subject under
+            discussion. The Solar will seem to hear the target's voice
+            whispering his guilt and shame about the matter, while the
+            target continues to speak of whatever he chooses and is not
+            necessarily aware that he is revealing his hidden secrets. If
+            the target refuses to say anything, then the Charm fails to
+            provide any answers. Also, the Charm operates on the
+            target's personal perceptions of guilt: If the target feels no
+            guilt or shame about his private actions, then the Charm
+            will not reveal them. Thus, a sincere and self-justified
+            revolutionary might betray his shame in not speaking up
+            publicly for his cause but not his private involvement in a
+            recent assassination of a Terrestrial Exalted. Unfortunately,
+            the Charm will not function on someone with an
+            Essence equal to or greater than that of the user.
+            "
+    end
+
+    ten_magistrate_eyes --> abiding_blood_observation
+    crafty_observation_method --> hawk_aloft_gaze
+    judges_ear_technique --> guilt_finding_inquisitor_method
