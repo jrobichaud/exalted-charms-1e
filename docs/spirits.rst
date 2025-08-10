@@ -24,6 +24,7 @@ Valor
 -----
 .. mermaid:: ./mermaid/spirits/valor_1.mmd
 .. mermaid:: ./mermaid/spirits/valor_2.mmd
+.. mermaid:: ./mermaid/spirits/valor_3.mmd
 
 Curses
 ^^^^^^

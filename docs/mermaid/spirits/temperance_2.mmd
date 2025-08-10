@@ -229,3 +229,65 @@ flowchart TD
         sort restores the loss; it never heals normally. Even if the
         spirit does not replenish the Essence it spent, it feels satiated.
         "
+
+    subgraph Games of Divinity
+        donning_spiritual_armor[Donning Spiritual Armor]
+        click donning_spiritual_armor callback "
+            Donning Spiritual Armor<br>
+            <br>
+            Cost: 5 Motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Temperance: 2<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: None<br>
+            <br>
+            The small god summons up the forces of the elements or
+            similar powers to protect it from harm. The spirit gains armor
+            equal to Temperance + Essence. This armor can be used to
+            soak any form of bashing or lethal damage, including damage
+            caused by environmental conditions such as excessive heat
+            or cold. Elementals and elementally associated spirits always
+            surround themselves with elemental protections such as a
+            hauberk of tough roots, a shirt of flexible rock or a breastplate
+            of living flame. Other spirits don armor of light or darkness
+            or, occasionally, transform their ordinary garb into supernally
+            beautiful and durable garments of pure magic.
+            "
+
+        essence_inveigle[Essence Inveigle]
+        click essence_inveigle callback "
+            Essence Inveigle<br>
+            <br>
+            Cost: 6 motes, 2 Willpower<br>
+            Duration: One week (at least)<br>
+            Type: Simple<br>
+            Minimum Temperance: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Sustenance<br>
+            <br>
+            The spirit has consensual sex with a mortal in order to
+            activate the Charm, so no Brawl or Martial Arts rolls are
+            required. Amidst the merriment, roll the spirit's Manipulation
+            + Temperance. For each success, the spirit devours 1 mote of
+            Essence. What is more, the victim later develops an unquenchable
+            craving for another rendezvous with the spirit. If
+            the victim returns freely, the process is repeated (and any lost
+            Wits suffered from the process below are regained). If the
+            victim does not return within one week, roll his Wits +
+            Conviction -1 die for each time the spirit successfully used the
+            Charm against die victim. If the roll yields fewer successes that
+            the spirit's Willpower, the victim loses a point of Wits temporarily.
+            If he does not return to the spirit that day, repeat the
+            process the next day, continuing every day until the victim
+            either returns of his own volition, succeeds in breaking the
+            Charm or reaches 0 Wits (in which case the victim loses all
+            control and will do anything within his power to return to the
+            spirit). If the victim's Wits + Conviction roll succeeds against
+            the spirit s Willpower, the Charm is cancelled, and all temporary
+            Wits losses are regained. This Charm has no effect on
+            beings with an Essence higher than the spirit's.
+            "
+    end
+
+    sustenance --> essence_inveigle

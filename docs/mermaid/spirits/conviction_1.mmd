@@ -174,3 +174,62 @@ flowchart TD
         the spirit's Essence (or longer, at the Storyteller's discretion,
         if it suits the dramatic needs of the story).
         "
+
+    subgraph Games of Divinity
+        soul_rapt[Soul Rapt]
+        click soul_rapt callback "
+            Soul Rapt<br>
+            <br>
+            Cost: 10 motes, 2 Willpower<br>
+            Duration: Indefinite<br>
+            Type: Simple<br>
+            Minimum Conviction: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charm: Possession<br>
+            <br>
+            As the Possession spirit Charm, roll the spirit's Manipulation
+            + Conviction against the target's Willpower in a resisted
+            action. If the spirit gains more successes than the target has
+            temporary Willpower, then the initial possession succeeds. As
+            long as the spirit occupies the victim, temporary Willpower
+            cannot he regained. The possessing spirit must relinquish con-
+            trol of the victims body at least once per week, though it isn't
+            necessary to abandon the victim. The spirit must make the
+            attempt to regain control of the victim by repeating the initial
+            possession roll. After each month of possession, the victim loses
+            one point of Willpower permanently. If a spirit fails in its attempt
+            to regain control of its victim, the spirit is expelled, and the
+            victim cannot be possessed by that spirit again.
+            "
+        worldly_illusion[Worldly Illusion]
+        click worldly_illusion callback "
+            Worldly Illusion<br>
+            <br>
+            Cost: 20 motes, 1 Willpower per person<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Conviction: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Harrow the Mind<br>
+            <br>
+            The target of this Charm finds herself in an illusory- world
+            of die spirit's design. The illusion is total and covers all senses
+            according to all of her senses, the target has been transported
+            elsewhere. The illusion has a nearly instant duration but may
+            appear to last for up to one day to the mind of the target.<br>
+            This Charm requires the spirit to touch its target (a
+            nonreflexive Dexterity + Brawl or Martial Arts roll if she's actively
+            evading) or to look in her eyes. The spirit may use this effect on
+            multiple people at once, but all of them must find themselves in
+            die same illusion, and the spirit must touch all of them at once.<br>
+            Any damage the target takes within the hallucination is
+            purely illusory. However, if the target dies within the illusion,
+            then her player must succeed on a Stamina + Resistance roll
+            or have the character fall into a coma for one day per point of
+            the spirit's Essence (or longer, at the Storyteller's discretion, if
+            it suits the dramatic needs of the story).
+            "
+    end
+
+    possession --> soul_rapt
+    harrow_the_mind --> worldly_illusion
