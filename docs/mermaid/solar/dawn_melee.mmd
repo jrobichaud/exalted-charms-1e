@@ -575,3 +575,143 @@ flowchart TD
     fire_and_stone_strike --> whirlwind_of_searing_blows
     heavenly_guardian_defense --> protection_of_celestial_bliss
     fivefold_bulwark_stance --> protection_of_celestial_bliss
+
+
+    subgraph Castebook Night
+        dual_slaying_stance[Dual Slaying Stance]
+        click dual_slaying_stance callback "
+            Dual Slaying Stance<br>
+            <br>
+            Cost: 1 mote<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Melee: 2<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: None<br>
+            <br>
+            The character guides his hands with Essence, allowing
+            him to fight with weapons in both hands. This Charm
+            reduces multiple action penalties by 2 for an attack or
+            parry action performed by a character wielding two weapons
+            and completely eliminates the penalty for using a
+            weapon in the character's off hand. The character can
+            activate this Charm a maximum number of times per turn
+            equal to his Melee score.
+            "
+
+        sun_and_moon_method[Sun and Moon Method]
+        click sun_and_moon_method callback "
+            Sun and Moon Method<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: One turn<br>
+            Type: Extra Action<br>
+            Minimum Melee: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Dual Slaying Stance<br>
+            <br>
+            Through harmony with the Essence flows, a character
+            holding a weapon in each hand can strike once with
+            each weapon without penalties for off-hand use or mul-
+            tiple actions. In a single turn, the character can make
+            two parries, two attacks or one attack and one parry
+            without any penalties for multiple actions. However, a
+            character cannot split his dice pool when using this
+            Charm, and the character's parry is a normal single-attempt
+            parry unless the Exalt is also using Two Swords
+            Technique. In order to use this Charm, the character
+            must have weapons in both hands. This Charm may
+            explicitly be placed in a Combo despite its non-Instant
+            duration. This Charm may be activated reflexively but
+            Combos as if it were of the Extra Actions type.
+            "
+
+        two_swords_technique[Two Swords Technique]
+        click two_swords_technique callback "
+            Two Swords Technique<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: One scene<br>
+            Type: Reflexive<br>
+            Minimum Melee: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Sun-and-Moon Method<br>
+            <br>
+            The character can now allow Essence to manage his
+            hands for him and receives no penalty for fighting with
+            two weapons for an entire scene. He may use either
+            weapon to perform any combat action without penalty.
+            This does not allow him to take extra actions as if he
+            were using Charms, but he may split his dice pool
+            normally. In addition, this Charm completely eliminates
+            the off-hand penalty and also allows the character
+            to sacrifice an action for the turn make a &quot;cascading
+            parry.&quot; This consumes both his actions for the turn. The
+            cascading parry's dice pool starts at the Exalt's Dexterity
+            nt Melee + the sum of the two weapons' defensive
+            bonuses and drops by 1 for each successive parry at-
+            tempt. A character using Two Swords Technique can
+            abort to this defense, just as if he were aborting to a full
+            dodge or a full parry. In order to use this Charm, the
+            character must have weapons in both hands.
+            "
+
+            steel_devil_style[Steel Devil Style]
+            click steel_devil_style callback "
+                Steel Devil Style<br>
+                <br>
+                Cost: 5 motes, 1 Willpower<br>
+                Duration: One scene<br>
+                Type: Simple<br>
+                Minimum Melee: 5<br>
+                Minimum Essence: 4<br>
+                Prerequisite Charms: Ready in Eight Directions Stance, Two Swords Technique<br>
+                <br>
+                The character enfolds himself in Essence, allowing it
+                to guide his actions as he whirls through a breathtakingly
+                graceful whirlwind of deadly blows. So long as he has
+                weapons in both hands, a character who has activated this
+                Charm is an incredibly deadly opponent.<br>
+                Whenever the character is attacked, he may make a
+                reflexive automatic parry attempt with whichever of his
+                weapons he chooses at his Dexterity + Melee + any other
+                modifiers. In addition, he may reflexively counterattack
+                any hand-to-hand attack with whichever of his weapons
+                he chooses. This counterattack is rolled after the auto-
+                matic parry, and if the automatic parry is successful, extra
+                successes on the parry attempt are added as bonus dice to
+                the counterattack roll.<br>
+                The parry and the counterattack are &quot;normal&quot; ac-
+                tions for the character, and so, the character could
+                enhance his counterattacks with Excellent Strike or his
+                defense with Golden Essence Block, but the character
+                still cannot invoke the effects of more than one different
+                Charm per turn without a Combo. In addition, a char-
+                acter under the effects of this Charm may not use or
+                benefit from extra action Charms, nor may he use or
+                benefit from any effect that causes him to make another
+                parry or another riposte. The counterattack bonus dice
+                added by extra successes on the parry attempt are a
+                Charm bonus and count against the character's At-
+                tribute + Ability maximum for bonus dice if he uses
+                other Charms to enhance the riposte. The counterattack
+                effect of Steel Devil Style cannot be used in response
+                to other counterattack effects, but the automatic parry is
+                still active against these attacks.<br>
+                In order to use this Charm, the character must have
+                weapons in both hands. If the character is no longer
+                using two weapons, he loses access to the Charm's
+                effects, though he can use them again the instant he is
+                rearmed. A character under this Charm's effects who no
+                longer has a weapon in either hand is still unable to
+                activate extra action, full parry or riposte Charms while
+                disarmed and must terminate the Charm's eftects (this
+                can- be done reflexively and does nor require dice or
+                count as an action) in order to permit these types of
+                effects to work on him.
+                "
+    end
+    dual_slaying_stance --> sun_and_moon_method
+    sun_and_moon_method --> two_swords_technique
+    ready_in_eight_direction_stance --> steel_devil_style
+    two_swords_technique --> steel_devil_style

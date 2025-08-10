@@ -16,6 +16,7 @@ Martial Arts
 ^^^^^^^^^^^^
 .. mermaid:: ./mermaid/solar/dawn_martial_arts_1.mmd
 .. mermaid:: ./mermaid/solar/dawn_martial_arts_2.mmd
+.. mermaid:: ./mermaid/solar/dawn_martial_arts_3.mmd
 
 Melee
 ^^^^^

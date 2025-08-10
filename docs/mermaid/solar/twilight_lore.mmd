@@ -165,8 +165,8 @@ flowchart TD
         equal to the highest Virtue that the two of them share.<br>
         For Example: Dace is transferring Willpower to Swan.
         Dace has Valor 4, Conviction 2, Compassion 3, Temperance
-        2. Swan has Valor 3, Conviction 2, Compassion 2, Temper-
-        ance 3. Dace can transfer up to three points of Temporary
+        2. Swan has Valor 3, Conviction 2, Compassion 2, Temperance
+        3. Dace can transfer up to three points of Temporary
         Willpower to Swan, one for each dot they share in Valor.<br>
         As with Essence-Lending Method, above, the Will-Bolstering
         Method cannot cause a character's temporary Willpower
@@ -345,3 +345,109 @@ flowchart TD
     wound_accepting_technique --> injury_forcing_technique
     chaos_repelling_pattern --> order_affirming_blow
     power_awarding_prana --> sorcery_conferring_contemplation
+
+    subgraph Castebook Night
+        brewing_venom_technique[Brewing Venom Technique]
+        click brewing_venom_technique callback "
+        Brewing Venom Technique<br>
+        <br>
+        Cost: 4 motes, 1 willpower, 1 health level per pot created<br>
+        Duration: One week<br>
+        Type: Simple<br>
+        Minimum Lore: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Chaos-Repelling Pattern<br>
+        <br>
+        The Exalt must spend an entire scene (30 minutes)
+        boiling a small pot of water. During this time, she meditates
+        and focuses her Essence into the water, transforming
+        it into a deadly poison. The difficulty of the Stamina +
+        Resistance roll to avoid the poison and the penalty it
+        causes are both equal to the character's Lore Ability score.
+        This penalty persists for a number of minutes equal to the
+        character's permanent Essence.<br>
+        The damage done if the victim's player succeeds in
+        making a successful Stamina + Resistance roll is equal to
+        half of the brewing character's Lore (round up), and the
+        damage done by the poison if the victim's player fails the
+        roll is equal to twice the brewing character's Lore.<br>
+        At the character's choice, the poison brewed can
+        either bẻ a deadly toxin that does lethal damage or a
+        powerful narcotic that only does bashing damage. Either
+        poison must be ingested or delivered via a weapon to be
+        effective Each pot made contains poison enough to
+        envenom a dozen weapons or to poison a large meal. The
+        poison is odorless, tasteless and colorless, requiring a
+        Perception + Awareness roll of a difficulty equal to the
+        brewing character's Essence to detect.<br>
+        Like all other weapon venoms, each dose of poison
+        can only be used against a single target. Once it has been
+        used, the poison must be applied to the weapon again to
+        be effective. The poison transforms back into harmless
+        water after a week. Each batch must be brewed as either
+        a thick weapon venom or an ingested venom that is as
+        thin as water. Charms such as Poison-Resisting Medita-
+        tion and Immunity to Everything Technique affect this
+        poison normally.
+        "
+
+        envenomed_weapon_prana[Envenomed Weapon Prana]
+        click envenomed_weapon_prana callback "
+            Envenomed Weapon Prana<br>
+            <br>
+            Cost: 6 motes, 1 Willpower, 1 health level<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Lore: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Brewing Venom Technique<br>
+            <br>
+            With a seemingly harmless touch, the character can
+            envenom a single weapon, a single plate of food or a
+            goblet of wine. The difficulty to resist the poison and the
+            penalty and damage for the poison are all the same as for
+            Brewing Venom Technique. At the character's option,
+            the poison brewed can either be a deadly toxin that does
+            lethal damage or a powerful narcotic that only does
+            bashing damage. Either poison must be ingested or enter
+            a wound to be effective. The poison is odorless, tasteless
+            and colorless. The poison lingers in the drink or the
+            weapon for the next full day — after this time, it
+            dissipates harmlessly. This Charm cannot be used to
+            poison food or drink in the same turn that it is consumed
+            or to envenom a weapon in the same turn that it is being
+            used to strike a target.
+            "
+
+        mastery_of_poison_technique[Mastery-of-Poison Technique]
+        click mastery_of_poison_technique callback "
+            Mastery-of-Poison Technique<br>
+            <br>
+            Cost: 10 motes, 1 Willpower, 1 health level<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Lore: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Envenomed Weapon Prana<br>
+            <br>
+            The character can use this Charm to either envenom
+            a single weapon on the same turn that it is used to strike
+            a target or to poison a single plate of food or goblet of
+            drink. Also, the character may poison a weapon, food or
+            drink that is up to one yard per point of permanent
+            Essence away. The difficulty to resist the poison and the
+            penalty and damage for the poison are all the same as for
+            Brewing Venom Technique. At the character's choice,
+            the poison brewed can either be a deadly toxin the does
+            lethal damage or a powerful narcotic that only does
+            bashing damage. Either poison must be ingested or enter
+            a wound to be effective. The poison is odorless, tasteless
+            and colorless. The poison lingers on the drink or the
+            weapon for the next full scene — after this time; it
+            harmlessly dissipates.
+            "
+    end
+
+    chaos_repelling_pattern --> brewing_venom_technique
+    brewing_venom_technique --> envenomed_weapon_prana
+    envenomed_weapon_prana --> mastery_of_poison_technique

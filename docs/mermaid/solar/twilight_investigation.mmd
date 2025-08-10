@@ -259,3 +259,27 @@ flowchart TD
     ten_magistrate_eyes --> abiding_blood_observation
     crafty_observation_method --> hawk_aloft_gaze
     judges_ear_technique --> guilt_finding_inquisitor_method
+
+    subgraph Castebook Night
+        death_revealing_method[Death-Revealing Method]
+        click death_revealing_method callback "
+            Death-Revealing Method<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Investigation: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Crafty Observation Method<br>
+            <br>
+            By touching a weapon, the character can instantly
+            determine the appearance of the person who was killed by
+            it last and the appearance of the person who wielded it
+            then. Similarly, if used on a corpse or even a fragment of
+            bone or hair, the character can get an image of the person
+            while she was alive and will know both her name and
+            exactly how she died.
+        "
+    end
+
+    crafty_observation_method --> death_revealing_method

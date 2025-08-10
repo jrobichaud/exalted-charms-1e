@@ -393,3 +393,48 @@ flowchart TD
     wound_mending_care_technique --> unhealing_wound_infliction
     healing_trance_meditation --> merciful_balm_of_sleep
     healing_trance_meditation --> youth_restoring_benison
+
+    subgraph Castebook Night
+        venom_anodyne_method[Venom Anodyne Method]
+        click venom_anodyne_method callback "
+            Venom Anodyne Method<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Medicine: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Grievous Injury Recovery Method<br>
+            <br>
+            To be effective, characters must use this Charm the
+            instant they are subjected to poison damage. This Charm
+            instantly negates all damage from poison and renders the
+            poison harmless.
+            "
+
+        body_purifying_technique[Body Purifying Technique]
+        click body_purifying_technique callback "
+            Body Purifying Technique<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Medicine: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Wound-Mending Care Technique, Venom Anodyne Method<br>
+            <br>
+            This Charm allows the character to cure others of
+            all damage caused by poison or acid provided that he can
+            get to them within 10 turns of their being poisoned or
+            burned. The character can also touch poisoned weapons,
+            food or drink and render it harmless with a touch
+            If she has time to handle and caress a venomous animal,
+            she can render it nonpoisonous for the next day, but this
+            cannot be done in combat, and it does not effect magical
+            animals such as dragons.
+            "
+    end
+
+    grievous_injury_recovery_method --> venom_anodyne_method
+    wound_mending_care_technique --> body_purifying_technique
+    venom_anodyne_method --> body_purifying_technique
