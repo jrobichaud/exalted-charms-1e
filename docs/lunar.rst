@@ -1,91 +1,14 @@
 Lunar Charms
 ============
 
-War
----
+Shapeshifting and Body Enhancement Charms
+-----------------------------------------
 
-Archery
-^^^^^^^
+.. mermaid:: ./mermaid/lunar/shapeshifting_1.mmd
+.. mermaid:: ./mermaid/lunar/shapeshifting_2.mmd
 
-Athletics
-^^^^^^^^^
+Unarmed Combat Charms
+---------------------
 
-Awareness
-^^^^^^^^^
-
-Brawl
-^^^^^
-.. mermaid:: ./mermaid/lunar/war_brawl.mmd
-
-Dodge
-^^^^^
-
-Endurance
-^^^^^^^^^
-
-Martial Arts
-^^^^^^^^^^^^
-
-Melee
-^^^^^
-
-Resistance
-^^^^^^^^^^
-
-Thrown
-^^^^^^
-
-
-Life
-----
-
-
-Craft
-^^^^^
-
-Larceny
-^^^^^^^
-
-Linguistics
-^^^^^^^^^^^
-
-Performance
-^^^^^^^^^^^
-
-Presence
-^^^^^^^^
-
-Ride
-^^^^
-
-Sail
-^^^^
-
-Socialize
-^^^^^^^^^
-
-Stealth
-^^^^^^^
-
-Survival
-^^^^^^^^
-
-
-Wisdom
-------
-
-Bureaucracy
-^^^^^^^^^^^
-
-Investigation
-^^^^^^^^^^^^^
-
-Lore
-^^^^
-.. mermaid:: ./mermaid/lunar/wisdom_lore.mmd
-
-Medicine
-^^^^^^^^
-
-Occult
-^^^^^^
+.. mermaid:: ./mermaid/lunar/unarmed_combat_1.mmd
+.. mermaid:: ./mermaid/lunar/unarmed_combat_2.mmd

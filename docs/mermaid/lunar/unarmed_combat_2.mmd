@@ -1,0 +1,496 @@
+---
+config:
+  theme: dark
+  maxTextSize: 90000
+
+---
+flowchart TD
+
+    body_weapon_technique[... 🌕 Body Weapon<br>Technique]
+
+
+    bear_embrace_method[🌕 Bear Embrace<br>Method]
+    body_weapon_technique --> bear_embrace_method
+    click bear_embrace_method callback "
+        Bear Embrace Method<br>
+        <br>
+        Cost: 1 mote per die<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Dexterity: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Body Weapon Technique<br>
+        <br>
+        Lunars revel in the visceral nature of hand-to-hand
+        combat, particularly when they can feel the breath of
+        their opponents on their face. As a consequence, grap-
+        pling is a favored technique. This Charm allows the
+        Lunar to fortify his musculature, allowing his player to
+        purchase additional dice up to the character's Dexterity
+        when rolling a single wrestling attack with Martial Arts
+        or Brawl. The Charm allows the addition of dice to
+        enact, continue or escape from such maneuvers or to do
+        extra points of damage in a clinch attack.
+        "
+
+    spine_breaking_technique[🌕 Spine Breaking<br>Technique]
+    bear_embrace_method --> spine_breaking_technique
+    click spine_breaking_technique callback "
+        Spine Breaking Technique<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Strength: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Bear Embrace Method<br>
+        <br>
+        The pinnacle of their wrestling abilities, the Spine-Breaking
+        Technique demonstrates the awesome power
+        of the Lunars' bestial nature. By means of this Charm,
+        the Lunar turns a painful and often incapacitating
+        attack into a lethal demonstration of his prowess. The
+        Lunar makes a clinch attack as normal, but rather than
+        the normal bashing damage, the Spine-Breaking Technique
+        inflicts lethal damage. The Spine-Breaking
+        Technique is also very difficult for the victim to escape
+        from, and the player of a Lunar who activated the
+        technique with his last action adds the Lunar's Strength
+        in automatic successes to the roll to resist any escape
+        attempt. A Lunar caught in a clinch may activate this
+        Charm on his action to do lethal damage. The Spine-Breaking
+        Technique can be used in a Combo with
+        Charms that increase the character's Strength but not
+        with any that enhance Dexterity.
+        "
+
+    mighty_bear_crush[🌕 Mighty Bear<br>Crush]
+    bear_embrace_method --> mighty_bear_crush
+    click mighty_bear_crush callback "
+        Mighty Bear Crush<br>
+        <br>
+        Cost: 2 motes per die<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Strength: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Bear Embrace Method<br>
+        <br>
+        This Charm allows the Lunar to imbue his muscles
+        with Essence, giving flesh and bone the strength and
+        consistency of steel hawsers. When the character has
+        successfully executed a clinch, tackle or throw or is doing
+        damage from maintaining a clinch, this Charm allows
+        the Lunar to transform dice up to his Strength into
+        automatic damage successes. However, the maximum
+        number of dice the Lunar can transform is equal to his
+        Essence or Strength, whichever is lower. The Essence for
+        this Charm is spent after soak is applied, so characters
+        need not worry about wagering Essence. The Mighty
+        Bear Crush can be used against any target the Lunar
+        perceives, including dematerialized spirits.
+        "
+
+    throat_baring_hold[🌕 Throat Baring<br>Hold]
+    mighty_bear_crush --> throat_baring_hold
+    click throat_baring_hold callback "
+        Throat Baring Hold<br>
+        <br>
+        Cost: 5 motes per turn<br>
+        Duration: Varies<br>
+        Type: Supplemental<br>
+        Minimum Dexterity: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Mighty Bear Crush<br>
+        <br>
+        Lunars revel in close combat, and many are unafraid
+        to place themselves in a disadvantageous position if
+        doing so will aid their hunting companions. Indeed,
+        doing so is seen by many as both a test of strength and
+        courage. The Throat-Baring Hold is one of the most
+        powerful expressions of this, allowing a Lunar who has
+        his opponent in a hold to &quot;open&quot; the opponent's defenses
+        to other attackers.<br>
+        The Lunar must make a successful hold attack.
+        Any extra successes reduce the target's lethal and
+        bashing soak totals until the Lunar's next action or
+        until the opponent breaks free. As with normal hold
+        attacks, the Lunar's attack does not inflict damage. The
+        Throat-Baring Hold may be maintained for multiple
+        turns, but the Lunar must spend 5 motes and his action
+        (and Charm) for the turn in order to maintain the
+        Charm, and the target may break out, just as if it were
+        a normal hold.<br>
+        The penalty inflicted remains the same from turn
+        to turn, until the hold is broken — a Lunar whose
+        initial attack fares poorly must release his foe and apply
+        the hold again to get a new result. In all turns after the
+        initial attack, the Lunar's player may add the Exalt's
+        Strength as automatic successes to the roll for the
+        purposes of combating the target's escape attempts and
+        reducing soak totals. Attacks against the target will
+        not harm the Lunar - the Charm helps keep him clear
+        of the incoming strikes - but a botched attack may
+        still strike him.
+        "
+
+    hyena_jaw_technique[🌙 Hyena Jaw<br>Technique]
+    mighty_bear_crush --> hyena_jaw_technique
+    click hyena_jaw_technique callback "
+        Hyena Jaw Technique<br>
+        <br>
+        Cost: 6 motes
+        Duration: Indefinite
+        Type: Simple
+        Minimum Manipulation: 2
+        Minimum Essence: 3
+        Prerequisite Charms: Mighty Bear Crush
+        Despite their formidable strength and unparalleled
+        martial prowess, a foe is sometimes able to resist
+        the Lunar's attentions for a protracted period. Activating
+        the Hyena Jaw Technique allows a Lunar who has
+        his opponent in a clinch or hold to subdue the foe
+        quickly. The Charm, usable only in beastman form,
+        allows the Lunar to extend his neck and muzzle, allowing
+        him to clamp his jaws on the opponent's throat.
+        Every turn the Charm is in effect, the target loses a dot
+        of temporary Stamina and falls unconscious if reduced
+        to 0 Stamina. If the target attempts to break away from
+        the clinch or hold, she must soak lethal damage equal
+        to the Lunar's Strength + 2, irrespective of the success
+        (or otherwise) of her player's escape roll. If the target
+        falls unconscious as a result of Stamina loss or her
+        injuries, further damage inflicted by the Hyena Jaw
+        Technique reduces one of the target's Mental Attributes
+        (Perception, Intelligence or Wits) by one, but
+        not below 0. If all four targeted Attributes are reduced
+        to 0, the target dies. A victim of Hyena Jaw Technique
+        regains one Attribute dot per day.
+        "
+
+    cunning_porcupine_defense[🌙 Cunning Porcupine<br>Defense]
+    bear_embrace_method --> cunning_porcupine_defense
+    click cunning_porcupine_defense callback "
+        Cunning Porcupine Defense<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Indefinite<br>
+        Type: Simple<br>
+        Minimum Charisma: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Bear Embrace Method<br>
+        <br>
+        Though reveling in close combat, there are times
+        Lunars seek to escape the clutches of their opponents
+        and brute strength is not enough. This Charm, which
+        can only be used when in the hybrid beastman form,
+        allows the Lunar to give his foe a deadly surprise. After
+        activating the Charm, the Lunar sprouts a number of 6-inch
+        long, razor-sharp spines. Anyone who is clinching
+        the Lunar when the spines form or who thereafter
+        clinches, holds or otherwise engages in wrestling with
+        the Lunar, risks grave injury. Those clinching or holding
+        the Lunar suffer damage equal to the Lunar's Strength +
+        5L, and the Lunar substitutes this for his normal damage
+        when he does damage in a clinch.<br>
+        Any unarmed attacks made by the Lunar while the
+        spines are extended inflict lethal damage rather than
+        bashing. Players of characters who make unarmed
+        attacks against a Lunar using the Cunning Porcupine
+        Defense must make a reflexive Dexterity + Athletics
+        roll (Difficulty 3) or else their characters suffer lethal
+        damage equal to their own Strength. Regardless, the
+        Lunar takes damage from the opponent's attack as
+        normal. The Cunning Porcupine Defense remains in
+        effect as long as the Lunar commits Essence to the
+        Charm and stays in beastman form. If the Lunar leaves
+        hybrid form or stops committing Essence, the spines
+        merge back into his body.
+        "
+
+    ossific_shard_shot[🌙 Ossific Shard<br>Shot]
+    cunning_porcupine_defense --> ossific_shard_shot
+    click ossific_shard_shot callback "
+        Ossific Shard Shot<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Manipulation: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Cunning Porcupine Defense<br>
+        <br>
+        Using this Charm, a Lunar can tear a fragment from
+        her bones and reform her muscles to launch it from her
+        body, hurling it at an opponent within a range of (her
+        Perception x 10) in yards. This attack is horrible to
+        behold, as the shard tears free of the Lunar's body in a
+        shower of blood and torn tissue, which, like the bone,
+        regenerates near-instantly. The attack is made with
+        Dexterity + Archery or Thrown, at - 1 accuracy, and it
+        inflicts (9L + extra successes) damage.
+        "
+
+    angry_rhino_charge[🌕 Angry Rhino<br>Charge]
+    body_weapon_technique --> angry_rhino_charge
+    click angry_rhino_charge callback "
+        Angry Rhino Charge<br>
+        <br>
+        Cost: 1 mote per 2 dice<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Strength: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Body Weapon Technique<br>
+        <br>
+        Rather than simply wounding an opponent, a Lunar
+        may use her strength and body mass to overbear the
+        opponent and force him into a disadvantageous position.
+        Using the Angry Rhino Charge after making a successful
+        Brawl or Martial Arts attack allows the Lunar's player to
+        purchase extra dice of damage up to the Exalt's Strength
+        Attribute. These bonus dice do not add to the damage
+        inflicted by the attack, but they do count toward deter-
+        mining knockdown and/or knockback (see Exalted, pp.
+        234-235) and also determine the difficulty of the target's
+        roll to avoid knockdown.<br>
+        For Example: Ma-Ha-Suchi, in beastman form, uses
+        the Angry Rhino Charge in his battle with the Terrestrial
+        Gavus. After Ma-Ha-Suchi successfully strikes the Dragon-
+        Blooded, 3 motes are spent to purchase six extra dice to
+        supplement the ancient Lunar's natural Strength. Gavus has
+        a combined Stamina + Resistance of 8, which Ma-Ha-
+        Suchi's damage dice exceed. Gavus' player must therefore get
+        five successes (the number of dice purchased by Ma-Ha-Suchi),
+        or the Dragon-Blood suffers knockdown.
+        "
+
+    bull_head_technique[🌙 Bull Head<br>Technique]
+    angry_rhino_charge --> bull_head_technique
+    click bull_head_technique callback "
+        Bull Head Technique<br>
+        <br>
+        Cost: 2 motes per die<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Manipulation: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Angry Rhino Charge<br>
+        <br>
+        The Lunars can grow not only tentacles, but also
+        other enhancements as well. Through the use of this
+        Charm, the Lunar reshapes his head to be like that of a
+        bull, including the bull's deadly horns, for the instant of
+        an attack. Using the Bull Head Technique, a Lunar who
+        is charging into combat (that is, who moves his full
+        movement allowance for the turn) may focus his Essence
+        to maximize damage to his opponent. After the Lunar
+        makes a successful Brawl or Martial Arts attack, his
+        player can purchase additional damage dice up to the
+        value of the Exalt's Strength Attribute. All damage from
+        the Bull Head Technique is lethal. Bonus damage is
+        applied before soak, not after.
+        "
+
+    subduing_the_honored_foe[🌕 Subduing the Honored<br>Foe]
+    body_weapon_technique --> subduing_the_honored_foe
+    click subduing_the_honored_foe callback "
+        Subduing the Honored Foe<br>
+        <br>
+        Cost: 1 mote per die<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Strength: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Body Weapon Technique<br>
+        <br>
+        Though Lunars enjoy the thrill of combat, they
+        don't always want to kill their foes. In many cases, they
+        seek simply to subdue them, as part of a ritual or demonstrative
+        duel or to claim a ransom from the defeated foe.
+        This Charm envelopes the Lunar's limbs in Essence,
+        lending his blows considerable weight but also cushioning
+        the target from the worst effects of the blow. When
+        rolling damage for an unarmed Brawl or Martial Arts
+        attack, the Lunar's player can transform a number of dice
+        up to a maximum of his character's Essence into automatic
+        successes at the cost of 1 mote per die. Attacks
+        enhanced with Subduing the Honored Foe automatically do bashing damage only.<br>
+        This Charm's effects take place immediately after
+        soak is applied, but the player must pick before he makes
+        the attack roll how many motes to spend converting dice
+        of damage into automatic successes. If the player pays to
+        convert more damage dice than he rolls, the extra
+        Essence invested is wasted. If the target remains conscious
+        after the attack but suffered more levels of bashing
+        damage than her Stamina, she is dazed, and her player
+        must make a successful reflexive Willpower roll (difficulty
+        of the Lunar's Strength) or have her character
+        spend her next action shaking off the attack's effects.
+        "
+
+    body_breaking_kata[🌙 Body Breaking<br>Kata]
+    bull_head_technique --> body_breaking_kata
+    subduing_the_honored_foe --> body_breaking_kata
+    click body_breaking_kata callback "
+        Body Breaking Kata<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Charisma: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Bull Head Technique, Subduing the Honored Foe<br>
+        <br>
+        Some Lunars employ finesse in combat, but most
+        prefer brute force, and the Body Breaking Kata reflects
+        this fact. It is not a subtle attack, but instead, employs a
+        combination of size, strength and outright aggression to
+        overwhelm an opponent. The Charm is only effective if
+        the Lunar charges into close combat with her opponent
+        - she must move half her movement allowance before
+        engaging the foe. The Lunar channels Essence through
+        her body while making a single unarmed Martial Arts or
+        Brawl attack. This Essence charge seems to cause the
+        Lunar's form to swell and take on giant proportions for an
+        instant. As far as observers are concerned, the target is
+        charged by a monstrous version of the Lunar's totem.
+        The player of the attacking Lunar should roll Dexterity
+        + Brawl or Martial Arts as normal for the attack but
+        double the number of extra successes before applying the
+        target's soak. All damage from the Body Breaking Kata is
+        lethal.
+        "
+
+    foot_confusing_buffet[🌕 Foot-Confusing<br>Buffet]
+    subduing_the_honored_foe --> foot_confusing_buffet
+    click foot_confusing_buffet callback "
+        Foot-Confusing Buffet<br>
+        <br>
+        Cost: 2 motes + 1 mote per die<br>
+        Duration: One turn<br>
+        Type: Supplemental<br>
+        Minimum Dexterity: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Subduing the Honored Foe<br>
+        <br>
+        Maintaining the initiative in combat is often as
+        important as the amount of damage inflicted on the
+        opponent. Keeping control of the direction of a fight
+        often takes precedence over inflicting injuries in the
+        short term. The Foot-Confusing Buffet allows the Lunar
+        to keep an opponent off balance, sacrificing one or more
+        damage dice from a successful Brawl or Martial Arts
+        attack in favor of an initiative penalty for the foe in the
+        following turn. The Charm surrounds the Lunar's attacking
+        limbs with a nimbus of light, creating a
+        mesmerizing series of patterns that distract the foe. The
+        Lunar must activate the Charm before making his attack,
+        paying the basic Essence cost even if the attack
+        misses. Only if the attacking Lunar gets at least one extra
+        success does the Foot-Confusing Buffet come into play.
+        The Lunar may sacrifice a number of dice of damage up
+        to his Essence or Strength score, whichever is lowest.
+        Damage dice are sacrificed before soak is applied. The
+        number of points sacrificed is applied as a penalty to the
+        target's player's initiative roll in the next turn.
+        "
+
+    door_breaking_method[🌕 Door Breaking<br>Method]
+    body_weapon_technique --> door_breaking_method
+    click door_breaking_method callback "
+        Door Breaking Method<br>
+        <br>
+        Cost: 1 per damage success<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Strength: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Body Weapon Technique<br>
+        <br>
+        By means of this Charm, a Lunar can focus his wrath
+        on an inanimate object, dealing it a devastating blow to
+        rend it into splinters. This attack is particularly effective
+        against man-made objects, but it may be used against any
+        non-living, non-magical item. When striking the object,
+        the Lunar focuses his strength and aggression into
+        the blow, as well as Essence. Every mote expended adds
+        one die of damage to a single attack by the Lunar against
+        an item. If the item is man-made, then each mote spent
+        is worth two automatic damage successes instead. The
+        Lunar's player cannot spend more motes when using this
+        Charm than the character's Strength.
+        "
+
+    hunters_eye_technique[🌑 Hunter's Eye<br>Technique]
+    body_weapon_technique --> hunters_eye_technique
+    click hunters_eye_technique callback "
+        Hunter's Eye Technique<br>
+        <br>
+        Cost: 2 motes per die<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Perception: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Body Weapon Technique<br>
+        <br>
+        Strength is only part of winning a fight. Knowing
+        where to hit the opponent to gain maximum effect is an
+        equally important consideration — perhaps more important
+        in the case of fast, agile Lunars. Using this Charm,
+        the Lunar guides a single unarmed Brawl or Martial Arts
+        blow to the enemy's weak point, circumventing his
+        armor and defenses. For every 2 motes spent, the Lunar
+        may reduce the soak rating of her opponent's armor by 1.
+        This applies to armor soak only — the target's natural
+        soak is unaffected. The attack cannot reduce the soak of
+        an opponent's armor by more than the Lunar's own
+        Dexterity or below O. The soak reduction applies only for
+        the enhanced single attack. This Charm is of instant
+        duration — if the Lunar makes multiple attacks in a turn
+        and desires to reduce the opponent's armor soak each
+        time, she must pay for each reduction separately.
+        "
+
+    armor_rending_claw_fist[🌑 Armor-Rending Claw<br>Fist]
+    door_breaking_method --> armor_rending_claw_fist
+    hunters_eye_technique --> armor_rending_claw_fist
+    click armor_rending_claw_fist callback "
+        Armor-Rending Claw Fist<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Intelligence: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Door-Breaking Method, Hunter's Eye Technique<br>
+        <br>
+        A Lunar's claws are formidable weapons, but the
+        protective effects of armor can blunt the strikes of even
+        the mightiest Exalts. By means of this Charm, a Lunar
+        can reduce the efficacy of his opponent's armor, directing
+        his attacks at the protective layers rather than
+        directly at the opponent. To do so, he transforms his
+        claws into vicious, hooked rending devices, lacking the
+        length to cause serious harm to the opponent but grant-
+        ing them sufficient strength and resilience to rend even
+        the hardest armors.<br>
+        The Lunar makes an unarmed Brawl or Martial Arts
+        attack as normal, including determining the amount of
+        raw damage before soak. The opponent may reduce the
+        attack's damage only using his armor's lethal soak rating,
+        not his Stamina or any enhancements, unless they specifically
+        reinforce the armor. Unlike a normal soak, this
+        may reduce the damage of the attack to O. Roll any
+        remaining damage dice normally, and subtract the number
+        of successes from all of the armor's soak ratings. This
+        reduction is a permanent one, reflecting the Lunar's
+        efforts to shred and rend the armor, though a skilled
+        armorer may be able to affect repairs. If the number of
+        successful damage dice exceeds the armor's soak rating,
+        the armor is destroyed (irreparably), with the excess
+        applied to the opponent (who may soak with her Stamina)
+        as health levels of lethal damage. The Armor-Rending
+        Claw Fist is not effective against armor made from the
+        Five Magical Materials.
+        "

@@ -1,0 +1,712 @@
+---
+config:
+  theme: dark
+  maxTextSize: 90000
+
+---
+flowchart TD
+
+    body_weapon_technique[🌕 Body Weapon<br>Technique]
+    click body_weapon_technique callback "
+        Body Weapon Technique<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Strength: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        A Lunar may use this Charm to enhance his unarmed-combat
+        abilities, making his blows more deadly
+        by focusing Essence into his limbs. Rather than inflicting
+        bashing damage when executing a single unarmed Brawl
+        or Martial Arts attack (not a wrestling maneuver), his
+        blow causes lethal damage.
+        "
+
+    sinuous_striking_grace[🌕 Sinuous Striking<br>Grace]
+    body_weapon_technique --> sinuous_striking_grace
+    click sinuous_striking_grace callback "
+        Sinuous Striking Grace<br>
+        <br>
+        Cost: 1 mote per + 1 initiative<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dexterity: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Body Weapon Technique<br>
+        <br>
+        The Lunar uses the Sinuous Striking Grace Charm
+        to guide his actions, allowing Essence flows to suggest the
+        likely actions of allies and enemies alike. When rolling
+        initiative, the Lunar may spend motes of Essence to
+        improve his initiative rating, 1 mote buying a +1 modifier
+        to a maximum of the Lunar's Dexterity score.
+        "
+
+    tyrant_lizard_strike[🌕 Tyrant Lizard<br>Strike]
+    sinuous_striking_grace --> tyrant_lizard_strike
+    click tyrant_lizard_strike callback "
+        Tyrant Lizard Strike<br>
+        <br>
+        Cost: 1 mote per die<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Dexterity: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Sinuous Striking Grace<br>
+        <br>
+        By means of this Charm, a Lunar can instinctively
+        perceive the flows of Essence in his target, using the
+        victim's intentions to easily guide the Exalt's blows
+        through the enemy's defenses, making the Lunar's claws
+        and teeth incredibly accurate. For each mote of Essence
+        spent on this Charm, the Lunar gains an additional
+        attack die on a single unarmed Brawl or Martial Arts
+        attack. These bonus dice may not exceed the character's
+        Dexterity.
+        "
+
+    hydra_head_attack[🌕 Hydra Head<br>Attack]
+    tyrant_lizard_strike --> hydra_head_attack
+    click hydra_head_attack callback "
+        Hydra Head Attack<br>
+        <br>
+        Cost: 3 motes per attack, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Extra action<br>
+        Minimum Dexterity: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Tyrant Lizard Strike<br>
+        <br>
+        A skilled Lunar can use Essence to enhance his
+        reactions, giving him preternatural reflexes and allowing
+        him to attack multiple times in a turn. For every 3 motes
+        of Essence spent activating this Charm, the Lunar gains
+        an additional unarmed Brawl or Martial Arts attack. A
+        Lunar can buy no more extra actions than his permanent
+        Essence, nor more than (the initiative on which he
+        activated this Charm + 3, rounded down). This normally
+        means (the character's initiative + 3), but Lunars who
+        hold their action and then invoke this Charm may lose
+        their ability to make many extra actions.
+        "
+
+    snake_body_technique[🌕 Snake Body<br>Technique]
+    sinuous_striking_grace --> snake_body_technique
+    click snake_body_technique callback "
+        Snake Body Technique<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dexterity: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Sinuous Striking Grace<br>
+        <br>
+        By utilizing the sinuous movements of a snake, the
+        Lunar can use a civilized enemy's strengths against him.
+        When attacked by a Melee or Martial Arts attack but
+        before damage is rolled, the Exalt's player can make a
+        reflexive Dexterity + Dodge roll against a difficulty equal
+        to the number of successes rolled on the attack. If the roll
+        succeeds, any damage from the attack is applied to the
+        attacker instead of the Lunar, with extra successes by the
+        Lunar increasing the number of damage dice. Even if the
+        Exalt fails to reflect the attack, Lunar's successes on the
+        Dexterity + Dodge roll still reduce the attack's successes
+        normally. The Snake Body Technique is a form of dodge
+        and cannot be used against undodgeable attacks, nor can
+        it be used to avoid counterattack-type effects.
+        "
+
+    coiled_cobra_stance[🌕 Coiled Cobra<br>Stance]
+    snake_body_technique --> coiled_cobra_stance
+    deadly_viper_strike --> coiled_cobra_stance
+    click coiled_cobra_stance callback "
+        Coiled Cobra Stance<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Variable<br>
+        Type: Supplemental<br>
+        Minimum Dexterity: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Snake Body Technique, Deadly Viper Strike<br>
+        <br>
+        By holding his body in anticipation of the opponent's
+        actions, a Lunar using this Charm can ready a devastating
+        blow against his foe, timing that blow with deadly
+        precision. The Lunar activates the Charm before rolling
+        initiative and chooses a self-inflicted initiative penalty.
+        For every point of penalty on the initiative roll, the
+        Lunar gains a bonus die to his attack roll. This bonus
+        cannot exceed the Lunar's Dexterity, counts against the
+        Exalted's Dexterity Charm dice and only applies during
+        turns when the character plans to make Brawl or Martial
+        Arts attacks. If the Lunar does not attack in the turn in
+        which the Charm is activated, the advantages of the
+        Coiled Cobra Stance are lost. If the Lunar full dodges or
+        aborts to a parry, the effects of the Charm are lost. Coiled
+        Cobra Stance cannot be used in a Combo with Charms
+        that grant extra actions. A character cannot split his dice
+        pool in a turn when he uses the Coiled Cobra Stance.<br>
+        For Example: After the first turn of combat, Kajeha
+        Lef knows she is faster than her opponent does and opts
+        to use the Coiled Cobra Stance. Kajeha is in hybrid form
+        and has a Dexterity of 6 but opts to delay her initiative
+        by only 5 points rather than risk the opponent acting
+        first. In the second turn of combat, her initiative score is
+        14 (reduced to 9), while her opponent gets a 7 total.
+        Kajeha still acts first, but her use of the Coiled Cobra
+        Stance adds 5 dice to her attack pool.
+        "
+
+    deadly_claw_blow[🌕 Deadly Claw<br>Blow]
+    body_weapon_technique --> deadly_claw_blow
+    click deadly_claw_blow callback "
+        Deadly Claw Blow<br>
+        <br>
+        Cost: 2 motes per success<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dexterity: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Body Weapon Technique<br>
+        <br>
+        This Charm allows the Lunar to harness his bestial
+        prowess to become a killing machine. He becomes instinctively
+        aware of an opponent's weak spots and how to
+        exploit them, allowing him to target his attacks to
+        maximum effect. He may spend Essence to turn his
+        Dexterity dice into automatic successes when making a
+        single unarmed Brawl or Martial Arts attack. The dice
+        converted into automatic successes are not rolled as part
+        of his dice pool but the remaining dice (including Ability
+        dice and any Attribute dice not converted to successes)
+        are rolled normally. Each Attribute die converted costs
+        2 motes of Essence. The precision of the Deadly Claw
+        Blow allows the Lunar to harm beings not wholly in the
+        material world, allowing him to target spirits even if they
+        are dematerialized.<br>
+        For Example: Swims in Shadows uses Deadly Claw
+        Blow to enhance his abilities in combat with the Fair Folk. His
+        player spends 6 motes of Swims in Shadows' Essence to
+        convert his 3 Dexterity dice into automatic successes, then
+        rolls the four dice of his Brawl Ability to see if he can increase
+        this number. He rolls 3, 4, 8 and 1, adding one additional
+        success, for a total of four successes.
+        "
+
+    claw_of_the_silver_moon[🌕 Claw of the Silver<br>Moon]
+    deadly_claw_blow --> claw_of_the_silver_moon
+    click claw_of_the_silver_moon callback "
+        Claw of the Silver Moon<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Stamina: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Deadly Claw Blow<br>
+        <br>
+        Using this technique, the Lunar temporarily trans-
+        forms his claws and fangs into moonsilver, drastically
+        improving his combat abilities. When using the Charm,
+        the Lunar may make unarmed claw attacks with his Brawl
+        or Martial Arts at Spd +6, Acc +1, Dmg +3L, Pry +1. He
+        may make unarmed bite attacks with those Abilities at
+        Spd +0, Acc + 2, Dmg +5L, Pry +0. Claws of the Silver
+        Moon can harm spirits even if they are dematerialized
+        and Charms that enhance moonsilver weapons may be
+        used in conjunction with Claws of the Silver Moon.
+        "
+
+    scimitar_claw_technique[🌙 Scimitar Claw<br>Technique]
+    claw_of_the_silver_moon --> scimitar_claw_technique
+    click scimitar_claw_technique callback "
+        Scimitar Claw Technique<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Manipulation: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Claws of the Silver Moon<br>
+        <br>
+        Focusing Essence in his claws and teeth, not only does
+        the Lunar transform his claws and teeth into moonsilver,
+        but he also enlarges and reshapes them into vicious rending
+        weapons, well capable of disemboweling an ill-prepared
+        foe. When using the Charm, the Lunar's claw attacks are
+        Spd +6, Acc +4, Dmg +5L, Pry +4. The Lunar's bite attacks
+        are Spd +3, Acc +2, Dmg +8L, Pry +0. Charms that
+        enhance moonsilver weapons may be used in conjunction
+        with the Scimitar Claw Technique. Claws created
+        with the Scimitar Claw Technique can harm dematerialized
+        spirits.
+        "
+
+    adder_fang_method[🌕 Adder Fang<br>Method]
+    claw_of_the_silver_moon --> adder_fang_method
+    click adder_fang_method callback "
+        Adder Fang Method<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Stamina: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Claws of the Silver Moon<br>
+        <br>
+        Lunars who know the Adder Fang Method can
+        enhance their attacks with venom. The Charm momentarily
+        creates poison generating glands or ducts,
+        releasing toxins whenever the Lunar successfully
+        makes an unarmed Brawl or Martial Arts bite attack.
+        In addition to the normal damage of the attack, if the
+        target takes damage, she suffers an additional number
+        of dice of lethal damage equal to the Stamina +
+        Essence of the Lunar. This damage is soaked separately
+        and does not add extra successes. However, it
+        ignores the target's armor — only Stamina and other
+        natural soak apply.
+        "
+
+    burning_saliva_attack[🌕 Burning Saliva<br>Attack]
+    adder_fang_method --> burning_saliva_attack
+    click burning_saliva_attack callback "
+        Burning Saliva Attack<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Dexterity: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Adder Fang Method<br>
+        <br>
+        Using this Charm, a Lunar channels Essence
+        into his digestive system, momentarily transforming
+        his stomach acids into a lethal weapon. He can spit
+        this corrosive phlegm at a target within 10 yards. The
+        attack uses Dexterity + Thrown or Athletics with a -
+        1 accuracy modifier. The opponent may dodge but
+        not parry. The attack inflicts 8L + extra successes.
+        The Burning Saliva Attack continues to harm the
+        opponent each turn until it is washed off or otherwise
+        removed. Scraping the acid off requires a Dexterity +
+        Athletics roll and is not a reflexive action - the
+        victim or one of his associates must use a dice action
+        to do so, though she need not roll.<br>
+        Rather than directly attacking an enemy with
+        his acid saliva, the Lunar can target the opponent's
+        weapon. The accuracy of such attacks is -2, and
+        rather than the opponent soaking the damage, her
+        weapon must do so. Its soak is equal to its damage
+        value (so a straight sword that inflicts +3L has a soak
+        of 3). Roll unsoaked damage dice normally, and every
+        two successes reduce the weapon's damage value by
+        one. If the weapon's damage reaches 0, the weapon is
+        rendered useless. The acid continues to harm the
+        weapon until it is removed, which requires a non-reflexive
+        Dexterity + Athletics action, though the player of
+        the character removing the acid need not actually roll.
+        Such an attack doesn't affect weapons made of the Five
+        Magical Materials.
+        "
+
+    cobra_eye_method[🌑 Cobra Eye<br>Method]
+    burning_saliva_attack --> cobra_eye_method
+    click cobra_eye_method callback "
+        Cobra Eye Method<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Intelligence: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Burning Saliva Attack<br>
+        <br>
+        A sufficiently skilled Lunar can adjust the lethality
+        of his acid saliva, adjusting its damage and efficacy to
+        meet specific requirements. One such alternative is to
+        reduce the damage of the attack in favor of more precise
+        targeting of the attack. A Lunar may attack as per the
+        Burning Saliva Attack (range 10 yards, accuracy - 1,
+        damage 8L + extra successes, opponent may not parry),
+        and if the attack is successful, his player rolls damage
+        normally. However, as well as inflicting health levels of
+        damage, such an attack can reduces of the target's
+        Physical Attributes (Strength, Dexterity and Stamina),
+        his Appearance or his Perception. After rolling for
+        damage, the Lunar may sacrifice a health level of
+        damage to reduce one of the target's Physical Attributes,
+        his Appearance or his Perception by one dot.
+        An Attribute cannot be reduced below 1 with this
+        Charm. An Exalt requires a week of healing to recover
+        each Attribute point lost, but such injuries are permanent
+        if inflicted on mortals.
+        "
+
+    soporific_venom_attack[🌑 Soporific Venom<br>Attack]
+    burning_saliva_attack --> soporific_venom_attack
+    click soporific_venom_attack callback "
+        Soporific Venom Attack<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Wits: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Burning Saliva Attack<br>
+        <br>
+        By adjusting the composition of his saliva, the
+        Lunar can transform the Burning Saliva Attack from
+        an agonizing assault into a means of subduing a foe.
+        The Soporific Venom Attack functions as per the
+        Burning Saliva Attack, attacking at - 1 accuracy at a
+        range of 10 yards. However, the damage it inflicts is
+        14B + extra successes. The target may be rendered
+        insensate in two ways: He may sustain sufficient bashing
+        damage to render him incapacitated, or the toxin
+        may shock him into unconsciousness. The latter may
+        happen if the number of bashing health levels inflicted
+        by a single attack after damage is rolled exceeds
+        the target's Stamina Attribute. If it does, the target's
+        player must make a reflexive Stamina + Endurance
+        roll against a difficulty equal to the Lunar's Essence. If
+        the defender succeeds, he simply takes the bashing
+        damage from the attack. Otherwise, he is immediately
+        rendered unconscious for a number of minutes equal
+        to the Lunar's Stamina + Essence.
+        "
+
+    deadly_viper_strike[🌙 Deadly Viper<br>Strike]
+    adder_fang_method --> deadly_viper_strike
+    click deadly_viper_strike callback "
+        Deadly Viper Strike<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Manipulation: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Adder Fang Method<br>
+        <br>
+        The Deadly Viper Strike allows the Lunar to create
+        and use a more toxic variant of the venom in the Adder
+        Fang Method. This Charm must be used as part of an
+        unarmed Brawl or Martial Arts attack. In addition to
+        the normal attack damage, the venom injected into the
+        target causes injury and pain, though the immediate
+        damage is less than for the Adder Fang Method toxin.
+        Instead, if the Lunar's attack was successful and does
+        damage, the victim's player must roll Stamina + Endurance
+        against a difficulty equal to the Lunar's Essence. If
+        the roll fails, the target suffers an automatic level of
+        lethal damage, and his player must roll again (at the
+        same difficulty) next turn. Success indicates that the
+        target sustains no injury, and any additional successes
+        reduce the difficulty of resisting next turn. If the difficulty
+        is reduced to 0, the poison is no longer effective.
+        A botch indicates that the target suffers two automatic
+        levels of lethal damage, and the difficulty of resisting
+        next turn increases by one.
+        "
+
+    rabid_beast_bite[🌙 Rabid Beast<br>Bite]
+    deadly_viper_strike --> rabid_beast_bite
+    click rabid_beast_bite callback "
+        Rabid Beast Bite<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Charisma: 3<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Deadly Viper Strike<br>
+        <br>
+        Fists, fangs and talons are only the most obvious
+        components of a Lunar's arsenal. Using the Rabid Beast
+        Bite, a Lunar Exalt can focus tainted traces of Essence
+        into an injury, no matter how insignificant. Any wounds
+        caused by a Brawl or Martial Arts attack supplemented
+        by Rabid Beast Bite are likely to become infected, even
+        if the attack inflicted only bashing damage.<br>
+        Players must make a roll for their characters to
+        avoid infection on any injury caused by such an
+        attack. Wounds that would normally have a chance of
+        infection (those inflicting lethal or aggravated damage)
+        increase the difficulty of the roll to avoid infection
+        by the Lunar's Essence, and rolls for the unExalted to
+        recover from the infection are also increased by the
+        Lunar's Essence. The difficulty of avoiding infection
+        from bashing damage is 1. The cost of this Charm must
+        be paid before the Lunar makes his attack roll. Using
+        the Rabid Beast Bite on another Lunar is considered
+        a sign of great disrespect.
+        "
+
+    form_destroying_touch[🌙 Form Destroying<br>Touch]
+    rabid_beast_bite --> form_destroying_touch
+    click form_destroying_touch callback "
+        Form Destroying Touch<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Charisma: 4<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Rabid Beast Bite<br>
+        <br>
+        Some Lunars regard rending an opponent's body as
+        too swift a punishment for whatever her offense has been
+        and seek to prolong the agony and distress of their
+        opponent. By means of the Form-Destroying Touch, the
+        Lunar uses his protean abilities to disrupt the body of his
+        opponent. The effects are weak at first but persist, with
+        increasing effectiveness. If the technique is successful,
+        wild mutations spring up on the victim's body, slowly
+        consuming and warping her form until nothing is left but
+        a shapeless mass.<br>
+        The Form-Destroying Touch must be activated
+        before the Lunar makes an unarmed Brawl or Martial
+        Arts attack. The Charm has no effect unless the Exalt
+        gets at least one success on his attack roll — if the attack
+        roll fails or if the target blocks or dodges the attack, the
+        Charm has no effect, and the motes and Willpower are
+        lost. However, if the attack lands, the Lunar's player
+        rolls damage dice as normal — which the target cannot
+        soak - though no actual damage is recorded on the
+        target's health levels. Instead, if the successes inflicted
+        by the attack equal or exceed the target's Stamina, the
+        Lunar has implanted part of his protean power in the
+        victim, with potentially devastating consequences. If
+        the phantom damage does not exceed the victim's
+        Stamina, the Charm dissipates with no lasting effect.<br>
+        The target of a successful Form-Destroying Touch
+        suffers no ill effects for the first day after she has been
+        attacked, though the corrupt Essence is already at
+        work. Each day after the first, anomalies begin to
+        emerge, and the target must attempt to resist the
+        corruption (roll Stamina + Endurance against a difficulty
+        equal to the Lunar's Essence). If the roll succeeds,
+        she resists ill effects for that day. If the roll fails, she
+        suffers aggravated damage; the first time this happens,
+        the damage is a single die, but it increases to two dice
+        the second time the roll fails, three the third, and so
+        forth, as the contagion continues to spread its mutations
+        and damage. These damage dice are rolled
+        normally. If the number of contagion-inflicted aggravated
+        health levels of damage exceeds the victim's
+        Essence + Stamina, the victim's body looses cohesion,
+        and she dies, transmuted into a chaotic jumble of
+        mutated organs and protoplasmic sludge.<br>
+        Form-Destroying Touch cannot be used on those
+        immune to shapeshifting (such as Lunars) or where a
+        Charm or sorcery prevents the Lunar from touching his
+        victim or shields the target from Wyld mutation. Mortal
+        medicine is powerless to cure the Form-Destroying Touch,
+        though Charms such as Bodily Regeneration Prana can
+        negate the effect of Form-Destroying Touch if they cure
+        all the aggravated damage from the character's health
+        track. Disease-curing Charms and magical remedies do
+        nothing unless they are of incredible power (the legendary
+        Panacea Pipe might cure an afflicted character, for
+        example). The notable exception is the cure-all Sweet
+        Cordial (see Exalted, p. 336, which allows the victim's
+        player a regular Stamina + Resistance roll at difficulty 1
+        to defeat the infection.
+        "
+
+    snake_head_defense[🌙 Snake Head<br>Defense]
+    deadly_viper_strike --> snake_head_defense
+    click snake_head_defense callback "
+        Snake Head Defense<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: Indefinite<br>
+        Type: Simple<br>
+        Minimum Charisma: 3<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Deadly Viper Strike<br>
+        <br>
+        Using this Charm, a Lunar can fashion part of his
+        body — usually the hair or a tail — into the form of a
+        venomous snake or snakes. If doesn't matter if the Lunar
+        has one large snake or many smaller ones, the effect is the
+        same. These snake-buds act pseudo-independently of
+        the Lunar. Though limited in reach to half the Lunar's
+        Essence in yards (rounded down), the snakes can attack
+        independently of the character. The snake or snakes
+        attack targets of the Exalt's player's choosing and act on
+        the Lunar's initiative. The snake-extensions fight with
+        half (round down, minimum 1) the Lunar's Attribute
+        and Ability scores and do Strength + 1L base damage.
+        They act once per turn but can split their dice pool
+        normally. Though lacking the raw strength of the Exalt,
+        a serpent's bite is venomous, acting in the same manner
+        as the Deadly Viper Strike (see above). However, the
+        venom is less than the Lunar's own, and the victim's
+        player need only roll Stamina + Endurance against a
+        difficulty equal to half the Lunar's Essence (rounded
+        down, minimum 1).<br>
+        A snake may be attacked independently of the
+        Lunar and has 3 health levels: -1, -2 and -4. A fourth
+        point of damage &quot;kills&quot; or disables the snake. These
+        wounds do not affect the Lunar while the snake remains
+        in existence, but if he chooses to discontinue the
+        Charm, half (round up) of any wounds suffered by the
+        character's ophidian offshoots transfer to the Exalt.
+        Damaged snakes heal at the same rate as an Exalt (not
+        as fast as the Lunar using the Charm); dead snakes do
+        not heal. While a snake remains &quot;alive,&quot; a Lunar Exalted
+        cannot be subjected to an unanticipated attack by
+        a visible foe. The snakes cannot parry or dodge, but a
+        Lunar whose snake-extensions are attacked can parry or
+        dodge the attack as if it was against the Lunar himself.
+        A Lunar cannot use this Charm more than once at a
+        time on himself.
+        "
+
+    monkey_arm_style[🌙 Monkey Arm<br>Style]
+    body_weapon_technique --> monkey_arm_style
+    click monkey_arm_style callback "
+        Monkey Arm Style<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Manipulation: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Body Weapon Technique<br>
+        <br>
+        Ordinarily, a Lunar can only attack targets within
+        arm's reach. The Monkey Arm Style allows the Lunar to surprise
+        his opponents by extending his reach by a number of yards equal to his
+        Essence. The Charm causes one or both of the Lunar's
+        arms to elongate, reshaping bone and muscle to create a
+        long, sinuous limb that, despite its snake-like appearance,
+        remains fully functional. The hand can grasp objects or targets
+        but lacks the finesse required to wield a weapon
+        effectively. The Monkey Arm Style can be used on its own to
+        extend the Lunar's reach for an instant, but it is most commonly
+        used as part of a Brawl or Martial Arts attack, allowing
+        the character to make unarmed attacks or wrestling
+        maneuvers at a distance equal to his Essence in yards.
+        "
+
+    startling_tentacle_attack[🌙 Startling Tentacle<br>Attack]
+    monkey_arm_style --> startling_tentacle_attack
+    click startling_tentacle_attack callback "
+        Startling Tentacle Attack<br>
+        <br>
+        Cost: 3 motes per attack<br>
+        Duration: Instant<br>
+        Type: Extra action<br>
+        Minimum Manipulation: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Monkey Arm Style<br>
+        <br>
+        This Charm allows the Lunar to pour Essence into one
+        of his limbs, which splits into
+        multiple, writhing tentacles. Anything held in that
+        limb is dropped, and while the Exalted's natural weaponry
+        functions as normal, the damage is always converted
+        to bashing before it is applied to the target. Each of the
+        tentacles is capable of making a separate attack at the
+        Lunar's full Dexterity + Brawl or Martial Arts dice,
+        although all must attack the same target within a
+        number of yards equal to twice the Lunar's Essence. If
+        the defender dodges, make one roll and apply it to all
+        attacks. However, parry attempts must be made against
+        each attack. The tentacles re-form into the original
+        limb after the attacks are made. The Exalted cannot
+        create more tentacles than his permanent Essence.
+        "
+
+    grasping_pseudopod_method[🌙 Grasping Pseudopod<br>Method]
+    startling_tentacle_attack --> grasping_pseudopod_method
+    click grasping_pseudopod_method callback "
+        Grasping Pseudopod Method<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Until attack ends<br>
+        Type: Supplemental<br>
+        Minimum Manipulation: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Startling Tentacle Attack<br>
+        <br>
+        Using this Charm, the Lunar shapes one of his limbs
+        into a single, powerful tentacle that allows the Lunar to
+        make clinch, hold and throw attacks out to a number of
+        yards equal to twice his Essence (per the rules on pages
+        239 and 240 of Exalted). If the Lunar's player botches his
+        attack roll or if the target gets five more successes than
+        the Lunar in any contest related to the wrestling, the
+        Lunar's player must make a reflexive Wits + Athletics
+        roll or have his character thrown toward the target and
+        suffer the effects of knockdown.
+        "
+
+    tentacle_spear_strike[🌙 Tentacle Spear<br>Strike]
+    startling_tentacle_attack --> tentacle_spear_strike
+    click tentacle_spear_strike callback "
+        Tentacle Spear Strike<br>
+        <br>
+        Cost: 4 or 5 motes per tentacle<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Manipulation: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Startling Tentacle Attack<br>
+        <br>
+        By increasing the amount of Essence he commits
+        when creating tentacles, the Lunar can strike at targets
+        further away, allowing him to make hand-to-hand at-
+        tacks at incredible range. The Lunar can make a number
+        of tentacle attacks up to his permanent Essence, and
+        each tentacle may make a separate attack at the Lunar's
+        full Dexterity + Brawl or Martial Arts. A tentacle does
+        damage as if it were a normal unarmed attack by the
+        Lunar. Each tentacle may attack the same target, or they
+        may attack different victims, but each defender must be
+        in sight and within a number of yards of the Lunar equal
+        to (the Lunar's Essence x 10). Roll each attack sepa-
+        rately, but if the target parries or dodges the attack, make
+        one roll and apply it to all attacks directed against him.
+        As a result, the Lunar's opponent may avoid some none,
+        some or all of the tentacles. The tentacles re-form into
+        the original limb immediately after the attacks are made.
+        The cost of the Charm is 4 motes per tentacle if all are
+        directed at a single target, or 5 motes per tentacle if the
+        attacks are targeted at multiple foes.
+        "
+
+    weapon_snatching_coils[🌙 Weapon Snatching<br>Coils]
+    tentacle_spear_strike --> weapon_snatching_coils
+    click weapon_snatching_coils callback "
+        Weapon Snatching Coils<br>
+        <br>
+        Cost: 4 motes per tentacle, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Manipulation: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Tentacle-Spear Strike<br>
+        <br>
+        By directing his pseudopodia at an opponent's
+        weapon, the Lunar can use the multiplicity of the
+        tentacles and their speed and reach to foil the
+        opponent's attacks. The maximum number and reach
+        of the tentacles is as per the Tentacle-Spear Strike
+        (Essence x 10 in yards, no more than Essence tentacles),
+        but rather than rolling Dexterity + Brawl, the
+        Lunar's player rolls Strength + Brawl, adding 1 die for
+        each tentacle formed. The opponent may seek to parry
+        or dodge the attack, but if the number of successes
+        remaining after defense still exceeds the target's Dexterity,
+        she is disarmed. Weapon-Snatching Coils do
+        not inflict damage on the target, and the attack cannot
+        be split between multiple foes.
+        "
