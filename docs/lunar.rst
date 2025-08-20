@@ -12,3 +12,9 @@ Unarmed Combat Charms
 
 .. mermaid:: ./mermaid/lunar/unarmed_combat_1.mmd
 .. mermaid:: ./mermaid/lunar/unarmed_combat_2.mmd
+
+
+Melee Combat Charms
+-------------------
+
+.. mermaid:: ./mermaid/lunar/melee_combat_1.mmd
