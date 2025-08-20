@@ -23,3 +23,8 @@ Ranged Combat Charms
 --------------------
 
 .. mermaid:: ./mermaid/lunar/ranged_combat_1.mmd
+
+Defensive Charms
+----------------
+
+.. mermaid:: ./mermaid/lunar/defensive_1.mmd
