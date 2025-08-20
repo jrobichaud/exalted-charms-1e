@@ -43,3 +43,8 @@ Stealth Charms
 --------------
 
 .. mermaid:: ./mermaid/lunar/stealth_1.mmd
+
+Interaction and Knowledge Charms
+--------------------------------
+
+.. mermaid:: ./mermaid/lunar/interaction_knowledge_1.mmd
