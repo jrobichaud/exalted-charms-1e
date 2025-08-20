@@ -53,3 +53,8 @@ Spirit Charms
 -------------
 
 .. mermaid:: ./mermaid/lunar/spirit_1.mmd
+
+Sorcery Charms
+--------------
+
+.. mermaid:: ./mermaid/lunar/sorcery_1.mmd
