@@ -38,3 +38,8 @@ Perception Charms
 -----------------
 
 .. mermaid:: ./mermaid/lunar/perception_1.mmd
+
+Stealth Charms
+--------------
+
+.. mermaid:: ./mermaid/lunar/stealth_1.mmd
