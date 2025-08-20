@@ -48,3 +48,8 @@ Interaction and Knowledge Charms
 --------------------------------
 
 .. mermaid:: ./mermaid/lunar/interaction_knowledge_1.mmd
+
+Spirit Charms
+-------------
+
+.. mermaid:: ./mermaid/lunar/spirit_1.mmd
