@@ -33,3 +33,8 @@ Survival and Healing Charms
 ---------------------------
 
 .. mermaid:: ./mermaid/lunar/survival_healing_1.mmd
+
+Perception Charms
+-----------------
+
+.. mermaid:: ./mermaid/lunar/perception_1.mmd
