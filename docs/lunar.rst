@@ -28,3 +28,8 @@ Defensive Charms
 ----------------
 
 .. mermaid:: ./mermaid/lunar/defensive_1.mmd
+
+Survival and Healing Charms
+---------------------------
+
+.. mermaid:: ./mermaid/lunar/survival_healing_1.mmd
