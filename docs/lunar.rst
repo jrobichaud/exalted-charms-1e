@@ -18,3 +18,8 @@ Melee Combat Charms
 -------------------
 
 .. mermaid:: ./mermaid/lunar/melee_combat_1.mmd
+
+Ranged Combat Charms
+--------------------
+
+.. mermaid:: ./mermaid/lunar/ranged_combat_1.mmd
