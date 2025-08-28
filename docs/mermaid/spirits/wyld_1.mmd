@@ -1,0 +1,72 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    subgraph Lunar
+        wyld_armor[Wyld Armor]
+        click wyld_armor callback "
+        Wyld Armor<br>
+        <br>
+        Cost: 3 motes + 2 committed motes per additional person protected<br>
+        Duration: Indefinite<br>
+        Type: Simple<br>
+        Minimum Compassion: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Sense Domain<br>
+        <br>
+        Using this Charm, the spirit can protect a number
+        of people equal to twice it's Essence from the
+        Wyld. Each person protected adds a number of dice
+        equal to the permanent Essence of the spirit protecting
+        her to any rolls to resist the effects of the Wyld
+        (minimum 1 die).
+        "
+
+        wyld_shield[Wyld Shield]
+        click wyld_shield callback "
+            Wyld Shield<br>
+            <br>
+            Cost: 5 motes, 1 Willpower<br>
+            Duration: Indefinite<br>
+            Type: Simple<br>
+            Minimum Compassion: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Wyld Armor<br>
+            <br>
+            Using this Charm, a spirit can defend a tribe or
+            other large group from the ravages of the Wyld. The
+            group must be defined in some readily understand-
+            able and limited fashion; &quot;all the people of Farseeker's
+            tribe&quot; is acceptable, as is &quot;that war party there&quot;, while
+            &quot;all of the barbarians who dwell near the Wyld&quot; is
+            not. So long as the little god maintains this blessing,
+            those who fall under the definition set will gain dice
+            equal to half the little god's permanent Essence on all
+            attempts to withstand Wyld addiction and mutation
+            (minimum bonus of one die).
+            "
+
+        wyld_barrier[Wyld Barrier]
+        click wyld_barrier callback "
+            Wyld Barrier<br>
+            <br>
+            Cost: 10 motes, 2 Willpower<br>
+            Duration: Indefinite<br>
+            Type: Simple<br>
+            Minimum Compassion: 3<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Wyld Shield<br>
+            <br>
+            Using this Charm, the spirit can protect a number
+            of people from the Wyld equal to twice her
+            Essence. The player of anyone so protected adds a
+            number of dice equal to the permanent Essence of
+            the spirit protecting him to any rolls to resist the
+            effects of the Wyld.
+            "
+    end
+
+    wyld_armor --> wyld_shield
+    wyld_shield --> wyld_barrier

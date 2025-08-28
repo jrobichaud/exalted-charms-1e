@@ -30,3 +30,7 @@ Curses
 ^^^^^^
 
 .. mermaid:: ./mermaid/spirits/valor_curses.mmd
+
+Wyld
+----
+.. mermaid:: ./mermaid/spirits/wyld_1.mmd
