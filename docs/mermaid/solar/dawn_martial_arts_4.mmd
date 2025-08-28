@@ -1,0 +1,218 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    subgraph Castebook Eclipse
+        leaping_mantis_technique["Leaping Mantis Technique"]
+        click leaping_mantis_technique callback "
+            Leaping Mantis Technique<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Martial Arts: 2<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: None<br>
+            <br>
+            The character springs into action with the speed
+            of a mantis leaping at its prey. Add the Exalted's
+            Martial Arts score in yards to the maximum distance
+            the character can leap and to the character's
+            Initiative score, provided that he leaps up or toward
+            his opponent (making this Charm of limited use in
+            an enclosed space). This Charm can only be used
+            once per turn and must be activated before initiative
+            is rolled.
+            "
+        iron_arm_block["Iron Arm Block"]
+        click iron_arm_block callback "
+            Iron Arm Block<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Martial Arts: 3<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: Leaping Mantis Technique<br>
+            <br>
+            The character imitates the defensive stance of
+            the mantis. The Exalt can add his Martial Arts score
+            to a single parry attempt, either unarmed or with a
+            martial arts weapon, and the character can parry
+            attacks that do lethal damage while unarmed.
+            "
+
+        mantis_form["Mantis Form"]
+        click mantis_form callback "
+            Mantis Form<br>
+            <br>
+            Cost: 6 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Martial Arts: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Iron-Arm Block<br>
+            <br>
+            The character adopts the stance of a mantis,
+            ready to strike or block in an instant. The character
+            adds his Martial Arts score to his Initiative and to his
+            bashing and lethal soak. He may parry lethal attacks
+            without a stunt. So long as he wields a martial arts
+            weapon using his Martial Arts score or fights
+            barehanded, he may abort to a cascading parry, which
+            may be used to block multiple attacks. The dice pool
+            of a cascading parry is reduced by 1 per successive
+            parry attempt, as per a full dodge. The character's
+            unarmed Martial Arts attacks also do lethal damage.
+            Characters cannot use more than one Martial Arts
+            Form-type Charm at a time. Activating another Form
+            Charm immediately negates the effects of the first.
+            This Charm is incompatible with the use of armor.
+            "
+
+        grasping_claw_method["Grasping Claw Method"]
+        click grasping_claw_method callback "
+            Grasping Claw Method<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Martial Arts: 4<br>
+            Minimum Essence: 5<br>
+            Prerequisite Charms: Mantis Form<br>
+            <br>
+            The character can snatch weapons away from
+            opponents in combat. The character using this Charm
+            adds his Martial Arts score to an attempt to disarm an
+            opponent in hand-to-hand combat.
+            "
+
+        grasping_mantis_defense["Grasping Mantis Defense"]
+        click grasping_mantis_defense callback "
+            Grasping Mantis Defense<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Martial Arts: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Grasping Claw Method<br>
+            <br>
+            When the character is successfully attacked, he
+            may activate this Charm and immediately attempt to
+            parry the attack with his Dexterity + Martial Arts
+            pool. If the parry is successful, the character's opponent
+            is placed in a hold using the character's net
+            successes as the extra successes on the hold attempt.
+            "
+
+        joint_locking_technique["Joint-Locking Technique"]
+        click joint_locking_technique callback "
+            Joint-Locking Technique<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: One turn or one hold<br>
+            Type: Reflexive<br>
+            Minimum Martial Arts: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Mantis Form<br>
+            <br>
+            The character can place an opponent in a hold
+            that is difficult to break. If the character places
+            someone in a hold and activates this Charm, the
+            difficulty to break the hold is increased by the
+            character's permanent Essence (so the player has a
+            number of automatic successes on the Dexterity +
+            Martial Arts roll to maintain the hold equal to his
+            character's Essence).
+            "
+
+        joint_breaking_attack["Joint-Breaking Attack"]
+        click joint_breaking_attack callback "
+            Joint-Breaking Attack<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Martial Arts: 5<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Joint-Locking Technique<br>
+            <br>
+            Make a martial arts attack roll as normal, including
+            rolling damage. However, the attack does no
+            actual damage. Rather, for every health level the
+            attack would have inflicted, the target's player is at a
+            -1 penalty to all rolls for the remainder of the scene.
+            "
+
+        flying_mantis_kick["Flying Mantis Kick"]
+        click flying_mantis_kick callback "
+            Flying Mantis Kick<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Martial Arts: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Mantis Form<br>
+            <br>
+            The Exalt leaps into the air and strikes out with a
+            devastating kick. The character's extra attack successes
+            are doubled for the purposes of determining
+            damage of an unarmed kick attack.
+            "
+
+        crushing_claw_technique["Crushing Claw Technique"]
+        click crushing_claw_technique callback "
+            Crushing Claw Technique<br>
+            <br>
+            Cost: 3 motes per turn<br>
+            Duration: Varies<br>
+            Type: Simple<br>
+            Minimum Martial Arts: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Mantis Form<br>
+            <br>
+            When the character executes a clinch attack, the
+            attack does Strength + Martial Arts + 2 lethal damage
+            rather than the usual Strength + 2 bashing damage.
+            "
+
+        unfolding_retribution_stance["Unfolding Retribution Stance"]
+        click unfolding_retribution_stance callback "
+            Unfolding Retribution Stance<br>
+            <br>
+            Cost: 6 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Martial Arts: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Grasping Mantis Defense, Joint-Breaking Attack, Flying Mantis Kick, Crushing Claw Technique
+            <br>
+            During the turn this Charm is active, the character
+            can launch an immediate Martial Arts
+            counterattack against anyone who attacks him using
+            his full Dexterity + Martial Arts dice pool. The counterattack
+            comes after the opponent's attack roll but
+            before the damage effects are applied. The Unfolding
+            Retribution Stance in no way mitigates the attack's
+            effects. A character cannot use the Unfolding Retribution
+            Stance in response to Solar Counterattack or
+            any other counterattack Charm.
+            "
+    end
+
+    leaping_mantis_technique --> iron_arm_block
+    iron_arm_block --> mantis_form
+    mantis_form --> grasping_claw_method
+    grasping_claw_method --> grasping_mantis_defense
+    mantis_form --> joint_locking_technique
+    joint_locking_technique --> joint_breaking_attack
+    mantis_form --> flying_mantis_kick
+    mantis_form --> crushing_claw_technique
+    grasping_mantis_defense --> unfolding_retribution_stance
+    joint_breaking_attack --> unfolding_retribution_stance
+    flying_mantis_kick --> unfolding_retribution_stance
+    crushing_claw_technique --> unfolding_retribution_stance

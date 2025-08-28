@@ -171,3 +171,95 @@ flowchart TD
         Charm has no long-term ill effects on the mount — the
         Exalted pays the price in Essence and his own health.
         "
+
+    subgraph Castebook Eclipse
+        soaring_spirit_steed[Soaring Spirit Steed]
+        click soaring_spirit_steed callback "
+            Soaring Spirit Steed<br>
+            <br>
+            Cost: 15 motes, 1 Willpower<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Ride: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Phantom Steed<br>
+            <br>
+            This Charm summons a horse of pure Essence,
+            much like Phantom Steed, except the Chosen's mount
+            is also capable of flying through the air at its normal
+            rate of movement, allowing its rider to traverse obstacles
+            with ease.
+            "
+
+        feathery_gallop_exercise[Feathery Gallop Exercise]
+        click feathery_gallop_exercise callback "
+            Feathery Gallop Exercise<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Ride: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Spirit-Steadying Assurances<br>
+            <br>
+            The Exalted infuses Essence into her mount, lightening
+            its steps and distributing its weight. The mount
+            leaves no tracks, even in snow or soft sand, and can
+            run across any surface - even mud, quicksand or
+            water — at its normal speed without sinking. Note
+            that the mount's hooves do still touch the surface, so
+            a mount cannot run across dangerous liquids such as
+            molten lava or acid without harm. The Chosen must
+            spend Essence for each turn the mount passes over the
+            surface, or it will sink, meaning this Charm is only
+            useful for crossing short distances.
+            "
+
+        bridge_of_clouds_technique[Bridge of Clouds Technique]
+        click bridge_of_clouds_technique callback "
+            Bridge of Clouds Technique<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Ride: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Feathery Gallop Exercise<br>
+            <br>
+            When the Chosen uses this Charm, her mount
+            can run on the empty air between two solid surfaces as
+            if there were a solid, invisible bridge there. This lets
+            the Exalt bridge gaps such as canyons and chasms,
+            allowing horse and rider to cross. The mount moves at
+            its normal speed, and the Exalted must spend Essence
+            each turn of the crossing, or gravity takes hold once
+            again, usually with regrettable results.
+            "
+
+        wind_racing_essence_infusion[Wind-Racing Essence Infusion]
+        click wind_racing_essence_infusion callback "
+            Wind-Racing Essence Infusion<br>
+            <br>
+            Cost: 5 motes, 1 Willpower<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Ride: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Steed-Sustaining Method, Flawless Partnership Meditation
+            <br>
+            This Charm infuses the Exalted's mount with
+            Essence, granting it extraordinary speed. The mount
+            can run at a maximum speed of ([it's Stamina + the
+            Exalt's Essence] x 10) miles per hour. The mount still
+            tires at the normal rate (unless also under the effects
+            of a Charm such as Flashing Thunderbolt Steed), it
+            simply moves at a greater rate of speed during that
+            time.
+            "
+    end
+
+    phantom_steed --> soaring_spirit_steed
+    spirit_steadying_assurances --> feathery_gallop_exercise
+    feathery_gallop_exercise --> bridge_of_clouds_technique
+    steed_sustaining_method --> wind_racing_essence_infusion
+    flawless_partnership_meditation --> wind_racing_essence_infusion

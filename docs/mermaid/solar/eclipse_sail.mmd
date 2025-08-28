@@ -308,3 +308,80 @@ flowchart TD
     wind_defying_course_technique --> ignore_the_winds_course_technique
     wind_defying_course_technique --> masts_unbreakable_will_prana
     storm_weathering_essence_infusion --> harden_the_hull_practice
+
+    subgraph Castebook Eclipse
+        golden_essence_sails[Golden Essence Sail]
+        click golden_essence_sails callback "
+            Golden Essence Sail<br>
+            <br>
+            Cost: 6 motes, 1 Willpower<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Sail: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Salty Dog Method<br>
+            <br>
+            The character using this Charm weaves sails out
+            of pure Essence for a ship that has no sails (or badly
+            damaged ones). The new sails are of a shimmering
+            golden cloth, as light as silk but stronger than canvas.
+            They appear on the ship's masts and furl or unfurl at
+            their creator's command. They may bear an emblem of
+            the Chosen's anima, if she wishes it. Golden Essence
+            Sails have a soak value of (the Exalt's permanent
+            Essence score + 2) for resisting attacks against the
+            ship's rigging or sails, and they do not accumulate
+            damage (they ignore any attack insufficient to damage
+            them, just like the ship itself does). See Savage Seas,
+            pages 92-93, for more information.
+            "
+
+        phantom_crew_charm[Phantom Crew Charm]
+        click phantom_crew_charm callback "
+            Phantom Crew Charm<br>
+            <br>
+            Cost: 8 motes, 1 Willpower<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Sail: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Golden Essence Sails<br>
+            <br>
+            With this Charm, the Chosen calls into being
+            phantom sailors able to crew any ship the character is
+            aboard. The phantom crew speaks only when necessary
+            and obeys all of its summoner's orders. The
+            phantom sailors will sail the ship anywhere and perform
+            any shipboard duties, although they will not
+            fight and should be treated as extras with relevant
+            Abilities equal to the Exalted's Essence. The character
+            can summon a crew sufficient for a ship of up to
+            (Essence x 40) feet in length.
+            "
+
+        glorious_solar_ship[Glorious Solar Ship]
+        click glorious_solar_ship callback "
+            Glorious Solar Ship<br>
+            <br>
+            Cost: 15 motes, 1 Willpower<br>
+            Duration: One day<br>
+            Type: Simple<br>
+            Minimum Sail: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Phantom Crew Charm<br>
+            <br>
+            The Exalted conjures an entire vessel from pure
+            Essence, capable of bearing him and a number of
+            passengers and crew. The ship has a maximum length
+            of (the character's Essence rating x 20) feet and
+            appears ready to sail, with all of the necessary equipment
+            on board. The Glorious Solar Ship has no crew;
+            it is up to the Chosen to provide one, either mortal or
+            otherwise. Other Sail Charms can be applied normally
+            to the Glorious Solar Ship.
+            "
+    end
+
+    salty_dog_method --> golden_essence_sails
+    golden_essence_sails --> phantom_crew_charm
+    phantom_crew_charm --> glorious_solar_ship
