@@ -1,0 +1,264 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    hungry_missile_technique[Hungry Missile Technique]
+    click hungry_missile_technique callback "
+        Hungry Missile Technique<br>
+        <br>
+        Cost: 1 mote per die<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Thrown: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Suffused with malevolent hunger, the character’s
+        weapon leaps from her hand and turns in flight to pursue
+        its prey. After the target declares any defense, the Abyssal
+        may activate this Charm to subtract one die per mote spent
+        from the target’s player’s defense roll against a single
+        Thrown attack the Abyssal makes. The Abyssal cannot
+        spend more motes powering this Charm than are required
+        to reduce a victim’s dice pool to his permanent Essence
+        rating. If the target has Charms or other effects that allow
+        multiple forms of defense, Hungry Missile Technique
+        applies only to the first defense.
+        "
+
+    lighting_clutch_of_the_raptor[Lighting Clutch of the Raptor]
+    hungry_missile_technique --> lighting_clutch_of_the_raptor
+    click lighting_clutch_of_the_raptor callback "
+        Lighting Clutch of the Raptor<br>
+        <br>
+        Cost: 1 mote (4 motes against area attacks)<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Thrown: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Hungry Missile Technique<br>
+        <br>
+        A character with this Charm moves with impossible
+        speed, plucking arrows and other missile weapons from the
+        air before they can hit her. The Abyssal may reflexively
+        parry any ranged attack she is aware of with her full
+        Dexterity + Thrown. If this roll leaves the attacker with no
+        successes, the Exalt has successfully caught the projectile
+        and may subsequently do with it whatever she wishes.
+        Even if the defender fails to score more successes than her
+        attacker, she still reduces the damage of the attack as
+        normal, so the Charm is not an all-or-nothing proposition.<br>
+        The speed at which the character grabs incoming
+        missiles is sufficient to douse most fires, including flames
+        set by the Solar Charm Fiery Arrow Attack. The character
+        cannot parry bolts of Essence or other purely mystical
+        projectiles unless she has a permanent Essence of 3 or
+        higher. If an Abyssal fully parries an intangible missile, it
+        disperses harmlessly against her palm.<br>
+        Lightning Clutch of the Raptor may also be used to
+        defend against ranged area-of-effect attacks such as the
+        Death of Obsidian Butterflies. This use costs 4 motes
+        instead of 1, and the character only deflects missiles
+        threatening her. Otherwise, parrying an area assault follows
+        the same rules as any other application of this Charm.
+        "
+
+    incomparable_assassin_method[Incomparable Assassin Method]
+    hungry_missile_technique --> incomparable_assassin_method
+    click incomparable_assassin_method callback "
+        Incomparable Assassin Method<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Thrown: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Hungry Missile Technique<br>
+        <br>
+        An Abyssal with this Charm instinctively knows
+        where and how to throw his weapon to deliver a fatal blow.
+        The player makes an attack roll as normal, but the damage
+        is doubled after it is rolled. However, if this not enough to
+        kill the target outright, the strike only inflicts one automatic
+        unsoakable health level of damage. As an ancillary
+        benefit, the character’s attack inflicts lethal damage (at
+        least 1L) if it didn’t already, so this attack can be used to
+        throw tiny or unconventional weapons such as dominos
+        with Range 10, Accuracy +0, Rate 3.
+        "
+
+    aid_of_ill_wind[Aid of Ill Wind]
+    click aid_of_ill_wind callback "
+        Aid of Ill Wind<br>
+        <br>
+        Cost: 2+ motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Thrown: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The Abyssal lightens her weapon as she launches it,
+        buoying its flight with a spectral gust summoned from the
+        Underworld. The weapon’s range increases by one factor
+        for every 2 motes spent. Thus, a character that spends 2
+        motes doubles her attack’s range, while one who spends 4
+        motes triples it, etc. Characters cannot spend more 2-mote
+        increments activating this Charm than they have points of
+        permanent Essence.
+        "
+
+    ivory_spine_attack[Ivory Spine Attack]
+    aid_of_ill_wind --> ivory_spine_attack
+    click ivory_spine_attack callback "
+        Ivory Spine Attack<br>
+        <br>
+        Cost: 1 mote per needle<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Thrown: 4<br>
+        Minimum Medicine: 1<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Aid of Ill Wind<br>
+        <br>
+        With a subtle flick of her wrist, an Abyssal who knows
+        this Charm may extrude a slender bone needle from her
+        palm or fingertip. The needle itself is quite small — no
+        more than the length of a child’s finger — but its paralytic
+        venom coating helps make up for its size. Needles created
+        with this Charm have a base lethal damage and Accuracy
+        equal to the character’s Essence rating and a Range in yards
+        of five times this value. Without other magic, a character
+        cannot throw more than three needles per turn. Note that
+        needles do not add Strength for determining damage,
+        although attack successes contribute normally. Needles
+        remain envenomed for one hour after creation. Players of
+        unarmored characters struck by a poisoned needle must
+        reflexively roll Stamina + Resistance against a difficulty of
+        the Abyssal’s Medicine score. Exalted victims whose players
+        fail this roll suffer levels of unsoakable lethal damage
+        equal to the deathknight’s Essence. UnExalted victims
+        whose players fail die painfully after one day unless treated
+        with curative magic. The Abyssal Exalt is naturally im-
+        mune to her own poison.
+        "
+
+    thousand_needle_torrent[Thousand Needle Torrent]
+    ivory_spine_attack --> thousand_needle_torrent
+    click thousand_needle_torrent callback "
+        Thousand Needle Torrent<br>
+        <br>
+        Cost: 12 motes, 1 Willpower, 1 health level<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Thrown: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Ivory Spine Attack<br>
+        <br>
+        The character channels Essence through her entire
+        skeleton, growing hundreds of Essence-laden bone needles
+        similar to those produced with Ivory Spine Attack. Within
+        seconds, the needles tear through her skin at high velocity,
+        saturating the immediate area with razor-sharp spikes.
+        Everyone within five yards of the Exalt suffers lethal
+        damage (soaked normally) equal to the Abyssal’s Stamina
+        + Thrown + Essence.<br>
+        This damage is reduced by one die for every yard
+        further out, so victims six yards away suffer (Stamina
+        + Thrown + Essence - 1)L, etc. This damage cannot be
+        dodged or blocked without a stunt or Charm. Successes
+        on dodge or block attempts reduce the damage
+        by 1L per success. Needles created with this Charm
+        disintegrate seconds after their explosive flight. Armored
+        characters may not use this Charm, as their
+        armor blunts the explosion.
+        "
+
+    burrowing_bone_maggot[Burrowing Bone Maggot]
+    ivory_spine_attack --> burrowing_bone_maggot
+    click burrowing_bone_maggot callback "
+        Burrowing Bone Maggot<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: Varies<br>
+        Type: Simple<br>
+        Minimum Thrown: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Ivory Spine Attack<br>
+        <br>
+        With this Charm, an Abyssal may fling a burrowing
+        splinter of gleaming bone at his target. Upon striking a
+        living victim, the spine rapidly burrows into her body and
+        begins its painful journey to her heart. The needle has the
+        same statistics as one created with Ivory Spine Attack,
+        although it is not poisonous. Rather, if it successfully hits
+        a victim, it begins inflicting one die of unsoakable lethal
+        damage each minute. This damage continues until the
+        victim dies or the Abyssal wills the needle to temporarily
+        stop. The Abyssal can later will the needle to resume its
+        path at any time. The spine itself remains in existence as
+        long as the Abyssal leaves Essence committed to it or until
+        its victim dies. Skilled doctors can sometimes remove a
+        Burrowing Bone Maggot, but the Dexterity + Medicine
+        roll for such surgery has a minimum difficulty of 4 and
+        requires a sharp knife and the surgeon’s undivided dice
+        action for 10 turns (half a minute).
+        "
+
+    pitiless_scything_razor[Pitiless Scything Razor]
+    incomparable_assassin_method --> pitiless_scything_razor
+    aid_of_ill_wind --> pitiless_scything_razor
+    click pitiless_scything_razor callback "
+        Pitiless Scything Razor<br>
+        <br>
+        Cost: 7 motes<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Thrown: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms:Incomparable Assassin Method, Aid of Ill Wind<br>
+        <br>
+        A thrown weapon enchanted with this Charm be-
+        comes an extension of its owner’s malice, arcing and
+        ricocheting from one target to the next like a swooping
+        bird of prey. The weapon makes a number of separate
+        attacks equal to the character’s Thrown score. Each
+        attack is made at the Abyssal’s full dice pool, with no
+        subtractions for multiple actions. If an attack misses, the
+        weapon simply moves on to its next target. However, if
+        any roll botches, the weapon strikes an unintended
+        victim and falls to the ground. Otherwise, the weapon
+        faithfully returns to its master’s hand at the end of the
+        turn. All targets of Pitiless Scything Razor must be in
+        range when the character first throws the weapon, and no
+        target may be hit more than once with a given weapon
+        during a single use of this Charm.
+        "
+
+    ravening_crimson_chakram[Ravening Crimson Chakram]
+    pitiless_scything_razor --> ravening_crimson_chakram
+    click ravening_crimson_chakram callback "
+        Ravening Crimson Chakram<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Thrown: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Pitiless Scything Razor<br>
+        <br>
+        Imbued with a measure of its master’s bloodlust, a
+        weapon enchanted with this Charm leaps from its master’s
+        hand to slake itself on the life energy of its prey. Ravening
+        Crimson Chakram duplicates the effects of Pitiless Scything
+        Razor with two key differences: First, the thrown weapon
+        can attack the same target more than once. Second, the
+        weapon actually feeds when it hits, absorbing 1 mote of
+        Essence for every health level of damage inflicted after soak.
+        If the Abyssal’s player does not botch any attack rolls, the
+        deathknight gains all harvested motes when he recovers his
+        weapon at the end of the turn. Soulsteel throwing weapons
+        also drain motes as normal for each attack.
+        "

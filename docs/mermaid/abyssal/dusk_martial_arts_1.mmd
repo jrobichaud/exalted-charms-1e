@@ -1,0 +1,285 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    essence_discerning_glance[Essence Discerning Glance]
+    click essence_discerning_glance callback "
+        Essence Discerning Glance<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows the character to attune his vision
+        to the flow of energy through living creatures, spirits and
+        other entities with a permanent Essence rating. Such
+        beings appear overlaid with a fine tracing of red veins that
+        glow in direct proportion to the strength of their life force.
+        While under the effects of this Charm, the character can
+        perceive incorporeal spirits as though they had manifested,
+        although they remain invisible to others.
+        Additionally, the character may scrutinize a target’s aura
+        as a simple action by spending 1 mote and his player rolling
+        Perception + Martial Arts. Each success on this roll gauges
+        one of the target’s following Traits as decided by the
+        observer’s player: health levels remaining, permanent Essence
+        rating or total current Essence pool. This Charm
+        cannot discern the nature of a magical being, only its
+        overall power. Thus, characters cannot determine the type
+        or caste of an Exalted or differentiate between Personal
+        and Peripheral Essence without other magic.
+        "
+
+    shrouded_claw_attack[Shrouded Claw Attack]
+    essence_discerning_glance --> shrouded_claw_attack
+    click shrouded_claw_attack callback "
+        Shrouded Claw Attack<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Martial Arts: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Essence Discerning Glance<br>
+        <br>
+        The character suffuses her hands with the spectral
+        Essence of the Underworld, causing them to flicker like
+        the corpus of a ghost. As a result, players of characters
+        attempting to dodge or parry blows enhanced with this
+        Charm roll only half the character’s normal dice pool,
+        rounded down. In addition, such attacks make no noise,
+        even from impact. The Essence to power this Charm must
+        be spent prior to making the attack roll. This Charm is not
+        compatible with the use of weapons.
+        "
+
+    hungry_ghost_form[Hungry Ghost Form]
+    shrouded_claw_attack --> hungry_ghost_form
+    click hungry_ghost_form callback "
+        Hungry Ghost Form<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Shrouded Claw Attack<br>
+        <br>
+        The Exalted takes on the visage and attitude of a
+        ravening shade, his pallid flesh growing cold and faintly
+        translucent as he coils to lunge. For the rest of the scene,
+        the character inflicts lethal damage with all hand-to-hand
+        attacks. Additionally, he regains 1 mote of Essence for
+        every health level of damage inflicted against animate
+        targets (living creatures, spirits, undead, etc.). Lastly, the
+        character may reflexively spend 3 motes per attack to
+        strike dematerialized spirits, although this Charm provides
+        no ability to perceive such beings. Spirits slain by this
+        Charm eventually regenerate unless other magic is employed,
+        but this process takes time and is extremely painful.
+        Characters cannot use more than one Martial Arts Form-type
+        Charm at a time. This Charm is incompatible with
+        the use of armor.
+        "
+
+    power_reaping_prana[Power Reaping Prana]
+    hungry_ghost_form --> power_reaping_prana
+    click power_reaping_prana callback "
+        Power Reaping Prana<br>
+        <br>
+        Cost: 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Hungry Ghost Form<br>
+        <br>
+        Executing a series of quick slashes in the air, the Exalt
+        reaches forth her anima to siphon up expended Essence as
+        it flows from her enemies. In order to use this Charm, the
+        character must already have Essence Discerning Glance
+        active and her target must be within 10 yards when
+        spending Essence to power an effect. For the purposes of
+        this Charm, the total Essence cost of all Charms in a
+        Combo is considered one effect. The character’s player
+        rolls Perception + Martial Arts; each success allows the
+        Exalt to regain 2 motes of Essence. The character may not
+        gain more Essence from a single effect than the total motes
+        spent powering it, so a character that achieves three
+        successes draining a Charm costing 4 motes only gains 4
+        motes rather than 6. Use of this Charm does not in any way
+        disrupt the effect being drained. At the end of the turn, all
+        remaining motes acquired via this Charm in excess of the
+        character’s permanent Essence dissipate. This limit ap-
+        plies regardless of how many times this Charm is activated
+        in a turn. Power Reaping Prana is explicitly permitted to
+        be part of a Combo with Charms of other Abilities.
+        "
+
+    charm_smothering_technique[Charm Smothering Technique]
+    power_reaping_prana --> charm_smothering_technique
+    click charm_smothering_technique callback "
+        Charm Smothering Technique<br>
+        <br>
+        Cost: 1+ motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Power Reaping Prana<br>
+        <br>
+        Lashing out with a soul-numbing tendril of power, the
+        Exalt stifles her enemy’s magic before it even takes form.
+        Charms aborted in this fashion manifest as a burst of dimly
+        glowing sparks that do not contribute to the victim’s anima
+        banner. Abyssal characters must have Essence Discerning
+        Glance active in order to perceive the use of Charms before
+        they take effect, although the deathknights do not know
+        which Charms are being used unless their players make a
+        successful reflexive Intelligence + Occult roll (difficulty 2).<br>
+        Similarly, Charm Smothering Technique can only
+        counter Charms activated within 10 yards of the Exalt.
+        Targets of this Charm may immediately spend a number of
+        additional motes equal to the Essence invested by the
+        Abyssal. If they cannot or do not pay this surcharge, their
+        Charms fail, and all costs spent on the stillborn magic are
+        lost. If the target pays the surcharge, the Charm takes effect
+        normally. Charm Smothering Technique can only counter
+        singular Charms — Combos, spells, Fair Folk glamour and
+        other forms of magic cannot be smothered. Characters
+        cannot spend more motes on this Charm than their Wits
+        + Martial Arts, nor can they use Power Reaping Prana to
+        draw energy from smothered Charms.
+        "
+
+    consuming_entropy_strike[Consuming Entropy Strike]
+    hungry_ghost_form --> consuming_entropy_strike
+    click consuming_entropy_strike callback "
+        Consuming Entropy Strike<br>
+        <br>
+        Cost: 1 mote per 2L<br>
+        Duration: Instant<br>
+        Type: Supplementary<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Hungry Ghost Form<br>
+        <br>
+        The character brings to bear the ravaging power of
+        Oblivion in a crackling nimbus around her hand. In
+        addition to inflicting lethal damage, the character’s attack
+        reduces the victim’s soak by 2L per mote spent. A target’s
+        soak cannot be reduced below zero. This reduced soak only
+        applies to resisting the this single attack and returns to
+        normal immediately thereafter. Weakening non-magical
+        armor with this Charm leaves a fine layer of rust or rot at
+        the point of impact, although this decay is too minor to
+        actually damage the armor.
+        "
+
+    blood_freezing_technique[Blood Freezing Technique]
+    consuming_entropy_strike --> blood_freezing_technique
+    click blood_freezing_technique callback "
+        Blood Freezing Technique<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplementary<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Consuming Entropy Strike<br>
+        <br>
+        The character’s fingers tighten in rigid claws, and his
+        skin becomes numbingly cold to the touch. In addition to
+        inflicting lethal damage, his attack drains warmth on
+        impact. If the attack inflicts damage, the target loses one
+        dot of Dexterity. Recalculate the victim’s initiative accordingly
+        and apply this new rating immediately. Characters
+        who have not yet acted on the turn in which they are
+        numbed have their actions delayed until their new initiative
+        total. Lost Dexterity returns at the end of the scene (or
+        in 10 to 15 minutes in the case of long scenes). Characters
+        reduced to zero Dexterity are paralyzed and can take no
+        physical action, although they may still think clearly to the
+        degree allowed by their wound penalties and employ
+        Charms that do not require movement. Blood Freezing
+        Technique has no effect on beings immune to cold, including
+        most undead and automata.
+        "
+
+    unnatural_shambling_deftness[Unnatural Shambling Deftness]
+    hungry_ghost_form --> unnatural_shambling_deftness
+    click unnatural_shambling_deftness callback "
+        Unnatural Shambling Deftness<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Hungry Ghost Form<br>
+        <br>
+        The character’s motions take on the unsettling jerkiness
+        of the walking dead as she wavers between impossible
+        bursts of speed and total stillness. The character may take
+        a total number of extra actions equal to her permanent
+        Essence. These actions can be used for any combat-related
+        tasks, subject to Storyteller approval. The character can-
+        not split her dice pool on the same turn she employs this
+        Charm. This Charm is incompatible with the use of armor.
+        "
+
+    lunging_phantom_method[Lunging Phantom Method]
+    unnatural_shambling_deftness --> lunging_phantom_method
+    click lunging_phantom_method callback "
+        Lunging Phantom Method<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Unnatural Shambling Deftness<br>
+        <br>
+        The Abyssal rushes forward, twisting and dematerializing
+        as he pounces so that he passes through his enemy
+        and rematerializes behind her. The subsequent attack does
+        no more damage than usual, but it gains all of the benefits
+        of attacking from behind (see Exalted, p. 238). This
+        Charm is incompatible with the use of armor.
+        "
+
+    soul_flaying_strike[Soul-Flaying Strike]
+    charm_smothering_technique --> soul_flaying_strike
+    blood_freezing_technique --> soul_flaying_strike
+    lunging_phantom_method --> soul_flaying_strike
+    click soul_flaying_strike callback "
+        Soul-Flaying Strike<br>
+        <br>
+        Cost: 10 motes, 1 Willpower, 1 health level<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms:Charm Smothering Technique, Blood Freezing Technique, Lunging Phantom Method<br>
+        <br>
+        The deathknight delivers a powerful open-handed
+        blow, Essence crackling around his clawed fingers in moaning
+        arcs. The character makes the attack as normal. If the
+        strike hits, roll the Abyssal’s permanent Essence against
+        the permanent Essence of the victim. If the Exalt wins, the
+        victim suffers unsoakable aggravated damage equal to the
+        deathknight’s Martial Arts score (damage dice are rolled
+        normally). This damage is in addition to any damage
+        inflicted by the actual blow. Victims slain by this Charm
+        arise as hungry ghosts upon the next sunset. Such ghosts
+        have the usual statistics for their kind (see p. 127) but are
+        never extras, and they obey the Abyssal to the best of their
+        limited intelligence. Spirits and Fair Folk slain with this
+        Charm are annihilated utterly and evaporate on the spot.
+        This Charm is incompatible with the use of armor.
+        "

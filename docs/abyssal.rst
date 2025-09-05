@@ -6,6 +6,7 @@ Dusk Caste
 
 Archery
 ^^^^^^^
+.. mermaid:: ./mermaid/abyssal/dusk_archery_1.mmd
 
 Brawl
 ^^^^^
@@ -13,13 +14,15 @@ Brawl
 
 Martial Arts
 ^^^^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/dusk_martial_arts_1.mmd
 
 Melee
 ^^^^^
+.. mermaid:: ./mermaid/abyssal/dusk_melee_1.mmd
 
 Thrown
 ^^^^^^
-
+.. mermaid:: ./mermaid/abyssal/dusk_thrown_1.mmd
 
 Midnight Caste
 ------------
