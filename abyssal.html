@@ -1,0 +1,3347 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Abyssal Charms &#8212; Exalted 1e Charms 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/groundwork.css?v=594d7a89" />
+    <link rel="stylesheet" type="text/css" href="_static/css/mermaid.css?v=389bd0da" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Alchemical Charms" href="alchemical.html" />
+    <link rel="prev" title="Sidereals Charms" href="sidereals.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="alchemical.html" title="Alchemical Charms"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="sidereals.html" title="Sidereals Charms"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Exalted 1e Charms 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Abyssal Charms</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="abyssal-charms">
+<h1>Abyssal Charms<a class="headerlink" href="#abyssal-charms" title="Link to this heading">¶</a></h1>
+<section id="dusk-caste">
+<h2>Dusk Caste<a class="headerlink" href="#dusk-caste" title="Link to this heading">¶</a></h2>
+<section id="archery">
+<h3>Archery<a class="headerlink" href="#archery" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    bloodthirsty_arrow[Bloodthirsty Arrow]
+    click bloodthirsty_arrow callback &quot;
+        Bloodthirsty Arrow&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The character extends a wisp of Oblivion through his
+        bow, filling his arrow with a thirst for blood and death. The
+        shaft eagerly adjusts its course to compensate for any
+        evasive action. For every mote of Essence the Abyssal
+        spends, he may either reduce the dice pool of his target’s
+        first defensive action by one die or add one die to the
+        damage of an attack against a living target. This Charm
+        cannot reduce a character’s dice pool lower than her
+        Essence score, nor can it add more damage than the
+        activating Abyssal’s permanent Essence. The Exalt can
+        use both effects of this Charm at the same time, provided
+        he can afford the Essence expenditure.
+        &quot;
+
+    twisting_spiteful_shaft[Twisting Spiteful Shaft]
+    bloodthirsty_arrow --&gt; twisting_spiteful_shaft
+    click twisting_spiteful_shaft callback &quot;
+        Twisting Spiteful Shaft&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Bloodthirsty Arrow&lt;br&gt;
+        &lt;br&gt;
+        Empowered with rage and seething Essence, the
+        Abyssal’s arrow twists cruelly within its target to inflict
+        horrible rending wounds. Even after impact, it continues
+        to bore deeper into the flesh until forcibly removed.
+        Arrows enchanted with this Charm add the character’s
+        permanent Essence to their base damage. In addition, if
+        the arrow inflicts damage, the head continues boring into
+        the target, inflicting its normal damage modifier at the
+        beginning of each subsequent turn until pulled free, for a
+        maximum number of turns equal to the firing character’s
+        permanent Essence.&lt;br&gt;
+        This damage cannot be lower than one die. Thus, a
+        standard broadhead arrow inflicts 2L each turn, a frog
+        crotch 4L and a target arrow 1L. Damage inflicted by a
+        boring arrow can only be soaked with Stamina and other
+        natural soak. Removing an arrow requires a successful
+        Strength + Athletics roll against a difficulty equal to the
+        permanent Essence of the firing character. This difficulty
+        can never rise above 5. Once a victim dies or the arrow has
+        been pulled free, its magic immediately fades. Only arrows
+        that naturally inflict lethal damage can be enchanted with
+        this Charm.
+        &quot;
+
+    hundred_paces_bite[Hundred Paces Bite]
+    twisting_spiteful_shaft --&gt; hundred_paces_bite
+    click hundred_paces_bite callback &quot;
+        Hundred Paces Bite&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Twisting Spiteful Shaft&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal’s arrow becomes a
+        conduit for his life-draining anima. The Exalt regains one
+        mote of Essence for every health level of damage his arrow
+        inflicts on a living target. If this Charm is placed in a
+        Combo with Twisting Spiteful Shaft, the Essence cost
+        increases to 3 motes, but the arrow continues to absorb
+        Essence as long as it burrows.
+        &quot;
+
+    pulse_of_the_prey[Pulse of the Prey]
+    bloodthirsty_arrow --&gt; pulse_of_the_prey
+    click pulse_of_the_prey callback &quot;
+        Pulse of the Prey&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes + special&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Archery: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Bloodthirsty Arrow&lt;br&gt;
+        &lt;br&gt;
+        The character’s eyes glint with power as he attunes his
+        gaze to the glow of Essence in his victim. For 3 motes, the
+        Exalt may make a single Archery attack without penalty
+        for visual conditions, although other environmental fac-
+        tors may interfere with his accuracy. For every additional
+        mote spent, the character may also add one die to his
+        Archery attack roll, although he cannot add more dice
+        than his target’s Essence score. This Charm does not aid in
+        targeting inanimate objects.
+        &quot;
+
+    flawless_archer_discipline[Flawless Archer Discipline]
+    pulse_of_the_prey --&gt; flawless_archer_discipline
+    click flawless_archer_discipline callback &quot;
+        Flawless Archer Discipline&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Pulse of the Prey&lt;br&gt;
+        &lt;br&gt;
+        Guided by the grim certainty of death, the Abyssal
+        blocks out all distractions. From the time he draws his
+        arrow to the moment of release, the deathknight perceives
+        and knows nothing but his target and his cold desire to end
+        its existence. The player still rolls an attack as normal, but
+        successes only matter for purposes of damage. Even in the
+        case of a botch, he still hits the target, inflicting the arrow’s
+        base damage. Although this Charm permits feats of impossible
+        accuracy, such as cutting ropes or picking off objects
+        at the maximum range of the bow, it does not allow called
+        shots to bypass armor.
+        &quot;
+
+    withering_feathered_maelstrom[Withering Feathered Maelstrom]
+    flawless_archer_discipline --&gt; withering_feathered_maelstrom
+    click withering_feathered_maelstrom callback &quot;
+        Withering Feathered Maelstrom&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Archery: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Flawless Archer Discipline&lt;br&gt;
+        &lt;br&gt;
+        Her arms and fingers a flickering blur of motion, an
+        Abyssal with this Charm may empty her entire quiver
+        before her opponents have time to register surprise. So
+        long as the character hits her intended target, she may
+        make another attack at her full Archery dice pool. The
+        character must concentrate all her attacks on one target.
+        This Charm ends when the character exhausts her ammunition
+        or when she has done damage a number of times
+        equal to her Archery score.
+        &quot;
+
+    iron_sleet_attack[Iron Sleet Attack]
+    click iron_sleet_attack callback &quot;
+        Iron Sleet Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Infused with the chill of the Void, the character’s
+        arrow freezes in flight and trails wisps of glowing frost. This
+        supernatural cold adds the character’s Essence score to the
+        arrow’s damage, as well as inflicting debilitating frostbite.
+        Victims of Iron Sleet Attack lose one dot of Dexterity
+        every time the Iron Sleet Attack successfully does damage
+        to them. Characters reduced to zero Dexterity can only
+        huddle in misery, assuming they can move at all. Frostbitten
+        characters regain lost Dexterity at the rate of one dot
+        per hour. This Charm has no effect on the undead or on
+        other beings immune to extreme cold.
+        &quot;
+
+    relic_arrow_method[Relic Arrow Method]
+    iron_sleet_attack --&gt; relic_arrow_method
+    click relic_arrow_method callback &quot;
+        Relic Arrow Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per arrow&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Archery: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Iron Sleet Attack&lt;br&gt;
+        &lt;br&gt;
+        The character draws his bow, and a savagely barbed
+        shaft materializes under his touch. Arrows created with
+        this Charm have normal statistics for their type of ammunition
+        but shimmer like spun glass and evaporate moments
+        after impact.
+        &quot;
+
+    splinter_of_the_void[Splinter of the Void]
+    relic_arrow_method --&gt; splinter_of_the_void
+    click splinter_of_the_void callback &quot;
+        Splinter of the Void&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2L&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Archery: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Relic Arrow Method&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal draws a bolt of crackling Oblivion across
+        his bow. This bolt is fired as a normal arrow, but inflicts a
+        base damage of 2L for every mote of Essence spent. The
+        character’s bow does not add to this total. Against Fair
+        Folk, mutants and other creatures of the Wyld, the necrotic
+        energy inflicts aggravated damage. Characters killed
+        by this Charm disintegrate in a shrieking flash of barrow-
+        flame and leave no ghosts. Oblivion bolts do not suffer
+        penalties for distance or wind, and have a maximum range
+        of (the archer’s permanent Essence x 100) yards. Characters
+        cannot spend more Essence powering this Charm than
+        their Archery score. Splinter of the Void is incompatible
+        with arrow-enhancing Charms.
+        &quot;
+
+    exquisite_relic_bow[Exquisite Relic Bow]
+    relic_arrow_method --&gt; exquisite_relic_bow
+    click exquisite_relic_bow callback &quot;
+        Exquisite Relic Bow&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Archery: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Relic Arrow Method&lt;br&gt;
+        &lt;br&gt;
+        Sculpting his anima with a thought, the Abyssal
+        summons a bow of calcified Essence and memory into her
+        hands. This bow has an Accuracy equal to the character’s
+        Essence but otherwise has the same statistics as a composite
+        bow fitted to its creator’s Strength. Despite their
+        common Traits, each Abyssal’s bow is a unique expression
+        of her soul — no two are exactly alike. Exquisite Relic Bow
+        does not manifest with ammunition, so characters without
+        arrows must employ Relic Arrow Method.
+        &quot;
+
+    piercing_ghost_barb[Piercing Ghost Barb]
+    pulse_of_the_prey --&gt; piercing_ghost_barb
+    splinter_of_the_void --&gt; piercing_ghost_barb
+    click piercing_ghost_barb callback &quot;
+        Piercing Ghost Barb&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Archery: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Pulse of the Prey, Splinter of the Void&lt;br&gt;
+        &lt;br&gt;
+        As with Relic Arrow Method, the Exalt summons a
+        shaft of pure Essence. This translucent arrow glows softly
+        and moans as it flies. The shaft is fired like a normal arrow,
+        but dematerializes as it leaves the bow. The arrow remains
+        visible but incorporeal, capable of passing through solid
+        matter without a trace. The arrow only rematerializes if it
+        intersects a living being in its path. Since the bolt bypasses
+        walls and armor, victims can only soak the attack with
+        their Stamina and other natural soak. Trees and other
+        living barriers provide cover normally, as does armor that
+        is somehow alive, such as a perronele (see Games of
+        Divinity, p. 119-120). This Charm also allows the character
+        to hit dematerialized spirits, although it does not kill
+        them permanently. Any incorporeal spirit struck by a
+        Piercing Ghost Barb manifests to all onlookers for the rest
+        of the scene as a luminous but intangible apparition.
+        &quot;
+
+    </pre></section>
+<section id="brawl">
+<h3>Brawl<a class="headerlink" href="#brawl" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    withered_touch[Withered Touch]
+    click withered_touch callback &quot;
+        Withered Touch&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite: None&lt;br&gt;
+        &lt;br&gt;
+        The Exalted focuses the Essence of the Underworld
+        into his hands. Any attacks the character makes without
+        a weapon that turn cause lethal rather than bashing
+        damage. However, this Charm only works against bare or
+        cloth-covered flesh. Characters in metal armor are im-
+        mune to this Charm. Abyssals who use this Charm often
+        Combo it with the Rust Charm.
+        &quot;
+
+    dead_mans_grasp[Dead Man's Grasp]
+    click dead_mans_grasp callback &quot;
+        Dead Man's Grasp&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per turn&lt;br&gt;
+        Duration: Until released&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Brawl: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal seizes his opponent and crushes her with
+        the unnatural strength of the risen dead. The character
+        makes a clinch attack as normal (see Exalted p. 239), but
+        he inflicts lethal damage with his initial grab. So long as
+        the Exalt continues to reflexively activate the Charm at
+        the beginning of the turn, his clinch inflicts lethal damage
+        rather than bashing. In addition, the deathknight’s damage
+        pool increases by +1L for every full turn the Charm is
+        maintained. This bonus is cumulative over successive
+        turns, but resets to zero if the Abyssal stops spending
+        Essence or relaxes his grip for even a moment.
+        &quot;
+
+    rapacious_lamprey_technique[Rapacious Lamprey Technique]
+    dead_mans_grasp --&gt; rapacious_lamprey_technique
+    click rapacious_lamprey_technique callback &quot;
+        Rapacious Lamprey Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Brawl: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Dead Man’s Grasp&lt;br&gt;
+        &lt;br&gt;
+        Fueling his hunger with Essence, an Abyssal with this
+        Charm can drain blood far more quickly. The Exalt can
+        drink up to his Essence x 3 health levels in a turn, rather
+        than the usual one. Blood loss afflicts the target normally.
+        This Charm does not accelerate the rate at which the
+        Abyssal can devour flesh.
+        &quot;
+
+    inescapable_iron_grip[Inescapable Iron Grip]
+    dead_mans_grasp --&gt; inescapable_iron_grip
+    click inescapable_iron_grip callback &quot;
+        Inescapable Iron Grip&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Until released&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Dead Man’s Grasp&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal can grab a victim and
+        choke him to death without making a sound. The player
+        rolls for a standard hold attempt (see Exalted, p. 240),
+        adding her character’s Essence score in automatic successes
+        to the initial roll to grab. As usual, this attack inflicts
+        no damage. If the Exalt succeeds, she tightly — and silently
+        — seizes her victim by the throat. He cannot breathe at all,
+        either to inhale or to scream a warning, although he may
+        still try to escape on his next action. However, the victim
+        cumulatively loses one die from his Strength + Brawl/
+        Martial Arts dice pool for every successive turn the hold is
+        maintained. Once a victim has no dice remaining, he can
+        no longer struggle. Incapacitated characters caught in an
+        Inescapable Iron Grip suffocate as though drowning (see
+        Exalted, p. 243). Players of victims may roll Stamina +
+        Resistance against a difficulty of the Abyssal’s permanent
+        Essence to hold their breath longer. Victims begin breathing
+        immediately if released before death.
+        &quot;
+
+    owl_seizes_mouse[Owl Seizes Mouse]
+    inescapable_iron_grip --&gt; owl_seizes_mouse
+    click owl_seizes_mouse callback &quot;
+        Owl Seizes Mouse&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Inescapable Iron Grip&lt;br&gt;
+        &lt;br&gt;
+        The character surges forward in a burst of speed,
+        allowing him to grab and pin an enemy before she can
+        respond. The Exalt makes a normal clinch or hold attack,
+        but his target cannot parry or dodge. Clinches enhanced by
+        this Charm do no damage, but in the case of both clinches
+        and holds, the characters immediately have a reflexive
+        contest to maintain the clinch or hold as though it was a
+        subsequent round. If the defender wins, she retains her
+        action for the round, but the actual clinch attack cannot
+        be parried or dodged. As an added benefit, the character
+        may move up to his normal sprinting distance without
+        penalty on the turn he uses this Charm, to allow the
+        character to clinch opponents ordinarily beyond his reach.
+        The character need not make this extended action.
+        &quot;
+
+    ravaging_strike[Ravaging Strike]
+    click ravaging_strike callback &quot;
+        Ravaging Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal channels wrath and Essence through his
+        hands to deliver terrible blows. The character makes his
+        attack normally but counts extra successes twice for the
+        purposes of determining damage. This Charm can be
+        activated after the attack roll.
+        &quot;
+
+    scouring_erosion_method[Scouring Erosion Method]
+    ravaging_strike --&gt; scouring_erosion_method
+    click scouring_erosion_method callback &quot;
+        Scouring Erosion Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 1 or 2 soak reduction&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Ravaging Strike&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal concentrates his anima into a roiling
+        corona of Oblivion. His attack inflicts normal damage,
+        but its withering aura of entropy reduces the target’s
+        soak by 1 point for every mote spent, or 2 points per
+        mote in the case of inanimate objects. This reduction
+        only applies for resisting the character’s one attack.
+        Animate targets cannot have their soak reduced below
+        their permanent Essence.
+        &quot;
+
+    lashing_tempest_attack[Lashing Tempest Attack]
+    ravaging_strike --&gt; lashing_tempest_attack
+    click lashing_tempest_attack callback &quot;
+        Lashing Tempest Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2 yards&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Brawl: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Ravaging Strike&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, the character envelops her hand in
+        a cyclone of howling shadows. With a normal strike or
+        even a gentle touch, the Abyssal blasts her opponent back
+        two yards for every mote spent. If the victim strikes a solid
+        object, he suffers one bashing health level of damage for
+        every yard he would have otherwise continued to fly. This
+        damage is bashing unless the target collides with spikes or
+        other lethal obstructions. Characters cannot spend more
+        motes powering this Charm than their Strength.
+        &quot;
+
+    bone_shattering_fist[Bone-Shattering Fist]
+    lashing_tempest_attack --&gt; bone_shattering_fist
+    click bone_shattering_fist callback &quot;
+        Bone-Shattering Fist&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplementary&lt;br&gt;
+        Minimum Brawl: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Lashing Tempest Attack&lt;br&gt;
+        &lt;br&gt;
+        The character strikes with horrible crushing force,
+        inflicting lethal wounds with her assault. If she inflicts at
+        least one level of damage with her attack, her victim
+        doubles all wound penalties until he fully heals. If this
+        Charm is used on a target more than once, each subsequent
+        attack increases the victim’s total wound penalty by one
+        die. Once a character completely heals, his wound penalties
+        reset to normal. UnExalted victims of this Charm do
+        not lose their additional penalties until they receive medical
+        treatment to set their broken bones.
+        &quot;
+
+    five_knife_strike[Five Knife Strike]
+    lashing_tempest_attack --&gt; five_knife_strike
+    click five_knife_strike callback &quot;
+        Five Knife Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Brawl: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Lashing Tempest Attack&lt;br&gt;
+        &lt;br&gt;
+        The character sprouts wicked bone claws from his
+        fingers, allowing him to inflict Strength + 1 lethal damage
+        with all hand-to-hand attacks. In addition, the character
+        can safely parry weapons and other lethal blows.
+        &quot;
+
+    blood_drinking_palm[Blood-Drinking Palm]
+    five_knife_strike --&gt; blood_drinking_palm
+    click blood_drinking_palm callback &quot;
+        Blood-Drinking Palm&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplementary&lt;br&gt;
+        Minimum Brawl: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Five Knife Strike&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal delivers a vicious open-handed blow to
+        an enemy. In addition to inflicting lethal damage, her
+        attack forcibly siphons blood through the target’s skin.
+        The Abyssal regains 1 mote of Essence per point of raw
+        damage inflicted before applying the target’s soak. This
+        Charm is an exception to the usual rule that Abyssal
+        Exalted can only regain Essence for actual damage inflicted.
+        However, the Abyssal cannot absorb more motes
+        from a single attack than the victim’s Stamina + Essence.
+        Blood-Drinking Palm only works against living beings and
+        Fair Folk and, then, only if the Exalt strikes bare or cloth-covered
+        skin. Storytellers should require a well-described
+        stunt for an Abyssal to successfully use this Charm against
+        an armored opponent.
+        &quot;
+
+    writhing_blood_chain_technique[Writhing Blood Chain Technique]
+    blood_drinking_palm --&gt; writhing_blood_chain_technique
+    click writhing_blood_chain_technique callback &quot;
+        Writhing Blood Chain Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower, 1 health level&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Brawl: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Blood-Drinking Palm&lt;br&gt;
+        &lt;br&gt;
+        With a painful surge of Essence, the Abyssal transforms
+        her blood into deadly weapons. At the end of the
+        turn, chains of iron-hard congealed blood erupt from her
+        back or arms. The character grows a number of chains
+        equal to her permanent Essence, and each is tipped with a
+        razor-sharp claw. For the rest of the scene, the character
+        gains a number of extra actions each turn equal to the
+        number of chains grown. These actions can only be used to
+        attack or parry. If a character uses any chains to attack, he
+        cannot split his dice pool that turn, and vice versa. Blood
+        chains have a length in yards and a Speed, Accuracy and
+        Defense rating equal to their creator’s Essence and inflict
+        a base lethal damage of the character’s Strength + Essence.
+        They are wielded using the Brawl Ability. Once this
+        Charm expires, the chains revert to fluid blood and disintegrate
+        in a splash of gore. A character using Writhing
+        Blood Chain Technique cannot use Extra Action-type
+        Charms or take advantage of extra actions granted by
+        other magic while this Charm remains active.
+        &quot;
+
+    </pre></section>
+<section id="martial-arts">
+<h3>Martial Arts<a class="headerlink" href="#martial-arts" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    essence_discerning_glance[Essence Discerning Glance]
+    click essence_discerning_glance callback &quot;
+        Essence Discerning Glance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Martial Arts: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows the character to attune his vision
+        to the flow of energy through living creatures, spirits and
+        other entities with a permanent Essence rating. Such
+        beings appear overlaid with a fine tracing of red veins that
+        glow in direct proportion to the strength of their life force.
+        While under the effects of this Charm, the character can
+        perceive incorporeal spirits as though they had manifested,
+        although they remain invisible to others.
+        Additionally, the character may scrutinize a target’s aura
+        as a simple action by spending 1 mote and his player rolling
+        Perception + Martial Arts. Each success on this roll gauges
+        one of the target’s following Traits as decided by the
+        observer’s player: health levels remaining, permanent Essence
+        rating or total current Essence pool. This Charm
+        cannot discern the nature of a magical being, only its
+        overall power. Thus, characters cannot determine the type
+        or caste of an Exalted or differentiate between Personal
+        and Peripheral Essence without other magic.
+        &quot;
+
+    shrouded_claw_attack[Shrouded Claw Attack]
+    essence_discerning_glance --&gt; shrouded_claw_attack
+    click shrouded_claw_attack callback &quot;
+        Shrouded Claw Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Martial Arts: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Essence Discerning Glance&lt;br&gt;
+        &lt;br&gt;
+        The character suffuses her hands with the spectral
+        Essence of the Underworld, causing them to flicker like
+        the corpus of a ghost. As a result, players of characters
+        attempting to dodge or parry blows enhanced with this
+        Charm roll only half the character’s normal dice pool,
+        rounded down. In addition, such attacks make no noise,
+        even from impact. The Essence to power this Charm must
+        be spent prior to making the attack roll. This Charm is not
+        compatible with the use of weapons.
+        &quot;
+
+    hungry_ghost_form[Hungry Ghost Form]
+    shrouded_claw_attack --&gt; hungry_ghost_form
+    click hungry_ghost_form callback &quot;
+        Hungry Ghost Form&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Martial Arts: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Shrouded Claw Attack&lt;br&gt;
+        &lt;br&gt;
+        The Exalted takes on the visage and attitude of a
+        ravening shade, his pallid flesh growing cold and faintly
+        translucent as he coils to lunge. For the rest of the scene,
+        the character inflicts lethal damage with all hand-to-hand
+        attacks. Additionally, he regains 1 mote of Essence for
+        every health level of damage inflicted against animate
+        targets (living creatures, spirits, undead, etc.). Lastly, the
+        character may reflexively spend 3 motes per attack to
+        strike dematerialized spirits, although this Charm provides
+        no ability to perceive such beings. Spirits slain by this
+        Charm eventually regenerate unless other magic is employed,
+        but this process takes time and is extremely painful.
+        Characters cannot use more than one Martial Arts Form-type
+        Charm at a time. This Charm is incompatible with
+        the use of armor.
+        &quot;
+
+    power_reaping_prana[Power Reaping Prana]
+    hungry_ghost_form --&gt; power_reaping_prana
+    click power_reaping_prana callback &quot;
+        Power Reaping Prana&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Martial Arts: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Hungry Ghost Form&lt;br&gt;
+        &lt;br&gt;
+        Executing a series of quick slashes in the air, the Exalt
+        reaches forth her anima to siphon up expended Essence as
+        it flows from her enemies. In order to use this Charm, the
+        character must already have Essence Discerning Glance
+        active and her target must be within 10 yards when
+        spending Essence to power an effect. For the purposes of
+        this Charm, the total Essence cost of all Charms in a
+        Combo is considered one effect. The character’s player
+        rolls Perception + Martial Arts; each success allows the
+        Exalt to regain 2 motes of Essence. The character may not
+        gain more Essence from a single effect than the total motes
+        spent powering it, so a character that achieves three
+        successes draining a Charm costing 4 motes only gains 4
+        motes rather than 6. Use of this Charm does not in any way
+        disrupt the effect being drained. At the end of the turn, all
+        remaining motes acquired via this Charm in excess of the
+        character’s permanent Essence dissipate. This limit ap-
+        plies regardless of how many times this Charm is activated
+        in a turn. Power Reaping Prana is explicitly permitted to
+        be part of a Combo with Charms of other Abilities.
+        &quot;
+
+    charm_smothering_technique[Charm Smothering Technique]
+    power_reaping_prana --&gt; charm_smothering_technique
+    click charm_smothering_technique callback &quot;
+        Charm Smothering Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1+ motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms: Power Reaping Prana&lt;br&gt;
+        &lt;br&gt;
+        Lashing out with a soul-numbing tendril of power, the
+        Exalt stifles her enemy’s magic before it even takes form.
+        Charms aborted in this fashion manifest as a burst of dimly
+        glowing sparks that do not contribute to the victim’s anima
+        banner. Abyssal characters must have Essence Discerning
+        Glance active in order to perceive the use of Charms before
+        they take effect, although the deathknights do not know
+        which Charms are being used unless their players make a
+        successful reflexive Intelligence + Occult roll (difficulty 2).&lt;br&gt;
+        Similarly, Charm Smothering Technique can only
+        counter Charms activated within 10 yards of the Exalt.
+        Targets of this Charm may immediately spend a number of
+        additional motes equal to the Essence invested by the
+        Abyssal. If they cannot or do not pay this surcharge, their
+        Charms fail, and all costs spent on the stillborn magic are
+        lost. If the target pays the surcharge, the Charm takes effect
+        normally. Charm Smothering Technique can only counter
+        singular Charms — Combos, spells, Fair Folk glamour and
+        other forms of magic cannot be smothered. Characters
+        cannot spend more motes on this Charm than their Wits
+        + Martial Arts, nor can they use Power Reaping Prana to
+        draw energy from smothered Charms.
+        &quot;
+
+    consuming_entropy_strike[Consuming Entropy Strike]
+    hungry_ghost_form --&gt; consuming_entropy_strike
+    click consuming_entropy_strike callback &quot;
+        Consuming Entropy Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2L&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplementary&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Hungry Ghost Form&lt;br&gt;
+        &lt;br&gt;
+        The character brings to bear the ravaging power of
+        Oblivion in a crackling nimbus around her hand. In
+        addition to inflicting lethal damage, the character’s attack
+        reduces the victim’s soak by 2L per mote spent. A target’s
+        soak cannot be reduced below zero. This reduced soak only
+        applies to resisting the this single attack and returns to
+        normal immediately thereafter. Weakening non-magical
+        armor with this Charm leaves a fine layer of rust or rot at
+        the point of impact, although this decay is too minor to
+        actually damage the armor.
+        &quot;
+
+    blood_freezing_technique[Blood Freezing Technique]
+    consuming_entropy_strike --&gt; blood_freezing_technique
+    click blood_freezing_technique callback &quot;
+        Blood Freezing Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplementary&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Consuming Entropy Strike&lt;br&gt;
+        &lt;br&gt;
+        The character’s fingers tighten in rigid claws, and his
+        skin becomes numbingly cold to the touch. In addition to
+        inflicting lethal damage, his attack drains warmth on
+        impact. If the attack inflicts damage, the target loses one
+        dot of Dexterity. Recalculate the victim’s initiative accordingly
+        and apply this new rating immediately. Characters
+        who have not yet acted on the turn in which they are
+        numbed have their actions delayed until their new initiative
+        total. Lost Dexterity returns at the end of the scene (or
+        in 10 to 15 minutes in the case of long scenes). Characters
+        reduced to zero Dexterity are paralyzed and can take no
+        physical action, although they may still think clearly to the
+        degree allowed by their wound penalties and employ
+        Charms that do not require movement. Blood Freezing
+        Technique has no effect on beings immune to cold, including
+        most undead and automata.
+        &quot;
+
+    unnatural_shambling_deftness[Unnatural Shambling Deftness]
+    hungry_ghost_form --&gt; unnatural_shambling_deftness
+    click unnatural_shambling_deftness callback &quot;
+        Unnatural Shambling Deftness&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Hungry Ghost Form&lt;br&gt;
+        &lt;br&gt;
+        The character’s motions take on the unsettling jerkiness
+        of the walking dead as she wavers between impossible
+        bursts of speed and total stillness. The character may take
+        a total number of extra actions equal to her permanent
+        Essence. These actions can be used for any combat-related
+        tasks, subject to Storyteller approval. The character can-
+        not split her dice pool on the same turn she employs this
+        Charm. This Charm is incompatible with the use of armor.
+        &quot;
+
+    lunging_phantom_method[Lunging Phantom Method]
+    unnatural_shambling_deftness --&gt; lunging_phantom_method
+    click lunging_phantom_method callback &quot;
+        Lunging Phantom Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Unnatural Shambling Deftness&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal rushes forward, twisting and dematerializing
+        as he pounces so that he passes through his enemy
+        and rematerializes behind her. The subsequent attack does
+        no more damage than usual, but it gains all of the benefits
+        of attacking from behind (see Exalted, p. 238). This
+        Charm is incompatible with the use of armor.
+        &quot;
+
+    soul_flaying_strike[Soul-Flaying Strike]
+    charm_smothering_technique --&gt; soul_flaying_strike
+    blood_freezing_technique --&gt; soul_flaying_strike
+    lunging_phantom_method --&gt; soul_flaying_strike
+    click soul_flaying_strike callback &quot;
+        Soul-Flaying Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower, 1 health level&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Martial Arts: 5&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms:Charm Smothering Technique, Blood Freezing Technique, Lunging Phantom Method&lt;br&gt;
+        &lt;br&gt;
+        The deathknight delivers a powerful open-handed
+        blow, Essence crackling around his clawed fingers in moaning
+        arcs. The character makes the attack as normal. If the
+        strike hits, roll the Abyssal’s permanent Essence against
+        the permanent Essence of the victim. If the Exalt wins, the
+        victim suffers unsoakable aggravated damage equal to the
+        deathknight’s Martial Arts score (damage dice are rolled
+        normally). This damage is in addition to any damage
+        inflicted by the actual blow. Victims slain by this Charm
+        arise as hungry ghosts upon the next sunset. Such ghosts
+        have the usual statistics for their kind (see p. 127) but are
+        never extras, and they obey the Abyssal to the best of their
+        limited intelligence. Spirits and Fair Folk slain with this
+        Charm are annihilated utterly and evaporate on the spot.
+        This Charm is incompatible with the use of armor.
+        &quot;
+
+    </pre></section>
+<section id="melee">
+<h3>Melee<a class="headerlink" href="#melee" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    furious_blade[Furious Blade]
+    click furious_blade callback &quot;
+        Furious Blade&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Enveloped in a corona of roiling darkness, the Abyssal’s
+        weapon moves with predatory zeal to cut down enemies.
+        The character may add one die to a single attack for every
+        mote spent but cannot more than double his Dexterity +
+        Melee dice pool.
+        &quot;
+
+    savage_shade_style[Savage Shade Style]
+    furious_blade --&gt; savage_shade_style
+    click savage_shade_style callback &quot;
+        Savage Shade Style&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Furious Blade&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, the Abyssal focuses fury and Essence
+        through his weapon to strike horrible rending blows.
+        The character makes his attack as normal, but successes
+        count twice for the purposes of determining damage. This
+        Charm must be invoked before making the attack roll.
+        &quot;
+
+    artful_maiming_onslaught[Artful Maiming Onslaught]
+    savage_shade_style --&gt; artful_maiming_onslaught
+    click artful_maiming_onslaught callback &quot;
+        Artful Maiming Onslaught&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Savage Shade Style&lt;br&gt;
+        &lt;br&gt;
+        Striking with cruel precision, an Abyssal with this
+        Charm aims his blow to sever limbs and mutilate his
+        opponent. Add the Abyssal’s Dexterity to the damage of
+        his attack, but this attack has a difficulty of at least 3.
+        Severing an arm or leg (or tentacle or similarly sized
+        appendage) is difficulty 3 and requires the Exalt to inflict
+        at least two health levels of damage after soak.&lt;br&gt;
+        Severing a hand or putting out an eye increases the
+        attack difficulty to 4 but only requires a single level of
+        damage. Regardless of the actual damage rolled, the
+        Abyssal’s strike only inflicts the minimum levels necessary
+        for the maiming. Thus, a character who rolls five health
+        levels of damage after the target’s soak only inflicts two
+        levels on an attempt to sever an arm. Victims still must
+        contend with bleeding and shock, however. Consider the
+        amputee’s wound penalty to be twice its usual value until
+        her bleeding is stanched (however, Exalted make their
+        normal difficulty 1 roll).&lt;br&gt;
+        Additionally, victims’ players must make a successful
+        reflexive Stamina + Resistance roll for their characters to
+        take any action on the turn they lose a limb. The Story-
+        teller should assign other penalties or restrict actions as
+        appropriate for maimed victims (see Exalted, p. 234).
+        &quot;
+
+    slashing_ghost_talon[Slashing Ghost Talon]
+    furious_blade --&gt; slashing_ghost_talon
+    click slashing_ghost_talon callback &quot;
+        Slashing Ghost Talon&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Furious Blade&lt;br&gt;
+        &lt;br&gt;
+        The character’s blade shrieks and moans as it be-
+        comes a conduit for her insatiable hunger. The
+        deathknight makes her attack as normal but regains 1
+        mote of Essence for every health level of damage inflicted.
+        If the Abyssal uses a soulsteel weapon to strike a
+        being with an Essence pool, she also absorbs the motes
+        stolen by her weapon. This latter bonus only applies if the
+        character is attuned to her weapon.
+        &quot;
+
+    crimson_banquet_method[Crimson Banquet Method]
+    slashing_ghost_talon --&gt; crimson_banquet_method
+    click crimson_banquet_method callback &quot;
+        Crimson Banquet Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Slashing Ghost Talon&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, the character harvests power
+        from every blow that draws blood. Crimson Banquet
+        Method duplicates the effects of Slashing Ghost Talon,
+        but the bonus applies to every attack made during the
+        scene. This Charm cannot be stacked with itself to gain
+        multiple motes per health level inflicted, nor may the
+        Abyssal use Slashing Ghost Talon while employing this
+        Charm. A character cannot gain more Essence in a
+        single turn from the use of this Charm than the
+        character’s Essence + Lore.
+        &quot;
+
+    reaper_of_men[Reaper of Men]
+    crimson_banquet_method --&gt; reaper_of_men
+    click reaper_of_men callback &quot;
+        Reaper of Men&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Crimson Banquet Method&lt;br&gt;
+        &lt;br&gt;
+        The deathknight suffuses her body and weapon with
+        necrotic Essence, wreathing herself in a nimbus of cold
+        baleful energy. Any living being who touches her or strikes
+        her with a hand-to-hand attack suffers lethal damage equal
+        to the Abyssal’s Essence score. The character’s hand-to-
+        hand attacks also inflict lethal damage and add her Essence
+        to the damage of the attack. Mindless ghosts and walking
+        dead fear characters using this Charm and will not attack
+        them unless mystically compelled.
+        &quot;
+
+    soul_searing_blow[Soul-Searing Blow]
+    slashing_ghost_talon --&gt; soul_searing_blow
+    click soul_searing_blow callback &quot;
+        Soul-Searing Blow&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2+ motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Slashing Ghost Talon&lt;br&gt;
+        &lt;br&gt;
+        Projecting the spiritual cold of Oblivion through
+        his weapon, the Abyssal can assault the very soul and
+        will of a foe. If the character’s attack hits (it need not
+        inflict damage), the victim loses 1 point of temporary
+        Willpower for every 2 motes spent. Exalted and other
+        beings with control over their Essence pools may choose
+        to lose 2 motes of Essence for every Willpower point
+        they would have otherwise lost. If this Charm reduces a
+        character’s temporary Willpower below zero, she suffers
+        lethal damage equal to the difference. Thus, a victim
+        with 3 Willpower remaining who loses 5 points suffers
+        2L damage. This damage is soaked only with the
+        character’s permanent Essence score and nothing else.
+        The Abyssal cannot spend more motes powering this
+        Charm than twice her Conviction.
+        &quot;
+
+    soul_cleaving_strike[Soul-Cleaving Strike]
+    reaper_of_men --&gt; soul_cleaving_strike
+    soul_searing_blow --&gt; soul_cleaving_strike
+    click soul_cleaving_strike callback &quot;
+        Soul-Cleaving Strike&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower, 1 health level&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms:Reaper of Men, Soul-Searing Blow&lt;br&gt;
+        &lt;br&gt;
+        The greatest swordsmen of the deathknights can slice
+        through souls as easily as others carve flesh. Upon invoking
+        this Charm, the Abyssal’s weapon flares with cold fire and
+        shrieks loud enough to be heard up to a mile away. The
+        character makes one attack at his full dice pool, which is
+        fully effective against both material beings and incorporeal
+        spirits and does normal damage in addition to this Charm’s
+        effects. If the blow hits, the victim’s player must immediately
+        roll permanent Essence at standard difficulty.&lt;br&gt;
+        If this roll succeeds, the victim suffers unsoakable dice
+        of lethal damage equal to the Abyssal’s own Essence rating.
+        If the roll fails, the victim loses one dot of permanent
+        Essence. A botch inflicts permanent Essence loss and
+        damage. If a character’s permanent Essence drops to zero,
+        her life force is instantly snuffed out, and her maimed soul
+        falls screaming into Oblivion.&lt;br&gt;
+        Spirits and Fair Folk slain in this manner are likewise
+        destroyed. Damage inflicted by Spirit-Cleaving Strike is
+        purely spiritual and cannot be soaked or prevented with
+        magic that solely defends against physical assault. All
+        effects of this Charm are applied before resolving the
+        strike’s normal damage. This Charm does not work on
+        automata, the walking dead or other beings without souls.
+        &quot;
+
+    five_shadow_feint[Five Shadow Feint]
+    furious_blade --&gt; five_shadow_feint
+    click five_shadow_feint callback &quot;
+        Five Shadow Feint&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Melee: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Furious Blade&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal’s arm and weapon flickers, blossoming
+        into a confusing spray of shadows and afterimages. The
+        character makes his attack normally, but the target loses
+        one die from her first defensive dice pool for every mote
+        spent. The Abyssal may not reduce a character’s dice pool
+        below her Essence rating. If Five Shadow Feint is placed in
+        a Combo with Furious Blade, the Essence cost of both
+        Charms increases to 2 motes per die.
+        &quot;
+
+    ebon_lightning_prana[Ebony Lightning Prana]
+    five_shadow_feint --&gt; ebon_lightning_prana
+    click ebon_lightning_prana callback &quot;
+        Ebony Lightning Prana&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Five Shadow Feint&lt;br&gt;
+        &lt;br&gt;
+        Drawing his blade and lunging in a single fluid mo-
+        tion, an Abyssal with this Charm may strike faster than
+        mortal eyes can follow. The character suffers no penalty for
+        drawing a sheathed weapon and strikes whenever he
+        wishes without regard for initiative. Although the
+        character’s first action must be a Melee attack, he can still
+        split his dice pool normally to take other actions later in
+        the turn. However, the character cannot take any dice
+        actions after the first attack until his regular initiative. If
+        the character faces an opponent with similar magic, nor-
+        mal initiative determines who acts first. A character can
+        only use Ebon Lightning Prana once per turn, and in order
+        to use it, his weapon must be sheathed. For the purposes of
+        this Charm, sheathing a sword as part of a split action is a
+        dice action that requires no roll, but is counted as one of
+        the character’s actions for the turn.
+        &quot;
+
+    unfurling_iron_lotus[Unfurling Iron Lotus]
+    five_shadow_feint --&gt; unfurling_iron_lotus
+    click unfurling_iron_lotus callback &quot;
+        Unfurling Iron Lotus&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes per attack&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Five Shadow Feint&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal spins and thrusts in a rapid cascade of
+        blows. The Charm takes its name from the wispy con-
+        trails left by each strike, which, taken together, resemble
+        the petals of a blooming flower. The character may make
+        one additional attack at his full dice pool for every 3
+        motes spent, although he may not purchase more extra
+        attacks than his Essence score. Characters must activate
+        this Charm before taking their first action and may not
+        split their dice pool on the same turn they employ
+        Unfurling Iron Lotus. Defenders must dodge or parry
+        each attack separately.
+        &quot;
+
+    glorious_carnage_typhoon[Glorious Carnage Typhoon]
+    unfurling_iron_lotus --&gt; glorious_carnage_typhoon
+    click glorious_carnage_typhoon callback &quot;
+        Glorious Carnage Typhoon&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Unfurling Iron Lotus&lt;br&gt;
+        &lt;br&gt;
+        Blade flashing in a spiral of blood and pain and death,
+        the Abyssal scythes through her opponents like a tornado.
+        So long as the character hits her intended target and
+        inflicts damage, she may immediately make another attack
+        at her full dice pool. Each attack must be leveled at a
+        different victim, and the Exalt cannot move more yards
+        than her Melee score between each target. This Charm
+        ends when the character misses or strikes every possible
+        victim within reach of her blade.
+        &quot;
+
+    blade_summoning_gesture[Blade-Summoning Gesture]
+    click blade_summoning_gesture callback &quot;
+        Blade-Summoning Gesture&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Extending his will and anima in a grasping tendril,
+        the Abyssal calls his weapon to his hand. Summoned
+        weapons can overcome friction and gravity — even pull
+        free from bodies — but cannot defeat walls, chains or
+        similar obstacles. The character must be able to see his
+        weapon and have a hand free to receive it. Furthermore,
+        this Charm can only call weapons the Exalt has previously
+        wielded.
+        &quot;
+
+    thieving_raiton_claws[Thieving Raiton Claws]
+    blade_summoning_gesture --&gt; thieving_raiton_claws
+    click thieving_raiton_claws callback &quot;
+        Thieving Raiton Claws&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Blade-Summoning Gesture&lt;br&gt;
+        &lt;br&gt;
+        Instead of retrieving her own weapon, an Abyssal
+        with Thieving Raiton Claws may attempt
+        to steal the weapon of a foe.
+        The Exalt reaches out an empty hand,
+        and her player rolls Dexterity + Melee
+        at difficulty 3. This effect cannot
+        be parried or dodged. If this roll is
+        successful, the effect is resolved as a
+        normal disarming attempt (see Exalted,
+        p. 238). If the disarming
+        succeeds, the targeted weapon is torn
+        from the enemy’s grasp and flies to
+        the Abyssal’s own. This Charm can
+        steal any weapon in the character’s
+        line of sight, although it cannot seize
+        magical weapons attuned to their
+        wielders or weapons made entirely of
+        Essence. Otherwise, this Charm duplicates
+        the effects and limitations of
+        Blade-Summoning Gesture.
+        &quot;
+
+    void_sheat_technique[Void Sheath Technique]
+    blade_summoning_gesture --&gt; void_sheat_technique
+    click void_sheat_technique callback &quot;
+        Void Sheath Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Indefinite&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Blade-Summoning Gesture&lt;br&gt;
+        &lt;br&gt;
+        With a moment’s concentration,
+        an Abyssal who knows this
+        Charm may banish a weapon from
+        his grasp and the world. The weapon
+        shimmers and vanishes Elsewhere,
+        remaining hidden and inaccessible
+        until the character reflexively ends
+        the Charm and draws his weapon
+        forth. This Charm can only banish
+        a single weapon at a time, one the
+        Abyssal is intimately familiar with
+        — typically his most prized implement
+        of battle.
+        &quot;
+
+    resplendent_shadow_blade[Resplendent Shadow Blade]
+    void_sheat_technique --&gt; resplendent_shadow_blade
+    click resplendent_shadow_blade callback &quot;
+        Resplendent Shadow Blade&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: One Scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Void Sheath Technique&lt;br&gt;
+        &lt;br&gt;
+        Raising her hand imperiously, a character with this
+        Charm freezes raw Essence into her ideal weapon. This
+        weapon appears sculpted of black crystal and glitters with
+        power and malice. Although most deathknights prefer
+        variations of slashing swords, this Charm can create any
+        bladed weapon from ornate scythes to jagged tiger claws.
+        When Resplendent Shadow Blade is purchased, the
+        Abyssal’s player must decide the form of the weapon. He
+        then divides a number of points equal to twice the
+        character’s Melee score between the weapon’s Speed,
+        Damage, Accuracy and Defense. As usual, the damage
+        bonus of the weapon is added to the character’s Strength
+        to determine its base lethal damage.&lt;br&gt;
+        Once selected, this Charm always summons the
+        same weapon. The blade’s statistics remain constant
+        unless the character raises his Melee score, permitting
+        him to divide two more points to its characteristics. The
+        Abyssal must purchase this Charm again to conjure a
+        different form of blade. Weapons created with this Charm
+        have the tensile strength of soulsteel — and likewise
+        drain motes equal to their owner’s permanent Essence on
+        any hit that inflicts actual damage.
+        &quot;
+
+    elegant_flowing_deflection[Elegant Flowing Deflection]
+    click elegant_flowing_deflection callback &quot;
+        Elegant Flowing Deflection&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2 dice&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The Exalt moves with preternatural grace, shifting
+        his weapon without breaking form or stride to parry any
+        hand-to-hand attack he is aware of. The character’s
+        player rolls two dice for every mote spent but cannot
+        purchase more dice than his normal defensive pool for
+        the weapon. This total includes applicable specialties
+        and weapon bonuses in addition to the character’s Dexterity
+        + Melee. If the character has an odd number of dice
+        in his pool, the fractional mote remaining after buying
+        the last die is lost.
+        &quot;
+
+    vengeful_riposte[Vengeful Riposte]
+    elegant_flowing_deflection --&gt; vengeful_riposte
+    click vengeful_riposte callback &quot;
+        Vengeful Riposte&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Elegant Flowing Deflection&lt;br&gt;
+        &lt;br&gt;
+        Shifting quickly from defense to offense, the char-
+        acter parries one incoming strike with a swift blow to
+        the attacker’s weapon hand or limb. If the deathknight’s
+        player rolls more successes than the attacker, any leftover
+        successes are treated as a Melee attack against the
+        aggressor. Thus, a parry that rolls five successes to
+        deflect an attack with three successes becomes a two-
+        success attack. This counterstrike cannot be blocked or
+        dodged without magic. A character may not use Vengeful
+        Riposte in response to other counterattack Charms.
+        Note that this Charm does not grant the character a free
+        parry or extra parry dice.
+        &quot;
+
+    corrosive_parry[Corrosive Parry]
+    vengeful_riposte --&gt; corrosive_parry
+    click corrosive_parry callback &quot;
+        Corrosive Parry&lt;br&gt;
+        &lt;br&gt;
+        Cost: Weapon damage + 1 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Vengeful Riposte&lt;br&gt;
+        &lt;br&gt;
+        Filling his blade with necrotic Essence as he parries, the
+        Abyssal rots or rusts his opponent’s weapon to dust as it strikes
+        his block. The Abyssal character’s player rolls Dexterity +
+        Melee in response to any close-range attack. If even one
+        success is achieved, the attacker’s weapon shatters to mildewed
+        splinters and rust without injuring the defender. The
+        deathknight must spend motes equal to the weapon’s base
+        damage modifier plus one, so it costs 3 motes to disintegrate
+        a short sword, 8 for a great axe, etc. The character can only
+        disintegrate actual weapons — so no rotting off an aggressor’s
+        fist or claws. Also, this Charm cannot damage weapons made
+        of Essence or the Five Magical Materials.
+        &quot;
+
+    attunement_shattering_block[Attunement-Shattering Block]
+    corrosive_parry --&gt; attunement_shattering_block
+    click attunement_shattering_block callback &quot;
+        Attunement-Shattering Block&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Corrosive Parry&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal can dissipate the Essence
+        empowering a magical weapon, rendering it
+        temporarily useless. Attunement-Shattering Block may be
+        activated whenever the deathknight parries a magical
+        weapon. Her parry need not deflect the attack entirely, but
+        the Abyssal character’s player must roll at least one success
+        on the block attempt. This Charm costs 3 motes and 1
+        temporary Willpower.&lt;br&gt;
+        The defending character’s player then makes a reflexive
+        Essence + Melee roll, with a difficulty equal to the
+        target’s permanent Essence. If it succeeds, the weapon
+        becomes an inert hunk of steel and Magical Materials,
+        although it may be reattuned normally by its owner. Of
+        course, this reattunement takes between 15 and 30 minutes.
+        The victim can avert deattunement by immediately
+        spending a number of motes equal to the attunement cost
+        of the weapon.
+        &quot;
+
+    fluttering_moth_defense[Fluttering Moth Defense]
+    elegant_flowing_deflection --&gt; fluttering_moth_defense
+    click fluttering_moth_defense callback &quot;
+        Fluttering Moth Defense&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Elegant Flowing Deflection&lt;br&gt;
+        &lt;br&gt;
+        With growing mastery, the Abyssal’s weapon dances
+        to intercept attacks as a moth spiraling a torch. The
+        deathknight’s player may roll her character’s full Dexterity
+        + Melee dice pool to parry any one close-range attack the
+        Abyssal is aware of.
+        &quot;
+
+    hundred_razor_circle[Hundred Razor Circles]
+    fluttering_moth_defense --&gt; hundred_razor_circle
+    click hundred_razor_circle callback &quot;
+        Hundred Razor Circles&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Fluttering Moth Defense&lt;br&gt;
+        &lt;br&gt;
+        Sometimes, the best defense is a good offense. Building
+        on this principle, the Abyssal stands motionless and traces
+        a lightning-fast pattern of strikes and slices around him.
+        Anyone entering this warded circle risks terrible injury. The
+        Exalt cannot actively attack, dodge or move faster than one
+        yard per turn without breaking the Charm, but his player
+        automatically rolls a full Dexterity + Melee attack against
+        everyone who is currently within or who subsequently
+        approaches within three yards of the character.&lt;br&gt;
+        The character may also reflexively attack incoming
+        projectiles of which he is aware. This is a difficulty 4
+        Dexterity + Melee roll and adds the weapon’s Parry modi-
+        fier as well. Success destroys or swats aside the offending
+        missile. Note that this Charm does not distinguish between
+        friend and foe — the Exalt must attack everyone in range.
+        &quot;
+
+    incomparable_sentinel_stance[Incomparable Sentinel Stance]
+    hundred_razor_circle --&gt; incomparable_sentinel_stance
+    click incomparable_sentinel_stance callback &quot;
+        Incomparable Sentinel Stance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Hundred Razor Circle&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal may effortlessly deflect any attack she is
+        aware of without her player making a roll. This Charm can
+        turn aside assaults normally impossible to parry, such as
+        gouts of caustic slime or the falling boulders of a landslide.
+        The character can even parry the attacks of greater spirits
+        and demon lords, although such onslaughts invariably
+        shatter any non-magical weapon in the process. This is a
+        perfect defense.
+        &quot;
+
+    eye_of_the_tempest[Eye of the Tempest]
+    hundred_razor_circle --&gt; eye_of_the_tempest
+    click eye_of_the_tempest callback &quot;
+        Eye of the Tempest&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Melee: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Hundred Razor Circle&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, the Abyssal becomes a point of
+        serene calm in a vortex of steel and howling shadows. The
+        deathknight’s player may use his character’s full Dexterity
+        + Melee dice pool to parry all physical attacks of which the
+        Abyssal is aware.
+        &quot;
+
+    </pre></section>
+<section id="thrown">
+<h3>Thrown<a class="headerlink" href="#thrown" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    hungry_missile_technique[Hungry Missile Technique]
+    click hungry_missile_technique callback &quot;
+        Hungry Missile Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Thrown: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Suffused with malevolent hunger, the character’s
+        weapon leaps from her hand and turns in flight to pursue
+        its prey. After the target declares any defense, the Abyssal
+        may activate this Charm to subtract one die per mote spent
+        from the target’s player’s defense roll against a single
+        Thrown attack the Abyssal makes. The Abyssal cannot
+        spend more motes powering this Charm than are required
+        to reduce a victim’s dice pool to his permanent Essence
+        rating. If the target has Charms or other effects that allow
+        multiple forms of defense, Hungry Missile Technique
+        applies only to the first defense.
+        &quot;
+
+    lighting_clutch_of_the_raptor[Lighting Clutch of the Raptor]
+    hungry_missile_technique --&gt; lighting_clutch_of_the_raptor
+    click lighting_clutch_of_the_raptor callback &quot;
+        Lighting Clutch of the Raptor&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote (4 motes against area attacks)&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Thrown: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Hungry Missile Technique&lt;br&gt;
+        &lt;br&gt;
+        A character with this Charm moves with impossible
+        speed, plucking arrows and other missile weapons from the
+        air before they can hit her. The Abyssal may reflexively
+        parry any ranged attack she is aware of with her full
+        Dexterity + Thrown. If this roll leaves the attacker with no
+        successes, the Exalt has successfully caught the projectile
+        and may subsequently do with it whatever she wishes.
+        Even if the defender fails to score more successes than her
+        attacker, she still reduces the damage of the attack as
+        normal, so the Charm is not an all-or-nothing proposition.&lt;br&gt;
+        The speed at which the character grabs incoming
+        missiles is sufficient to douse most fires, including flames
+        set by the Solar Charm Fiery Arrow Attack. The character
+        cannot parry bolts of Essence or other purely mystical
+        projectiles unless she has a permanent Essence of 3 or
+        higher. If an Abyssal fully parries an intangible missile, it
+        disperses harmlessly against her palm.&lt;br&gt;
+        Lightning Clutch of the Raptor may also be used to
+        defend against ranged area-of-effect attacks such as the
+        Death of Obsidian Butterflies. This use costs 4 motes
+        instead of 1, and the character only deflects missiles
+        threatening her. Otherwise, parrying an area assault follows
+        the same rules as any other application of this Charm.
+        &quot;
+
+    incomparable_assassin_method[Incomparable Assassin Method]
+    hungry_missile_technique --&gt; incomparable_assassin_method
+    click incomparable_assassin_method callback &quot;
+        Incomparable Assassin Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Thrown: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Hungry Missile Technique&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal with this Charm instinctively knows
+        where and how to throw his weapon to deliver a fatal blow.
+        The player makes an attack roll as normal, but the damage
+        is doubled after it is rolled. However, if this not enough to
+        kill the target outright, the strike only inflicts one automatic
+        unsoakable health level of damage. As an ancillary
+        benefit, the character’s attack inflicts lethal damage (at
+        least 1L) if it didn’t already, so this attack can be used to
+        throw tiny or unconventional weapons such as dominos
+        with Range 10, Accuracy +0, Rate 3.
+        &quot;
+
+    aid_of_ill_wind[Aid of Ill Wind]
+    click aid_of_ill_wind callback &quot;
+        Aid of Ill Wind&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2+ motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Thrown: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal lightens her weapon as she launches it,
+        buoying its flight with a spectral gust summoned from the
+        Underworld. The weapon’s range increases by one factor
+        for every 2 motes spent. Thus, a character that spends 2
+        motes doubles her attack’s range, while one who spends 4
+        motes triples it, etc. Characters cannot spend more 2-mote
+        increments activating this Charm than they have points of
+        permanent Essence.
+        &quot;
+
+    ivory_spine_attack[Ivory Spine Attack]
+    aid_of_ill_wind --&gt; ivory_spine_attack
+    click ivory_spine_attack callback &quot;
+        Ivory Spine Attack&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per needle&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Thrown: 4&lt;br&gt;
+        Minimum Medicine: 1&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Aid of Ill Wind&lt;br&gt;
+        &lt;br&gt;
+        With a subtle flick of her wrist, an Abyssal who knows
+        this Charm may extrude a slender bone needle from her
+        palm or fingertip. The needle itself is quite small — no
+        more than the length of a child’s finger — but its paralytic
+        venom coating helps make up for its size. Needles created
+        with this Charm have a base lethal damage and Accuracy
+        equal to the character’s Essence rating and a Range in yards
+        of five times this value. Without other magic, a character
+        cannot throw more than three needles per turn. Note that
+        needles do not add Strength for determining damage,
+        although attack successes contribute normally. Needles
+        remain envenomed for one hour after creation. Players of
+        unarmored characters struck by a poisoned needle must
+        reflexively roll Stamina + Resistance against a difficulty of
+        the Abyssal’s Medicine score. Exalted victims whose players
+        fail this roll suffer levels of unsoakable lethal damage
+        equal to the deathknight’s Essence. UnExalted victims
+        whose players fail die painfully after one day unless treated
+        with curative magic. The Abyssal Exalt is naturally im-
+        mune to her own poison.
+        &quot;
+
+    thousand_needle_torrent[Thousand Needle Torrent]
+    ivory_spine_attack --&gt; thousand_needle_torrent
+    click thousand_needle_torrent callback &quot;
+        Thousand Needle Torrent&lt;br&gt;
+        &lt;br&gt;
+        Cost: 12 motes, 1 Willpower, 1 health level&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Thrown: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Ivory Spine Attack&lt;br&gt;
+        &lt;br&gt;
+        The character channels Essence through her entire
+        skeleton, growing hundreds of Essence-laden bone needles
+        similar to those produced with Ivory Spine Attack. Within
+        seconds, the needles tear through her skin at high velocity,
+        saturating the immediate area with razor-sharp spikes.
+        Everyone within five yards of the Exalt suffers lethal
+        damage (soaked normally) equal to the Abyssal’s Stamina
+        + Thrown + Essence.&lt;br&gt;
+        This damage is reduced by one die for every yard
+        further out, so victims six yards away suffer (Stamina
+        + Thrown + Essence - 1)L, etc. This damage cannot be
+        dodged or blocked without a stunt or Charm. Successes
+        on dodge or block attempts reduce the damage
+        by 1L per success. Needles created with this Charm
+        disintegrate seconds after their explosive flight. Armored
+        characters may not use this Charm, as their
+        armor blunts the explosion.
+        &quot;
+
+    burrowing_bone_maggot[Burrowing Bone Maggot]
+    ivory_spine_attack --&gt; burrowing_bone_maggot
+    click burrowing_bone_maggot callback &quot;
+        Burrowing Bone Maggot&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: Varies&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Thrown: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Ivory Spine Attack&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal may fling a burrowing
+        splinter of gleaming bone at his target. Upon striking a
+        living victim, the spine rapidly burrows into her body and
+        begins its painful journey to her heart. The needle has the
+        same statistics as one created with Ivory Spine Attack,
+        although it is not poisonous. Rather, if it successfully hits
+        a victim, it begins inflicting one die of unsoakable lethal
+        damage each minute. This damage continues until the
+        victim dies or the Abyssal wills the needle to temporarily
+        stop. The Abyssal can later will the needle to resume its
+        path at any time. The spine itself remains in existence as
+        long as the Abyssal leaves Essence committed to it or until
+        its victim dies. Skilled doctors can sometimes remove a
+        Burrowing Bone Maggot, but the Dexterity + Medicine
+        roll for such surgery has a minimum difficulty of 4 and
+        requires a sharp knife and the surgeon’s undivided dice
+        action for 10 turns (half a minute).
+        &quot;
+
+    pitiless_scything_razor[Pitiless Scything Razor]
+    incomparable_assassin_method --&gt; pitiless_scything_razor
+    aid_of_ill_wind --&gt; pitiless_scything_razor
+    click pitiless_scything_razor callback &quot;
+        Pitiless Scything Razor&lt;br&gt;
+        &lt;br&gt;
+        Cost: 7 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Thrown: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms:Incomparable Assassin Method, Aid of Ill Wind&lt;br&gt;
+        &lt;br&gt;
+        A thrown weapon enchanted with this Charm be-
+        comes an extension of its owner’s malice, arcing and
+        ricocheting from one target to the next like a swooping
+        bird of prey. The weapon makes a number of separate
+        attacks equal to the character’s Thrown score. Each
+        attack is made at the Abyssal’s full dice pool, with no
+        subtractions for multiple actions. If an attack misses, the
+        weapon simply moves on to its next target. However, if
+        any roll botches, the weapon strikes an unintended
+        victim and falls to the ground. Otherwise, the weapon
+        faithfully returns to its master’s hand at the end of the
+        turn. All targets of Pitiless Scything Razor must be in
+        range when the character first throws the weapon, and no
+        target may be hit more than once with a given weapon
+        during a single use of this Charm.
+        &quot;
+
+    ravening_crimson_chakram[Ravening Crimson Chakram]
+    pitiless_scything_razor --&gt; ravening_crimson_chakram
+    click ravening_crimson_chakram callback &quot;
+        Ravening Crimson Chakram&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Thrown: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Pitiless Scything Razor&lt;br&gt;
+        &lt;br&gt;
+        Imbued with a measure of its master’s bloodlust, a
+        weapon enchanted with this Charm leaps from its master’s
+        hand to slake itself on the life energy of its prey. Ravening
+        Crimson Chakram duplicates the effects of Pitiless Scything
+        Razor with two key differences: First, the thrown weapon
+        can attack the same target more than once. Second, the
+        weapon actually feeds when it hits, absorbing 1 mote of
+        Essence for every health level of damage inflicted after soak.
+        If the Abyssal’s player does not botch any attack rolls, the
+        deathknight gains all harvested motes when he recovers his
+        weapon at the end of the turn. Soulsteel throwing weapons
+        also drain motes as normal for each attack.
+        &quot;
+
+    </pre></section>
+</section>
+<section id="midnight-caste">
+<h2>Midnight Caste<a class="headerlink" href="#midnight-caste" title="Link to this heading">¶</a></h2>
+<section id="endurance">
+<h3>Endurance<a class="headerlink" href="#endurance" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    ox_body_technique[Ox-Body Technique]
+    click ox_body_technique callback &quot;
+        Ox-Body Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: None&lt;br&gt;
+        Duration: Permanent&lt;br&gt;
+        Type: Special&lt;br&gt;
+        Minimum Endurance: Varies&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        As befitting the champions of the Underworld, Abyssal
+        Exalted are far more resilient than mere mortals and
+        may purchase extra health levels as if they were a Charm.
+        This Charm can be taken as many times as a character has
+        dots of Endurance. Each Ox-Body Technique purchased
+        provides one of the following, decided by the player at the
+        time of purchase:&lt;br&gt;
+        • One -0 health level&lt;br&gt;
+        • Two -1 health levels&lt;br&gt;
+        • One -1 health level and two -2 health levels&lt;br&gt;
+        &quot;
+
+    ghost_armor_prana[Ghost Armor Prana]
+    click ghost_armor_prana callback &quot;
+        Ghost Armor Prana&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes per point
+        Duration: One hour
+        Type: Simple
+        Minimum Endurance: 3
+        Minimum Essence: 2
+        Prerequisite Charms: None
+        The Abyssal enfolds his anima about his armor, grant-
+        ing it surreal lightness for an hour. For every 3 motes spent,
+        the character reduces the fatigue value and mobility penalty
+        of his armor by one point, to a maximum possible reduction
+        equal to his permanent Essence. A fatigue value of zero
+        indicates the character need never roll to see if he becomes
+        fatigued from wearing his armor. This Charm cannot reduce
+        a character’s mobility penalty or fatigue value below zero.
+        &quot;
+
+    tireless_sentinel_technique[Tireless Sentinel Technique]
+    ghost_armor_prana --&gt; tireless_sentinel_technique
+    click tireless_sentinel_technique callback &quot;
+        Tireless Sentinel Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Endurance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Ghost Armor Prana&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal with this Charm may revivify himself with
+        Essence, allowing him to act at full strength without penalties
+        for sleep loss or exhaustion. There is no limit to how many
+        days this Charm can be used in a row, but animating death
+        Essence is a poor substitute for natural rest. After a number of
+        days equal to the character’s Stamina + Endurance, the Exalt
+        begins to suffer one unsoakable level of bashing damage each
+        time the Charm is used. This damage does not heal until the
+        character stops using the Charm. Once a character ends use
+        of Tireless Sentinel Technique, he cannot safely reactivate it
+        until all damage from the Charm has been healed. Doing
+        otherwise only continues the process of decay.
+        &quot;
+
+    relentless_revenant_spirit[Relentless Revenant Spirit]
+    tireless_sentinel_technique --&gt; relentless_revenant_spirit
+    click relentless_revenant_spirit callback &quot;
+        Relentless Revenant Spirit&lt;br&gt;
+        &lt;br&gt;
+        Cost: None&lt;br&gt;
+        Duration: Permanent&lt;br&gt;
+        Type: Special&lt;br&gt;
+        Minimum Endurance: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Tireless Sentinel Technique&lt;br&gt;
+        &lt;br&gt;
+        Once an Abyssal learns this Charm, death itself
+        cannot stop him. If slain, his spirit rises again as a ghost. He
+        loses his Exaltation and its commiserate powers, but he
+        gains the full advantages of unlife, retains the ability to use
+        any supernatural martial-arts forms he may know up to and
+        including the Form (but not more advanced techniques)
+        and gains twice as many Arcanoi as a starting ghost. The
+        Storyteller has final say on what Traits the character keeps
+        and how many ghost Charms he can purchase, etc.
+        &quot;
+
+    pain_eating_focus[Pain-Eating Focus]
+    click pain_eating_focus callback &quot;
+        Pain-Eating Focus&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Endurance: 1&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        More than any of the other Chosen, the Abyssal
+        Exalted understand the power of suffering and hate. A
+        character with this Charm may invoke it whenever she is
+        struck in combat. For every die of pre-soak damage the
+        attack inflicts, her player may roll one die. Each success on
+        this roll restores 1 mote of Essence, up to the character’s
+        usual limit. A character cannot harvest more Essence from
+        a single attack than her Essence rating.
+        &quot;
+
+    insensible_corpse_technique[Insensible Corpse Technique]
+    pain_eating_focus --&gt; insensible_corpse_technique
+    click insensible_corpse_technique callback &quot;
+        Insensible Corpse Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: None/1 mote per -1&lt;br&gt;
+        Duration: Permanent/one scene&lt;br&gt;
+        Type: Special/Reflexive&lt;br&gt;
+        Minimum Endurance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Pain-Eating Focus&lt;br&gt;
+        &lt;br&gt;
+        Many Abyssal Exalted show disturbing indifference
+        to suffering. When this Charm is purchased, the player
+        must decide whether to permanently inure the Exalt
+        against the worst of his pain or cultivate a more powerful
+        numbing for short-term use. In the former case, the Exalt
+        permanently subtracts 2 from all wound penalties. Such
+        anesthetizing does not accelerate healing, so a -2 level
+        reduced to -0 still regenerates as a -2. However, this
+        penalty reduction is cumulative, so characters buying this
+        Charm twice subtract 4 from their wound penalties. Once
+        this Charm is purchased three times, the Exalt is thereafter
+        immune to all but the most unimaginably terrible agony.
+        In its configuration as a temporary anesthetic, this
+        Charm allows characters to dampen pain with Essence.
+        For every mote spent, the Exalt can ignore one die of
+        wound penalties. This Charm can be used multiple times
+        in a scene, with cumulative effect. Characters can even
+        negate more dice of wound penalties than they currently
+        suffer from in preparation for future injury. Exalted who
+        know the temporary and permanent form of this Charm
+        combine both effects when determining their final wound
+        penalty reduction.
+        &quot;
+
+    agony_savoring_spirit[Agony-Savoring Spirit]
+    pain_eating_focus --&gt; agony_savoring_spirit
+    click agony_savoring_spirit callback &quot;
+        Agony-Savoring Spirit&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Endurance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Pain-Eating Focus&lt;br&gt;
+        &lt;br&gt;
+        Where an Abyssal with Pain-Eating Focus draws
+        power from her own torment, a character with this Charm
+        may feed on the suffering of others. A character can use
+        this Charm whenever she slays an individual single-
+        handedly. The Abyssal’s player rolls Conviction. Each
+        success restores one point of Willpower.
+        &quot;
+
+    </pre></section>
+<section id="performance">
+<h3>Performance<a class="headerlink" href="#performance" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    haunting_inflection_trick[Haunting Inflection Trick]
+    click haunting_inflection_trick callback &quot;
+        Haunting Inflection Trick&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2 dice&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Supplemental&lt;br&gt;
+        Minimum Performance: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        As the Exalt speaks, her voice takes on an
+        otherworldly tone. Whether shattered into multiple discordant
+        pitches or augmented to mellifluous grace, her
+        augmented tone adds emotional weight to everything she
+        says. The character can add 2 dice to a Performance or
+        Presence dice pool for every mote spent, although she
+        may not more than double her pool. The character must
+        be employing her voice to invoke this Charm, whether
+        for singing, teaching or oration.
+        &quot;
+
+    withering_dirge[Withering Dirge]
+    haunting_inflection_trick --&gt; withering_dirge
+    click withering_dirge callback &quot;
+        Withering Dirge&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes per 1L damage&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Performance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Haunting Inflection Trick&lt;br&gt;
+        &lt;br&gt;
+        A deathknight can channel Essence into a mourn-
+        ful song so that members of his audience, willing or
+        otherwise, start to die as they listen to it. Their bodies
+        weaken as their life Essence is sucked away into the
+        Underworld. Each listener suffers 1L for every 2 motes
+        spent on the Charm, up to a maximum damage equal to
+        the deathknight’s permanent Essence. This damage
+        leaves no physical mark and may only be soaked with
+        Stamina or soak-boosting Charms. Characters can only
+        use this Charm once per turn, although they may acti-
+        vate it on subsequent turns to continue their song
+        unabated. The exact nature of a Withering Dirge de-
+        pends on the Abyssal, but there is no mechanical
+        difference between an achingly beautiful requiem and a
+        piercing scream of anguish. Nonliving beings and the
+        deaf are immune to this Charm.
+        &quot;
+
+    lamenting_ghost_technique[Lamenting Ghost Technique]
+    withering_dirge --&gt; lamenting_ghost_technique
+    click lamenting_ghost_technique callback &quot;
+        Lamenting Ghost Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 1L damage&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Withering Dirge&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal with this Charm can transform her voice
+        into a terrible weapon. The character opens her mouth
+        wide and screams, pouring Essence into a devastating sonic
+        blast. The character’s player rolls Manipulation + Performance
+        to hit a single target, inflicting a base damage of 1L
+        for every mote of Essence spent. Extra successes add as
+        normal. This attack cannot be parried, only dodged, and
+        may be soaked only with Stamina and other natural soak
+        enhancers. Lamenting Ghost Technique has a range of
+        (the character’s Performance x 10) yards. An Abyssal may
+        not spend more motes powering this Charm than her
+        Stamina + Essence.
+        &quot;
+
+    elegy_for_the_fallen[Elegy for the Fallen]
+    haunting_inflection_trick --&gt; elegy_for_the_fallen
+    click elegy_for_the_fallen callback &quot;
+        Elegy for the Fallen&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Special&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Haunting Inflection Trick&lt;br&gt;
+        &lt;br&gt;
+        Preaching the veneration of death and the dead is
+        seen as a sacred obligation by many deathknights. Such
+        adulation serves two purposes: strengthening the power of
+        the Underworld and garnering useful allies among the
+        dead. To these ends, Abyssal Exalted with this Charm may
+        channel the prayers of a living congregation to empower
+        the dead. A memorial service can be directed at a single
+        ghost or the dead in general, as decided by the Exalt, but
+        such worship can only be carried out at night.&lt;br&gt;
+        If targeting a single ghost, the Abyssal spends one or
+        more hours leading his assembled congregation in prayers
+        to the honored deceased. Such prayers can take the form
+        of a high ritual, a mournful song or dance — even a
+        lighthearted wake. After each hour, the character’s player
+        rolls dice equal to the number of active participants. The
+        total number of dice cannot be greater than twice the
+        deathknight’s Charisma + Performance. A ghost who is
+        subject of such a celebration regains 1 mote of Essence for
+        every success rolled — or half that number if she is not
+        physically present at the memorial.&lt;br&gt;
+        If used to facilitate general worship of death, this
+        Charm uses the same system. However, the total Essence
+        generated is divided evenly among all ghosts through the
+        mausoleums of Stygia.
+        &quot;
+
+    morbid_fascination_style[Morbid Fascination Style]
+    click morbid_fascination_style callback &quot;
+        Morbid Fascination Style&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal may instantly command
+        fear and respect from an assembled crowd. Audience
+        members may not like her performance or believe her
+        words, but they recognize the implicit malice she embodies
+        and treat her accordingly. In short, they may not like her,
+        but they know better than to heckle or depart before the
+        end of the show. A few disturbed souls may actually find
+        the Abyssal more alluring as a result of her dangerous edge,
+        but these are the exception, not the rule. This Charm only
+        works on non-magical beings.
+        &quot;
+
+    heart_sculpting_oration[Heart-Sculpting Oration]
+    haunting_inflection_trick --&gt; heart_sculpting_oration
+    morbid_fascination_style --&gt; heart_sculpting_oration
+    click heart_sculpting_oration callback &quot;
+        Heart-Sculpting Oration&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Haunting Inflection Trick, Morbid Fascination Style&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal with this Charm can inflame or harden
+        the passions of the living and the dead alike. The character
+        speaks with smoldering fervor or cold certainty, lending
+        supernatural conviction to her words and mannerisms.
+        The Abyssal’s player selects an emotion and rolls Manipulation
+        + Performance at difficulty 2. If the desired emotion
+        is innately negative — such as hate, fear or sorrow—this
+        roll is made at standard difficulty.&lt;br&gt;
+        Targets whose Willpower score is less than the number
+        of successes rolled are completely overwhelmed by the
+        emotional onslaught and act accordingly. A crowd suffused
+        with rage is apt to riot, while a celibate monk
+        overcome with lust seeks to indulge his previously repressed
+        desire. Targets with a Willpower less than twice
+        the number of successes rolled may make a Willpower roll
+        (difficulty 1) to resist the emotion. Individuals whose
+        Willpower exceeds twice the successes rolled are completely
+        unaffected. The emotional tampering caused by
+        this Charm only lasts for one scene, although low Temperance
+        characters may continue to indulge themselves for
+        some time afterward, at Storyteller discretion.&lt;br&gt;
+        This Charm can also induce apathy, rather than
+        passion. This requires the same roll, but affected characters
+        find themselves emotionally numbed. Everything
+        feels crushingly bleak and hollow. This effect can be
+        used to quell riots, as apathetic mobs quickly lose inertia
+        and disperse.
+        &quot;
+
+    morale_shattering_method[Morale-Shattering Method]
+    withering_dirge --&gt; morale_shattering_method
+    heart_sculpting_oration --&gt; morale_shattering_method
+    click morale_shattering_method callback &quot;
+        Morale-Shattering Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Withering Dirge, Heart-Sculpting Oration&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal Exalt who knows this Charm can radiate
+        a nimbus of cold dread that saps the morale of enemies. All
+        enemy troops within a radius of (the character’s Conviction
+        x 100) yards feel terror seize their hearts. Soldiers
+        ensorcelled with this Charm lose 1 die from all combat dice
+        pools and their players suffer a +1 difficulty on all Valor
+        rolls. The effect of this Charm on the overall outcome of
+        a battle rests within the Storyteller’s discretion, but its
+        influence should be considerable.
+        &quot;
+
+    hardened_killer_training_style[Hardened Killer Training Style]
+    morale_shattering_method --&gt; hardened_killer_training_style
+    click hardened_killer_training_style callback &quot;
+        Hardened Killer Training Style&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One week&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Performance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Morale-Shattering Method&lt;br&gt;
+        &lt;br&gt;
+        Although many deathknight generals prefer mute
+        legions of zombies to unpredictable mortal troops, a few
+        recognize the power of the human spirit — and the beauty
+        in crushing that spirit to serve the will of the Deathlords.
+        Abyssals who know this Charm can transform a motley
+        crew of peaceful farmers and children into competent
+        merciless killers with disturbing ease.&lt;br&gt;
+        Characters may supervise a maximum of (their Es-
+        sence rating x 100) soldiers in a given week. Soldiers
+        trained for a month or longer are considered elite troops.
+        They are quite disciplined, with relevant combat Abilities
+        rated at 3 or higher and usually a specialty or two in a
+        favored weapon.&lt;br&gt;
+        More importantly, this brutal training regimen gradu-
+        ally wears away humanity and replaces it with psychotic
+        malice. For every two weeks that a soldier undergoes this
+        instruction, she loses one dot of Compassion and gains a
+        dot of either Valor or Conviction. By the time they
+        graduate, the new soldiers typically have Compassion 1
+        and five or more dots divided between Conviction and
+        Valor. Continued use of this Charm only further increases
+        the combat prowess of the Abyssal’s troops.
+        &quot;
+
+    </pre></section>
+<section id="presence">
+<h3>Presence<a class="headerlink" href="#presence" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    elegant_tyrants_majesty[Elegant Tyrant's Majesty]
+    click elegant_tyrants_majesty callback &quot;
+        Elegant Tyrant's Majesty&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One hour&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal using this Charm radiates terrible allure. His
+        words resound with unholy power and conviction, while his
+        every gesture bespeaks grace and nobility. The Exalt’s player
+        adds a number of dice equal to his character’s permanent
+        Essence to all Presence, Socialize and Bureaucracy rolls
+        involving one-on-one interaction. This bonus also applies to
+        all intimidation attempts, regardless of the number of onlook-
+        ers present. Note that this Charm engenders respect and fear
+        — it does not win friends or make the Exalt more likeable.
+        &quot;
+
+    command_the_dead[Command the Dead]
+    elegant_tyrants_majesty --&gt; command_the_dead
+    click command_the_dead callback &quot;
+        Command the Dead&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5/10 motes, 1 Willpower + 1/3 motes per additional target&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Elegant Tyrant’s Majesty&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal using this Charm may issue orders to the
+        dead and demand their obedience. If targeting mindless
+        undead or hungry ghosts, the cost of the Charm is 5 motes,
+        plus 1 mote for every additional target beyond the first.
+        Actual ghosts require 10 motes, plus 3 motes per additional
+        target, and the Exalt must have a permanent Essence of 3
+        or higher to control such beings.&lt;br&gt;
+        The Exalt’s player rolls Manipulation + Presence against
+        a difficulty of the target’s permanent Essence. If targeting
+        multiple beings, use the highest Essence rating in the group.
+        The amount of control the character has depends on the
+        number of successes rolled. One success is sufficient to bark
+        simple harmless commands that do not violate the target’s
+        Nature (“Back off!” for example). With three successes, the
+        target must completely obey the Exalt, although sentient
+        targets may ignore commands that would cause them physical
+        harm. With five successes, the target does anything the
+        Exalt commands for the duration of the Charm.&lt;br&gt;
+        Keep in mind that the walking dead aren’t the brightest
+        creatures and have difficulty comprehending anything
+        more complicated than a simple sentence. While more
+        intelligent, ghosts are similarly limited by language. The
+        dead cannot obey instructions they do not understand,
+        regardless of their degree of obedience. Ensorcelled targets
+        never attack their master, however — at least, not until
+        they regain their own free will.&lt;br&gt;
+        An Abyssal may also use Command the Dead to usurp
+        control of walking dead and ghosts from other necromancers.
+        This follows the same rules, except that the difficulty
+        is the Essence rating of the targets’ current master. Characters
+        cannot usurp control from necromancers with a
+        higher permanent Essence than their own.
+        &quot;
+
+    skeleton_summoning_gesture[Skeleton Summoning Gesture]
+    command_the_dead --&gt; skeleton_summoning_gesture
+    click skeleton_summoning_gesture callback &quot;
+        Skeleton Summoning Gesture&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Command the Dead&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal channels a burst of Essence into the
+        ground beneath her feet. If a largely whole skeleton is in
+        the vicinity, it claws its way out of the ground and
+        emerges at the beginning of the next turn. Skeletons
+        raised with this Charm obey their maker to the best of
+        their limited intelligence and have the same statistics as
+        common zombies (see Exalted, p. 298). These monsters
+        are always extras.
+        &quot;
+
+    irresistible_succubus_style[Irresistible Succubus Style]
+    elegant_tyrants_majesty --&gt; irresistible_succubus_style
+    click irresistible_succubus_style callback &quot;
+        Irresistible Succubus Style&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Elegant Tyrant’s Majesty&lt;br&gt;
+        &lt;br&gt;
+        Irresistible Succubus Style heightens an Abyssal’s
+        cold beauty, transforming her visage to match her idealized
+        form. Deathknights using this Charm are alabaster angels
+        or onyx goddesses, achingly beautiful apparitions with
+        flawless skin and ruby lips. A character adds her permanent
+        Essence to her Appearance rating as long as she remains
+        enchanted. This metamorphosis is no illusion, however,
+        but an ideal brought to life with Essence. As such, the
+        character’s altered beauty cannot be pierced by magic that
+        detects glamour or illusions.&lt;br&gt;
+        In addition to augmenting her beauty, this Charm
+        also causes the Abyssal to exude an aura of seduction.
+        Players of characters who behold the Exalt or interact with
+        her must make a successful Temperance roll. If the roll
+        fails, the characters find the Abyssal overwhelmingly
+        desirable regardless of their normal sexual preference.
+        They will not harm the Exalt and are likely to behave
+        irrationally in an attempt to impress her. If the Exalt
+        actually wishes to seduce a smitten character, she may do
+        so without a roll.&lt;br&gt;
+        This aura has no effect on beings with an Essence
+        rating higher than the Exalt invoking the Charm, nor does
+        it affect the Fair Folk. Similarly, this aura has no effect on
+        characters engaged in combat or who otherwise believe
+        the Abyssal means them harm. Overtly hostile acts on the
+        part of the Exalt may render a particular subject immune
+        but do not prevent this Charm from enthralling others.
+        &quot;
+
+    soul_flaying_gaze[Soul-Flaying Gaze]
+    elegant_tyrants_majesty --&gt; soul_flaying_gaze
+    click soul_flaying_gaze callback &quot;
+        Soul-Flaying Gaze&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Elegant Tyrant’s Majesty&lt;br&gt;
+        &lt;br&gt;
+        By staring intently at a target, an Abyssal with this
+        Charm can sap that victim’s will and subjugate her spirit.
+        The target must be within five yards and must be able to see
+        the Exalt when Soul-Flaying Gaze is invoked. If these
+        conditions are met, the target finds her vision drawn to the
+        deathknight’s own eyes.&lt;br&gt;
+        As their gazes connect, the Abyssal’s player rolls
+        Manipulation + Presence in a resisted roll against the
+        target’s Willpower. If the Exalt wins, the target is immediately
+        entranced and can take no further actions that turn.
+        Additionally, the victim loses a number of points of
+        Willpower equal to the Abyssal’s permanent Essence.&lt;br&gt;
+        If the target wins, the Charm has no effect. A
+        character who loses all Willpower from this Charm
+        become highly suggestible to the Abyssal. Although she
+        cannot be ordered to do anything to harm herself or
+        others (unless naturally predisposed to do so), such a
+        hapless individual otherwise obeys the Exalt for the rest
+        of the scene. This control shatters immediately if the
+        victim suffers actual damage, although she must regain
+        lost Willpower normally.
+        &quot;
+
+    compelling_whisper_technique[Compelling Whisper Technique]
+    soul_flaying_gaze --&gt; compelling_whisper_technique
+    click compelling_whisper_technique callback &quot;
+        Compelling Whisper Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: Special&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Soul-Flaying Gaze&lt;br&gt;
+        &lt;br&gt;
+        Layering his speech with a haunting chorus of voices,
+        the Abyssal may implant hidden commands in a target’s
+        psyche. Roll the character’s Manipulation + Presence in a
+        resisted contest against the target’s Willpower. If the target
+        wins, she immediately knows what the Exalt attempted to
+        do and the precise conditions of the suggestion. If the Exalt
+        wins, however, he may issue one order.&lt;br&gt;
+        This instruction can be as simple or complicated as
+        desired, but the intended task cannot take longer than the
+        Abyssal’s Essence rating in turns. The suggestion remains
+        until its conditions are met or a number of days equal to the
+        Manipulation of the Exalt have passed. During this time,
+        the target has no conscious recollection of her orders. Even
+        after the target carries out her instructions, she does not
+        recall the act unless specified to do so. Even if she remembers
+        her actions, she does not connect them with a hypnotic
+        suggestion unless she has other reason to believe such
+        tampering occurred. This Charm cannot make characters
+        hurt themselves or others unless they are already strongly
+        predisposed to do so.
+        &quot;
+
+    heart_stopping_mien[Heart-Stopping Mien]
+    soul_flaying_gaze --&gt; heart_stopping_mien
+    click heart_stopping_mien callback &quot;
+        Heart-Stopping Mien&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Presence: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Soul-Flaying Gaze&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal with this Charm blazes with unholy
+        power and radiates unimaginable soul-chilling horror,
+        causing his anima to flare as if he had spent 15 motes of
+        Peripheral Essence. While Heart-Stopping Mien is in
+        effect, a successful reflexive Valor roll is required each turn
+        to attack the character or to voluntarily approach within
+        two yards of him. If an aggressor fails, she suffers unsoakable
+        lethal damage equal to the Abyssal’s Essence rating. Characters
+        that suffer more damage in this fashion than their
+        Stamina spend the rest of the turn writhing in agony and
+        lose their action.&lt;br&gt;
+        Injuries inflicted by this Charm typically manifest as
+        heart attacks or strokes, although more exotic torments are
+        not unheard of. Magical beings (including other Exalts) do
+        not suffer this damage but, instead, cannot attack the
+        deathknight on a turn that their players fail a Valor roll.
+        Those who can attack the Abyssal do so at a die penalty
+        equal to the deathknight’s permanent Essence. This Charm
+        is not compatible with the Dusk Caste anima power.
+        &quot;
+
+    </pre></section>
+<section id="resistance">
+<h3>Resistance<a class="headerlink" href="#resistance" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    spirit_hardened_frame[Spirit-Hardened Frame]
+    click spirit_hardened_frame callback &quot;
+        Spirit-Hardened Frame&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2+ motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The Exalted channels calcifying death Essence through
+        his body, granting his flesh the resilience of leathery, wind-
+        dried tissue. For every 2 motes of Essence spent, the
+        character may add one point to his bashing soak. Additionally,
+        the character can add half this bonus to his lethal
+        soak (rounded down). Although this Charm can be activated
+        multiple times in a scene to stack protection, the
+        total bashing soak cannot exceed a character’s Stamina +
+        Resistance (or half that value for lethal soak). Spirit-
+        Hardened Frame is compatible with armor.
+        &quot;
+
+    ivory_blossom_carapace[Ivory Blossom Carapace]
+    spirit_hardened_frame --&gt; ivory_blossom_carapace
+    click ivory_blossom_carapace callback &quot;
+        Ivory Blossom Carapace&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 1B/1L, plus one lethal health level&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Spirit-Hardened Frame&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal seeps Essence into her skeleton, forcing
+        hundreds of bony spines through her skin to blossom into
+        armored plates over her entire body. At the end of the
+        scene, the plates fold back into quills and retract. Exoskeletons
+        grown with this Charm have one point of bashing
+        and lethal soak for every mote spent in their creation, as
+        well as a mobility penalty equal to half their soak rating
+        (rounded down). Characters cannot spend more motes
+        building an Ivory Blossom Carapace than their Stamina +
+        Resistance, no matter how many times they use this
+        Charm in a scene to add additional plating. Characters
+        wearing armor cannot use this Charm. The health level
+        cost of this Charm only applies the first time it is used
+        during a given scene.
+        &quot;
+
+    bone_arsenal_method[Bone Arsenal Method]
+    ivory_blossom_carapace --&gt; bone_arsenal_method
+    click bone_arsenal_method callback &quot;
+        Bone Arsenal Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: Varies&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Brawl: 2&lt;br&gt;
+        Minimum Resistance: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Ivory Blossom Carapace&lt;br&gt;
+        &lt;br&gt;
+        This multipurpose Charm allows characters to ex-
+        trude spikes and razor spines over their entire body or to
+        grow weapons from their limbs. If used to grow spines, the
+        Charm costs 8 motes, 1 Willpower and one lethal health
+        level. The lattice of blades provides an additional soak of
+        2B/2L that stacks with soak bonuses from other Charms.
+        Additionally, characters encased in blades can inflict
+        lethal damage with all “unarmed” hand-to-hand attacks,
+        including wrestling maneuvers such as clinches and tack-
+        les. Finally, anyone who grapples a character with spines or
+        strikes her barehanded must immediately soak a number of
+        dice of lethal damage equal to his own Strength.&lt;br&gt;
+        Growing melee weapons with Bone Arsenal Method
+        costs one lethal health level, as well as 1 mote for every
+        +1 invested in Speed, Accuracy, Defense or lethal dam-
+        age (all of which begin at a rating of 0). Characters
+        cannot raise any of these Traits higher than their perma-
+        nent Essence. Although weapons created with this Charm
+        can take virtually any form, they remain obvious exten-
+        sions of their creator’s skeleton and cannot be dropped or
+        taken away unless severed.&lt;br&gt;
+        Characters with Ivory Blossom Carapace activated do
+        not have to spend health levels to use any aspect of this
+        Charm, though other costs remain unchanged. All protru-
+        sions and weapons created by Bone Arsenal Method retract
+        into their owner’s skeleton when the Charm expires.
+        &quot;
+
+    crimson_petal_armor[Crimson Petal Armor]
+    ivory_blossom_carapace --&gt; crimson_petal_armor
+    click crimson_petal_armor callback &quot;
+        Crimson Petal Armor&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 1B/1L, 1 Willpower, one lethal&lt;br&gt;
+        health level&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Ivory Blossom Carapace&lt;br&gt;
+        &lt;br&gt;
+        Upon activation of this Charm, blood gushes from
+        every pore of the character’s skin and shapes itself into a
+        suit of enchanted armor. This liquid armor flows and shifts
+        with its wearer’s every motion, yet hardens to turn aside
+        blows as if it were made of the finest steel. When this
+        Charm expires, the glistening armor flows back into its
+        creator’s body through his mouth.&lt;br&gt;
+        Apart from its appearance, Crimson Petal Armor
+        follows the same rules as Ivory Blossom Carapace, ex-
+        cept that its liquid armor is virtually weightless and has
+        no mobility penalty. Characters cannot activate this
+        Charm while using Ivory Blossom Carapace (or vice
+        versa), just as with any other armor. Characters only
+        need to spend Willpower the first time they activate
+        this Charm during a scene.
+        &quot;
+
+    flowing_wound_defense[Flowing Wound Defense]
+    crimson_petal_armor --&gt; flowing_wound_defense
+    click flowing_wound_defense callback &quot;
+        Flowing Wound Defense&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower, one lethal health level&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Resistance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Crimson Petal Armor&lt;br&gt;
+        &lt;br&gt;
+        Building on the principle of Crimson Petal Armor,
+        this Charm allows an Abyssal to momentarily liquefy her
+        body and possessions to shrug off any blow or assault. Upon
+        impact, she seamlessly melts into gore and then re-solidifies,
+        allowing the attack to pass harmlessly through her
+        without resistance. This process is particularly gruesome
+        when defending against falls and other full-body trauma, as
+        the character splatters into a mass of congealed blood and
+        immediately reforms without injury. Characters using this
+        Charm take no damage from a single attack but must
+        contend with secondary effects normally. This momentary
+        invulnerability duplicates the protection granted by the
+        Solar Charm Adamant Skin Technique (see Exalted, p.
+        177) and is a form of perfect defense. A character must
+        invoke Flowing Wound Defense after his opponent spends
+        any motes to activate Charms but before the foe makes her
+        actual attack roll.
+        &quot;
+
+    plague_knows_its_master[Plague Knows Its Master]
+    spirit_hardened_frame --&gt; plague_knows_its_master
+    click plague_knows_its_master callback &quot;
+        Plague Knows Its Master&lt;br&gt;
+        &lt;br&gt;
+        Cost: None&lt;br&gt;
+        Duration: Permanent&lt;br&gt;
+        Type: Special&lt;br&gt;
+        Minimum Resistance: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Spirit-Hardened Frame&lt;br&gt;
+        &lt;br&gt;
+        Some Abyssal Exalted become highly resistant to
+        disease as a result of their consecration to the Malfeans. As
+        with Ox Body Technique, this blessing can be purchased
+        as if it were a Charm. Players of characters with Plague
+        Knows Its Master subtract their characters’ permanent
+        Essence from the difficulty of all Stamina + Resistance and
+        Stamina + Endurance rolls to resist or throw off infection
+        and disease. In the case of avoiding infected wounds, this
+        reduction is cumulative with the -2 modifier all Exalted
+        share. If the final difficulty of any modified roll is reduced
+        below 1, the character automatically avoids contracting
+        the illness or successfully purges it from his system (as
+        appropriate to the roll in question).
+        &quot;
+
+    snake_bites_its_tail[Snake Bites Its Tail]
+    spirit_hardened_frame --&gt; snake_bites_its_tail
+    click snake_bites_its_tail callback &quot;
+        Snake Bites Its Tail&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Resistance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Spirit-Hardened Frame&lt;br&gt;
+        &lt;br&gt;
+        The character amplifies her metabolism with Essence,
+        strengthening her body’s resistance to poison. For
+        the rest of the scene, the Exalt nullifies any poison she is
+        exposed to that has a resistance difficulty lower than her
+        permanent Essence. Against stronger poisons, the Exalt’s
+        player may add her character’s Essence in automatic successes
+        to her Stamina + Resistance roll. Characters need
+        not evoke this Charm before exposure to toxins, as long as
+        they activate it before rolling to resist. Incidental toxins
+        such as spoiled food are generally considered difficulty 1 or
+        2 for the purposes of this Charm. Characters protected by
+        this Charm may safely consume an additional number of
+        alcoholic drinks equal to their Resistance without penalty.
+        &quot;
+
+    scarlet_venom_technique[Scarlet Venom Technique]
+    snake_bites_its_tail --&gt; scarlet_venom_technique
+    click scarlet_venom_technique callback &quot;
+        Scarlet Venom Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: None&lt;br&gt;
+        Duration: Permanent&lt;br&gt;
+        Type: Special&lt;br&gt;
+        Minimum Resistance: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Snake Bites Its Tail&lt;br&gt;
+        &lt;br&gt;
+        Corrupted in body and spirit by the power of the
+        Malfeans, some Abyssal Exalted find their very blood
+        tainted with vile poison. Once a character purchases this
+        Charm, venom suffuses every fluid in her body. This
+        poison has the same statistics as arrow frog venom (see
+        Exalted, p. 243). Players of living beings consuming or
+        otherwise internalizing these tainted fluids (such as through
+        kissing or more intimate contact) must succeed at a Stamina
+        + Resistance roll or have their characters suffer the full
+        deleterious effects of the poison. This Charm cannot be
+        turned off or suppressed — the corruption is irreversible.
+        &quot;
+
+    armor_calling_kata[Armor-Calling Kata]
+    click armor_calling_kata callback &quot;
+        Armor-Calling Kata&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal can dramatically speed
+        the process of donning his armor. He need only gesture to
+        it, and his anima flows out to enfold the armor in a liquid
+        shroud of darkness. By the end of the turn, the anima
+        slithers back and fastens the armor perfectly in place. The
+        character must have the armor readily available and at
+        hand to use this Charm and may not grab his armor from
+        further away than his Essence in yards.
+        &quot;
+
+    void_banished_mail[Void-Banished Mail]
+    armor_calling_kata --&gt; void_banished_mail
+    click void_banished_mail callback &quot;
+        Void-Banished Mail&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes to summon or banish&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Armor-Calling Kata&lt;br&gt;
+        &lt;br&gt;
+        An Abyssal who knows this Charm can store his armor
+        Elsewhere, recalling it only as needed for battle. The character
+        must be wearing his armor with all its straps and
+        fastenings fitted properly to banish it. If these conditions are
+        met, the armor vanishes in a flash of ghostly light. At any
+        time, the character may concentrate and summon his armor
+        from Elsewhere, causing it to reappear on his person with a
+        scream of torn air. A character can only have one suit of
+        armor stored Elsewhere at a time and may not recall it unless
+        she is unarmored to receive it. Void-Banished Mail cannot
+        banish armor substantially larger than the Exalt, so it is
+        impossible to hide warstriders with this Charm.
+        &quot;
+
+    inauspiscious_shadow_plate[Inauspicious Shadow Plate]
+    void_banished_mail --&gt; inauspiscious_shadow_plate
+    click inauspiscious_shadow_plate callback &quot;
+        Inauspicious Shadow Plate&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Resistance: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Void-Banished Mail&lt;br&gt;
+        &lt;br&gt;
+        The Abyssal’s anima hardens, encasing her in a suit of
+        obsidian-black plate mail. This armor is an expression of
+        the character’s soul, and thus, it reflects her personality
+        and temperament. It may be ornate and decorated with
+        weeping faces and skulls or elegant in its simplicity — it is
+        the character’s ideal armor. Inauspicious Shadow Plate
+        provides 10L/10B soak, with only a -1 mobility penalty.
+        For an additional 2 motes, the deathknight can also grow
+        a sweeping black cape that moves and flows of its own
+        accord to entangle and snag incoming blows. This cloak
+        acts like a shield, increasing the difficulty of all attacks
+        against the Exalt by +1.
+        &quot;
+
+    </pre></section>
+<section id="survival">
+<h3>Survival<a class="headerlink" href="#survival" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    essence_engorgement_technique[Essence Engorgement Technique]
+    click essence_engorgement_technique callback &quot;
+        Essence Engorgement Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: None
+        Duration: Permanent
+        Type: Special
+        Minimum Survival: 1
+        Minimum Essence: 2
+        Prerequisite Charms: None
+        Lacking ready sources of Essence apart from cannibal-
+        ism, Abyssal Exalted must often conserve their power in
+        Creation. Deathknights with this Charm can offset this
+        weakness somewhat by bloating their animas with stolen
+        power. For each time this Charm is taken, the Abyssal adds
+        an additional 10 motes to his Peripheral Essence pool.
+        However, the Exalt can only fill this extra capacity by
+        consuming flesh or blood or by using Essence-draining
+        magic. The character cannot recharge this bonus pool
+        with Hearthstones, respiration or any other passive means.
+        Characters cannot take this Charm more times than their
+        permanent Essence rating.
+        &quot;
+
+    blood_feasting_technique[Blood-Feasting Technique]
+    essence_engorgement_technique --&gt; blood_feasting_technique
+    click blood_feasting_technique callback &quot;
+        Blood-Feasting Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: None&lt;br&gt;
+        Duration: Permanent&lt;br&gt;
+        Type: Special&lt;br&gt;
+        Minimum Survival: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms:Essence Engorgement Technique&lt;br&gt;
+        &lt;br&gt;
+        Once an Abyssal masters this Charm, he can subsist
+        entirely on a diet of human blood. The character must drink
+        a number of health levels per day equal to his permanent
+        Essence if he wishes to replace his body’s need for regular
+        food. While subsisting on blood, characters suffer no dietary
+        deficiencies. Many deathknights who learn this Charm find
+        their palettes prefer the sweet taste of life to blander solid
+        food. Note that blood consumed specifically as sustenance
+        for this Charm does not provide Essence.
+        &quot;
+
+    superior_predator_style[Superior Predator Style]
+    click superior_predator_style callback &quot;
+        Superior Predator Style&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 1&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal can intensify his aura of
+        menace to ward off animals. Herbivores and domesticated
+        beasts avoid the character completely and panic if directly
+        confronted. Most non-magical predators keep their distance,
+        fighting only as a last resort if cornered. This Charm
+        has less effect on magical beasts and super-predators such
+        as tyrant lizards and siaka. Such beings can overcome the
+        aversion with a successful Willpower roll, although they
+        still suffer a +1 difficulty to attack the Exalt.
+        &quot;
+
+    fetter_the_beast[Fetter the Beast]
+    superior_predator_style --&gt; fetter_the_beast
+    click fetter_the_beast callback &quot;
+        Fetter the Beast&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower, 1 experience point&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Superior Predator Style&lt;br&gt;
+        &lt;br&gt;
+        By beating an animal into submission or otherwise
+        abusing it to establish dominance, an Abyssal with this
+        Charm can mystically chain a beast to her will. The
+        character gains one dot of the Familiar Background each
+        time she uses this Charm, although she can only have one
+        Familiar at a time. Thus, it would take three applications
+        of this Charm to enslave a wild omen dog and another two
+        to gain communication and sharing of senses. Although
+        dangerous animals make superior slaves, it takes consider-
+        ably more work to tame them. Beating an angry bear until
+        it cowers in obedience can be problematic at best, to say
+        nothing of subduing a full-grown tyrant lizard. Characters
+        should prepare for appropriately epic combat unless they
+        plan on raising such monsters from birth.
+        &quot;
+
+    hunter_becomes_the_prey[Hunter Becomes the Prey]
+    superior_predator_style --&gt; hunter_becomes_the_prey
+    click hunter_becomes_the_prey callback &quot;
+        Hunter Becomes the Prey&lt;br&gt;
+        &lt;br&gt;
+        Cost: None&lt;br&gt;
+        Duration: Permanent&lt;br&gt;
+        Type: Special&lt;br&gt;
+        Minimum Survival: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Superior Predator Style&lt;br&gt;
+        &lt;br&gt;
+        While most deathknights can only absorb Essence
+        from the blood and flesh of other sentient beings, a few
+        have learned to draw power from lesser creatures. Once a
+        character purchases this Charm, he can devour animals to
+        regain Essence. Such prey must be consumed within minutes
+        of death and cannot be cooked or otherwise prepared.
+        Additionally, the animal must be a predator or scavenger.
+        If these conditions are met, the Exalt regains 1 mote for
+        every two health levels eaten. Otherwise, the meal affords
+        only physical sustenance.
+        &quot;
+
+    enduring_huntsman_method[Enduring Huntsman Method]
+    click enduring_huntsman_method callback &quot;
+        Enduring Huntsman Method&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, a character gains unnatural resilience
+        to hostile environments, regardless of attire or preparation.
+        She can withstand brutal extremes of temperature without ill
+        effect and need never fear hypothermia, frostbite, parasites,
+        sand blindness or any other hazard of the wilderness. This
+        resistance applies to virtually any condition a human body
+        could actually survive, however briefly. Thus, a character
+        could trudge naked through a blizzard without discomfort but
+        would not have an easier time breathing underwater or
+        surviving a raging bonfire. Ultimately, the limits of this
+        Charm are left to Storyteller discretion.
+        &quot;
+
+    sheltering_interment_prana[Sheltering Interment Prana]
+    enduring_huntsman_method --&gt; sheltering_interment_prana
+    click sheltering_interment_prana callback &quot;
+        Sheltering Interment Prana&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes per hour, plus 1 Willpower&lt;br&gt;
+        Duration: Until released&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Enduring Huntsman Method&lt;br&gt;
+        &lt;br&gt;
+        Pulling his arms and legs together like a corpse ready for
+        burial, an Abyssal with this Charm can mystically sink into
+        the earth. This process buries the character a full yard
+        underground, leaving no trace of excavation on the surface.
+        The character slips into a state of suspended animation for
+        the duration of the Charm and does not breathe, although
+        he still hungers normally. Sheltering Interment Prana lasts
+        one hour for every 3 motes spent, unless the torpid character
+        is injured or uncovered by digging. Once the Charm ends for
+        whatever reason, the character arises to the surface in a
+        shower of dirt and immediately regains consciousness. Characters
+        may regain Essence while interred (assuming they are
+        in a location that permits it), although motes used to power
+        the Charm remain committed during its duration.
+        &quot;
+
+    underworld_foraging_technique[Underworld Foraging Technique]
+    enduring_huntsman_method --&gt; underworld_foraging_technique
+    click underworld_foraging_technique callback &quot;
+        Underworld Foraging Technique&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One hour&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Enduring Huntsman Method&lt;br&gt;
+        &lt;br&gt;
+        By definition, few environments are as inhospitable
+        and lifeless as the dim recesses of the Underworld. The
+        food of ghosts is a poor substitute for the fruits of Creation,
+        and the strange beasts that lurk in the realm of the dead
+        afford little in the way of palatable meat. With this Charm,
+        however, an Abyssal may readily consume spectral food
+        and derive full nourishment from her meal.
+        &quot;
+
+    maze_unraveling_concentration[Maze-Unraveling Concentration]
+    enduring_huntsman_method --&gt; maze_unraveling_concentration
+    click maze_unraveling_concentration callback &quot;
+        Maze-Unraveling Concentration&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Enduring Huntsman Method&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal can mentally unlock the
+        twisting paths of a labyrinth to find a desired course or
+        egress. The character may add his permanent Essence in
+        automatic successes to a single attempt to navigate a maze
+        or similarly convoluted network of passages. This Charm
+        also aids in navigating the Labyrinth beneath the Under-
+        world, although to a lesser degree. The Ebon Maze defies
+        sane comprehension, both for its size and alien geometry.
+        Characters can only unravel short stretches at a time, and
+        this Charm only applies to a single navigation roll.
+        &quot;
+
+    infallible_barghest_mien[Infallible Barghest Mien]
+    enduring_huntsman_method --&gt; infallible_barghest_mien
+    click infallible_barghest_mien callback &quot;
+        Infallible Barghest Mien&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die, plus 1 Willpower&lt;br&gt;
+        Duration: Until released&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 5&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Enduring Huntsman Method&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, an Abyssal can pursue a quarry with
+        supernatural prowess and determination. The player can
+        add one die per mote to any roll to track a single target
+        individual. This target must be decided when the Charm
+        is invoked and cannot later be changed. Bonus dice gained
+        from this Charm apply to all tracking attempts until the
+        character finds his quarry or gives up his hunt, although
+        this Charm cannot more than double a character’s dice
+        pool. Infallible Barghest Mien aids in tracking regardless of
+        environment; the character can stalk his quarry through
+        the twisting streets of a necropolis as readily as any wilder-
+        ness. Characters may only benefit from one application of
+        this Charm at a time. Characters using this Charm are
+        considered supernatural trackers.
+        &quot;
+
+    ghost_leaves_no_trail[Ghost Leaves No Trail]
+    infallible_barghest_mien --&gt; ghost_leaves_no_trail
+    click ghost_leaves_no_trail callback &quot;
+        Ghost Leaves No Trail&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5+ motes, 1 Willpower&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Survival: 5&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Infallible Barghest Mien&lt;br&gt;
+        &lt;br&gt;
+        For the duration of this Charm, the character passes as
+        unobtrusively as a phantom. She leaves no footprints or
+        scent or any sign of her passing that can be detected by
+        conventional means. The character can also extend this
+        protection to a maximum number of companions equal to
+        her permanent Essence rating at a cost of 5 motes each.
+        Only characters with supernatural tracking abilities can
+        hope to follow an Exalt shrouded by this Charm, and such
+        attempts are resolved through a normal tracking contest.
+        &quot;
+
+    </pre></section>
+</section>
+<section id="daybreak-caste">
+<h2>Daybreak Caste<a class="headerlink" href="#daybreak-caste" title="Link to this heading">¶</a></h2>
+<section id="craft">
+<h3>Craft<a class="headerlink" href="#craft" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    rust[Rust]
+    click rust callback &quot;
+        Rust&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Craft: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite: None&lt;br&gt;
+        &lt;br&gt;
+        The Exalted channels Essence directly into a piece of
+        metal, causing it to rust away to nothing within seconds.
+        This Charm can be used only on objects the size of a large
+        sword or a single suit of metal armor. This Charm does not
+        work on items made from or reinforced by the Five Magical
+        Materials. This Charm has a range of 10 yards x the
+        Abyssal's Essence and may be used only once per turn.
+        &quot;
+
+    </pre></section>
+<section id="investigation">
+<h3>Investigation<a class="headerlink" href="#investigation" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    speak_with_the_dead[Speak With the Dead]
+    click speak_with_the_dead callback &quot;
+        Speak With the Dead&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Investigation: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite: None&lt;br&gt;
+        &lt;br&gt;
+        The lands of the dead are not far from the lands of the
+        living. Sometimes ghosts can observe the doings of the
+        living with near clarity. This Charm allows an Abyssal to
+        ask a single question of an incorporeal ghost about events
+        that have happened in that location within the last 10
+        minutes x successes rolled.
+        &quot;
+
+    </pre></section>
+<section id="lore">
+<h3>Lore<a class="headerlink" href="#lore" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    blight[Blight]
+    click blight callback &quot;
+        Blight&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Lore: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite: None&lt;br&gt;
+        &lt;br&gt;
+        By forcing her death Essence into the land around her,
+        the deathknight can destroy all the plant life in the
+        vicinity and seriously damage the living creatures that live
+        there. The player rolls Charisma + Lore. All plants within
+        a circular area with a radius equal to the number of
+        successes rolled in meters wither and die. All animals and
+        people within that radius, including other Exalted, take
+        three dice of lethal damage.
+        &quot;
+
+    </pre></section>
+<section id="medicine">
+<h3>Medicine<a class="headerlink" href="#medicine" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    contaminate[Contaminate]
+    click contaminate callback &quot;
+        Contaminate&lt;br&gt;
+        &lt;br&gt;
+        Cost: 4 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Medicine: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite: None&lt;br&gt;
+        &lt;br&gt;
+        Diseases are one of the doors to the Underworld. This
+        Charm allows an Abyssal to open that door somewhat,
+        temporarily infecting the target with a plague. The player
+        chooses from one of the plagues listed in the Exalted rulebook
+        (page 298) and makes an Intelligence + Medicine roll. If the
+        roll is successful, the target must succeed on a Stamina +
+        Resistance roll to resist infection, just as if exposed to the
+        disease in question. The illness is noncommunicable.
+        &quot;
+
+    </pre></section>
+<section id="occult">
+<h3>Occult<a class="headerlink" href="#occult" title="Link to this heading">¶</a></h3>
+</section>
+</section>
+<section id="day-caste">
+<h2>Day Caste<a class="headerlink" href="#day-caste" title="Link to this heading">¶</a></h2>
+<section id="athletics">
+<h3>Athletics<a class="headerlink" href="#athletics" title="Link to this heading">¶</a></h3>
+</section>
+<section id="awareness">
+<h3>Awareness<a class="headerlink" href="#awareness" title="Link to this heading">¶</a></h3>
+</section>
+<section id="dodge">
+<h3>Dodge<a class="headerlink" href="#dodge" title="Link to this heading">¶</a></h3>
+</section>
+<section id="larceny">
+<h3>Larceny<a class="headerlink" href="#larceny" title="Link to this heading">¶</a></h3>
+</section>
+<section id="stealth">
+<h3>Stealth<a class="headerlink" href="#stealth" title="Link to this heading">¶</a></h3>
+</section>
+</section>
+<section id="moonshadow-caste">
+<h2>Moonshadow Caste<a class="headerlink" href="#moonshadow-caste" title="Link to this heading">¶</a></h2>
+<section id="bureaucracy">
+<h3>Bureaucracy<a class="headerlink" href="#bureaucracy" title="Link to this heading">¶</a></h3>
+</section>
+<section id="linguistics">
+<h3>Linguistics<a class="headerlink" href="#linguistics" title="Link to this heading">¶</a></h3>
+</section>
+<section id="ride">
+<h3>Ride<a class="headerlink" href="#ride" title="Link to this heading">¶</a></h3>
+</section>
+<section id="sail">
+<h3>Sail<a class="headerlink" href="#sail" title="Link to this heading">¶</a></h3>
+</section>
+<section id="socialize">
+<h3>Socialize<a class="headerlink" href="#socialize" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    imitations_of_mortality[Imitations of Mortality]
+    click imitations_of_mortality callback &quot;
+        Imitations of Mortality&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Craft: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite: None&lt;br&gt;
+        &lt;br&gt;
+        The Exalted channels Essence directly into a piece of
+        metal, causing it to rust away to nothing within seconds.
+        This Charm can be used only on objects the size of a large
+        sword or a single suit of metal armor. This Charm does not
+        work on items made from or reinforced by the Five Magical
+        Materials. This Charm has a range of 10 yards x the
+        Abyssal's Essence and may be used only once per turn.
+        &quot;
+
+    </pre></section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.webp" alt="Logo of Exalted 1e Charms"/>
+            </a></p>
+<h3><a href="index.html">Table of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="solar.html">Solar Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dragon_blooded.html">Dragon-Blooded Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lunar.html">Lunar Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sidereals.html">Sidereals Charms</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Abyssal Charms</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#dusk-caste">Dusk Caste</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#midnight-caste">Midnight Caste</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#daybreak-caste">Daybreak Caste</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#day-caste">Day Caste</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#moonshadow-caste">Moonshadow Caste</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="alchemical.html">Alchemical Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spirits.html">Spirit Charms</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="alchemical.html" title="Alchemical Charms"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="sidereals.html" title="Sidereals Charms"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Exalted 1e Charms 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Abyssal Charms</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright : All the content belong to White-Wolf. I am not affiliated with them in any way except in my love for their games.
+    </div>
+  </body>
+</html>
