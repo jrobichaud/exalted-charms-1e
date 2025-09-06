@@ -1,0 +1,310 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    spirit_hardened_frame[Spirit-Hardened Frame]
+    click spirit_hardened_frame callback "
+        Spirit-Hardened Frame<br>
+        <br>
+        Cost: 2+ motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The Exalted channels calcifying death Essence through
+        his body, granting his flesh the resilience of leathery, wind-
+        dried tissue. For every 2 motes of Essence spent, the
+        character may add one point to his bashing soak. Additionally,
+        the character can add half this bonus to his lethal
+        soak (rounded down). Although this Charm can be activated
+        multiple times in a scene to stack protection, the
+        total bashing soak cannot exceed a character’s Stamina +
+        Resistance (or half that value for lethal soak). Spirit-
+        Hardened Frame is compatible with armor.
+        "
+
+    ivory_blossom_carapace[Ivory Blossom Carapace]
+    spirit_hardened_frame --> ivory_blossom_carapace
+    click ivory_blossom_carapace callback "
+        Ivory Blossom Carapace<br>
+        <br>
+        Cost: 1 mote per 1B/1L, plus one lethal health level<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spirit-Hardened Frame<br>
+        <br>
+        The Abyssal seeps Essence into her skeleton, forcing
+        hundreds of bony spines through her skin to blossom into
+        armored plates over her entire body. At the end of the
+        scene, the plates fold back into quills and retract. Exoskeletons
+        grown with this Charm have one point of bashing
+        and lethal soak for every mote spent in their creation, as
+        well as a mobility penalty equal to half their soak rating
+        (rounded down). Characters cannot spend more motes
+        building an Ivory Blossom Carapace than their Stamina +
+        Resistance, no matter how many times they use this
+        Charm in a scene to add additional plating. Characters
+        wearing armor cannot use this Charm. The health level
+        cost of this Charm only applies the first time it is used
+        during a given scene.
+        "
+
+    bone_arsenal_method[Bone Arsenal Method]
+    ivory_blossom_carapace --> bone_arsenal_method
+    click bone_arsenal_method callback "
+        Bone Arsenal Method<br>
+        <br>
+        Cost: Varies<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Brawl: 2<br>
+        Minimum Resistance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Ivory Blossom Carapace<br>
+        <br>
+        This multipurpose Charm allows characters to ex-
+        trude spikes and razor spines over their entire body or to
+        grow weapons from their limbs. If used to grow spines, the
+        Charm costs 8 motes, 1 Willpower and one lethal health
+        level. The lattice of blades provides an additional soak of
+        2B/2L that stacks with soak bonuses from other Charms.
+        Additionally, characters encased in blades can inflict
+        lethal damage with all “unarmed” hand-to-hand attacks,
+        including wrestling maneuvers such as clinches and tack-
+        les. Finally, anyone who grapples a character with spines or
+        strikes her barehanded must immediately soak a number of
+        dice of lethal damage equal to his own Strength.<br>
+        Growing melee weapons with Bone Arsenal Method
+        costs one lethal health level, as well as 1 mote for every
+        +1 invested in Speed, Accuracy, Defense or lethal dam-
+        age (all of which begin at a rating of 0). Characters
+        cannot raise any of these Traits higher than their perma-
+        nent Essence. Although weapons created with this Charm
+        can take virtually any form, they remain obvious exten-
+        sions of their creator’s skeleton and cannot be dropped or
+        taken away unless severed.<br>
+        Characters with Ivory Blossom Carapace activated do
+        not have to spend health levels to use any aspect of this
+        Charm, though other costs remain unchanged. All protru-
+        sions and weapons created by Bone Arsenal Method retract
+        into their owner’s skeleton when the Charm expires.
+        "
+
+    crimson_petal_armor[Crimson Petal Armor]
+    ivory_blossom_carapace --> crimson_petal_armor
+    click crimson_petal_armor callback "
+        Crimson Petal Armor<br>
+        <br>
+        Cost: 1 mote per 1B/1L, 1 Willpower, one lethal<br>
+        health level<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Ivory Blossom Carapace<br>
+        <br>
+        Upon activation of this Charm, blood gushes from
+        every pore of the character’s skin and shapes itself into a
+        suit of enchanted armor. This liquid armor flows and shifts
+        with its wearer’s every motion, yet hardens to turn aside
+        blows as if it were made of the finest steel. When this
+        Charm expires, the glistening armor flows back into its
+        creator’s body through his mouth.<br>
+        Apart from its appearance, Crimson Petal Armor
+        follows the same rules as Ivory Blossom Carapace, ex-
+        cept that its liquid armor is virtually weightless and has
+        no mobility penalty. Characters cannot activate this
+        Charm while using Ivory Blossom Carapace (or vice
+        versa), just as with any other armor. Characters only
+        need to spend Willpower the first time they activate
+        this Charm during a scene.
+        "
+
+    flowing_wound_defense[Flowing Wound Defense]
+    crimson_petal_armor --> flowing_wound_defense
+    click flowing_wound_defense callback "
+        Flowing Wound Defense<br>
+        <br>
+        Cost: 5 motes, 1 Willpower, one lethal health level<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Crimson Petal Armor<br>
+        <br>
+        Building on the principle of Crimson Petal Armor,
+        this Charm allows an Abyssal to momentarily liquefy her
+        body and possessions to shrug off any blow or assault. Upon
+        impact, she seamlessly melts into gore and then re-solidifies,
+        allowing the attack to pass harmlessly through her
+        without resistance. This process is particularly gruesome
+        when defending against falls and other full-body trauma, as
+        the character splatters into a mass of congealed blood and
+        immediately reforms without injury. Characters using this
+        Charm take no damage from a single attack but must
+        contend with secondary effects normally. This momentary
+        invulnerability duplicates the protection granted by the
+        Solar Charm Adamant Skin Technique (see Exalted, p.
+        177) and is a form of perfect defense. A character must
+        invoke Flowing Wound Defense after his opponent spends
+        any motes to activate Charms but before the foe makes her
+        actual attack roll.
+        "
+
+    plague_knows_its_master[Plague Knows Its Master]
+    spirit_hardened_frame --> plague_knows_its_master
+    click plague_knows_its_master callback "
+        Plague Knows Its Master<br>
+        <br>
+        Cost: None<br>
+        Duration: Permanent<br>
+        Type: Special<br>
+        Minimum Resistance: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spirit-Hardened Frame<br>
+        <br>
+        Some Abyssal Exalted become highly resistant to
+        disease as a result of their consecration to the Malfeans. As
+        with Ox Body Technique, this blessing can be purchased
+        as if it were a Charm. Players of characters with Plague
+        Knows Its Master subtract their characters’ permanent
+        Essence from the difficulty of all Stamina + Resistance and
+        Stamina + Endurance rolls to resist or throw off infection
+        and disease. In the case of avoiding infected wounds, this
+        reduction is cumulative with the -2 modifier all Exalted
+        share. If the final difficulty of any modified roll is reduced
+        below 1, the character automatically avoids contracting
+        the illness or successfully purges it from his system (as
+        appropriate to the roll in question).
+        "
+
+    snake_bites_its_tail[Snake Bites Its Tail]
+    spirit_hardened_frame --> snake_bites_its_tail
+    click snake_bites_its_tail callback "
+        Snake Bites Its Tail<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spirit-Hardened Frame<br>
+        <br>
+        The character amplifies her metabolism with Essence,
+        strengthening her body’s resistance to poison. For
+        the rest of the scene, the Exalt nullifies any poison she is
+        exposed to that has a resistance difficulty lower than her
+        permanent Essence. Against stronger poisons, the Exalt’s
+        player may add her character’s Essence in automatic successes
+        to her Stamina + Resistance roll. Characters need
+        not evoke this Charm before exposure to toxins, as long as
+        they activate it before rolling to resist. Incidental toxins
+        such as spoiled food are generally considered difficulty 1 or
+        2 for the purposes of this Charm. Characters protected by
+        this Charm may safely consume an additional number of
+        alcoholic drinks equal to their Resistance without penalty.
+        "
+
+    scarlet_venom_technique[Scarlet Venom Technique]
+    snake_bites_its_tail --> scarlet_venom_technique
+    click scarlet_venom_technique callback "
+        Scarlet Venom Technique<br>
+        <br>
+        Cost: None<br>
+        Duration: Permanent<br>
+        Type: Special<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Snake Bites Its Tail<br>
+        <br>
+        Corrupted in body and spirit by the power of the
+        Malfeans, some Abyssal Exalted find their very blood
+        tainted with vile poison. Once a character purchases this
+        Charm, venom suffuses every fluid in her body. This
+        poison has the same statistics as arrow frog venom (see
+        Exalted, p. 243). Players of living beings consuming or
+        otherwise internalizing these tainted fluids (such as through
+        kissing or more intimate contact) must succeed at a Stamina
+        + Resistance roll or have their characters suffer the full
+        deleterious effects of the poison. This Charm cannot be
+        turned off or suppressed — the corruption is irreversible.
+        "
+
+    armor_calling_kata[Armor-Calling Kata]
+    click armor_calling_kata callback "
+        Armor-Calling Kata<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One turn<br>
+        Type: Simple<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        With this Charm, an Abyssal can dramatically speed
+        the process of donning his armor. He need only gesture to
+        it, and his anima flows out to enfold the armor in a liquid
+        shroud of darkness. By the end of the turn, the anima
+        slithers back and fastens the armor perfectly in place. The
+        character must have the armor readily available and at
+        hand to use this Charm and may not grab his armor from
+        further away than his Essence in yards.
+        "
+
+    void_banished_mail[Void-Banished Mail]
+    armor_calling_kata --> void_banished_mail
+    click void_banished_mail callback "
+        Void-Banished Mail<br>
+        <br>
+        Cost: 3 motes to summon or banish<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Resistance: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Armor-Calling Kata<br>
+        <br>
+        An Abyssal who knows this Charm can store his armor
+        Elsewhere, recalling it only as needed for battle. The character
+        must be wearing his armor with all its straps and
+        fastenings fitted properly to banish it. If these conditions are
+        met, the armor vanishes in a flash of ghostly light. At any
+        time, the character may concentrate and summon his armor
+        from Elsewhere, causing it to reappear on his person with a
+        scream of torn air. A character can only have one suit of
+        armor stored Elsewhere at a time and may not recall it unless
+        she is unarmored to receive it. Void-Banished Mail cannot
+        banish armor substantially larger than the Exalt, so it is
+        impossible to hide warstriders with this Charm.
+        "
+
+    inauspiscious_shadow_plate[Inauspicious Shadow Plate]
+    void_banished_mail --> inauspiscious_shadow_plate
+    click inauspiscious_shadow_plate callback "
+        Inauspicious Shadow Plate<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Void-Banished Mail<br>
+        <br>
+        The Abyssal’s anima hardens, encasing her in a suit of
+        obsidian-black plate mail. This armor is an expression of
+        the character’s soul, and thus, it reflects her personality
+        and temperament. It may be ornate and decorated with
+        weeping faces and skulls or elegant in its simplicity — it is
+        the character’s ideal armor. Inauspicious Shadow Plate
+        provides 10L/10B soak, with only a -1 mobility penalty.
+        For an additional 2 motes, the deathknight can also grow
+        a sweeping black cape that moves and flows of its own
+        accord to entangle and snag incoming blows. This cloak
+        acts like a shield, increasing the difficulty of all attacks
+        against the Exalt by +1.
+        "

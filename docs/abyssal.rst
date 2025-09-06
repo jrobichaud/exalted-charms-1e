@@ -29,6 +29,7 @@ Midnight Caste
 
 Endurance
 ^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/midnight_endurance_1.mmd
 
 Performance
 ^^^^^^^^^^^
@@ -40,9 +41,11 @@ Presence
 
 Resistance
 ^^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/midnight_resistance_1.mmd
 
 Survival
 ^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/midnight_survival_1.mmd
 
 Daybreak Caste
 --------------
