@@ -76,18 +76,23 @@ Day Caste
 
 Athletics
 ^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/day_athletics_1.mmd
 
 Awareness
 ^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/day_awareness_1.mmd
 
 Dodge
 ^^^^^
+.. mermaid:: ./mermaid/abyssal/day_dodge_1.mmd
 
 Larceny
 ^^^^^^^
+.. mermaid:: ./mermaid/abyssal/day_larceny_1.mmd
 
 Stealth
 ^^^^^^^
+.. mermaid:: ./mermaid/abyssal/day_stealth_1.mmd
 
 Moonshadow Caste
 -------------

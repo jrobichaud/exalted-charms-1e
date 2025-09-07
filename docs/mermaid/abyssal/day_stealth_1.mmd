@@ -1,0 +1,163 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    concealing_distraction_discipline[Concealing Distraction Discipline]
+    click concealing_distraction_discipline callback "
+        Concealing Distraction Discipline<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Stealth: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Briefly eroding the attention span of onlookers
+        with a gentle rush of Essence, an Abyssal with this
+        Charm becomes far more difficult to notice. Until the
+        end of the scene, all attempts to spot the Exalt increase
+        their difficulty by his permanent Essence. This increase
+        applies only so long as the Abyssal does not
+        draw undue attention to himself and remains unnoticed.
+        Once he is spotted by anyone, the Charm
+        immediately ends and cannot be reactivated until the
+        Exalt moves entirely out of sight.
+        "
+
+    encounter_banishing_gesture[Encounter-Banishing Gesture]
+    concealing_distraction_discipline --> encounter_banishing_gesture
+    click encounter_banishing_gesture callback "
+        Encounter-Banishing Gesture<br>
+        <br>
+        Cost: 3 motes per target<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Stealth: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Concealing Distraction Discipline<br>
+        <br>
+        Despite their prowess, even the most stealthy and
+        nimble Day Castes get caught from time to time. With this
+        Charm, a character can rip the memory of an encounter
+        from a target’s mind so that he forgets he ever saw the
+        Exalt. The Abyssal’s player rolls Manipulation + Stealth
+        against a difficulty of the target’s Essence (or highest
+        Essence in the case of a group). For every success rolled, the
+        target forgets the events of one turn. Thus, four successes
+        erase the past four turns of a target’s memory. As an added
+        benefit, a befuddled target will not notice the Abyssal
+        again for a like number of turns unless she draws attention
+        to herself. This gives the Exalt a few seconds to escape and
+        conceal herself more thoroughly. This Charm has no effect
+        on beings with a higher permanent Essence than the
+        Abyssal or against beings who are physically agitated (for
+        example, those in combat).
+        "
+
+    splinter_in_the_minds_eye[Splinter in the Mind's Eye]
+    encounter_banishing_gesture --> splinter_in_the_minds_eye
+    click splinter_in_the_minds_eye callback "
+        Splinter in the Mind's Eye<br>
+        <br>
+        Cost: 8 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Stealth: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Encounter-Banishing Gesture<br>
+        <br>
+        This Charm duplicates the effects and rules of En-
+        counter-Banishing Gesture, except that its effects extend
+        to a number of witnesses equal to the Abyssal’s Essence
+        rating x 10 without requiring motes for each observer.
+        "
+
+    noiseless_phantom_style[Noiseless Phantom Style]
+    concealing_distraction_discipline --> noiseless_phantom_style
+    click noiseless_phantom_style callback "
+        Noiseless Phantom Style<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Stealth in minutes<br>
+        Type: Reflexive<br>
+        Minimum Stealth: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms:Concealing Distraction Discipline<br>
+        <br>
+        Enveloped in the stillness of the grave, an Abyssal
+        with this Charm active makes no noise whatsoever. Her
+        footsteps do not echo or splash — she can jump or stomp
+        or shout in perfect eerie silence. Conversely, she cannot
+        speak or employ any magic that relies on sound. This
+        Charm only wards against sounds made by the character,
+        however. Her blade might slide soundlessly through a
+        victim’s ribs, but the effect would not muffle the victim’s
+        scream of pain or rasping death rattle.
+        "
+
+    stifled_cry_exercise[Stifled Cry Exercise]
+    noiseless_phantom_style --> stifled_cry_exercise
+    click stifled_cry_exercise callback "
+        Stifled Cry Exercise<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: One turn<br>
+        Type: Reflexive<br>
+        Minimum Stealth: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Noiseless Phantom Style<br>
+        <br>
+        The Abyssal focuses on a single victim within line of
+        sight and smothers his voice with Essence. Until the end
+        of the turn, the target cannot speak or make any other
+        vocalized noise. Day Caste assassins often employ this
+        Charm to prevent their victims from screaming. This
+        Charm has no effect on beings with a higher permanent
+        Essence than the Exalt.
+        "
+
+    shadow_cloak_technique[Shadow Cloak Technique]
+    noiseless_phantom_style --> shadow_cloak_technique
+    click shadow_cloak_technique callback "
+        Shadow Cloak Technique<br>
+        <br>
+        Cost: 2 motes per die<br>
+        Duration: Stealth in turns<br>
+        Type: Simple<br>
+        Minimum Stealth: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Noiseless Phantom Style<br>
+        <br>
+        The Abyssal cocoons himself in pure darkness, taking
+        on the wraithlike appearance of a solidified shadow.
+        So long as he remains in darkness or among other shadows,
+        he adds 1 die per 2 motes spent to all Stealth rolls.
+        The Exalt cannot purchase more dice with this Charm
+        than equal to twice his Essence rating. If a bright light is
+        shined on the hidden Exalt, his cloak dissolves immediately,
+        and the Charm ends.
+        "
+
+    unseen_wisp_method[Unseen Wisp Method]
+    concealing_distraction_discipline --> unseen_wisp_method
+    click unseen_wisp_method callback "
+        Unseen Wisp Method<br>
+        <br>
+        Cost: 2 motes per turn<br>
+        Duration: Varies<br>
+        Type: Simple<br>
+        Minimum Stealth: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms:Concealing Distraction Discipline<br>
+        <br>
+        The Abyssal vanishes wholly from sight, dissolving in
+        a ripple of scattering shadows. For a number of turns equal
+        to half the number of motes invested, the Exalt is visible as
+        nothing more than a wavering in the air. Ranged attacks
+        against her are all but impossible without magical aid or
+        well-described stunts, while close-range attacks suffer a
+        difficulty penalty of the deathknight’s permanent Essence.
+        "

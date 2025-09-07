@@ -1,0 +1,349 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    raitons_nimble_perch[Raiton's Nimble Perch]
+    click raitons_nimble_perch callback "
+        Raiton's Nimble Perch<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        With this Charm, an Abyssal becomes preternaturally
+        deft and light. She can balance on objects ordinarily
+        too weak or delicate to support her without risk of falling
+        or breaking the object. The deathknight’s player need
+        never make an Athletics roll for the Abyssal to move
+        gracefully or keep her footing, except in the most challenging
+        and improbable circumstances.
+        "
+
+    spider_pounce_technique[Spider Pounce Technique]
+    raitons_nimble_perch --> spider_pounce_technique
+    click spider_pounce_technique callback "
+        Spider Pounce Technique<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Raiton’s Nimble Perch<br>
+        <br>
+        Muscles strengthened beyond human limits, the Abyssal
+        lunges impossibly far and fast in the blink of an eye. The
+        character can move (Strength x 3) yards vertically or twice
+        that distance horizontally in place of a normal movement
+        action. For leaps that are somewhere in between, the
+        Storyteller determines the character’s jumping distance.
+        Characters may attack on the same turn that they employ
+        this Charm but receive no particular bonus for doing so
+        (except, possibly, the element of surprise). This Charm
+        can only be used once per turn.
+        "
+
+    automn_leafs_descent[Autumn Leaf's Descent]
+    spider_pounce_technique --> automn_leafs_descent
+    click automn_leafs_descent callback "
+        Autumn Leaf's Descent<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spider Pounce Technique<br>
+        <br>
+        Further buoying her body with Essence, the character
+        falls softly and quietly as a feather. The character can fall
+        noiselessly from any height up to a mile without suffering any
+        damage, so long as he invokes this Charm before he actually
+        lands. Once the character touches the ground, the protection
+        expires. Characters under the influence of this Charm are
+        virtually weightless and can crudely glide — but not fly — on
+        thermals and updrafts with a successful Dexterity + Athletics
+        roll at difficulty 2 but must continue to activate the Charm
+        from turn to turn, making it an expensive means of extended
+        flight. No roll is required if the character wishes to fall straight
+        down without such maneuvers.
+        "
+
+    falling_scythe_attack[Falling Scythe Attack]
+    spider_pounce_technique --> falling_scythe_attack
+    click falling_scythe_attack callback "
+        Falling Scythe Attack<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Athletics: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spider Pounce Technique<br>
+        <br>
+        The Abyssal springs into the air, adding deadly momentum
+        to her blow as she descends. Her attack is eerily
+        quiet and trails shadowy afterimages of the weapon or limb
+        used. The character makes her attack normally, but the
+        damage is doubled after it is rolled. Characters cannot move
+        in the same turn that they invoke Falling Scythe Attack,
+        which precludes it from being placed in a Combo with
+        Charms that involve or require movement, such as Flickering
+        Image Strike. This Charm can be placed in a Combo
+        with Spider Pounce Technique in order to extend the range
+        of the character’s jumping attack, but this does not further
+        increase the strike’s damage. This Charm is explicitly permitted
+        to be part of a Combo with Charms of other Abilities.
+        "
+
+    soaring_raptor_prana[Soaring Raptor Prana]
+    automn_leafs_descent --> soaring_raptor_prana
+    falling_scythe_attack --> soaring_raptor_prana
+    click soaring_raptor_prana callback "
+        Soaring Raptor Prana<br>
+        <br>
+        Cost: 3 motes, 1 Willpower<br>
+        Duration: Special<br>
+        Type: Simple<br>
+        Minimum Athletics: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Autumn Leaf’s Descent, Falling Scythe Attack<br>
+        <br>
+        Where he could only glide with Autumn Leaf’s Descent,
+        an Abyssal with this Charm can truly — if briefly —
+        fly. The character must spend a full turn in concentration as
+        he floods his being with Essence. At the end of the turn, he
+        is borne aloft on spectral winds and may subsequently fly
+        wherever he wishes. These winds cause capes and cloaks to
+        billow and flutter, giving the illusion of wings if the character
+        is so attired. Characters may keep this Charm active as
+        long as they continue to spend 2 motes of Essence each turn,
+        but they fall normally once they stop paying this reflexive
+        upkeep. All Essence spent on Soaring Raptor Prana remains
+        committed until the character ceases flying. While propelled
+        by this Charm, Exalts move (Dexterity x 9) yards per
+        turn and may attack other aerial combatants normally or
+        assault targets on the ground using ranged weapons. Alternately,
+        they can swoop and strike as they pass.<br>
+        Unless they are swooping, flying characters can only
+        be attacked with ranged weapons, by other flying/leaping
+        characters or on the initiative count when they strike a
+        ground based target in close combat. As usual, characters
+        rolling higher than the Abyssal can delay their initiative
+        to strike at the necessary moment. Due to the Exalt’s speed,
+        individuals other than his target strike him at a -3 dice
+        penalty unless wielding a long weapon, such a spear. In
+        such cases, the penalty drops to -1. The Exalt’s target may
+        attack him normally without penalty so long as she times
+        her strike accordingly.
+        "
+
+    shadow_races_the_light[Shadow Races the Light]
+    raitons_nimble_perch --> shadow_races_the_light
+    click shadow_races_the_light callback "
+        Shadow Races the Light<br>
+        <br>
+        Cost: 2+ motes<br>
+        Duration: One turn<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Raiton’s Nimble Perch<br>
+        <br>
+        With this Charm, a character may dramatically increase
+        her speed for short dashes. Upon activation, the
+        Exalt surges ahead as a muted blur of motion, her features
+        obscured in trailing wisps of shadow. She may increase her
+        sprinting speed by one factor for every 2 motes spent, up to
+        a maximum multiplier of her permanent Essence. For
+        example, a character with an Essence rating of 3 can spend
+        4 motes to triple her normal sprinting distance for the turn.
+        As an additional benefit, characters employing this Charm
+        can run without fear of getting winded or weary.
+        "
+
+    flickering_image_strike[Flickering Image Strike]
+    shadow_races_the_light --> flickering_image_strike
+    click flickering_image_strike callback "
+        Flickering Image Strike<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplementary<br>
+        Minimum Athletics: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Shadow Races the Light<br>
+        <br>
+        With this Charm, an Exalt delivers a single devastating
+        blow as he rushes past an opponent. While executing
+        this attack, the character is a flickering blur of violence
+        and shadow — his motions appear broken as if viewed by
+        the light of a pulsing strobe. The character makes his
+        attack normally, but the damage he inflicts is doubled after
+        it is rolled.<br>
+        The Exalt can move up to his normal sprinting distance
+        without penalty on the same turn he activates this
+        Charm, although he is not required to do so. He must have
+        relative freedom of motion, however, so restrained characters
+        cannot use this Charm. Flickering Image Strike is
+        explicitly permitted to be part of Combos with Charm of
+        other Abilities.
+        "
+
+    crouching_gargoyle_stance[Crouching Gargoyle Stance]
+    shadow_races_the_light --> crouching_gargoyle_stance
+    click crouching_gargoyle_stance callback "
+        Crouching Gargoyle Stance<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Special<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Shadow Races the Light<br>
+        <br>
+        The character hunches over and stretches at inhuman
+        angles, gaining unnatural flexibility and balance for
+        as long as he maintains this Charm. The Exalt can scuttle
+        or dash along any surface without regard to gravity, allowing
+        him to scale sheer walls or dance on a ceiling with equal
+        facility. Alternately, the character may stand motionless
+        at odd angles or cling to an impossible perch. Storytellers
+        should assign bonuses as appropriate. While useful, the
+        character’s distended limbs and joints reduce his Appearance
+        by 1, to a minimum rating of zero.<br>
+        The Exalt must pay 1 mote each turn he maintains
+        this Charm; this expenditure is reflexive and requires no
+        concentration. If the character does not pay this upkeep,
+        his body returns to its normal configuration, and he once
+        again becomes subject to gravity and inertia. All Essence
+        spent on Crouching Gargoyle Stance remains committed
+        until the Charm expires.
+        "
+
+    mist_over_ice[The Mist Over Ice]
+    shadow_races_the_light --> mist_over_ice
+    click mist_over_ice callback "
+        The Mist Over Ice<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Special<br>
+        Type: Reflexive<br>
+        Minimum Athletics: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Shadow Races the Light<br>
+        <br>
+        Stepping with the weightless poise of a ghost, a
+        character with this Charm can tread on water and other
+        fluid surfaces as easily as solid ground. Her silent footfalls
+        leave no ripples or wake, no sign to mark her passage as a
+        corporeal being. Although the character can walk on
+        dangerous liquids such as corrosive slime and magma
+        without sinking, such landscapes inflict normal injury to
+        the soles of her feet or shoes.<br>
+        Characters must spend 2 motes each turn that they
+        maintain Mist Over Ice. This upkeep is reflexive and does
+        not require significant effort, but the overall concentration
+        necessary to maintain this Charm adds +1 to the
+        difficulty of all complex tasks (as decided by the Storyteller).
+        If a character fails to pay this upkeep, she sinks
+        normally. All Essence spent on this Charm remains com-
+        mitted until the Exalt stops using Mist Over Ice.
+        "
+
+    enhanced_attribute_technique["Enhanced (Attribute) Technique"]
+    click enhanced_attribute_technique callback "
+        Enhanced (Attribute) Technique<br>
+        <br>
+        Cost: 3/5 motes per dot<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Athletics: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Suffusing his flesh and bones with Essence, the
+        Abyssal briefly elevates his physical prowess to superhuman
+        levels. When he purchases this Charm, the character
+        must choose whether to heighten agility or power. This
+        choice determines whether the character increases his
+        Strength or Dexterity. This Charm cannot be purchased
+        again, so the character must decide if he wishes to focus
+        on Strength or Dexterity.
+        For every 3 motes spent, the character raises his
+        Strength by one dot. For every 5 motes spent, the
+        character increases his Dexterity by one dot. The character
+        cannot increase an Attribute by more that his
+        permanent Essence rating.
+        "
+
+    infirmity_inflicting_gesture[Infirmity-Inflicting Gesture]
+    enhanced_attribute_technique --> |Strength| infirmity_inflicting_gesture
+    click infirmity_inflicting_gesture callback "
+        Infirmity-Inflicting Gesture<br>
+        <br>
+        Cost: 3 motes per dot, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Athletics: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Enhanced Strength Discipline<br>
+        <br>
+        With this Charm, an Abyssal can sap an enemy’s
+        vigor and leave him briefly enfeebled. The character
+        gestures to any living target within five yards, and a wave
+        of smothering Essence leaps from her fingers. Her player
+        makes a Willpower roll against a difficulty equal to the
+        target’s permanent Essence. If the roll is successful, the
+        victim loses 1 dot of Strength for every 3 motes spent.<br>
+        Exalted targets (and other beings capable of channeling
+        Essence) cannot have their Strength reduced below their
+        permanent Essence with this Charm. Additionally, magical
+        victims can cancel their weakness by spending 5 motes per
+        dot, although such resistance requires concentration and
+        counts as a dice action. This Charm has no effect on targets
+        whose permanent Essence is higher than the Abyssal’s.<br>
+        Non-magical targets are not so lucky, however. If
+        their Strength is reduced to zero, they remain at Strength
+        1 for the rest of the scene, but they also lose a permanent
+        dot of Strength that can only be recovered with experi-
+        ence. This Charm cannot permanently reduce a victim’s
+        Strength below 1.
+        "
+
+    strength_stealing_technique[Strength Stealing Technique]
+    infirmity_inflicting_gesture --> strength_stealing_technique
+    click strength_stealing_technique callback "
+        Strength Stealing Technique<br>
+        <br>
+        Cost: 4 motes per dot, plus 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Athletics: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Infirmity Inflicting Gesture<br>
+        <br>
+        With this Charm, an Abyssal can rob a living victim of
+        her potency and add it to his own might. The character must
+        successfully strike his target in hand-to-hand combat. Regardless
+        of whether the attack inflicts damage, the Abyssal’s
+        player makes a Willpower roll against the target’s permanent
+        Essence. If the Abyssal’s player wins, the victim loses 1 dot of
+        Strength for every 4 motes the Abyssal spent (according to
+        the same rules as Infirmity Inflicting Gesture). In addition,
+        the character gains 1 dot of Strength for every 2 dots temporarily
+        taken. This bonus lasts for the rest of the scene.<br>
+        The Exalt gains no Strength for reducing a mortal’s
+        rating and cannot more than double his unmodified
+        Strength with this Charm. Victims regain all lost Strength
+        at the end of the scene unless their rating has been
+        permanently reduced. This Charm is explicitly permitted
+        to be part of a Combo with Charms of other Abilities. As
+        with Infirmity Inflicting Gesture, mortal crippled by the
+        Charm cannot recover except by spending experience.
+        "

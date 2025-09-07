@@ -1,0 +1,246 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    theft_of_face[Theft of Face]
+    click theft_of_face callback "
+        Theft of Face<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One hour<br>
+        Type: Simple<br>
+        Minimum Larceny: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        By stealing a victim’s Essence, a character with this
+        Charm can also steal her visage. The player of the Abyssal
+        makes an Intelligence + Larceny roll after her character
+        consumes 1 or more motes of Essence from her target by
+        means of blood drinking or magic. The difficulty is 6 minus
+        the total number of motes taken. If a character drains a
+        victim entirely of blood or consumes all her flesh, the
+        difficulty is automatically 1. Successes on this roll count as
+        a mundane impersonation attempt (see Exalted, p. 255),
+        except that the Abyssal’s features actually shift to resemble
+        the victim’s. Players of characters attempting to pierce the
+        ruse may roll Perception + Awareness against a difficulty
+        of the deathknight’s successes. Note that the Exalt only
+        takes on the appearance of his target — the Charm does
+        not bestow knowledge of mannerisms. Characters who
+        know the target personally can quickly recognize the Exalt
+        as an imposter simply by interacting with him. This Charm
+        can only be used to impersonate humans.
+        "
+
+    theft_of_mien[Theft of Mien]
+    theft_of_face --> theft_of_mien
+    click theft_of_mien callback "
+        Theft of Mien<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: One hour<br>
+        Type: Simple<br>
+        Minimum Larceny: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Theft of Face<br>
+        <br>
+        This Charm duplicates the effects of Theft of Face
+        with one exception: The Exalt also steals intuitive knowl-
+        edge of her victim’s mannerisms and habits. Consequently,
+        the ruse is much more effective and can easily fool casual
+        associates of the target. Close family members can still
+        recognize that something is wrong, however, regardless of
+        whether they actually suspect an imposter or attribute the
+        odd behavior to illness.
+        "
+
+    flawless_doppleganger_disguise[Flawless Doppelganger Disguise]
+    theft_of_mien --> flawless_doppleganger_disguise
+    click flawless_doppleganger_disguise callback "
+        Flawless Doppelganger Disguise<br>
+        <br>
+        Cost: 15 motes, 1 Willpower, 1 experience point<br>
+        Duration: Until released<br>
+        Type: Simple<br>
+        Minimum Larceny: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Theft of Mien<br>
+        <br>
+        With this Charm, an Abyssal may consume the flesh
+        and spirit of a victim to steal her very identity. The
+        character must completely drain her victim of blood and
+        spend one hour digesting and studying the stolen Essence.
+        At the conclusion of her meditation, the Exalt
+        shifts into the perfect likeness of her victim. This is not
+        an illusion, however, but a startling transformation.
+        Every mark and scar is duplicated, every tic and mannerism
+        compensated for.<br>
+        If questioned, the Exalt can even draw on the stolen
+        memories of her prey with an Intelligence + Larceny roll
+        at a difficulty assigned by the Storyteller. No amount of
+        physical scrutiny can discern that the Abyssal is not whom
+        she pretends to be, although any display of an Abyssal
+        anima banner may spoil the effect. This Charm only
+        permits impersonation of human victims who are the same
+        gender as the Exalt. Although she may disguise herself as
+        an Exalted victim and even duplicate elemental aspect
+        markings or Lunar scarring, the character cannot emulate
+        the powers or anima of her stolen visage. Once the character
+        voluntarily ends this Charm, she loses all memories
+        and shifts back to her true form. Death also ends the ruse.
+        Characters can only assume a given guise once before the
+        memories are digested.
+        "
+
+    solar_impersonation_style[Solar Impersonation Style]
+    flawless_doppleganger_disguise --> solar_impersonation_style
+    click solar_impersonation_style callback "
+        Solar Impersonation Style<br>
+        <br>
+        Cost: 15 motes, 1 Willpower<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Larceny: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms:Flawless Doppelganger Disguise<br>
+        <br>
+        By channeling the nascent spark of Solar Essence
+        trapped within her, an Abyssal with this Charm can shift
+        her anima to resemble that of a Chosen of the Unconquered Sun.
+        While this Charm is in effect, the deathknight’s
+        anima banner and Caste Mark manifests exactly as a Solar
+        of the appropriate type (Dusk become Dawn, Midnight
+        becomes Zenith, etc.). This Charm only affects the anima
+        banner, however. The Exalt retains the anima power appropriate
+        to his true Caste. Any Zenith Caste Solar with a
+        Permanent Essence higher than the Abyssal’s can see
+        through the disguise. Only Abyssal Exalted can learn this
+        Charm, although it is rumored that some Solars of the
+        Night Caste may have developed a similar technique for
+        impersonating deathknights.
+        "
+
+    cunning_criminal_style[Cunning Criminal Style]
+    click cunning_criminal_style callback "
+        Cunning Criminal Style<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Larceny: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Many criminals live short bloody lives and die just as
+        bleakly. Accordingly, an Abyssal who taps into the web of
+        shared regrets and suffering of the criminal dead has a
+        wealth of information at his disposal. He can intuitively
+        pick out criminal establishments from honest businesses
+        and discern those who actively desire to sell or buy illegal
+        merchandise. Just as easily, the Abyssal can spot the lines
+        of power in the local crime scene and track them back to
+        the true crime-lords of the area. While this Charm remains
+        active, the character is at home in any criminal subculture.
+        Cunning Criminal Style cannot discern informers or undercover
+        agents from ordinary criminals unless there are
+        sufficient clues present to draw such a conclusion.
+        "
+
+    evidence_erasure_method[Evidence-Erasure Method]
+    cunning_criminal_style --> evidence_erasure_method
+    click evidence_erasure_method callback "
+        Evidence-Erasure Method<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Larceny: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Cunning Criminal Style<br>
+        <br>
+        With this Charm active, an Abyssal leaves no more
+        evidence of her passing than a ghost. She can be spotted
+        just as easily as before, but she does not drop unintentional
+        clues or leave physical evidence such as footprints, hair,
+        etc. Obviously, if an Abyssal wants to leave clues, she may
+        do so, since the Charm only protects against unintentional
+        evidence. Only supernatural tracking can find a character
+        shrouded with this Charm.
+        "
+
+    lock_weathering_touch[Lock-Weathering Touch]
+    cunning_criminal_style --> lock_weathering_touch
+    click lock_weathering_touch callback "
+        Lock-Weathering Touch<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Larceny: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Cunning Criminal Style<br>
+        <br>
+        With this Charm, an Exalt can instantly bypass any
+        mundane lock with a gentle touch. The lock rusts away
+        inside with a wisp of acrid smoke, causing the mechanism
+        to fall open. This Charm must be used separately on each
+        lock and may affect locked manacles as easily as the bolts
+        of doors and safes.
+        "
+
+    artful_conjuration_trick[Artful Conjuration Trick]
+    evidence_erasure_method --> artful_conjuration_trick
+    lock_weathering_touch --> artful_conjuration_trick
+    click artful_conjuration_trick callback "
+        Artful Conjuration Trick<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Larceny: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Evidence-Erasing Method, Lock-Weathering Touch<br>
+        <br>
+        Through the use of this Charm, an Abyssal becomes
+        preternaturally deft at sleight of hand and may
+        perform amazing feats of conjuration and legerdemain
+        without requiring a roll. For outright impossible stunts,
+        such as actually summoning a coin from a belt pouch
+        without reaching for it, the Storyteller may require a
+        Dexterity + Larceny roll. This Charm is intended for
+        trickery and bedazzlement, not combat. Instantly palming
+        a handful of shuriken is permissible, but the character
+        cannot actually create something from nothing, nor
+        steal possessions from an opponent. The Storyteller
+        retains final say on what can and cannot be done with
+        this Charm.
+        "
+
+    striking_snake_grab[Striking Snake Grab]
+    artful_conjuration_trick --> striking_snake_grab
+    click striking_snake_grab callback "
+        Striking Snake Grab<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Larceny: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Artful Conjuration Trick<br>
+        <br>
+        The Abyssal extends his hand in a lightning-fast
+        clutching gesture, reaching out with his Essence to steal an
+        object in his direct line of sight. The targeted object
+        flickers and vanishes, rematerializing from Elsewhere in
+        the character’s grasp. This Charm can only grab objects
+        small enough to comfortably hold with one hand and may
+        not take possessions out of a sentient being’s grasp. Possessions
+        on a person’s body can be swiped but not if they are
+        securely fastened. A money pouch could be grabbed but
+        not the belt it was affixed to, for example. Ultimately, the
+        Storyteller retains final say on what can or cannot be taken
+        with this Charm.
+        "

@@ -1,0 +1,140 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    flitting_shadow_form[Flitting Shadow Form]
+    click flitting_shadow_form callback "
+        Flitting Shadow Form<br>
+        <br>
+        Cost: 1 mote per 2 dice<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The Exalted channels Essence through his body and
+        movements, making him extremely difficult to strike. For
+        every mote spent, the Abyssal reduces the dice pool of a
+        single attack by two dice. This Charm can only target
+        attacks aimed specifically at the Exalt and may reduce a
+        dice pool to zero (ensuring that the attack misses). Characters
+        may activate this Charm any time after an attack is
+        declared but before dice are rolled. Flitting Shadow Form
+        can only target attacks the Exalt is aware of.
+        "
+
+    uncanny_impulse_evasion[Uncanny Impulse Evasion]
+    flitting_shadow_form --> uncanny_impulse_evasion
+    click uncanny_impulse_evasion callback "
+        Uncanny Impulse Evasion<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Flitting Shadow Form<br>
+        <br>
+        Whenever a character with this Charm is attacked,
+        she feels a sense of impending dread and may attempt to
+        sidestep an unseen blow on impulse alone. The character’s
+        dice pool for such a dodge equals her unmodified Dexterity.
+        This Charm cannot be placed in a Combo with other
+        Dodge Charms. If a deathknight’s player does not choose
+        to activate this Charm in response to an unseen attack, the
+        Exalt does not sense the blow until it lands. This Charm
+        must be activated prior to the attack roll.
+        "
+
+    fivefold_shadow_form[Fivefold Shadow Form]
+    flitting_shadow_form --> fivefold_shadow_form
+    click fivefold_shadow_form callback "
+        Fivefold Shadow Form<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Flitting Shadow Form<br>
+        <br>
+        Moving faster than the shadows cast by a guttering
+        candle, the Abyssal may evade blows with supernatural
+        prowess. The attacker loses a number of dice from a single
+        attack roll equal to the deathknight’s Dodge + Essence.
+        If this reduces an attack dice pool to zero, the blow
+        automatically misses. This Charm must be activated
+        prior to the attack roll.
+        "
+
+    flickering_wisp_technique[Flickering Wisp Technique]
+    fivefold_shadow_form --> flickering_wisp_technique
+    click flickering_wisp_technique callback "
+        Flickering Wisp Technique<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Fivefold Shadow Form<br>
+        <br>
+        The Abyssal ripples and vanishes like smoke in a stiff
+        breeze, coalescing a split second later a short distance
+        away. This Charm allows the Abyssal to perfectly dodge
+        any one attack that he can perceive without a roll,
+        including those with an area effect. The character still
+        cannot dodge magical effects that explicitly prohibit
+        dodging, however. The character may not move more
+        yards with this technique than his permanent Essence
+        rating and cannot use the Charm to teleport through
+        solid barriers. Flickering Wisp Technique must be activated
+        prior to the attack roll.
+        "
+
+    flowing_evasion_assault[Flowing Evasion Assault]
+    flickering_wisp_technique --> flowing_evasion_assault
+    click flowing_evasion_assault callback "
+        Flowing Evasion Assault<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Flickering Wisp Technique<br>
+        <br>
+        In addition to teleporting out of harm’s way, an
+        Abyssal with this Charm can ensure that she materializes
+        behind her opponent. Flowing Evasion Assault follows the
+        same rules as Flickering Wisp Technique with two exceptions.
+        First, the Exalt may reappear as far away as her Dodge
+        in yards. Secondly, if the attacker is within this range, the
+        Abyssal may automatically reappear behind her opponent.
+        If the Abyssal has any actions remaining to launch an
+        attack of her own, she gains the full benefits of attacking
+        from behind (see Exalted, p. 238).
+        "
+
+    incomparable_phantom_form[Incomparable Phantom Form]
+    uncanny_impulse_evasion --> incomparable_phantom_form
+    flickering_wisp_technique --> incomparable_phantom_form
+    click incomparable_phantom_form callback "
+        Incomparable Phantom Form<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Dodge: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Uncanny Impulse Evasion, Flickering Wisp Technique<br>
+        <br>
+        Suffusing his body with spectral Essence, the Abyssal
+        becomes translucent and partially dematerialized. In addition
+        to unnerving opponents, this transformation allows
+        the Exalt to dodge all incoming attacks, perceived or
+        otherwise, with his full Dexterity + Dodge pool.
+        "
