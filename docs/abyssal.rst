@@ -68,6 +68,7 @@ Medicine
 
 Occult
 ^^^^^^
+.. mermaid:: ./mermaid/abyssal/daybreak_occult_1.mmd
 
 
 Day Caste

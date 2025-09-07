@@ -4,23 +4,186 @@ config:
 ---
 flowchart TD
 
-    blight[Blight]
-    click blight callback "
-        Blight<br>
+    crypt_bolt[Crypt Bolt]
+    click crypt_bolt callback "
+        Crypt Bolt<br>
         <br>
-        Cost: 5 motes<br>
+        Cost: 1 mote per 2L damage<br>
         Duration: Instant<br>
         Type: Simple<br>
         Minimum Lore: 2<br>
         Minimum Essence: 2<br>
-        Prerequisite: None<br>
+        Prerequisite Charms: None<br>
         <br>
-        By forcing her death Essence into the land around her,
-        the deathknight can destroy all the plant life in the
-        vicinity and seriously damage the living creatures that live
-        there. The player rolls Charisma + Lore. All plants within
-        a circular area with a radius equal to the number of
-        successes rolled in meters wither and die. All animals and
-        people within that radius, including other Exalted, take
-        three dice of lethal damage.
+        The character reaches out his hand, and a bolt of
+        crackling darkness leaps from his outstretched palm. Damage
+        inflicted by this Charm manifests as sudden decay:
+        Metal corrodes or rusts, while wood and flesh wither away
+        as though blighted by disease and aging. The character’s
+        player rolls Dexterity + Athletics or Thrown (whichever
+        he prefers) to hit, applying an Accuracy bonus equal to his
+        permanent Essence. This attack has a range of (the
+        character’s permanent Essence x 10) yards and does a base
+        damage of 2L for each mote of Essence spent. Against Fair
+        Folk and creatures of the Wyld, Crypt Bolt inflicts aggravated
+        damage. A character cannot spend more motes on
+        this Charm than his Stamina + Lore.
+        "
+
+    essence_scattering_blast["Essence-Scattering Blast"]
+    crypt_bolt --> essence_scattering_blast
+    click essence_scattering_blast callback "
+        Essence-Scattering Blast<br>
+        <br>
+        Cost: 1+ mote, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Lore: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Crypt Bolt<br>
+        <br>
+        The character extends his arm, and a bolt of coruscating
+        energy flies from his fingertips. If this bolt strikes a being
+        with an Essence pool, it envelops her in ribbons of black
+        lightning and drains her energy. Although it inflicts no
+        damage, Essence-Scattering Blast otherwise follows the
+        same rules as Crypt Bolt with regards to its Range, Accuracy
+        and roll to hit. Victims struck by this attack lose 1 mote of
+        Essence for every mote spent activating this Charm, plus a
+        number of additional motes equal to the Exalt’s permanent
+        Essence. If applicable, victims always lose Peripheral Essence
+        before Personal Essence. This Charm dissipates
+        harmlessly if it hits anything besides a magical being,
+        including unExalted mortals. A character cannot spend
+        more motes on this Charm than his Stamina + Lore.
+        "
+
+    breath_draining_prana["Breath-Draining Prana"]
+    essence_scattering_blast --> breath_draining_prana
+    click breath_draining_prana callback "
+        Breath-Draining Prana<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Lore: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Essence-Scattering Blast<br>
+        <br>
+        With this Charm, an Abyssal may feed on a target’s
+        life force directly without even touching her. The player
+        rolls Willpower. Each success inflicts one die of lethal
+        damage that can only be soaked with Stamina. For every
+        level of damage actually inflicted, the Abyssal regains 1
+        mote of Essence. This Charm can also target the Essence
+        pool of a magical being, with successes draining
+        motes directly on a one-for-one basis. So long as the
+        Exalt drains fewer motes than a target’s Stamina, she
+        may not even notice the loss — attributing the sudden
+        weakness to some other cause. However, Essence drained
+        from another magical being’s pool glimmers in the air as
+        it flows out of the victim’s mouth and into the Abyssal’s
+        own. This Charm can target any being in the
+        deathknight’s line of sight.
+        "
+
+    radiant_blight_technique["Radiant Blight Technique"]
+    crypt_bolt --> radiant_blight_technique
+    click radiant_blight_technique callback "
+        Radiant Blight Technique<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Lore: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Crypt Bolt<br>
+        <br>
+        By forcing death Essence into the land around her, the
+        deathknight can destroy all the plant life in the vicinity
+        and seriously damage the creatures that live there. The
+        Abyssal’s player rolls Charisma + Lore. All plants within
+        a circular area with radius equal to the number of successes
+        rolled in yards wither and die. All animals and people
+        within that radius, including other Exalted, suffer dice of
+        lethal damage equal to the character’s permanent Essence.
+        The damage from this Charm is soaked only with the
+        character’s natural soak.
+        "
+
+    wyld_shield_meditation["Wyld-Shield Meditation"]
+    crypt_bolt --> wyld_shield_meditation
+    click wyld_shield_meditation callback "
+        Wyld-Shield Meditation<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: Special<br>
+        Type: Simple<br>
+        Minimum Lore: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Crypt Bolt<br>
+        <br>
+        Whereas the Wyld embodies growth and untamed
+        possibility, the Underworld represents death and ultimate
+        stagnation. As such, Abyssal Exalted with this
+        Charm can channel their death-tainted Essence to shield
+        them from the warping effects of Wyld energies. With
+        this Charm invoked, the character and her possessions
+        (an amount that can equal a fully laden horse if mounted)
+        can venture in the most chaotic regions of the Wyld
+        without suffering any change of form. Additionally, the
+        character can add her permanent Essence to her soak
+        (and other applicable rolls) to resist greater Fair Folk
+        magic. Wyld Shield Meditation lasts as long as the Exalt
+        desires, although each hour that the user maintains it
+        inflicts one level of unsoakable bashing damage to her.
+        "
+
+    chaos_searing_treatment["Chaos-Searing Treatment"]
+    wyld_shield_meditation --> chaos_searing_treatment
+    click chaos_searing_treatment callback "
+        Chaos-Searing Treatment<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Lore: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Wyld Shield Meditation<br>
+        <br>
+        With this Charm, an Abyssal may channel soul-
+        numbing death Essence into a weapon. For the rest of the
+        scene, the weapon inflicts aggravated damage on Fair Folk
+        and Wyld beasts as though it was made of cold iron.
+        "
+
+    wyld_slaying_burst["Wyld-Slaying Burst"]
+    radiant_blight_technique --> wyld_slaying_burst
+    chaos_searing_treatment --> wyld_slaying_burst
+    click wyld_slaying_burst callback "
+        Wyld-Slaying Burst<br>
+        <br>
+        Cost: 30 motes, 1 Willpower, one lethal health level, 3 experience points<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Lore: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Radiant Blight Technique, Chaos-Searing Treatment<br>
+        <br>
+        With this Charm, an Abyssal may unleash the full
+        force of the Underworld against the twin enemies of life
+        and Wyld. This blast erupts as a spherical shockwave from
+        the deathknight, withering trees and eroding rocks even as
+        it sucks color and life from the landscape. The Abyssal’s
+        player rolls Intelligence + Lore + Essence. All Fair Folk
+        and Wyld-spawned mutants in the area of effect suffer
+        levels of unsoakable aggravated damage equal to the number
+        of successes rolled. Fae slain by this Charm disintegrate
+        outright, the glamour of their bodies evaporating under
+        the onslaught of necrotic energy. Living beings inside the
+        blast zone suffer dice of lethal damage equal to the Abyssal’s
+        Lore rating. This burst extends to a radius of (the character’s
+        permanent Essence x 10) yards. Once this Charm has been
+        used on an area, nothing will grow within the barren circle
+        for months —or even years.
         "
