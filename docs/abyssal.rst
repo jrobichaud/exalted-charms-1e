@@ -99,15 +99,19 @@ Moonshadow Caste
 
 Bureaucracy
 ^^^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/moonshadow_bureaucracy_1.mmd
 
 Linguistics
 ^^^^^^^^^^^
+.. mermaid:: ./mermaid/abyssal/moonshadow_linguistics_1.mmd
 
 Ride
 ^^^^
+.. mermaid:: ./mermaid/abyssal/moonshadow_ride_1.mmd
 
 Sail
 ^^^^
+.. mermaid:: ./mermaid/abyssal/moonshadow_sail_1.mmd
 
 Socialize
 ^^^^^^^^^
