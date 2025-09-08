@@ -1,0 +1,62 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+    death[Death]
+
+    %% High Soul
+    death --> high_soul
+    subgraph high_soul["High Soul (hun)"]
+        oblivion[Oblivion]
+        lethe[Lethe]
+        ghost[Ghost]
+
+        high_soul_is_abyssal{Is Abyssal?}
+
+        is_high_soul_done{Is High Soul<br>done with<br>its business?}
+        high_soul_is_abyssal --> |Yes| high_soul_has_rrs
+        high_soul_is_abyssal --> |No| is_high_soul_done
+        is_high_soul_done --> |Yes| lethe
+        is_high_soul_done --> |No| ghost
+        high_soul_has_rrs{Has Relentless<br>Revenant Spirit?}
+
+
+        ghost --> |"embraces the end<br>(in 3 days)"| lethe
+
+        roll_willpower{"Roll Willpower(+Fetter/2)<br>(Difficulty 3)"}
+        ghost --> |Incapacitated| roll_willpower
+        roll_willpower --> |0-2 success| lethe
+        roll_willpower --> |"3+ success<br>(loses 1 dot Essence)"| ghost
+        roll_willpower --> |Botch| oblivion
+
+        high_soul_has_rrs --> |Yes| ghost
+        high_soul_has_rrs --> |No| oblivion
+    end
+
+    %% Low Soul
+    death --> low_soul
+    subgraph low_soul["Low Soul (po)"]
+        hungry_ghost[Hungry Ghost]
+        corpse[Corpse]
+        low_soul_ritual_followed{Funerary ritual<br>followed,<br>not murder victim,<br>and not Abyssal?}
+        destroyed[Destroyed]
+        low_soul_ritual_followed --> |Yes| destroyed
+        low_soul_ritual_followed --> |No| hungry_ghost
+        hungry_ghost --> |Hit by Creation<br>sunlight| destroyed
+        hungry_ghost --> |Correctly buried| underworld
+        hungry_ghost --> |Killed| corpse
+        hungry_ghost --> |Corpse destroyed| underworld
+        underworld[Trapped in Underworld]
+        corpse --> |Respawns| hungry_ghost
+    end
+
+    %% Essence
+    death --> exalted_essence
+    subgraph exalted_essence[Exalted Essence]
+        essence_is_abyssal{Is Abyssal?}
+        monstrance_of_celestial_portion[Monstrance<br>of Celestial Portion]
+        reincarnation[Enter cycle<br>of<br>Reincarnation]
+        essence_is_abyssal --> |Yes| monstrance_of_celestial_portion
+        essence_is_abyssal --> |No| reincarnation
+    end

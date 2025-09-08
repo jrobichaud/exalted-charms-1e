@@ -13,3 +13,4 @@ Contents, indices and tables
   alchemical
   spirits
   arcanoi
+  others
