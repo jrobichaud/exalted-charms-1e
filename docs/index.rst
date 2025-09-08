@@ -12,3 +12,4 @@ Contents, indices and tables
   abyssal
   alchemical
   spirits
+  arcanoi
