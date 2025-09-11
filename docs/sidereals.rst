@@ -51,7 +51,27 @@ Socialize
 
 Maiden of Battles
 -----------------
+
+Archery
+^^^^^^^
+.. mermaid:: ./mermaid/sidereals/maiden_of_battles_archery.mmd
+
+Brawl
+^^^^^
+.. mermaid:: ./mermaid/sidereals/maiden_of_battles_brawl.mmd
+
+Melee
+^^^^^
+.. mermaid:: ./mermaid/sidereals/maiden_of_battles_melee.mmd
+
+Presence
+^^^^^^^^
 .. mermaid:: ./mermaid/sidereals/maiden_of_battles_presence.mmd
+
+Resistance
+^^^^^^^^^^
+.. mermaid:: ./mermaid/sidereals/maiden_of_battles_resistance.mmd
+
 
 Maiden of Secrets
 -----------------
