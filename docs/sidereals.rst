@@ -75,7 +75,27 @@ Resistance
 
 Maiden of Secrets
 -----------------
+
+Investigation
+^^^^^^^^^^^^^
+.. mermaid:: ./mermaid/sidereals/maiden_of_secrets_investigation.mmd
+
+Larceny
+^^^^^^^
+.. mermaid:: ./mermaid/sidereals/maiden_of_secrets_larceny.mmd
+
+Lore
+^^^^
 .. mermaid:: ./mermaid/sidereals/maiden_of_secrets_lore.mmd
+
+Occult
+^^^^^^
+.. mermaid:: ./mermaid/sidereals/maiden_of_secrets_occult.mmd
+
+Stealth
+^^^^^^^
+.. mermaid:: ./mermaid/sidereals/maiden_of_secrets_stealth.mmd
+
 
 Maiden of Endings
 -----------------
