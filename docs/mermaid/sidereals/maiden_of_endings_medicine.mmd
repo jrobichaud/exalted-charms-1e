@@ -1,0 +1,158 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    smooth_transition[Smooth Transition]
+    click smooth_transition callback "
+        Smooth Transition<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 2<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm speeds and ensures a smooth transition
+        from life to death. It instantly and painlessly kills any
+        Incapacitated or dying target. The target cannot rise
+        again as an undead. If applied to a corpse, neither the
+        body nor spirit can rise again as an undead. Zombies
+        instantly collapse. This power cannot target ghosts di-
+        rectly, but if applied to the ghost's original body — not a
+        body it happens to possess - it banishes the ghost
+        instantly and permanently to the Underworld.<br>
+        No Charm or ability protects the victim against
+        Smooth Transition or activates in the moment of death.
+        This is a perfect effect. However, extremely unusual
+        corpses — such as spine chains — require a Charisma +
+        Medicine roll to lay to rest, with difficulty equal to the
+        Essence of the creature that raised them.<br>
+        If the body of a target of this Charm is ever placed on
+        naked earth or stone, it sinks quietly beneath the surface,
+        arranging for its own burial.<br>
+        Sidereal Exalted may always use their Valor with
+        this Charm.
+        "
+
+    peaceful_conclusion[Peaceful Conclusion]
+    smooth_transition --> peaceful_conclusion
+    click peaceful_conclusion callback "
+        Peaceful Conclusion<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Smooth Transition<br>
+        <br>
+        As with Smooth Transition, this Charm instantly,
+        painlessly and perfectly kills its target. The target need not
+        be dying, Incapacitated or even wounded but must be
+        willing to pass into death. His consent cannot be forced, nor
+        can it be forcibly withheld: The target dies if and only if he
+        would decide to consent, given adequate time and comfort
+        in which to think, while under the influence of neither drug
+        nor Charm. The Sidereal Exalted can freely make the
+        prospect of life as unpleasant as she desires. Sidereal Exalted
+        may always use their Valor with this Charm.
+        "
+
+    invocation_of_the_storm_following_silence[Invocation of the Storm-Following Silence]
+    smooth_transition --> invocation_of_the_storm_following_silence
+    click invocation_of_the_storm_following_silence callback "
+        Invocation of the Storm-Following Silence<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Smooth Transition<br>
+        <br>
+        The character casts forth the violet radiance of
+        Endings, stillness coming to the weave of fate. He brings
+        a Smooth Transition to all those within (his Essence x
+        10) yards. If facing unusual corpses, his player makes only
+        a single Charisma + Medicine roll; compare the number
+        of successes received to the Essence of the Deathlord or
+        deathknight who raised each given corpse to determine
+        whether it falls. Sidereal Exalted may always use their
+        Valor with this Charm.
+        "
+
+    terminate_illness[Terminate Illness]
+    click terminate_illness callback "
+        Terminate Illness<br>
+        <br>
+        Cost: 10 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Medicine: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character makes the Inferior Sign of the Corpse
+        against the spirit of an illness, and it comes to its natural
+        end. The Exalt's player makes an Intelligence + Medicine
+        roll against the normal difficulty to treat the disease,
+        adding her Essence in dice. If successful, the disease's
+        course ends, the least god of the infection dies peacefully,
+        and the target can begin recovery. This does not affect
+        spiritual diseases (see pp. 195-201). Sidereal Exalted
+        may always use their Conviction with this Charm.
+        "
+
+    earth_and_sky_bargain[Earth and Sky Bargain]
+    peaceful_conclusion --> earth_and_sky_bargain
+    invocation_of_the_storm_following_silence --> earth_and_sky_bargain
+    terminate_illness --> earth_and_sky_bargain
+    click earth_and_sky_bargain callback "
+        Earth and Sky Bargain<br>
+        <br>
+        Cost: 10 motes, 1 Willpower, 1 health level<br>
+        Duration: Indefinite<br>
+        Type: Simple<br>
+        Minimum Medicine: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Peaceable Conclusion, Invocation of the Storm-Following Silence, Terminate Illness<br>
+        <br>
+        This Charm uses a prayer strip marked with the
+        scripture of the Maiden and the Road. The character
+        buries it seven yards beneath the ground and covers its
+        grave with stone. Ten spines of indigo light burst upward
+        from the grave and explode into the sky - the Charm
+        then takes effect. The Sidereal's intuition for fate leads
+        her to the nearest spirit or elemental of the earth or the
+        air who stands, for whatever reason, on the verge of
+        death. If the Sidereal so chooses, she may offer it an
+        opportunity to endure past its time. If it accepts, it binds
+        itself to the Sidereal Exalted's soul and vanishes.<br>
+        Until the Sidereal releases this Charm and the
+        committed Essence, she recovers one lethal or bashing
+        health level per turn. This action is a reflexive one that
+        does not count against her actions for the turn. If she
+        binds an earth entity rather than a creature of air, this
+        regeneration functions only in contact with the earth or
+        stone. In addition, her natural soak increases by (3L/3B)
+        if she binds an air creature and (6L/6B) if she ties herself
+        to the earth. This soak is not compatible with armor. The
+        character does not choose which sort of elemental or
+        spirit she finds. The matter is in Saturn's hands.<br>
+        The character can transfer the bound spirit or elemental
+        to another. From that point forward, that person
+        benefits from the effects, and she does not. She cannot
+        reclaim it once so transferred, although the Charm still
+        ends when she stops committing Essence to it.<br>
+        When the character ends the Charm, the elemental
+        or spirit is born again from its host's soul. It does not
+        return as quite the same entity and is often closer to the
+        Exalt's strength than to its original power. It may or may
+        not consider itself indebted, depending on its nature,
+        how long the character left the Charm in force and
+        whether the Sidereal had anything to do with its being
+        on the verge of death in the first place.
+        "
