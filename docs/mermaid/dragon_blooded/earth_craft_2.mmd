@@ -223,3 +223,47 @@ flowchart TD
         made must be remade from scratch. The raw materials
         retain any inherent value, of course.
         "
+
+    subgraph Aspect Book - Air
+        diligent_engineer_discipline[Diligent Engineer<br>Discipline]
+        click diligent_engineer_discipline callback "
+            Diligent Engineer Discipline<br>
+            <br>
+            Cost: 3 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Craft: 4<br>
+            Minimum Linguistics: 1<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Shaping Hand Style, Flaw-Finding Examination<br>
+            <br>
+            Not every project can have a top-notch savant on
+            hand to oversee it at every stage, and many of the most
+            skilled savants are kept far too busy to personally
+            attend to every detail of execution, even of the projects
+            they do supervise. Through the use of this Charm, a
+            savant may produce a detailed and comprehensive
+            report and set of instructions that encapsulate the
+            research and design phases of a project. This plan may
+            then be given to the person or people actually performing
+            the work, who will benefit from the expertise
+            of the planning savant.<br>
+            The character using Diligent Engineer Discipline,
+            after familiarizing herself appropriately with the details
+            of the proposed undertaking, pays for the
+            activation of the Charm and takes the normal amount
+            of time to prepare a plan, the player rolling her
+            character's Intelligence + Craft at a difficulty of 2.
+            Anyone faithfully working from this plan can avoid a
+            total number of difficulty penalties during the under-
+            taking equal to the number of successes rolled by the
+            planning savant. In addition, he cannot fail to at least
+            achieve at least minimal success on the finished project
+            so long as no circumstances arise that would result in
+            difficulty penalties greater than those the Charm's
+            effects cancel.
+            "
+    end
+
+    shaping_hand_style --> diligent_engineer_discipline
+    flaw_finding_examination --> diligent_engineer_discipline

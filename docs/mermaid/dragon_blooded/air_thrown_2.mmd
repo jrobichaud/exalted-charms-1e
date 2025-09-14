@@ -284,3 +284,115 @@ flowchart TD
         price - one mote per 1L/1B of the armor — and must be
         spent for every target armored.
         "
+
+    subgraph Aspect Book - Air
+        crosswind_offense[Crosswind Offense]
+        click crosswind_offense callback "
+            Crosswind Offense<br>
+            <br>
+            Cost: 1 mote per penalty cancelled<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Thrown: 2<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: Seeking Throw<br>
+            <br>
+            This is the first of what are collectively known as
+            the Crosswind Techniques, a group of Charms predicated
+            on emulating and channeling Essence in a
+            manner similar to the Essence within the very wind,
+            first taught centuries ago by their creator,
+            &quot;Windtamer&quot; Cynis Mond. The eccentric innovator
+            no longer teaches the Techniques he once claimed
+            were mere by-products of his other studies of the
+            Essence of the winds, but the collection of Charms is
+            so widespread today that instruction is available
+            practically anywhere.<br>
+            The Crosswind Offense is a technique by which a
+            Terrestrial may imbue both weapon and throw with
+            windlike Essence in order to guide the throw accurately
+            in a wide arc instead of a straight line, with the
+            purpose of bypassing a shield or cover with a lateral
+            attack. This technique costs 1 mote of Essence per
+            difficulty penalty due to shields or cover bypassed.
+            "
+
+        crosswind_feint[Crosswind Feint]
+        click crosswind_feint callback "
+            Crosswind Feint<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Extra Action<br>
+            Minimum Thrown: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Crosswind Offense<br>
+            <br>
+            &quot;One: As the wind shepherds a leaf, shepherd the
+            target. Two: As the wind drives the rain, drive your
+            weapon to the target.&quot; These are Windtamer's words
+            on the subject of this Charm, often quoted by teachers
+            of this technique. Activating this Charm, the Exalt
+            uses a feinted attack to trick a target into dodging into
+            a second attack, the true attack.<br>
+            To use this Charm, the attacking character
+            splits his action into two actions. The player rolls
+            one attack using his character's Manipulation +
+            Thrown at -2 dice with a difficulty of 1. If this
+            attack is successful, it does no damage, but instead,
+            note the extra successes rolled on the attack. The
+            second action is a normal Dexterity + Thrown
+            attack at -3 dice. The extra successes on the first
+            roll reduce the target's dice on any attempts to
+            dodge the second throw.
+            "
+
+        crosswind_gale[Crosswind Gale]
+        click crosswind_gale callback "
+            Crosswind Gale<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Thrown: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Crosswind Offense<br>
+            <br>
+            Learning to more fully emulate the Essence of
+            wind, a Terrestrial with this Charm can throw her
+            weapon with the terrible force of hurricanes, sending
+            her target flying through the air.<br>
+            The attack is rolled normally, a successful hit
+            does damage as usual and also knocks the target back
+            (the attacker's Essence + attack successes) yards.
+            This attack may be blocked and dodged as usual,
+            though a block is only useful against the damage, not
+            the knockback.
+            "
+
+        crosswind_empowerment_technique[Crosswind Empowerment Technique]
+        click crosswind_empowerment_technique callback "
+            Crosswind Empowerment Technique<br>
+            <br>
+            Cost: Motes equal to base damage of the empowered weapon<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Thrown: 2<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Crosswind Offense<br>
+            <br>
+            Using a more focused version of the principles
+            behind the Crosswind Gale technique, a Dragon-Blood
+            utilizing this Charm may imbue his thrown
+            weapons with highly concentrated, windlike Essence.
+            Weapons thus empowered are only vehicles for this
+            pure force, which will find its way through even the
+            smallest chink in the target's armor. Attacks made
+            using this Charm are treated as piercing attacks, halving
+            the target's lethal armor soak.
+            "
+    end
+    seeking_throw_technique --> crosswind_offense
+    crosswind_offense --> crosswind_feint
+    crosswind_offense --> crosswind_gale
+    crosswind_offense --> crosswind_empowerment_technique

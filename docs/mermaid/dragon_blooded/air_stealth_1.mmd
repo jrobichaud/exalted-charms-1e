@@ -233,3 +233,134 @@ flowchart TD
         Charm has no lingering effects, however, and the character
         can be tracked as normal.
         "
+
+    subgraph Aspect Book - Air
+        deliberate_insignificance_method[Deliberate Insignificance Method]
+        click deliberate_insignificance_method callback "
+            Deliberate Insignificance Method<br>
+            <br>
+            Cost: 2 motes + 1 mote per ally masked<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Stealth: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Trackless Passage Style<br>
+            <br>
+            There are situations and environments where
+            moving unnoticed is preferable to moving unseen,
+            and in many of those cases, failing to look inconspicuous
+            can be far less damning than failing to hide. There
+            are also simply scenarios where the best option for
+            stealth is to look like you belong there, like part of the
+            scenery. A Dragon-Blood who uses this Charm can,
+            using Essence to make his body language resonate
+            with his surroundings, walk down any street or hall,
+            and anyone watching will simply fail to find anything
+            noteworthy or out of place about him. Watchers in a
+            court might assume the character is a page, think him
+            a functionary while in an office or believe he's a
+            soldier in a military camp.<br>
+            Any rolls to take note of the character are at a
+            difficulty equal to his Stealth Ability, though this
+            difficulty may be lowered if the character engages in
+            very outlandish or attention-grabbing behavior. A
+            character using this Charm can, for 1 additional mote
+            per ally, include others in the effect, up to a maximum
+            number of people equal to his Essence.
+            "
+
+        empty_hand_posture[Empty Hand Posture]
+        click empty_hand_posture callback "
+            Empty Hand Posture<br>
+            <br>
+            Cost: 1 mote per minute per target<br>
+            Duration: Varies<br>
+            Type: Simple<br>
+            Minimum Stealth: 4<br>
+            Minimum Larceny: 2<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Soundless Action Prana<br>
+            <br>
+            Stealth is more than a subtle gait and the ability
+            to remain still. There are a great number of mind
+            games involved in going unnoticed: speed of movement,
+            gait, body language, clothing choices,
+            misdirection, capitalizing on distractions and more.
+            These techniques and considerations, when mastered
+            can be applied to more specific and specialized types of
+            subterfuge. This Charm is such a specialized application:
+            The aim of the Dragon-Blood is not to conceal
+            herself, but to conceal what she is carrying or manipulating
+            with her hands.<br>
+            A character using this Charm can conceal an
+            object that is no larger than half her size and not
+            heavier than can be easily carried in two hands.<br>
+            Alternately, she can completely conceal what she is
+            doing with her hands by allowing her Essence to
+            guide her actions to make sure that observers have no
+            line of sight to the object or activity concealed. The
+            Essence cost for this Charm is 1 mote per minute per
+            subject from whom the object or activity is concealed
+            from sight, up to a maximum of the character's
+            Essence + Manipulation.<br>
+            When concealing an object, the character can
+            take any action she wishes without ending the Charm,
+            including talking with or even embracing one of the
+            targets, so long as she takes no action using the
+            concealed object. Taking any action using the concealed
+            object ends the Charm. Attacking with a
+            weapon that has been concealed through the use of
+            this Charm will, in most cases, surprise the target.
+            "
+
+        favored_haunt_stance[Favored Haunt Stance]
+        click favored_haunt_stance callback "
+            Favored Haunt Stance<br>
+            <br>
+            Cost: 3 motes per success<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Stealth: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Any three Stealth Charms<br>
+            <br>
+            Through intense focus or long experience, a
+            Dragon-Blood using this Charm has gained near-flawless
+            mastery of the art of stealth in a particular
+            environment or set of circumstances — or, possibly,
+            when stalking a favored class of prey.
+            The character's Stealth specialty dice may be
+            converted into automatic successes for 3 motes of
+            Essence per die converted. The remainder of the pool
+            is rolled normally. This Charm only functions if the
+            character is applying the specialty.
+            "
+
+        subtle_breeze_kata[Subtle Breeze Kata]
+        click subtle_breeze_kata callback "
+            Subtle Breeze Kata<br>
+            <br>
+            Cost: 3 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Stealth: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Zone of Silence Stance, Distracting Breeze Meditation<br>
+            <br>
+            With this level of skill, a Dragon-Blood can accomplish
+            with the most minimal or sudden of
+            movements what would normally be a deliberate and
+            careful attempt at stealth. Masters of this Charm can
+            accomplish such feats as hiding in an opponent's
+            shadow during combat, vanishing quietly to cover
+            when an attacker blinks or assaulting someone on a
+            busy street and easily making a stealthy escape. This
+            powerful Charm permits the character to make a
+            reflexive Stealth roll, even if others are directly observing
+            him.
+            "
+    end
+    trackless_passage_style --> deliberate_insignificance_method
+    soundless_action_prana --> empty_hand_posture
+    zone_of_silence_stance --> subtle_breeze_kata
+    distracting_breeze_meditation --> subtle_breeze_kata

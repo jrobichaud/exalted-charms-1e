@@ -228,3 +228,142 @@ flowchart TD
         listed in the spell's description. Terrestrial Circle Sorcery
         can never be part of a Combo.
         "
+
+    subgraph Aspect Book - Air
+        minding_the_dragons_eggs[Minding the Dragon's Eggs]
+        click minding_the_dragons_eggs callback "
+            Minding the Dragon's Eggs<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Occult: 2<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: None<br>
+            <br>
+            All Dragon-Blooded can harmonize themselves
+            with the elemental pole with which they share aspect
+            in order to orient themselves. Study, in ages past, of
+            the mechanism of this phenomenon provided the
+            inspiration for a number of techniques by which Terrestrial
+            Exalts could learn to harmonize their Essences
+            in other ways. Most common of these techniques is
+            this Charm, which allows harmony with the Magical
+            Material of the Dragon-Blooded: jade. This Charm is
+            a staple of surveyors, criminals and the Jade Sniffers of
+            the Thousand Scales.<br>
+            A character using this Charm can sense the direc-
+            tion to jade of her elemental aspect up to a range of her
+            Essence x 200 yards without rolling. Successes on a
+            Perception + Occult roll allow the character to glean
+            more detailed information from the Charm, with each
+            success allowing for either the perception of another
+            of the four remaining elemental forms of jade or a
+            rough indication of the amount of an already-detected
+            quantity of jade.<br>
+            This Charm is ineffective against jade that is
+            attuned to someone other than the character using
+            the Charm, due to the interference of the attuned
+            individual's anima. Jade that is on the person of
+            someone using magic to conceal his presence or in a
+            site that has had such magic worked on it will only be
+            detected if the Perception + Occult roll succeeds
+            versus a difficulty equal to the successes rolled to
+            activate the obfuscatory magic or the Essence of the
+            character using the magic (whichever is higher).
+            "
+
+        fivefold_resonance_sense[Fivefold Resonance Sense]
+        click fivefold_resonance_sense callback "
+            Fivefold Resonance Sense<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Occult: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Minding the Dragon's Eggs<br>
+            <br>
+            Using a refined version of the technique behind
+            Minding the Dragon's Eggs, a Terrestrial occultist can
+            now use her Essence sense to detect quantities of the
+            other Magical Materials: starmetal, orichalcum,
+            moonsilver and soulsteel. This Charm works exactly
+            as Minding the Dragon's Eggs, but only to a range of
+            the character's Essence x 50 yards.
+            "
+
+        seeing_the_makers_hand[Seeing the Maker's Hand]
+        click seeing_the_makers_hand callback "
+            Seeing the Maker's Hand<br>
+            <br>
+            Cost: 4 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Occult: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Fivefold Resonance Sense<br>
+            <br>
+            With much of the documentation lost on how
+            magical artifacts were crafted in the First Age, modern
+            savants must often reverse engineer items as best they
+            are able in order to better understand how to recreate
+            or service them. Additionally, many artifacts of mod-
+            ern make are one-of-a-kind constructions, and it is
+            safest to have the fullest possible knowledge of an
+            unfamiliar item before attempting to work with it. To
+            this end, Terrestrial technicians have learned to apply
+            the sensory techniques of Essence-harmonizing to
+            better analyze the fundamental material construction
+            and Essence-channeling of artifacts.<br>
+            To enact this Charm, the character must handle
+            the item in question as if he were attempting to
+            attune to it before spending the required Essence and
+            before his player makes a Perception + Occult roll
+            with a difficulty of the item's Artifact rating. Arti-
+            facts specifically designed so that their properties are
+            difficult to identify may have a higher difficulty.
+            Success on this roll immediately gives the character
+            a rough indication of the item's power level, as
+            reflected by the Artifact rating, with additional suc-
+            cesses providing more detailed insight about the
+            specific abilities of the item. Very powerful or complex
+            artifacts may require multiple uses of Seeing the
+            Maker's Hand over time to fully understand their
+            workings. This Charm is ineffective on artifacts that
+            are attuned to an owner.
+            "
+
+        embracing_the_arcane[Embracing the Arcane]
+        click embracing_the_arcane callback "
+            Embracing the Arcane<br>
+            <br>
+            Cost: 3 motes per success<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Occult: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Any three Occult Charms<br>
+            <br>
+            Sorcery and magical engineering are inherently
+            dangerous undertakings, as many crippled former
+            Heptagram servants can attest. The slightest misstep
+            when summoning a demon or miscalculation in Manse
+            design can have spectacular and fatal consequences
+            for everyone in the area. Diligence is, of course, the
+            most important habit to develop to avoid these is-
+            sues, but the frequency with which dangerous magic
+            must be worked in the Realm means that it is often
+            only a matter of time before a disaster occurs. High-
+            end professional magical practitioners use this Charm
+            as one of many safeguards against terrible accidents,
+            in addition to the obvious advantages of straightforward
+            mastery of a particular discipline.<br>
+            This Charm allows a character to convert his
+            Occult specialty dice into automatic success for 2
+            motes of Essence per die converted. This only works if
+            the character is exercising his specialty.<br>
+            "
+    end
+    minding_the_dragons_eggs --> fivefold_resonance_sense
+    fivefold_resonance_sense --> seeing_the_makers_hand
