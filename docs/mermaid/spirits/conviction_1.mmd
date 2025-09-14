@@ -233,3 +233,104 @@ flowchart TD
 
     possession --> soul_rapt
     harrow_the_mind --> worldly_illusion
+
+    subgraph Ruins of Rathness
+        ride[Ride]
+        click ride callback "
+            Ride<br>
+            <br>
+            Cost: 20 motes, 1 Willpower<br>
+            Duration: Indefinite<br>
+            Type: Simple<br>
+            Minimum Conviction: 5<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Possession<br>
+            <br>
+            This Charm allows a spirit to possess someone indefinitely,
+            riding them as if the host's body were its own
+            and laying the groundwork for a true fusion of spirit and
+            mortal form. In order for this Charm to work, the potential
+            vessel must consent to the spirit's possessing him.
+            Otherwise, it does not function and the spirit must rely
+            on cruder Charms, such as Soul Rapt. The results of the
+            Charm depend on the difference in the Essence of the
+            host and the possessing spirit. If the spirit's Essence
+            exceeds the host's by three or more, the host acquires the
+            spirit's Traits (both Attributes and Abilities). If the
+            host's Essence exceeds the spirit's by three or more, the
+            spirit acquires the host's Traits. If the Essence of host and
+            spirit are within two points of one another, a true fusion
+            is achieved in which the combined entity has the average
+            of the Traits of both halves, rounded up. The fusion also
+            acquires the average of the spirit and the subject's temporary
+            Essence after subtracting the 20 motes needed to
+            trigger the Charm. If the being is an Exalt, add all
+            temporary Essence together before determining the average
+            — the result of a god synthesis with an Exalt has only
+            Peripheral Essence. In addition, it has access to one of the
+            god's Charms per point of total permanent Essence.
+            These Charms cannot include Dematerialize.<br>
+            This Charm is exceedingly rare outside of Rathess, the
+            surrounding regions and other backwaters. Gods and spirits
+            hailing from regions close to the Realm generally avoid
+            using it, out of fear that the Immaculates would notice and
+            take offense. The Immaculate Philosophy's adherents consider
+            use of this Charm a grave blasphemy and take harsh
+            measures to suppress its continued use. If the host is slain,
+            the spirit reforms in one-third the normal time, and the
+            spirit will never lose its individual identity as a result. If the
+            host is killed using Charms that have the effect of slaying
+            a spirit forever (as with Ghost-Eating Technique) the
+            spirit and the host's higher soul are both destroyed. Spirits
+            using this Charm are not constantly drained the way those
+            who simply create bodies for themselves out of Essence
+            through the use of the Materialize Charm are.
+            "
+
+        hollow_out_the_soul[Hollow Out the Soul]
+        click hollow_out_the_soul callback "
+            Hollow Out the Soul<br>
+            <br>
+            Cost: 15 motes, 1 Willpower<br>
+            Duration: Indefinite<br>
+            Type: Simple<br>
+            Minimum Conviction: 4<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Ride<br>
+            <br>
+            This Charm allows a spirit to utterly destroy the soul
+            of a being it is riding, thereby creating a host lacking the
+            ability to regain control. The spirit rider may then use the
+            body as a host at will or vacate it, during which time it
+            assumes a comatose state until either the spirit returns or
+            the vessel is destroyed. To attempt to use this Charm, the
+            spirit must be in contact with the target. Make an extended
+            roll of Conviction + Essence against the target's
+            Willpower + Essence, one roll per activation of the Charm.
+            If the spirit accumulates successes equal to the target's
+            Essence, he succeeds, destroying the victim's soul permanently.
+            Failing at any point in this process casts out the
+            spirit, who may never again attempt to use this Charm
+            against the same would-be host.<br>
+            A soulless body retains all its Physical Attributes
+            (Strength, Dexterity and Stamina), which the spirit may
+            either use as they were before hollowing out the soul or
+            augment with its own Attributes (if higher). However, its
+            Mental and Social Attributes cease to exist. The body now
+            uses its spirit rider's Attributes in these areas, as well all of
+            its other characteristics (such as Willpower, Essence, Abilities,
+            Charms, etc.). Such a body is indeed little more than
+            an empty vessel, and the spirit primarily gains the ability
+            to manifest in a particular physical form on a permanent
+            basis — a valuable ability in some cases.<br>
+            A body without a soul lasts only two weeks before it
+            begins to show signs of physical corruption, becoming
+            useless to the spirit after an additional week. This decay
+            may be staved off by the commitment of 2 additional motes
+            of Essence per day, each infusion pushing back the start of
+            the two-week period. All Essence spent activating the
+            Charm remains committed until the host body decays.
+            "
+    end
+    possession --> ride
+    ride --> hollow_out_the_soul
