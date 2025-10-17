@@ -188,3 +188,144 @@ flowchart TD
         fails should any viewer set foot upon the ship; visitors and
         raiders see the ship as it really is, once they are aboard it.
         "
+
+    subgraph The Outcaste
+        wind_summoning_whistle[Wind-Summoning<br>Whistle]
+        click wind_summoning_whistle callback "
+            Wind-Summoning Whistle<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Sail: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Storm-Outrunning Technique<br>
+            <br>
+            By pursing her lips and whistling as she invokes this
+            Charm, an Exalt can call the winds into the sails of her ship
+            and escape from a dangerous situation — or hurl herself into
+            battle. The wider the sails and the mightier the ship, the
+            more winds are called, as the spirits of the air hasten to obey
+            the Exalt, until the ship is moving at full speed in the desired
+            direction. The winds are intensely localized and will affect
+            other ships within a couple hundred meters of the Exalt's
+            ship. However, they cannot be commanded to alter their
+            direction once summoned. The ship may run before the
+            wind or tack into it, but it cannot turn back on itself. The
+            winds will cause the ship to move at its full rate of speed,
+            depending on the type of ship, and will last for up to a scene.
+            "
+
+        terrible_glow_of_nautical_valor[Terrible Glow of<br>Nautical Valor]
+        click terrible_glow_of_nautical_valor callback "
+            Terrible Glow of Nautical Valor<br>
+            <br>
+            Cost: 3 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Sail: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Fine Passage Negotiating Style<br>
+            <br>
+            When this Charm is activated, all those who see the
+            ship on which the Exalt stands perceive it as an awesome
+            naval battleship, haloed with strange lights and manned by
+            deadly warriors —even if it's a rickety old piece of wood held
+            together by worn-out nails and crewed by the sweepings of
+            the local port. While common sense cuts in a moment later
+            and the ship is clearly visible as what it actually is, the players
+            of all those who were looking at the ship when the Charm
+            took effect must succeed in a reflexive Willpower roll for the
+            characters to attack it. This Charm is normally used in order
+            to gain the advantage of surprise. A wise captain can have
+            half the enemy crew slaughtered before it manages to pull
+            itself together and fight back.
+            "
+
+        pleasant_convocation_of_the_like_minded[Pleasant Convocation of the<br>Like-Minded]
+        click pleasant_convocation_of_the_like_minded callback "
+            Pleasant Convocation of the Like-Minded<br>
+            <br>
+            Cost: 5 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Sail: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Fine Passage Negotiating Style<br>
+            <br>
+            By spending 5 motes of Essence and invoking this
+            Charm, an Exalt can whisper his name into the waves
+            around his vessel, and it will be carried to all sea spirits,
+            pelagials or other sentient inhabitants of the ocean within
+            five miles of his ship. All those who have no particular and
+            personal reason to hate that Exalt will be instinctively
+            reminded of the power and authority of the Exalted and will
+            travel to the vessel to pay their respects and to find out why
+            the Exalt has declared his presence. Particularly powerful
+            creatures or minor gods may send a representative rather
+            than attend themselves. This Charm can be used while at
+            port, but fewer creatures of the sea are likely to answer the
+            summons. Any beings who will arrive do so within half an
+            hour at the most. Their behavior and the length of time they
+            remain depends upon the attitude or requests of the Exalt.
+            "
+
+        enemy_fouling_method[Enemy-Fouling Method]
+        click enemy_fouling_method callback "
+            Enemy-Fouling Method<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Sail: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Pleasant Convocation of the Like-Minded<br>
+            <br>
+            By invoking this Charm, the Exalt summons a great
+            swarm of lampreys and similar clinging creatures, which
+            adhere to the hull of the target ship, slowing it and possibly
+            even causing it to founder if the weather conditions are
+            exceptionally bad. The target ship, which must be within
+            a mile of the Exalt, has its speed reduced by 10 percent for
+            every mote of the Exalt's permanent Essence and will
+            remain at this reduced speed until its hull is cleaned or for
+            a week, whichever is sooner. This may require a formal dry-docking,
+            if the crew has no facilities to do so at sea. This
+            Charm fails to work on any ships whose hulls are crafted
+            from the Five Magical Materials or other imperishable
+            First Age materials, though the Essence is still lost, as such
+            ships are of too noble a substance to be so fouled.
+            "
+
+        false_color_flying_demonstration[False-Color Flying<br>Demonstration]
+        click false_color_flying_demonstration callback "
+            False-Color Flying Demonstration<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Sail: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Pirate-Masquerading Method<br>
+            <br>
+            This Charm invokes the powers of the Exalted to
+            disguise the ship, clothing it in the appearance of an ally —
+            or even an enemy. When a ship with this Exalt on board
+            flies the colors of a particular person or group and comes
+            into contact with other ships, the Exalt's ship temporarily
+            appears to be the ship of the captain who flies those colors
+            or a typical ship of that group. This is a visual illusion and
+            even goes so far as to alter the perceived lines of the ship
+            if necessary, so that a warship may appear to be a slaver's
+            dhow or even a common fishing vessel. The Charm fails
+            the moment that any outsider sets foot on the ship or if any
+            damage (such as that of a flaming arrow or a barrel of pitch)
+            is done to it. It has no mechanical effects in terms of sailing
+            speed, defense or anything else.
+            "
+    end
+    storm_outrunning_technique --> wind_summoning_whistle
+    fine_passage_negotiating_style --> terrible_glow_of_nautical_valor
+    fine_passage_negotiating_style --> pleasant_convocation_of_the_like_minded
+    pleasant_convocation_of_the_like_minded --> enemy_fouling_method
+    pirate_masquerading_method --> false_color_flying_demonstration
