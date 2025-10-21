@@ -412,3 +412,51 @@ flowchart TD
     cipher_missive --> craft_icon
     cipher_missive --> speech_without_words
     voices_on_the_wind --> speech_without_words
+
+    subgraph The Outcaste
+        subtle_comprehension_technique[Subtle Comprehension<br>Technique]
+        click subtle_comprehension_technique callback "
+            Subtle Comprehension Technique<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Linguistics: 3<br>
+            Minimum Lore: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Language-Learning<br>
+            <br>
+            Ritual, Elemental Concentration Trance
+            This Charm allows the Dragon-Blood to parse
+            the hidden layers of metaphor and symbolism after
+            reading a text. Under normal circumstances, where
+            the layers are apparent to those of a creative enough
+            mind with sufficient study, the deeper meanings stand
+            revealed instantly. The Dragon-Blood using this Charm
+            is automatically aware or what each symbol or metaphor
+            represents according to the author's intent and
+            subconscious meanderings, even if the relevance or
+            obviousness of such a symbol would not be apparent to
+            someone living in the present day, as is often the case
+            when reading ancient texts.<br>
+            However, if the writer tried to bury the symbols
+            purposely, either through a conscious effort at ciphering
+            them (requiring an Intelligence + Lore
+            roll) or with a Charm, then the Dragon-Blood's
+            player must make an opposed roll against the successes
+            from the Charm or on the Intelligence + Lore
+            roll. The Dragon-Blood using this Charm in such an
+            attempt gains a number of automatic successes
+            equal to his Essence. This Charm does not aid in
+            breaking ciphers or codes, only in delving into the
+            hidden meanings within a text, be that text an
+            ancient poem or the results of an augury.
+            "
+    end
+
+    subgraph Lore
+        elemental_concentration_trance[Elemental<br>Concentration Trance]
+    end
+
+    language_learning_ritual --> subtle_comprehension_technique
+    elemental_concentration_trance --> subtle_comprehension_technique
