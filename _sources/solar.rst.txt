@@ -1,0 +1,122 @@
+Solar Charms
+============
+
+Dawn Caste
+----------
+
+Archery
+^^^^^^^
+.. mermaid:: ./mermaid/solar/dawn_archery.mmd
+
+Brawl
+^^^^^
+.. mermaid:: ./mermaid/solar/dawn_brawl.mmd
+
+Martial Arts
+^^^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/dawn_martial_arts_1.mmd
+.. mermaid:: ./mermaid/solar/dawn_martial_arts_2.mmd
+.. mermaid:: ./mermaid/solar/dawn_martial_arts_3.mmd
+.. mermaid:: ./mermaid/solar/dawn_martial_arts_4.mmd
+
+Melee
+^^^^^
+.. mermaid:: ./mermaid/solar/dawn_melee.mmd
+
+Thrown
+^^^^^^
+.. mermaid:: ./mermaid/solar/dawn_thrown.mmd
+
+
+Zenith Caste
+------------
+
+Endurance
+^^^^^^^^^
+.. mermaid:: ./mermaid/solar/zenith_endurance.mmd
+
+Performance
+^^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/zenith_performance.mmd
+
+Presence
+^^^^^^^^
+.. mermaid:: ./mermaid/solar/zenith_presence.mmd
+
+Resistance
+^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/zenith_resistance.mmd
+
+Survival
+^^^^^^^^
+.. mermaid:: ./mermaid/solar/zenith_survival.mmd
+
+Twilight Caste
+--------------
+
+Craft
+^^^^^
+.. mermaid:: ./mermaid/solar/twilight_craft.mmd
+
+Investigation
+^^^^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/twilight_investigation.mmd
+
+Lore
+^^^^
+.. mermaid:: ./mermaid/solar/twilight_lore.mmd
+
+Medicine
+^^^^^^^^
+.. mermaid:: ./mermaid/solar/twilight_medicine.mmd
+
+Occult
+^^^^^^
+.. mermaid:: ./mermaid/solar/twilight_occult.mmd
+
+
+Night Caste
+-----------
+
+Athletics
+^^^^^^^^^
+.. mermaid:: ./mermaid/solar/night_athletics.mmd
+
+Awareness
+^^^^^^^^^
+.. mermaid:: ./mermaid/solar/night_awareness.mmd
+
+Dodge
+^^^^^
+.. mermaid:: ./mermaid/solar/night_dodge.mmd
+
+Larceny
+^^^^^^^
+.. mermaid:: ./mermaid/solar/night_larceny.mmd
+
+Stealth
+^^^^^^^
+.. mermaid:: ./mermaid/solar/night_stealth.mmd
+
+Eclipse Caste
+-------------
+
+Bureaucracy
+^^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/eclipse_bureaucracy.mmd
+
+Linguistics
+^^^^^^^^^^^
+.. mermaid:: ./mermaid/solar/eclipse_linguistics.mmd
+
+Ride
+^^^^
+.. mermaid:: ./mermaid/solar/eclipse_ride.mmd
+
+Sail
+^^^^
+.. mermaid:: ./mermaid/solar/eclipse_sail.mmd
+
+Socialize
+^^^^^^^^^
+.. mermaid:: ./mermaid/solar/eclipse_socialize.mmd
