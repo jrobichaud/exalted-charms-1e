@@ -34,3 +34,7 @@ Curses
 Wyld
 ----
 .. mermaid:: ./mermaid/spirits/wyld_1.mmd
+
+Demons
+------
+.. mermaid:: ./mermaid/spirits/demon_1.mmd

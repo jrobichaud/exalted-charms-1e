@@ -13,4 +13,5 @@ Contents, indices and tables
   alchemical
   spirits
   arcanoi
+  god_blooded
   others

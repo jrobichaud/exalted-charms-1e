@@ -129,3 +129,52 @@ flowchart TD
         • Create a double- or triple-effect talisman of permanent
         duration.<br>
         "
+
+    subgraph Players Guide
+        conditional_blessing[Conditional Blessing]
+        click conditional_blessing callback "
+            Conditional Blessing<br>
+            <br>
+            Cost: 3 motes, 1 Willpower<br>
+            Duration: Until Calibration<br>
+            Type: Simple<br>
+            Minimum Compassion/Valor: 2<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Benefaction/Imprecation<br>
+            <br>
+            With these Charms, a spirit may place a mark of Essence
+            upon a target in its line of sight as a delayed trigger for another
+            Charm. If the delayed effect has a positive intent, the spirit
+            must know and use the Compassion Charm Conditional
+            Blessing. A negative or harmful intent requires the Valor
+            Charm Conditional Curse. A Manipulation + Compassion/
+            Valor roll against a difficulty of the target's Essence is neces-
+            sary to inscribe the mark. If this roll succeeds, the spirit
+            chooses one Charm it knows that can directly affect that
+            target. If the selected Charm has multiple uses or permuta-
+            tions, the spirit must also select the exact effects the Charm
+            will take. The spirit then establishes the precise actions the
+            target must perform to trigger the delayed Charm.<br>
+            The spirit may include as many conditions as desired, any
+            of which may be as elaborate or straightforward as desired. For
+            example, the spirit may decide to heal a loyal shaman with
+            Touch of Grace if she speaks a specific prayer petitioning aid.
+            Conversely, a demon might arrange to summon its Demon-
+            Blooded daughter to a dungeon in Malfeas (via Capture) if
+            she ever disobeys a direct order or reveals her infernal heritage
+            to anyone she is not actively trying to kill.<br>
+            Whenever the target of a Conditional Blessing or
+            Curse performs the requisite actions, the spirit knows. At
+            any time, it may then immediately activate the triggered
+            Charm as a reflexive action to end the Conditional Bless-
+            ing/Curse regardless of distance or withhold its benediction/
+            wrath until it can learn more about the target's actions.
+            This Charm and its mark also fade without effect if the
+            target does not meet the established conditions by the next
+            Calibration. Only spirits and other beings capable of
+            perceiving Essence at work can see the mark of an extant
+            Conditional Blessing/Curse.
+            "
+    end
+
+    benefaction --> conditional_blessing
