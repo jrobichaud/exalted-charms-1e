@@ -1,0 +1,523 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    graceful_tortoise_technique[Graceful Tortoise<br>Technique]
+    click graceful_tortoise_technique callback "
+        Graceful Tortoise Technique<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Speardancers do not wear armor when they take
+        the battlefield, and clothing, if worn at all, is sheer and
+        loose fitting so as not to hide nor hinder the lines of
+        their dance. Instead, they rely on their ornate shields to
+        deflect arrows and to bat away weapon strikes. An Exalt
+        using the Graceful Tortoise Technique can incorporate
+        the shield effortlessly into her deadly blade dance, even
+        if the shield would otherwise be too large and cumbersome
+        to use. After activating this Charm, the martial
+        artist does not suffer any mobility penalty when using
+        her shield for the scene. She may use a long spear or
+        poleaxe one-handed so long as she uses a buckler or
+        target shield on her other arm.
+        "
+
+    speardancer_concentration[Speardancer Concentration]
+    graceful_tortoise_technique --> speardancer_concentration
+    click speardancer_concentration callback "
+        Speardancer Concentration<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Martial Arts: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Graceful Tortoise Technique<br>
+        <br>
+        Through the use of this Charm, the martial artist
+        gains an acute awareness enabling her to use her polearm
+        with great alacrity. Her familiarity with the extended
+        reach afforded her by her weapon allows her to strike first
+        in hand-to-hand combat. Upon activating this Charm,
+        the martial artist adds her Essence rating to her Initiative.
+        "
+
+    crimson_pentacle_blade_form[Crimson Pentacle<br>Blade Form]
+    speardancer_concentration --> crimson_pentacle_blade_form
+    click crimson_pentacle_blade_form callback "
+        Crimson Pentacle Blade Form<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Speardancer Concentration<br>
+        <br>
+        To master the Form Charm, the martial artist has
+        spent years developing her technique. Her muscles have
+        been trained to supple perfection, and she is capable of
+        graceful pas de géant and impressive acrobatic feats. Combined
+        with her acute familiarity with her weapon, she can
+        deliver attacks of devastatingly lethal precision. So perfect
+        is her technique that she can masterfully place attacks
+        where they will do the most damage. To activate the
+        Crimson Pentacle Blade Form, the martial artist spends 5
+        motes, and for the next scene, her player may add the
+        character's Essence rating to Martial Arts rolls.<br>
+        Characters cannot use more than one Form-type
+        Charm at a time. Using a Form-type Charm ends the
+        effects of any other Form-type Charm the character
+        was utilizing.
+        "
+
+    eastern_root_protocol[Eastern Root Protocol]
+    crimson_pentacle_blade_form --> eastern_root_protocol
+    click eastern_root_protocol callback "
+        Eastern Root Protocol<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Crimson Pentacle Blade Form<br>
+        <br>
+        The first thing learned in the Eastern posture is how
+        to move together in a group and to use a shield effectively
+        to protect the whole formation. With this Charm, a
+        troupe of speardancers band together into an array and
+        gain the benefit of each other's shields. The shields seem
+        to move in a coiling, serpentine dance. There must be at
+        least two martial artists in the formation to gain the
+        benefit of this effect. Each participant gains an additional
+        + 1 defensive bonus from the effects of the Charm, against
+        both hand-to-hand and ranged attack. This bonus is
+        provided by the shields of other members of the formation,
+        and the formation is able to extend this protection
+        to one person without a shield for every shield-bearing
+        individual in the formation. No one who does not know
+        the Eastern Root Protocol may benefit from this formation,
+        and all members of the formation must be within
+        the space permitted by the Five Directions Formation
+        Protocol (see below). This Charm lasts for the remainder
+        of the scene or until one of the Exalted moves more than
+        10 yards away from any other member of the formation.
+        "
+
+    five_directions_formation_protocol[Five Directions<br>Formation Protocol]
+    eastern_root_protocol --> five_directions_formation_protocol
+    click five_directions_formation_protocol callback "
+        Five Directions Formation Protocol<br>
+        <br>
+        Cost: Varies<br>
+        Duration: Varies<br>
+        Type: Varies<br>
+        Minimum Martial Arts: Varies<br>
+        Minimum Essence: Varies<br>
+        Prerequisite Charms: Eastern Root Protocol<br>
+        <br>
+        One of the most potent aspects of this martial-arts
+        style is the ability for speardancers to work together in
+        formations to accomplish martial effects otherwise
+        impossible to them. While not a proper Charm in its
+        own right, Five Directions Formation Protocol is an
+        endless list of varying Charm Combos, or protocols,
+        designed by the practitioners of Crimson Pentacle
+        Blade Style. Protocols are a form of Combo empowered
+        by a military formation instead of by one person.
+        When a formation performs a protocol, the martial
+        artists leap as one into a bounding choreography.
+        Their bodies explore three-dimensional space, leaping
+        and tumbling in concert as they perform the Charms in
+        the protocol while always maintaining a shoulder-to-shoulder,
+        back-to-back formation.<br>
+        Protocols are a form of multi-participant Combo that
+        are developed between specific individuals practicing the
+        Crimson Pentacle style. Like Combos, they must be named
+        and have a signature appearance that distinguishes them
+        to those who have seen them before (see Exalted, p. 213,
+        for more information).<br>
+        The maximum distance by which all the most distantly
+        located martial artists performing the protocol can
+        be separated by is 10 yards. Also, all the martial artists
+        must be within this area prior to invoking the protocol.
+        Movement speed for all martial artists in the protocol is
+        equal to the Exalt with the lowest movement speed
+        unless a Charm that boosts movement speed is part of the
+        protocol. In that case, all who are a part of the protocol
+        may enjoy it's benefits, so long as the critical distance
+        limit is not broken. If any participant is ever more than
+        10 yards from any other participant for any other reason,
+        the protocol ends instantly. Individuals are aware before
+        they break the protocol, however, and will not stumble
+        outside of its borders without some reason. The players of
+        all the participants may make a reflexive Perception +
+        Awareness roll at difficulty 1 for their characters to note
+        the failure of the protocol in time to invoke any reflexive
+        effects in the protocol in the instant before it is broken.<br>
+        All members of a protocol must be present to activate
+        it — casualties or absentees render a protocol impossible to
+        perform, and the pursuit of flexibility and loss-resilience
+        can lead speardancer ensembles to expend a great deal of
+        energy developing alternate protocols. All participants
+        must be conscious, mobile and able to take reflexive
+        actions (meaning none can be ambushed, as per Exalted,
+        p. 238). Activating a protocol is effectively activating a
+        Combo, and every Exalt in the protocol must be eligible to
+        do so, meaning one cannot have used another Charm or
+        Combo this turn.<br>
+        When one member of the protocol attempts to
+        activate the protocol and the protocol is legal, every
+        member of the protocol is instantly aware of the attempt
+        and may choose to join. Only if all members of the
+        protocol join the activation does the protocol actually
+        activate. Otherwise, no costs are paid or other actions
+        forgone. Attempting to activate a protocol is a reflexive
+        action that may be and generally is done immediately
+        after initiative is rolled and before any actions are taken.
+        When the protocol is activated, every Exalt in the group
+        must spend a point of temporary Willpower and has
+        access to all the Charms in the protocol.
+        The rules for developing Combos still apply to the
+        development of protocols. Every Exalt in the protocol
+        must know Five Directions Formation Protocol, but only
+        one needs to know any of the Charms in the Protocol, and
+        only the individuals who know the Charm need to meet
+        it's Minimum Essence and Minimum Ability requirements.
+        The experience point cost and time it takes to
+        develop a protocol is the same as for a Combo. The
+        experience cost of the protocol is divided among the
+        members of the fighting group as evenly as possible, with
+        the Exalts with the highest Essence + Martial Arts paying
+        the extra point if the cost cannot be divided evenly. In the
+        case of a tie in the Traits, all eligible Dragon-Blooded pay
+        the extra point. Talons comprised of martial artists of the
+        Crimson Pentacle Style sometimes spend years designing
+        and perfecting large, multi-Charm protocols.<br>
+        However, the Essence cost to fuel it are split evenly by
+        the members of the formation. In the case of an odd
+        number, the person with the highest Martial Arts ability
+        must pay the extra cost. Every member in the formation
+        must add a Charm to the protocol, and it is the acting
+        speardancer's Traits, +1 per every person performing the
+        protocol, that are rolled when that Charm is activated in
+        the Combo. Individual Essence and Willpower ratings,
+        however, remain the same.<br>
+        Keep in mind that this Charm in no way negates
+        Combo prohibitions of other Charms. Only Martial Arts
+        Charms and Charms that are explicitly permitted to be in
+        Combos with the Charms from other Abilities may be
+        included in a protocol.<br>
+        In addition to the normal effects of a Combo, there is
+        one added feature of these protocols — Exalted martial
+        artists who have Charms active with a duration longer
+        than instant may reflexively spend 1 mote of Essence when
+        the protocol is activated and bleed the effects to another
+        member of the formation. Each Charm must be bled
+        separately onto each participant in the formation. Sharing
+        Charm effects is optional. Every Exalt in the protocol can
+        share any effect of non-instant duration active on them at
+        the time the protocol is activated, provided they can afford
+        the Essence cost.<br>
+        The Exalt sharing the Charm pays for it, and the
+        original roll is used, but use the affected character's Traits
+        if the effect uses the recipient's Traits for some purpose.
+        The effects of the Charm last for as long on each member
+        of the protocol as they would have when originally invoked
+        and will be ended by any conditions that would
+        normally end that Charm. Characters cannot have more
+        than one Form-type Charm active on them at a time, as
+        usual and cannot share Charms that are attainments of
+        capability that permanently enhance the Exalt, such as
+        Ox-Body Technique.<br>
+        Protocols take advantage of the inherent group-ori-
+        entation of the Terrestrial Exalted. Those Exalts who are
+        not Terrestrials must pay double the experience costs to
+        develop these Combos. This Charm has no cost, save the
+        costs of the protocols created with it, but instead, indicates
+        the attainment of an ability.<br>
+        The benefits lent by this Charm are bonus dice from
+        a Martial Art and cannot exceed the character's Attribute
+        + Ability on any one roll.
+        "
+
+    northern_lotus_petal_discernment_meditation[Northern Lotus Petal<br>Discernment Meditation]
+    crimson_pentacle_blade_form --> northern_lotus_petal_discernment_meditation
+    click northern_lotus_petal_discernment_meditation callback "
+        Northern Lotus Petal Discernment Meditation<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Crimson Pentacle Blade Form<br>
+        <br>
+        Although all martial artists of this style are capable of
+        dazzling feats of fighting prowess, it is through the cold,
+        logical efficiency of movement of the &quot;minimalist&quot; Northern posture that the potency of the style is truly realized.
+        When the Exalt invokes this Charm, her target must add
+        her permanent Essence rating to the difficulty to defend
+        against her attack.
+        "
+
+    sprinting_stag_defense[Sprinting Stag<br>Defense]
+    northern_lotus_petal_discernment_meditation --> sprinting_stag_defense
+    click sprinting_stag_defense callback "
+        Sprinting Stag Defense<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Northern Lotus Petal Discernment Meditation<br>
+        <br>
+        Like the majestic stag fleeing the huntsman's bow, the
+        acrobatic derring-do of the martial artist aids in her defense.
+        For every turn she keeps moving in an acrobatic
+        fashion, her player may make a reflexive Dexterity +
+        Martial Arts roll. Successes on this roll are added to the
+        difficulty for anyone trying to make an attack against the
+        character.
+        "
+
+    western_shield_crush_counterattack[Western Shield-Crush<br>Counterattack]
+    crimson_pentacle_blade_form --> western_shield_crush_counterattack
+    click western_shield_crush_counterattack callback "
+        Western Shield-Crush Counterattack<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Crimson Pentacle Blade Form<br>
+        <br>
+        To break as waves against a defiant reef, such is
+        the fate of any who would dare attack a disciple
+        knowledgeable in the Western posture. Although effective
+        in a one-on-one fight, disciples of the Western
+        Shield Posture specifically developed this Charm to
+        break enemy formations.<br>
+        If the martial artist's opponent makes an unsuccess-
+        ful attack, the martial artist makes a reflexive
+        counterattack by slamming her shield into her foe,
+        knocking him to the ground. The speardancer's player
+        makes a Reflexive roll using her character's Dexterity +
+        Martial Arts pool. This is a counterattack, not an
+        action. The martial artist's target can defend against
+        this normally, but Charms that produce counterattacks
+        cannot counterattack the user of this Charm. If success-
+        ful, her target is brought to his knees and fights as if
+        prone until he stands. If the speardancer scores more
+        successes than her target has combined dots of Strength
+        + Essence, he is knocked to the ground winded and
+        prone. He is at -2 for prone fighting and -2 for being
+        stunned, and his player must make a reflexive (Wits +
+        appropriate Ability for use of his weapon) roll and score
+        as many successes as the martial artist's Essence, or the
+        character's disarmed.<br>
+        Make the reflexive roll before applying the penalties.
+        The martial artist may make as many Western Shield
+        Crush Counterattacks in a turn as she can afford to pay for,
+        but a character cannot use this Charm in response to any
+        counterattack Charm. For rules on prone fighting and
+        stunning, see Exalted, pages 234-235.
+        "
+
+    blessing_of_jeweled_vambraces_and_mantle[Blessing of Jeweled<br>Vambraces and Mantle]
+    western_shield_crush_counterattack --> blessing_of_jeweled_vambraces_and_mantle
+    click blessing_of_jeweled_vambraces_and_mantle callback "
+        Blessing of Jeweled Vambraces and Mantle<br>
+        <br>
+        Cost: 4 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Western Shield Crush Counterattack<br>
+        <br>
+        With this Charm, the Exalt is able to fortify herself
+        with Essence. She takes a breath and concentrates. When
+        she exhales, Essence-laden energy coruscates and whirls
+        about her arms and upper torso. The Exalt's forearms
+        become heavily encrusted with large gems that work their
+        way up her shoulders and upper back. The appearance of
+        the Jeweled Vambraces and Mantle is appropriate to the
+        Exalt's elemental aspect. For example, a Water-aspect
+        martial artist might become scaled like a sea urchin with
+        spines ofsaffron coral, studded with black pearls in chitonous
+        clusters. Regardless of the appearance, the Exalt who
+        invokes this Charm adds her Essence score to her bashing
+        and lethal soaks for the scene. The Blessing of Jeweled
+        Vambraces and Mantle is not considered to be armor, but
+        a form of natural soak and, therefore, does not contradict
+        the armor prohibition for this martial-arts style.
+        "
+
+    glorious_southern_harbinger_of_war_and_fury[Glorious Southern<br>Harbinger of War<br>and Fury]
+    crimson_pentacle_blade_form --> glorious_southern_harbinger_of_war_and_fury
+    click glorious_southern_harbinger_of_war_and_fury callback "
+        Glorious Southern Harbinger of War and Fury<br>
+        <br>
+        Cost: 6 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Crimson Pentacle Blade Form<br>
+        <br>
+        As the martial artist adopts the flamboyant and
+        sensual attitude of the Southern posture, she can use her
+        grandiose, sweeping katas to inspire others to acts of
+        great valor. As the Exalt invokes this Charm, a banner
+        of pure Essence erupts from the head of her polearm.
+        The banner's edge is intricately woven with precious
+        gems and curves rakishly from its base till it ends in a six-
+        foot-long pendant tail. Characters in High Realm
+        encouraging fearlessness in battle and diligence to duty
+        are emblazened along its length, and tassels of fiery
+        Essence dot the tail's inner curve. The martial artist
+        then uses the weapon to perform an awe-inspiring
+        display before her troops. Once invoked, the pendant
+        lasts for the entire scene or until the Exalt who invoked
+        it wishes otherwise.<br>
+        This display uses her Charisma + Martial Arts, at a
+        base difficulty of 1, +1 difficulty for every three targets
+        she wishes to affect. Success means she effectively stirs
+        the crowd into a battle fury and all those thusly inspired
+        are gifted with one temporary Valor point that can be
+        used per the Virtue rules (see Exalted, p. 129). This bonus
+        point of Valor lasts for a scene and can exceed its Trait
+        maximum. Also, this Charm is stackable, but only if
+        invoked by separate speardancers — no one martial artist
+        can give an individual more than one Valor point in a
+        single scene through the use of this Charm.
+        "
+
+    furious_battle_scythe[Furious Battle Scythe]
+    glorious_southern_harbinger_of_war_and_fury --> furious_battle_scythe
+    click furious_battle_scythe callback "
+        Furious Battle Scythe<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Until next turn<br>
+        Type: Reflexive<br>
+        Minimum Martial Arts: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Glorious Southern Harbinger of War and Fury<br>
+        <br>
+        During the scene in which the martial artist has
+        invoked the Glorious Southern Harbinger of War and
+        Fury, she may choose to invoke the Furious Battle Scythe.
+        The Essence pendant crystallizes into a gem encrusted
+        scythe. Its tassels harden giving the scythe a kris pointed
+        serrated edge and it is wickedly sharp. The scythe has a
+        Speed 0, Attack 0, Damage +12L, Parry -2, and Rate 3.
+        Characters cannot activate this Charm until they have
+        activated the Charm Glorious Southern Harbinger of
+        War and Fury already during the scene.
+        "
+
+    retribution_of_honorable_guardianship_attitude[Retribution of Honorable<br>Guardianship Attitude]
+    crimson_pentacle_blade_form --> retribution_of_honorable_guardianship_attitude
+    click retribution_of_honorable_guardianship_attitude callback "
+        Retribution of Honorable Guardianship Attitude<br>
+        <br>
+        Cost: 3 motes, 1 Willpower +1 mote per attack<br>
+        Duration: One scene<br>
+        Type: Extra Action<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Crimson Pentacle Blade Form<br>
+        <br>
+        Speardancer masters believe that once one is committed
+        to battle it is dishonorable to retreat. With this
+        Charm, a martial artist can hold a bridge or gate almost
+        indefinitely and also prevent anyone from escaping
+        combat once they've crossed blades with her. The
+        character spends Essence, and for the next scene, her
+        player may make a reflexive Dexterity + Martial Arts
+        roll for the Exalt to attack anyone who tries to flank or
+        otherwise get around her, to a maximum distance
+        equal to the martial artist's Essence in yards. She may
+        also make such an attack if her opponent attempts to
+        flee her presence once he has entered into hand-to-
+        hand combat. In addition, the martial artist cannot be
+        moved from the spot by any means unless she, herself,
+        breaks her stance.
+        "
+
+    call_to_the_blade_of_righteousness[Call to the Blade<br>of Righteousness]
+    retribution_of_honorable_guardianship_attitude --> call_to_the_blade_of_righteousness
+    click call_to_the_blade_of_righteousness callback "
+        Call to the Blade of Righteousness<br>
+        <br>
+        Cost: 3 motes (committed), 1 Willpower<br>
+        Duration: One day<br>
+        Type: Simple<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Retribution of Honorable Guardianship Attitude<br>
+        <br>
+        The Central posture is more of a mode of conduct
+        than a speardancing style. Living life in a state of honorable
+        grace is preferred. And having one's weapon put to
+        a noble cause is the height of achievement all who walk
+        the path of the Crimson Pentacle Blade strive to attain.
+        With this Charm, the Exalt fortifies and enriches his
+        weapon to that purpose. The Exalt spends a little while
+        ritually cleaning and sharpening his weapon. When he is
+        done, he speaks aloud the task to which his weapon shall
+        be used victoriously.<br>
+        For the next day, the martial artist may add his
+        permanent Essence to the damage rating of his weapon
+        when it is bent to this task. This task must be a specific one.
+        Also, the martial artist may stack as many tasks on a single
+        weapon as he has points in permanent Essence. However,
+        the maximum damage bonus awarded by this Charm to a
+        single strike cannot exceed the character's Essence.
+        "
+
+    central_pillar_attack_pattern_mastery[Central Pillar Attack<br>Pattern Mastery]
+    eastern_root_protocol --> central_pillar_attack_pattern_mastery
+    sprinting_stag_defense --> central_pillar_attack_pattern_mastery
+    blessing_of_jeweled_vambraces_and_mantle --> central_pillar_attack_pattern_mastery
+    furious_battle_scythe --> central_pillar_attack_pattern_mastery
+    call_to_the_blade_of_righteousness --> central_pillar_attack_pattern_mastery
+    click central_pillar_attack_pattern_mastery callback "
+        Central Pillar Attack Pattern Mastery<br>
+        <br>
+        Cost: 7 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Extra Action<br>
+        Minimum Martial Arts: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Eastern Root Protocol, Sprinting Stag Defense, Blessing of Jeweled Vambraces and Mantle, Furious Battle Scythe, Call-to-the-Blade-of-Righteousness Mantra<br>
+        <br>
+        On the field of battle, a master of the Crimson
+        Pentacle Blade Style is a weapon specialist without peer.
+        She perceives the churning chaos of death and discord that
+        is battle instead as a grand choreography. The speardancer's
+        moving and acrobatic style enables her to position herself
+        centrally, maximizing her weapon's effectiveness against
+        multiple foes. Upon activating this Charm, the Exalt
+        perceives a singular, circular attack pattern that enables
+        her to strike a number of opponents equal to her permanent
+        Essence in one efficient stroke. The character's player
+        makes a single Dexterity + Martial Arts roll for her to hit
+        all targets at + 1 difficulty for each target after the first, to
+        a maximum +3 difficulty. Targets must then defend individually,
+        as normal. Also, if the attack is successful, the
+        martial artist counts the successes twice for the purposes of
+        "

@@ -14,4 +14,5 @@ Contents, indices and tables
   spirits
   arcanoi
   god_blooded
+  trinity
   others
