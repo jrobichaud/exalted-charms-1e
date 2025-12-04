@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Others &#8212; Exalted 1e Charms 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/groundwork.css?v=594d7a89" />
+    <link rel="stylesheet" type="text/css" href="_static/css/mermaid.css?v=389bd0da" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="The Trinity of Perfected Understanding" href="trinity.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="trinity.html" title="The Trinity of Perfected Understanding"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Exalted 1e Charms 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Others</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="others">
+<h1>Others<a class="headerlink" href="#others" title="Link to this heading">¶</a></h1>
+<section id="death-explained">
+<h2>Death explained<a class="headerlink" href="#death-explained" title="Link to this heading">¶</a></h2>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+    death[Death]
+
+    %% High Soul
+    death --&gt; high_soul
+    subgraph high_soul[&quot;High Soul (hun)&quot;]
+        oblivion[Oblivion]
+        lethe[Lethe]
+        ghost[Ghost]
+
+        high_soul_is_abyssal{Is Abyssal?}
+
+        is_high_soul_done{Is High Soul&lt;br&gt;done with&lt;br&gt;its business?}
+        high_soul_is_abyssal --&gt; |Yes| high_soul_has_rrs
+        high_soul_is_abyssal --&gt; |No| is_high_soul_done
+        is_high_soul_done --&gt; |Yes| lethe
+        is_high_soul_done --&gt; |No| ghost
+        high_soul_has_rrs{Has Relentless&lt;br&gt;Revenant Spirit?}
+
+
+        ghost --&gt; |&quot;embraces the end&lt;br&gt;(in 3 days)&quot;| lethe
+
+        roll_willpower{&quot;Roll Willpower(+Fetter/2)&lt;br&gt;(Difficulty 3)&quot;}
+        ghost --&gt; |Incapacitated| roll_willpower
+        roll_willpower --&gt; |0-2 success| lethe
+        roll_willpower --&gt; |&quot;3+ success&lt;br&gt;(loses 1 dot Essence)&quot;| ghost
+        roll_willpower --&gt; |Botch| oblivion
+
+        high_soul_has_rrs --&gt; |Yes| ghost
+        high_soul_has_rrs --&gt; |No| oblivion
+    end
+
+    %% Low Soul
+    death --&gt; low_soul
+    subgraph low_soul[&quot;Low Soul (po)&quot;]
+        hungry_ghost[Hungry Ghost]
+        corpse[Corpse]
+        low_soul_ritual_followed{Funerary ritual&lt;br&gt;followed,&lt;br&gt;not murder victim,&lt;br&gt;and not Abyssal?}
+        destroyed[Destroyed]
+        low_soul_ritual_followed --&gt; |Yes| destroyed
+        low_soul_ritual_followed --&gt; |No| hungry_ghost
+        hungry_ghost --&gt; |Hit by Creation&lt;br&gt;sunlight| destroyed
+        hungry_ghost --&gt; |Correctly buried| underworld
+        hungry_ghost --&gt; |Killed| corpse
+        hungry_ghost --&gt; |Corpse destroyed| underworld
+        underworld[Trapped in Underworld]
+        corpse --&gt; |Respawns| hungry_ghost
+    end
+
+    %% Essence
+    death --&gt; exalted_essence
+    subgraph exalted_essence[Exalted Essence]
+        essence_is_abyssal{Is Abyssal?}
+        monstrance_of_celestial_portion[Monstrance&lt;br&gt;of Celestial Portion]
+        reincarnation[Enter cycle&lt;br&gt;of&lt;br&gt;Reincarnation]
+        essence_is_abyssal --&gt; |Yes| monstrance_of_celestial_portion
+        essence_is_abyssal --&gt; |No| reincarnation
+    end
+
+    </pre></section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.webp" alt="Logo of Exalted 1e Charms"/>
+            </a></p>
+<h3><a href="index.html">Table of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="solar.html">Solar Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dragon_blooded.html">Dragon-Blooded Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lunar.html">Lunar Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sidereals.html">Sidereals Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="abyssal.html">Abyssal Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alchemical.html">Alchemical Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spirits.html">Spirit Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arcanoi.html">Arcanoi (Ghost Charms)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="god_blooded.html">God-Blooded Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trinity.html">The Trinity of Perfected Understanding</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Others</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#death-explained">Death explained</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="trinity.html" title="The Trinity of Perfected Understanding"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Exalted 1e Charms 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Others</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright : All the content belong to White-Wolf. I am not affiliated with them in any way except in my love for their games.
+    </div>
+  </body>
+</html>
