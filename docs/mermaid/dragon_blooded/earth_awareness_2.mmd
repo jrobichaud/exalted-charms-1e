@@ -276,3 +276,124 @@ flowchart TD
         The effects of the Charm linger for a number of
         turns equal to the Exalt's permanent Essence.
         "
+
+    subgraph Aspect Book Earth
+
+        unfailing_dragon_glance[Unfailing Dragon<br>Glance]
+        click unfailing_dragon_glance callback "
+            Unfailing Dragon Glance<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Awareness: 2<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: None<br>
+            <br>
+            The character hesitates and looks more carefully, a
+            quick flare of Essence pushing aside all distractions. Her
+            player may reroll a single Awareness roll but must take
+            the new results over the old. The Dragon-Blood cannot
+            use this Charm more than once for the same action. If
+            Unfailing Dragon Glance is part of a Combo, Essence
+            must be spent to reactivate all the other Charms in that
+            Combo when the reroll takes place. If those Charms
+            have separate dice rolls associated with them, they are
+            not rerolled.
+            "
+        sight_of_fluttering_tremors[Sight of Fluttering<br>Tremors]
+        click sight_of_fluttering_tremors callback "
+            Sight of Fluttering Tremors<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: Indefinite<br>
+            Type: Simple<br>
+            Minimum Awareness: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: All-Encompassing Earth Sense<br>
+            <br>
+            Upon activating this Charm, cataracts like white
+            jade cloud over the character's eyes, and he becomes
+            blind for the duration of the effect. In exchange, the
+            Dragon-Blood gains a preternatural awareness of vibrations
+            echoing through the air and ground. He can &quot;see&quot;
+            in any or all directions at once as desired, simultaneously
+            perceiving the shape and exact location of all objects
+            within half the range of his normal vision or his (Awareness
+            x 10) yards, whichever is less. Beyond this range,
+            objects and sounds blur together and have no coherent
+            meaning. Darkness and environmental conditions impairing
+            true vision do not normally hinder the &quot;vision&quot;
+            granted by this Charm, although magical obfuscations
+            and effects that muffle sound may create regions of
+            murky vision. Within a radius of (Awareness + Essence)
+            yards, the character can even see through and around
+            thin walls and other blocking physical obstructions by
+            sensing the vibrations passing through the interrupting
+            objects. Thick walls obscure and disrupt echoes too
+            much to allow vibration sight to peer around them
+            without a substantial crack or flaw through which sounds
+            can flow. This omnidirectional perception makes the
+            character difficult to surprise, adding one automatic
+            success to all Awareness rolls made to avoid ambush.<br>
+            Despite the obvious utility of sensing vibrations, the
+            sense is not sight and cannot fully replace vision. Vibrations
+            do not convey colors or shades, making it impossible
+            to read or otherwise notice exclusively visual information.
+            Characters can recognize people and objects they
+            have &quot;viewed&quot; with vibration sight previously, using
+            their memory of profiles and surface contours.<br>
+            Dragon-Blooded who know this Charm can reflexively
+            spend four additional experience points as insurance
+            against blindness. Should such characters ever become
+            truly blind for any reason (whether temporarily as the
+            result of magic or permanently from maiming), they gain
+            the full effects of this Charm for the duration of their
+            blindness without spending any Essence. This special
+            benefit vanishes if a character regains her sight.
+            "
+
+        pulse_of_the_dragons_soul[Pulse of the<br>Dragon's Soul]
+        click pulse_of_the_dragons_soul callback "
+            Pulse of the Dragon's Soul<br>
+            <br>
+            Cost: 1 or 3 motes<br>
+            Duration: One turn<br>
+            Type: Reflexive or Simple<br>
+            Minimum Awareness: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Feeling the Dragon's Bones<br>
+            <br>
+            The Dragon-Blood concentrates and spends 3 motes
+            as a simple action, allowing his consciousness to flow
+            down and outward through the Essence currents of the
+            earth. For a moment, he experiences the land as an
+            extension of his own body and perceives the unnatural
+            wounds and blights of all shadowlands and Wyld zones
+            within a number of miles equal to his permanent Essence.
+            He cannot gauge the strength or direction of these
+            tainted regions unless they are within a mile, in which
+            case he can determine the rough size, shape and potency
+            of the blights. The character can also sense all Manses
+            and Demesnes within a mile, but only as wellsprings of
+            power. He knows where these sites are and whether they
+            are weak (rating 1-2) or strong (3-5), but he cannot
+            differentiate between Manses and Demesnes or identify
+            a site's type (Earth, Solar, Celestial, etc.). At the end of
+            a turn, the mystical perception fades, and the character's
+            senses withdraw back into his flesh.<br>
+            In addition to the Charm's active use, Pulse of the
+            Dragon's Soul activates reflexively for a cost of 1 mote
+            whenever a character crosses into a shadowland or Wyld
+            zone without realizing it. The Charm does not activate
+            itself if the character already knows the nature of his
+            location. The character becomes immediately aware of
+            the blighted energies of his new location and their
+            overall type, but he does not gain the full awareness of
+            the surrounding terrain as with conscious activation of
+            the Charm.
+            "
+
+    end
+    all_encompassing_earth_sense --> sight_of_fluttering_tremors
+    feeling_the_dragons_bones --> pulse_of_the_dragons_soul

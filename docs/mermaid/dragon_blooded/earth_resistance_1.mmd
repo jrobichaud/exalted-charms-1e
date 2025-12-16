@@ -158,3 +158,138 @@ flowchart TD
         additive with dodges and parries. This Charm offers no
         protection against more subtle effects, such as mind control.
         "
+
+    subgraph Aspect Book - Earth
+        armor_hardening_concentration[Armor-Hardening<br>Concentration]
+        click armor_hardening_concentration callback "
+        Armor-Hardening Concentration<br>
+        <br>
+        Cost: 2 motes per person<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Strength of Stone Technique<br>
+        <br>
+        The Exalt focuses, invoking the durability of the Earth
+        as an enchantment upon his armor. The degree of benefit
+        depends on the composition of his armor according to the
+        table below. The Exalt can extend this Charm to any ally
+        within his (Essence x 3) yards by paying the same cost, and
+        a character may simultaneously evoke protection on as
+        many allies within range as his Essence reserves permit.
+        Characters may only benefit from one application of this
+        Charm at a time and immediately lose the enchantment if
+        they remove their armor for any reason.<br>
+        <br>
+        Armor Type Soak Bonus<br>
+        Non-Magical Armor 1L/2B<br>
+        Magical Armor 2L/2B<br>
+        Jade Armor 2L/3B<br>
+        White Jade Armor 3L/3B
+        "
+
+        mantle_of_element_invulnerability["Mantle of (Element)<br>Invulnerability"]
+        click mantle_of_element_invulnerability callback "
+            Mantle of (Element) Invulnerability<br>
+            <br>
+            Cost: 6 motes, 1 Willpower<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Resistance: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Appropriate (Element) Protection Form<br>
+            <br>
+            Like the lesser (Element) Protection Form upon
+            which this Charm builds, Mantle of (Element) Invulnerability
+            is actually a cluster of five separate Charms that
+            must be purchased separately. Each confers unsurpassed
+            protection, allowing the Exalt to completely ignore all
+            non-magical sources of injury associated with the respective
+            element and adding the character's permanent
+            Essence to her soak against magical attacks involving the
+            element. This Charm uses the same guidelines for determining
+            the elemental association of a damage source as
+            (Element) Protection Form (see Exalted: The Dragon-Blooded, p. 201).<br>
+            Dragon-Blooded always consider the Mantle of (Element)
+            Invulnerability for their own element to be a
+            favored Charm, even if they do not actually have Resistance
+            as an Aspect or Favored Ability. However, because
+            this Charm is still based on Resistance, Earth Aspects
+            never pay an elemental surcharge to use any of the five
+            elemental permutations.
+            "
+        perfected_scales_of_the_dragon[Perfected Scales of<br>the Dragon]
+        click perfected_scales_of_the_dragon callback "
+            Perfected Scales of the Dragon<br>
+            <br>
+            Cost: 12 motes, 1 Willpower, 1 health level<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Resistance: 5<br>
+            Minimum Essence: 5<br>
+            Prerequisite Charms: All five Mantle of (Element) Invulnerability Charms<br>
+            <br>
+            The Exalt dons the fivefold aegis of the Elemental
+            Dragons, his anima roaring out in a gale of destructive
+            power as if he had spent 16+ motes of Peripheral
+            Essence. For the rest of the scene, the character is at one
+            with the harmony of the elements and suffers no damage
+            from any non-magical object or force native to the
+            Tapestry of Creation. Beings and forces from outside of
+            Fate can hurt the character normally by mundane
+            means, but all others must use magically enhanced
+            attacks or weapons of the Five Magical Materials to
+            harm the Exalt. Unlike the individual Mantle of (Element)
+            Invulnerability Charms, Perfected Scales of the
+            Dragon offers no additional soak versus damage sources
+            that penetrate its limited perfection.
+            "
+
+        taint_cleansing_technique[Taint-Cleansing<br>Technique]
+        click taint_cleansing_technique callback "
+        Taint-Cleansing Technique<br>
+        <br>
+        Cost: 20 motes, 1 Willpower, 1 aggravated health level, 1 experience point<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Chaos-Warding Prana<br>
+        <br>
+        The Dragon-Blood kneels in humble supplication
+        to the Elemental Dragons, briefly setting aside his
+        authority as a Prince of the Earth to become a vessel of
+        greater divinity. As the Charm activates, a sphere of
+        living Essence spreads from the Chosen's heart and
+        grows to envelop a radius of her Essence in yards. Taint-Cleansing
+        Technique cannot be placed in a Combo but
+        may be used synergistically. In order to obtain the
+        synergistic benefit, all participant Dragon-Blooded must
+        stand in an outward-facing circle with each no more
+        than five yards from all other participants. The total
+        number of participants cannot exceed the Essence +
+        Performance + applicable specialty (usually Leadership)
+        of the Exalt leading the combined effort. A
+        synergistic use of this Charm combines the spheres of
+        Essence from each character into a single sphere emerging
+        from the center of the participant circle. This
+        sphere has a radius in yards equal to the (highest
+        Essence in the group) x (the number of participants).<br>
+        Within the radius of the sphere, the energy of the
+        Wyld is completely displaced, turning the affected
+        area into a bubble of perfect and inviolate stability.
+        Every decade of contact with the Wyld erodes one
+        foot of radius from the protected region. Fair Folk and
+        Wyld mutants can freely enter regions of stability
+        created with Taint-Cleansing Technique without suffering
+        any more harm than they experience in any
+        other part of Creation.
+        "
+
+    end
+
+    strength_of_stone_technique --> armor_hardening_concentration
+    element_protection_form --> |Appropriate Element| mantle_of_element_invulnerability
+    mantle_of_element_invulnerability --> |All five| perfected_scales_of_the_dragon
+    chaos_warding_prana --> taint_cleansing_technique
