@@ -1,0 +1,2464 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Spirit Charms &#8212; Exalted 1e Charms 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/groundwork.css?v=594d7a89" />
+    <link rel="stylesheet" type="text/css" href="_static/css/mermaid.css?v=389bd0da" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Arcanoi (Ghost Charms)" href="arcanoi.html" />
+    <link rel="prev" title="Alchemical Charms" href="alchemical.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="arcanoi.html" title="Arcanoi (Ghost Charms)"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="alchemical.html" title="Alchemical Charms"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Exalted 1e Charms 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Spirit Charms</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="spirit-charms">
+<h1>Spirit Charms<a class="headerlink" href="#spirit-charms" title="Link to this heading">¶</a></h1>
+<section id="compassion">
+<h2>Compassion<a class="headerlink" href="#compassion" title="Link to this heading">¶</a></h2>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    measure_the_wind[Measure the Wind]
+    click measure_the_wind callback &quot;
+        Measure the Wind&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        This power enables the spirit to sense nearby Essence,
+        whether it exists in objects or within Exalted. Rolls the
+        spirit's Perception + Compassion. One success is enough to
+        sense Essence in the vaguest of measures. Three or more
+        successes means the spirit not only senses Essence, but
+        knows its source and potential powers (if possessed by
+        Exalted, for example).
+        &quot;
+
+    stoic_endurance[Stoic Endurance]
+    click stoic_endurance callback &quot;
+        Stoic Endurance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 2 motes per die&lt;br&gt;
+        Duration: Varies&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        For each success on the roll, the spirit may improve an
+        individual's Stamina by one dot. More dice than the
+        spirit's Charisma + Compassion may not be rolled, nor may
+        the spirit increase the target's Stamina by more dots than
+        the spirit's Essence. Only one use of this Charm may be
+        active on an individual at any given time. This Charm
+        fades at a rate of one dot per (the spirit's Willpower) turns.
+        &quot;
+
+    touch_of_grace[Touch of Grace]
+    click touch_of_grace callback &quot;
+        Touch of Grace&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 4&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit may heal itself or others. Spends the 3
+        motes of Essence and make a Compassion roll. If the roll
+        succeeds, the Charm heals one health level of bashing or
+        lethal damage.
+        &quot;
+
+    sense_domain[Sense Domain]
+    measure_the_wind --&gt; sense_domain
+    click sense_domain callback &quot;
+        Sense Domain&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Compassion: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Measure the Wind&lt;br&gt;
+        &lt;br&gt;
+        This Charm enables the spirit to get a feel for how
+        things are going within its domain of influence (up to a half
+        mile in diameter per point of Essence, but most often related
+        to a geographical feature — for instance, a single tree and a
+        little land surrounding it might be a spirit's area of influence).
+        Roll the spirit's Perception + Compassion. One
+        success allows the spirit to sense the presence of any direct
+        and immediate danger (to itself or to the domain) in the
+        area. Two successes allow a reasonably thorough catalogue
+        of the influences at work in the area and the intentions they
+        have with regard to the spirit or its domain. Three or more
+        successes allows the spirit to know almost anything currently
+        going on within its domain that isn't protected by some sott
+        of supernatural ward or misdirection. Charms, sorcery and
+        exceptional Ability rolls or stunts may block this insight or
+        remove successes, at the Storyteller's discretion. Some spir-
+        its that have no natural domain may be able to use this ability
+        in any area they've spent several days exploring (Storyteller's
+        discretion; two additional successes required).
+        &quot;
+
+    </pre><pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    dreamspeak[Dreamspeak]
+    click dreamspeak callback &quot;
+        Dreamspeak
+        &lt;br&gt;
+        Cost: 5 motes
+        Duration: One scene
+        Type: Simple
+        Minimum Compassion: 1
+        Minimum Essence: 2
+        Prerequisite Charms: None
+        This Charm allows a spirit to speak with the target in
+        his dreams. The target must be asleep, and the spirit must
+        know approximately where he is, although the spirit need
+        not be present there. Roll the spirit's Intelligence + Compassion.
+        The more successes the spirit gets, the more easily
+        it converses with the dreamer. Four or more successes
+        indicates that not only can the spirit appear in the dream,
+        but it will seem to be of extreme significance to the dreamer.
+        &quot;
+
+    dreamscape[Dreamscape]
+    dreamspeak --&gt; dreamscape
+    click dreamscape callback &quot;
+        Dreamscape
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 1&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms: Dreamspeak&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows a spirit to govern the dream of a
+        sleeping mortal. It may shape that dream in whatever way
+        it wishes, appearing or not appearing in the dream as it
+        pleases. Roll the spirit's Manipulation + Compassion. The
+        more successes, the more the spirit can manipulate. The
+        spirit must know either the approximate location of the
+        dreamer or his identity. While the spirit may harm the
+        dreamer inside of the dream, no damage carries over to the
+        real world.
+        &quot;
+
+    natural_prognostication[Natural Prognostication]
+    click natural_prognostication callback &quot;
+        Natural Prognostication
+        &lt;br&gt;
+        Cost: 2 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Compassion: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit is naturally in tune with the patterns of
+        destiny and the astrological forces. A simple success on a
+        Perception + Compassion check causes this spirit's behavior
+        (actions, words) to reflect in some small way the path
+        of things to come. Most spirits with this Charm don't
+        notice themselves using it and would shrug if it was pointed
+        out to them; it's simply a part of what they are. The number
+        of successes indicates the importance of the event that is
+        prognosticated and/or the level of detail provided. The
+        words and actions of such spirits are frequently ambiguous
+        and often enigmatic.
+        &quot;
+
+    foretell_the_future[Foretell the Future]
+    natural_prognostication --&gt; foretell_the_future
+    click foretell_the_future callback &quot;
+        Foretell the Future
+        &lt;br&gt;
+        Cost: 10 motes&lt;br&gt;
+        Duration: Variable&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 1&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Natural Prognostication&lt;br&gt;
+        &lt;br&gt;
+        This spirit may deliberately attempt to foresee what
+        may come with a successful Perception + Compassion
+        check. The number of successes determines how long it
+        takes the spirit to glean the information. The spirit must
+        sleep, meditate or in some other way &amp;quot;go within&amp;quot; for one
+        day per success. More successes means more information
+        means more time spent &amp;quot;under.&amp;quot; This spirit sees what may
+        be, not what must be.
+        &quot;
+
+    hand_of_destiny[Hand of Destiny]
+    foretell_the_future --&gt; hand_of_destiny
+    click hand_of_destiny callback &quot;
+        Hand of Destiny
+        &lt;br&gt;
+        Cost: 14 motes, 1 Willpower&lt;br&gt;
+        Duration: Variable&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 1&lt;br&gt;
+        Minimum Essence: 6&lt;br&gt;
+        Prerequisite Charms: Foretell the Future&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows a powerful spirit to glimpse the hand
+        of Destiny moving behind the curtains of reality, upon a
+        successful Perception + Compassion check. The number of
+        successes determines how much of Destiny's plan the spirit
+        glimpses. It also determines how much of that plan notices the
+        spirit. The more the spirit sees, the more the spirit becomes
+        caught up in whatever is happening. The spirit may feel
+        compelled to take part in the plan, and not necessarily in the
+        way it would have chosen. Few spirits will use this Charm
+        lightly, and they may require great boons or services in
+        return for its use. If the Storyteller chooses, this Charm may
+        have the same sleep or meditation requirement as Foretell
+        the Future — except that the spirit must go within for at least
+        one week for each success. Spirits can spend months dreaming,
+        trying to comprehend Destiny's plan.
+        &quot;
+
+    landscape_travel[Landscape Travel]
+    click landscape_travel callback &quot;
+        Landscape Travel
+        &lt;br&gt;
+        Cost: 4 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Compassion: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        This Charm allows a spirit to travel quickly, comfortably
+        and easily in its natural element. A forest spirit might
+        gain perfect balance and sticky feet to allow it to travel
+        easily along tree limbs and jump from tree to tree. A water
+        spirit might walk on water, or develop gills and fins if it
+        didn't have them already.
+        &quot;
+
+    landscape_camouflage[Landscape Camouflage]
+    landscape_travel --&gt; landscape_camouflage
+    click landscape_camouflage callback &quot;
+        Landscape Camouflage
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Landscape Travel&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows a spirit to camouflage itself, as long
+        as it is within its natural element (a forest spirit must be
+        within the trees; an earth spirit could camouflage itself against
+        grass, earth, or stone; a fire spirit could camouflage
+        itself within or against a fire, or against hot desert sands).
+        Roll the spirit's Wits + Compassion. Every success adds
+        one to the difficulty of Perception + Awareness checks to
+        notice the spirit.
+        &quot;
+
+    landscape_hide[Landscape Hide]
+    landscape_camouflage --&gt; landscape_hide
+    click landscape_hide callback &quot;
+        Landscape Hide
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Landscape Camouflage&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows a spirit to hide within a solid piece
+        of its natural landscape. A forest spirit might sink into a
+        tree trunk; a spirit of the plains might sink into the sound.
+        During its time within its element, the spirit's senses are
+        muted. Roll the spirit's Stamina + Resistance if the item in
+        which it hides suffers any damage. If the roll fails, the spirit
+        is forced out of the item. If the roll succeeds, the spirit may
+        choose to stay in the item, but it will take any damage that
+        the item takes, health level for health level. If the item is
+        particularly sturdy, it may add up to five health levels to the
+        spirit's rotal, at the Storyteller's discretion — one health
+        level per success on the original roll.
+        &quot;
+
+    tracking[Tracking]
+    click tracking callback &quot;
+        Tracking
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows a spirit to track someone or some-
+        thing on a successful Perception + Compassion chock.
+        One success is all that's needed for a spirit to track a normal
+        human in the spirit's natural domain, regardless of the
+        prey's Survival skill. More successes are needed if the spirit
+        wishes to track an Exalted, another spirit or some other
+        supernatural creature capable of supernatural Stealth, or if
+        it wishes to track outside of its natural domain. Other
+        modifiers (such as familiarity with the prey or weather
+        conditions) apply only to tracking beings capable of supernatural
+        misdirection — see the rules in the main Exalted book for details.
+        &quot;
+
+    summon_food[Summon Food]
+    click summon_food callback &quot;
+        Summon Food
+        &lt;br&gt;
+        Cost: 5 or 10 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Spirits use this Charm to summon food for those who
+        need it. The spirit must succeed at a Stamina + Compassion
+        check. Each success the spirit achieves allows it to summon
+        enough food for a full meal for one person (the spirit may
+        choose to summon less than its successes allow it to). For
+        five motes, the food summoned is edible. For ten motes, the
+        food is some of the finest nourishment ever tasted.
+        &quot;
+
+    dreamscape --&gt; dreambane[&quot;... Dreambane&lt;br&gt;(Conviction)&quot;]
+
+    </pre><section id="blessings">
+<h3>Blessings<a class="headerlink" href="#blessings" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    tiny_gift[Tiny Gift]
+    click tiny_gift callback &quot;
+        Tiny Gift&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The effects of this Charm always fade by the next
+        sunset, and the Charm may not be used more than once per
+        day. Some possible gifts:&lt;br&gt;
+        • One extra dot added to an Ability of the spirit's
+        choice.&lt;br&gt;
+        • The return of two motes of Essence.&lt;br&gt;
+        • Good luck: The target gains one extra die to add to
+        all normal Ability checks (not Charms).
+        &quot;
+
+    benefaction[Benefaction]
+    tiny_gift --&gt; benefaction
+    click benefaction callback &quot;
+        Benefaction&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes
+        Duration: One week
+        Type: Simple
+        Minimum Compassion: 1
+        Minimum Essence: 2
+        Prerequisite Charms: Tiny Gift
+        The effects of this Charm last for one week, and the
+        Charm may not be used more than once per week. Some
+        possible benefactions:&lt;br&gt;
+        • Two dots of Abilities, distributed as the spirit sees fit.&lt;br&gt;
+        • One dot added to an Attribute.&lt;br&gt;
+        • The return of five motes of Essence.&lt;br&gt;
+        • Create a good luck charm, walkaway or other
+        talisman that lasts for a week.&lt;br&gt;
+        • Good luck: the target gains one extra die to add to
+        normal Ability checks (not Charms).&lt;br&gt;
+        • A mark appears on the target in an obvious place
+        (forehead, hand, etc.) that can be seen only by spirits and
+        Exalted using a sensory Charm that allows them to perceive
+        Essence at work. This power is most often used to
+        grant safe passage through an area or as a mark of favor.&lt;br&gt;
+        &quot;
+
+    largess[Largess]
+    benefaction --&gt; largess
+    click largess callback &quot;
+        Largess&lt;br&gt;
+        &lt;br&gt;
+        Cost: 15 motes, 1 Willpower&lt;br&gt;
+        Duration: One week&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 2&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms: Benefaction&lt;br&gt;
+        &lt;br&gt;
+        The effects of this Charm last for one week, and the
+        Charm may not be used more than once every other week
+        Some possible effects:&lt;br&gt;
+        • Four dots to Abilities, distributed as the spirit sees
+        fit. This may include Abilities the target does not normally
+        possess, unless he is not physically capable of possessing
+        them. 1 his may not raise a target s Ability score above six.&lt;br&gt;
+        • Two dots to Attributes, distributed as the spirit sees fit.&lt;br&gt;
+        • The return of one temporary Willpower point. (The
+        target's Willpower may not be raised above his maximum.
+        The returned Willpower may be used up normally, but will
+        not disappear when the week is over.)&lt;br&gt;
+        • The return of ten motes of Essence.&lt;br&gt;
+        • The effects of one Charm (maximum Virtue 1,
+        Essence 1) that the spirit possesses may be conferred upon
+        the target. These effects last no longer than one week.&lt;br&gt;
+        • Good luck: the target gains one extra die to add to
+        normal Ability checks and to Charm checks.&lt;br&gt;
+        • Create a good luck charm, walkaway of other
+        talisman of permanent duration.&lt;br&gt;
+        • A permanent mark appears on the target in an
+        obvious place. This mark can be seen only by spirits and
+        Exalted using a sensory Charm that allows them to per-
+        ceive Essence at work. While mortals cannot see the mark,
+        it obviously alters the character's horoscope and can be
+        detected in that fashion. Effects vary, depending on the
+        meaning of the mark.&lt;br&gt;
+        &quot;
+
+    endowment[Endowment]
+    largess --&gt; endowment
+    click endowment callback &quot;
+        Endowment&lt;br&gt;
+        &lt;br&gt;
+        Cost: 20 motes, 1 permanent Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Compassion: 3&lt;br&gt;
+        Minimum Essence: 5&lt;br&gt;
+        Prerequisite Charms: Largess&lt;br&gt;
+        &lt;br&gt;
+        This blessing is never given lightly. Great tales are told
+        of the massive quests that lead to such rewards, and the
+        heroes who achieve them. This Charm may only be used
+        once per year.&lt;br&gt;
+        • One dot added to an Attribute, duration permanent.&lt;br&gt;
+        • Two dots to Abilities, distributed as the spirit sees
+        fit, duration permanent. This may include Abilities the
+        target does not normally possess, unless he is not physically
+        capable of possessing them.&lt;br&gt;
+        • One permanent Essence point.&lt;br&gt;
+        • The return of all temporary Willpower that the
+        target has lost.&lt;br&gt;
+        • The effects of one Charm (maximum Virtue 2,
+        Essence 2) that the spirit possesses may be conferred upon
+        the target. These effects last for as long as the effects of the
+        Charm that was conferred would normally last. In rare cases,
+        the effect may be permanent (Storyteller's discretion).&lt;br&gt;
+        • Good luck: the target's temporary Willpower is
+        always one higher than her permanent Willpower. The
+        effect is permanent.&lt;br&gt;
+        • Create a double- or triple-effect talisman of permanent
+        duration.&lt;br&gt;
+        &quot;
+
+    subgraph Players Guide
+        conditional_blessing[Conditional Blessing]
+        click conditional_blessing callback &quot;
+            Conditional Blessing&lt;br&gt;
+            &lt;br&gt;
+            Cost: 3 motes, 1 Willpower&lt;br&gt;
+            Duration: Until Calibration&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Compassion/Valor: 2&lt;br&gt;
+            Minimum Essence: 4&lt;br&gt;
+            Prerequisite Charms: Benefaction/Imprecation&lt;br&gt;
+            &lt;br&gt;
+            With these Charms, a spirit may place a mark of Essence
+            upon a target in its line of sight as a delayed trigger for another
+            Charm. If the delayed effect has a positive intent, the spirit
+            must know and use the Compassion Charm Conditional
+            Blessing. A negative or harmful intent requires the Valor
+            Charm Conditional Curse. A Manipulation + Compassion/
+            Valor roll against a difficulty of the target's Essence is neces-
+            sary to inscribe the mark. If this roll succeeds, the spirit
+            chooses one Charm it knows that can directly affect that
+            target. If the selected Charm has multiple uses or permuta-
+            tions, the spirit must also select the exact effects the Charm
+            will take. The spirit then establishes the precise actions the
+            target must perform to trigger the delayed Charm.&lt;br&gt;
+            The spirit may include as many conditions as desired, any
+            of which may be as elaborate or straightforward as desired. For
+            example, the spirit may decide to heal a loyal shaman with
+            Touch of Grace if she speaks a specific prayer petitioning aid.
+            Conversely, a demon might arrange to summon its Demon-
+            Blooded daughter to a dungeon in Malfeas (via Capture) if
+            she ever disobeys a direct order or reveals her infernal heritage
+            to anyone she is not actively trying to kill.&lt;br&gt;
+            Whenever the target of a Conditional Blessing or
+            Curse performs the requisite actions, the spirit knows. At
+            any time, it may then immediately activate the triggered
+            Charm as a reflexive action to end the Conditional Bless-
+            ing/Curse regardless of distance or withhold its benediction/
+            wrath until it can learn more about the target's actions.
+            This Charm and its mark also fade without effect if the
+            target does not meet the established conditions by the next
+            Calibration. Only spirits and other beings capable of
+            perceiving Essence at work can see the mark of an extant
+            Conditional Blessing/Curse.
+            &quot;
+    end
+
+    benefaction --&gt; conditional_blessing
+
+    </pre></section>
+</section>
+<section id="conviction">
+<h2>Conviction<a class="headerlink" href="#conviction" title="Link to this heading">¶</a></h2>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    harrow_the_mind[Harrow the Mind]
+    click harrow_the_mind callback &quot;
+        Harrow the Mind&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Conviction: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the spirit can create mental
+        illusions that only the target can see. To do it, roll the spirit's
+        Manipulation + Conviction. The first success creates the illusion,
+        while additional successes make the illusion more difficult to
+        penetrate. The target's player must make an Intelligence + Temperance
+        roll and must gain a number of successes at least equal to
+        the number of successes the spirit rolled. If not, the target is unable
+        to tell the illusion from reality. He may make additional Intelligence
+        + Temperance rolls whenever the illusion departs wildly
+        from what the target expects from reality, making believable
+        illusions much more difficult to see through. Once the illusion has
+        been penetrated, it is dispelled, and all further uses of the Charm
+        on that being are at + 1 difficulty for the next several days.
+        &quot;
+
+    possession[Possession]
+    click possession callback &quot;
+        Possession&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes, 1 Willpower
+        Duration: One scene
+        Type: Simple
+        Minimum Conviction: 4
+        Minimum Essence: 1
+        Prerequisite Charms: None&lt;br&gt;
+        Roll the spirit's Manipulation + Conviction in an extended
+        resisted action against the target's Willpower. When the spirit
+        gains more successes than the victim has temporary Willpower,
+        the spirit takes possession of the target for the rest of the scene.
+        Successes accumulate for the duration of the scene. More
+        powerful versions of this Charm exist, which allow spirits to
+        &amp;quot;hollow out&amp;quot; a being's soul and possess him indefinitely.
+        &quot;
+
+    stoke_the_flame[Stoke the Flame]
+    click stoke_the_flame callback &quot;
+        Stoke the Flame&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per die&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Conviction: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit channels Essence into the victim to inflame her
+        emotional state. One success merely aggravates whatever
+        condition is already present, while three or more successes
+        cause the target to completely lose herself in the emotion of the
+        moment. You may roll no more dice that the spirit's Convic-
+        tion. Used against one of the Exalted, this Charm causes the
+        character's Limit to increase by one point per success.
+        &quot;
+
+    instill_obedience[Instill Obedience]
+    stoke_the_flame --&gt; instill_obedience
+    click instill_obedience callback &quot;
+        Instill Obedience&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Conviction: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Stoke the Flame&lt;br&gt;
+        &lt;br&gt;
+        The spirit channels Essence into the target to alter his
+        emotional state, instilling within him a desire to obey the
+        spirit. Roll the spirit's Charisma + Conviction with a
+        difficulty equal to the target's Essence. Simple success
+        merely makes the target slightly more likely to obey, while
+        three successes forces him to obey completely unless such
+        obedience would cause him physical harm. At five successes,
+        the target does anything the spirit commands.
+        &quot;
+
+    geas[Geas]
+    instill_obedience --&gt; geas
+    click geas callback &quot;
+        Geas&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per day (Min 15, Max 28), 2 Willpower&lt;br&gt;
+        Duration: One to 28 days&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Conviction: 5&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms: Instill Obedience&lt;br&gt;
+        This Charm allows a spirit to lay a Geas, or bond, upon
+        a target. It requires eye contact and a successful Manipulation
+        + Conviction check, with at least three successes,
+        The spirit may order the target to perform one task, which
+        may include such broad orders as &amp;quot;serve me for one month.&amp;quot;
+        The spirit may not order the target to do something that
+        would directly harm the target, but it may order him to
+        attempt a difficult or dangerous goal as long as there is a
+        reasonable chance of success (Storyteller's discretion).
+        This Charm has a minimum cost of 15 motes, even if it is
+        to last only one day. This Geas does not completely govern
+        the target's actions; rather, it gives the target a compulsion
+        to work toward the task he has been given. For each day
+        that the target fails to work in good faith toward the task,
+        he loses one temporary Willpower and takes one health
+        level of aggravated damage. For each two days spent
+        working in good faith toward the task, he regains one
+        health level lost from for disobeying the Geas.
+        &quot;
+
+    lend_authority[Lend Authority]
+    instill_obedience --&gt; lend_authority
+    click lend_authority callback &quot;
+        Lend Authority&lt;br&gt;
+        &lt;br&gt;
+        Cost: 15 motes&lt;br&gt;
+        Duration: 1 day x the spirit's Willpower&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Conviction: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Instill Obedience&lt;br&gt;
+        &lt;br&gt;
+        For each success on a Conviction + Presence check,
+        the spirit may raise an individual's Presence by one dot.
+        The spirit may not increase the target's Presence by more
+        dots than the spirit's Essence, although it may increase it
+        above 5. Only one use of this Charm may be active on an
+        individual at any given time. The Presence lasts for one
+        day for each dot of the spirit's Willpower.
+        &quot;
+
+    world_of_illusion[World of Illusion]
+    harrow_the_mind --&gt; world_of_illusion
+    click world_of_illusion callback &quot;
+        World of Illusion&lt;br&gt;
+        &lt;br&gt;
+        Cost: 20 motes, 1 Willpower per person&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Conviction: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Harrow the Mind&lt;br&gt;
+        &lt;br&gt;
+        The target of this Charm finds herself in an illusory
+        world of the spirit's design. The illusion is total and covers
+        all senses — according to all of her senses, the target has
+        been transported elsewhere. The illusion has a nearly
+        instant duration but may appear to last tor up to one day to
+        the mind of the target.&lt;br&gt;
+        This Charm requires the spirit to touch its target (a
+        nonreflexive Dexterity + Brawl or Martial Arts roll if she's
+        actively evading) or look in her eyes. The spirit may use
+        this effect on multiple people at once, but all of them must
+        find themselves in the same illusion, and the spirit must
+        touch all of them at once.&lt;br&gt;
+        Any damage the target takes within the hallucination
+        is purely illusory. However, if the target dies within the
+        illusion, then her player must succeed on a Stamina +
+        Resistance roll or fall into a coma for one day per point of
+        the spirit's Essence (or longer, at the Storyteller's discretion,
+        if it suits the dramatic needs of the story).
+        &quot;
+
+    subgraph Games of Divinity
+        soul_rapt[Soul Rapt]
+        click soul_rapt callback &quot;
+            Soul Rapt&lt;br&gt;
+            &lt;br&gt;
+            Cost: 10 motes, 2 Willpower&lt;br&gt;
+            Duration: Indefinite&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Conviction: 5&lt;br&gt;
+            Minimum Essence: 4&lt;br&gt;
+            Prerequisite Charm: Possession&lt;br&gt;
+            &lt;br&gt;
+            As the Possession spirit Charm, roll the spirit's Manipulation
+            + Conviction against the target's Willpower in a resisted
+            action. If the spirit gains more successes than the target has
+            temporary Willpower, then the initial possession succeeds. As
+            long as the spirit occupies the victim, temporary Willpower
+            cannot he regained. The possessing spirit must relinquish con-
+            trol of the victims body at least once per week, though it isn't
+            necessary to abandon the victim. The spirit must make the
+            attempt to regain control of the victim by repeating the initial
+            possession roll. After each month of possession, the victim loses
+            one point of Willpower permanently. If a spirit fails in its attempt
+            to regain control of its victim, the spirit is expelled, and the
+            victim cannot be possessed by that spirit again.
+            &quot;
+        worldly_illusion[Worldly Illusion]
+        click worldly_illusion callback &quot;
+            Worldly Illusion&lt;br&gt;
+            &lt;br&gt;
+            Cost: 20 motes, 1 Willpower per person&lt;br&gt;
+            Duration: Instant&lt;br&gt;
+            Type: Reflexive&lt;br&gt;
+            Minimum Conviction: 4&lt;br&gt;
+            Minimum Essence: 3&lt;br&gt;
+            Prerequisite Charms: Harrow the Mind&lt;br&gt;
+            &lt;br&gt;
+            The target of this Charm finds herself in an illusory- world
+            of die spirit's design. The illusion is total and covers all senses
+            according to all of her senses, the target has been transported
+            elsewhere. The illusion has a nearly instant duration but may
+            appear to last for up to one day to the mind of the target.&lt;br&gt;
+            This Charm requires the spirit to touch its target (a
+            nonreflexive Dexterity + Brawl or Martial Arts roll if she's actively
+            evading) or to look in her eyes. The spirit may use this effect on
+            multiple people at once, but all of them must find themselves in
+            die same illusion, and the spirit must touch all of them at once.&lt;br&gt;
+            Any damage the target takes within the hallucination is
+            purely illusory. However, if the target dies within the illusion,
+            then her player must succeed on a Stamina + Resistance roll
+            or have the character fall into a coma for one day per point of
+            the spirit's Essence (or longer, at the Storyteller's discretion, if
+            it suits the dramatic needs of the story).
+            &quot;
+    end
+
+    possession --&gt; soul_rapt
+    harrow_the_mind --&gt; worldly_illusion
+
+    subgraph Ruins of Rathness
+        ride[Ride]
+        click ride callback &quot;
+            Ride&lt;br&gt;
+            &lt;br&gt;
+            Cost: 20 motes, 1 Willpower&lt;br&gt;
+            Duration: Indefinite&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Conviction: 5&lt;br&gt;
+            Minimum Essence: 2&lt;br&gt;
+            Prerequisite Charms: Possession&lt;br&gt;
+            &lt;br&gt;
+            This Charm allows a spirit to possess someone indefinitely,
+            riding them as if the host's body were its own
+            and laying the groundwork for a true fusion of spirit and
+            mortal form. In order for this Charm to work, the potential
+            vessel must consent to the spirit's possessing him.
+            Otherwise, it does not function and the spirit must rely
+            on cruder Charms, such as Soul Rapt. The results of the
+            Charm depend on the difference in the Essence of the
+            host and the possessing spirit. If the spirit's Essence
+            exceeds the host's by three or more, the host acquires the
+            spirit's Traits (both Attributes and Abilities). If the
+            host's Essence exceeds the spirit's by three or more, the
+            spirit acquires the host's Traits. If the Essence of host and
+            spirit are within two points of one another, a true fusion
+            is achieved in which the combined entity has the average
+            of the Traits of both halves, rounded up. The fusion also
+            acquires the average of the spirit and the subject's temporary
+            Essence after subtracting the 20 motes needed to
+            trigger the Charm. If the being is an Exalt, add all
+            temporary Essence together before determining the average
+            — the result of a god synthesis with an Exalt has only
+            Peripheral Essence. In addition, it has access to one of the
+            god's Charms per point of total permanent Essence.
+            These Charms cannot include Dematerialize.&lt;br&gt;
+            This Charm is exceedingly rare outside of Rathess, the
+            surrounding regions and other backwaters. Gods and spirits
+            hailing from regions close to the Realm generally avoid
+            using it, out of fear that the Immaculates would notice and
+            take offense. The Immaculate Philosophy's adherents consider
+            use of this Charm a grave blasphemy and take harsh
+            measures to suppress its continued use. If the host is slain,
+            the spirit reforms in one-third the normal time, and the
+            spirit will never lose its individual identity as a result. If the
+            host is killed using Charms that have the effect of slaying
+            a spirit forever (as with Ghost-Eating Technique) the
+            spirit and the host's higher soul are both destroyed. Spirits
+            using this Charm are not constantly drained the way those
+            who simply create bodies for themselves out of Essence
+            through the use of the Materialize Charm are.
+            &quot;
+
+        hollow_out_the_soul[Hollow Out the Soul]
+        click hollow_out_the_soul callback &quot;
+            Hollow Out the Soul&lt;br&gt;
+            &lt;br&gt;
+            Cost: 15 motes, 1 Willpower&lt;br&gt;
+            Duration: Indefinite&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Conviction: 4&lt;br&gt;
+            Minimum Essence: 4&lt;br&gt;
+            Prerequisite Charms: Ride&lt;br&gt;
+            &lt;br&gt;
+            This Charm allows a spirit to utterly destroy the soul
+            of a being it is riding, thereby creating a host lacking the
+            ability to regain control. The spirit rider may then use the
+            body as a host at will or vacate it, during which time it
+            assumes a comatose state until either the spirit returns or
+            the vessel is destroyed. To attempt to use this Charm, the
+            spirit must be in contact with the target. Make an extended
+            roll of Conviction + Essence against the target's
+            Willpower + Essence, one roll per activation of the Charm.
+            If the spirit accumulates successes equal to the target's
+            Essence, he succeeds, destroying the victim's soul permanently.
+            Failing at any point in this process casts out the
+            spirit, who may never again attempt to use this Charm
+            against the same would-be host.&lt;br&gt;
+            A soulless body retains all its Physical Attributes
+            (Strength, Dexterity and Stamina), which the spirit may
+            either use as they were before hollowing out the soul or
+            augment with its own Attributes (if higher). However, its
+            Mental and Social Attributes cease to exist. The body now
+            uses its spirit rider's Attributes in these areas, as well all of
+            its other characteristics (such as Willpower, Essence, Abilities,
+            Charms, etc.). Such a body is indeed little more than
+            an empty vessel, and the spirit primarily gains the ability
+            to manifest in a particular physical form on a permanent
+            basis — a valuable ability in some cases.&lt;br&gt;
+            A body without a soul lasts only two weeks before it
+            begins to show signs of physical corruption, becoming
+            useless to the spirit after an additional week. This decay
+            may be staved off by the commitment of 2 additional motes
+            of Essence per day, each infusion pushing back the start of
+            the two-week period. All Essence spent activating the
+            Charm remains committed until the host body decays.
+            &quot;
+    end
+    possession --&gt; ride
+    ride --&gt; hollow_out_the_soul
+
+    </pre><pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    confusion[Confusion]
+    click confusion callback &quot;
+        Confusion&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Conviction: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Roll the spirit's Manipulation + Conviction with a
+        difficulty equal to the target's Essence. Simple success or
+        one extra success indicates that the target is mildly confused.
+        He might confuse one direction along a path with
+        another. Two or three extra successes indicate that the
+        target is quite confused. He might believe that traveling
+        after dark in the woods without a lantern is a perfectly
+        reasonable thing to do. Four or more extra successes
+        indicate that the target is completely addled and may well
+        do something very dangerous. He could try to scale a cliff
+        face in the dark or go to sleep in a bear's den. Fair Folk are
+        immune to this power.
+        &quot;
+
+    memory_mirror[Memory Mirror]
+    click memory_mirror callback &quot;
+        Memory Mirror&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Conviction: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit must touch its target in order to employ this
+        Charm (normal Dexterity + Brawl or Martial Arts check).
+        If successful, roll the spirit's Manipulation + Conviction
+        with a difficulty equal to the target's Essence. The more
+        successes, the more of the target's memories the spirit
+        absorbs. This may temporarily befuddle the target, but
+        Memory Mirror does not actually remove the target's
+        memories, just duplicates them. With a simple success, the
+        spirit obtains only the most basic details: profession, name
+        and any major life events. Four or more extra successes
+        indicate near-total memor; absorption.
+        &quot;
+
+    memory_sponge[Memory Sponge]
+    memory_mirror --&gt; memory_sponge
+    click memory_sponge callback &quot;
+        Memory Sponge&lt;br&gt;
+        &lt;br&gt;
+        Cost: 12 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Conviction: 4&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Memory Mirror&lt;br&gt;
+        &lt;br&gt;
+        This Charm works like Memory Mirror, except that
+        the memories are drained out of the target as they enter the
+        spirit's mind. Roll the spirit's Manipulation + Conviction
+        with a difficulty equal to the target's Essence. The more
+        successes the spirit achieves, the fewer details the target
+        remembers, until only the smallest details remain. Four or
+        more extra successes indicate that the target suffers from
+        near-total amnesia. The memories have actually been
+        removed and cannot be recovered through association or
+        prompting.
+        &quot;
+
+    memory_transference[Memory Transference]
+    memory_sponge --&gt; memory_transference
+    click memory_transference callback &quot;
+        Memory Transference&lt;br&gt;
+        &lt;br&gt;
+        Cost: 15 motes, 2 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Conviction: 4&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms: Memory Sponge&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows a spirit to transfer memories between
+        two subjects. The spirit must be able to touch both
+        subjects at once, and if they are evading, the spirit must
+        succeed on a Dexterity + Brawl or Martial Arts roll. This
+        is not a reflexive attack, and if the spirit is attempting to
+        touch both targets in the same turn it activates the Charm,
+        split its dice pool at least three ways.
+        After the spirit touches the targets, roll its Manipulation
+        + Conviction with a difficult equal to the higher of the
+        two target's Essences. The memories are moved from one
+        subject to another, not copied. The spirit gets a vague idea
+        of the shape of the memories - enough to identify blocks
+        of them and figure out what should be moved. The spirit
+        remembers only vague details afterward, not specifics.
+        The more successes on the roll, the more precisely the
+        spirit can identify and choose what to move, and the more
+        it can move. Simple success allows the movement of a few
+        random memories, three successes allows large, important
+        memories, and five or more extra successes allow the spirit
+        to transfer an entire lifetime's worth of memories, or just a
+        single dark and hidden secret. Note that the transfer is one
+        way — a spirit that wishes to swap two personalities
+        between bodies has to roll five or more extra success on two
+        uses of the Charm.
+        &quot;
+
+
+    dreambane[&quot;Dreambane&quot;]
+    dreamscape[&quot;... Dreamscape&lt;br&gt;(Compassion)&quot;] --&gt; dreambane
+    click dreambane callback &quot;
+        Dreambane&lt;br&gt;
+        &lt;br&gt;
+        Cost: 15 motes, 1 Willpower&lt;br&gt;
+        Duration: Reflexive&lt;br&gt;
+        Minimum Conviction: 3&lt;br&gt;
+        Minimum Essence: 6&lt;br&gt;
+        Prerequisite Charms: Dreamscape&lt;br&gt;
+        &lt;br&gt;
+        This Charm acts exactly as the Compassion Charm
+        Dreamscape, except that the roll made is Manipulation +
+        Conviction, and any harm done to the target within the
+        dream has a chance of leaking through to the target's physical
+        body (as either bashing or lethal damage, as appropriate).&lt;br&gt;
+        If the target takes damage in the dream, her player must
+        make a reflexive Wits roll to see how much slips through to
+        harm the character's real body. For every success on the wits
+        roll, one health level is subtracted from the damage that the
+        character took in the hallucination before it is applied to her
+        real body. The character can never take more damage to her
+        real body from a single event in the hallucination than the
+        Essence of the spirit that used Dreambane on her.&lt;br&gt;
+        Each time damage gets through the soak roll, the
+        target's player may make a Willpower roll. With three or
+        more successes, the character wakes up. The player must
+        also succeed a Willpower roll if the character takes enough
+        damage to kill her in the dream before she wakes up. If the
+        roll botches, the character dies (if mortal) or enters a coma
+        for one week per point of the spirit's Essence (if Exalted).
+        If the roll fails, the character wakes up at Incapacitated and
+        must heal normally. If the roll succeeds, she wakes up with
+        only one additional health level of bashing damage. This
+        Charm may only be used on one target at a time.
+        &quot;
+
+    </pre></section>
+<section id="temperance">
+<h2>Temperance<a class="headerlink" href="#temperance" title="Link to this heading">¶</a></h2>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    cunning_thief[Cunning Thief]
+    click cunning_thief callback &quot;
+        Cunning Thief&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 mote per 2 dice&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Temperance: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit must touch the target for this Charm to
+        work (resolved by a normal Dexterity + Brawl or Martial
+        Arts check). If the attempt to touch the target is successful,
+        make a reflexive Wits + Temperance roll. For every success
+        the spirit achieves, the target loses two motes of Essence.
+        The spirit cannot steal more motes than twice its Essence.
+        &quot;
+
+    host_of_spirits[Host of Spirits]
+    click host_of_spirits callback &quot;
+        Host of Spirits&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Temperance: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the spirit forms mul-
+        tiple images of itself to deceive attackers. This ability works
+        much like Harrow the Mind, above. However, there are
+        more images and they are harder to distinguish from reality.
+        Make an Intelligence + Temperance roll for the spirit,
+        opposed by the target's Perception + Awareness. If the
+        target garners fewer successes than the spirit, he sees many
+        false images of the small god, each virtually indistinguishable
+        from the real being. Attacks by individuals so befuddled
+        have only (their Essence) in 10 chance of actually striking
+        the spirit. Make another Perception + Awareness for those
+        observing the spirit every time the spirit attacks.
+        &quot;
+
+    </pre><pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    hoodwink[Hoodwink]
+    click hoodwink callback &quot;
+        Hoodwink&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Temperance: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        This Charm allows the spirit to temporarily distract the
+        target, causing his attention to focus on something other
+        than the spirit. Roll the spirit's Manipulation + Conviction
+        with a difficulty equal to the target's Essence. Simple success
+        distracts the target for a turn - long enough for the spirit
+        to run away or dematerialize. Three or more extra successes
+        distract the target from anything it was thinking about the
+        spirit, such as suspicions, accusations, anger, etc. Five or
+        more extra successes means the target does not remember
+        the spirit until something or someone reminds him of what
+        he was thinking. This Charm requires extra successes to
+        distract a target who is feeling negative emotions toward the
+        spirit, and it requires at least three additional success to
+        affect someone in combat with it.
+        &quot;
+
+    stillness[Stillness]
+    click stillness callback &quot;
+        Stillness&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Temperance: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows the spirit to remain absolutely,
+        perfectly still.
+        &quot;
+
+    camouflage[Camouflage]
+    stillness --&gt; camouflage
+    click camouflage callback &quot;
+        Camouflage&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Temperance: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Stillness&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows the spirit to camouflage itself within
+        whatever environment it happens to be in. A spirit standing
+        against a rock takes on the coloration of that rock, and its
+        edges might soften a bit, making its outline difficult to make
+        out against the background. Roll the spirit's Wits + Temperance.
+        Successes on this roll are added to any successes on the
+        spirit's Dexterity + Stealth roll if it is attempting to actively
+        hide. The result is the number of successes observers' players
+        must roll on their Wits + Temperance checks (four net
+        successes are required if the spirit is still, three if it moves
+        slowly, two if it moves normally, and one if it moves quickly).
+        &quot;
+
+    hurry_home[Hurry Home]
+    click hurry_home callback &quot;
+        Hurry Home&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Temperance: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        With a successful Wits + Temperance check, a spirit
+        may escape whatever situation it is in and return to its own
+        home — what exactly constitutes the spirit's home is a
+        matter for Storyteller discretion. The more tense and
+        hurried the situation, the more successes the spirit requires.
+        One success is all that's needed in a relaxed, quiet
+        setting. Five successes take the spirit home even in the
+        middle of a combat.
+        &quot;
+
+    portal[Portal]
+    hurry_home --&gt; portal
+    click portal callback &quot;
+        Portal&lt;br&gt;
+        &lt;br&gt;
+        Cost: 15 motes, 1 Willpower&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Temperance: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Hurry Home&lt;br&gt;
+        &lt;br&gt;
+        A successful Intelligence + Temperance check allows
+        the spirit to open up a portal large enough for it to step
+        through. The portal lasts for one turn; during that time,
+        anyone else may step through it as long as they can fit
+        through the opening. With one success, the portal takes
+        the travelers to a random (though not immediately harmful)
+        location. With two successes, the spirit may loosely
+        direct the exit point (&amp;quot;Southern Deserts, please&amp;quot;) or go
+        directly to its home. Five or more successes allow the spirit
+        to direct the portal wherever it pleases. Extra successes
+        beyond the successes required for pinpointing the portal's
+        exit point allow the spirit to triple the radius of the portal.
+        &quot;
+
+    transport[Transport]
+    portal --&gt; transport
+    click transport callback &quot;
+        Transport&lt;br&gt;
+        &lt;br&gt;
+        Cost: 20 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Temperance: 4&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms: Portal&lt;br&gt;
+        &lt;br&gt;
+        A successful Dexterity + Temperance check allows
+        the spirit to transport itself wherever it chooses. For each
+        success, it may transport one passenger (willing or unwilling)
+        as well, though it costs one additional Willpower
+        point if there are passengers involved. All passengers must
+        be within the line of sight of the spirit. The spirit must have
+        been to the destination before.
+        &quot;
+
+    banish[Banish]
+    transport --&gt; banish
+    click banish callback &quot;
+        Banish&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower per target&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Temperance: 4&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms: Transport&lt;br&gt;
+        With this Charm, a spirit may banish any targets
+        within line of site to a random habitable location up one.
+        mile distant (Le., a human would not be banished to an
+        underwater location or dumped in a lava flow). Roll the
+        spirit's Perception + Temperance. Each success allow one
+        target to be banished in this manner. The more successes
+        the farther away the target is likely to be sent. This Charm
+        must be used within the bounds of the spirits home
+        territory.
+        &quot;
+
+    capture[Capture]
+    banish --&gt; capture
+    click capture callback &quot;
+        Capture&lt;br&gt;
+        &lt;br&gt;
+        Cost: 15 motes, 1 Will power per target&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Temperance: 5&lt;br&gt;
+        Minimum Essence: 6&lt;br&gt;
+        Prerequisite Charms: Banish&lt;br&gt;
+        &lt;br&gt;
+        With this Charm, a spirit may transport any targets
+        within line of site to a location of the spirit's choosing, as
+        long as it isn't immediately deadly to the target (the target
+        could be transported into a cage or into the cave of a
+        dangerous beast, but not into a lava flow or the bottom of
+        the ocean unless the target could survive those places).
+        Roll the spirit's Dexterity + Temperance. Each success
+        allows one target to be captured in this manner.
+        &quot;
+
+    sustenance[Sustenance]
+    click sustenance callback &quot;
+        Sustenance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Temperance: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit must touch a mortal in order to activate his
+        Charm. This does not involve a Brawl or Martial Ats
+        check, as this Charm works only on a sleeping moral.
+        After the spirit touches the target, roll its Wits+ Temperance.
+        For each success, the spirit devours one mote of
+        Essence. This Charm always involves some other method
+        of sustenance as well. The spirit might feed on the dreams
+        and nightmares of the mortal, or on her breath. Whatever
+        the spirit feeds on does not harm the mortal, although it
+        might have mild (and temporary) effects when the mortal
+        wakes up. Even if the spirit does not regain the Essence it
+        spent, it still feels satiated from the other part of its meal.
+        &quot;
+
+    steal_sustenance[Steal Sustenance]
+    sustenance --&gt; steal_sustenance
+    click steal_sustenance callback &quot;
+        Steal Sustenance&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes, 1 Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Sustenance&lt;br&gt;
+        &lt;br&gt;
+        The spirit must touch a sleeping mortal in order to
+        activate this Charm. Roll the spirit's Strength + Temperance.
+        At least two successes are required. Not only does this
+        Charm steal two motes of Essence per success, but it also
+        devours something that leaves the mortal impaired in some
+        way — hearing, sight, etc. — although it leaves the body
+        apparently unharmed. Only supernatural healing of some
+        sort restores the loss; it never heals normally. Even if the
+        spirit does not replenish the Essence it spent, it feels satiated.
+        &quot;
+
+    subgraph Games of Divinity
+        donning_spiritual_armor[Donning Spiritual Armor]
+        click donning_spiritual_armor callback &quot;
+            Donning Spiritual Armor&lt;br&gt;
+            &lt;br&gt;
+            Cost: 5 Motes&lt;br&gt;
+            Duration: One scene&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Temperance: 2&lt;br&gt;
+            Minimum Essence: 2&lt;br&gt;
+            Prerequisite Charms: None&lt;br&gt;
+            &lt;br&gt;
+            The small god summons up the forces of the elements or
+            similar powers to protect it from harm. The spirit gains armor
+            equal to Temperance + Essence. This armor can be used to
+            soak any form of bashing or lethal damage, including damage
+            caused by environmental conditions such as excessive heat
+            or cold. Elementals and elementally associated spirits always
+            surround themselves with elemental protections such as a
+            hauberk of tough roots, a shirt of flexible rock or a breastplate
+            of living flame. Other spirits don armor of light or darkness
+            or, occasionally, transform their ordinary garb into supernally
+            beautiful and durable garments of pure magic.
+            &quot;
+
+        essence_inveigle[Essence Inveigle]
+        click essence_inveigle callback &quot;
+            Essence Inveigle&lt;br&gt;
+            &lt;br&gt;
+            Cost: 6 motes, 2 Willpower&lt;br&gt;
+            Duration: One week (at least)&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Temperance: 3&lt;br&gt;
+            Minimum Essence: 2&lt;br&gt;
+            Prerequisite Charms: Sustenance&lt;br&gt;
+            &lt;br&gt;
+            The spirit has consensual sex with a mortal in order to
+            activate the Charm, so no Brawl or Martial Arts rolls are
+            required. Amidst the merriment, roll the spirit's Manipulation
+            + Temperance. For each success, the spirit devours 1 mote of
+            Essence. What is more, the victim later develops an unquenchable
+            craving for another rendezvous with the spirit. If
+            the victim returns freely, the process is repeated (and any lost
+            Wits suffered from the process below are regained). If the
+            victim does not return within one week, roll his Wits +
+            Conviction -1 die for each time the spirit successfully used the
+            Charm against die victim. If the roll yields fewer successes that
+            the spirit's Willpower, the victim loses a point of Wits temporarily.
+            If he does not return to the spirit that day, repeat the
+            process the next day, continuing every day until the victim
+            either returns of his own volition, succeeds in breaking the
+            Charm or reaches 0 Wits (in which case the victim loses all
+            control and will do anything within his power to return to the
+            spirit). If the victim's Wits + Conviction roll succeeds against
+            the spirit s Willpower, the Charm is cancelled, and all temporary
+            Wits losses are regained. This Charm has no effect on
+            beings with an Essence higher than the spirit's.
+            &quot;
+    end
+
+    sustenance --&gt; essence_inveigle
+
+    subgraph Kingdom of Halta
+        den_of_shadows[Den of Shadows]
+        click den_of_shadows callback &quot;
+            Den of Shadows&lt;br&gt;
+            &lt;br&gt;
+            Cost: 5 motes&lt;br&gt;
+            Duration: One day&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Temperance: 2&lt;br&gt;
+            Minimum Essence: 2&lt;br&gt;
+            Prerequisite Charms: None&lt;br&gt;
+            &lt;br&gt;
+            The Shade Tiger possesses a unique Charm — it
+            can hide in any shadow for the duration of the day.
+            The Den of Shadows automatically disappears at
+            sunset (and the Tiger springs forth from its lair, ready
+            to hunt). While in the Den of Shadows, the Shade
+            Tiger is Elsewhere and is, therefore, unaware of any
+            happenings in the living world or the Underworld.
+            &quot;
+    end
+
+    </pre></section>
+<section id="valor">
+<h2>Valor<a class="headerlink" href="#valor" title="Link to this heading">¶</a></h2>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    essence_bite[Essence Bite]
+    click essence_bite callback &quot;
+        Essence Bite&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit must touch its target for this Charm to
+        work, requiring a successful Dexterity + Brawl or Martial
+        Arts roll. If the touch attempt is successful, make a
+        reflexive Valor + Essence roll for the spirit. For every
+        success on the attack, the spirit does a point of lethal
+        damage. The character's armor soak applies as normal to
+        this damage, and extra successes on the attack roll add to
+        damage as usual.&lt;br&gt;
+        This Charm may rely on heat, cold, life-draining or
+        any number of other mechanisms to do damage —
+        almost all have secondary effects that the spirit can
+        manipulate to its advantage. For example, a ghost that
+        can start fires with its fiery touch can burn down a barn
+        with this Charm.
+        &quot;
+
+    materialize[Materialize]
+    click materialize callback &quot;
+        Materialize&lt;br&gt;
+        &lt;br&gt;
+        Cost: Varies&lt;br&gt;
+        Duration: Indefinite&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, the spirit can materialize
+        in the physical world. The cost of this Charm is between 50
+        percent and 100 percent of the spirit's temporary Essence.
+        The cost varies from spirit to spirit and is listed in the spirit's
+        description or assigned by the Storyteller. Generally, as the
+        power of the spirit grows, the spirit must expend proportionally
+        greater amounts of Essence to materialize.
+        In most cases, a spirit that plans to meddle in mortal
+        affairs will materialize in some safe area and then rest,
+        regaining its Essence, before it goes about its business. Spirits
+        that have not materialized cannot affect the physical world, not
+        with Charms, physical attacks or in any other fashion.
+        &quot;
+
+    principle_of_motion[Principle of Motion]
+    click principle_of_motion callback &quot;
+        Principle of Motion&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes, 1 Willpower&lt;br&gt;
+        Duration: Until used&lt;br&gt;
+        Type: Extra Action&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        When the spirit uses this Charm, it gains a pool of extra
+        actions equal to its Valor. Actions in this pool can be expended
+        for extra attacks on the spirit's initiative or reflexively, to parry or
+        dodge an attack or to refresh the spirit's Dodge pool when using
+        the full dodge maneuver. If the spirit does not use all the actions
+        in its pool, they remain available for it in the following turn.
+        Actions in the pool will persist for many months, and many spirits
+        make sure they retain a full complement of actions in case they
+        are ambushed. A spirit cannot use this Charm again until it has
+        used up all the extra actions granted by the last use of the Charm.
+        While the spirit has extra actions in its pool, the motes of Essence
+        used to power this Charm are considered committed.
+        &quot;
+
+    words_of_power[Words of Power]
+    click words_of_power callback &quot;
+        Words of Power&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit may intone blasphemies, keen out the lamentations
+        of the dead or speak the victim's true name, but
+        regardless, its words are like a battering ram. The spirit attacks
+        using Charisma + Valor to hit the opponent and does bashing
+        damage equal to the spirit's Strength, which can be soaked
+        only by the target's Stamina. Extra successes on the attack add
+        to damage, as usual. For every health level of damage the
+        target takes, he is at a - 1 penalty to all dice pools for a number
+        of turns equal to the attacking spirit's Essence.
+        This attack may be dodged or blocked as normal but
+        has no physical effects except perhaps causing blood to
+        flow from the target's ears or hurling him bodily through
+        light obstructions.
+        &quot;
+
+    subgraph Players Guide
+        dematerialize[Dematerialize]
+        click dematerialize callback &quot;
+            Dematerialize&lt;br&gt;
+            &lt;br&gt;
+            Cost: Varies&lt;br&gt;
+            Duration: Indefinite&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            inimum Valor: 2&lt;br&gt;
+            inimum Essence: 2&lt;br&gt;
+            Prerequisite Charms: None&lt;br&gt;
+            &lt;br&gt;
+            Through the use of this Charm, an elemental may
+            transmute its flesh and personal belongings into spiritual
+            Essence, thereby assuming an incorporeal state. Dematerialized
+            elementals may perceive and interact with other
+            incorporeal beings as if both were solid, either magically or
+            with touch. However, immaterial beings are utterly undetectable
+            to physical beings and cannot directly affect the physical
+            world in any way without Charms or other powers intended
+            for such use (such as Possession, Will-o-Wisp etc.).
+            Dematerialized elementals with Essence 2+ can spend
+            1 mote to manifest for a scene as a translucent phantom of
+            themselves and speak in a quiet voice or whisper, exactly
+            as normally immaterial spirits can do as an innate ability.
+            As always, the Storyteller remains the final arbiter of
+            whether a particular power may affect the physical world
+            from a dematerialized state. This lack of physical interac-
+            tion also allows an incorporeal elemental to effortlessly
+            pass through solid walls and other material obstructions,
+            though appropriate magical wards can still bar their path
+            The cost of this Charm is normally between 50
+            percent and 100 percent of the elemental's total
+            available Essence pool. For elementals without a
+            listed cost to dematerialize, the percentage cost of
+            total Essence they must expend equals their (Essence
+            rating x 5) + 45, rounded up. For example, a spirit
+            with Essence 2 and an available pool of 48 motes pays
+            27 motes (55 percent).&lt;br&gt;
+            Eclipse Caste Solars and Moonshadow Caste Abyssals
+            who learn this Charm also calculate their cost according to
+            the preceding formula without applying the usual double
+            cost modifier for learning spirit Charms, determining the
+            value according to a percentage of their total Essence pool
+            (Personal + Peripheral). The half-spirit descendents of
+            gods, elementals and demons do not pay a percentage of
+            their total pool, instead paying a cost of their (Essence
+            rating x 5) + 5 motes.&lt;br&gt;
+            Unlike other Charms of non-instant duration, De-
+            materialize does not require that elementals commit the
+            Essence cost to sustain the magic. However, beings that
+            normally exist in a material state cannot regain Essence
+            through respiration while Dematerialized (and vice versa
+            for immaterial spirits who materialize). Instead of com-
+            mitting Essence, beings using this Charm must pay half
+            the normal cost each day at sunrise as a reflexive upkeep,
+            rounded up. Failure to pay this upkeep immediately ends
+            the effects of the Charm. Otherwise, characters must
+            spend a dice action reverting back to their natural state,
+            though success is automatic.&lt;br&gt;
+            The rules printed here expand upon and supersede
+            those for the Materialize Charm in Exalted and apply in
+            reverse for that Charm.
+            &quot;
+    end
+
+
+    </pre><pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    details[Details]
+    click details callback &quot;
+        Details&lt;br&gt;
+        &lt;br&gt;
+        Cost: 3 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Spirits use the Details Charm to change small details of
+        their physical appearance, upon a successful Charisma +
+        Valor check. Each use of this Charm allows one discrete
+        detail to be changed. The size and complexity of the detail
+        depends on the number of successes the spirit achieves. One
+        or two successes allow a small detail to be changed: hair
+        length, the shape of the spirit's pupils. Three or four allow
+        the spirit to change larger details: the design of a dress, the
+        length of its limbs. Five or more successes allow the spirit to
+        create details from nothing: a bracelet where there was none.
+        &quot;
+
+    form_match[Form Match]
+    details --&gt; form_match
+    click form_match callback &quot;
+        Form Match&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes per day, 1 Willpower&lt;br&gt;
+        Duration: Variable&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Details&lt;br&gt;
+        &lt;br&gt;
+        The spirit may take on another's physical form upon a
+        successful Charisma + Valor check. This requires the spirit
+        to touch the being to be emulated, which may require a
+        successful Dexterity + Brawl or Martial Arts check, depending
+        on the circumstances. The spirit must pay in advance
+        and choose up front how many motes to spend; if it chooses
+        to break the Charm early, those motes are not recovered.
+        A very successful Perception + Awareness check may
+        see through the disguise. Four successes indicate that small
+        elements of the disguise seem wrong, while five or more
+        indicate that the shapechanging seems patently false.
+        Some spirits and Exalted may possess Charms designed to
+        see through such trickery.&lt;br&gt;
+        Certain actions may allow someone to see through
+        such a disguise or may momentarily break through the
+        disguise; superstitions of various areas prescribe different
+        actions. Some of these are: looking at someone's reflection
+        in a fractured mirror, looking at someone through lenses
+        that have been soaked in a special herbal solution, blowing
+        ashes of certain types of wood into someone's face. Which
+        superstitions apply depends on the spirit. Some particularly
+        difficult &amp;quot;rituals&amp;quot; may break the disguise entirely.
+        &quot;
+
+    shapechange[Shapechange]
+    click shapechange callback &quot;
+        Shapechange&lt;br&gt;
+        &lt;br&gt;
+        Cost: 12 motes per day&lt;br&gt;
+        Duration: Variable&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit may take on any physical form it wishes upon
+        a successful Charisma + Valor check; it must pay the cost for
+        the full duration in advance (if the spirit breaks the Charm
+        early, the extra motes are not recovered). After that, the
+        spirit must reactivate the Charm if it wishes to continue the
+        masquerade, making the Charisma + Valor check again.
+        The spirit must spend another 10 motes and a Willpower
+        point in advance (once per use of the Charm, not per day)
+        if it wishes its Abilities, Attributes, etc. to change with its
+        form. This latter restriction does not apply if the spirit has
+        a very limited number of forms and knows them very well.&lt;br&gt;
+        The Shapechange Charm may be seen through in the
+        same manner as the Form Match Charm, above.
+        &quot;
+
+    will_o_wisp[Will-o-Wisp]
+    click will_o_wisp callback &quot;
+        Will-o-Wisp&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One turn&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit causes brief, somewhat muddled manifestations
+        of sound, smell, and light, such as a ball of light or
+        indistinct sounds of conversation. Roll the spirit's Manipulation
+        + Valor. The more successes, the more noticeable these
+        manifestations are (louder, brighter) and the longer they may
+        last. This Charm may not be used in precise ways — no writing
+        words or making pictures in light; no speaking distinct phrases.
+        &quot;
+
+    ghostly_presence[Ghostly Presence]
+    will_o_wisp --&gt; ghostly_presence
+    click ghostly_presence callback &quot;
+        Ghostly Presence&lt;br&gt;
+        &lt;br&gt;
+        Cost: 8 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 3&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: Will-o-Wisp&lt;br&gt;
+        &lt;br&gt;
+        The spirit may cause the same manifestations as Will-o-Wisp,
+        again making a Manipulation + Valor check. This
+        time, however, it may create distinct patterns. Ghostly
+        writing may be created. This Charm may be used to hold
+        a conversation with a target while the spirit is unmanifested.
+        The number of successes affects how distinct the manifestations
+        are, how precisely controlled they are, and just how
+        thoroughly the spirit may manipulate its medium. With
+        five successes, the spirit may paint simple scenes out of
+        light, sound and smell. These scenes may not be larger than
+        ten feet in any direction, and they are obvious to anyone
+        who is close enough to observe them.
+        &quot;
+
+    paralyze[Paralyze]
+    click paralyze callback &quot;
+        Paralyze&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        Through the use of this Charm, spirits can paralyze
+        targets. It must touch its target for this Charm to work,
+        which may require a successful Dexterity + Brawl or
+        Martial Arts check. If the spirit successfully touches its
+        target, roll its Strength + Valor with a difficulty equal to
+        the target's Stamina. Every extra success the spirit achieves
+        causes the target to suffer a -2 penalty to all rolls involving
+        movement or agility for the rest of the scene.
+        &quot;
+
+    affinity_element_control[Affinity Element&lt;br&gt;Control]
+    click affinity_element_control callback &quot;
+        Affinity Element Control&lt;br&gt;
+        &lt;br&gt;
+        Cost: 6 motes&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The spirit may use this Charm to affect whichever
+        element (s) it shares an affinity with. For example, a forest
+        spirit could affect Wood, and possibly Earth (Storyteller's
+        discretion). This allows spirits to cause or calm small floods
+        and rainstorms, twist a small torch into a raging inferno or
+        a delicate dance of firelight, create gusts of wind, open a
+        hole in the earth or twist tree limbs into manacles.&lt;br&gt;
+        Roll the spirit's Manipulation + Valor. The number of
+        successes indicates how fine a level of control the spirit has
+        and how powerful an effect it can create. One success
+        allows a spirit to call forth a mild rain or light a campfire,
+        while three allow a spirit to cause a rainy day or build a
+        torch into a bonfire without any extra fuel. Five successes
+        might allow a spirit to create a phantom lover out of air
+        itself or instantly consume a large wooden structure in
+        flames. The spirit may manipulate a one-yard cube of an
+        element per point of Essence it possess. In the case of area
+        effects like rain, it could cause the effect in a five-meter
+        radius per permanent Essence point.
+        &quot;
+
+    element_control[Element Control]
+    affinity_element_control --&gt; element_control
+    click element_control callback &quot;
+        Element Control&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One scene&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Affinity Element Control&lt;br&gt;
+        The same as Affinity Element Control, except that
+        the spirit can control any element, not just one to which
+        it is attuned.
+        &quot;
+
+    weather_control[Weather Control]
+    click weather_control callback &quot;
+        Weather Control&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 3&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Affinity Element Control&lt;br&gt;
+        &lt;br&gt;
+        This Charm allows the spirit to control the weather.
+        Note that this may duplicate some effects of the Element
+        Control Charms, but its effects are limited to weather
+        phenomena: rain, fog, floods, storms, heat, cold, etc. This
+        charm affects a larger area as well — a one- mile radius per
+        permanent Essence point. Roll the spirit's Manipulation +
+        Valor; the number of successes determines the size of the
+        effect the spirit can create, and the length of time before the
+        area's natural climate reasserts itself. One success allows
+        small changes — a low wind could be created, or a heavy
+        wind could be downgraded to a moderate wind. Three
+        successes allow the creation of a moderate rainstorm or a
+        mild heat wave. Five successes allow wild changes in local
+        weather patterns, such as high heat in the middle of the
+        month of Ascending Water. It takes one hour per success
+        for the local weather patterns to reassert themselves. Unnatural
+        or one-time meteorological effects that are halted by
+        the use of this Charm can be considered ended.
+        &quot;
+
+    ignite[Ignite]
+    click ignite callback &quot;
+        Ignite&lt;br&gt;
+        &lt;br&gt;
+        Cost: 1 or 5 motes
+        Duration: Instant
+        Type: Reflexive
+        Minimum Valor: 2
+        Minimum Essence: 2
+        Prerequisite Charms: None
+        The spirit may, upon a successful Stamina + Valor
+        check, set fire to whatever item it touches. This requires 5
+        motes if the item is nonflammable.
+        &quot;
+
+    element_touch[Element Touch]
+    click element_touch callback &quot;
+        Element Touch&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes, 1 Willpower&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        This Charm causes its target to become &amp;quot;touched&amp;quot; by
+        the spirit's element. The spirit must touch its target for this
+        Charm to work, possibly requiring a successful Dexterity +
+        Brawl or Martial Arts attack. Roll the spirit's Manipulation
+        + Valor with a difficulty equal to the target's Essence.
+        The more extra successes, the more intense the target's
+        reaction to this Charm. A Fire-aspected spirit causes
+        someone to grow feverish. The target might take on some
+        of the personality traits associated with fire: a hotheaded
+        temper, lusty libido, curiosity, anger, vengeance, forceful-
+        ness or willfulness. The effects of this Charm last for one
+        day or until the spirit chooses to release the target, whichever
+        comes sooner. This Charm is a favorite among demons,
+        who use it to bring out the worst in targets.
+        &quot;
+
+    element_kiss[Element Kiss]
+    element_touch --&gt; element_kiss
+    click element_kiss callback &quot;
+        Element Kiss&lt;br&gt;
+        &lt;br&gt;
+        Cost: 20 motes, 1 Willpower&lt;br&gt;
+        Duration: One week&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Element Touch&lt;br&gt;
+        &lt;br&gt;
+        This Charm is the same as Element Touch, but it lasts
+        for one week or until the spirit chooses to release the target,
+        whichever comes sooner. Like Element Touch, this Charm
+        requires the spirit to touch its target. If the spirit achieves
+        three or more successes, the target may have hallucinations
+        that support and intensify his reaction.
+        &quot;
+
+    element_infusion[Element Infusion]
+    element_kiss --&gt; element_infusion
+    click element_infusion callback &quot;
+        Element Infusion&lt;br&gt;
+        &lt;br&gt;
+        Cost: 30 motes, 2 Willpower&lt;br&gt;
+        Duration: One month&lt;br&gt;
+        Type: Reflexive&lt;br&gt;
+        Minimum Valor: 3&lt;br&gt;
+        Minimum Essence: 3&lt;br&gt;
+        Prerequisite Charms: Element Kiss&lt;br&gt;
+        &lt;br&gt;
+        This Charm is similar to the lesser Element Kiss and
+        Element Touch Charms, but lasts for one month or until
+        the spirit chooses to release the target (whichever comes
+        sooner). Like the two lesser Charms, the spirit must either
+        touch the target or look into the target's eyes. Roll the
+        spirit's Manipulation + Valor with a difficulty equal to the
+        target's Essence. With two or more successes, the target has
+        the hallucinations described under Element Kiss. At three
+        or more successes, the target may well harm herself under
+        the force of her reaction.
+        &quot;
+
+    </pre><pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    subgraph Games of Divinity
+        uncanny_prowess[Uncanny Prowess]
+        click uncanny_prowess callback &quot;
+            Uncanny Prowess&lt;br&gt;
+            &lt;br&gt;
+            Cost: 2 motes&lt;br&gt;
+            Duration: Special&lt;br&gt;
+            Type: Reflexive&lt;br&gt;
+            Minimum Valor: 2&lt;br&gt;
+            Minimum Essence: 1&lt;br&gt;
+            Prerequisite Charms: None&lt;br&gt;
+            &lt;br&gt;
+            The spirit may add a number of dice equal to its Valor
+            score to a single Dexterity roll. This roll could be anything
+            from a single blow with a weapon to a single performance or
+            even to the roll to create a single piece of fine jewelry. When
+            used for longer endeavors, this Charm adds dice to each roll
+            of a single extended action. However, it can only be used on
+            one endeavor at a time, the Essence invested in this Charm
+            cannot be regained, and the Charm cannot he recast until
+            the task has been completed or abandoned.
+            &quot;
+
+        creation_of_perfection[Creation of Perfection]
+        click creation_of_perfection callback &quot;
+            Creation of Perfection&lt;br&gt;
+            &lt;br&gt;
+            Cost: 2 motes&lt;br&gt;
+            Duration: Special&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Valor: 2&lt;br&gt;
+            Minimum Essence: 2&lt;br&gt;
+            Prerequisite Charms: None&lt;br&gt;
+            &lt;br&gt;
+            This Charm allows spirits to create supernaturally exquisite
+            items or to perform feats of inhuman skill with various crafts.
+            When using this charm, roll Intelligence + Valor for the spirit.
+            Every success gained on this roll can be added to a single Craft,
+            Medicine, Occult or Larceny roll designed to create an item or to
+            carry out a slow and careful process such as performing surgery,
+            compounding a drug, putting on a disguise or creating a magical
+            talisman. This Charm cannot be used to enhance any task that
+            requires speed or haste such as picking a lock before the guard
+            arrives, stopping someone from bleeding to death or any form of
+            combat. It can also only be used on tasks that require both clear
+            thought and nimble fingers. No activity can simultaneously
+            benefit from both this Charm and the Uncanny Prowess Charm.
+            &quot;
+
+        spirit_cutting[Spirit-Cutting]
+        click spirit_cutting callback &quot;
+            Spirit-Cutting&lt;br&gt;
+            &lt;br&gt;
+            Cost: 1 mote&lt;br&gt;
+            Duration: Instant&lt;br&gt;
+            Type: Supplemental&lt;br&gt;
+            Minimum Valor: 3&lt;br&gt;
+            Minimum Essence: 2&lt;br&gt;
+            Prerequisite Charms: None&lt;br&gt;
+            &lt;br&gt;
+            This Charm allows a materialized spirit to launch a
+            single attack at an unmanifested spirit. For the purposes of
+            the individual attack, the small god attacks the immaterial
+            spirit normally.
+            &quot;
+    end
+
+    </pre><section id="curses">
+<h3>Curses<a class="headerlink" href="#curses" title="Link to this heading">¶</a></h3>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    tiny_damnation[Tiny Damnation]
+    click tiny_damnation callback &quot;
+        Tiny Damnation&lt;br&gt;
+        &lt;br&gt;
+        Cost: 5 motes&lt;br&gt;
+        Duration: One day&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 1&lt;br&gt;
+        Minimum Essence: 1&lt;br&gt;
+        Prerequisite Charms: None&lt;br&gt;
+        &lt;br&gt;
+        The effects of this Charm always fade by the next
+        morning's sunrise, and it may not be cast more than once
+        per day on the same target. Some possible curses:&lt;br&gt;
+        • One dot lost from an Ability of the spirit's choosing.&lt;br&gt;
+        • The loss of one temporary Willpower point.&lt;br&gt;
+        • The loss of two motes of Essence.&lt;br&gt;
+        • Bad luck: the target loses one die from any normal
+        Ability checks (not Charm checks) that relate to the way
+        in which the target offended the spirit.
+        &quot;
+
+    imprecation[Imprecation]
+    tiny_damnation --&gt; imprecation
+    click imprecation callback &quot;
+        Imprecation&lt;br&gt;
+        &lt;br&gt;
+        Cost: 10 motes&lt;br&gt;
+        Duration: One week&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 1&lt;br&gt;
+        Minimum Essence: 2&lt;br&gt;
+        Prerequisite Charms: Tiny Damnation&lt;br&gt;
+        &lt;br&gt;
+        The effects of this Charm last for one week, and it may
+        not be cast more than once per week on the same target.
+        Some possible curses:&lt;br&gt;
+        • Loss of two Ability dots, distributed as the spirit sees fit.&lt;br&gt;
+        • The loss of two temporary Willpower points.&lt;br&gt;
+        • The loss of one Attribute dot of the spirit's choosing.&lt;br&gt;
+        • The loss of five motes of Essence.&lt;br&gt;
+        • Bad luck: the target removes one die from normal Ability checks (not Charm checks).&lt;br&gt;
+        • A mark appears in an obvious place on the target&lt;br&gt;
+        that only spirits or Exalted with some sort of supernatural
+        sight can see. This may, for example, urge any spirits who
+        meet the target to torment him.
+        &quot;
+
+    malediction[Malediction]
+    imprecation --&gt; malediction
+    click malediction callback &quot;
+        Malediction&lt;br&gt;
+        &lt;br&gt;
+        Cost: 15 motes, 1 Willpower&lt;br&gt;
+        Duration: One week&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 2&lt;br&gt;
+        Minimum Essence: 4&lt;br&gt;
+        Prerequisite Charms: Imprecation&lt;br&gt;
+        &lt;br&gt;
+        The effects of this Charm last for one week, and it may
+        not be used on a target more than once every two weeks.
+        Some possible effects:&lt;br&gt;
+        • Loss of four Ability points, distributed as the spirit
+        sees fit.&lt;br&gt;
+        • Loss of two Attribute points, distributed as the spirit
+        sees fit.&lt;br&gt;
+        • Loss of three temporary Willpower points.&lt;br&gt;
+        • Loss of ten motes of Essence.&lt;br&gt;
+        • Bad luck: the target removes one die from both
+        normal Ability checks and Charm checks.&lt;br&gt;
+        • The effects of one Charm (of Virtue 1, Essence 1) that
+        the spirit possesses may be conferred upon the target, but that
+        effect is twisted in some way. If Natural Prognostication were
+        converted, the target might predict only the bad things that
+        will happen to his companions. Or his predictions might be
+        more than a little mixed up. Landscape Travel, if cast on
+        someone traveling through a forest, might force him to travel
+        through the trees and prevent him from ever touching the
+        ground. I his twisted Charm lasts tor no more than one week.
+        &quot;
+
+    scourge[Scourge]
+    malediction --&gt; scourge
+    click scourge callback &quot;
+        Scourge&lt;br&gt;
+        &lt;br&gt;
+        Cost: 20 motes, l permanent Willpower&lt;br&gt;
+        Duration: Instant&lt;br&gt;
+        Type: Simple&lt;br&gt;
+        Minimum Valor: 3&lt;br&gt;
+        Minimum Essence: 5&lt;br&gt;
+        Prerequisite Charms: Malediction&lt;br&gt;
+        &lt;br&gt;
+        This curse is never cast lightly, and it may not be cast
+        more than once per year. Only spirits that have been
+        drastically wronged in heinous ways would consider using
+        this curse (if just because they wouldn't be able to cast it
+        again for another year).&lt;br&gt;
+        • Loss of one Attribute point, permanently. It must be
+        bought back up through practice (and experience points),
+        Against a mortal character, this Charm also permanently
+        lowers the character's maximum score in that Ability by one.&lt;br&gt;
+        • Loss of two Ability points, permanently, distributed
+        as the spirit sees fit. Only practice and experience points
+        may buy this back up again.&lt;br&gt;
+        • Loss of one permanent Willpower point.&lt;br&gt;
+        • Loss of one permanent Essence point.&lt;br&gt;
+        • Loss of all temporary Willpower.&lt;br&gt;
+        • The effects of one Charm (maximum Virtue 2,
+        Essence 2) that the spirit possesses may be conferred upon
+        the target, but the effect is twisted in some way (as
+        Malediction). This lasts for twice as long as the Charm
+        would normally last. In rare cases (Storyteller discretion)
+        the effect may be permanent.&lt;br&gt;
+        • Bad luck: the target attracts ill-intentioned spirits
+        wherever he goes. Duration permanent.&lt;br&gt;
+        • The spirit may permanently change some physical
+        feature of the target, such as facial hair or eye color. (This
+        alteration may not change any Attributes by more than
+        one point.)
+        &quot;
+
+
+    subgraph Players Guide
+        conditional_curse[Conditional Curse]
+        click conditional_curse callback &quot;
+            Conditional Curse&lt;br&gt;
+            &lt;br&gt;
+            Cost: 3 motes, 1 Willpower&lt;br&gt;
+            Duration: Until Calibration&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Compassion/Valor: 2&lt;br&gt;
+            Minimum Essence: 4&lt;br&gt;
+            Prerequisite Charms: Benefaction/Imprecation&lt;br&gt;
+            &lt;br&gt;
+            With these Charms, a spirit may place a mark of Essence
+            upon a target in its line of sight as a delayed trigger for another
+            Charm. If the delayed effect has a positive intent, the spirit
+            must know and use the Compassion Charm Conditional
+            Blessing. A negative or harmful intent requires the Valor
+            Charm Conditional Curse. A Manipulation + Compassion/
+            Valor roll against a difficulty of the target's Essence is neces-
+            sary to inscribe the mark. If this roll succeeds, the spirit
+            chooses one Charm it knows that can directly affect that
+            target. If the selected Charm has multiple uses or permuta-
+            tions, the spirit must also select the exact effects the Charm
+            will take. The spirit then establishes the precise actions the
+            target must perform to trigger the delayed Charm.&lt;br&gt;
+            The spirit may include as many conditions as desired, any
+            of which may be as elaborate or straightforward as desired. For
+            example, the spirit may decide to heal a loyal shaman with
+            Touch of Grace if she speaks a specific prayer petitioning aid.
+            Conversely, a demon might arrange to summon its Demon-
+            Blooded daughter to a dungeon in Malfeas (via Capture) if
+            she ever disobeys a direct order or reveals her infernal heritage
+            to anyone she is not actively trying to kill.&lt;br&gt;
+            Whenever the target of a Conditional Blessing or
+            Curse performs the requisite actions, the spirit knows. At
+            any time, it may then immediately activate the triggered
+            Charm as a reflexive action to end the Conditional Bless-
+            ing/Curse regardless of distance or withhold its benediction/
+            wrath until it can learn more about the target's actions.
+            This Charm and its mark also fade without effect if the
+            target does not meet the established conditions by the next
+            Calibration. Only spirits and other beings capable of
+            perceiving Essence at work can see the mark of an extant
+            Conditional Blessing/Curse.
+            &quot;
+    end
+
+    imprecation --&gt; conditional_curse
+
+    </pre></section>
+</section>
+<section id="wyld">
+<h2>Wyld<a class="headerlink" href="#wyld" title="Link to this heading">¶</a></h2>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    subgraph Lunar
+        wyld_armor[Wyld Armor]
+        click wyld_armor callback &quot;
+            Wyld Armor&lt;br&gt;
+            &lt;br&gt;
+            Cost: 3 motes + 2 committed motes per additional person protected&lt;br&gt;
+            Duration: Indefinite&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Compassion: 3&lt;br&gt;
+            Minimum Essence: 2&lt;br&gt;
+            Prerequisite Charms: Sense Domain&lt;br&gt;
+            &lt;br&gt;
+            Using this Charm, the spirit can protect a number
+            of people equal to twice it's Essence from the
+            Wyld. Each person protected adds a number of dice
+            equal to the permanent Essence of the spirit protecting
+            her to any rolls to resist the effects of the Wyld
+            (minimum 1 die).
+            &quot;
+
+        wyld_shield[Wyld Shield]
+        click wyld_shield callback &quot;
+            Wyld Shield&lt;br&gt;
+            &lt;br&gt;
+            Cost: 5 motes, 1 Willpower&lt;br&gt;
+            Duration: Indefinite&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Compassion: 3&lt;br&gt;
+            Minimum Essence: 3&lt;br&gt;
+            Prerequisite Charms: Wyld Armor&lt;br&gt;
+            &lt;br&gt;
+            Using this Charm, a spirit can defend a tribe or
+            other large group from the ravages of the Wyld. The
+            group must be defined in some readily understand-
+            able and limited fashion; &amp;quot;all the people of Farseeker's
+            tribe&amp;quot; is acceptable, as is &amp;quot;that war party there&amp;quot;, while
+            &amp;quot;all of the barbarians who dwell near the Wyld&amp;quot; is
+            not. So long as the little god maintains this blessing,
+            those who fall under the definition set will gain dice
+            equal to half the little god's permanent Essence on all
+            attempts to withstand Wyld addiction and mutation
+            (minimum bonus of one die).
+            &quot;
+
+        wyld_barrier[Wyld Barrier]
+        click wyld_barrier callback &quot;
+            Wyld Barrier&lt;br&gt;
+            &lt;br&gt;
+            Cost: 10 motes, 2 Willpower&lt;br&gt;
+            Duration: Indefinite&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Compassion: 3&lt;br&gt;
+            Minimum Essence: 4&lt;br&gt;
+            Prerequisite Charms: Wyld Shield&lt;br&gt;
+            &lt;br&gt;
+            Using this Charm, the spirit can protect a number
+            of people from the Wyld equal to twice her
+            Essence. The player of anyone so protected adds a
+            number of dice equal to the permanent Essence of
+            the spirit protecting him to any rolls to resist the
+            effects of the Wyld.
+            &quot;
+    end
+
+    wyld_armor --&gt; wyld_shield
+    wyld_shield --&gt; wyld_barrier
+
+    </pre></section>
+<section id="demons">
+<h2>Demons<a class="headerlink" href="#demons" title="Link to this heading">¶</a></h2>
+<pre  class="mermaid">
+        ---
+config:
+  theme: dark
+---
+flowchart TD
+
+    subgraph Players Guide
+        investiture_of_infernal_glory[Investiture of Infernal Glory]
+        click investiture_of_infernal_glory callback &quot;
+            Investiture of Infernal Glory&lt;br&gt;
+            &lt;br&gt;
+            Cost: 60 motes, 6 Willpower&lt;br&gt;
+            Duration: Until completed&lt;br&gt;
+            Type: Simple&lt;br&gt;
+            Minimum Compassion: 3&lt;br&gt;
+            Minimum Conviction: 5&lt;br&gt;
+            Minimum Valor: 4&lt;br&gt;
+            Minimum Essence: 7&lt;br&gt;
+            Prerequisite Charms: Endowment, Geas, Memory Transference, Scourge&lt;br&gt;
+            &lt;br&gt;
+            With this Charm, a Demon Prince may stain an
+            Exalted Essence to create a prince among akuma. The rite
+            cannot begin until the Exalt submits his will to the demon,
+            forfeiting part of his soul with a prayer of supplication that
+            costs him a point of permanent Willpower. Such a sacrifice
+            cannot be coerced or obtained with deception, but must be
+            an act of genuine free will. It is the last act of free will the
+            Exalt will ever know.&lt;br&gt;
+            With this sacrifice, the demon infuses the subject
+            with torturous power and reshapes him to better suit its
+            monstrous will. Any Traits that may be purchased or raised
+            in play may be cannibalized to yield the number of experience
+            points it would cost to obtain the Trait in its current
+            state. Thus, the character's Wits of 4 could yield 12
+            experience points as it dropped to 3, while a specialty
+            would yield 3 experience points. The demon chooses how
+            to reassign these experience points to modify the character
+            as much or as little as desired, but it must spend them all.
+            Anything leftover at the end of the process is lost. It is
+            possible to rebuild an Exalt from scratch, though most
+            Demon Princes only make artful adjustments.&lt;br&gt;
+            Such modifications are very quick, taking a number of
+            hours equal to the experience point cost of the new or
+            improved Trait to implement, but the changes are also
+            excruciating ordeals involving torture, soul-branding,
+            mental rape, forced re-healing and other freakishly alien
+            torments. The Exalt may have his flesh turned inside out
+            so the demon can twist muscles from Strength to Dexterity
+            or have the beliefs of his Virtues torn asunder to
+            accommodate the influx of Ability tutoring inscribed
+            upon his brain.&lt;br&gt;
+            When the process of reshaping the Exalt is complete,
+            the Demon Prince imbues him with the Essence of
+            the Demon Realm. This involves a new round of torments
+            lasting a number of days equal to the Exalt's
+            Essence rating. At the conclusion of this period, the
+            character gains Inheritance 5 and Patron 5 and becomes
+            an akuma Demon-Blood.&lt;br&gt;
+            The Demon Prince immediately spends the 30
+            bonus points in a new round of customization, and may
+            further increase this number by assigning Flaws with a
+            combined value no greater than (20 - the total value of
+            the character's current Flaws). The demon also assigns
+            the 17 additional points of Backgrounds awarded by
+            Patron according to the intended function of the akuma.
+            This concludes the ritual and the Charm, forever branding
+            the Infernal Exalt as a slave of the Demon Realm.
+            An Exalted akuma receives several unique advantages.
+            First, the maximum cap on all Attributes and
+            Abilities increases by one. An Exalt with Essence 1-5 can
+            raise these Traits to 6, while more powerful Exalted can
+            reach ratings equal to their Essence + 1. The Demon
+            Prince can and often does exploit these heightened thresh-
+            olds during the process of reshaping and empowering the
+            akuma, but the Exalt may also take advantage of them
+            with experience points. See page 259 of this book for
+            details of experience costs beyond the Essence 5 mark.&lt;br&gt;
+            Second, the character may learn spirit Charms like
+            any Demon-Blood during the initial transformation or
+            later with experience points at the same cost as normal
+            Charms for his Exalted type. However, like Essence and
+            other magical Traits, these Charms are subject to the
+            Inheritance penalty imposed on all Exalted God-Blooded.
+            The character's anima may remain eerily the same or
+            twisted to reflect whatever aspect of the Demon Realm
+            the master desires. Those with terrible Infernal animas
+            may cause derangements in ordinary mortals who behold
+            their iconic splendor. Lastly, an akuma is no longer a part
+            of fate and receives the protection of that state from the
+            divinations and astrological manipulations of the Sidereals.&lt;br&gt;
+            Exalted akuma pay a heavy price for their power.
+            They cannot disobey their masters or any Yozi, even if
+            ordered to commit suicide or to murder former loved
+            ones. Nor may they ever escape their masters. At any
+            time and in any place, the Demon Prince who made
+            them can borrow their senses or voice and may issue
+            irresistible telepathic commands. Even if the Demon
+            Prince grants the illusion of autonomy by choosing to
+            convey suggestions rather than orders, it is a thin lie at best.
+            The truth is slavery, absolute and eternal, to the end of the
+            Exalt's long days.&lt;br&gt;
+            Akuma cannot be redeemed or cleansed of the Yozi's
+            taint. This corruption even follows Celestial Exalted into
+            future incarnations of their Essence, though their succes-
+            sors do not begin their lives as Infernal Exalted. Instead,
+            these unfortunate souls must take a five-point version of
+            the Flaw Throwback (see p. 41) in which their Essence
+            Nature is a Follower seeking slavery with the Yozis. Exalted
+            can fight this siren song, but the temptation remains until
+            they die. Each subsequent incarnation reduces the value of
+            the Throwback by two points until the taint wears off
+            completely or one of the Chosen falls into the damnation
+            of her forbear.&lt;br&gt;
+            Fortunately for Creation, very few Exalted even know
+            this Charm exists, and fewer still may visit Malfeas to
+            undergo the change. Knowing about the benefits of life as
+            an akuma requires a difficulty 6 Intelligence + Occult roll.
+            Knowing the price is difficulty 8.
+            &quot;
+    end
+
+    </pre></section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo.webp" alt="Logo of Exalted 1e Charms"/>
+            </a></p>
+<h3><a href="index.html">Table of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="solar.html">Solar Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dragon_blooded.html">Dragon-Blooded Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lunar.html">Lunar Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sidereals.html">Sidereals Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="abyssal.html">Abyssal Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alchemical.html">Alchemical Charms</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Spirit Charms</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#compassion">Compassion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#conviction">Conviction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#temperance">Temperance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#valor">Valor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wyld">Wyld</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#demons">Demons</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arcanoi.html">Arcanoi (Ghost Charms)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="god_blooded.html">God-Blooded Charms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="trinity.html">The Trinity of Perfected Understanding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="others.html">Others</a></li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="arcanoi.html" title="Arcanoi (Ghost Charms)"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="alchemical.html" title="Alchemical Charms"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Exalted 1e Charms 1.0.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Spirit Charms</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright : All the content belong to White-Wolf. I am not affiliated with them in any way except in my love for their games.
+    </div>
+  </body>
+</html>
