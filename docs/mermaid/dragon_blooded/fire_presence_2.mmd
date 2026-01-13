@@ -215,3 +215,104 @@ flowchart TD
         chasm), but they will attempt to cross damaging hazards such
         as fires and raging rivers to reach the Exalt.
         "
+
+subgraph Aspect Book - Fire
+    auspicious_first_meeting_attitude[Auspicious First<br>Meeting Attitude]
+    click auspicious_first_meeting_attitude callback "
+        Auspicious First Meeting Attitude<br>
+        <br>
+        Cost: 2 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Presence: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This simple Charm can only be used the first time the
+        Dragon-Blood meets another in a social context. It allows
+        the Exalt to read the other perfectly, allowing him to adjust
+        his own behavior in any way necessary to make a perfect
+        first impression. The Charm gives its user some insight into
+        what drives the other person (political power, love, resentment,
+        etc.) and also leaves a lasting impression on the
+        target. The other person is left feeling that the Exalt is an
+        unusually worthy individual of good breeding, great virtue
+        or the like. The difficulty of all Social rolls against this
+        individual are at -2 for this initial meeting and -1 the next
+        time the Exalt meets this person (for a total of this Exalt,
+        difficulty can be lowered below a minimum of 1). Even if
+        the target never sees the Exalt again, she will be inclined
+        to speak well of him to others.<br>
+        Note that this Charm works only in social circumstances
+        where a pleasant first impression can realistically be
+        expected. A Dragon-Blood trying to be charming in the
+        field of battle is going to be sorely disappointed (although if
+        he somehow manages to pull it off, the warrior is probably
+        less likely to desecrate his corpse out of spite).
+        "
+
+    passion_transmuting_nuance[Passion Transmuting<br>Nuance]
+    click passion_transmuting_nuance callback "
+        Passion Transmuting Nuance<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Presence: 2<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The Presence-savvy Exalt knows that the three passions
+        — lust, rage and terror — are all closely linked.
+        Through the use of subtle words and inflection, the
+        Dragon-Blood can transform a target's passions from one
+        to another, thereby making an enraged target feel amorous,
+        a terrified target feel enraged or the like. Roll the
+        character's Manipulation + Presence. The difficulty is the
+        target's Essence, minus one for every point the character
+        has above the target's (minimum of 1). The effects of this
+        Charm do not take effect immediately. The Exalt must
+        spend a number of turns in conversation with the target
+        equal to 10 - her Essence in order to nudge the subject's
+        emotional state in the right direction.<br>
+        Successful use of this Charm results in a two-die bonus
+        on pertinent rolls (on seduction rolls if the Dragon-Blood
+        changed rage into lust, for example). A target who has
+        been manipulated into a rage by the Dragon-Blood acts as
+        through he had a Temperance Virtue of 1 for the remainder
+        of the scene.
+        "
+
+    incendiary_fire_dragon_shout[Incendiary Fire<br>Dragon Shout]
+    click incendiary_fire_dragon_shout callback "
+        Incendiary Fire Dragon Shout<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Presence: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Aura of Invulnerability<br>
+        <br>
+        The Dragon-Blood using this Charm binds his powerful
+        affinity with the Fire Dragon to his voice, resulting in
+        a shout so powerful that it ignites flammable objects, even
+        up to 40 yards away. This Charm cannot damage flesh
+        directly, but it can ignite clothes, wooden wagons, thatched
+        huts and the like from a distance. The size of the fire started
+        by this technique is not large, only about the size of a man's
+        open hand, but the initial blaze is fairly hot and will easily
+        ignite nearby material in the absence of countervailing
+        conditions (rain, extreme humidity), often resulting in a
+        huge blaze. If the substance is wet, the fire flickers out after
+        one turn per point of the Exalt's Essence.<br>
+        The player of a target whose clothes have been ignited
+        must succeed on a simple Stamina + Endurance roll, or her
+        character takes a level of lethal damage each turn until the
+        garment is removed or the fire is extinguished.<br>
+        This Charm has a range of (the Exalt's Essence x
+        20) feet.
+        "
+end
+
+aura_of_invulnerability --> incendiary_fire_dragon_shout

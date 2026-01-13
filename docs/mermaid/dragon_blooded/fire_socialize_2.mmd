@@ -230,3 +230,70 @@ flowchart TD
         Essence Traits are higher than that of the character
         using the Charm.
         "
+
+subgraph Aspect Book - Fire
+    jade_defense[Jade Defense]
+    click jade_defense callback "
+        Jade Defense<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Socialize: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Sweeten-the-Tap Method<br>
+        <br>
+        Jade Defense is used to protect the Exalt from con
+        games, seduction and intimidation attempts and similar
+        forms of social or emotional manipulation. Years of
+        interminable intriguing attune the Dragon-Blooded to
+        a wide variety of political and social engineering techniques.
+        Wise social operators quickly learn that any
+        manipulation technique they can use on others can just
+        as easily be used on them. Any Exalt feeling that he
+        might be the subject of such techniques can spend
+        Essence to amplify his own sense of ennui and sheer
+        jadedness and, thereby, render himself resistant to any
+        and all social control or manipulation techniques being
+        used on him. Activating this Charm increases the difficulty
+        of all Charisma, Manipulation and Socialize rolls
+        used against the Exalt by half his Socialize (round up),
+        rendering him utterly bored with nearly everything,
+        including those using Socialize Charms on him. For the
+        duration of this Charm, the character's Essence is considered
+        one higher than it really is when he's targeted by
+        mind-affecting or social Charms that do not work on
+        individuals of high Essence.
+        "
+
+    loyalty_reading_meditation[Loyalty-Reading<br>Meditation]
+    click loyalty_reading_meditation callback "
+        Loyalty-Reading Meditation<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Socialize: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Brother-Against-Brother Insinuation<br>
+        <br>
+        Clever courtiers learn early on to watch and analyze
+        every gesture made by others in a social setting to see how
+        — and in which direction — the wheels of loyalty and
+        obligation turn. Knowing whom to trust with dirt on
+        another — and whom not to — can be critical to a Dragon-
+        Blood wanting to go far in Dynastic society.<br>
+        This Charm heightens the Dragon-Blood's sensitivity
+        to the minute details of social interaction: whose eyebrow
+        goes up at what comment, who's especially ingratiating to
+        whom, who laughs just a bit too loudly at another's tired
+        witticisms, etc. This Charm can let the Dragon-Blood
+        know (among other things): if a particular individual is
+        loyal to her, whom in the room an individual is loyal to and
+        who is feigning loyalty to whom. This Charm does not
+        explain these loyalties in any way. It simply reveals them.
+        "
+end
+
+sweeten_the_tap_method --> jade_defense
+brother_against_brother_insinuation --> loyalty_reading_meditation

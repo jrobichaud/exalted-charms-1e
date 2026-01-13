@@ -257,3 +257,32 @@ flowchart TD
         full dice pool. This Charm cannot be used to respond to a
         counterattack launched with this or any other Charm.
         "
+
+subgraph Aspect Book - Fire
+    unassailable_body_of_flame_defense[Unassailable Body of<br>Flame Defense]
+    click unassailable_body_of_flame_defense callback "
+        Unassailable Body of Flame Defense<br>
+        <br>
+        Cost: 4 motes and 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Reflexive<br>
+        Minimum Dodge: 5<br>
+        Minimum Essence: 4<br>
+        Prerequisite Charms: Smoldering Karma Strike<br>
+        <br>
+        Perhaps the most difficult of all the Dodge Charms
+        known to the Dragon-Blooded, Unassailable Body of Flame
+        Defense momentarily turns the character's body into pure
+        flame where an enemy's weapon touches it, generally
+        allowing the weapon to pass harmlessly through the
+        character's body. The Fire Aspect must have his fiery
+        elemental anima ignited in order to use this Charm. Only
+        then can he become sufficiently attuned to the element of
+        fire that he can transform his own body into insubstantial
+        flames. In any turn in which the character has used this
+        Charm, he can dodge all physical attacks with his full
+        Dexterity + Dodge dice pool.
+        "
+end
+
+smoldering_karma_strike --> unassailable_body_of_flame_defense
