@@ -23,27 +23,6 @@ flowchart TD
         this Charm will not become seasick, even on rough seas.
         "
 
-    shipwreck_surviving_stamina[Shipwreck-Surviving<br>Stamina]
-    salty_dog_method --> shipwreck_surviving_stamina
-    click shipwreck_surviving_stamina callback "
-        Shipwreck-Surviving Stamina<br>
-        <br>
-        Cost: 5 motes<br>
-        Duration: One day<br>
-        Type: Reflexive<br>
-        Minimum Sail: 3<br>
-        Minimum Essence: 1<br>
-        Prerequisite Charms: Salty Dog Method<br>
-        <br>
-        A character using this Charm can survive indefinitely
-        in water. She will never tire from treading water and may
-        drink seawater without ill effect. She is protected from
-        sunburn and other exposure effects and can hold her
-        breath for up to five minutes per point of Stamina. This
-        Charm does nothing to ward off hostile sea life, nor does it
-        protect a character from inclement weather.
-        "
-
     perfect_reckoning_technique[Perfect Reckoning<br>Technique]
     salty_dog_method --> perfect_reckoning_technique
     click perfect_reckoning_technique callback "
@@ -63,6 +42,27 @@ flowchart TD
         landmarks. The Charm does not allow the character to
         indirectly divine the local geography by sensing her distance
         from previously uncharted reefs or lost islands.
+        "
+
+    shipwreck_surviving_stamina[Shipwreck-Surviving<br>Stamina]
+    salty_dog_method --> shipwreck_surviving_stamina
+    click shipwreck_surviving_stamina callback "
+        Shipwreck-Surviving Stamina<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: One day<br>
+        Type: Reflexive<br>
+        Minimum Sail: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Salty Dog Method<br>
+        <br>
+        A character using this Charm can survive indefinitely
+        in water. She will never tire from treading water and may
+        drink seawater without ill effect. She is protected from
+        sunburn and other exposure effects and can hold her
+        breath for up to five minutes per point of Stamina. This
+        Charm does nothing to ward off hostile sea life, nor does it
+        protect a character from inclement weather.
         "
 
     weather_anticipating_intuition[Weather-Anticipating<br>Intuition]
@@ -86,7 +86,7 @@ flowchart TD
         "
 
     depth_plumbing_intuition[Depth-Plumbing<br>Intuition]
-    perfect_reckoning_technique --> depth_plumbing_intuition
+    perfect_reckoning_technique ---> depth_plumbing_intuition
     click depth_plumbing_intuition callback "
         Depth-Plumbing Intuition<br>
         <br>
@@ -303,11 +303,11 @@ flowchart TD
             "
     end
 
-    perfect_reckoning_technique --> seeking_the_earths_bounty_method
+    perfect_reckoning_technique ----> seeking_the_earths_bounty_method
     wind_defying_course_technique --> fires_kiss_resistance_prana
     wind_defying_course_technique --> ignore_the_winds_course_technique
     wind_defying_course_technique --> masts_unbreakable_will_prana
-    storm_weathering_essence_infusion --> harden_the_hull_practice
+    storm_weathering_essence_infusion ---> harden_the_hull_practice
 
     subgraph Castebook Eclipse
         golden_essence_sails[Golden Essence Sail]

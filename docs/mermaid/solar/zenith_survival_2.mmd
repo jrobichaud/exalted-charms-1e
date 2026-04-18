@@ -1,0 +1,108 @@
+---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    friendship_with_animals_approach[Friendship with<br>Animals Approach]
+    click friendship_with_animals_approach callback "
+        Friendship with Animals Approach<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: One Scene<br>
+        Type: Simple<br>
+        Minimum Survival: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Through the use of this Charm, the character can deal
+        well with nearly any wild animal. The character must be
+        within one yard of the target per point of her Essence.
+        Herbivores and smaller omnivores will become somewhat
+        docile, even letting the character pet or handle them.
+        Predators are less susceptible to this power, and most will
+        simply let the character pass unmolested through their
+        territory. This power does not work on sentient animals,
+        animals that are trained to attack or animals that are
+        insane from pain, hunger or disease.
+        "
+
+    spirit_tied_pet[Spirit-Tied Pet]
+    friendship_with_animals_approach --> spirit_tied_pet
+    click spirit_tied_pet callback "
+        Spirit-Tied Pet<br>
+        <br>
+        Cost: 10 motes, 1 Willpower, 1 experience point<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Survival: 3<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Friendship With Animals Approach<br>
+        <br>
+        By handling an animal, feeding it, petting and scratching
+        it and otherwise interacting with it, a character who
+        knows this Charm can forge a permanent magical bond
+        with the beast. Each time the character uses this Charm
+        on the target, it is as if he gained a point of the Familiar
+        Background with the target animal as the Familiar. So a
+        character who wished to tame a tiger would have to use
+        it at least three times to cause the beast to become well-disposed
+        to him and an additional two times to gain the
+        ability to see through the beast's eyes and communicate
+        with it. Obviously, using this Charm on animals such as
+        bears, tigers and tyrant lizards can be problematic, as they
+        will not allow themselves to be handled, even under the
+        effects of Friendship with Animals Approach. A strong
+        wrestling ability or a willingness to raise the animal from
+        a cub is useful in such instances. Characters cannot have
+        more than one Spirit-Tied Pet at a time.
+        "
+
+    bestial_traits_technique[Bestial Traits Technique]
+    spirit_tied_pet --> bestial_traits_technique
+    click bestial_traits_technique callback "
+        Bestial Traits Technique<br>
+        <br>
+        Cost: 8 motes<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Survival: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Spirit-Tied Pet<br>
+        <br>
+        Through the use of this Charm, a character can gain
+        the traits of her Spirit-Tied Pet. Each use of this Charm
+        allows the character to gain a single characteristic. Obviously,
+        animals have too many characteristics to easily
+        model them all. Typically, the character will gain the
+        ability to climb rough surfaces, fall great distances without
+        "
+
+    subgraph savage_seas[Savage Seas]
+        earths_unceasing_beacon[Earth's Unceasing Beacon]
+        click earths_unceasing_beacon callback "
+            Earth's Unceasing Beacon<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: One scene<br>
+            Type: Reflexive<br>
+            Minimum Survival: 2<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: None<br>
+            <br>
+            By means of this Charm, the Exalt can instantly know
+            in what direction the Elemental Pole of Earth lies, at least
+            in a general sense. The player must make a Perception +
+            Survival roll for the character. With even a single success,
+            the character will have a general idea (able to point in the
+            direction of) of where the Pole of Earth is located. Each
+            additional success makes this sense of direction more
+            precise; with three or more successes, the Exalt will know
+            exactly where the pole is in relation to his current location,
+            with sufficient clarity to be able to navigate with the aid of
+            a compass and map. Any additional successes beyond three
+            may be applied as bonus dice to any rolls involving navigation
+            or plotting a course, until the end of the scene.
+            "
+    end

@@ -29,7 +29,7 @@ flowchart TD
         "
 
     elemental_empowerment_meditation[Elemental Empowerment<br>Meditation]
-    elemental_concentration_trance --> elemental_empowerment_meditation
+    elemental_concentration_trance ----> elemental_empowerment_meditation
     click elemental_empowerment_meditation callback "
         Elemental Empowerment Meditation<br>
         <br>
@@ -135,8 +135,8 @@ flowchart TD
         "
 
     dragon_vortex_attack[Dragon Vortex Attack]
-    elemental_empowerment_meditation --> dragon_vortex_attack
     elemental_burst_technique --> dragon_vortex_attack
+    elemental_empowerment_meditation ---> dragon_vortex_attack
     click dragon_vortex_attack callback "
         Dragon Vortex Attack<br>
         <br>

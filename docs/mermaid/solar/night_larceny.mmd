@@ -33,7 +33,6 @@ flowchart TD
         "
 
     flawlessly_impenetrable_disguise[Flawlessly Impenetrable<br>Disguise]
-    seasoned_criminal_method --> flawlessly_impenetrable_disguise
     click flawlessly_impenetrable_disguise callback "
         Flawlessly Impenetrable Disguise<br>
         <br>
@@ -179,7 +178,7 @@ flowchart TD
         "
 
     door_evading_technique[Door-Evading Technique]
-    lock_opening_touch --> door_evading_technique
+    lock_opening_touch ---> door_evading_technique
     click door_evading_technique callback "
         Door-Evading Technique<br>
         <br>
@@ -263,4 +262,5 @@ flowchart TD
     end
 
     seasoned_criminal_method --> inescapable_shadow_of_the_sun
+    seasoned_criminal_method ---> flawlessly_impenetrable_disguise
     lock_opening_touch --> impassable_portal_technique

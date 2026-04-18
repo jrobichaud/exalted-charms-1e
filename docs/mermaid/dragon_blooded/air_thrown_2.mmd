@@ -28,7 +28,7 @@ flowchart TD
         "
 
     loyal_weapon[Loyal Weapon]
-    seeking_throw_technique --> loyal_weapon
+    seeking_throw_technique ------> loyal_weapon
     click loyal_weapon callback "
         Loyal Weapon<br>
         <br>
@@ -209,8 +209,8 @@ flowchart TD
         "
 
     wind_weapons[Wind Weapons]
-    persistent_hornet_attack --> wind_weapons
     vengeful_gust_counterattack --> wind_weapons
+    persistent_hornet_attack ---> wind_weapons
     click wind_weapons callback "
         Wind Weapons<br>
         <br>
@@ -254,7 +254,7 @@ flowchart TD
         "
 
     wind_armor_technique[Wind Armor Technique]
-    vengeful_gust_counterattack --> wind_armor_technique
+    vengeful_gust_counterattack ---> wind_armor_technique
     click wind_armor_technique callback "
         Wind Armor Technique<br>
         <br>
@@ -394,5 +394,5 @@ flowchart TD
     end
     seeking_throw_technique --> crosswind_offense
     crosswind_offense --> crosswind_feint
-    crosswind_offense --> crosswind_gale
-    crosswind_offense --> crosswind_empowerment_technique
+    crosswind_offense ---> crosswind_gale
+    crosswind_offense ----> crosswind_empowerment_technique

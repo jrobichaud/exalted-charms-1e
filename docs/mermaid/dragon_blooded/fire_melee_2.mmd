@@ -140,7 +140,7 @@ flowchart TD
         "
 
     deadly_wildfire_legion[Deadly Wildfire Legion]
-    stoking_bonfire_style --> deadly_wildfire_legion
+    stoking_bonfire_style ---> deadly_wildfire_legion
     click deadly_wildfire_legion callback "
         Deadly Wildfire Legion<br>
         <br>
@@ -164,7 +164,7 @@ flowchart TD
         "
 
     threshold_floor_technique[Threshold Floor Technique]
-    stoking_bonfire_style --> threshold_floor_technique
+    stoking_bonfire_style ----> threshold_floor_technique
     click threshold_floor_technique callback "
         Threshold Floor Technique<br>
         <br>
@@ -257,6 +257,44 @@ subgraph Aspect Book - Fire
         elemental inflicts aggravated damage.
         "
 
+
+    style_countering_meditation["Style-Countering<br>Meditation"]
+    click style_countering_meditation callback "
+        Style-Countering Meditation<br>
+        <br>
+        Cost: 5 motes<br>
+        Duration: Varies<br>
+        Type: Simple<br>
+        Minimum Dodge: 4<br>
+        Minimum Melee: 4<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows the Dragon-Blood to adapt perfectly to an opponent's combat style. By watching and
+        analyzing an opponent in combat for no fewer than five
+        turns (during which she can do nothing else), the Exalt
+        reads the subtle strengths and flaws in the target's fighting
+        technique and adjusts her own combat style accordingly,
+        exploiting the target's weaknesses and defending against
+        particular strengths. Roll Intelligence + Melee (or the
+        appropriate Ability). This Charm lasts three turns plus two
+        turns per success, during which the Dragon-Blood gains a
+        bonus of one die per point of permanent Essence on all
+        Dodge and Melee rolls made by her character against that
+        one stated target.<br>
+        Versions of this Charm exist that use Brawl or
+        Martial Arts in place of Melee, but the minimum requirement
+        of 4 remains the same, and all versions require
+        Dodge 4. The Melee, Brawl and Martial Arts versions of
+        this Charm must be learned separately. These versions
+        are still Melee Charms. They simply analyze an enemy's
+        use of different combat Abilities.<br>
+        Due to the complexities and mental demands involved
+        in reading and analyzing a target so thoroughly, the
+        character can only be prepared to fight one opponent who
+        has points of Intelligence. This is a dice-adding Charm.
+        "
+
     blinding_spark_distraction[Blinding Spark<br>Distraction]
     click blinding_spark_distraction callback "
       Blinding Spark Distraction<br>
@@ -332,44 +370,6 @@ subgraph Aspect Book - Fire
         238, but the roll to mark is reflexive, and the attack does
         damage as normal).
         "
-
-    style_countering_meditation["Style-Countering<br>Meditation"]
-    click style_countering_meditation callback "
-        Style-Countering Meditation<br>
-        <br>
-        Cost: 5 motes<br>
-        Duration: Varies<br>
-        Type: Simple<br>
-        Minimum Dodge: 4<br>
-        Minimum Melee: 4<br>
-        Minimum Essence: 2<br>
-        Prerequisite Charms: None<br>
-        <br>
-        This Charm allows the Dragon-Blood to adapt perfectly to an opponent's combat style. By watching and
-        analyzing an opponent in combat for no fewer than five
-        turns (during which she can do nothing else), the Exalt
-        reads the subtle strengths and flaws in the target's fighting
-        technique and adjusts her own combat style accordingly,
-        exploiting the target's weaknesses and defending against
-        particular strengths. Roll Intelligence + Melee (or the
-        appropriate Ability). This Charm lasts three turns plus two
-        turns per success, during which the Dragon-Blood gains a
-        bonus of one die per point of permanent Essence on all
-        Dodge and Melee rolls made by her character against that
-        one stated target.<br>
-        Versions of this Charm exist that use Brawl or
-        Martial Arts in place of Melee, but the minimum requirement
-        of 4 remains the same, and all versions require
-        Dodge 4. The Melee, Brawl and Martial Arts versions of
-        this Charm must be learned separately. These versions
-        are still Melee Charms. They simply analyze an enemy's
-        use of different combat Abilities.<br>
-        Due to the complexities and mental demands involved
-        in reading and analyzing a target so thoroughly, the
-        character can only be prepared to fight one opponent who
-        has points of Intelligence. This is a dice-adding Charm.
-        "
-
 end
 
 dragon_graced_weapon --> fire_incites_water_to_a_riot_of_clouds

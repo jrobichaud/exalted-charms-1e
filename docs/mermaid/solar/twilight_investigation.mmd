@@ -23,7 +23,6 @@ flowchart TD
         "
 
     crafty_observation_method[Crafty Observation Method]
-    ten_magistrate_eyes --> crafty_observation_method
     click crafty_observation_method callback "
         Crafty Observation Method<br>
         <br>
@@ -54,7 +53,6 @@ flowchart TD
         "
 
     judges_ear_technique[Judge's Ear Technique]
-    ten_magistrate_eyes --> judges_ear_technique
     click judges_ear_technique callback "
         Judge's Ear Technique<br>
         <br>
@@ -79,7 +77,6 @@ flowchart TD
         "
 
     evidence_discerning_method[Evidence-Discerning<br>Method]
-    judges_ear_technique --> evidence_discerning_method
     click evidence_discerning_method callback "
         Evidence-Discerning Method<br>
         <br>
@@ -104,7 +101,6 @@ flowchart TD
         "
 
     irresistable_questioning_technique[Irresistible Questioning<br>Technique]
-    judges_ear_technique --> irresistable_questioning_technique
     click irresistable_questioning_technique callback "
         Irresistible Questioning Technique<br>
         <br>
@@ -138,8 +134,6 @@ flowchart TD
         "
 
     unknown_wisdow_epiphany[Unknown Wisdom Epiphany]
-    evidence_discerning_method --> unknown_wisdow_epiphany
-    crafty_observation_method --> unknown_wisdow_epiphany
     click unknown_wisdow_epiphany callback "
         Unknown Wisdom Epiphany<br>
         <br>
@@ -256,10 +250,6 @@ flowchart TD
             "
     end
 
-    ten_magistrate_eyes --> abiding_blood_observation
-    crafty_observation_method --> hawk_aloft_gaze
-    judges_ear_technique --> guilt_finding_inquisitor_method
-
     subgraph Castebook Night
         death_revealing_method[Death-Revealing Method]
         click death_revealing_method callback "
@@ -282,4 +272,17 @@ flowchart TD
         "
     end
 
+%% Edges
+    ten_magistrate_eyes --> abiding_blood_observation
+    ten_magistrate_eyes --> judges_ear_technique
+    ten_magistrate_eyes --> crafty_observation_method
+
+    judges_ear_technique --> guilt_finding_inquisitor_method
+    judges_ear_technique ---> irresistable_questioning_technique
+    judges_ear_technique --> evidence_discerning_method
+
+    crafty_observation_method --> unknown_wisdow_epiphany
     crafty_observation_method --> death_revealing_method
+    crafty_observation_method --> hawk_aloft_gaze
+
+    evidence_discerning_method ---> unknown_wisdow_epiphany

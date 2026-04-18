@@ -22,11 +22,13 @@ Martial Arts
 
 Melee
 ^^^^^
-.. mermaid:: ./mermaid/solar/dawn_melee.mmd
+.. mermaid:: ./mermaid/solar/dawn_melee_1.mmd
+.. mermaid:: ./mermaid/solar/dawn_melee_2.mmd
 
 Thrown
 ^^^^^^
-.. mermaid:: ./mermaid/solar/dawn_thrown.mmd
+.. mermaid:: ./mermaid/solar/dawn_thrown_1.mmd
+.. mermaid:: ./mermaid/solar/dawn_thrown_2.mmd
 
 
 Zenith Caste
@@ -46,11 +48,13 @@ Presence
 
 Resistance
 ^^^^^^^^^^
-.. mermaid:: ./mermaid/solar/zenith_resistance.mmd
+.. mermaid:: ./mermaid/solar/zenith_resistance_1.mmd
+.. mermaid:: ./mermaid/solar/zenith_resistance_2.mmd
 
 Survival
 ^^^^^^^^
-.. mermaid:: ./mermaid/solar/zenith_survival.mmd
+.. mermaid:: ./mermaid/solar/zenith_survival_1.mmd
+.. mermaid:: ./mermaid/solar/zenith_survival_2.mmd
 
 Twilight Caste
 --------------
@@ -104,7 +108,8 @@ Eclipse Caste
 
 Bureaucracy
 ^^^^^^^^^^^
-.. mermaid:: ./mermaid/solar/eclipse_bureaucracy.mmd
+.. mermaid:: ./mermaid/solar/eclipse_bureaucracy_1.mmd
+.. mermaid:: ./mermaid/solar/eclipse_bureaucracy_2.mmd
 
 Linguistics
 ^^^^^^^^^^^

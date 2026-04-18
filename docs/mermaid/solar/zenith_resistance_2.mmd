@@ -1,0 +1,147 @@
+---
+config:
+  theme: dark
+---
+
+flowchart TD
+
+    whirlwind_armor_donning_prana[Whirlwind Armor-Donning<br>Prana]
+    click whirlwind_armor_donning_prana callback "
+        Whirlwind Armor-Donning Prana<br>
+        <br>
+        Cost: 2 motes per turn<br>
+        Duration: Special<br>
+        Type: Simple<br>
+        Minimum Resistance: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        Through the use of this Charm, the character can
+        speed the process of donning his armor. The character can
+        don his armor in a number of turns equal to the armor's
+        mobility penalty. Each turn of effort costs 2 motes of
+        Essence. The character must have the armor readily available
+        and at hand to don it so quickly — this Charm does
+        not speed the process of getting the armor out of a trunk.
+        "
+
+    hauberk_summoning_gesture[Hauberk-Summoning<br>Gesture]
+    whirlwind_armor_donning_prana --> hauberk_summoning_gesture
+    click hauberk_summoning_gesture callback "
+        Hauberk-Summoning Gesture<br>
+        <br>
+        Cost: 5 motes
+        Duration: Instant
+        Type: Simple
+        Minimum Resistance: 3
+        Minimum Essence: 3
+        Prerequisite Charms: Whirlwind Armor-Donning Prana
+
+        This Charm allows a character to call her armor to her. In
+        an eyeblink, it appears on her. She is instantly fully armored,
+        with all the straps and buckles adjusted properly. If the character
+        uses a shield, that appears on her person as well. The
+        character cannot call her armor from further away than 100
+        yards x her Essence rating. This Charm can't be used to steal
+        armor off an opponent or off a display dummy— the armor must
+        be the character's own. She must have worn it for at least several
+        hours and established her possession of it.
+        "
+
+    glorious_solar_plate[Glorious Solar Plate]
+    hauberk_summoning_gesture --> glorious_solar_plate
+    click glorious_solar_plate callback "
+        Glorious Solar Plate<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 4<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Hauberk-Summoning Gesture<br>
+        <br>
+        The characters materializes his Essence into a suit of
+        golden lamellar armor. This armor is an expression of the
+        character's anima and, so, reflects his personality and predispositions.
+        It can be sleek, imposing, ornate, simple — it is the
+        character's ideal armor. Regardless of its appearance, the
+        armor glows with an golden inner light bright enough to read
+        by in a several-yard radius. Glorious Solar Plate provides 10
+        lethal and 10 bashing soak, with only a -1 penalty to maneuvers
+        requiring dexterity and grace.
+        "
+
+    poison_resisting_meditation[Poison-Resisting<br>Meditation]
+    click poison_resisting_meditation callback "
+        Poison-Resisting Meditation<br>
+        <br>
+        Cost: 4 motes<br>
+        Duration: One scene<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        The character's metabolism is strengthened by Essence,
+        allowing him to easily endure the effects of toxins.
+        The player may add a number of automatic successes
+        equal to the character's Stamina to her Stamina + Resistance
+        roll to resist the effects of poison. Though even the
+        hardiest Exalted can still be slain by massive doses of
+        poison while using this Charm, they are largely invulnerable
+        to poisoned food and envenomed blades. Characters
+        need not invoke this Charm before exposure to poison —
+        they may call upon its effects after they are exposed but
+        before the Stamina + Resistance roll is made to survive
+        the toxin. <br>
+        Use of this Charm allows a character to withstand
+        incidental toxins such as spoiled food. A character under
+        the effect of this Charm may also consume without penalty
+        a number of drinks equal to his Stamina.
+        "
+
+    illness_resisting_meditation[Illness-Resisting<br>Meditation]
+    click illness_resisting_meditation callback "
+        Illness-Resisting Meditation<br>
+        <br>
+        Cost: 6 motes<br>
+        Duration: One day<br>
+        Type: Reflexive<br>
+        Minimum Resistance: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        While the Exalted are little-affected by disease, they
+        can still become sick. Fevers can slow them at critical
+        moments. Further, while the Chosen can withstand even
+        the most serious illnesses with little more than a feeling of
+        weariness and discomfort, those illnesses are as lethal as
+        ever to mortals who contract them from exposure to the
+        infected Exalted.<br>
+        This Charm allows the player to add a number of
+        automatic successes equal to her character's Stamina to the
+        Stamina + Resistance roll to avoid contracting an illness.
+        Further, the player may add a like number of automatic
+        successes to her character's daily Stamina + Endurance roll
+        to overcome an illness she has already contracted.
+        "
+
+    immunity_to_everything_technique[Immunity to Everything<br>Technique]
+    poison_resisting_meditation --> immunity_to_everything_technique
+    illness_resisting_meditation --> immunity_to_everything_technique
+    click immunity_to_everything_technique callback "
+        Immunity to Everything Technique<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Resistance: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Poison-Resisting Meditation<br>
+        <br>
+        The Exalted's body becomes a perfect vessel of Essence,
+        immune to all toxins and poisons. The character is immune
+        to all poisons and toxins, including those that would normally
+        be fatal to Exalted. This Charm does not protect the
+        character from the effects of diseases, however.
+        "

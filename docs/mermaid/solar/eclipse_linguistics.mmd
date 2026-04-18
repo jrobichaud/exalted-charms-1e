@@ -83,8 +83,6 @@ flowchart TD
         "
 
     discerning_savants_eye[Discerning Savant's Eye]
-    flawless_brush_discipline --> discerning_savants_eye
-    letter_within_a_letter_technique --> discerning_savants_eye
     click discerning_savants_eye callback "
         Discerning Savant's Eye<br>
         <br>
@@ -131,7 +129,6 @@ flowchart TD
         "
 
     poetic_expression_style[Poetic Expression Style]
-    sagacious_reading_of_intent --> poetic_expression_style
     click poetic_expression_style callback "
         Poetic Expression Style<br>
         <br>
@@ -156,8 +153,6 @@ flowchart TD
         "
 
     twisted_words_technique[Twisted Words Technique]
-    letter_within_a_letter_technique --> twisted_words_technique
-    sagacious_reading_of_intent --> twisted_words_technique
     click twisted_words_technique callback "
         Twisted Words Technique<br>
         <br>
@@ -183,38 +178,6 @@ flowchart TD
         on the surface while the subtext is negative, or vice versa.
         "
 
-    unbreakable_fascination_method[Unbreakable Fascination<br>Method]
-    twisted_words_technique --> unbreakable_fascination_method
-    poetic_expression_style --> unbreakable_fascination_method
-    click unbreakable_fascination_method callback "
-        Unbreakable Fascination Method<br>
-        <br>
-        Cost: 8 motes, 1 health level per hour<br>
-        Duration: Special<br>
-        Type: Simple<br>
-        Minimum Linguistics: 5<br>
-        Minimum Essence: 3<br>
-        Prerequisite Charms: Poetic Expression Style, Twisted Words Technique<br>
-        <br>
-        A character using this Charm can speak in such a magnetic
-        and engaging fashion that listeners simply cannot do anything
-        else but pay attention to what he's saying. When he activates this
-        Charm, the Exalted's player makes a Manipulation + Linguistics
-        roll. Thereafter, players of characters with an Essence less than
-        the Exalted's who hear the Chosen speak must make a reflexive
-        Willpower roll with a difficulty equal to the number of successes
-        made on the Linguistics roll. Those who fail are entranced by the
-        character's voice and are held enraptured until the character
-        ceases speaking for more than a few seconds.<br>
-        It is not necessary to speak the Exalted's language to
-        succumb to this power. Attack or other obvious open hostility
-        causes the effect of this Charm to end. However, only direct
-        physical danger will disrupt the effect. A brave or suicidal Exalted
-        could, for example, use Unbreakable Fascination Method to
-        keep a platoon of guards in a burning building with him until it
-        was fully aflame, but they would not stand there listening as the
-        flaming timbers started crashing down around them.
-        "
 
     subgraph Castebook Eclipse
         swift_sages_eye[Swift Sage's Eye]
@@ -372,11 +335,6 @@ flowchart TD
             in the libraries of certain Dynasts or Sidereals.
             "
     end
-    swift_sages_eye --> perfect_recollection_discipline
-    flawless_brush_discipline --> flawless_forgery_technique
-    letter_within_a_letter_technique --> subtle_speech_method
-    poetic_expression_style --> masterful_training_manual
-    twisted_words_technique --> masterful_training_manual
 
     subgraph Cult of the Illuminated
         excellent_emissarys_tongue[Excellent Emissary's<br>Tongue]
@@ -402,3 +360,47 @@ flowchart TD
             language fades immediately.
             "
     end
+
+    unbreakable_fascination_method[Unbreakable Fascination<br>Method]
+    click unbreakable_fascination_method callback "
+        Unbreakable Fascination Method<br>
+        <br>
+        Cost: 8 motes, 1 health level per hour<br>
+        Duration: Special<br>
+        Type: Simple<br>
+        Minimum Linguistics: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Poetic Expression Style, Twisted Words Technique<br>
+        <br>
+        A character using this Charm can speak in such a magnetic
+        and engaging fashion that listeners simply cannot do anything
+        else but pay attention to what he's saying. When he activates this
+        Charm, the Exalted's player makes a Manipulation + Linguistics
+        roll. Thereafter, players of characters with an Essence less than
+        the Exalted's who hear the Chosen speak must make a reflexive
+        Willpower roll with a difficulty equal to the number of successes
+        made on the Linguistics roll. Those who fail are entranced by the
+        character's voice and are held enraptured until the character
+        ceases speaking for more than a few seconds.<br>
+        It is not necessary to speak the Exalted's language to
+        succumb to this power. Attack or other obvious open hostility
+        causes the effect of this Charm to end. However, only direct
+        physical danger will disrupt the effect. A brave or suicidal Exalted
+        could, for example, use Unbreakable Fascination Method to
+        keep a platoon of guards in a burning building with him until it
+        was fully aflame, but they would not stand there listening as the
+        flaming timbers started crashing down around them.
+        "
+
+    swift_sages_eye --> perfect_recollection_discipline
+    flawless_brush_discipline --> flawless_forgery_technique
+    flawless_brush_discipline --> discerning_savants_eye
+    letter_within_a_letter_technique --> discerning_savants_eye
+    letter_within_a_letter_technique -------> subtle_speech_method
+    poetic_expression_style --> unbreakable_fascination_method
+    poetic_expression_style ---> masterful_training_manual
+    twisted_words_technique ---> masterful_training_manual
+    twisted_words_technique --> unbreakable_fascination_method
+    sagacious_reading_of_intent ----> twisted_words_technique
+    letter_within_a_letter_technique ----> twisted_words_technique
+    sagacious_reading_of_intent --> poetic_expression_style

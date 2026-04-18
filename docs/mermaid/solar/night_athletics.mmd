@@ -28,7 +28,8 @@ flowchart TD
         narrowest ledges orstand on the flimsiest perches with no worries.
         "
 
-    graceful_crane_stance --> monkey_leap_technique[Monkey Leap Technique]
+    monkey_leap_technique[Monkey Leap Technique]
+    graceful_crane_stance --> monkey_leap_technique
     click monkey_leap_technique callback "
         Monkey Leap Technique<br>
         <br>
@@ -47,7 +48,7 @@ flowchart TD
         Monkey Leap Technique, but gains no special bonuses.
         "
 
-    monkey_leap_technique --> thunderbolt_attack_prana[Thunderbolt Attack Prana]
+    thunderbolt_attack_prana[Thunderbolt Attack Prana]
     click thunderbolt_attack_prana callback "
         Thunderbolt Attack Prana<br>
         <br>
@@ -69,7 +70,8 @@ flowchart TD
         to be part of a Combo with Charms of other Abilities.
         "
 
-    graceful_crane_stance --> lightning_speed[Lightning Speed]
+    lightning_speed[Lightning Speed]
+    graceful_crane_stance --> lightning_speed
     click lightning_speed callback "
         Lightning Speed<br>
         <br>
@@ -88,7 +90,8 @@ flowchart TD
         is relying on her Essence, not her merely human endurance.
         "
 
-    lightning_speed --> spider_foot_style[Spider-Foot Style]
+    spider_foot_style[Spider-Foot Style]
+    lightning_speed ----> spider_foot_style
     click spider_foot_style callback "
         Spider-Foot Style<br>
         <br>
@@ -116,7 +119,8 @@ flowchart TD
         again and may be seriously injured in the resulting fall.
         "
 
-    lightning_speed --> feather_foot_style[Feather-Foot Style]
+    feather_foot_style[Feather-Foot Style]
+    lightning_speed --> feather_foot_style
     click feather_foot_style callback "
         Feather-Foot Style<br>
         <br>
@@ -142,7 +146,36 @@ flowchart TD
         death by drowning (or worse, in the case of more exotic fluids).
         "
 
-    lightning_speed --> leaping_tiger_attack[Leaping Tiger Attack]
+    ten_ox_meditation[Ten-Ox Meditation]
+    thunders_might --> ten_ox_meditation
+    click ten_ox_meditation callback "
+        Ten-Ox Meditation<br>
+        <br>
+        Cost: 1 mote per 2 points<br>
+        Duration: Instant<br>
+        Type: Supplemental<br>
+        Minimum Athletics: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Thunder's Might<br>
+        <br>
+        By burning vast quantities of Essence, a character can
+        increase his physical might greatly for a few moments. For
+        every mote of Essence the character spends on this Charm,
+        he can increase his Strength + Athletics by 2 for the
+        purposes of a single attempt to lift or break something. If it
+        is used to aid a character in a hand-to-hand attack to break
+        or destroy an object, each mote spent adds two to the raw
+        damage of the attack. A character cannot burn more motes
+        of Essence powering this Charm than he has points of
+        permanent Willpower. Ten Ox Meditation does not increase
+        the damage of a character's attacks against animate
+        beings, though it can cause indirect damage. For example,
+        if the character pulls down the main pillars of a temple,
+        those inside will probably be killed or injured.
+        "
+
+    leaping_tiger_attack[Leaping Tiger Attack]
+    lightning_speed --> leaping_tiger_attack
     click leaping_tiger_attack callback "
         Leaping Tiger Attack<br>
         <br>
@@ -215,7 +248,8 @@ flowchart TD
         character's attacks, just as if it were normal Strength.
         "
 
-    increasing_strength_exercise --> thunders_might[Thunder's Might]
+    thunders_might[Thunder's Might]
+    increasing_strength_exercise --> thunders_might
     click thunders_might callback "
         Thunder's Might<br>
         <br>
@@ -239,33 +273,6 @@ flowchart TD
         each point adds one to the character's raw damage. This
         Charm does not increase the amount of damage the charac-
         ter does in combat.
-        "
-
-    thunders_might --> ten_ox_meditation[Ten-Ox Meditation]
-    click ten_ox_meditation callback "
-        Ten-Ox Meditation<br>
-        <br>
-        Cost: 1 mote per 2 points<br>
-        Duration: Instant<br>
-        Type: Supplemental<br>
-        Minimum Athletics: 5<br>
-        Minimum Essence: 3<br>
-        Prerequisite Charms: Thunder's Might<br>
-        <br>
-        By burning vast quantities of Essence, a character can
-        increase his physical might greatly for a few moments. For
-        every mote of Essence the character spends on this Charm,
-        he can increase his Strength + Athletics by 2 for the
-        purposes of a single attempt to lift or break something. If it
-        is used to aid a character in a hand-to-hand attack to break
-        or destroy an object, each mote spent adds two to the raw
-        damage of the attack. A character cannot burn more motes
-        of Essence powering this Charm than he has points of
-        permanent Willpower. Ten Ox Meditation does not increase
-        the damage of a character's attacks against animate
-        beings, though it can cause indirect damage. For example,
-        if the character pulls down the main pillars of a temple,
-        those inside will probably be killed or injured.
         "
 
     subgraph Castebook Night
@@ -473,9 +480,10 @@ flowchart TD
 
     fish_swimming_technique --> swift_water_prana
     monkey_leap_technique --> foe_vaulting_style
-    monkey_leap_technique --> soaring_crane_leap
+    monkey_leap_technique ----> soaring_crane_leap
     soaring_crane_leap --> mountain_crossing_leap_technique
     spider_foot_style --> cloud_foot_style
     feather_foot_style --> cloud_foot_style
     spider_foot_style --> eagle_wing_style
-    feather_foot_style --> eagle_wing_style
+    feather_foot_style ---> eagle_wing_style
+    monkey_leap_technique ------> thunderbolt_attack_prana

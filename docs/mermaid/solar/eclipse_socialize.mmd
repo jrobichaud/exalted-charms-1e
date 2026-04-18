@@ -77,37 +77,6 @@ flowchart TD
         active interaction spoils the effect of this Charm.
         "
 
-    knowing_the_souls_price[Knowing the Soul's Price]
-    mastery_of_small_manners --> knowing_the_souls_price
-    motive_discerning_technique --> knowing_the_souls_price
-    click knowing_the_souls_price callback "
-        Knowing the Soul's Price<br>
-        <br>
-        Cost: 10 motes, 1 Willpower<br>
-        Duration: Instant<br>
-        Type: Simple<br>
-        Minimum Socialize: 5<br>
-        Minimum Essence: 2<br>
-        Prerequisite Charms: Mastery of Small Manners, Motive-Discerning Technique<br>
-        <br>
-        Everyone has a price, though it may not be in gold. It
-        could be aid in a personal endeavor, flattery, sex with an
-        unachievable object of desire, the recovery of a lost possession
-        or any number of things — but there is invariably
-        something that, when offered, will crack the strongest
-        morals and ethics. To have it, an individual will betray
-        trusts, engage in corruption, plant evidence - almost
-        anything. This Charm allows the character to know what
-        that thing is for a given individual. It is up to the Storyteller
-        to define precisely what a given person's weakness is — the
-        things some people require may be difficult or impossible
-        to obtain, while other characters may simply need to be
-        offered a large sum of money. Generally, the higher a
-        character's Temperance score, the more likely her price
-        will be something other than money and the more likely it
-        will be difficult to arrange.
-        "
-
     understanding_the_court[Understanding the Court]
     motive_discerning_technique --> understanding_the_court
     click understanding_the_court callback "
@@ -143,6 +112,37 @@ flowchart TD
         will cause the pattern of interactions to change over time.
         Characters relying on years-old understanding are liable to
         make errors in judgment.
+        "
+
+    knowing_the_souls_price[Knowing the Soul's Price]
+    motive_discerning_technique --> knowing_the_souls_price
+    mastery_of_small_manners --> knowing_the_souls_price
+    click knowing_the_souls_price callback "
+        Knowing the Soul's Price<br>
+        <br>
+        Cost: 10 motes, 1 Willpower<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Socialize: 5<br>
+        Minimum Essence: 2<br>
+        Prerequisite Charms: Mastery of Small Manners, Motive-Discerning Technique<br>
+        <br>
+        Everyone has a price, though it may not be in gold. It
+        could be aid in a personal endeavor, flattery, sex with an
+        unachievable object of desire, the recovery of a lost possession
+        or any number of things — but there is invariably
+        something that, when offered, will crack the strongest
+        morals and ethics. To have it, an individual will betray
+        trusts, engage in corruption, plant evidence - almost
+        anything. This Charm allows the character to know what
+        that thing is for a given individual. It is up to the Storyteller
+        to define precisely what a given person's weakness is — the
+        things some people require may be difficult or impossible
+        to obtain, while other characters may simply need to be
+        offered a large sum of money. Generally, the higher a
+        character's Temperance score, the more likely her price
+        will be something other than money and the more likely it
+        will be difficult to arrange.
         "
 
     venomous_rumors_technique[Venomous Rumors<br>Technique]
@@ -368,13 +368,13 @@ flowchart TD
             "
     end
 
+    mastery_of_small_manners ----> flawless_discretion_style
     mastery_of_small_manners --> welcome_guest_method
-    mastery_of_small_manners --> flawless_discretion_style
     mastery_of_small_manners --> graceful_courtier_attitude
     wise_eyed_courtier_method --> graceful_deflection_technique
     mastery_of_small_manners --> graceful_deflection_technique
     graceful_deflection_technique --> distracting_banter_method
+    motive_discerning_technique ----> reading_the_heart
     motive_discerning_technique --> masterful_dissimulation_method
-    motive_discerning_technique --> reading_the_heart
     understanding_the_court --> exalted_accolade
 

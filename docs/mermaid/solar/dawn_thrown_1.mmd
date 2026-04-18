@@ -27,7 +27,7 @@ flowchart TD
         "
 
     joint_wounding_attack[Joint-Wounding Attack]
-    precision_of_the_striking_raptor --> joint_wounding_attack
+    precision_of_the_striking_raptor -----> joint_wounding_attack
     click joint_wounding_attack callback "
         Joint-Wounding Attack<br>
         <br>
@@ -131,91 +131,6 @@ flowchart TD
         a surprise attack and must be used from ambush — it has no
         effect when used against an alerted opponent. It's left up to
         the Storyteller's discretion as to what qualifies as &quot;alerted&quot;.
-        "
-
-    triple_distance_attack_technique[Triple-Distance Attack<br>Technique]
-    click triple_distance_attack_technique callback "
-        Triple-Distance Attack Technique<br>
-        <br>
-        Cost: 3 motes<br>
-        Duration: Instant<br>
-        Type: Supplemental<br>
-        Minimum Thrown: 2<br>
-        Minimum Essence: 2<br>
-        Prerequisite Charms: None<br>
-        <br>
-        The character imbues her arm and weapon with
-        Essence, lightening the weapon at the moment of launch
-        and correcting for tiny errors in aim. The weapon's range
-        is tripled for the purposes of determining penalties based
-        on distance to the target.
-        "
-
-    cascade_of_cutting_terror[Cascade of Cutting Terror]
-    triple_distance_attack_technique --> cascade_of_cutting_terror
-    click cascade_of_cutting_terror callback "
-        Cascade of Cutting Terror<br>
-        <br>
-        Cost: 5 motes<br>
-        Duration: Instant<br>
-        Type: Supplemental<br>
-        Minimum Thrown: 3<br>
-        Minimum Essence: 3<br>
-        Prerequisite Charms: Triple-Distance Attack Technique<br>
-        <br>
-        The character hurls dozens or even hundreds of Essence
-        duplicates of his favored throwing weapon, saturating
-        an area with countless attacks. The character doubles his
-        Thrown pool for the purposes of the attack, which cannot
-        be dodged, only blocked. This attack effects only a single
-        individual. However, it can be used for utility purposes —
-        for example, to clear tree branches and undergrowth from
-        the façade of an overgrown stepped pyramid or to ruin the
-        rigging of a ship. The thrown weapons fade away a few
-        seconds after impact. The character need not have any
-        actual copies of the weapon he is conjuring.
-        "
-
-    shower_of_deadly_blades[Shower of Deadly Blades]
-    cascade_of_cutting_terror --> shower_of_deadly_blades
-    click shower_of_deadly_blades callback "
-        Shower of Deadly Blades<br>
-        <br>
-        Cost: 5 motes, 1 Willpower<br>
-        Duration: Instant<br>
-        Type: Extra Action<br>
-        Minimum Thrown: 5<br>
-        Minimum Essence: 2<br>
-        Prerequisite Charms: Cascade of Cutting Terror<br>
-        <br>
-        The Exalted hurls a number of throwing weapons with
-        the same hand. The character makes one attack roll but
-        applies the result to every weapon. The weapons can be
-        thrown at one or several targets without penalty. The
-        character cannot hurl more weapons than his Essence score and
-        must have enough ammunition. If this Charm is Comboed
-        with supplemental Charms, the cost of the supplemental
-        Charms must be paid for every weapon the character hurls.
-        "
-
-    fiery_solar_chakram[Fiery Solar Chakram]
-    cascade_of_cutting_terror --> fiery_solar_chakram
-    click fiery_solar_chakram callback "
-        Fiery Solar Chakram<br>
-        <br>
-        Cost: 5 motes, 1 Willpower<br>
-        Duration: Instant<br>
-        Type: Simple<br>
-        Minimum Thrown: 5<br>
-        Minimum Essence: 3<br>
-        Prerequisite Charms: Cascade of Cutting Terror<br>
-        <br>
-        The character hurls a mote of burning light at her target.
-        This mote does a lethal damage of 6 + the number of extra
-        successes the character rolls on his attack and has a range of
-        100 yards. Against demons, ghosts or other creatures of the
-        night, the character may add a number of automatic successes
-        to her attack roll equal to her Essence score.
         "
 
     subgraph Castebook Dawn

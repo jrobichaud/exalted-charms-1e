@@ -1,0 +1,119 @@
+---
+config:
+  theme: dark
+---
+flowchart TD
+
+    frugal_merchant_method[Frugal Merchant Method]
+    click frugal_merchant_method callback "
+        Frugal Merchant Method<br>
+        <br>
+        Cost: 1 mote<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 1<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: None<br>
+        <br>
+        This Charm allows an Exalted to evaluate the quality
+        of goods offered for sale. The character has an intuitive
+        sense of if the goods are shoddy, exceptional, average or
+        whatever. Note that this doesn't give the character market
+        knowledge he doesn't have. If a character has no idea how
+        much a good is supposed to cost, use of this power still
+        won't tell him if he's being overcharged. Likewise, this
+        power grants no actual knowledge of the good under
+        examination, only knowledge of its quality. Presented
+        with a totally unfamiliar object, the character will be able
+        to tell if it is shoddy or broken but will still not know
+        anything about its purpose or operation. This Charm
+        works on found objects as well as those offered for sale and
+        can, for example, tell if a piece of First Age magic is still
+        functional or not simply by handling it.
+        "
+
+    insightful_buyer_technique[Insightful Buyer Technique]
+    frugal_merchant_method --> insightful_buyer_technique
+    click insightful_buyer_technique callback "
+        Insightful Buyer Technique<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Frugal Merchant Method<br>
+        <br>
+        Through the use of this Charm, the character gains an
+        intuitive feel for a marketplace at a given instant, allowing
+        her to intuit roughly how much a given object will fetch in
+        any one market. Though the character need not be physically
+        present in the market, this Charm must be used with
+        a particular sales venue in mind. A character cannot discover
+        previously unknown markets through the use of this
+        Charm. She can, however, review markets she is familiar
+        with, even distant ones, to determine which would be the
+        best place to sell a given good. The more specific the venue
+        contemplated, the more accurate the forecast.<br>
+        This Charm is perfectly accurate if used at the moment
+        of sale. However, the more time that elapses between
+        the use of the Charm and the actual sale of the goods, the
+        greater the chance of an error in the character's projection.
+        "
+
+    consumer_evaluating_glance[Consumer-Evaluating<br>Glance]
+    frugal_merchant_method --> consumer_evaluating_glance
+    click consumer_evaluating_glance callback "
+        Consumer-Evaluating Glance<br>
+        <br>
+        Cost: 3 motes<br>
+        Duration: Instant<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 3<br>
+        Minimum Essence: 1<br>
+        Prerequisite Charms: Frugal Merchant Method<br>
+        <br>
+        An Exalted using this Charm may evaluate a given
+        buyer's intentions and budget with but a glance. He can
+        tell if a given potential buyer has no real intention of
+        purchasing, if she's already decided to buy or if she requires
+        swaying. The Exalted also has a good idea of the target's
+        budget for the purchase, at least in relation to the price the
+        Exalted desires to obtain. Finally, the character will know
+        if the target plans to attempt to swindle or betray him in
+        some fashion, making it an essential tool for characters
+        dealing in illegal or extremely valuable goods.
+        "
+
+    irresistable_salesman_spirit[Irresistable Salesman<br>Spirit]
+    consumer_evaluating_glance --> irresistable_salesman_spirit
+    insightful_buyer_technique --> irresistable_salesman_spirit
+    click irresistable_salesman_spirit callback "
+        Irresistable Salesman Spirit<br>
+        <br>
+        Cost: 5 motes, 1 Willpower<br>
+        Duration: One scene<br>
+        Type: Simple<br>
+        Minimum Bureaucracy: 5<br>
+        Minimum Essence: 3<br>
+        Prerequisite Charms: Consumer-Evaluating Glance, Insightful Buyer Technique<br>
+        <br>
+        A character utilizing this Charm becomes the ultimate
+        high-pressure salesman, able to sell practically
+        anything to anyone for outrageous prices. If the target's
+        Willpower is equal to or lower than the Exalted's Essence,
+        he can be sold literally anything at any price — the Exalted
+        may cause him to sell himself into slavery for a handful of
+        potsherds or a kiss. If the target's Willpower is less than
+        twice the Exalted's Essence, the Exalted's player must
+        make a Wits + Bureaucracy roll. The number of successes
+        is how many times the object's normal price the character
+        manages to extract from the target. This Charm does not
+        work on characters whose Willpower is greater than twice
+        the Exalted's Essence.<br>
+        Note that this Charm does not actually enforce the
+        deal in any way, and that it works only for a single scene.
+        Afterward, the target will be acutely aware of having just
+        been swindled — the greater the swindle, the more likely
+        he is to seek redress.
+        "
