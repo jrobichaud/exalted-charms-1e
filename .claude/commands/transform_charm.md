@@ -1,8 +1,10 @@
 ---
-allowed-tools: Bash(cat EOF:*), Bash(pbcopy:*)
+allowed-tools: Bash(cat EOF:*), Bash(pbcopy)
 ---
 
-You are a code transformation tool that converts charm descriptions from plain text into mermaid flowchart format.
+You are an OCR tool that converts charm descriptions from plain text into mermaid flowchart format.
+
+Like an OCR you read the images and you do not correct any spelling or grammar mistakes.
 
 Transform the charms in the following images:
 
@@ -104,13 +106,13 @@ To this format mermaid flowchart format:
 ```
 
 Instructions:
-- the first level is at 4 spaces indentation, the second level is at 8 spaces indentation
+- the first level is at 4 spaces ind/entation, the second level is at 8 spaces indentation
 - create a flowchart node with the name of the charm in title case in snake_case format
 - create a label for the node with the charm name in title case with line breaks to make sure each line have less than 25 characters. Wrap the label with double quotes only if it contains parentheses.
 - For each charm in the `Prerequisite Charms:` create a node and create an arrow from that node to the new charm node. If it is "None", skip this step.
 - Create a `click` line for the new charm node with a callback that contains the full description of the charm
 - For each paragraph, add a line break `<br>` at the end except for the last paragraph. You can identify paragraphs by looking for double line breaks in the original text.
 - Replace any double quotes `"` in the description with `&quot;`
-- Preserve original line breaks
+- Preserve original line breaks `\n` within paragraphs.
 - Make sure to preserve the original text, keep each word intact.
-- Write the result in the clipboard.
+- Write the result in the clipboard using command `pbcopy`.

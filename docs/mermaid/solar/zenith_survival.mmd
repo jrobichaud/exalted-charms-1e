@@ -265,6 +265,43 @@ flowchart TD
         "
 
 
+
+    subgraph Cult of the Illuminated
+        game_snaring_huntsmans_method[Game-Snaring<br>Huntsman's Method]
+        click game_snaring_huntsmans_method callback "
+            Game-Snaring Huntsman's Method<br>
+            <br>
+            Cost: 1 mote per die<br>
+            Duration: One day<br>
+            Type: Supplemental<br>
+            Minimum Survival: 4<br>
+            Minimum Essence: 1<br>
+            Prerequisite Charms: Hardship-Surviving Mendicant Spirit<br>
+            <br>
+            When invoking this Charm, the Exalted names a
+            single breed of animal, which may include &quot;human.&quot; He
+            then crafts a snare appropriate for trapping the species of
+            interest. For each mote invested in the Charm, the
+            Survival roll to create the snare is increased by one die.
+            In addition, for each mote invested, the targeted breed
+            suffers a one-die penalty to detect or escape the trap. The
+            trap will not be triggered by any species other than the
+            one named. This trap cannot be used to snare a specific
+            specimen, but instead, affects the first member of the
+            species that encounters it.<br>
+            Game-Snaring Huntsman's Method cannot be used
+            to create a trap that will innately do damage, such as spike-pits
+            or deadfalls. It can only be used to enhance snares, pit
+            traps and other such traps that hinder or ensnare, rather
+            than wound or kill. However, traps empowered by Game-Snaring
+            Huntsman's Method may inflict incidental damage
+            upon a target while it attempts to escape (a cage, for
+            example, could be spiked to discourage meddling with the
+            bars), so long as the primary purpose of the trap isn't the
+            wounding of its intended prey.
+            "
+    end
+
     subgraph Castebook Zenith
         storm_warden_concentration[Storm Warden<br>Concentration]
         click storm_warden_concentration callback "
@@ -359,35 +396,6 @@ flowchart TD
             allow them to do either in their defense.
             "
 
-        game_snaring_huntsmans_method[Game-Snaring<br>Huntsman's Method]
-        click game_snaring_huntsmans_method callback "
-            Game-Snaring Huntsman's Method<br>
-            <br>
-            Cost: 1 mote per die<br>
-            Duration: One day<br>
-            Type: Supplemental<br>
-            Minimum Survival: 4<br>
-            Minimum Essence: 1<br>
-            Prerequisite Charms: Hardship-Surviving Mendicant Spirit<br>
-            <br>
-            When invoking this Charm, the Exalted names a
-            single breed of animal, which may include &quot;human.&quot; He
-            then crafts a snare appropriate for trapping the species of
-            interest. For each mote invested in the Charm, the
-            Survival roll to create the snare is increased by one die.
-            In addition, for each mote invested, the targeted breed
-            suffers a one-die penalty to detect or escape the trap. The
-            trap will not be triggered by any species other than the
-            one named. This trap cannot be used to snare a specific
-            specimen, but instead, affects the first member of the
-            species that encounters it.<br>
-            Game-Snaring Huntsman's Method cannot be used
-            to create a trap that will innately do damage, such as spike-pits
-            or deadfalls. It can only be used to enhance snares, pit
-            traps and the like. If incidental damage is done to a target
-            in escaping the trap, then the trap may still be eligible for
-            the Game-Snaring Huntsman's Method.
-            "
 
         devil_pit_technique[Devil-Pit Technique]
         game_snaring_huntsmans_method --> devil_pit_technique
@@ -419,14 +427,12 @@ flowchart TD
             to any damage a normal trap of the design might do.
             "
     end
-
     hardship_surviving_mendicant_spirit --> storm_warden_concentration
     hardship_surviving_mendicant_spirit --> salamanders_touch_technique
     hardship_surviving_mendicant_spirit --> game_snaring_huntsmans_method
 
 
     subgraph savage_seas[Savage Seas]
-        direction TB
         earths_unceasing_beacon[Earth's Unceasing Beacon]
         click earths_unceasing_beacon callback "
             Earth's Unceasing Beacon<br>

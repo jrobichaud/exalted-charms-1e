@@ -323,7 +323,7 @@ flowchart TD
             "
 
         tireless_runners_stride[Tireless Runner's<br>Stride]
-        unsleeping_watchman_technique --> tireless_runners_stride
+        unsleeping_watchman_technique -->|or| tireless_runners_stride
         click tireless_runners_stride callback "
             Tireless Runner's Stride<br>
             <br>
@@ -377,7 +377,7 @@ flowchart TD
             "
     end
 
-    subgraph Castebook Eclipse
+    subgraph Cult of the Illuminated
         tireless_travelers_stamina[Tireless Traveler's<br>Stamina]
         click tireless_travelers_stamina callback "
             Tireless Traveler's Stamina<br>
@@ -389,23 +389,22 @@ flowchart TD
             Minimum Essence: 1<br>
             Prerequisite Charms: None<br>
             <br>
-            The character using this Charm infuses his body
-            with Essence, allowing him to travel for an entire day
-            without becoming fatigued or needing rest, provided
-            that he maintains a reasonably steady pace (the char-
-            acter cannot run, that requires the Tireless Runner's
-            Stride Charm from Caste Book: Zenith, p. 72). A
-            character using this Charm could walk or ride at a
+            The character using this Charm infuses his body with
+            Essence, allowing him to travel for an entire day without
+            needing rest, provided he maintains a reasonably steady
+            pace (the character cannot run, as that requires the Tireless
+            Runner's Stride Charm from Caste Book: Zenith, p.
+            72). A character using this Charm could walk or ride at a
             steady pace for an entire day without becoming fatigued,
-            footsore or saddlesore. The character must still
-            eat and drink and is subject to the effects of the
-            environment (like extreme heat or cold), and the
-            Charm does not prevent an Exalt's mount from tiring.
-            Still, characters using this Charm can cover consider-
-            able distance in a fairly short time and arrive at their
-            destination as fresh as when they left.<br>
-            (This Charm can be used as an alternate prerequisite
-            to the Tireless Runner's Stride Charm from
-            Caste Book: Zenith.)
+            footsore or saddlesore. The character must still eat and
+            drink and is subject to the effects of the environment (such
+            as extreme heat or cold), and the Charm does not prevent
+            an Exalt's mount from tiring. Still, characters using this
+            Charm can cover considerable distance in fairly short time
+            and arrive at their destination as fresh as when they left.<br>
+            (This Charm can be used as an alternate prerequisite to the Tireless Runner's Stride Charm from Caste
+            Book: Zenith.)
             "
     end
+
+    tireless_travelers_stamina --->|or| tireless_runners_stride
