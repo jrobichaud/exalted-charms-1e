@@ -175,3 +175,62 @@ flowchart TD
         Hawk; although the action is complete in the blink of an
         eye, it requires intense spiritual concentration.
         "
+
+    subgraph Aspect Book - Wood
+        unobstructed_hunters_aim[Unobstructed Hunter's<br>Aim]
+        click unobstructed_hunters_aim callback "
+            Unobstructed Hunter's Aim<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Archery: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Harvest of the Hunter<br>
+            <br>
+            Using this Charm, the archer infuses an arrow with
+            her Essence, harmonizing it to the element of wood. An
+            arrow so imbued will pass through obstacles of wood or plant
+            unimpeded. With Unobstructed Hunter's Aim, the arrow
+            soars through densely wooded and overgrown terrain as if
+            it were being launched across an empty, open plain.<br>
+            An attack made with the use of this Charm ignores
+            ranged cover modifiers granted by any obstacle consisting
+            of wood or other plant matter. This Charm is even capable
+            of bypassing the defense provided by wooden shields and
+            timber fortifications, regardless of their thickness. This
+            effect does not work on enchanted items containing the
+            Five Magical Materials.
+            "
+        ravenous_thorn_technique[Ravenous Thorn<br>Technique]
+        click ravenous_thorn_technique callback "
+            Ravenous Thorn Technique<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Archery: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Life-Swelling Sap Strike<br>
+            <br>
+            Feared by those who know of it, this lethal attack awakens the Essence currents in a wooden arrow,
+            transforming its pattern into that of a root seeking
+            the nourishment of rich soil. Through the use of this Charm,
+            the Dragon-Blooded turns his projectile into a growing,
+            twisting missile, alive with runners and hungry roots that
+            bore through the archer's victim.<br>
+            If the initial archery attack causes damage, the arrow
+            sprouts roots and creepers which bore into the target's body,
+            inflicting the base damage of an arrow (minimum of 1) of
+            the appropriate type at the beginning of each subsequent
+            turn. This damage ignores armor and may only be soaked
+            with Stamina and other natural soak. This effect persists
+            for a number of turns equal to the archer's permanent
+            Essence or until it is removed. Successfully removing the
+            arrow requires a Dexterity + Medicine roll with a difficulty
+            equal to the permanent Essence of the archer.
+            "
+
+    end
+    harvest_of_the_hunter --> unobstructed_hunters_aim
+    life_swelling_sap_strike --> ravenous_thorn_technique

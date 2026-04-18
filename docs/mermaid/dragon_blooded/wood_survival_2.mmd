@@ -221,3 +221,31 @@ flowchart TD
         shelter, he must spend an additional mote of Essence per
         person to be accommodated within it.
         "
+
+    subgraph Aspect Book - Wood
+        natures_healing_bounty[Nature's Healing Bounty]
+        click natures_healing_bounty callback "
+            Nature's Healing Bounty<br>
+            <br>
+            Cost: 1 mote per two dice<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Survival: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Wild-Wandering Forester Charm<br>
+            <br>
+            Wood-aspected Dragon-Blooded are known for their
+            great expertise in herbalism and natural healing lore. With
+            the use of this Charm, a Terrestrial Exalt may supplement
+            his healing skills through the use of medicinal plants and
+            wild herbs. The Dragon-Blood can improve his Medicine
+            dice pools by two dice for every mote of Essence spent
+            but can add no more dice than his Survival Ability (plus
+            any relevant specialty). The character must spend a full
+            mote of Essence even if his player wishes to add just a
+            single die (as might be the case if the character had an
+            odd Survival score).
+            "
+    end
+
+    wild_wandering_forester_charm --> natures_healing_bounty
