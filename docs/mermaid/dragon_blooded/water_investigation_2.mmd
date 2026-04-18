@@ -226,3 +226,127 @@ flowchart TD
 
     atsiluths_bounty --> vision_outside_time
     falsehood_unearthing_attitude --> vision_outside_time
+
+    subgraph Aspect Book - Water
+        tampering_detection_technique[Tampering Detection<br>Technique]
+        click tampering_detection_technique callback "
+            Tampering Detection Technique<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Investigation: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Indisputable Physical Analysis Technique<br>
+            <br>
+            A character using this Charm can instantly tell if an
+            object has been tampered with and how the tampering was
+            done. If a lock has been picked, forced or opened with any
+            form of magic or if a document has been altered in any way
+            or if a signature or seal has been forged, this Charm will
+            reveal both the changes and the method by which they were
+            accomplished. Each use of this Charm reveals all changes to
+            a single object that have been made in the last year. This
+            Charm does not reveal who made the changes and only
+            gives general information about when the tampering was
+            performed, but it will identify everything from a crude lock-
+            picking to a use of the Solar Charm Lock-Opening Touch.
+            "
+        clear_water_prana[Clear Water Prana]
+        click clear_water_prana callback "
+            Clear Water Prana<br>
+            <br>
+            Cost: 5 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Investigation: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Tampering Detection Technique<br>
+            <br>
+            When a character examines a room or a similar-sized
+            location to determine what occurred there, one of the
+            greatest risks is overlooking details that have been deliberately concealed or clues that have been hidden. This
+            Charm enables the character to find everything that was
+            deliberately hidden or concealed in a space no larger than
+            five yards on a side. When the character uses this Charm,
+            a tide of Essence sweeps through the area and glows briefly
+            when it encounters anything that has been deliberately
+            hidden. If the character is searching several small rooms or
+            one large room, she must use this Charm multiple times to
+            cover the entire area. Also, there is no guarantee that
+            something that has been hidden in the room has anything
+            to do with the events in which the character is interested.
+            If the character uses this Charm in a room where a murder
+            was committed, she might just as easily turn up the small
+            cache of opium the victim had stashed under the floorboards. Also, while the Charm automatically detects items
+            hidden by mundane means, to detect items hidden using
+            Charms or sorcery, the character's player must make a
+            successful resisted Perception + permanent Essence roll
+            against the Essence of the individual who used the Charms
+            or sorcery. It cannot discover matters concealed by Celestial Circle Sorcery or some equivalent or greater power.
+            "
+        eye_of_the_enlightened_reader[Eye of the<br>Enlightened Reader]
+        click eye_of_the_enlightened_reader callback "
+            Eye of the Enlightened Reader<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Investigation: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Indisputable Physical Analysis Technique<br>
+            <br>
+            This Charm does not help the character find the
+            sources he is looking for, but it does provide equally
+            important information about those sources that are useless
+            to the character. The character need only touch a book,
+            scroll or other manuscript, concentrate on the information he seeks and then use this Charm. In an instant, the
+            character will know if the document he is holding actually
+            contains the desired information. Of course, specifying a
+            particularly broad category of information, such as &quot;The
+            Realm,&quot; can provide general information that more specific requests can miss. However, such generalities may be
+            useless. In contrast, asking if a book contains a biography
+            of some particular person will instantly reveal if the book
+            contains such information, but it does nothing to let the
+            character know that this same book also contains useful
+            anecdotes about the same person buried in the biographies
+            of several other famous figures.
+            "
+        information_carrying_tide[Information Carrying<br>Tide]
+        click information_carrying_tide callback "
+            Information Carrying Tide<br>
+            <br>
+            Cost: 4 motes<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Investigation: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Eye of the Enlightened Reader<br>
+            <br>
+            When confronted with a great library or some other
+            large collection of books and/or other records, the primary
+            challenge is winnowing through the information to find
+            the few grains of wheat amidst the vast amounts of chaff.
+            When a character uses this Charm, an invisible tide of
+            Essence flows outward and causes the most relevant and
+            useful materials within the collection to glow softly. This
+            Charm reduces any difficulty penalties to Investigation
+            rolls made because the Exalt is looking through large
+            numbers of books or other written records that are poorly
+            organized. This Charm reduces these penalties by the
+            character's permanent Essence but cannot lower the difficulty of a roll below 1. It merely makes looking for
+            information among a pile of random tomes no more
+            difficult that seeking it among the best organized and
+            cataloged library in the Realm. However, if the desired
+            information cannot be found in the library the character
+            is looking in, this Charm will not suddenly cause it to be
+            present. Instead, the character will merely be certain that
+            this information cannot be found in the collection of
+            manuscripts.
+            "
+    end
+
+    indisputable_physical_analysis_technique --> tampering_detection_technique
+    tampering_detection_technique --> clear_water_prana
+    indisputable_physical_analysis_technique --> eye_of_the_enlightened_reader
+    eye_of_the_enlightened_reader --> information_carrying_tide

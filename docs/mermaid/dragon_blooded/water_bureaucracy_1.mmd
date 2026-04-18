@@ -197,3 +197,117 @@ flowchart TD
         Note that this Charm can only be used on groups of seven
         or more; it simply fails if used on a smaller group.
         "
+
+    subgraph Aspect Book - Water
+        finding_the_waters_depths[Finding the Waters' Depths]
+        click finding_the_waters_depths callback "
+            Finding the Waters' Depths<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Bureaucracy: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: None<br>
+            <br>
+            The Dragon-Blooded of the Realm frequently buy and
+            sell goods and negotiate agreements much like ordinary
+            mortals. Since most deals are accomplished through elaborate haggling, this Charm is invaluable. It instantly allows the
+            character to know if the person she is bargaining with has
+            reached the limit of the price she is willing to pay or the
+            general degree of concessions she is willing to make. In
+            addition, the Charm allows the character's player to make a
+            roll to determine if the target is approaching the limit she is
+            willing to spend or agree to or if this limit is far beyond what
+            the character is currently asking. A single success on a Wits
+            + Bureaucracy roll allows the character to know if the current
+            offer is half or more of her target's maximum or minimum
+            offer, two successes allows the character to determine her
+            target's limit within 10 percent, and three or more successes
+            allows the character to exactly determine the target's limit.
+            "
+
+        sparkling_fountains_of_eloquence[Sparkling Fountains<br>of Eloquence]
+        click sparkling_fountains_of_eloquence callback "
+            Sparkling Fountains of Eloquence<br>
+            <br>
+            Cost: 1 mote per two dice<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Bureaucracy: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Finding the Waters' Depths<br>
+            <br>
+            This Charm lends special timbre and eloquence the
+            character's voice for the purpose of convincing someone to
+            buy an item or to agree to a deal. So long as the roll is being
+            made for one of these two purposes, the character can
+            improve her Bureaucracy dice pool by two dice for every
+            mote of Essence spent. The character cannot more than
+            double her Bureaucracy Trait with this Charm, and she
+            must pay the full motes of Essence even if she can only raise
+            the Trait by a single die.
+            "
+
+        distraction_of_the_babbling_brook[Distraction of the<br>Babbling Brook]
+        click distraction_of_the_babbling_brook callback "
+            Distraction of the Babbling Brook<br>
+            <br>
+            Cost: 4 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Bureaucracy: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Sparkling Fountains of Eloquence<br>
+            <br>
+            The Dynasts of the Realm must regularly engage in
+            trickery to preserve their ancient empire. One of the keys to
+            such trickery is convincing someone to agree to a deal without
+            looking too closely at the fine print. This Charm increases the
+            difficulty for a character to discover hidden traps in a contact
+            or to be able to locate hidden defects in merchandize the
+            character is offering for sale. In all cases, the tricks or traps
+            must be reasonably subtle. This Charm will not cause someone to sign a contract to sell themselves instantly into slavery
+            when they think they are signing a contract to purchase a
+            villa, nor will it cause a character to overlook the fact that the
+            horse she is buying only has three legs.<br>
+            However, if noticing a problem would require a roll, this
+            Charm adds 1 to the difficulty of the Wits + Bureaucracy roll
+            needed to discover the problem. This Charm has no effect on the
+            Intelligence + Bureaucracy roll the character's player can use to
+            attempt to further conceal such problems. As a result, the
+            most subtle of the hidden problems become almost impossible
+            to find, while problems that are more obvious are simply
+            slightly less easy to spot. This Charm only works on a single
+            target. If several people are examining the item or contract,
+            then the character must use it on each of them separately.
+            Also, the target must be examining the item or contract while
+            the character is present for the character to use this Charm.
+            "
+        dashing_brook_method[Dashing Brook Method]
+        click dashing_brook_method callback "
+            Dashing Brook Method<br>
+            <br>
+            Cost: 4 motes, 1 Willpower<br>
+            Duration: One task<br>
+            Type: Simple<br>
+            Minimum Bureaucracy: 5<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Geese-Flying-South Administration<br>
+            <br>
+            Regardless of whether they are working for or against a
+            character, large bureaucracies almost always move quite
+            slowly. This Charm does nothing to sway the outcome of a
+            petition or to dictate the success of an edict, but it will cause
+            any single request to be processed at the maximum possible
+            speed. Reduce the time needed by 10 percent for every
+            success, to a minimum of 10 percent of the unmodified time.
+            In the most extreme cases, a petition that would normally
+            take several days to be resolved requires only a few hours.
+            "
+
+    end
+
+    finding_the_waters_depths --> sparkling_fountains_of_eloquence
+    sparkling_fountains_of_eloquence --> distraction_of_the_babbling_brook
+    geese_flying_south_administration -----> dashing_brook_method

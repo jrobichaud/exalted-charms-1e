@@ -153,7 +153,7 @@ flowchart TD
         "
 
     flow_past_defences[Flow Past Defenses]
-    riptide_method --> flow_past_defences
+    riptide_method -----> flow_past_defences
     pounding_surf_style --> flow_past_defences
     become_the_hammer --> flow_past_defences
     click flow_past_defences callback "
@@ -181,3 +181,161 @@ flowchart TD
         The Exalt is not normally harmed by attacks aimed at the held
         foe, although a botched attack may still injure her.
         "
+
+
+    subgraph Aspect Book - Water
+        bonds_of_unbreakable_ice_technique[Bonds of Unbreakable<br>Ice Technique]
+        click bonds_of_unbreakable_ice_technique callback "
+            Bonds of Unbreakable Ice Technique<br>
+            <br>
+            Cost: 3 motes, 1 Willpower<br>
+            Duration: Essence in turns<br>
+            Type: Supplemental<br>
+            Minimum Brawl: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Riptide Method<br>
+            <br>
+            Just as ice on a frozen sea can hold a ship fast in place,
+            the character can use bonds of Essence to maintain a hold
+            on an opponent. The character makes a hold attack on her
+            opponent normally and uses this Charm. If the hold attack
+            is successful, then, at the beginning of the next turn, the
+            character can let go and act normally. The opponent will
+            remain held as if by the character for an additional number
+            of turns equal to the character's Essence score. The opponent
+            can attempt to break free normally, and all such
+            attempts are made as if against the character. Even if the
+            opponent cannot break free, once the duration of this
+            Charm is up, he is automatically freed. The character can
+            use this Charm to immobilize multiple opponents one
+            after the other and can enhance the hold by placing this
+            Charm in a Combo.
+            "
+
+        crushing_glacier_prana[Crushing Glacier Prana]
+        click crushing_glacier_prana callback "
+            Crushing Glacier Prana<br>
+            <br>
+            Cost: 10 motes, 1 Willpower<br>
+            Duration: Essence in turns<br>
+            Type: Supplemental<br>
+            Minimum Brawl: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Bonds of Unbreakable Ice Technique<br>
+            <br>
+            The character can now also maintain a clinch after she
+            ceases to touch her opponent. The character makes a
+            normal clinch attack and uses this Charm. If the clinch
+            attack is successful, then, the next turn, the character can let
+            go and act normally. The opponent will continue to be
+            crushed by waves of Essence for an additional number of
+            turns equal to the character's Essence score. The opponent
+            can attempt to break free normally, and all such attempts are
+            made as if against the character. Even if the opponent
+            cannot break free, once the duration of this Charm is up, the
+            opponent is automatically freed. The character can use this
+            Charm to attack multiple opponents one after the other and
+            can enhance the clinch by placing this Charm in a Combo.
+            "
+
+        smashing_tidal_wave_technique[Smashing Tidal Wave<br>Technique]
+        click smashing_tidal_wave_technique callback "
+            Smashing Tidal Wave Technique<br>
+            <br>
+            Cost: 3 motes + 3 motes per additional target, 1 Willpower<br>
+            Duration: Brawl in turns<br>
+            Type: Supplemental<br>
+            Minimum Brawl: 5<br>
+            Minimum Essence: 4<br>
+            Prerequisite Charms: Crushing Glacier Prana<br>
+            <br>
+            Just as a tidal wave can crush many people at once,
+            the character can attempt to hold a number of targets
+            equal to his permanent Essence. In addition, this attack
+            can be made at a range of (Essence x 5) yards. The
+            opponents can be all together in a single group or
+            standing separately — so long as all opponents are in
+            range, the player rolls normally for his character to
+            attempt to place each of them in a hold. The player
+            rolls each hold attempt separately. Unless they
+            break free, all opponents are held for a number of
+            turns equal to the character's Brawl score. All such
+            attempts are made as if against the character who
+            activated this Charm. Once the duration of this
+            Charm is up, all opponents are automatically freed. The
+            character must maintain these holds as if he were maintaining normal holds. Taking any other non-reflexive
+            action automatically frees everyone effected by this Charm.
+            "
+
+        slippery_escape_method[Slippery Escape Method]
+        click slippery_escape_method callback "
+            Slippery Escape Method<br>
+            <br>
+            Cost: 1 mote per two dice<br>
+            Duration: Instant<br>
+            Type: Supplemental<br>
+            Minimum Brawl: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Drowning Embrace<br>
+            <br>
+            As water flows past all obstacles, the character can
+            escape from clinches and holds by literally flowing through
+            the arms of her opponent. For each mote of Essence spent
+            on Slippery Escape Method, the player adds two dice to
+            the roll for her character to escape from clinches and
+            holds. In addition, the player can also add this same
+            bonus to any Larceny roll made to escape from bonds or
+            for any Athletics roll made to squeeze through tight
+            spaces. The character cannot spend more motes on this
+            Charm than her permanent Essence.
+            "
+        swift_stream_prana[Swift Stream Prana]
+        click swift_stream_prana callback "
+            Swift Stream Prana<br>
+            <br>
+            Cost: 2 motes<br>
+            Duration: Instant<br>
+            Type: Reflexive<br>
+            Minimum Brawl: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Slippery Escape Method<br>
+            <br>
+            Like a stream of water runs rapidly past stationary
+            obstacles, the character can use this Charm to allow his
+            player to make a reflexive roll for the Dragon-Blood to
+            escape from a clinch or hold or to slip out of bonds.
+            Regardless of whether this roll succeeds or not, the character
+            can then act normally in the turn with no penalty to
+            his dice pools. This Charm can be placed in a Combo with
+            others that can be used to increase his chances of successfully escaping.
+            "
+        disarming_strike_prana[Disarming Strike Prana]
+        click disarming_strike_prana callback "
+            Disarming Strike Prana<br>
+            <br>
+            Cost: 3 motes, 1 Willpower<br>
+            Duration: Instant<br>
+            Type: Simple<br>
+            Minimum Brawl: 4<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Become the Hammer<br>
+            <br>
+            Even the most skilled brawlers know the difficulties
+            they have when facing well-armed opponents. This Charm
+            allows a character to reduce the difficulty of an attempt to
+            disarm her opponent by 1. This Charm does not allow the
+            character to take or break the weapon. It only allows her
+            to make a barehanded strike that will cause the weapon to
+            fly out of the opponent's hand and land (5 + 1 per
+            additional success) yards away. The character can choose
+            in which direction the weapon will land.
+            "
+
+    end
+
+    riptide_method ---> bonds_of_unbreakable_ice_technique
+    bonds_of_unbreakable_ice_technique --> crushing_glacier_prana
+    crushing_glacier_prana --> smashing_tidal_wave_technique
+    drowning_embrace --> slippery_escape_method
+    slippery_escape_method --> swift_stream_prana
+    become_the_hammer --> disarming_strike_prana

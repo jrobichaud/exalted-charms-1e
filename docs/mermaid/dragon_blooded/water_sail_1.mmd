@@ -328,4 +328,95 @@ flowchart TD
     fine_passage_negotiating_style --> terrible_glow_of_nautical_valor
     fine_passage_negotiating_style --> pleasant_convocation_of_the_like_minded
     pleasant_convocation_of_the_like_minded --> enemy_fouling_method
-    pirate_masquerading_method --> false_color_flying_demonstration
+    pirate_masquerading_method ---> false_color_flying_demonstration
+
+    subgraph Aspect Book - Water
+        water_drop_protection_technique[Water Drop Protection<br>Technique]
+        click water_drop_protection_technique callback "
+            Water Drop Protection Technique<br>
+            <br>
+            Cost: 5 motes, 1 Willpower<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Sail: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Storm-Outrunning Technique<br>
+            <br>
+            This Charm is specifically designed to work with Northern air boats. The character can completely protect her air
+            boat from the effects of storms. This Charm does nothing to
+            affect the storm. Instead, it sheathes the air boat in a large
+            bubble of protective Essence. The winds of the storm
+            continues to push the air boat forward, but the Charm
+            completely protects both the vessel and everyone on board
+            from all environmental damage. The entire air boat and all
+            of its rigging are completely calm, even if gale-force winds
+            are blowing a few feet away. This Charm can be recast as
+            necessary, but most air-boat pilots use it as a chance to
+            outrun a small storm or to land and stake down the air boat
+            to protect it from the effects of a prolonged storm.
+            "
+
+        deck_walking_prana[Deck-Walking Prana]
+        click deck_walking_prana callback "
+            Deck-Walking Prana<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: One scene<br>
+            Type: Reflexive<br>
+            Minimum Sail: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: None<br>
+            <br>
+            Whether the character is on a trireme off the coast of
+            the Blessed Isle or on an air boat high above Diamond
+            Hearth, the deck and rigging of any ship can become
+            exceedingly treacherous during a storm, a battle or any other
+            emergency, and a single misstep can cause a character to fall
+            to her death. This Charm effectively removes such risks. A
+            character using Deck-Walking Prana can move across the
+            deck or up and down the rigging of a storm-tossed ship as
+            safely as if she were doing so while the ship was in dry dock.
+            The Charm also negates all movement penalties associated
+            with environmental factors such as ice, snow, water or
+            motion. If an action such as sliding rapidly down the rigging
+            would normally require a roll to be safely performed, then
+            the character's player must still roll, but this Charm removes
+            all penalties associated with adverse environmental conditions. This Charm only works on board a ship, and it does
+            not allow the character to perform actions that would
+            normally be impossible, such as walking along the side of the
+            hull or striding across the canvas of a billowing sail. In
+            addition to being able to use this Charm herself, the character can also cast it on anyone she can touch.
+            "
+
+        ship_striding_technique[Ship-Striding Technique]
+        click ship_striding_technique callback "
+            Ship-Striding Technique<br>
+            <br>
+            Cost: 5 motes<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Sail: 4<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Deck-Walking Prana<br>
+            <br>
+            This Charm allows the character employing it to move
+            about a ship in any possible fashion and under any conditions. She can walk along the underside of a flying air boat
+            or stand on the bottom of the keel of a ship sailing through
+            a storm, with no risk of slipping or falling off. The character
+            can completely defy gravity with this Charm, but the object
+            she is standing upon must be able to physically bear her
+            weight. The character can also use this Charm on anyone
+            she can touch. Although this Charm allows the character to
+            stand firmly upon the hull in calm conditions, if she is
+            buffeted by waves or high winds, her player must make a
+            successful Dexterity + Athletics roll for the Exalt to avoid
+            falling — the difficulty of this roll would be 1 for the normal
+            motion of a ship through water or on an air boat during a
+            gale. The difficulty only rises to 5 during a storm so severe
+            that it is almost certain to destroy the vessel.
+            "
+
+    end
+
+    storm_outrunning_technique ------> water_drop_protection_technique
+    deck_walking_prana --> ship_striding_technique
