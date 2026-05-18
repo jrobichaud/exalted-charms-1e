@@ -504,7 +504,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Eastern Root Protocol, Sprinting Stag Defense, Blessing of Jeweled Vambraces and Mantle, Furious Battle Scythe, Call-to-the-Blade-of-Righteousness Mantra
+Prerequisite Charms: Eastern Root Protocol, Sprinting Stag Defense, Blessing of Jeweled Vambraces and Mantle, Furious Battle Scythe, Call to the Blade of Righteousness
 
 On the field of battle, a master of the Crimson
 Pentacle Blade Style is a weapon specialist without peer.

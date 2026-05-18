@@ -21,16 +21,16 @@ flowchart TD
 flowchart TD
 
 
-    depth_officials_way["<a class='internal-link' href='#Depth Official's Way'>Depth Official's Way</a>"]
+    deft_officials_way["<a class='internal-link' href='#Deft Official's Way'>Deft Official's Way</a>"]
 
     speed_of_the_wheels["<a class='internal-link' href='#Speed of the Wheels'>Speed of the Wheels</a>"]
-    depth_officials_way --> speed_of_the_wheels
+    deft_officials_way --> speed_of_the_wheels
 
     bureau_rectifying_method["<a class='internal-link' href='#Bureau-Rectifying Method'>Bureau-Rectifying Method</a>"]
     speed_of_the_wheels --> bureau_rectifying_method
 
     indolent_official_charm["<a class='internal-link' href='#Indolent Official Charm'>Indolent Official Charm</a>"]
-    depth_officials_way ---> indolent_official_charm
+    deft_officials_way ---> indolent_official_charm
 
     foul_air_of_argument_technique["<a class='internal-link' href='#Foul Air of Argument Technique'>Foul Air of Argument<br>Technique</a>"]
     indolent_official_charm --> foul_air_of_argument_technique
@@ -149,7 +149,7 @@ been swindled — the greater the swindle, the more likely
 he is to seek redress.
 
 
-## Depth Official's Way
+## Deft Official's Way
 
 Cost: 6 motes
 Duration: One task

@@ -262,7 +262,7 @@ Duration: One scene
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 4
-Prerequisite Charms: Elemental Empowerment Meditation, Element Burst Technique
+Prerequisite Charms: Elemental Empowerment Meditation, Elemental Burst Technique
 
 Rather than just summoning a temporary damaging
 burst of elemental energy, this Charm creates a deadly
