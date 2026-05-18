@@ -206,7 +206,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Evidence-Erasing Method, Lock-Weathering Touch
+Prerequisite Charms: Evidence-Erasure Method, Lock-Weathering Touch
 
 Through the use of this Charm, an Abyssal becomes
 preternaturally deft at sleight of hand and may

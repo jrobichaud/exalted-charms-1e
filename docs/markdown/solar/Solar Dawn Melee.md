@@ -251,7 +251,7 @@ an odd number of dice in her Melee pool, then the fractional
 mote left over after buying the last die is lost.
 
 Errata:
-This Charm is an exception to the general Ability + Attribute rule. When using Golden Essence Block, you
+This Charm is an exception to the general Ability + Attribute rule. When using Golden Solar Block, you
 can't make your dice pool exceed your normal parry pool (Dexterity + Melee + whatever bonuses you may
 have lying around from the weapon or your specialties). It's most efficient in parrying multiple extra
 attackers where a couple parry dice is all you need. If combined with something like Dipping Swallow
@@ -267,7 +267,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 2
 Minimum Essence: 1
-Prerequisite Charms: Golden Essence Block
+Prerequisite Charms: Golden Solar Block
 
 The character has achieved further mastery of defensive
 Essence flows and can now more smoothly block
@@ -518,7 +518,7 @@ the counterattack roll.
 The parry and the counterattack are &quot;normal&quot; ac-
 tions for the character, and so, the character could
 enhance his counterattacks with Excellent Strike or his
-defense with Golden Essence Block, but the character
+defense with Golden Solar Block, but the character
 still cannot invoke the effects of more than one different
 Charm per turn without a Combo. In addition, a char-
 acter under the effects of this Charm may not use or

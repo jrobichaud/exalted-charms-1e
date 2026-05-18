@@ -379,7 +379,7 @@ item through the use of this Charm, although a number
 of similar small items could be checked at the same time.
 
 
-## Harmony with Reality
+## Harmony with Reality Technique
 
 Cost: 10 motes + plus 1 additional mote per pound of material, 1 Willpower
 Duration: Instant

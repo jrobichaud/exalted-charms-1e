@@ -135,7 +135,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Flowing Mirror of Opposition, Withering Paw Strike
+Prerequisite Charms: Flowing Mirror of Opposition Technique, Withering Paw Strike
 
 The disciples of this style practice a state of being
 known as &quot;Selfless Mind.&quot; Through diligent, introspective

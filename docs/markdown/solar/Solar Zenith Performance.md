@@ -271,7 +271,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 3
-Prerequisite Charms: Heart-Compelling Method, Phantom-Conjuring Performance
+Prerequisite Charms: Heart-Compelling Methodology, Phantom-Conjuring Performance
 
 This Charm allows a character to weave a narrative
 so plausible and so compelling that those who hear it

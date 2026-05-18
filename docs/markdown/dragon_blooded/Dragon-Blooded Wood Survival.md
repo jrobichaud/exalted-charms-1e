@@ -253,7 +253,7 @@ Charm to make sure he and his fellows remain out of the
 worst heat of the sun and conserve water. In a cold
 environment, he makes sure they conserve body heat as
 well as possible and remain moving to avoid frostbite.
-When Hostile Environment Preparation Method is active,
+When Hostile Environment Preparation is active,
 the group can be assumed to be unharmed by any
 environment that would ordinarily require three or fewer
 successes on a Survival roll. Environments that would
@@ -273,7 +273,7 @@ Duration: One scene
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 3
-Prerequisite Charms: Hostile Environment Preparation Method
+Prerequisite Charms: Hostile Environment Preparation
 
 The character calls upon helpful spirits of Wood
 (and, if appropriate, other elements) to help him build

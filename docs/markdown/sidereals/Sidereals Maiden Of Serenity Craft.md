@@ -215,7 +215,7 @@ Duration: Varies
 Type: Simple
 Minimum Craft: 4
 Minimum Essence: 4
-Prerequisite Charms: Excellent Implementation
+Prerequisite Charms: Excellent Implementation of Objectives
 
 of Objectives, Destiny-Knitting Entanglement, Elemental
 Vision, Mending Warped Designs

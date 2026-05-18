@@ -471,7 +471,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: One complete martial art (all Charms), God Ways, one Exalt Ways Charm
+Prerequisite Charms: One complete martial art (all Charms), God-Ways, one Exalt Ways Charm
 
 and WU JI
 The character adopts the attitude and posture of the

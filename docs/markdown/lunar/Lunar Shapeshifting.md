@@ -427,7 +427,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Charisma: 4
 Minimum Essence: 3
-Prerequisite Charms: Towering Beast Form, Humble
+Prerequisite Charms: Towering Beast Form, Humble Mouse Shape
 
 Mouse Shape, Many-Faced Moon Transformation
 This Charm allows the Lunar to assume the outward
