@@ -1,0 +1,26 @@
+
+.mermaidTooltip {
+  position: absolute;
+  z-index: 1000;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  padding: 5px;
+  font-size: 12px;
+  color: #333;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+}
+
+.mermaid {
+  margin-right: 100px;
+}
+
+@media not screen, not (max-width: 600px) {
+  .mermaidTooltip {
+    max-width: 500px;
+    margin-left: -100px;
+  }
+
+  .bodywrapper {
+    padding-bottom: 500px;
+  }
+}
