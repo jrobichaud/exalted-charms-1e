@@ -73,7 +73,7 @@ Prerequisite Charms: Flowing Water Defense
 
 Like ripples emanating from a pebble dropped into
 the glassy surface of water, the force of an attack enhanced
-by Rippling Water Strike spreads outward from the point
+by Ripping Water Strike spreads outward from the point
 of impact to affect those nearby. The target of the attack
 takes normal damage, but everyone but the Immaculate
 within 10 feet of the target takes bashing damage equal to
@@ -82,7 +82,7 @@ no health levels of damage, there is no ripple damage. This
 bashing damage can be soaked as normal and cannot be
 converted to lethal.
 The Immaculate cannot be selective about who is
-affected by the Rippling Water Strike. Friends are as
+affected by the Ripping Water Strike. Friends are as
 susceptible as foes.
 
 
@@ -93,7 +93,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Rippling Water Strike
+Prerequisite Charms: Ripping Water Strike
 
 The body, as anyone can see, contains a lot of water
 - blood. Dragon-Blooded warriors who learn the hidden
@@ -122,7 +122,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Rippling Water Strike
+Prerequisite Charms: Ripping Water Strike
 
 With a focusing of Essence, the Immaculate can cast
 off any restraint, magical or physical. Chains shatter, ropes

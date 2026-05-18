@@ -340,7 +340,7 @@ attack with the same weapon, paying 1 mote per die
 rerolled. If the opponent has actions remaining, she can
 attempt to parry these rerolled attack dice. The Monkey
 Paw Advantage confers no benefit if the target dodges.
-The Monkey Paw Advantage cannot be included in a
+The Monkey Paw Advance cannot be included in a
 Combo with Charms that give extra actions.
 
 
@@ -351,7 +351,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Monkey Paw Advantage
+Prerequisite Charms: Monkey Paw Advance
 Using this Charm, the Lunar can elongate one of his
 arms to retrieve a weapon that has been knocked from his
 grasp or to otherwise arm himself. The arm may extend
@@ -394,7 +394,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Manipulation: 4
 Minimum Essence: 2
-Prerequisite Charms: Monkey Paw Advantage
+Prerequisite Charms: Monkey Paw Advance
 
 Even allowing for the reach of limbs and weapons,
 melee combat requires the combatants to be within a

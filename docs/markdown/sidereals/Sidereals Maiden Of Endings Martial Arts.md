@@ -13,7 +13,7 @@ flowchart TD
     joy_in_adversity_stance["<a class='internal-link' href='#Joy in Adversity Stance'>Joy in Adversity Stance</a>"]
     secrets_of_future_strife --> joy_in_adversity_stance
 
-    violet_bier_of_sorrows_form["<a class='internal-link' href='#The Violet Bier of Sorrows Form'>The Violet Bier of Sorrows Form</a>"]
+    violet_bier_of_sorrows_form["<a class='internal-link' href='#Violet Bier of Sorrows Form'>Violet Bier of Sorrows Form</a>"]
     flight_of_mercury --> violet_bier_of_sorrows_form
     blade_of_the_battle_maiden --> violet_bier_of_sorrows_form
     joy_in_adversity_stance --> violet_bier_of_sorrows_form
@@ -116,7 +116,7 @@ Sidereal, nor against attacks from enemies too weak to
 do her any real harm.
 
 
-## The Violet Bier of Sorrows Form
+## Violet Bier of Sorrows Form
 
 Cost: 6 motes
 Duration: One scene

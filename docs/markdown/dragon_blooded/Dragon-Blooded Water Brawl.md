@@ -186,7 +186,7 @@ Duration: One turn
 Type: Supplemental
 Minimum Brawl: 5
 Minimum Essence: 2
-Prerequisite Charms: Riptide Method Pounding Surf Style, Become the Hammer
+Prerequisite Charms: Riptide Method, Pounding Surf Style, Become the Hammer
 
 A master brawler unafraid to go toe to toe with a powerful
 enemy can use this Charm to aid her allies' attacks. While

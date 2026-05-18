@@ -276,7 +276,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Socialize: 3
 Minimum Essence: 1
-Prerequisite Charms: Wise-Eyed Courtier Technique, Master of Small Manners
+Prerequisite Charms: Wise-Eyed Courtier Method, Mastery of Small Manners
 
 The Chosen's mastery of social graces can remove
 him from danger in more ways than one.

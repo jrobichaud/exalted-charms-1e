@@ -185,10 +185,10 @@ Prerequisite Charms: Deft Official's Way
 
 Through the use of this Charm, a character can cause
 a bureaucracy to accomplish a task in record time. An
-Exalted using Speed the Wheels causes the bureaucracy to
+Exalted using Speed of the Wheels causes the bureaucracy to
 work (her Essence + 1) times faster for the duration of a
 particular job. For example, a character with Essence 3 who
-uses the Speed the Wheels Charm to expedite an appeal to
+uses the Speed of the Wheels Charm to expedite an appeal to
 the ruler of a city to use the naval dry-docks to repair her ship
 would be able to make the appropriate appointments and
 cause the proper papers to be read four times faster than
@@ -205,7 +205,7 @@ Duration: One investigation
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Speed the Wheels
+Prerequisite Charms: Speed of the Wheels
 
 An Exalted who knows this Charm may use it to aid in
 an investigation of corruption in a bureaucracy. In order for

@@ -109,7 +109,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 3
-Prerequisite Charms: Subordinate Inspiration
+Prerequisite Charms: Subordinate Inspiration Technique
 
 Technique, Blinding the Boar
 This Charm uses a prayer strip marked with the

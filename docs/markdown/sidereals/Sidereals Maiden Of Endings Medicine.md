@@ -119,7 +119,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Peaceable Conclusion, Invocation of the Storm-Following Silence, Terminate Illness
+Prerequisite Charms: Peaceful Conclusion, Invocation of the Storm-Following Silence, Terminate Illness
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden and the Road. The character

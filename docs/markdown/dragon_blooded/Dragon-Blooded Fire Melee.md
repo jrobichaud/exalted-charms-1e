@@ -281,7 +281,7 @@ Duration: Instant
 Type: Extra Actions
 Minimum Melee: 5
 Minimum Essence: 3
-Prerequisite Charms: Threshing Bloor Technique
+Prerequisite Charms: Threshold Floor Technique
 
 With this Charm, a Dragon-Blooded character can keep
 a foe entirely off-balance until he is slain, if his skill is sufficient

@@ -10,7 +10,7 @@ flowchart TD
     sweet_winsome_light["<a class='internal-link' href='#Sweet Winsome Light'>Sweet Winsome Light</a>"]
     marsh_light --> sweet_winsome_light
 
-    tinkers_body["<a class='internal-link' href='#Thinker's Body'>Thinker's Body</a>"]
+    tinkers_body["<a class='internal-link' href='#Tinker's Body'>Tinker's Body</a>"]
     marsh_light ------> tinkers_body
 
     sleepers_caul["<a class='internal-link' href='#Sleeper's Caul'>Sleeper's Caul</a>"]
@@ -128,7 +128,7 @@ point of Willpower negates the effect of the Sweet Winsome
 Light for a full minute.
 
 
-## Thinker's Body
+## Tinker's Body
 
 Cost: 4 motes
 Duration: One scene

@@ -181,7 +181,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 4
-Prerequisite Charms:Contamination of Spirit, Rampant Pestilence Method, Taint Extraction Technique
+Prerequisite Charms:Contamination of Spirit, Rampant Pestilence Method, Taint Extraction Method
 
 When the Great Contagion swept across Creation,
 only one in ten survived. Unsurpassed Plague Kiss allows

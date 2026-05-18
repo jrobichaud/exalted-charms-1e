@@ -296,7 +296,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Wound-Closing Touch, Madness-Analyzing Method
+Prerequisite Charms: Wound-Closing Touch, Madness-Analyzing Stare
 
 With a strike of the palm and a touch of the lips, an
 Exalted with this level of mastery over the medicinal arts

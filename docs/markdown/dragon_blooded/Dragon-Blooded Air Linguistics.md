@@ -434,7 +434,7 @@ Type: Simple
 Minimum Linguistics: 3
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Language-Learning
+Prerequisite Charms: Language-Learning Ritual
 
 Ritual, Elemental Concentration Trance
 This Charm allows the Dragon-Blood to parse

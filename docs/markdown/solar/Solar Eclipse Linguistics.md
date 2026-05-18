@@ -192,7 +192,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 2
-Prerequisite Charms: Letter-Within-a-Letter
+Prerequisite Charms: Letter-Within-a-Letter Technique
 
 Technique, Sagacious Reading of Intent
 Twisted Words Technique allows one of the Exalted to
@@ -296,7 +296,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 2
-Prerequisite Charms: Letter-Within-A-Letter
+Prerequisite Charms: Letter-Within-A-Letter Technique
 
 Technique, Poetic Expression Style
 The character can speak in a roundabout fashion,

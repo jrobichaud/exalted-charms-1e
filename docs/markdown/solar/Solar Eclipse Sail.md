@@ -289,7 +289,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 3
 Minimum Essence: 2
-Prerequisite Charms: Wind-Defying Course Method
+Prerequisite Charms: Wind-Defying Course Technique
 
 A ship's mast is its life; without the mast, a sailing vessel
 is utterly subject to tide and current, and few vessels survive

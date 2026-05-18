@@ -524,7 +524,7 @@ Duration: One scene
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Spine Shattering Bite, Leap From
+Prerequisite Charms: Spine Shattering Bite, Leap From Cloaking Shadows Attack
 
 Cloaking Shadows Attack, Celestial Tiger Hide
 Burning with the passion of an enraged tiger, the character

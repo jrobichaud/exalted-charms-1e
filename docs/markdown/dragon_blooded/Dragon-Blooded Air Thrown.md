@@ -103,7 +103,7 @@ simplifies the task of hurling deadly objects at opponents.
 With an infusion of Essence, the Dragon-Blooded forges a
 path through the air to her target, ensuring her missile's
 true and deadly flight. For each mote of Essence spent on
-the Seeking Throw, the player may add two dice to a
+the Seeking Throw Technique, the player may add two dice to a
 Thrown attack roll. This cannot increase the character's
 dice pool by more than her Thrown Ability rating. The
 player must declare how much Essence she is infusing into
@@ -284,7 +284,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Persistent Hornet Atrack, Vengeful Gust Counterattack
+Prerequisite Charms: Persistent Hornet Attack, Vengeful Gust Counterattack
 
 Once sufficient connection with the Air Dragon has
 formed, the skilled Dragon-Blooded can move beyond
@@ -354,7 +354,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 2
 Minimum Essence: 1
-Prerequisite Charms: Seeking Throw
+Prerequisite Charms: Seeking Throw Technique
 
 This is the first of what are collectively known as
 the Crosswind Techniques, a group of Charms predicated

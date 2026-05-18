@@ -337,7 +337,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Perfect Reconstruction
+Prerequisite Charms: Perfect Reconstruction Method
 
 Method, Spirit and Body Purification Touch
 commands them in his stead a heifer slay, for the sun's
