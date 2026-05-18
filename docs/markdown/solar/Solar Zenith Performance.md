@@ -26,7 +26,7 @@ flowchart TD
     masterful_performance_exercise --> phantom_conjuring_performance
     respect_commanding_attitude --> phantom_conjuring_performance
 
-    heart_compelling_methodology["<a class='internal-link' href='#Hearth-Compelling Methodology'>Hearth-Compelling<br>Methodology</a>"]
+    heart_compelling_methodology["<a class='internal-link' href='#Heart-Compelling Methodology'>Hearth-Compelling<br>Methodology</a>"]
     masterful_performance_exercise --> heart_compelling_methodology
 
     memory_reweaving_discipline["<a class='internal-link' href='#Memory-Reweaving Discipline'>Memory-Reweaving<br>Discipline</a>"]
@@ -241,7 +241,7 @@ around the character. This Charm is compatible with
 Masterful Performance Exercise.
 
 
-## Hearth-Compelling Methodology
+## Heart-Compelling Methodology
 
 Cost: 6 motes, 1 Willpower
 Duration: One scene
