@@ -7,7 +7,7 @@ flowchart TD
     trackless_walk_style["<a class='internal-link' href='#Trackless Walk Style'>Trackless Walk Style</a>"]
     observer_awareness_method --> trackless_walk_style
 
-    ears_of_the_snow_owl["<a class='internal-link' href='#Ears of the Snow Owl'>Ears of the Snow Owl</a>"]
+    ears_of_the_snow_owl["<a class='internal-link' href='#Ears of the Snowy Owl'>Ears of the Snow Owl</a>"]
     observer_awareness_method --> ears_of_the_snow_owl
 
     window_in_the_door_technique["<a class='internal-link' href='#Window-in-the-Door Technique'>Window-in-the-Door<br>Technique</a>"]
@@ -94,7 +94,7 @@ means, but the Charm's short duration means that it is an
 expensive way to conceal ones passage for a long while.
 
 
-## Ears of the Snow Owl
+## Ears of the Snowy Owl
 
 Cost:
 Duration:

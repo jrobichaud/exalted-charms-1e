@@ -274,7 +274,7 @@ Duration: One hour
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 3
-Prerequisite Charms: Anointment of Miraculous
+Prerequisite Charms: Anointment of Miraculous Health
 
 Health, Bodily Regeneration Prana
 Similar to the Charm Bodily Regeneration Prana, the

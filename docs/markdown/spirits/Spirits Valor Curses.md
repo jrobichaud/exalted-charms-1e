@@ -142,7 +142,7 @@ Duration: Until Calibration
 Type: Simple
 Minimum Compassion/Valor: 2
 Minimum Essence: 4
-Prerequisite Charms: Benefaction/Imprecation
+Prerequisite Charms: Benefaction or Imprecation
 
 With these Charms, a spirit may place a mark of Essence
 upon a target in its line of sight as a delayed trigger for another
