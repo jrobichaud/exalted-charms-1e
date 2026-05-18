@@ -1,0 +1,169 @@
+```mermaid
+
+flowchart TD
+
+    absence["<a class='internal-link' href='#Absence'>Absence</a>"]
+
+    duck_fate["<a class='internal-link' href='#Duck-Fate'>Duck-Fate</a>"]
+    absence --> duck_fate
+
+    avoidance_kata["<a class='internal-link' href='#Avoidance Kata'>Avoidance Kata</a>"]
+    duck_fate --> avoidance_kata
+
+    trouble_reduction_strategy["<a class='internal-link' href='#Trouble Reduction Strategy'>Trouble Reduction Strategy</a>"]
+    duck_fate --> trouble_reduction_strategy
+
+    neighborhood_relocation_scheme["<a class='internal-link' href='#Neighborhood Relocation Scheme'>Neighborhood Relocation Scheme</a>"]
+    avoidance_kata --> neighborhood_relocation_scheme
+    trouble_reduction_strategy --> neighborhood_relocation_scheme
+
+```
+
+
+## Absence
+
+Cost: 1 mote per target number reduction
+Duration: Instant
+Type: Supplemental
+Minimum Dodge: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Predicting the path of a blade or blow well in
+advance, the Exalted arranges to be somewhere else
+when it lands. He can reduce the target number of a
+Dexterity + Dodge roll.
+
+
+## Duck-Fate
+
+Cost: 10 motes
+Duration: Instant
+Type: Reflexive
+Minimum Dodge: 3
+Minimum Essence: 2
+Prerequisite Charms: Absence
+
+The character sees impending danger rippling toward
+her in the skein of fate and, as with Absence,
+chooses not to meet it. Her player rolls Dexterity +
+Dodge against a difficulty equal to her opponent's Essence.
+If the roll succeeds, the Exalt avoids any undesirable
+effect, including attacks she is not aware of, attacks with
+an area of effect, attacks with no physical component
+such as the Irresistible Questioning Technique and continuous
+deleterious effects such as You and Yours Stance.
+She must Duck Fate before her opponent's player makes
+the attack roll or as soon as her player knows about the
+effect, whichever is applicable. She need evade a continuous
+effect only once.
+
+
+## Avoidance Kata
+
+Cost: 2 motes
+Duration: Instant
+Type: Reflexive
+Minimum Dodge: 3
+Minimum Essence: 3
+Prerequisite Charms: Duck Fate
+
+Sometimes, the best answer to trouble is not being
+there at all. In the first two turns of combat or the first
+minute of a social encounter, the Sidereal's player can
+declare, &quot;I'm not there.&quot; It turns out — at least as far as
+anyone can prove — that the Exalt anticipated the
+situation prophetically and was somewhere else, of the
+Storyteller's choosing, all along.
+For this Charm's purposes, the first minute of a social
+encounter begins at the last chance the Exalt had to
+conveniently leave. If the character is chatting with a
+friend and Lilith shows up, a new social encounter has
+begun. The Sidereal can use this Charm, retroactively
+making her excuses and ducking out sometime before-
+hand. If the character is chatting with Lilith and a friend
+shows up, however, she's still in the encounter with Lilith.
+
+
+## Trouble Reduction Strategy
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Dodge: 4
+Minimum Essence: 2
+Prerequisite Charms: Duck Fate
+
+Generous Sidereals learn to spot impending danger
+to others as well. When activating this Charm, the
+character chooses a number of targets whose total Essence
+does not exceed her own. While the Trouble
+Reduction Strategy is in force, the character can use any
+other Dodge Charm she knows to benefit a consenting
+target instead of herself. Simple and extra action Charms
+use the character's action and Dodge pool. Reflexive
+Charms use the character's Dodge pool. Supplemental
+Charms enhance the target's dice action.
+Using a Charm on someone else's behalf counts as
+using that Charm that turn. The Exalt must pay for the
+Charm. She can only use other Charms that turn if she
+declares an appropriate Combo when using her first
+Charm. If the Combo includes non-reflexive Charms
+from other Abilities, the character cannot use it with the
+Trouble Reduction Strategy. If it includes reflexive
+Charms from other Abilities, she cannot use them on the
+target's behalf. She could, for example, Combo Absence
+and Shield of Mars (see p. 163). When she invoked the
+Combo, she could use Absence but not Shield of Mars to
+protect a friend. She must take a dodge action that turn,
+assisted by Absence, even if no one tries to hit her,
+because it is a supplemental Charm in a Combo. She can
+reflexively invoke the Shield of Mars.
+Sidereal Exalted may always use their Compassion
+with this Charm.
+
+
+## Neighborhood Relocation Scheme
+
+Cost: 15 motes, 1 Willpower, 1 health level
+Duration: Indefinite
+Type: Simple
+Minimum Dodge: 5
+Minimum Essence: 4
+Prerequisite Charms: Avoidance Kata, Trouble Reduction Strategy
+
+This Charm uses a long prayer strip marked with the
+scripture of the Hunted Maiden. The character twists it
+and wraps it around her waist, whereupon it transforms
+into a band of crystalline Essence the color of the sky. Each
+hour the Exalted leaves this Charm in force, the band
+tightens, doing two levels of unsoakable bashing damage.
+This damage cannot be healed until the Charm ends.
+The character begins to walk or run. These are the
+only acceptable forms of motion, but she can enhance
+them with Charms or the Lesser Sign of Mercury. As the
+character travels, the weave of Creation shifts, dragging
+part of the world after her. Specifically, both the general
+terrain and all habitations within her Essence in miles
+move with her. In the planning rooms of fate, this Charm
+slowly changes the records of each transported thing's
+position. Thus, their fated interactions in the moments
+to come take place in a new location.
+This Charm alters divine records, which are then
+interpreted by those who feed fate into the world.
+Accordingly, it is an intelligent effect. The Sidereal
+cannot shear a mountain or city in two. If the Charm
+cannot logically divide such features, given the radius
+of effect, they do not travel at all. Further, Creation fills
+in the &quot;vacant space&quot; with something reasonable. Finally,
+the Sidereal cannot &quot;erase&quot; anything important
+by dragging land onto it. If she drags a desert onto a
+Manse in a forested region, the forest retreats but does
+not vanish. The Manse follows the forest or relocates to
+the desert. The new location seems correct and reasonable
+to all witnesses, although they remember the
+previous state of affairs.
+This Charm was first used to pull a key fortification
+out of the way of a Primordial assault, in the days when
+Exalted and Primordials warred. Using this Charm with-
+out authorization is a Severity 3 offense.

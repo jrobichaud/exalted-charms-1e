@@ -1,0 +1,445 @@
+```mermaid
+
+flowchart TD
+
+    %% described in Storyteller's Companion
+    subgraph wood_throw[Wood Throw Charms]
+        direction TB
+
+        hurled_branch_arrow_technique["<a class='internal-link' href='#Hurled Branch Arrow Technique'>Hurled Branch Arrow<br>Technique</a>"]
+
+    end
+
+```
+
+```mermaid
+
+flowchart TD
+
+    seeking_throw_technique["<a class='internal-link' href='#Seeking Throw Technique'>Seeking Throw Technique</a>"]
+
+    loyal_weapon["<a class='internal-link' href='#Loyal Weapon'>Loyal Weapon</a>"]
+    seeking_throw_technique ------> loyal_weapon
+
+    persistent_hornet_attack["<a class='internal-link' href='#Persistent Hornet Attack'>Persistent Hornet Attack</a>"]
+    loyal_weapon --> persistent_hornet_attack
+
+    invisibly_hidden_chakram_method["<a class='internal-link' href='#Invisibly Hidden Chakram Method'>Invisibly Hidden Chakram<br>Method</a>"]
+    persistent_hornet_attack --> invisibly_hidden_chakram_method
+
+    whirlwind_shield_form["<a class='internal-link' href='#Whirlwind Shield Form'>Whirlwind Shield Form</a>"]
+
+    vengeful_gust_counterattack["<a class='internal-link' href='#Vengeful Gust Counterattack'>Vengeful Gust<br>Counterattack</a>"]
+    whirlwind_shield_form --> vengeful_gust_counterattack
+
+    wind_weapons["<a class='internal-link' href='#Wind Weapons'>Wind Weapons</a>"]
+    vengeful_gust_counterattack --> wind_weapons
+    persistent_hornet_attack ---> wind_weapons
+
+    wind_armor_technique["<a class='internal-link' href='#Wind Armor Technique'>Wind Armor Technique</a>"]
+    vengeful_gust_counterattack ---> wind_armor_technique
+
+    subgraph Aspect Book - Air
+        crosswind_offense["<a class='internal-link' href='#Crosswind Offense'>Crosswind Offense</a>"]
+
+        crosswind_feint["<a class='internal-link' href='#Crosswind Feint'>Crosswind Feint</a>"]
+
+        crosswind_gale["<a class='internal-link' href='#Crosswind Gale'>Crosswind Gale</a>"]
+
+        crosswind_empowerment_technique["<a class='internal-link' href='#Crosswind Empowerment Technique'>Crosswind Empowerment Technique</a>"]
+    end
+    seeking_throw_technique --> crosswind_offense
+    crosswind_offense --> crosswind_feint
+    crosswind_offense ---> crosswind_gale
+    crosswind_offense ----> crosswind_empowerment_technique
+
+```
+
+
+## Hurled Branch Arrow Technique
+
+Cost: 2 motes
+Duration: Instant
+Type: Simple
+Minimum Thrown: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Through this Charm, a Dragon-Blooded character
+charges any convenient stick or scrap of wood with Essence.
+When he then throws the Essence-charged wood, it
+flies through the air as smoothly as an arrow from a bow —
+and does as much damage. The character rolls Dexterity +
+Thrown, and the improvised missile inflicts damage based
+on its shape — most are point, fowling or frog crotch. The
+weapon has the same range increment as a compound bow.
+Cascade Charms:
+• When the character achieves greater throwing skill,
+she could improve the range or damage of the arrow.
+Alternatively, she might Combo the Charm with Archery-based
+Charms.
+• A character with a higher Essence rating might gain
+the ability to harm spirits with this Charm, or multiply the
+improvised missile's effect in various ways. (See the Archery
+and Thrown Charms for Solars in Exalted for
+inspiration, but tone down their effect and increase the
+Essence costs for Dragon-Blooded characters.)
+• For a variation, a character might have a Charm
+enabling her to use any convenient scrap of wood as a
+melee weapon.
+
+
+## Seeking Throw Technique
+
+Cost: 1 mote per two dice
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Close alignment with the element of Air considerably
+simplifies the task of hurling deadly objects at opponents.
+With an infusion of Essence, the Dragon-Blooded forges a
+path through the air to her target, ensuring her missile's
+true and deadly flight. For each mote of Essence spent on
+the Seeking Throw, the player may add two dice to a
+Thrown attack roll. This cannot increase the character's
+dice pool by more than her Thrown Ability rating. The
+player must declare how much Essence she is infusing into
+the Charm before making the attack roll.
+
+
+## Loyal Weapon
+
+Cost: 1 mote
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 3
+Minimum Essence: 2
+Prerequisite Charms: Seeking Throw Technique
+
+This Charm allows an Exalt to ensure that a particularly
+valuable weapon (or weapons) will return safely to
+her hand. When she first hurls the weapon, the Dynast
+attaches an invisible rope of wind to it, pulling it back to
+her hand when it's path is spent. Whether it hits its target
+or not, a Loyal Weapon instantly flies back through the air
+to the character's hand, available for use next turn.
+This Charm works on any weapon at all, not just those
+usually thrown. A daiklave may be hurled as easily as a
+group of shuriken. Melee weapons thrown using this Charm
+have the same accuracy, speed and damage as they would
+if melee weapons and a range in yards equal to 10 rimes the
+character's Essence; but they use the character's Thrown
+Ability, rather than her Melee.
+Anyone in the weapon's path, other than the target,
+may attempt to grab the weapon as his action, assuming:
+that he has an action available. The weapon can be caught
+with a successful Dexterity. + Athletics roll, but the player
+of the character catching the weapon must succeed at an
+immediate, reflexive opposed Strength + Athletics roll.
+With the Loyal Weapon's master's player, or fail to stop the
+weapon's progress.
+
+
+## Persistent Hornet Attack
+
+Cost: 3 motes
+Duration: Essence in turns
+Type: Simple
+Minimum Thrown: 3
+Minimum Essence: 2
+Prerequisite Charms: Loyal Weapon
+
+Currents of elemental Air can be used to sustain a
+thrown missile's deadly flight long after its energy would
+normally be spent. The character infuses the Essence of air
+into an item and hurls it at his opponent as normal. But
+unlike a normal hurled attack, this thrown weapon takes
+on a life of it's own, continuing to circle and attack for a
+number of turns equal to the attacking character's Essence.
+A weapon or item enchanted with Persistent Hornet
+Attack strikes a single target each turn with the
+attacking character's Perception + Thrown skill. The
+weapon acts on the same initiative as the character's
+each turn. Once a weapon has been assigned a target,
+the character can't change the target. The weapon can
+be attacked as if it was a normal character, but the
+difficulty to hit it is the throwing character's Essence. If
+struck, the weapon does not soak — it is immediately
+knocked from the air and become inert.
+The character must declare he is invoking this Charm
+when he first throws the weapon it is used on. If the
+attacker uses Persistent Hornet Attack as part of a Combo,
+the daggers must repeat the use of the other Charms in the
+Combo exactly. The character should pay the cost of the
+additional Charms each time the dagger uses them, but
+need not pay the Willpower every turn.
+
+
+## Invisibly Hidden Chakram Method
+
+Cost: 10 motes per weapon and 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Thrown: 4
+Minimum Essence: 3
+Prerequisite Charms: Persistent Hornet Attack
+
+To invoke this potent Charm, the character simply
+tosses a weapon (or weapons) into the air and sends it
+Elsewhere for later use. At a later time, the Exalted can
+release the weapon back into the material world. The
+weapon must be designed to be thrown and be of a type that
+the Dragon-Blooded is actually familiar with and skilled in
+throwing himself.
+Attacking with one or more of these waiting weapons
+is a reflexive action that must be done at the same time that
+the character takes his regular action, and it can be done
+in conjunction with any other normal simple action.
+Aside from that fact, it is a normal, reflexive Dexterity
++ Thrown attack, which can be modified by
+Charms as usual. The waiting weapons may be used as
+part of a Combo, but the Combo can only apply to the
+hidden weapons, cannot include an Extra Attacks-type
+Charm and must include every hidden weapon called up
+in the turn.
+There is no limit to the number of weapons concealed
+by the Invisibly Hidden Chakram Method that a Dragon-
+Blood can release in one turn, and each is thrown with the
+Exalt's full Dexterity + Thrown pool at the time of its
+appearance. The hidden weapons originate from the
+character's location and are clearly part of an attack on
+that character's part. A Dragon-Blooded character can
+maintain as many invisibly hidden weapons as his Essence
+Trait x 2. These weapons are as impossible to sense as
+anything hidden Elsewhere.
+
+
+## Whirlwind Shield Form
+
+Cost: 3 motes + 1 mote for each additional person protected
+Duration: One scene
+Type: Simple
+Minimum Thrown: 3
+Minimum Essence: 2
+Prerequisite Charms: None
+
+Whirling currents of air surround the Exalt, deflecting
+ranged attacks aimed at her. Each time a ranged attack is
+directed at a character using Whirlwind Shield, the
+character's Essence acts as a number of automatic successes
+that are subtracted from any attempt by an attacker to
+make a ranged attack roll against the target.
+This Charm can be used upon a group if the
+character so wishes, but characters so protected must
+remain within range of the character's perception.
+The Exalted must commit an additional mote per
+companion so protected.
+
+
+## Vengeful Gust Counterattack
+
+Cost: 2 motes
+Duration: Instant
+Type: Reflexive
+Minimum Thrown: 4
+Minimum Essence: 2
+Prerequisite Charms: Whirlwind Shield Form
+
+Beyond just deflecting an enemy's attack, Vengeful
+Gust Counterattack lets a character strike back at the one.
+assaulting her. Upon being made the target of a ranged
+attack that she is aware of, the player of a character that.
+knows this Charm may make an immediate Dexterity +
+Thrown check as an opposed defensive roll in place of a
+dodge or parry attempt.
+If this roll exceeds the attacker's roll, the missile's path
+is reversed. It is hurled back to its point of origin, striking
+with a number of successes equal to the extra successes on
+the defending character's player's Dexterity + Thrown roll.
+This Charm is not an all-or-nothing proposition.
+Even if the defender fails to score extra successes on her
+Dexterity + Thrown roll, she still subtracts the successes
+she got from the attacker's roll, just as if the character was
+dodging or parrying the attack.
+If the Exalt has Whirlwind Shield Form active when
+she activates Vengeful Gust Counterattack, the character's
+Essence is subtracted from the atrack before the results of
+the Dexterity + Thrown roll are applied to it, allowing
+stronger counterattacks. If the character is the target of an
+area-of-effect attack such as the Death of Obsidian Butterflies,
+the Whirlwind Shield Form protects only her own
+person, but the attack can still be deflected. This means
+that, for example, a sorcerer who targets multiple Air-aspected
+Dragon-Blooded with such a spell may be struck
+multiple times with its effect due to this Charm.
+
+
+## Wind Weapons
+
+Cost: 3 motes per weapon
+Duration: Instant
+Type: Simple
+Minimum Thrown: 5
+Minimum Essence: 3
+Prerequisite Charms: Persistent Hornet Atrack, Vengeful Gust Counterattack
+
+Once sufficient connection with the Air Dragon has
+formed, the skilled Dragon-Blooded can move beyond
+even the need for a weapon to throw at his opponent. By
+infusing the air itself with Essence, the character solidifies
+it, forming indistinct yet glittering patterns of icy wind — weapons
+from the very substance of air itself. Such insubstantial
+weapons are too unstable for melee combat, but
+they are eminently suited for ranged attacks.
+A wind weapon has a base damage and accuracy equal
+to the character's permanent Essence and a range equal to
+10 times this value. It is also possible to create more than
+one wind weapon at once, so long as the Essence cost is
+paid for each. The maximum number of weapons that can
+be created in a single turn with this Charm is equal to the
+character's permanent Essence.
+Once created, the wind weapon is thrown as a reflexive
+action, using the characters Dexterity + Thrown, plus
+the accuracy of the weapon and any appropriate modifiers
+for ranged attack. If multiple weapons are created, they
+are all thrown at once and can be thrown at one or at
+multiple targets. The wind weapons can't be handed to
+anyone else or used in melee combat. This Charm cannot
+be put in a Combo with Extra Action type Charms, If the
+character throws multiple wind weapons, each is thrown at
+his full dice pool.
+Wind Weapons have real substance for the Charm's
+short duration and can be used for purposes other than
+simple attacks. For instance, a wind knife can sever a rope
+or knock an item out of someone's hand as easily as any
+other thrown knife can.
+
+
+## Wind Armor Technique
+
+Cost: 1 mote per 1B/1L
+Duration: One scene per point of permanent Essence
+Type: Simple
+Minimum Thrown: 5
+Minimum Essence: 3
+Prerequisite Charms: Vengeful Gust Counterattack
+
+By further refining the control needed to form a
+Whirlwind Shield, the character learns to form invisible
+armor from the surrounding air. While a Whirlwind Shield
+only protects against ranged weapons, Wind Armor Technique
+forms a barrier to any assault upon the character.
+The Wind Armor has a 1B/1L soak rating for every
+mote of Essence committed to it and has no mobility
+penalty or fatigue value. Wind Armor appears as a cocoon
+of violently swirling winds surrounding the character
+invoking it. The maximum rating of this armor is the
+character's permanent Essence. This armor is fully com-
+patible with and additive to physical armor.
+Wind Armor Technique can also be used on others,
+but they cannot move farther than 5 x the Exalt's permanent
+Essence in yards away, or the effect immediately
+fades. The use of this Charm on others is at the normal
+price - one mote per 1L/1B of the armor — and must be
+spent for every target armored.
+
+
+## Crosswind Offense
+
+Cost: 1 mote per penalty cancelled
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 2
+Minimum Essence: 1
+Prerequisite Charms: Seeking Throw
+
+This is the first of what are collectively known as
+the Crosswind Techniques, a group of Charms predicated
+on emulating and channeling Essence in a
+manner similar to the Essence within the very wind,
+first taught centuries ago by their creator,
+&quot;Windtamer&quot; Cynis Mond. The eccentric innovator
+no longer teaches the Techniques he once claimed
+were mere by-products of his other studies of the
+Essence of the winds, but the collection of Charms is
+so widespread today that instruction is available
+practically anywhere.
+The Crosswind Offense is a technique by which a
+Terrestrial may imbue both weapon and throw with
+windlike Essence in order to guide the throw accurately
+in a wide arc instead of a straight line, with the
+purpose of bypassing a shield or cover with a lateral
+attack. This technique costs 1 mote of Essence per
+difficulty penalty due to shields or cover bypassed.
+
+
+## Crosswind Feint
+
+Cost: 3 motes
+Duration: Instant
+Type: Extra Action
+Minimum Thrown: 3
+Minimum Essence: 2
+Prerequisite Charms: Crosswind Offense
+
+&quot;One: As the wind shepherds a leaf, shepherd the
+target. Two: As the wind drives the rain, drive your
+weapon to the target.&quot; These are Windtamer's words
+on the subject of this Charm, often quoted by teachers
+of this technique. Activating this Charm, the Exalt
+uses a feinted attack to trick a target into dodging into
+a second attack, the true attack.
+To use this Charm, the attacking character
+splits his action into two actions. The player rolls
+one attack using his character's Manipulation +
+Thrown at -2 dice with a difficulty of 1. If this
+attack is successful, it does no damage, but instead,
+note the extra successes rolled on the attack. The
+second action is a normal Dexterity + Thrown
+attack at -3 dice. The extra successes on the first
+roll reduce the target's dice on any attempts to
+dodge the second throw.
+
+
+## Crosswind Gale
+
+Cost: 2 motes
+Duration: Instant
+Type: Simple
+Minimum Thrown: 3
+Minimum Essence: 2
+Prerequisite Charms: Crosswind Offense
+
+Learning to more fully emulate the Essence of
+wind, a Terrestrial with this Charm can throw her
+weapon with the terrible force of hurricanes, sending
+her target flying through the air.
+The attack is rolled normally, a successful hit
+does damage as usual and also knocks the target back
+(the attacker's Essence + attack successes) yards.
+This attack may be blocked and dodged as usual,
+though a block is only useful against the damage, not
+the knockback.
+
+
+## Crosswind Empowerment Technique
+
+Cost: Motes equal to base damage of the empowered weapon
+Duration: Instant
+Type: Simple
+Minimum Thrown: 2
+Minimum Essence: 2
+Prerequisite Charms: Crosswind Offense
+
+Using a more focused version of the principles
+behind the Crosswind Gale technique, a Dragon-Blood
+utilizing this Charm may imbue his thrown
+weapons with highly concentrated, windlike Essence.
+Weapons thus empowered are only vehicles for this
+pure force, which will find its way through even the
+smallest chink in the target's armor. Attacks made
+using this Charm are treated as piercing attacks, halving
+the target's lethal armor soak.

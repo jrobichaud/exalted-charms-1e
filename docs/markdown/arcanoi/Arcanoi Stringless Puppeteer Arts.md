@@ -1,0 +1,497 @@
+```mermaid
+
+flowchart TD
+
+    spirit_catching_eye_technique["<a class='internal-link' href='#Spirit-Catching Eye Technique'>Spirit-Catching Eye Technique</a>"]
+
+    soul_whispering_empathy_discipline["<a class='internal-link' href='#Soul-Whispering Empathy Discipline'>Soul-Whispering Empathy Discipline</a>"]
+    spirit_catching_eye_technique --> soul_whispering_empathy_discipline
+
+    skin_riding_prana["<a class='internal-link' href='#Skin-Riding Prana'>Skin-Riding Prana</a>"]
+    soul_whispering_empathy_discipline --> skin_riding_prana
+
+    six_demon_bag["<a class='internal-link' href='#Six Demon Bag'>Six Demon Bag</a>"]
+    spirit_catching_eye_technique --> six_demon_bag
+    skin_riding_prana --> six_demon_bag
+
+    mortal_shadowing_technique["<a class='internal-link' href='#Mortal-Shadowing Technique'>Mortal-Shadowing Technique</a>"]
+    soul_whispering_empathy_discipline ----> mortal_shadowing_technique
+
+    puppeteers_masterful_hand["<a class='internal-link' href='#Puppeteer's Masterful Hand'>Puppeteer's Masterful Hand</a>"]
+    mortal_shadowing_technique --> puppeteers_masterful_hand
+
+    nemissarys_ride["<a class='internal-link' href='#Nemissary's Ride'>Nemissary's Ride</a>"]
+    mortal_shadowing_technique --> nemissarys_ride
+
+    dead_fur_cloak_method["<a class='internal-link' href='#Dead Fur Cloak Method'>Dead Fur Cloak Method</a>"]
+    nemissarys_ride ----> dead_fur_cloak_method
+
+    subgraph Book of Bone and Ebony
+        intangible_guardian_presence["<a class='internal-link' href='#Intangible Guardian Presence'>Intangible Guardian Presence</a>"]
+
+        the_embalmers_art["<a class='internal-link' href='#The Embalmer's Art'>The Embalmer's Art</a>"]
+
+            instauration_of_the_fleshly_vessel["<a class='internal-link' href='#Instauration of the Fleshly Vessel'>Instauration of the Fleshly Vessel</a>"]
+
+        drive_the_necrotic_colossus["<a class='internal-link' href='#Drive the Necrotic Colossus'>Drive the Necrotic Colossus</a>"]
+    end
+    mortal_shadowing_technique --> intangible_guardian_presence
+    nemissarys_ride --> the_embalmers_art
+    the_embalmers_art --> instauration_of_the_fleshly_vessel
+    nemissarys_ride --> drive_the_necrotic_colossus
+
+```
+
+
+## Spirit-Catching Eye Technique
+
+Cost: 2 motes
+Duration: Instant
+Type: Simple
+Minimum Compassion: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Death sharpens a ghost's perceptions. Ghosts can see
+better than mortals, can spot flaws more easily and can
+pick out the living from the dead at great distances. Some
+ghosts, however, have acquired even better methods of
+perception, and Spirit-Catching Eye Technique is one of
+them. This power lets a ghost see other ghosts who might
+normally be hidden from the eye. Ghosts who possess
+mortals or travel inside the bodies of other ghosts may be
+able to hide from normal observers, but Spirit-Catching
+Eye Technique reveals them.
+When invoked, any ghosts or other spirits within view
+suddenly seem to glow with a pale white light. If the ghost
+is possessing a mortal, the ghost's face overlays the host's.
+If ghosts are traveling in another ghost's body, each is
+distinctly illuminated through the host's ectoplasmic flesh,
+which becomes transparent. The power lasts only an
+instant, and the ghost may or may not (reflexive Perception
++ Awareness roll, difficulty 2) be able to recognize the
+ghostly faces she sees hiding in mortal or unliving flesh.
+Those spotted by use of this power are not aware
+they've been noticed, unless the ghost doing the spotting
+gives the game away through a reaction of some sort.
+
+
+## Soul-Whispering Empathy Discipline
+
+Cost: 3 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Compassion: 1
+Minimum Essence: 1
+Prerequisite Charms: Spirit-Catching Eye Technique
+
+This technique allows a ghost to sense a target's
+surface thoughts and feelings, picking up the rough gist of
+what the target is thinking about, as well as any strong
+emotions he might be experiencing. While this power does
+not allow the ghost to go rummaging through a victim's
+subconscious, it does allow her to go &quot;along for the ride,&quot;
+as it were, and pick up knowledge pertaining to what the
+victim is doing at the moment. If the victim is reciting a
+password to pass an enchanted guardian, the ghost will
+hear it, but if the victim is trying on various pairs of shoes,
+it's highly unlikely the password will come to the surface of
+his mind.
+The use of Soul-Whispering Empathy Discipline first
+requires the acquisition of a target. The victim must be
+within sight of the ghost, though no physical contact is
+required. (Once psychic contact is made, the ghost no
+longer needs to maintain proximity.) After a target has
+been identified, the next step is a Manipulation + Awareness
+roll (difficulty equal to the target's Essence). Success
+on this roll allows the ghost to make contact. While
+contact is established, the ghost “hears” the target's
+thoughts. She does not see through his eyes or hear
+through his ears. However, the victim's thoughts are easily
+distinguishable from the ghost's own.
+Contact lasts for a single scene, though the ghost can
+extend it for another scene by spending a Willpower point.
+The ghost can continue to do this until she runs out of
+Willpower, if she so chooses. The victim does not know
+that his thoughts are being eavesdropped on, although
+Exalted and anyone with a Compassion of 3 or above may
+(Perception + Awareness, difficulty 1) have the distinct
+feeling he's being watched.
+Contact with the target is broken at the end of the
+scene, if the target is killed or rendered unconscious or if
+the ghost doing the eavesdropping is wounded or otherwise
+distracted (including any expenditure of Willpower
+for any other reason than to extend this Charm). This
+Arcanos works on ghosts as well as mortals.
+
+
+## Skin-Riding Prana
+
+Cost: 6 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Compassion: 1
+Minimum Essence: 2
+Prerequisite Charms: Soul-Whispering Empathy Discipline
+
+Skin-Riding Prana builds upon the base established
+by Soul-Whispering Empathy Discipline. However, in
+addition to allowing a ghost to simply skim the surface of
+the target's mind, he can now make full use of the target's
+senses. He can see through the victim's eyes, hear through
+her ears and even catch the scent of whatever the target
+sniffs.
+While Skin-Riding Prana is active, the input from the
+target overlays what the ghost himself sees and hears in a
+distant, transparent fashion. If the ghost concentrates, he
+can easily make out what the target is seeing and hearing.
+If there are distractions around the character, paying
+attention to both sensory inputs requires a Willpower roll,
+difficulty 1. Many practitioners of this power prefer to
+retreat to specially prepared chambers or tents if they can
+once contact has been established, the better to protect
+themselves from any outside input.
+Other than the obvious, Skin-Riding Prana functions
+in the same way as does Soul-Whispering Empathy Discipline.
+The victim must be within sight of the ghost, though
+no touch is required. After a target has been identified, the
+next step is a Manipulation + Awareness roll (difficulty
+equal to the target's Essence). Success on this roll allows
+the ghost to make contact, and once psychic contact is
+made, the ghost no longer needs to maintain proximity.
+This Arcanos works on ghosts as well as mortals.
+
+
+## Six Demon Bag
+
+Cost: 5 motes, 1 Willpower to create; 3 motes to eject
+Duration: One day
+Type: Simple
+Minimum Compassion: 2
+Minimum Essence: 1
+Prerequisite Charms: Spirit-Catching Eye Technique, Skin-Riding Prana
+
+A Six Demon Bag is a boon to ghostly smugglers,
+assassins and couriers of all persuasions. It is equally the
+bane of border patrols, bodyguards and customs agents.
+This power allows a ghost to create a hollow within
+herself in which she can store small items without a hint
+of evidence.
+When using a Six Demon Bag, the ghost tears open a
+gap in her flesh and inserts the item to be carried there —
+be it cash, a dagger, a scroll or anything else inert and up
+to one cubic foot in area — into the hollow thus created.
+The ghost's flesh is then sealed up around it, and the item
+rests more or less comfortably within the ghost herself.
+Experienced couriers know to sheathe weapons and the
+like, lest a smuggled knife cut its way out during a particularly
+energetic moment.
+The mechanical effect of this Charm is to add +4
+difficulty to a searching character's player's Perception +
+Awareness roll when contesting the Wits + Larceny roll
+the smuggler's player makes to conceal an object. Removing
+the object from the Six Demon Bag costs an
+additional 3 motes of Essence. The ghost can eject the
+item from her body at any time, or she can wait for the
+Arcanos to expire, at which point the item pops out on
+its own. The item can be cut out of the ghost in question
+as well. This doesn't cost the additional 3 motes, but it
+does inflict damage on the ghost — three health levels of
+unsoakable lethal damage. Items carried in a Six Demon
+Bag do show up when the ghost is viewed with Spirit-
+Catching Eye Technique. This negates the Charm's
+bonus, but the ghost's player can still make a Wits +
+Larceny roll for the ghost to shield the compartment.
+
+
+## Mortal-Shadowing Technique
+
+Cost: 7 motes, 1 Willpower
+Duration: One hour
+Type: Supplemental
+Minimum Compassion: 2
+Minimum Essence: 1
+Prerequisite Charms: Soul-Whispering Empathy Discipline
+
+Mortal-Shadowing Technique is the next step on the
+road to possession. A ghost using Mortal-Shadowing Technique
+can literally meld into a mortal's body, journeying
+with him and experiencing all that he experiences. This
+includes everything from ecstasy to death, though the
+latter forces the ghost out of the host's body.
+Activation of this power requires, first of all, finding
+a target. Once the ghost has a target, she has merely to
+touch him or make an unarmed Brawl or Martial Arts
+attack that need do no damage. Her player then makes a
+Dexterity + Awareness roll, with a difficulty equal to the
+target's permanent Essence. If the roll is successful, the
+ghost sinks into the flesh of her host and will journey with
+him wherever he goes and whatever he does.
+The host is unaware of the ghost unless she breaks her
+silence or otherwise gives herself away, but once he is aware,
+he can spend a Willpower point for his player to make a
+contested Willpower roll against the ghost. If the ghost
+loses, she is ejected from the body. If not, she remains.
+If the host is killed, the ghost is immediately forced
+out of the body. Note that while using Mortal-Shadowing
+Technique, the ghost cannot control or otherwise affect
+the body that she is &quot;possessing.&quot; She is merely a passenger,
+albeit an awake and aware one. Interestingly enough, any
+damage done to the host body manifests as bashing damage
+on the ghost.
+Spending an additional Willpower point extends the
+effect for a day. More than one ghost at a time can use
+Mortal-Shadowing Technique, but if one extends control
+to the level of Puppeteer's Masterful Hand, the rest are
+ejected instantly, with the host none the wiser.
+
+
+## Puppeteer's Masterful Hand
+
+Cost: 7 motes, 2 Willpower
+Duration: One hour
+Type: Supplemental
+Minimum Compassion: 3
+Minimum Essence: 2
+Prerequisite Charms: Mortal-Shadowing Technique
+
+Unlike Mortal Shadowing Technique, this Arcanos
+allows for true possession. Once in command of the
+mortal body, the ghost truly controls it. She can use any
+of the body's Attributes and Abilities, but she is not privy
+to the host's secrets or knowledge. If the victim is Exalted,
+she can use all his attunements and automatic
+effects, and any reflexive effects the Exalt activates to
+preserve his frame, but the ghost has no access to the
+Exalt's Charms. The ghost can also use her Arcanoi,
+including those involving effects to the ghost's body such
+as Ghost-Devil Form. Any transformation and reshaping
+lapses the instant the ghost departs the victim's frame.
+The puppeteer uses her own Essence and not the host's to
+power any Arcanoi she activates.
+Puppeteer's Masterful Hand requires a Dexterity +
+Compassion roll with a difficulty equal to twice the target's
+permanent Essence. The possessing ghost may extend the
+effects of this Charm for an additional hour by expending
+1 Willpower per hour, but her player must succeed at the
+possession roll again each time the duration is extended.
+During the possession, the body's native intelligence is
+removed from authority and has no awareness of what his
+body does while it is possessed unless the ghost wants to let
+him watch. Needless to say, this can produce some awkward
+situations, as the ghost is under no obligation to leave
+the host in better shape than she found him.
+If so possessed, the reflexive Charms of one of the
+Exalted continue to defend his body. The Exalt's player
+should decide intelligently what reflexives activate when,
+but the consciousness of the Exalt is not making the
+decisions, the player is just portraying the character's
+supernatural combat training.
+
+
+## Nemissary's Ride
+
+Cost: 5 motes, 1 Willpower (+ 1 experience point)
+Duration: One day
+Type: Simple
+Minimum Compassion: 2
+Minimum Essence: 2
+Prerequisite Charms: Mortal-Shadowing Technique
+
+This Arcanos allows a ghost to acquire a host more
+pliable and convenient than a living human. Instead of a
+living host, he possesses a corpse and manipulates its dead
+flesh as a ghost using Puppeteer's Masterful Hand manipulates
+the living. Because there is no resistance, the
+character's player need only succeed in a difficulty 1
+Strength + Compassion roll for the ghost to inhabit the
+corpse. The only limitation is that the magic animating
+the body isn't strong enough to hold disarticulated bones
+together, so there must be enough flesh remaining to
+actually move the corpse.
+A ghost using this Charm may extend the duration by
+paying the activation cost again. His player may spend an
+experience point to make the possession permanent. This
+locks the ghost in the body, free of charge, until he chooses
+to leave. When he abandons it, it can never be inhabited
+again. As a corpse will decay to the point of uselessness in
+just a few weeks, most nemissaries are very hard on permanently
+possessed bodies. Ghosts who know this Arcanos
+and have access to their own corpse can possess it permanently
+without the cost of an experience point.
+
+
+## Dead Fur Cloak Method
+
+Cost: 6 motes, 1 Willpower
+Duration: Indefinite
+Type: Simple
+Minimum Compassion: 3
+Minimum Essence: 2
+Prerequisite Charms: Nemissary's Ride
+
+The possession of the human form is easiest for the
+dead, as they were themselves once human. Yet, with
+refinement of their skills, the dead can also possess animals
+as well. This Arcanos allows a ghost to possess the corpse
+of any beast no larger than a wolf. It is most typically used
+on raitons, because they mummify naturally and can be
+made to fly even when long dead. The Deathlords use
+veritable legions of such spies. When in possession of an
+animal's body, the ghost has all of its Physical Attributes
+but otherwise uses his own Traits. As with Nemissary's
+Ride, the character's player need only make a difficulty 1
+Strength + Compassion roll to effect the possession.
+
+
+## Intangible Guardian Presence
+
+Cost: None
+Duration: Permanent
+Type: Special
+Minimum Compassion: 2
+Minimum Essence: 3
+Prerequisite Charms: Mortal-Shadowing Technique
+
+This Arcanos is a type of Ox-Body Charm that works
+only on vessels the ghost is riding or possessing. While it
+doesn't add anything to the ghost's health levels, it dramatically
+fortifies all vessels she is skinriding using
+Mortal-Shadowing Technique, Nemissary's Ride or subsequent
+Arcanoi in the tree. Some ghosts skinride mortal
+descendants to protect them in battle, while others augment
+possessed corpses to increase their own battlefield prowess.
+When a ghost departs the vessel she was riding, the extra
+health levels are crossed off, whether they held damage or
+not. Each purchase imparts one -0 and one -1 health level
+on the ghost's vessel. A ghost can buy this Charm as many
+times as she has dots in her Compassion rating. Storytellers
+should note that a ghost's own Ox-Body Technique does
+not fortify hosts, only her own plasm.
+This Arcanos is particularly helpful when the ghost is
+riding a smaller animal, such as a raiton, which usually has
+far fewer health levels than a human being.
+
+
+## The Embalmer's Art
+
+Cost: 15 motes (committed), 2 Willpower
+Duration: Indefinite
+Type: Simple
+Minimum Compassion: 2
+Minimum Essence: 3
+Prerequisite Charms: Nemissary's Ride
+
+With this Arcanos, a nemissary refines her ability to
+possess and animate dead flesh. She may automatically
+commandeer a corpse as if using Nemissary's Ride (see
+Exalted: The Abyssals, p. 250) but requires no roll to do
+so. Such possession lasts until the ghost withdraws the
+Essence committed to the Arcanos. Finally, a body possessed
+using the Embalmer's Art does not decay. Any
+existing decay from prior to possession remains, and the
+body resumes decomposing normally if the ghost leaves it.
+Furthermore, the nemissary may fortify the vessel it's
+riding with Essence. For every 4 additional motes of
+Essence the ghost commits to the vessel, it gains a -2 health
+level. The ghost can impart up to its Compassion rating in
+additional health levels on a vessel this way.
+Nemissaries wanting to develop their powers even
+further can purchase a superior version of this Arcanos
+called the Embalmer's Enduring Triumph. This Arcanos
+functions exactly as The Embalmer's Art, but requires
+Compassion •••, Essence •••• and the Embalmer's Art
+as a prerequisite. However, the Embalmer's Enduring
+Triumph costs only 10 motes and 1 Willpower to activate
+and 2 motes per -1 health level, and the Willpower cost is
+waived if the ghost is in a shadowland.
+
+
+## Instauration of the Fleshly Vessel
+
+Cost: Varies
+Duration: Instant
+Type: Reflexive
+Minimum Compassion: 3
+Minimum Essence: 4
+Prerequisite Charms: The Embalmer's Art
+
+Among the most powerful — and sometimes most
+painful — Arcanoi used by nemissaries, Instauration of the
+Fleshly Vessel allows a ghost to repair damage to a body she
+is possessing, whether that damage was caused by rot or
+combat. Many ghosts dislike this Arcanos because of the pain
+it causes them, but it provides the nemissary with options for
+keeping a war body useful well beyond its usual duration.
+The first technique in this Arcanos repairs rotting
+damage. Every 4 motes of Essence the ghost channels into
+this Charm undoes all rotting damage sustained over the
+course of a single day. In most climates, an unprotected
+corpse will last from six to eight weeks before it becomes
+structurally compromised. At that point, the vessel loses
+two permanent health levels per day until it reaches zero
+health levels, at which point it is little more than a jumble
+of bones and necrotic goo.
+A nemissary using this Arcanos can take control of a
+vessel that may have gone untended a bit too long and
+render it more habitable. Bodies rot at a different rate
+depending on the climate. In the extreme North and
+South, bodies are mummified by the cold or arid climates
+and last for several months before ceasing to function. In
+warm, humid climes, a corpse may last only a couple of
+weeks before falling into a putrescent gray mass, and a
+nemissary may need to use this Arcanos frequently to keep
+her vessel intact. The Storyteller determines how often
+this Arcanos needs to be used on a body to keep it in good
+repair. Repeated uses of this Charm on even extremely
+decayed flesh can, eventually, result in a body that looks as
+though it's only moments past its final breath. Once the
+ghost has repaired a possessed body with this Arcanos, she
+may use the Embalmer's Art to preserve the corpse's
+improved state indefinitely.
+The other use of this Charm heals damage taken by
+the nemissary's vessel, but at the expense of her corpus. For
+1 mote of Essence per health level, the nemissary bleeds
+her own integrity into the vessel to restore it. She suffers
+one unsoakable level of damage per level regenerated, with
+the type of damage appropriate to the type healed. She may
+heal bashing or lethal injuries in any order. Ghosts with
+the Ox-Body Technique Arcanos (a Conviction Arcanos
+with no Prerequisites and an Essence and Conviction
+minimum of 1 that gives two -2 levels per purchase, up to
+a limit of the ghost's Conviction rating — see the Exalted
+Players Guide, pp. 83-84) are far more capable of using
+this Charm than other ghosts.
+This Charm cannot heal damage caused by fire, aggra-
+vated sources or magic specifically designed to inflict
+deleterious effects on the undead (such as that caused by
+the Zeniths' anima flare or the Charms Solar Spike or
+Blazing Solar Bolt).
+
+
+## Drive the Necrotic Colossus
+
+Cost: 10 motes, 1 Willpower, 1 experience point
+Duration: One day
+Type: Simple
+Minimum Compassion: 2
+Minimum Essence: 4
+Prerequisite Charms: Nemissary's Ride
+
+Nemissary's Ride allows a ghost to possess and ani-
+mate a shell as large as a very large (eight feet tall, 400
+pound) human. To animate corpses larger than that (or
+the multiple connected corpses of some necromantic war
+machines), the ghost must know Drive the Necrotic Co-
+lossus. This Charm allows ghosts to animate the bodies of
+even the largest natural animals and war machines up to
+the size of a large temple. If the shell to be animated is larger
+than that (as the largest war machines and behemoth
+corpses are), then multiple nemissaries must work in
+concert to animate it.
+Once the player spends the experience point, the
+character no longer has to commit Essence to the Charm.
+At that point, the nemissary stays inside the war machine
+she's “piloting” until she decides to leave.
+The 30 nemissaries that propel Mask of Winter's
+Juggernaut do so through the use of this Charm.

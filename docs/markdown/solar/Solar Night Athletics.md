@@ -1,0 +1,489 @@
+```mermaid
+
+flowchart TD
+
+    graceful_crane_stance["<a class='internal-link' href='#Graceful Crane Stance'>Graceful Crane Stance</a>"]
+
+    monkey_leap_technique["<a class='internal-link' href='#Monkey Leap Technique'>Monkey Leap Technique</a>"]
+    graceful_crane_stance --> monkey_leap_technique
+
+    thunderbolt_attack_prana["<a class='internal-link' href='#Thunderbolt Attack Prana'>Thunderbolt Attack Prana</a>"]
+
+    lightning_speed["<a class='internal-link' href='#Lightning Speed'>Lightning Speed</a>"]
+    graceful_crane_stance --> lightning_speed
+
+    spider_foot_style["<a class='internal-link' href='#Spider-Foot Style'>Spider-Foot Style</a>"]
+    lightning_speed ----> spider_foot_style
+
+    feather_foot_style["<a class='internal-link' href='#Feather-Foot Style'>Feather-Foot Style</a>"]
+    lightning_speed --> feather_foot_style
+
+    ten_ox_meditation["<a class='internal-link' href='#Ten-Ox Meditation'>Ten-Ox Meditation</a>"]
+    thunders_might --> ten_ox_meditation
+
+    leaping_tiger_attack["<a class='internal-link' href='#Leaping Tiger Attack'>Leaping Tiger Attack</a>"]
+    lightning_speed --> leaping_tiger_attack
+
+    racing_hare_method["<a class='internal-link' href='#Racing Hare Method'>Racing Hare Method</a>"]
+    monkey_leap_technique --> racing_hare_method
+    spider_foot_style --> racing_hare_method
+
+    increasing_strength_exercise["<a class='internal-link' href='#Increasing Strength Exercise'>Increasing Strength<br>Exercise</a>"]
+
+    thunders_might["<a class='internal-link' href='#Thunder's Might'>Thunder's Might</a>"]
+    increasing_strength_exercise --> thunders_might
+
+    subgraph Castebook Night
+        fish_swimming_technique["<a class='internal-link' href='#Fish Swimming Technique'>Fish Swimming Technique</a>"]
+        swift_water_prana["<a class='internal-link' href='#Swift Water Prana'>Swift Water Prana</a>"]
+
+        foe_vaulting_style["<a class='internal-link' href='#Foe-Vaulting Style'>Foe-Vaulting Style</a>"]
+
+        soaring_crane_leap["<a class='internal-link' href='#Soaring Crane Leap'>Soaring Crane Leap</a>"]
+
+        mountain_crossing_leap_technique["<a class='internal-link' href='#Mountain Crossing Leap Technique'>Mountain-Crossing Leap Technique</a>"]
+
+        cloud_foot_style["<a class='internal-link' href='#Cloud-Foot Style'>Cloud-Foot Style</a>"]
+
+        eagle_wing_style["<a class='internal-link' href='#Eagle-Wing Style'>Eagle-Wing Style</a>"]
+    end
+
+    fish_swimming_technique --> swift_water_prana
+    monkey_leap_technique --> foe_vaulting_style
+    monkey_leap_technique ----> soaring_crane_leap
+    soaring_crane_leap --> mountain_crossing_leap_technique
+    spider_foot_style --> cloud_foot_style
+    feather_foot_style --> cloud_foot_style
+    spider_foot_style --> eagle_wing_style
+    feather_foot_style ---> eagle_wing_style
+    monkey_leap_technique ------> thunderbolt_attack_prana
+
+```
+
+
+## Graceful Crane Stance
+
+Cost: 3 motes
+Duration: 1 Scene
+Type: Reflexive
+Minimum Athletics: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Through the use of this Charm, the Exalted channels
+Essence through his body, making it extraordinarily limber, deft
+and light. For the remainder of the scene, the character has near-perfect
+balance and can stand on things far too narrow and weak
+to normally support him (the tips of pine trees, horizontal
+flagpoles, roof gables and so forth) with no fear of falling or
+breaking the object. The Storyteller may wish to call for Athletics
+rolls in the most extraordinary of circumstances (the character is
+leaping from branch to branch on a moonless night in a
+snowstorm), but generally, the character can run along even the
+narrowest ledges orstand on the flimsiest perches with no worries.
+
+
+## Monkey Leap Technique
+
+Cost: 1 mote
+Duration: One Turn
+Type: Reflexive
+Minimum Athletics: 1
+Minimum Essence: 1
+Prerequisite Charms: Graceful Crane Stance
+
+The character leaps with the grace of a flying crane and
+the speed of a striking hawk. Rather than make her normal
+movement action, the character may make a leap of up to her
+Strength x 10 feet vertically or twice that distance horizontally.
+The character can attack during the round she performs
+Monkey Leap Technique, but gains no special bonuses.
+
+
+## Thunderbolt Attack Prana
+
+Cost: 5 motes, 1 Willpower
+Duration: Instant
+Type: Supplemental
+Minimum Athletics: 3
+Minimum Essence: 2
+Prerequisite Charms: Monkey Leap Technique
+
+The character leaps high into the air, swinging his
+weapon (or fist or feet) in a brilliant Essence-laden arc. The
+character makes an attack as normal, but the amount of
+damage he inflicts is doubled after it is rolled. Characters
+cannot move during a turn when they use Thunderbolt
+Attack Prana, which effectively rules out the use of Thunderbolt
+Attack Prana and Leaping Tiger Attack as part of the
+same Combo. Thunderbolt Attack Prana is explicitly permitted
+to be part of a Combo with Charms of other Abilities.
+
+
+## Lightning Speed
+
+Cost: 1 mote
+Duration: One Turn
+Type: Reflexive
+Minimum Athletics: 2
+Minimum Essence: 1
+Prerequisite Charms: Graceful Crane Stance
+
+The character becomes a blur of motion, Essence
+leaking from her anima in fine streaks, as she flashes from
+point to point almost faster than the eye can follow. The
+character may double her sprinting distance for the turn and
+has no chance of becoming winded from the exertion, as she
+is relying on her Essence, not her merely human endurance.
+
+
+## Spider-Foot Style
+
+Cost: 2 motes
+Duration: Instant
+Type: Reflexive
+Minimum Athletics: 3
+Minimum Essence: 2
+Prerequisite Charms: Lightning Speed
+
+When using this Charm, the character's speed and
+balance become so heightened that she can perform acts of
+truly supernatural athleticism. Not only may she run
+without fear across even the most uneven of surfaces, she
+may scuttle up even the sheerest vertical surfaces or even
+dash upside down across horizontal surfaces such as ceilings
+or the undersides of tree limbs. This not only allows
+the Exalted to circumvent many obstacles, it also allows
+her to bypass shields or move behind enemies. Storytellers
+should assign bonuses as appropriate.
+If the character is in a position she could not naturally hold
+(fighting while standing upside down on a ceiling, for example)
+and fails to spend Essence on Spider-Foot Style during a turn,
+she becomes subject to the normal forces of gravity and inertia
+again and may be seriously injured in the resulting fall.
+
+
+## Feather-Foot Style
+
+Cost: 3 motes
+Duration: Instant
+Type: Reflexive
+Minimum Athletics: 4
+Minimum Essence: 2
+Prerequisite Charms: Lightning Speed
+
+The Exalted lightens her footfalls with Essence and spreads
+her weight, allowing her to walk or run across fluid surfaces such as
+water, quicksand, loose sand, acid, lava, lakes of writhing maggots
+and the like. The character may traverse such surfaces just as if they
+were solid earth during a turn in which she uses this Charm. Note
+that the bottom of the character's feet are still touching the
+material, so barefoot or lightly shod characters running across acid
+or lava or man-eating maggots are still risking serious injury.
+As with Spider-Foot Style, if the character fails to spend
+Essence on this Charm during a turn in which she is standing
+on a fluid, she becomes subject to the normal laws of gravity and
+buoyancy. All but the most lightly burdened character will risk
+death by drowning (or worse, in the case of more exotic fluids).
+
+
+## Ten-Ox Meditation
+
+Cost: 1 mote per 2 points
+Duration: Instant
+Type: Supplemental
+Minimum Athletics: 5
+Minimum Essence: 3
+Prerequisite Charms: Thunder's Might
+
+By burning vast quantities of Essence, a character can
+increase his physical might greatly for a few moments. For
+every mote of Essence the character spends on this Charm,
+he can increase his Strength + Athletics by 2 for the
+purposes of a single attempt to lift or break something. If it
+is used to aid a character in a hand-to-hand attack to break
+or destroy an object, each mote spent adds two to the raw
+damage of the attack. A character cannot burn more motes
+of Essence powering this Charm than he has points of
+permanent Willpower. Ten Ox Meditation does not increase
+the damage of a character's attacks against animate
+beings, though it can cause indirect damage. For example,
+if the character pulls down the main pillars of a temple,
+those inside will probably be killed or injured.
+
+
+## Leaping Tiger Attack
+
+Cost: 3 motes, 1 Willpower
+Duration: Instant
+Type: Supplemental
+Minimum Athletics: 4
+Minimum Essence: 2
+Prerequisite Charms: Lightning Speed
+
+The character flashes toward his opponent, attacking
+as he blurs past her. The character makes the attack as
+normal, but the amount of damage he does is doubled after
+soak but before damage is rolled.
+The character can move up to his normal sprinting distance
+without penalty in the turn he launches the Leaping Tiger Attack.
+The character need not move this far — the attack needs only a
+yard or so - but the character cannot be bound or otherwise
+unable to move when he launches the attack. This means that
+Thunderbolt Attack Prana and Leaping Tiger Attack cannot be
+part of the same Combo. Leaping Tiger Attack is explicitly
+permitted to be part of a Combo with Charms of other Abilities.
+
+
+## Racing Hare Method
+
+Cost: 5 motes, 1 Willpower
+Duration: One hour
+Type: Simple
+Minimum Athletics: 5
+Minimum Essence: 2
+Prerequisite Charms: Monkey Leap Technique, Spider-Foot Style
+
+The character attunes himself to his own Essence and
+that of the world around him and moves as though in a
+waking dream. He travels in great, graceful leaps, over the
+ground, off roofpeaks, from tree limb to tree limb. Moving
+in this fashion, the character can traverse a number of
+miles per hour equal to his (Stamina + Essence) × 10.
+This state is trancelike and ends if the character stops
+for any reason. Likewise, the character is not preternaturally
+aware of his location, and his perceptions of the world
+beyond the next leap are often hazy, at best. He will notice
+only the most urgent stimuli (very large landmarks, hordes
+of hobgoblins ambushing him) and can easily become lost
+when traveling through areas he is unfamiliar with.
+
+
+## Increasing Strength Exercise
+
+Cost: 3 motes per dot
+Duration: One scene
+Type: Simple
+Minimum Athletics: 3
+Minimum Essence: 2
+Prerequisite Charms: None
+
+This Charm allows a character to increase her Strength
+tremendously for short periods of time. For every 3 motes
+of Essence the character spends, her Strength increases by
+1. A character cannot increase her Strength by more than
+her Essence rating through the use of this Charm. The
+Strength lent by this Charm increases the damage of the
+character's attacks, just as if it were normal Strength.
+
+
+## Thunder's Might
+
+Cost: 2 motes per point
+Duration: One scene
+Type: Simple
+Minimum Athletics: 4
+Minimum Essence: 2
+Prerequisite Charms: Increasing Strength Exercise
+
+Through the use of this Charm, the character can
+increase his Strength even further. For every 2 motes of
+Essence the character spends, he may increase his Strength
++ Athletics by one for the purposes of lifting and breaking
+objects. The character can no more than double his regular
+Strength + Athletics pool through the use of this Charm -
+keep in mind that the Charm Increasing Strength Exercise
+counts as a bonus, and thus, its bonus cannot be doubled
+through the use of this Charm. If the character makes an
+attack with the intent of destroying an inanimate object,
+each point adds one to the character's raw damage. This
+Charm does not increase the amount of damage the charac-
+ter does in combat.
+
+
+## Fish Swimming Technique
+
+Cost: 3 motes
+Duration: One day
+Type: Simple
+Minimum Athletics: 2
+Minimum Essence: 2
+Prerequisite Charms: None
+
+This Charm allows the character to swim almost as
+well as a fish. While he still needs to breathe normally and
+cannot swim in armor, he can swim at his normal movement
+rate and never needs to worry about drowning in
+relatively calm water. This Charm reduces the difficulty
+of all Athletics rolls related to swimming by 1 (to a
+minimum of 1).
+
+
+## Swift Water Prana
+
+Cost: 6 motes
+Duration: One hour
+Type: Simple
+Minimum Athletics: 3
+Minimum Essence: 2
+Prerequisite Charms: Fish Swimming Technique
+
+The Character can now swim at twice her movement
+rate if unarmored and at her normal movement rate if
+wearing no more than light armor. In addition, she swims
+underwater easily and can hold her breath for up to
+Stamina x 10 minutes - each success on a Stamina +
+Resistance roll extends this time by 10 minutes. She can
+swim in the worst seas without risk of drowning, and her
+player need never make Athletics rolls for the character
+to stay afloat. Although the character cannot swim if
+wearing anything heavier than light armor, she can still
+walk along the bottom while holding her breath. This
+Charm reduces the difficulty of all Athletics rolls related
+to swimming by 3 (to a minimum of 1).
+
+
+## Foe-Vaulting Style
+
+Cost: 3 motes
+Duration: Instant
+Type: Supplemental
+Minimum Athletics: 3
+Minimum Essence: 2
+Prerequisite Charms: Monkey Leap Technique
+
+As a part of any attack, the character may vault over
+the head of any foe she is facing. At the end of this vault,
+the character lands behind the foe and may attack this
+opponent from behind. This attack does no additional
+damage, but it gains all of the benefits of attacking from
+behind (see Exalted, p. 238). Normally, this Charm can
+only be used once on a given foe — enemies who are
+expecting this maneuver can pivot around rapidly enough
+to parry or dodge attacks. However, against the unsuspecting,
+this is often a devastating technique.
+
+
+## Soaring Crane Leap
+
+Cost: 2 motes
+Duration: One turn
+Type: Reflexive
+Minimum Athletics: 4
+Minimum Essence: 2
+Prerequisite Charms: Monkey Leap Technique
+Supported by both air and Essence, the character can
+almost fly, leaping vast distances in a single fantastic
+bound. Rather than making an ordinary movement action,
+she can leap (Strength + Athletics) x TO yards.
+vertically or twice this distance horizontally, The character
+can attack and perform other actions in the same turn
+that she performs Soaring Crane Leap but gains no special
+bonuses to these actions. If desired, this Charm can be
+used to leap down from great heights, effectively making
+the character almost immune to falling damage.
+
+
+## Mountain Crossing Leap Technique
+
+Cost: 10 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Athletics: 5
+Minimum Essence: 4
+Prerequisite Charms: Soaring Crane Leap
+
+This Charm allows the character to leap long distances
+in a single bound, which takes the remainder of
+the scene (or about five minutes in real time). The
+character can cover a distance of five miles per point of
+permanent Essence. If he does not know his destination,
+his player may be required to make a successful reflexive
+Dexterity + Athletics roll on the Exalt's landing or have
+him tumble and potentially take up to three dice of
+bashing damage. The character may take no other ac-
+tions except to parry and counterattack during the scene
+he's leaping. If the character can fly or otherwise navi-
+gate through air, doing so immediately ends this Charm's
+effect and leaves the character dependent on whatever
+means of locomotion he activated. A character can
+reach a height of several miles at the apex of the leap, so
+flight effects of short duration are suicidal unless the
+character can survive such a long fall.
+
+
+## Cloud-Foot Style
+
+Cost: 5 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Athletics: 5
+Minimum Essence: 2
+Prerequisite Charms: Spider-Foot Style, Feather-Foot Style
+
+Through the use of this Charm, the Exalt can obtain
+the effects of Spider-Foot Style and Feather-Foot Style for
+the remainder of the scene, allowing her to walk up
+horizontal surfaces, across ceilings and also over fluid
+surfaces such as water. The Exalt may stop, stand, kneel of
+otherwise do whatever she wishes - the effects will not
+end until she-wishes for the Charm to dissipate or the
+scene changes.
+
+
+## Eagle-Wing Style
+
+Cost: 4 motes, 1 Willpower
+Duration: One Scene
+Type: Simple
+Minimum Athletics: 5
+Minimum Essence: 3
+Prerequisite Charms: Spider-Foot Style, Feather-Foot Style
+
+The character can focus her Essence to actually
+repel the ground — she leaps and will continue to move
+through the air for the rest of the scene. The character
+moves with a speed up to triple her sprinting distance per
+turn. She can effectively fly like a bird, but she must keep
+moving at no less than half her sprinting distance every
+turn, or she will have to land and end the Charm.
+Though she can &quot;climb&quot; higher obstacles such as walls
+and cliffs by zooming along the vertical surface, a character
+flying with this Charm cannot naturally maintain
+an altitude higher above the ground (or whatever flat,
+stable surface lies below her) than three times her
+normal vertical leaping distance - so, no more than 3
+x her Strength + Athletics in yards.
+To direct the flows of Essence, the character must
+keep one arm extended out in front of her. As a result, she
+cannot use bows or any other two handed weapons while
+flying. However, she may use thrown weapons, fight
+unarmed or wield one-handed hand-to-hand weapons
+normally, regardless of how fast she is moving. The
+character can engage in aerial duels with opponents
+capable of taking to the air, or she can hut thrown
+weapons at foes on the ground or swoop down and strike
+them as she flies past.
+Flying characters may be attacked only by ranged
+attacks, by other flying or leaping characters or on the
+initiative count when they attack someone on the
+ground. Keep in mind that any foe who rolled a higher
+initiative can delay his action and attack the character
+as she swoops by. People other than the character's
+target who attempt to strike the Exalt as she swoops in
+for the attack do so at - 3 dice (due to the Exalt's speed),
+unless they are using long weapons such as spears or
+poleaxes. In such cases, the penalty is reduced to -1.
+The Exalt's target can attack the Exalt normally and
+without penalty, but only during the initiative count in
+which he, the target, is attacked. Otherwise, he must
+use some sort of ranged attack.
+
+Eagle-Wing Style Travel Speeds
+Dexterity Speed in MPH
+1         47
+2         53
+3         59
+4         65
+5         71
+6         77

@@ -1,0 +1,463 @@
+```mermaid
+
+flowchart TD
+
+    language_learning_ritual["<a class='internal-link' href='#Language-Learning Ritual'>Language-Learning<br>Ritual</a>"]
+
+    thousand_tongues_meditation["<a class='internal-link' href='#Thousand Tongues Meditation'>Thousand Tongues<br>Meditation</a>"]
+    language_learning_ritual --> thousand_tongues_meditation
+
+    poisoned_tongue_technique["<a class='internal-link' href='#Poisoned Tongue Technique'>Poisoned Tongue<br>Technique</a>"]
+    thousand_tongues_meditation --> poisoned_tongue_technique
+
+    voice_of_mastery["<a class='internal-link' href='#Voice of Mastery'>Voice of Mastery</a>"]
+    poisoned_tongue_technique --> voice_of_mastery
+
+    wind_carried_words_technique["<a class='internal-link' href='#Wind-Carried Words Technique'>Wind-Carried<br>Words Technique</a>"]
+
+    voices_on_the_wind["<a class='internal-link' href='#Voices on the Wind'>Voices on the<br>Wind</a>"]
+    wind_carried_words_technique --> voices_on_the_wind
+
+    with_one_mind["<a class='internal-link' href='#With One Mind'>With One Mind</a>"]
+    voices_on_the_wind ---> with_one_mind
+    voice_of_mastery --> with_one_mind
+
+    subgraph Aspect Book - Air
+        cipher_missive["<a class='internal-link' href='#Cipher Missive'>Cipher Missive</a>"]
+
+            craft_icon["<a class='internal-link' href='#Craft Icon'>Craft Icon</a>"]
+
+        speech_without_words["<a class='internal-link' href='#Speech Without Words'>Speech Without<br>Words</a>"]
+
+        favored_quill_mastery["<a class='internal-link' href='#Favored Quill Mastery'>Favored Quill<br>Mastery</a>"]
+    end
+    language_learning_ritual --> cipher_missive
+    cipher_missive --> craft_icon
+    cipher_missive ---> speech_without_words
+    voices_on_the_wind --> speech_without_words
+
+    subgraph The Outcaste
+        subtle_comprehension_technique["<a class='internal-link' href='#Subtle Comprehension Technique'>Subtle Comprehension<br>Technique</a>"]
+    end
+
+    subgraph lore[Lore Charms]
+        direction TB
+        elemental_concentration_trance["<a class='internal-link' href='#Elemental Concentration Trance'>Elemental<br>Concentration Trance</a>"]
+    end
+
+    language_learning_ritual --> subtle_comprehension_technique
+    elemental_concentration_trance --> subtle_comprehension_technique
+
+```
+
+
+## Language-Learning Ritual
+
+Cost: 5 motes, 1 Willpower
+Duration: One week
+Type: Simple
+Minimum Linguistics: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Dragon-Blooded embarking on diplomatic missions
+often invoke this Charm. By spending an hour meditating
+and listening to a native speak the language to be learned,
+the Exalt absorbs the knowledge of the language into her
+mind. The character needs some sort of focus to meditate
+on, usually a cultural object related to or a book written in
+the language to be learned. For the Charm's duration, the
+Dragon-Blooded is completely fluent and naturally conversant
+in the language, without even a trace of an accent.
+The character may also read and write the language. Once
+the duration expires, the knowledge fades immediately.
+
+
+## Thousand Tongues Meditation
+
+Cost: 4 motes
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 3
+Minimum Essence: 2
+Prerequisite Charms: Language-Learning Ritual
+
+The far-ranging colonial interests of the Dragon-
+Blooded combine with the Air-aspected Exalt's close
+affinity with communication to make this Charm a
+common one.
+The character speaking in tongues can easily speak
+and understand any spoken language for the duration of
+the Charm. If speaking to beings each speaking a different
+language, the character can understand them all, and they
+can all understand the character — but they will still be
+unable to understand each other. The maximum number
+of beings that an Exalted may speak in tongues to at once
+is equal to the character's permanent Essence.
+This Charm just allows the most basic of communication-
+the equivalent of baby or pidgin speech. Any sort
+of social or communicative actions attempted by the
+character are at -4 to her dice pools. Each point of
+permanent Essence that the Dragon-Blood possesses over the
+minimum requirement reduces this penalty by -1.
+This Charm only works on actual speech. Sign language
+cannot be understood through the use of the
+Thousand Tongues Meditation.
+
+
+## Poisoned Tongue Technique
+
+Cost: 2 motes, 1 Willpower
+Duration: Concentration
+Type: Simple
+Minimum Linguistics: 3
+Minimum Essence: 3
+Prerequisite Charms: Thousand Tongues Meditation
+
+This Charm allows an Exalted to &quot;hijack&quot; another's
+conversation. The effect is subtle, but it can be deadly if
+applied correctly. The Exalt must be able to hear the
+conversation to twist it, but need not actually be present.
+Eavesdropping through Charms such as Voices on the
+Wind is perfectly permissible, but the range of this
+Charm cannot be extended past 100 feet x the Exalt's
+permanent Essence.
+To twist a conversation, the character's player must
+roll Manipulation + Linguistics. The number of successes
+indicates the degree to which the Dragon-Blooded can
+twist the conversation. A single success would allow her to
+send someone away from a conversation confused, aroused
+or with a sour taste in his mouth. Three or more successes
+are enough to make a speaker seem heroic, amorous,
+ruthless or offensive. Five successes allow the Dragon-Blood
+to completely hijack the conversation, changing or
+amending anything said by any party.
+The participants in the conversation each get a reflexive
+Wits + Perception roll at a roll to notice the use of
+this Charm. The difficulty of the roll is the Essence of the
+Exalt using this Charm. If this roll fails, the character
+doesn't realize that what he means to say and what he's
+actually saying doesn't match and has no way of knowing
+the conversation was altered. If the roll succeeds, he
+realizes the conversation is being manipulated and can
+indicate this through nonverbal means (normally a chop-
+ping motion at one's own throat). Use of this Charm in a
+criminal fashion is a serious offense in the Realm and can
+bring with it a death sentence.
+
+
+## Voice of Mastery
+
+Cost: 5+ motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 4
+Minimum Essence: 3
+Prerequisite Charms: Poisoned Tongue Technique
+
+With more complete mastery of the Air element, the
+Dragon-Blooded can use this Charm to enhance the effect
+of his spoken words. His words seem to resonate with
+listeners, seeming more persuasive, threatening, seductive
+- whatever the Dragon-Blood wishes.
+For the duration of this Charm, the character may add
+his Essence dice to his dice pool for any interaction involving
+speech, whether it is seduction, persuasion or intimidation.
+The Charm normally affects only one listener. Each additional
+mote doubles the number of people affected by the
+Charm. The character must be able to speak the targets
+language, either naturally or through the use of Charms.
+
+
+## Wind-Carried Words Technique
+
+Cost: 1 mote per sentence, plus distance
+Duration: Instant
+Type: Simple
+Minimum Linguistics: 3
+Minimum Essence: 2
+Prerequisite Charms: None
+The wind carries many things, and sound can be one
+of them. A Terrestrial Exalted can set his words on the
+currents of the wind, sending them through the air to the
+ear of the one he wishes to hear his message.
+For the base Essence cost, a character may send one
+single sentence to the ear of any other person in range. The
+character does not actually have to speak what he wishes
+to say out loud, but he does at least have to vaguely mouth
+the words he wishes to send.
+The difficulty of sending words on the wind increases
+over distance. The further away a character wants to send
+a message, the more difficult the Charm becomes. For a
+single mote of Essence, a character can send a single
+sentence to roughly 100 feet away. This distance is modified
+by the permanent Essence of the character and by the
+expenditure of additional motes of Essence. Multiply the
+100-foot range by the character's permanent Essence score.
+In addition, by doubling the amount of Essence spent on
+the Charm, this modified base range can be increased by a
+factor of 10. An Air-aspected Dynast with an Essence of 4
+could send a single sentence 400 feet for 1 mote, 4,000 feet
+for 2 motes, 40,000 feet for 3 motes and so on.
+The sending character must have a general sense of
+the target's direction, but need not see her. This Charm
+has become essential to the Realm's military operations, as
+it gives the Terrestrial Exalted the ability to communicate
+quickly over long distances on the battlefield. Most Dragon
+Blooded of military inclination know the Charm.
+
+
+## Voices on the Wind
+
+Cost: 3 motes, plus distance
+Duration: One minute
+Type: Simple
+Minimum Linguistics: 4
+Minimum Essence: 3
+Prerequisite Charms: Wind-Carried Words Technique
+
+Speech requires breath, the very air of life. Some
+Dynasts of Air can extend their senses through the air and
+so listen to what people far from them say. The further
+away a character wants to eavesdrop, the more expensive
+the Charm becomes. For the basic cost, an Air-aspected
+Dragon-Blood can clearly hear normal speech from 100
+feet away. The character also gets a general sense of the
+target's direction (assuming he doesn't know already). As
+with the Wind-Carried Words Technique, the cost of
+using this Charm increases over distance. The further
+away a character wants to eavesdrop, the more expensive
+the Charm becomes. For a single mote of Essence, a
+character can listen in on speech roughly 100 feet away.
+This distance is modified by the permanent Essence of the
+character and by the expenditure of additional motes of
+Essence. Multiply the 100-foot range by the character's
+permanent Essence score. In addition, by doubling the
+amount of Essence spent on the Charm, this modified base
+range can be increased by a factor of 10.
+This Charm has some limitations. The character must
+specify a single person he wants to spy upon: He cannot, for
+instance, declare that he will &quot;listen for people plotting
+against me.&quot; At most, he can make a list of suspected
+enemies and eavesdrop on them one by one. The character
+also cannot hear anything spoken in an airtight chamber.
+Many of the powerful Dynasts build such chambers for
+their privy councils, specifically to defeat this Charm.
+Finally, listening to a person from so far away demands
+total concentration — the character cannot perform any
+other action while listening to Voices on the Wind.
+
+
+## With One Mind
+
+Cost: 2 motes per dot of increase
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 5
+Minimum Essence: 2
+Prerequisite Charms: Voices on the Wind, Voice of Mastery
+
+A Dynast of Air can enable a group of people to know
+each other's surface thoughts. What one sees, all the others
+see as well. Her tactical decisions are an open book to her
+allies. As a result, a group that fights using With One Mind
+displays uncanny coordination. They trade off opponents
+without a hitch; one fighter parries a blow aimed at
+another; an enemy seen by one cannot hide from any.
+For each mote that the Dragon-Blooded character
+spends, the recipients gain one dot each of Wits, Perception
+and Melee, up to the Dragon-Blooded character's own
+Linguistics rating. In addition, any of the linked characters
+can parry or abort to parry an attack against any other
+character in the group, provided he is close enough to
+plausibly do so. If multiple characters parry a given attack,
+subtract all their successes from the attack roll.
+The initiating character can link as many people
+using With One Mind as she has dots of Essence, but all
+those linked must have the same level of linkage, and the
+Exalt must pay to enhance each of them. The linked
+group must include the character herself, and there is no
+benefit to be gained from using this Charm unless at least
+two people are linked with it. Dynasts typically use this
+Charm to magnify the fighting prowess of their bodyguards
+or minions.
+Characters linked by this Charm must have trained
+together for at least a week. They must spend a turn on
+a shared breathing exercise and war-shout to initiate
+the link. The characters must also stay within 50 feet x
+highest Essence of the participants of one another. If
+any character moves beyond that range, the link breaks,
+and the Charm ends.
+This Charm also has non-combat uses, allowing instantaneous
+nonverbal communication between the linked
+group for the duration.
+
+
+## Cipher Missive
+
+Cost: 3 motes
+Duration: Instant
+Type: Simple
+Minimum Linguistics: 2
+Minimum Essence: 1
+Prerequisite Charms: Language-Learning Ritual
+
+In the matters of governance, commerce and
+military action that are the focus of Dynastic society,
+there is always sensitive material that must be communicated
+and, thus, a need for secure methods to
+encrypt such material. This Charm allows an Exalted
+scribe to augment her knowledge of the structure of
+language and to use that augmented knowledge to
+create a preternaturally complex cipher.
+The scribing character spends the required
+amount of time writing the document, which can be
+no longer that her Essence in pages, and her player
+rolls Intelligence + Linguistics to determine the
+total number of accumulated successes needed to
+decipher the document. Each deciphering roll is an
+Intelligence + Linguistics roll with a difficulty equal
+to the permanent Essence of the character using
+Cipher Missive, and represents a number of days
+spent codebreaking equal to the Essence of the character
+who created the cipher. Remember that
+successes only accumulate against the encoding
+character's Intelligence + Linguistics roll if the character
+attempting to decrypt the missive exceeds the
+base difficulty of the roll (i.e., the Essence of the
+character who used this Charm).
+The character using this Charm may name a
+number of individuals up to a maximum of twice his
+Essence rating who can freely read the ciphered document,
+or he may name a limited, specific class of
+people who may freely read the document. For example,
+a character could make a ciphered document
+that could only be read freely by magistrates or only by
+officers in the Vermilion Legion.
+
+
+## Craft Icon
+
+Cost: 2 motes
+Duration: Instant
+Type: Simple
+Minimum Linguistics: 3
+Minimum Essence: 3
+Prerequisite Charms: Cipher Missive
+
+In a society as complex and often frenetic as that
+of the Realm, the ability to smoothly convey a com-
+plex block of information or directives to others is not
+only a great boon, it is practically a necessity. This
+Charm allows for the design of sigils and pictograms
+that illustrate a dense collection of data such as direc-
+tions to a location or instructions for the assembly of
+a complex device and does so in a simple iconographic
+style that can be understood by anyone, regardless of
+the languages they speak.
+The player of the Dragon-Blood using this Charm
+rolls Manipulation + Linguistics at a difficulty of 2.
+Successes indicate the level of complexity encoded
+into the pictogram, with each success over the difficulty
+providing the equivalent of one minute's worth
+of careful instruction.
+The icons created by the use of this Charm can be
+drawn, carved or in any media the creator wishes to
+use. The channeling of Essence into the creation of an
+icon is vital to its depiction, and it cannot be reliably
+reproduced without another application of Craft Icon.
+Any mundane reproduction of a pictogram created
+with this Charm will, at best, serve only as well as if
+the Dragon-Blood's player had rolled the minimum
+two successes. Icons created with this Charm are two
+square inches in size per success.
+
+
+## Speech Without Words
+
+Cost: 2 motes + 1 mote per ally included
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 3
+Minimum Essence: 3
+Prerequisite Charms: Voices on the Wind, Cipher Missive
+
+The ability to silently convey complex information
+allows for a much greater degree of coordination
+among allies when they find themselves in circumstances
+where speech would be a detriment, such as
+during close-range martial conflicts or ambushes most
+obviously (but not exclusively).
+The use of this Charm allows a Dragon-Blood and
+one additional ally per mote of Essence spent (to a
+maximum of the Exalt's Wits + Linguistics) to silently
+communicate using hand gestures and signals.
+The gestures required to make use of this Charm
+are subtle and not enough to give away a user's
+position or generate a great amount of sound.
+Users of this Charm are obviously communicating
+with one another if they do so openly, however,
+making this Charm's usefulness in social settings
+somewhat limited.
+
+
+## Favored Quill Mastery
+
+Cost: 3 motes per success
+Duration: Instant
+Type: Supplemental
+Minimum Linguistics: 3
+Minimum Essence: 3
+Prerequisite Charms: Any three Linguistics Charms
+
+Dragon-Blooded culture demands excellence from
+its constituents in a variety of fields of endeavor,
+making a broad education the norm. With so many
+responsibilities and areas of study open to them as a
+culture, however, specialists are needed for esoteric,
+demanding or vital disciplines. Linguistic- and communication-
+oriented tasks are no exception to this, as
+not every Dragon-Blood can be a master cipher,
+speechwriter and poet all at once.
+An Exalt using this Charm may buy his dots in a
+Linguistics specialty as automatic successes, rolling
+the remainder of his pool as normal. The automatic
+successes may only be added to rolls involving the
+specialty in question.
+
+
+## Subtle Comprehension Technique
+
+Cost: 3 motes
+Duration: Instant
+Type: Simple
+Minimum Linguistics: 3
+Minimum Lore: 3
+Minimum Essence: 2
+Prerequisite Charms: Language-Learning
+
+Ritual, Elemental Concentration Trance
+This Charm allows the Dragon-Blood to parse
+the hidden layers of metaphor and symbolism after
+reading a text. Under normal circumstances, where
+the layers are apparent to those of a creative enough
+mind with sufficient study, the deeper meanings stand
+revealed instantly. The Dragon-Blood using this Charm
+is automatically aware or what each symbol or metaphor
+represents according to the author's intent and
+subconscious meanderings, even if the relevance or
+obviousness of such a symbol would not be apparent to
+someone living in the present day, as is often the case
+when reading ancient texts.
+However, if the writer tried to bury the symbols
+purposely, either through a conscious effort at ciphering
+them (requiring an Intelligence + Lore
+roll) or with a Charm, then the Dragon-Blood's
+player must make an opposed roll against the successes
+from the Charm or on the Intelligence + Lore
+roll. The Dragon-Blood using this Charm in such an
+attempt gains a number of automatic successes
+equal to his Essence. This Charm does not aid in
+breaking ciphers or codes, only in delving into the
+hidden meanings within a text, be that text an
+ancient poem or the results of an augury.

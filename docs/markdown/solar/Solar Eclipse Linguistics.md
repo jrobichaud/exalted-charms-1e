@@ -1,0 +1,406 @@
+```mermaid
+
+flowchart TD
+
+    whirling_brush_method["<a class='internal-link' href='#Whirling Brush Method'>Whirling Brush Method</a>"]
+
+    flawless_brush_discipline["<a class='internal-link' href='#Flawless Brush Discipline'>Flawless Brush Discipline</a>"]
+    whirling_brush_method --> flawless_brush_discipline
+
+    letter_within_a_letter_technique["<a class='internal-link' href='#Letter-Within-a-Letter Technique'>Letter-Within-a-Letter<br>Technique</a>"]
+    whirling_brush_method --> letter_within_a_letter_technique
+
+    discerning_savants_eye["<a class='internal-link' href='#Discerning Savant's Eye'>Discerning Savant's Eye</a>"]
+
+    sagacious_reading_of_intent["<a class='internal-link' href='#Sagacious Reading of Intent'>Sagacious Reading of Intent</a>"]
+
+    poetic_expression_style["<a class='internal-link' href='#Poetic Expression Style'>Poetic Expression Style</a>"]
+
+    twisted_words_technique["<a class='internal-link' href='#Twisted Words Technique'>Twisted Words Technique</a>"]
+
+
+    subgraph Castebook Eclipse
+        swift_sages_eye["<a class='internal-link' href='#Swift Sage's Eye'>Swift Sage's Eye</a>"]
+        perfect_recollection_discipline["<a class='internal-link' href='#Perfect Recollection Discipline'>Perfect Recollection Discipline</a>"]
+
+        flawless_forgery_technique["<a class='internal-link' href='#Flawless Forgery Technique'>Flawless Forgery Technique</a>"]
+
+        subtle_speech_method["<a class='internal-link' href='#Subtle Speech Method'>Subtle Speech Method</a>"]
+        masterful_training_manual["<a class='internal-link' href='#Masterful Training Manual'>Masterful Training Manual</a>"]
+    end
+
+    subgraph Cult of the Illuminated
+        excellent_emissarys_tongue["<a class='internal-link' href='#Excellent Emissary's Tongue'>Excellent Emissary's<br>Tongue</a>"]
+    end
+
+    unbreakable_fascination_method["<a class='internal-link' href='#Unbreakable Fascination Method'>Unbreakable Fascination<br>Method</a>"]
+
+    swift_sages_eye --> perfect_recollection_discipline
+    flawless_brush_discipline --> flawless_forgery_technique
+    flawless_brush_discipline --> discerning_savants_eye
+    letter_within_a_letter_technique --> discerning_savants_eye
+    letter_within_a_letter_technique -------> subtle_speech_method
+    poetic_expression_style --> unbreakable_fascination_method
+    poetic_expression_style ---> masterful_training_manual
+    twisted_words_technique ---> masterful_training_manual
+    twisted_words_technique --> unbreakable_fascination_method
+    sagacious_reading_of_intent ----> twisted_words_technique
+    letter_within_a_letter_technique ----> twisted_words_technique
+    sagacious_reading_of_intent --> poetic_expression_style
+
+```
+
+
+## Whirling Brush Method
+
+Cost: 4 motes
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Through the use of this Charm, a character can write
+or copy with superhuman speed. While this does not allow
+the character to write creative works much faster than
+normal (since the physical act of writing rarely slows a
+creator), she can write quickly enough to copy even a large
+book in a single day or make an accurate transcript of a rapid
+conversation containing multiple parties. While the
+character's writing doesn't destroy pens from writing too
+fast, they do wear down at the regular speed, and the
+character's writing consumes the regular amount of ink. The
+product of this Charm is a copy of the work in question, not
+a perfect facsimile. It's written in the character's own hand,
+contains as many errors as if the character had done it at
+normal speed without the use of a Charm and is otherwise
+an imperfect rendering of the original.
+
+
+## Flawless Brush Discipline
+
+Cost: 6 motes
+Duration: One day
+Type: Simple
+Minimum Linguistics: 3
+Minimum Essence: 2
+Prerequisite Charms: Whirling Brush Method
+
+Sometimes a character needs more than a copy of a
+document; sometimes he needs a perfect facsimile. Flawless
+Brush Discipline allows a character to produce just
+that. The character copies at her regular writing speed, but
+the result is not a copy, but a perfect replica of the original
+document, indistinguishable from the original. A character
+without colored inks trying to copy illuminated text
+will produce a carefully shaded monotone replica of the
+original. Flawless Brush Discipline copies only text and
+illustrations — it does not allow the character to forge seals
+or impressions affixed to a document.
+
+
+## Letter-Within-a-Letter Technique
+
+Cost: 6 motes
+Duration: Instant
+Type: Simple
+Minimum Linguistics: 4
+Minimum Essence: 2
+Prerequisite Charms: Whirling Brush Method
+
+By carefully injecting allusions, subtle stresses and
+loaded word choices, the character can imbed a secret
+message in a document of seemingly innocuous character
+- a shopping list, a bill of lading or even a quickly dashed
+note. The intended recipient (who must be very familiar to
+the Exalted using this Charm) is the only one who will be
+able to comprehend the message, though an Exalted using
+the Sagacious Reading of Intent Charm will be able to
+detect the Letter-Within-a-Letter Technique's use. The
+hidden message can be no longer (in words) than one-half
+the length of the &quot;cover&quot; document.
+
+
+## Discerning Savant's Eye
+
+Cost: 6 motes, 1 Willpower
+Duration: One hour
+Type: Simple
+Minimum Linguistics: 5
+Minimum Essence: 2
+Prerequisite Charms: Flawless Brush Discipline, Letter-Within-a- Letter Technique
+
+The character can make out the minute traces of
+writing that was once readable but has now been damaged
+or erased. Examples are palimpsests, water-soluble inks
+that have been left in the rain and stone inscriptions that
+have been rendered unreadable by purposeful vandalism or
+the action of the elements. Writing of which effectively no
+traces remain - writing on paper that was burnt to ash of
+on stone that has been smashed to gravel — cannot be
+recovered with this Charm.
+Discerning Savant's Eye does not give the character
+the ability to understand a language she cannot normally
+read, though she may use Flawless Brush Discipline to
+make a perfect copy of the material as it originally appeared
+for later translation.
+
+
+## Sagacious Reading of Intent
+
+Cost: 6 motes
+Duration: Instant
+Type: Simple
+Minimum linguistics: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+This Charm allows a character reading a letter, book or
+other form of written text to understand the author's biases,
+opinions and hidden agendas. Characters using this Charm
+when reading a book will immediately discer if and in what
+direction the material is slanted. Note that this works even if the
+author is unaware of her own biases. In addition to the obvious
+uses, this Charm is very useful for detecting literary forgeries.
+
+
+## Poetic Expression Style
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 2
+Minimum Essence: 1
+Prerequisite Charms: Sagacious Reading of Intent
+
+Exalted with this Charm can convey ideas and concepts
+through pantomime. The character's gestures carry far
+more meaning than any normal mortal's. While there is
+little room for subtlety or poetry, the character can communicate
+even complex concepts across the language barrier.
+For example, a character could convey, &quot;He offended my
+honor, and I pursue him to seek redress in an honorable duel.
+Surrender him to me or face my wrath.&quot; However, a character
+is unlikely to succeed in acquiring a lover, unless &quot;I am
+attracted to you and desire a sexual encounter&quot; is all the
+wooing the potential partner requires.
+
+
+## Twisted Words Technique
+
+Cost: 6 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 4
+Minimum Essence: 2
+Prerequisite Charms: Letter-Within-a-Letter
+
+Technique, Sagacious Reading of Intent
+Twisted Words Technique allows one of the Exalted to
+weight certain words or meanings in a speech or written work
+in order to sway the listener or reader to a particular way of
+thinking. Characters with a permanent Willpower lower
+than the character's Essence score who read or listen to the
+Exalted's words will come to agree with the idea she presents.
+Players whose characters possess a Willpower less than twice
+the Exalted's Essence must make a Willpower roll or have
+their characters swayed into a favorable view of the matter.
+Note that the concealed message must be germane to the
+topic at hand, but the character can seem to advocate an idea
+on the surface while the subtext is negative, or vice versa.
+
+
+## Swift Sage's Eye
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+A character using this technique can read and
+comprehend written works at superhuman speed. The
+character can read approximately two pages of written
+text (or its equivalent) per second, so she can read a
+book as quickly as she can turn the individual pages or
+a scroll as quickly as she can unroll it. The character
+must be able to read the language in the first place in
+order to use this Charm, and comprehension is the
+same as if the character read the text at normal speed.
+
+
+## Perfect Recollection Discipline
+
+Cost: 1 mote per work
+Duration: Special
+Type: Simple
+Minimum Linguistics: 3
+Minimum Essence: 2
+Prerequisite Charms: Swift Sage's Eye
+
+A character using this Charm can completely
+memorize a written work or illustration in the time it
+takes to read or study it. The character can also
+memorize spoken words. A work can generally be no
+longer than a medium-sized book, a few hours of
+conversation or a single fairly complex illustration,
+such as a map. Longer works require correspondingly
+greater amounts of Essence.
+The character's memory of the work is flawless:
+He can recite it from beginning to end, copy it down
+entirely from memory and even use his recollection in
+conjunction with Charms such as Whirling Brush
+Method and Flawless Brush Discipline to produce
+copies of the work. He can navigate from a memorized
+map as if he had it in front of him at all times.
+Although the Chosen can use this Charm to memorize
+a lexicon of a foreign language (thereby memorizing
+its vocabulary and grammar), his use of that language
+is somewhat halting and crude, since he still needs to
+&quot;look up&quot; and translate meanings in his head.
+The work remains memorized for as long as the
+Chosen commits Essence to it. When the Essence is
+no longer committed, the character's memory of the
+work fades to what it would normally be if the character
+had simply read, viewed or listened to the work
+
+
+## Flawless Forgery Technique
+
+Cost: 6 motes
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 4
+Minimum Essence: 2
+Prerequisite Charms: Flawless Brush Discipline
+
+With a masterful eye and hand for copying, the
+character can produce a flawless forgery of any written
+work or illustration, provided he has a sample to work
+from — at least one written sentence or a single
+illustration. The forgery need not be a duplicate of the
+sample, but it perfectly replicates the original's style,
+such that anyone familiar with that style would instantly
+recognize it. The character works at his normal
+writing or drawing speed but produces work in the
+chosen style. A character using Sagacious Reading of
+Intent who is familiar with the original style can
+determine that the forgery is not genuine, but otherwise,
+it is completely flawless and undetectable.
+
+
+## Subtle Speech Method
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Linguistics: 4
+Minimum Essence: 2
+Prerequisite Charms: Letter-Within-A-Letter
+
+Technique, Poetic Expression Style
+The character can speak in a roundabout fashion,
+stressing particular words, inflections and allusions to
+convey ideas and concepts that may have nothing to
+do with what the character is saying. Only the intended
+recipients (who must be familiar to the Exalted
+using this Charm and must speak the same language)
+understand the true meaning behind the character's
+words. Everyone else hears only what the character
+says on the surface. Thus, an Exalted using this Charm
+could explain the details of an assassination plot to
+someone while appearing to discuss the weather, for
+example. Someone using Judge's Ear Technique can
+tell that there is something behind what the character
+is saying but not necessarily what it is.
+
+
+## Masterful Training Manual
+
+Cost: 10 motes, 1 Willpower
+Duration: Special
+Type: Simple
+Minimum Linguistics: 5
+Minimum Lore: 3
+Minimum Essence: 3
+Prerequisite Charms: Poetic Expression Style, Twisted Words Technique
+
+The ability to effectively convey information is
+an important part of teaching. This Charm aids the
+Exalted in passing on their wisdom. A character writes
+a treatise or manual with any Attribute or any Ability,
+Charm or spell known to the Exalt as its subject.
+Creating the text requires time equal to that needed to
+train for the author's rating in the chosen Trait (Exalted,
+p. 271). For example, a character with Socialize
+5 writing a manual on proper etiquette and social
+behavior would take four weeks. If a Charisma 5
+character wrote a manual on making friends and
+influencing people, it would take four months. Charms
+such as Whirling Brush Method cannot reduce this
+time, since writing the manual requires careful and
+deliberate thought.
+Once the text is prepared, others reading it may
+spend experience to acquire that Trait, using only
+the text as their tutor. The reader must be capable of
+learning the Trait described by the text and can only
+acquire or improve the Trait to the rating of the
+text's author. So, a manual that describes Martial
+Arts 3 is useless for a character with a Martial Arts
+rating of 3 or better, since he has already exceeded
+the manual's knowledge.
+Unfortunately, the vast majority of the various
+manuals and treatises penned by the Solar Exalted of
+the First Age were lost or destroyed, although some
+are said to be preserved in ancient Manses or perhaps
+in the libraries of certain Dynasts or Sidereals.
+
+
+## Excellent Emissary's Tongue
+
+Cost: 4 motes per language, 1 Willpower
+Duration: Special
+Type: Simple
+Minimum Linguistics: 3
+Minimum Essence: 1
+Prerequisite Charms: None
+
+With this Charm, the Solar Exalted may acquire the
+ability to speak and understand a language merely by
+hearing it spoken. The Charm requires at least an hour of
+exposure to the language. So long as the Essence is committed,
+the Chosen is completely fluent in that language,
+without a trace of accent, but cannot read or write in it. A
+character can master a total number of languages equal to
+her dots of Linguistics by using this Charm. Once the
+Essence is no longer committed, the knowledge of the
+language fades immediately.
+
+
+## Unbreakable Fascination Method
+
+Cost: 8 motes, 1 health level per hour
+Duration: Special
+Type: Simple
+Minimum Linguistics: 5
+Minimum Essence: 3
+Prerequisite Charms: Poetic Expression Style, Twisted Words Technique
+
+A character using this Charm can speak in such a magnetic
+and engaging fashion that listeners simply cannot do anything
+else but pay attention to what he's saying. When he activates this
+Charm, the Exalted's player makes a Manipulation + Linguistics
+roll. Thereafter, players of characters with an Essence less than
+the Exalted's who hear the Chosen speak must make a reflexive
+Willpower roll with a difficulty equal to the number of successes
+made on the Linguistics roll. Those who fail are entranced by the
+character's voice and are held enraptured until the character
+ceases speaking for more than a few seconds.
+It is not necessary to speak the Exalted's language to
+succumb to this power. Attack or other obvious open hostility
+causes the effect of this Charm to end. However, only direct
+physical danger will disrupt the effect. A brave or suicidal Exalted
+could, for example, use Unbreakable Fascination Method to
+keep a platoon of guards in a burning building with him until it
+was fully aflame, but they would not stand there listening as the
+flaming timbers started crashing down around them.

@@ -1,0 +1,573 @@
+```mermaid
+
+flowchart TD
+
+    respect_commanding_attitude["<a class='internal-link' href='#Respect Commanding Attitude'>Respect Commanding<br>Attitude</a>"]
+
+    unruly_mob_dispersing_rebuke["<a class='internal-link' href='#Unruly Mob-Dispersing Rebuke'>Unruly Mob-Dispersing<br>Rebuke</a>"]
+    respect_commanding_attitude --> unruly_mob_dispersing_rebuke
+
+    rout_stemming_gesture["<a class='internal-link' href='#Rout-Stemming Gesture'>Rout-Stemming Gesture</a>"]
+    unruly_mob_dispersing_rebuke --> rout_stemming_gesture
+
+    fury_inciting_presence["<a class='internal-link' href='#Fury Inciting Presence'>Fury Inciting Presence</a>"]
+    unruly_mob_dispersing_rebuke --> fury_inciting_presence
+
+    heroism_encouraging_presence["<a class='internal-link' href='#Heroism-Encouraging Presence'>Heroism-Encouraging<br>Presence</a>"]
+    fury_inciting_presence --> heroism_encouraging_presence
+
+    tiger_warrior_training_technique["<a class='internal-link' href='#Tiger-Warrior Training Technique'>Tiger-Warrior Training<br>Technique</a>"]
+    rout_stemming_gesture --> tiger_warrior_training_technique
+    heroism_encouraging_presence --> tiger_warrior_training_technique
+
+    masterful_performance_exercise["<a class='internal-link' href='#Masterful Performance Exercise'>Masterful Performance<br>Exercise</a>"]
+
+    phantom_conjuring_performance["<a class='internal-link' href='#Phantom Conjuring Performance'>Phantom Conjuring<br>Performance</a>"]
+    masterful_performance_exercise --> phantom_conjuring_performance
+    respect_commanding_attitude --> phantom_conjuring_performance
+
+    heart_compelling_methodology["<a class='internal-link' href='#Hearth-Compelling Methodology'>Hearth-Compelling<br>Methodology</a>"]
+    masterful_performance_exercise --> heart_compelling_methodology
+
+    memory_reweaving_discipline["<a class='internal-link' href='#Memory-Reweaving Discipline'>Memory-Reweaving<br>Discipline</a>"]
+    phantom_conjuring_performance --> memory_reweaving_discipline
+    heart_compelling_methodology --> memory_reweaving_discipline
+
+    subgraph Castebook Dawn
+        commanding_the_ideal_celestial_army["<a class='internal-link' href='#Commanding the Ideal Celestial Army'>Commanding the<br>Ideal Celestial Army</a>"]
+
+        general_of_the_all_seeing_sun["<a class='internal-link' href='#General of the All-Seeing Sun'>General of the<br>All-Seeing Sun</a>"]
+
+        ideal_battle_knowledge_prana["<a class='internal-link' href='#Ideal Battle Knowledge Prana'>Ideal Battle Knowledge<br>Prana</a>"]
+    end
+    heroism_encouraging_presence --> commanding_the_ideal_celestial_army
+    commanding_the_ideal_celestial_army --> general_of_the_all_seeing_sun
+    general_of_the_all_seeing_sun --> ideal_battle_knowledge_prana
+
+    subgraph Castebook Zenith
+        gender_concealing_meditation["<a class='internal-link' href='#Gender-Concealing Meditation'>Gender-Concealing<br>Meditation</a>"]
+
+        graceful_reed_dancing["<a class='internal-link' href='#Graceful Reed Dancing'>Graceful Reed<br>Dancing</a>"]
+
+        husband_seducing_demons_dance["<a class='internal-link' href='#Husband-Seducing Demons Dance'>Husband-Seducing<br>Demons Dance</a>"]
+        gender_concealing_meditation --> husband_seducing_demons_dance
+        graceful_reed_dancing --> husband_seducing_demons_dance
+
+        divine_performance_style["<a class='internal-link' href='#Divine Performance Style'>Divine Performance<br>Style</a>"]
+        husband_seducing_demons_dance --> divine_performance_style
+
+        king_of_masks_technique["<a class='internal-link' href='#King of Masks Technique'>King of Masks<br>Technique</a>"]
+
+        impenetrable_identity["<a class='internal-link' href='#Impenetrable Identity'>Impenetrable Identity</a>"]
+        king_of_masks_technique --> impenetrable_identity
+    end
+
+    phantom_conjuring_performance --> gender_concealing_meditation
+
+```
+
+
+## Respect Commanding Attitude
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Performance: 2
+Minimum Essence: 2
+Prerequisite Charms: None
+
+This Charm allows a character to command the respect
+of an audience. While they may not be swayed by his
+arguments or impressed by his performance, they will pay him
+heed and refrain from heckling him or leaving the venue in
+significant numbers prior to the end of the performance.
+
+
+## Unruly Mob-Dispersing Rebuke
+
+Cost: 8 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Performance: 3
+Minimum Essence: 3
+Prerequisite Charms: Respect Commanding Attitude
+
+Violent mobs can endanger even the Exalted. Their numbers
+can drag down even the mightiest of the Chosen, but those who
+compose the mob are probably not normally so violent or dangerous.
+Chances are, the riot has begun over some legitimate grievance
+— laying about with lethal force is likely to cause serious repercussions.
+Through the use of this Charm, a character can deliver astern
+rebuke and shatter the inertia holding an angry mob together.
+Without significant further impetus, the crowd will disperse. This
+Charm does nothing to an organized or disciplined force.
+
+
+## Rout-Stemming Gesture
+
+Cost: 5 motes, 1 Willpower
+Duration: 3 turns
+Type: Simple
+Minimum Performance: 4
+Minimum Essence: 3
+Prerequisite Charms: Unruly Mob Dispersing Rebuke
+
+If an angry mob is a danger to its victims, then a stampeding
+crowd or a routing unit is a danger to everyone in the
+vicinity. The crush of a panicked crowd will clog a door and
+leave no room for escape, where an orderly exit would have
+saved most or even all of the persons involved. A routing unit
+will shatter, leaving its members vulnerable to attacks that
+could never have been pressed home against the formation.
+When using this Charm, the character burns with an
+incandescent blaze of Essence, radiating power and reassurance.
+All those within a radius of (10 x the Exalted's Essence
+rating) yards are immediately steadied. Those who have failed
+Valor checks can roll again, and characters who must make
+new Valor checks are assumed to succeed. Rout-Stemming
+Gesture can even overcome supernatural panic, such as that
+caused by the Terrifying Apparition of Glory Charm or by the
+anima power of a Dawn Caste Solar Exalted.
+
+
+## Fury Inciting Presence
+
+Cost: 8 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Performance: 3
+Minimum Essence: 3
+Prerequisite Charms: Unruly Mob Dispersing Rebuke
+
+The persuasive power of an Exalted channeling Essence
+into Social Charms can raise mobs as well as disperse them.
+With 10 to 20 minutes of haranguing a crowd on nearly any
+subject, an Exalted can whip the listeners into an angry mob.
+A mob raised in this fashion lasts a number of hours equal to
+the character's Essence rating but (like a natural mob) will
+disperse if subjected to organized opposition that cannot be
+immediately overwhelmed or if the mob is left idle without
+things to smash or burn for more than 10 or 20 minutes.
+
+
+## Heroism-Encouraging Presence
+
+Cost: 10 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Performance: 4
+Minimum Essence: 3
+Prerequisite Charms: Fury Inciting Presence
+
+The Solar Exalted can inspire far more than simple
+mob violence. An Exalted in battle can radiate the
+confidence and the surety of the Unconquered Sun,
+lifting the souls of those around her and inspiring them
+to feats of great heroism. All friendly troops within a
+radius equal to the character's Essence x 100 yards are
+affected. While subject to this Charm, assume that
+individual soldiers all operate with a bonus die to all
+combat-related dice pools from improved morale and do
+not fail Valor rolls. The effect on the overall outcome of
+the battle is up to the Storyteller to decide, but it should
+have considerable influence.
+
+
+## Tiger-Warrior Training Technique
+
+Cost: 10 motes, 2 Willpower
+Duration: One week
+Type: Simple
+Minimum Performance: 5
+Minimum Essence: 3
+
+Prerequisite Charms: Heroism-Encouraging Presence, Rout-Stemming Gesture
+Actual combat is only the end of a long process that
+begins with the recruitment and training of the soldiers.
+Exalted who know the Tiger- Warrior Training Technique
+Charm can take even the worst gutter-sweepings or bandits
+and train them into a deadly, disciplined fighting
+force. Characters may supervise the training of up to (their
+Essence rating x 100) soldiers in a given week. Soldiers
+trained for one or more months by Exalted using this
+Charm should be treated as elite troops — they are well-disciplined,
+have ratings of at least 3 in the relevant
+combat Abilities, at least one specialty, Valor ratings of at
+least 3 and at least one Physical Attribute at 3. Already-trained
+troops or troops trained for more than one month
+can excel even these ratings.
+
+
+## Masterful Performance Exercise
+
+Cost: 2 motes per success
+Duration: Instant
+Type: Supplemental
+Minimum Performance: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The character channels Essence through his voice or
+his instrument, enhancing his delivery and making the
+final result flow far more effectively than it would natu-
+rally. To use this Charm, the player first makes a regular
+Charisma + Performance roll for the character. Then, the
+player may &quot;buy&quot; additional successes, up to (the character's
+permanent Essence rating + the number of successes rolled
+on the Charisma + Performance roll). Each success bought
+in this fashion costs 2 motes of Essence.
+
+
+## Phantom Conjuring Performance
+
+Cost: 5 motes
+Duration: One scene
+Type: Supplemental
+Minimum Performance: 3
+Minimum Essence: 2
+Prerequisite Charms: Masterful Performance Exercise, Respect-Commanding Attitude
+
+A character who possesses this Charm can give a
+performance so compelling that it plays out in the form
+of phantom images that swirl through the air around
+her. If it is a narrative performance, then the images
+illustrate the narrative, while if it is an abstract performance,
+then the images simply underscore and highlight
+the performance. Typically, this adds a number of dice
+equal to the character's Essence rating to the player's
+next Charisma + Performance roll. Note that the images
+actually appear, fading in and out of existence
+around the character. This Charm is compatible with
+Masterful Performance Exercise.
+
+
+## Hearth-Compelling Methodology
+
+Cost: 6 motes, 1 Willpower
+Duration: One scene
+Type: Supplemental
+Minimum Performance: 4
+Minimum Essence: 2
+Prerequisite Charms: Masterful Performance Exercise
+
+The character can channel Essence through her performance
+to evoke a certain emotion in those who witness it.
+The player chooses the emotion to be evoked, which may be
+anger, fear, pride, happiness, jealousy or whatever else the
+player wishes. He then makes a Manipulation + Performance
+roll for the character. Targets with a Willpower
+lower than the number of successes the player achieves on
+this roll are overcome with the emotion in question and act
+accordingly. Those with Willpower below twice the number
+of successes rolled may make a Willpower roll to resist
+the emotion. Those whose Willpower is greater than twice
+the number of successes are unaffected.
+
+
+## Memory-Reweaving Discipline
+
+Cost: 10 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Performance: 5
+Minimum Essence: 3
+Prerequisite Charms: Heart-Compelling Method, Phantom-Conjuring Performance
+
+This Charm allows a character to weave a narrative
+so plausible and so compelling that those who hear it
+forget the truth of a matter and come to believe the
+narrative. The player makes a Manipulation + Performance
+roll. The number of successes determines how
+much evidence to the contrary the target must be con-
+fronted with before he is able to shake off the lingering
+effects of the Charm. For each success, the target must be
+presented with one piece of evidence that contradicts the
+narrative. A Solar Exalted in a situation where there is
+very little clear evidence can effectively rewrite history
+with a little careful planning.
+Note that this Charm need not be used as part of a
+performance, per se. Characters who know it can use also
+it during conversation, making them quite dangerous in
+the world of courtly intrigue.
+
+
+## Commanding the Ideal Celestial Army
+
+Cost: 3 motes
+Duration: Instant
+Type: Simple
+Minimum Performance: 4
+Minimum Essence: 3
+Prerequisite Charms: Heroism-Encouraging Presence
+
+One of the greatest dangers of warfare is troops being out
+of touch with their commander. This Charm allows the caster
+to shout a short message to every soldier under her command.
+All friendly troops within a radius equal to the caster's Essence
+x 100 yards will hear the message. The message must be
+possible to call out during a single turn of combat and cannot
+contain more than a dozen words. In general, only its intended
+targets can hear it; opponents will not hear the message unless
+they are within earshot of the character using this Charm.
+
+
+## General of the All-Seeing Sun
+
+Cost: 4 motes
+Duration: Instant
+Type: Simple
+Minimum Performance: 5
+Minimum Essence: 4
+Prerequisite Charms: Commanding the Ideal Celestial Army
+
+As with Commanding the Ideal Celestial Army, a
+character using this Charm can give an order audible to all
+troops under her command. In addition, the instant before
+she gives the order, she receives impressions of how the battle
+is going on every front. The character is aware of any
+weakness in her lines and of which troops (if any) can safely
+be moved elsewhere. This knowledge combined with the
+ability to give a short command (two dozen words or less) to
+either the entire army or to any section of it — for example,
+&quot;the cavalry&quot; or &quot;the troops on the left flank&quot; — enables the
+character to exercise amazing control over her soldiers.
+
+
+## Ideal Battle Knowledge Prana
+
+Cost: 10 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Performance: 5
+Minimum Essence: 6
+Prerequisite Charms: General of the All-Seeing Sun
+
+The fog of war is banished for those who are truly blessed
+by the Unconquered Sun. For the rest of the scene, a
+character using this Charm knows how all areas of the battle
+are going and is instantly aware of any weakness in his lines
+or of any troops who have crushed their opponents. The
+character can, at will, speak messages that will be heard by his
+entire army, or by any specific portion of it to which he wishes
+to give orders. This ability to continuously direct the battle
+gives all soldiers under the character's command one additional
+die for all combat-related rolls and reduces by 1 the
+difficulty of all Valor rolls made by those same troops.
+
+
+## Gender-Concealing Meditation
+
+Cost: 5 motes
+Duration: One day
+Type: Simple
+Minimum Performance: 3
+Minimum Essence: 1
+Prerequisite Charms: Phantom-Conjuring Performance
+
+Sometimes, there are places that a woman can go
+that a man cannot, and vice-versa, This Charm helps
+an Exalted overcome such problems through disguise.
+By applying Essence to the task, the Chosen can
+enhance his illusion of femininity (or her illusion of
+masculinity). The application of Essence reshapes the
+Exalt's body into the proper curves and leaves those
+who might see his or her sex organs with the impres-
+sion that they were those of the opposite gender. The
+Charm will not fool close physical examination and
+does not allow intercourse, but anyone doing a less
+thorough inspection will be deceived.
+
+
+## Graceful Reed Dancing
+
+Cost: 2 motes per success
+Duration: Instant
+Type: Supplemental
+Minimum Performance: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+The character channels Essence through his body,
+enhancing his sense of rhythm and making his dance a
+riveting display. To use this Charm, the character must
+be performing a dance. The player first makes a regular
+Charisma + Performance roll for the character. Then,
+the player may &quot;buy&quot; additional successes, up to (the
+character's permanent Essence rating + the number of
+successes rolled on his Charisma + Performance roll).
+Each success bought in this fashion costs 2 motes of
+Essence. Graceful Reed Dancing is not compatible with
+Masterful Performance Exercise, as it is basically the
+same Charm for a different mode of Performance.
+
+
+## Husband-Seducing Demons Dance
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Performance: 4
+Minimum Essence: 2
+Prerequisite Charms: Gender-Concealing Meditation, Graceful Reed Dancing
+
+This Charm raises the art of seduction through
+dance to a supernatural level. So long as an Exalt using
+this Charm continues to dance, all who watch the
+performance see him or her as the most desirable being
+possible, regardless of their sexual preference. They are
+unwilling to harm the Chosen and are likely to behave
+irrationally in an attempt to impress the Solar. This
+Charm is ineffective on beings with an Essence higher
+than the Exalted invoking the power. The Charm does
+not work on characters who are in combat or who
+otherwise have reason to believe the Exalt means them
+harm. Overtly hostile acts on the part of the dancing
+character dispel the Charm's effect.
+
+
+## Divine Performance Style
+
+Cost: 10 motes
+Duration: Special
+Type: Simple
+Minimum Performance: 5
+Minimum Essence: 3
+Prerequisite Charms: Husband-Seducing Demon's Dance
+
+By combining song and dance with the art of seduction,
+the Exalted invoking this Charm weaves a spell of
+influence over a chosen target. Like Husband-Seducing
+Demon's Dance, this Charm starts with a masterful
+performance by the Exalted. This performance includes
+both song and dance and is directed at a specific individual.
+Regardless of the specific genders of the Exalted
+and the target, the target will be entranced by the
+extreme desirability of the performer.
+Other observers of the Divine Performance will be
+affected much as if observing the Husband-Seducing
+Demon's Dance, but the Charm will have no overt effect
+on them. Against the chosen target, however, there is an
+extended effect. The Exalt's player rolls Charisma +
+Performance and compares the resulting number of successes
+against the target's permanent Willpower. Other
+Charms may be used to enhance this Performance roll,
+including the Masterful Performance Exercise.
+If the Chosen achieves more successes than the
+target's permanent Willpower, the target will be particularly
+vulnerable to the influence of the performer for a
+number of days. The duration of this influence is equal to
+the difference between the Exalt's permanent Essence
+and the target's. While under the influence of the Divine
+Performance, a victim is at a -1 Essence with regard to the
+use of mind-controlling or affecting Charms by the
+Exalt. For example, if the Exalted achieves 10 successes
+against a target with a Willpower of 7, the target will be
+at a -1 Essence penalty for 3 days.
+Beings with Essence 1 who have their Essence reduced
+become the infatuated thralls of the Exalt for the
+duration of the effect. They will not kill themselves
+(though they may easily be manipulated into doing so),
+but they will perform almost any other act, even the most
+foolish or foolhardy.
+The Essence penalty does not stack with other uses
+of Divine Performance Style, but the Exalt can use
+Divine Performance again before a previous application
+has expired to extend its duration. In this case, the new
+result replaces the older one, even if it is lower. With
+proper planning, an Exalted performer can keep one or
+more targets entranced indefinitely.
+
+
+## King of Masks Technique
+
+Cost: Special
+Duration: Special
+Type: Simple
+Minimum Performance: 3
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Through the use of this Charm, the Exalted weaves
+a complicated false identity around herself. The identity
+is complete with a detailed history and natural personal-
+ity traits. Mere conversation cannot detect any flaws in
+the identity. In fact, the infallibility of the identity is
+perfect until the Exalted chooses to drop the façade or she
+is faced with an investigative intellect that is likewise
+Charm-enhanced. King of Masks Technique provides no
+resistance to interrogation techniques.
+When invoking the Charm, the Exalted crafts a
+back-story for herself and her player makes a Intelligence
++ Performance roll, adding one automatic success for
+each mote of Essence she chooses to invest. The total
+number of successes is the number of successes an investigator
+must achieve to see through the false identity, but
+this can never exceed twice the character's Intelligence
++ Performance pool. Only Charm-enhanced Investigation
+rolls will reduce this pool of successes, but all such
+investigations are cumulative. The Fair Folk and beings
+with Essence higher than the character are immune to
+the effects of this Charm.
+At the time of an identity's creation, the Exalted
+may spend one experience point to make the identity
+permanent. The character may resume a permanent
+identity at any time by spending half as many motes of
+Essence as she originally spent creating the identity.
+Persistent investigators can wear away at and eventually
+destroy permanent identities. If an identity is pierced,
+then the experience point is lost. Permanent identities
+can be investigated even when the character is not
+using them. Motes of Essence spent creating a permanent
+identity are not committed after the identity is
+first &quot;put aside,&quot; but whenever the character resumes
+the identity, the Essence she pays to resume it is committed
+while she uses the identity.
+This Charm cannot be used to mimic specific individuals.
+It can only create fictional identities. An Exalted
+may have as many permanent identities as she has points
+of permanent Essence.
+
+
+## Impenetrable Identity
+
+Cost: 10+ motes, 1 experience point
+Duration: Special
+Type: Simple
+Minimum Performance: 5
+Minimum Presence: 3
+Minimum Essence: 2
+Prerequisite Charms: King of Masks Technique
+
+Impenetrable Identity is initially identical to King
+of Masks Technique, but with some significant enhancements.
+First of all, while using Impenetrable
+Identity, the Exalted becomes the role he has chosen.
+While the Charm is in effect, he consciously and even
+subconsciously believes he is the role he has adopted.
+Interrogation techniques that do not have a magical
+basis are useless for discovering the Chosen's true
+identity because the character has no idea that he is
+not his cover identity.
+When invoking the Charm, the Exalted crafts a
+back-story for himself and makes a Intelligence + Performance
+roll, adding two automatic successes for each mote
+of Essence, beyond the base cost of 10, she chooses to
+invest. As with King of Masks Technique, the number of
+successes can never exceed twice the character's Intelligence
++ Performance pool. Normal investigation and
+interrogation is useless against Impenetrable Identity,
+and when Charm-enhanced interrogation or investigation
+is used to attack an Impenetrable Identity, only half
+the investigator's successes, rounded down, count for
+reducing the success pool.
+At the time the Charm is invoked, the Chosen may
+set any number of conditions that will automatically
+restore her original identity. This can include a time
+period, arrival at a specific location, spoken key words or
+any other triggering event that the character chooses to
+specify prior to assuming the Impenetrable Identity.
+There can be as many triggering conditions as the character
+wishes, and if they are at all complex, they should
+be written down to prevent disputes. The identity also
+ends automatically if anyone can pierce it and prove it to
+be false. When the identity ends, it is gone forever, and
+the experience point is lost.

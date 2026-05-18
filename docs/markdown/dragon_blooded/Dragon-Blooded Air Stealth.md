@@ -1,0 +1,366 @@
+```mermaid
+
+flowchart TD
+
+    feeling_the_air_technique["<a class='internal-link' href='#Feeling-the-Air Technique'>Feeling-the-Air Technique</a>"]
+
+    soundless_action_prana["<a class='internal-link' href='#Soundless Action Prana'>Soundless Action Prana</a>"]
+    feeling_the_air_technique --> soundless_action_prana
+
+    zone_of_silence_stance["<a class='internal-link' href='#Zone of Silence Stance'>Zone of Silence Stance</a>"]
+    soundless_action_prana --> zone_of_silence_stance
+
+    distracting_breeze_meditation["<a class='internal-link' href='#Distracting Breeze Meditation'>Distracting Breeze<br>Meditation</a>"]
+
+    trackless_passage_style["<a class='internal-link' href='#Trackless Passage Style'>Trackless Passage Style</a>"]
+    distracting_breeze_meditation --> trackless_passage_style
+
+    wind_walking_technique["<a class='internal-link' href='#Wind-Walking Technique'>Wind-Walking Technique</a>"]
+    trackless_passage_style --> wind_walking_technique
+
+    dragon_shroud_technique["<a class='internal-link' href='#Dragon Shroud Technique'>Dragon Shroud Technique</a>"]
+    soundless_action_prana --> dragon_shroud_technique
+    wind_walking_technique --> dragon_shroud_technique
+
+    subgraph Aspect Book - Air
+        deliberate_insignificance_method["<a class='internal-link' href='#Deliberate Insignificance Method'>Deliberate Insignificance Method</a>"]
+
+        empty_hand_posture["<a class='internal-link' href='#Empty Hand Posture'>Empty Hand Posture</a>"]
+
+        favored_haunt_stance["<a class='internal-link' href='#Favored Haunt Stance'>Favored Haunt Stance</a>"]
+
+        subtle_breeze_kata["<a class='internal-link' href='#Subtle Breeze Kata'>Subtle Breeze Kata</a>"]
+    end
+    trackless_passage_style --> deliberate_insignificance_method
+    soundless_action_prana --> empty_hand_posture
+    zone_of_silence_stance --> subtle_breeze_kata
+    distracting_breeze_meditation --> subtle_breeze_kata
+
+```
+
+
+## Feeling-the-Air Technique
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Stealth: 2
+Minimum Essence: 2
+Prerequisite Charms: None
+
+Invoking this Charm allows a Dragon-Blooded to
+sense her surroundings through minute eddies and currents
+in the air. The character may move and act in total
+darkness or with her vision fully impaired with no penalties,
+but obviously, she cannot read, tell colors or otherwise
+discern information that requires vision rather than perfect
+spatial awareness. While this sense is not precise
+enough to be completely effective in combat, but it does
+reduce the penalties for fighting blind by half.
+
+
+## Soundless Action Prana
+
+Cost: 1 mote per minute
+Duration: Varies
+Type: Simple
+Minimum Stealth: 3
+Minimum Essence: 3
+Prerequisite Charms: Feeling the Air Technique.
+
+This Charm eliminates the noise of any action taken
+directly by a character under its influence. Gravel crunches
+silently underfoot. A sword swung by the character would
+glance off an opponent's shield with no sound. This effect
+lasts for one minute per mote of Essence invested. This
+Charm provides no direct benefit to Stealth rolls, but many
+actions will no longer have any chance of attracting attention,
+and there should be no difficulty penalties for moving
+through areas full of potential sources of accidental noise.
+Keep in mind that the noise suppression only applies
+to those actions directly taken by a Dynast. She could put
+her fist through a window with no noise being created by
+the breaking glass, but the glass would tinkle as it fell to the
+floor, and if she instead threw a rock at it, the crash would
+be clearly audible.
+The individual under the influence of this Charm is
+unable to speak while Soundless Action Prana is in
+effect. She may communicate through any other method,
+however.
+
+
+## Zone of Silence Stance
+
+Cost: 4 motes, 1 Willpower
+Duration: One minute per point of permanent Essence
+Type: Simple
+Minimum Stealth: 4
+Minimum Essence: 3
+Prerequisite Charms: Soundless Action Prana
+
+By stilling the air to the point where it ceases to
+transmit sound at all, an Air-aspected Exalt may ensure
+that whatever mayhem ensues, the sounds of it will not
+reach the ears of others. A Zone of Silence suppresses all
+sound at all within its reach, be it the ringing of blades or
+the desperate cries of wounded enemies. One could vivisect
+a yeddim with a dull hatchet and someone standing a
+few feet away would be none the wiser — or at least their
+ears would not inform them of the deed. The character
+invoking the Charm is advised to say anything she feels
+necessary before the Charm is invoked, since no normal
+sound communication can take place within a Zone of
+Silence. Dynasts favoring this Charm are advised to learn
+sign language or a Charm such as With One Mind instead.
+The Zone of Silence extends a number of yards equal
+twice the Exalted's permanent Essence. Each extra mote of
+Essence invested into the Charm increases the radius of
+effect by a single yard, but a character cannot spend more
+motes of Essence to increase the area of effect than her
+permanent Essence. Burglars and assassins often invoke
+this Charm to suppress sound in an entire dwelling, so they
+may work without worry of an alarm being raised. The
+Zone of Silence moves with the character.
+
+
+## Distracting Breeze Meditation
+
+Cost: 1 mote per two successes
+Duration: One scene
+Type: Simple
+Minimum Stealth: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+With this Charm, the character uses the wind to cause
+minor disturbances and distractions to those who might
+observer her passage. Whether it be a tickling wind in the
+ear, a suddenly guttering torch or a knocked over spear,
+this minor enchantment can ensure a Dynast slips by even
+the most observant eyes without being spotted.
+Every mote of Essence invested in this Charm acts as
+2 automatic successes against a single target that might
+detect the Exalt's presence. The Charm can be directed at
+more than one target at once, so long as the proper amount
+of Essence has been paid.
+For Example: Cynestia, an Air-aspected Dynast,
+wishes to sneak past a cave entrance occupied by three
+Wyld barbarians. Her player spends 3 motes of Essence to
+give her two automatic successes in her Dexterity +
+Stealth rolls for Cynestia to avoid notice by all three
+barbarians. If Cynestia encounters other characters during
+the scene, her player can give the character two
+additional dice to evade their notice as well, but cannot
+distract more than three characters at a time. If the player
+had spent 4 motes, Cynestia could distract an additional
+barbarian, but could not give herself four automatic
+successes to avoid notice by one of them.
+The character must not be visible or otherwise easily
+detectable when this Charm is activated. However, even
+a moment out of sight is long enough to invoke it and gain
+the benefits. This Charm does nothing to conceal a Dynast's
+passage, and she maybe tracked as normal. A character
+cannot spent more motes on the use of this Charm than
+her permanent Essence.
+
+
+## Trackless Passage Style
+
+Cost: 2 motes per being per mile
+Duration: Instant
+Type: Simple
+Minimum Stealth: 3
+Minimum Essence: 2
+Prerequisite Charms: Distracting Breeze Meditation
+
+Simply avoiding guards is often not enough to remain
+truly undetected. This Charm summons up subtle but
+useful air currents that conceal the traces of the passage of
+the character and his associates, obscuring: footprints,
+obliterating scents and weeping away telltale broken
+branches and twigs.
+Every to motes invested in this Charm completely
+obliterate all traces of one being's passage for a distance
+of one mile, including scent Non supernatural attempts
+to track the character tails automatically, and supernatural
+tracking attempts are subject to a standard tracking
+contest. The Dragon-Blooded invoking the Charm may
+extend it to protect as many beings as he has points of
+permanent Essence.
+
+
+## Wind-Walking Technique
+
+Cost: 2 motes
+Duration: Until broken
+Type: Simple
+Minimum Stealth: 3
+Minimum Essence: 3
+Prerequisite Charms: Trackless Passage Style
+
+By invoking this Charm, the character gains the
+ability to move normally along any roughly horizontal
+surface - even those normally impossible to cross. Walk-
+ing across mud, quicksand, even water is easy with this
+Charm in place. The Charm also instills perfect balance
+and excellent timing, giving the character the facility to
+easily scamper across ropes, poles, beams, scaffolding and
+the like with no movement penalties.
+The wind walker may move normally in all respects
+across such surfaces, including jumping, rolling, crawling
+— however he wishes to move. However, the character
+must keep moving. If even a single turn is spent standing
+still for whatever reason, the Charm's magic is broken. The
+hero can carry all of his normal gear and up to his own
+weight in additional burdens. Any greater weight also
+immediately breaks the Charm.
+
+
+## Dragon Shroud Technique
+
+Cost: 6 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Stealth: 5
+Minimum Essence: 4
+Prerequisite Charms: Soundless Action Prana, Wind-Walking Technique
+
+With true mastery of the art of stealth comes the
+power to almost completely shroud oneself from the eyes
+of others. Invoking the Dragon Shroud wraps the air itself
+around a character, concealing her even in broad daylight.
+While Dragon Shroud does not render a character truly
+invisible, her form is blurred and indistinct. Light seems to
+bend around her, making her much more difficult to see
+even if the observer knows she is there — and nearly
+impossible if he does not. The Dragon Shroud also muffles
+sound, masks scent, suppresses body heat and generally
+does its best to foil any attempt to clearly view the Dynast
+This is not true invisibility, however. A careful (or lucky)
+observer can still spot a blurry disturbance in the air where
+the Dragon-Blood stands.
+Every 3 motes invested in this Charm act as one
+automatic opposing success to any action taken against
+character that requires that she be seen, heard or perceived
+with any of the five senses, including attempts to attack
+the character or to spot her when she is sneaking. It also
+quite effectively masks a Dragon-Blooded's identity. The
+Charm has no lingering effects, however, and the character
+can be tracked as normal.
+
+
+## Deliberate Insignificance Method
+
+Cost: 2 motes + 1 mote per ally masked
+Duration: One scene
+Type: Simple
+Minimum Stealth: 3
+Minimum Essence: 3
+Prerequisite Charms: Trackless Passage Style
+
+There are situations and environments where
+moving unnoticed is preferable to moving unseen,
+and in many of those cases, failing to look inconspicuous
+can be far less damning than failing to hide. There
+are also simply scenarios where the best option for
+stealth is to look like you belong there, like part of the
+scenery. A Dragon-Blood who uses this Charm can,
+using Essence to make his body language resonate
+with his surroundings, walk down any street or hall,
+and anyone watching will simply fail to find anything
+noteworthy or out of place about him. Watchers in a
+court might assume the character is a page, think him
+a functionary while in an office or believe he's a
+soldier in a military camp.
+Any rolls to take note of the character are at a
+difficulty equal to his Stealth Ability, though this
+difficulty may be lowered if the character engages in
+very outlandish or attention-grabbing behavior. A
+character using this Charm can, for 1 additional mote
+per ally, include others in the effect, up to a maximum
+number of people equal to his Essence.
+
+
+## Empty Hand Posture
+
+Cost: 1 mote per minute per target
+Duration: Varies
+Type: Simple
+Minimum Stealth: 4
+Minimum Larceny: 2
+Minimum Essence: 3
+Prerequisite Charms: Soundless Action Prana
+
+Stealth is more than a subtle gait and the ability
+to remain still. There are a great number of mind
+games involved in going unnoticed: speed of movement,
+gait, body language, clothing choices,
+misdirection, capitalizing on distractions and more.
+These techniques and considerations, when mastered
+can be applied to more specific and specialized types of
+subterfuge. This Charm is such a specialized application:
+The aim of the Dragon-Blood is not to conceal
+herself, but to conceal what she is carrying or manipulating
+with her hands.
+A character using this Charm can conceal an
+object that is no larger than half her size and not
+heavier than can be easily carried in two hands.
+Alternately, she can completely conceal what she is
+doing with her hands by allowing her Essence to
+guide her actions to make sure that observers have no
+line of sight to the object or activity concealed. The
+Essence cost for this Charm is 1 mote per minute per
+subject from whom the object or activity is concealed
+from sight, up to a maximum of the character's
+Essence + Manipulation.
+When concealing an object, the character can
+take any action she wishes without ending the Charm,
+including talking with or even embracing one of the
+targets, so long as she takes no action using the
+concealed object. Taking any action using the concealed
+object ends the Charm. Attacking with a
+weapon that has been concealed through the use of
+this Charm will, in most cases, surprise the target.
+
+
+## Favored Haunt Stance
+
+Cost: 3 motes per success
+Duration: Instant
+Type: Supplemental
+Minimum Stealth: 3
+Minimum Essence: 3
+Prerequisite Charms: Any three Stealth Charms
+
+Through intense focus or long experience, a
+Dragon-Blood using this Charm has gained near-flawless
+mastery of the art of stealth in a particular
+environment or set of circumstances — or, possibly,
+when stalking a favored class of prey.
+The character's Stealth specialty dice may be
+converted into automatic successes for 3 motes of
+Essence per die converted. The remainder of the pool
+is rolled normally. This Charm only functions if the
+character is applying the specialty.
+
+
+## Subtle Breeze Kata
+
+Cost: 3 motes, 1 Willpower
+Duration: Instant
+Type: Reflexive
+Minimum Stealth: 5
+Minimum Essence: 4
+Prerequisite Charms: Zone of Silence Stance, Distracting Breeze Meditation
+
+With this level of skill, a Dragon-Blood can accomplish
+with the most minimal or sudden of
+movements what would normally be a deliberate and
+careful attempt at stealth. Masters of this Charm can
+accomplish such feats as hiding in an opponent's
+shadow during combat, vanishing quietly to cover
+when an attacker blinks or assaulting someone on a
+busy street and easily making a stealthy escape. This
+powerful Charm permits the character to make a
+reflexive Stealth roll, even if others are directly observing
+him.

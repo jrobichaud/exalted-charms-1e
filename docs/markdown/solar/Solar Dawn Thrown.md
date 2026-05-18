@@ -1,0 +1,334 @@
+```mermaid
+
+flowchart TD
+
+    precision_of_the_striking_raptor["<a class='internal-link' href='#Precision of the Striking Raptor'>Precision of the<br>Striking Raptor</a>"]
+
+    joint_wounding_attack["<a class='internal-link' href='#Joint-Wounding Attack'>Joint-Wounding Attack</a>"]
+    precision_of_the_striking_raptor -----> joint_wounding_attack
+
+    falling_icicle_strike["<a class='internal-link' href='#Falling Icicle Strike'>Falling Icicle Strike</a>"]
+    joint_wounding_attack --> falling_icicle_strike
+
+    observer_deceiving_attack["<a class='internal-link' href='#Observer-Deceiving Attack'>Observer-Deceiving Attack</a>"]
+    joint_wounding_attack --> observer_deceiving_attack
+
+    mist_on_water_attack["<a class='internal-link' href='#Mist on Water Attack'>Mist on Water Attack</a>"]
+    observer_deceiving_attack --> mist_on_water_attack
+
+    subgraph Castebook Dawn
+
+        ricochet_weapon_technique["<a class='internal-link' href='#Ricochet Weapon Technique'>Ricochet Weapon<br>Technique</a>"]
+
+        reaping_the_bloody_wheat["<a class='internal-link' href='#Reaping the Bloody Wheat'>Reaping the<br>Bloody Wheat</a>"]
+
+        whirling_razor_guardian_technique["<a class='internal-link' href='#Whirling Razor Guardian Technique'>Whirling Razor Guardian<br>Technique</a>"]
+
+        returning_weapon_concentration["<a class='internal-link' href='#Returning Weapon Concentration'>Returning Weapon<br>Concentration</a>"]
+
+    end
+
+    precision_of_the_striking_raptor --> ricochet_weapon_technique
+    ricochet_weapon_technique --> reaping_the_bloody_wheat
+    reaping_the_bloody_wheat --> whirling_razor_guardian_technique
+    precision_of_the_striking_raptor --> returning_weapon_concentration
+
+```
+
+```mermaid
+
+flowchart TD
+
+
+
+    triple_distance_attack_technique["<a class='internal-link' href='#Triple-Distance Attack Technique'>Triple-Distance Attack<br>Technique</a>"]
+
+    cascade_of_cutting_terror["<a class='internal-link' href='#Cascade of Cutting Terror'>Cascade of Cutting Terror</a>"]
+    triple_distance_attack_technique --> cascade_of_cutting_terror
+
+    shower_of_deadly_blades["<a class='internal-link' href='#Shower of Deadly Blades'>Shower of Deadly Blades</a>"]
+    cascade_of_cutting_terror --> shower_of_deadly_blades
+
+    fiery_solar_chakram["<a class='internal-link' href='#Fiery Solar Chakram'>Fiery Solar Chakram</a>"]
+    cascade_of_cutting_terror --> fiery_solar_chakram
+
+```
+
+
+## Precision of the Striking Raptor
+
+Cost: 1 mote per die
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The character infuses her thrown weapon, be it a
+hatchet, knife or shuriken, with Essence, coming to a
+perfect understanding of the weapon's balance and behavior
+at the moment of release. For each mote of Essence
+spent, the player may add 1 die to a Thrown attack roll but
+cannot more than double her character's dice pool. The
+player must declare how much Essence she is going to use
+in this Charm prior to making the attack roll.
+
+
+## Joint-Wounding Attack
+
+Cost: 3 motes
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 3
+Minimum Essence: 1
+Prerequisite Charms: Precision of the Striking Raptor
+
+The character attacks, not only to do damage, but to
+stun or cripple his opponent. The character attacks and
+damage is rolled as normal. However, for every health level
+of damage the attack inflicts, the target suffers a -1 penalty
+to all dice pools related to physical activity until the end
+of the scene. It is up to the player and Storyteller to
+describe how this is inflicted - it could be an injured
+hand, slashed tendons or a stunning blow to the head.
+While a very small number of creatures (such as animated
+statues of solid iron or marble) might be unaffected by this
+attack, it works on automata, the undead and so forth.
+Storytellers will have to work with players to help describe
+the attacks' adverse effects on more exotic opponents.
+
+
+## Falling Icicle Strike
+
+Cost: 6 motes
+Duration: Instant
+Type: Simple
+Minimum Thrown: 5
+Minimum Essence: 3
+Prerequisite Charms: Joint-Wounding Attack
+
+This deadly Charm is the friend of assassins everywhere.
+The Exalted charges her weapon with Essence and strikes from
+surprise. The defender applies soak, and the attacker's player
+rolls for damage as normal, but doubles the number of successes
+when determining damage. This Charm amplifies the natural
+shock of a surprise attack and must be used from ambush — it
+has no effect when used against an alerted opponent.
+
+
+## Observer-Deceiving Attack
+
+Cost: 3 motes
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 3
+Minimum Essence: 2
+Prerequisite Charms: Joint-Wounding Attack
+
+The art of thrown weapons is an art often practiced by
+assassins and others who attack from ambush. Through the use
+of this Charm, the character can mislead his target (or his
+target's avengers) as to his location, buying him a chance to
+escape or giving him a chance to make further attacks. The
+Exalted makes an attack as normal, gaining no special bonuses
+to attack or damage. However, attacks made using this Charm
+appear to have been made from a totally different direction. For
+example, a character attacking her target from behind might
+inflict a wound to the chest or side. Obviously, the sight of the
+character actually hurling the knife will ruin the effect, but the
+difficulty of the Awareness roll to spot the attacker is raised by
+one (or more, at the Storyteller's discretion).
+
+
+## Mist on Water Attack
+
+Cost: 3 motes per turn
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 4
+Minimum Essence: 2
+Prerequisite Charms: Observer-Deceiving Attack
+
+The character strikes his unsuspecting opponent with a
+weapon imbued with Essence, stifling her outcry and muting
+the sensory impressions of the attack. The character may
+impose silence on the attack for up to a number of turns equal
+to his Essence score, but he must pay 3 motes per turn of silence.
+If the target is killed outright by the attack, her death willnot
+be noticed for a number of turns equal to the length of the silence.
+She will stand upright even though already dead, circumstances
+will conspire to make her companions look away and assume she
+us still alive, and so forth. If the target is still alive, she may react
+to the attack normally, but she cannot speak or otherwise raise
+an alarm for a number of turns equal to the silence's length.
+Obviously, someone seeing the target fighting is likely
+to draw some obvious conclusions regardless of whether she
+can speak or not. This Charm amplifies the natural shock of
+a surprise attack and must be used from ambush — it has no
+effect when used against an alerted opponent. It's left up to
+the Storyteller's discretion as to what qualifies as &quot;alerted&quot;.
+
+
+## Ricochet Weapon Technique
+
+Cost: 1 mote per ricochet
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 2
+Minimum Essence: 2
+Prerequisite Charms: Precision of the Striking Raptor
+
+The character can bounce any thrown weapon off of an
+object and have it hit its intended target without penalty.
+Each additional ricochet increases the cost of the Charm by
+one mote of Essence. Bouncing a weapon of off a wall behind
+a target normally allows the character to hit her target from
+behind, denying the target the protection of cover or shields.
+Multiple ricochets can even allow the character to hit targets
+hiding around corners. When using this Charm, rolls to hit
+targets that the character cannot see are at + 1 difficulty if the
+target's exact position is known, or at difficulty +2 if the
+character is aiming by sound or intuition.
+
+
+## Reaping the Bloody Wheat
+
+Cost: 6 motes
+Duration: Instant
+Type: Extra Actions
+Minimum Thrown: 4
+Minimum Essence: 3
+Prerequisite Charms: Ricochet Weapon Technique
+
+When a character makes a Thrown attack using this Charm,
+the weapon ricochets from one target to the next, until it finally
+returns to the character's hand at the end of the turn. The weapon
+makes a number of separate attacks equal to the character's
+Thrown score. Each target must be in range and no target can be
+hit more than once per turn with this attack. Each attack is made
+at the character's normal Thrown dice pool, with no subtractions
+
+
+## Whirling Razor Guardian Technique
+
+Cost: 7 motes, 1 Willpower
+Duration: One scene or special
+Type: Simple
+Minimum Thrown: 5
+Minimum Essence: 3
+Prerequisite Charms: Reaping the Bloody Wheat
+
+Once thrown, a weapon using this Charm continues to
+strike targets for the duration of the scene. Bouncing off of
+trees, walls, targets and the ground, the weapon makes one
+attack on a target each turn. Once the weapon is in motion, the
+attacking character need not worry about it, and can act
+normally without any penalty. When the weapon is thrown,
+the character must decide whom it will attempt to strike each
+turn. This choice cannot be changed once made, and the
+weapon cannot be recalled once set in motion. If a target dies
+or moves out of range, the weapon continues on to its next
+target. Each attack is made at the attacking character's normal
+Thrown dice pool, at the character's initiative for the turn.
+This Charm ends if the caster flees or dies, or once the
+weapon has failed to inflict damage on a number of attacks
+equal to the attacker's Permanent Essence score. Such failure
+may stem from the target's dodge or parry or because the
+weapon struck successfully but did no damage. The weapon
+can be attacked at difficulty 4; if successfully struck, it is
+batted from the air and its deadly rampage ends. If an attack
+roll for the weapon botches, the weapon strikes an unintended
+target — a person or an object — and the Charm
+fades. If the Charm is used on several successive turns, a
+character can fill the air around him with deadly blades.
+
+
+## Returning Weapon Concentration
+
+Cost: 4 motes
+Duration: One scene
+Type: Supplemental
+Minimum Thrown: 3
+Minimum Essence: 1
+Prerequisite Charms: Precision of the Striking Raptor
+
+Any thrown weapon used by the character in this scene
+returns to his hand at the end of the turn in which it was thrown.
+Even if the weapon hits and damages an opponent, it flies from the
+wound to its owner's hand. Using this Charm, a character need
+not worry about running out of weapons to throw. However, a
+botch on any Thrown roll prevents that weapon from returning.
+
+
+## Triple-Distance Attack Technique
+
+Cost: 3 motes
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 2
+Minimum Essence: 2
+Prerequisite Charms: None
+
+The character imbues her arm and weapon with
+Essence, lightening the weapon at the moment of launch
+and correcting for tiny errors in aim. The weapon's range
+is tripled for the purposes of determining penalties based
+on distance to the target.
+
+
+## Cascade of Cutting Terror
+
+Cost: 5 motes
+Duration: Instant
+Type: Supplemental
+Minimum Thrown: 3
+Minimum Essence: 3
+Prerequisite Charms: Triple-Distance Attack Technique
+
+The character hurls dozens or even hundreds of Essence
+duplicates of his favored throwing weapon, saturating
+an area with countless attacks. The character doubles his
+Thrown pool for the purposes of the attack, which cannot
+be dodged, only blocked. This attack effects only a single
+individual. However, it can be used for utility purposes —
+for example, to clear tree branches and undergrowth from
+the façade of an overgrown stepped pyramid or to ruin the
+rigging of a ship. The thrown weapons fade away a few
+seconds after impact. The character need not have any
+actual copies of the weapon he is conjuring.
+
+
+## Shower of Deadly Blades
+
+Cost: 5 motes, 1 Willpower
+Duration: Instant
+Type: Extra Action
+Minimum Thrown: 5
+Minimum Essence: 2
+Prerequisite Charms: Cascade of Cutting Terror
+
+The Exalted hurls a number of throwing weapons with
+the same hand. The character makes one attack roll but
+applies the result to every weapon. The weapons can be
+thrown at one or several targets without penalty. The
+character cannot hurl more weapons than his Essence score and
+must have enough ammunition. If this Charm is Comboed
+with supplemental Charms, the cost of the supplemental
+Charms must be paid for every weapon the character hurls.
+
+
+## Fiery Solar Chakram
+
+Cost: 5 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Thrown: 5
+Minimum Essence: 3
+Prerequisite Charms: Cascade of Cutting Terror
+
+The character hurls a mote of burning light at her target.
+This mote does a lethal damage of 6 + the number of extra
+successes the character rolls on his attack and has a range of
+100 yards. Against demons, ghosts or other creatures of the
+night, the character may add a number of automatic successes
+to her attack roll equal to her Essence score.

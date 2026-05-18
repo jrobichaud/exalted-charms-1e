@@ -1,0 +1,355 @@
+```mermaid
+
+flowchart TD
+
+    memorable_performance_technique["<a class='internal-link' href='#Memorable Performance Technique'>Memorable Performance<br>Technique</a>"]
+
+    talented_improvisation["<a class='internal-link' href='#Talented Improvisation'>Talented Improvisation</a>"]
+    memorable_performance_technique --> talented_improvisation
+
+    dance_of_flashing_swords["<a class='internal-link' href='#Dance of Flashing Swords'>Dance of Flashing Swords</a>"]
+    talented_improvisation --> dance_of_flashing_swords
+
+    enchanting_performance["<a class='internal-link' href='#Enchanting Performance'>Enchanting Performance</a>"]
+    memorable_performance_technique --> enchanting_performance
+
+    protective_performance["<a class='internal-link' href='#Protective Performance'>Protective Performance</a>"]
+    enchanting_performance --> protective_performance
+
+    subgraph The Outcaste
+        tireless_footfalls_cadence["<a class='internal-link' href='#Tireless Footfalls Cadence'>Tireless Footfalls Cadence</a>"]
+
+        flawless_training_execution["<a class='internal-link' href='#Flawless Training Execution'>Flawless Training Execution</a>"]
+
+        peerless_training_method_protocols["<a class='internal-link' href='#Peerless Training Method Protocols'>Peerless Training Method Protocols</a>"]
+    end
+    memorable_performance_technique -----> tireless_footfalls_cadence
+    flawless_training_execution --> peerless_training_method_protocols
+
+    subgraph Aspect Book - Wood
+        hidden_petal_aria_method["<a class='internal-link' href='#Hidden Petal Aria Method'>Hidden Petal Aria<br>Method</a>"]
+        blossom_hides_thorns["<a class='internal-link' href='#Blossom Hides Thorns'>Blossom Hides Thorns</a>"]
+
+    end
+
+    memorable_performance_technique ------> hidden_petal_aria_method
+    dance_of_flashing_swords ---> blossom_hides_thorns
+
+```
+
+
+## Memorable Performance Technique
+
+Cost: 1 mote per two dice
+Duration: Instant
+Type: Supplemental
+Minimum Performance: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The Exalt can call upon her own Essence to draw
+truly outstanding performances from within. Whether
+the performance is music, theater or another performing
+art, the character enhances her talent with this
+Charm. The character can add two dice to her Performance
+dice pool for every mote of Essence spent. She
+can no more than double her Performance Ability with
+this Charm, and if she wishes to add just a single die (for
+example, if she has an odd Performance score) she must
+spend a full mote to get it.
+
+
+## Talented Improvisation
+
+Cost: 2 motes
+Duration: Instant
+Type: Reflexive
+Minimum Performance: 3
+Minimum Essence: 2
+Prerequisite Charms: Memorable Performance Technique
+
+The character with Talented Improvisation can catch
+herself in a misstep in any performance and work her way out
+of it. Whether turning a bad note into an unexpected chord
+or moving from a forgotten line into an unforgettable soliloquy,
+the character is never in serious danger when performing
+onstage. If the player spends the necessary Essence immediately
+upon making a Performance roll, she can reroll it at
+once. This must be done before the Storyteller describes the
+general success or failure of her attempt. She must take the
+second result, no matter what it is. If this Charm is part of a
+Combo, the other Charms in the Combo must be paid for a
+second time when Talented Improvisation is used, but if they
+require dice rolls, those rolls cannot be remade.
+
+
+## Dance of Flashing Swords
+
+Cost: 2 motes, 1 Willpower, + 1 mote per extra enemy
+Duration: One scene
+Type: Reflexive
+Minimum Performance: 4
+Minimum Essence: 2
+Prerequisite Charms: Talented Improvisation
+
+Occasionally, a Dragon-Blooded warrior has no choice
+but to engage in combat in a crowded area or finds himself in
+another situation in which he does not want to be seen
+fighting: Perhaps an ally's mind has been subverted by an evil
+sorcerer, and the Exalt must subdue the ally without letting
+Political enemies know of his circle's internal strife. Regardless
+of the reason, this Charm lets a combatant hide his actions
+and those of a foe within what appears to be stage combat.
+Simply spend the necessary Essence to activate this Charm,
+and most observers will not realize that the ongoing battle is
+not for show alone, no matter how implausible the circumstances
+seem. If the Exalted faces many enemies simultaneously,
+he can extend this cover to include them so long as they are
+extras: He spends one additional mote per extra. He cannot
+extend such cover over a group of characters that are not
+extras, nor can he extend his cover to protect any allies of his
+that show up. This Charm will not fool characters with
+Essence higher than the character using the Charm.
+
+
+## Enchanting Performance
+
+Cost: 8 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Performance: 4
+Minimum Essence: 2
+Prerequisite Charms: Memorable Performance Technique
+
+At this level of mastery, the Dragon-Blood's performances
+become so awe-inspiring, so staggeringly beautiful,
+that she can insinuate minor suggestions into audience
+members who behold them. If the suggestions violate individual
+audience members' Natures, then those viewers will
+not obey them; more generally, the suggestions must be the
+sorts of things that won't bring the audience to any real harm.
+They might find themselves more willing to travel to a
+particular part of town at a particular time or to buy their goods
+from a particular merchant or to trust a particular leader more
+than they would otherwise. Only one sort of performance can
+violate the rule against bringing audience members to obvious
+harm, and that is a performance designed to incite a riot.
+Perhaps obviously, this is just as dangerous to the Exalt as it is
+to the audience members and should not be attempted lightly.
+The player must spend the necessary Essence and
+Willpower to enact this Charm, and she must also roll
+Charisma + Performance. With a basic success, the character
+can instill a simple suggestion into a small crowd; the
+group will remember where they got the idea. For each
+additional success, the crowd can be somewhat larger:
+Three successes implies a crowd of hundreds and five a
+crowd of thousands. Additionally, if the character sacrifices
+one success, the crowd will not remember where they
+received the suggestion that spurred their mass activity.
+
+
+## Protective Performance
+
+Cost: 8 motes
+Duration: Until performance ends
+Type: Simple
+Minimum Performance: 5
+Minimum Essence: 3
+Prerequisite Charms: Enchanting Performance
+
+This performance lends a bit of defensive magic to an
+entire crowd of viewers. This magic can be used to protect
+the crowd from hostile or mind-affecting sorcery or from
+impersonal ranged attacks such as volleyed arrow fire. The
+Charm provides no protection against hand-to-hand attacks.
+To activate the Charm, the character must spend
+the necessary Essence. All those watching the performance
+in question receive the following benefits so long as
+the performance continues:
+• Treat their Essences as being one higher than it is
+for the purposes of withstanding mind-affecting powers.
+• Add two additional soak, both lethal and bashing,
+against ranged attacks.
+
+
+## Tireless Footfalls Cadence
+
+Cost: 2 motes per fang
+Duration: Instant
+Type: Simple
+Minimum Performance: 3
+Minimum Essence: 2
+Prerequisite Charms: Memorable Performance Technique
+
+The songs of the Dragon-Blooded can inspire even
+the most slovenly unit to incredible feats of endurance. As
+her unit sets out upon the road (the song must be started
+with the march), the Terrestrial raises her voice in song,
+singing tales of the unit's glory, the prodigious feats it has
+accomplished and the justified vengeance it is going to
+wreak upon the enemy when it arrives. As she sings, her
+soldiers find their loads lightened, their resolve stiffened
+and the journey less onerous.
+So long as she continues singing, her unit gains a
+number of automatic successes equal to her Permanent
+Essence - 2 (minimum 1) on all fatigue checks, and its rate
+of travel is doubled. This feat can only be performed for
+infantry units, and a single Dragon-Blooded can only
+affect a number of fangs equal to her permanent Essence +
+2, but the Charm is synergistic (see p. 45). Motes spent on
+this Charm are committed — a Dragon-Blood can keep
+the Charm working for a number of hours equal to her
+permanent Essence + Stamina.
+
+
+## Flawless Training Execution
+
+Cost: 5 motes, 1 Willpower, plus 1 mote and 1 committed mote per fang trained
+Duration: Two months
+Type: Simple
+Minimum Performance: 2
+Minimum Essence: 2
+Prerequisite Charms: None
+
+This Charm allows the Dragon-Blooded to execute
+a training plan developed by Charms higher in this tree.
+With the Charm in effect, the Exalt can flawlessly lead
+drills, impart knowledge and teach classes without error.
+A single Dragon-Blooded can train a number of
+fangs equal to his Permanent Essence, but this Charm is
+synergistic (see p. 45) — groups of Terrestrials working
+in concert can train large units of troops quickly. Each
+use of this Charm requires a training program or protocol
+developed with the Peerless Training Method
+Protocols or other Charms — a Dragon-Blooded can
+memorize a number of training programs at one time
+equal to his permanent Essence. While this Charm is in
+use, 1 mote of Essence per fang trained is committed to
+its continued operation - these motes are released
+when the program is complete.
+
+
+## Peerless Training Method Protocols
+
+Cost: 7 motes, 1 Willpower
+Duration: One month per dot of permanent Essence, or until training program is used
+Type: Simple
+Minimum Performance: 3
+Minimum Essence: 2
+Prerequisite Charms: Flawless Training Execution
+
+During the First Age, the Dragon-Blooded relied
+on the Celestial Exalted and their superior training
+methods to bring knowledge to the people and acted as
+facilitators, rather than designers, of training programs.
+When the Usurpation was being planned, the
+Terrestrial Exalted developed this family of Charms as
+a way to secretly train commandos and soldiers for
+their war, and the Dragon-Bloods have continued to
+refine the process ever since.
+Like the Sense-Destroying Methods, this Charm is
+actually a family of Charms that work in an identical
+fashion — five examples of the Charms available are listed
+in the Protocols sidebar on this page, but others are known,
+and more can be developed as needed. Using one of these
+Charms, a skilled Dragon-Blood can develop a training
+program to improve those undergoing the program in
+specific areas — she can teach civilians how to be soldiers,
+teach disaster recovery techniques or impart the fundamentals
+of nearly any task.
+To use these Charms, the Terrestrial develops a
+training program — this requires one week, minus one
+day for each dot of permanent Essence over 2 (so a
+Dragon-Blooded with Essence 4 can develop a training
+program in five days). At the end of this time, the
+Charm's user commits the plan to record on paper, and
+his player rolls the character's Intelligence + Performance,
+against a difficulty of 4. If the Charm is successful,
+the plan will raise one Ability listed to 3, two Abilities to
+2 and the remaining Abilities to 1 each, add one dot to
+an Attribute listed and raise one of the Virtues listed by
+one. Extra successes can be used to buy specialties for the
+Abilities raised - each extra success equals one specialty.
+No more than two specialties can be gained in this
+fashion. A failed roll indicates a training plan that simply
+will not work — the time and Essence spent is lost. A
+botched roll indicates a training plan that is subtly flawed
+in some fashion — it cannot work, but this will not
+become evident until it is implemented in the field by
+being used by someone with the Flawless Training Ex-
+ecution Charm. This will typically be noticeable within
+the first week of training, but particularly bad botches
+may take weeks to become evident.
+The Abilities gained by this Charm are not additive
+- if a character has more dots in that Ability than the
+training program would provide, she gains no benefit
+(though she may still gain any attached specialties, if she
+has less than three). These Charms cannot raise Attributes
+above 3, Virtues above 2 or Willpower above 8 (these stats
+can be raised later through experience). A given character
+can only benefit from a single Charm in this tree once but
+can be the recipient of multiple different Charms (so a
+character could receive the Combat Drill Protocol and
+then the Officer Readiness Training Protocol). This Charm
+has no effect whatsoever on individuals with an Essence
+higher than 1.
+Each training program is unique and can only be
+used once — if a developer wants to hand a training
+program to two subordinates, he must use this Charm
+twice and develop two different programs. A Dragon-
+Blooded can develop as many training programs as he
+likes, but each requires 2 committed motes of Essence to
+remain viable - these motes are returned when some-
+one with the Flawless Training Execution Charm uses
+the training program.
+
+
+## Hidden Petal Aria Method
+
+Cost: 2 motes per subject
+Duration: Special
+Type: Reflexive
+Minimum Performance: 3
+Minimum Essence: 2
+Prerequisite Charms: Memorable Performance Technique
+
+In the courts of the Dragon-Blooded, the love of
+musical and theatrical performances is commonplace. A
+character skilled in the use of this Charm can manipulate
+the nuance and subtext of his performance to communicate
+secretly with audience members of his choice.
+During the course of a performance, a Dragon-Blood
+may use this Charm, expending 2 motes for each audience
+member he wishes to communicate with secretly. For the
+duration of the performance, he may pass information to
+these audience members as if he was delivering a slowly
+spoken monologue. Some types of specialized or technical
+information may not be communicated through the use of
+this Charm, but general topics of conversation can be transmitted. The Charm only facilitates communication from
+the performer to the audience member or members.
+
+
+## Blossom Hides Thorns
+
+Cost: 3 motes
+Duration: Instant
+Type: Reflexive
+Minimum Performance: 4
+Minimum Essence: 2
+Prerequisite Charms: Dance of Flashing Swords
+
+The Dragon-Blooded are social creatures, enamored
+with culture and art, but they are also creatures of violence,
+passion and cunning artifice. It is upon the ground where
+these two spheres of interest meet that this Charm is most
+useful. With a graceful dance step or an artful flourish,
+a Dragon-Blood skilled in this technique may mask an
+attack as part of a performance, taking her foe unawares.
+Treat this attack as an ambush attempt (see Exalted, p.
+238) unless the ambushed character employs a Charm that
+makes him aware of attacks against his person. Players of
+such ambushed characters must make the normal Wits +
+Awareness roll for their characters to react to the ambush,
+but they must add the permanent Essence of the character
+using Blossom Hides Thorns to their difficulty. This Charm
+may not be used once combat has begun.

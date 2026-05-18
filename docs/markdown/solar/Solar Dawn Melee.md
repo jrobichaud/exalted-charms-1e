@@ -1,0 +1,722 @@
+```mermaid
+
+flowchart TD
+
+    excellent_strike["<a class='internal-link' href='#Excellent Strike'>Excellent Strike</a>"]
+
+    hungry_tiger_technique["<a class='internal-link' href='#Hungry Tiger Technique'>Hungry Tiger Technique</a>"]
+    excellent_strike --> hungry_tiger_technique
+
+    fire_and_stone_strike["<a class='internal-link' href='#Fire and Stone Strike'>Fire and Stone Strike</a>"]
+    hungry_tiger_technique --> fire_and_stone_strike
+
+    one_weapon_two_blows["<a class='internal-link' href='#One Weapon, Two Blows'>One Weapon, Two Blows</a>"]
+    excellent_strike --> one_weapon_two_blows
+
+    peony_blossom_attack["<a class='internal-link' href='#Peony Blossom Attack'>Peony Blossom Attack</a>"]
+    one_weapon_two_blows --> peony_blossom_attack
+
+    iron_whirlwind_attack["<a class='internal-link' href='#Iron Whirlwind Attack'>Iron Whirlwind Attack</a>"]
+    peony_blossom_attack --> iron_whirlwind_attack
+
+    golden_solar_block["<a class='internal-link' href='#Golden Solar Block'>Golden Solar Block</a>"]
+
+    dipping_swallow_defense["<a class='internal-link' href='#Dipping Swallow Defense'>Dipping Swallow Defense</a>"]
+    golden_solar_block --> dipping_swallow_defense
+
+    bulwark_stance["<a class='internal-link' href='#Bulwark Stance'>Bulwark Stance</a>"]
+    dipping_swallow_defense ------> bulwark_stance
+
+    heavenly_guardian_defense["<a class='internal-link' href='#Heavenly Guardian Defense'>Heavenly Guardian Defense</a>"]
+    bulwark_stance --> heavenly_guardian_defense
+
+    fivefold_bulwark_stance["<a class='internal-link' href='#Fivefold Bulwark Stance'>Fivefold Bulwark Stance</a>"]
+    bulwark_stance --> fivefold_bulwark_stance
+
+    solar_counterattack["<a class='internal-link' href='#Solar Counterattack'>Solar Counterattack</a>"]
+    dipping_swallow_defense --> solar_counterattack
+
+    ready_in_eight_direction_stance["<a class='internal-link' href='#Ready in Eight Directions Stance'>Ready in Eight Directions<br>Stance</a>"]
+    solar_counterattack --> ready_in_eight_direction_stance
+
+    subgraph Castebook Dawn
+        direction TB
+
+        whirlwind_of_searing_blows["<a class='internal-link' href='#Whirlwind of Searing Blows'>Whirlwind of Searing Blows</a>"]
+
+        protection_of_celestial_bliss["<a class='internal-link' href='#Protection of Celestial Bliss'>Protection of<br>Celestial Bliss</a>"]
+    end
+
+    fire_and_stone_strike --> whirlwind_of_searing_blows
+    heavenly_guardian_defense --> protection_of_celestial_bliss
+    fivefold_bulwark_stance --> protection_of_celestial_bliss
+
+
+    subgraph Castebook Night
+        dual_slaying_stance["<a class='internal-link' href='#Dual Slaying Stance'>Dual Slaying Stance</a>"]
+
+        sun_and_moon_method["<a class='internal-link' href='#Sun and Moon Method'>Sun and Moon Method</a>"]
+
+        two_swords_technique["<a class='internal-link' href='#Two Swords Technique'>Two Swords Technique</a>"]
+
+            steel_devil_style["<a class='internal-link' href='#Steel Devil Style'>Steel Devil Style</a>"]
+    end
+    dual_slaying_stance --> sun_and_moon_method
+    sun_and_moon_method --> two_swords_technique
+    ready_in_eight_direction_stance --> steel_devil_style
+    two_swords_technique --> steel_devil_style
+
+```
+
+```mermaid
+
+flowchart TD
+
+    retrieve_the_fallen_weapon["<a class='internal-link' href='#Retrieve the Fallen Weapon'>Retrieve the Fallen Weapon</a>"]
+
+    call_the_blade["<a class='internal-link' href='#Call the Blade'>Call the Blade</a>"]
+    retrieve_the_fallen_weapon --> call_the_blade
+
+    summoning_the_loyal_steel["<a class='internal-link' href='#Summoning the Loyal Steel'>Summoning the Loyal Steel</a>"]
+    call_the_blade --> summoning_the_loyal_steel
+
+    glorious_solar_saber["<a class='internal-link' href='#Glorious Solar Saber'>Glorious Solar Saber</a>"]
+    call_the_blade ---> glorious_solar_saber
+
+    iron_raptor_technique["<a class='internal-link' href='#Iron Raptor Technique'>Iron Raptor Technique</a>"]
+    retrieve_the_fallen_weapon -----> iron_raptor_technique
+
+    sandstorm_wind_attack["<a class='internal-link' href='#Sandstorm-Wind Attack'>Sandstorm-Wind Attack</a>"]
+    iron_raptor_technique --> sandstorm_wind_attack
+
+    edge_of_morning_sunlight["<a class='internal-link' href='#Edge of Morning Sunlight'>Edge of Morning Sunlight</a>"]
+    iron_raptor_technique --> edge_of_morning_sunlight
+
+    corona_of_radiance["<a class='internal-link' href='#Corona of Radiance'>Corona of Radiance</a>"]
+    edge_of_morning_sunlight --> corona_of_radiance
+
+    blazing_solar_bolt["<a class='internal-link' href='#Blazing Solar Bolt'>Blazing Solar Bolt</a>"]
+    sandstorm_wind_attack --> blazing_solar_bolt
+    corona_of_radiance --> blazing_solar_bolt
+
+```
+
+
+## Excellent Strike
+
+Cost: 1 mote per die
+Duration: Instant
+Type: Supplemental
+Minimum Melee: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The Exalted fills her weapon with crackling Essence,
+making her swing hard and true. For each mote of Essence
+spent on this Charm, the player may add one die to a single
+attack but can no more than double her character's regular
+Dexterity + Melee dice pool.
+
+
+## Hungry Tiger Technique
+
+Cost: 1 mote
+Duration: Instant
+Type: Minimum Melee
+Supplemental: 2
+Minimum Essence: 1
+Prerequisite Charms: Excellent Strike
+
+To activate the Hungry Tiger Technique, the Exalted
+charges her body and weapon with Essence, unifying the
+two and making her attack as if the weapon were an
+extension of her being. If the attack is successful, the player
+counts the extra successes twice for the purposes of determining
+damage. The Essence to power this Charm must be
+spent prior to making the attack roll.
+
+
+## Fire and Stone Strike
+
+Cost: 1 mote per health level
+Duration: Instant
+Type: Supplemental
+Minimum Melee: 3
+Minimum Essence: 1
+Prerequisite Charms: Hungry Tiger Technique
+
+The character focuses her Essence into her weapon and
+swings a terrible blow against her opponent. If the blow is
+successful, the character's attack does an additional die of
+damage against her opponent for every mote of Essence she
+spent activating the Charm. Characters cannot spend more
+Essence activating Fire and Stones Strike than they have
+dots of Strength. Note that the Essence cost of Fire and
+Stones Strike must be spent before the attack roll. If a
+non-orichalcum weapon is used to do more automatic damage
+successes than its damage rating, it will probably break.
+
+Errata:
+This one is entertainingly confusing. Clearly, nazi ninja frogmen secretly altered the manuscript.
+For every mote you spend on Fire and Stones strike, one of your damage dice will not be rolled, it will be
+an automatic success. It does not add to the damage of the attack, it merely takes what would normally be
+dice rolled for damage and converts them to automatic successes. This is a wager – if you do less dice of
+damage than you paid the conversion cost on, you have wasted the Essence. Obviously, if you can hit them
+at all while using this Charm, you will generally do at least one Health Level of damage, since all
+successful attacks do 1 die of damage. If the opponent is protected by Invulnerable Skin of Bronze or
+something else that completely defends against wimpy attacks, and you throw a wimpy attack at them, you
+will not do an automatic health level.
+
+
+## One Weapon, Two Blows
+
+Cost: 3 motes
+Duration: Instant
+Type: Extra Action
+Minimum Melee: 2
+Minimum Essence: 1
+Prerequisite Charms: Excellent Strike
+
+The Exalted charges her weapon arm with Essence,
+and it becomes as fast as a striking snake. The character
+may attack a target twice in one turn. The attacks both
+occur on the character's initiative, but each is rolled
+separately. If the defender attempts to dodge or parry, one
+roll is made and the results are applied to both attacks.
+
+
+## Peony Blossom Attack
+
+Cost: Varies
+Duration: Instant
+Type: Extra Action
+Minimum Melee: 3
+Minimum Essence: 1
+Prerequisite Charms: One Weapon, Two Blows
+
+The Exalted surrounds herself with a nimbus of Essence,
+and her movements become as rapid and smooth as
+ice on hot metal. The character may make multiple attacks,
+either against multiple targets or a single opponent.
+The character may attack as many times as she likes, so
+long as she has sufficient Essence to fuel the Charm. Each
+attack costs motes of Essence equal to the twice the total
+number of attacks the character has made that turn,
+including his normal attack. A character making 5 attacks
+would pay 28 (4 + 6 + 8 + 10) motes of Essence to activate
+the Peony Blossom Attack.
+The player must declare how many attacks the character
+will make this turn before the character takes her first
+action. The character cannot split her Melee dice pool and
+use this Charm in the same turn, so a Combo with some
+sort of defensive Charm is recommended. Defenders must
+dodge or parry each attack separately.
+
+
+## Iron Whirlwind Attack
+
+Cost: 5 motes, 1 Willpower
+Duration: Instant
+Type: Extra Action
+Minimum Melee: 5
+Minimum Essence: 2
+Prerequisite Charms: Peony Blossom Attack
+
+The character permeates his body with raw Essence,
+so much that it wraps around him in a gauzy corona and
+leaves trailing streaks behind his lightning-fast strikes and
+thrusts. On the turn he uses this Charm, the character may
+make a total number of attacks equal to his Dexterity.
+The character cannot split his Melee dice pool and
+use this Charm in the same turn, so a Combo with some
+sort of defensive Charm is recommended.
+
+
+## Golden Solar Block
+
+Cost: 1 mote per 2 dice
+Duration: Instant
+Type: Reflexive
+Minimum Melee: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Through this Charm, the character uses Essence to guide
+her weapon on the defense, allowing her to parry the attacks
+of many foes at once. The character may trade Essence for dice
+to block any hand-to-hand attack that she is aware of, at the
+cost of 1 mote per 2 dice. The player cannot use more dice to
+parry any single attack than her Melee dice pool. If there are
+an odd number of dice in her Melee pool, then the fractional
+mote left over after buying the last die is lost.
+
+Errata:
+This Charm is an exception to the general Ability + Attribute rule. When using Golden Essence Block, you
+can't make your dice pool exceed your normal parry pool (Dexterity + Melee + whatever bonuses you may
+have lying around from the weapon or your specialties). It's most efficient in parrying multiple extra
+attackers where a couple parry dice is all you need. If combined with something like Dipping Swallow
+Defense it proves very useful for parrying the attacks of Exalts as well. For more on reflexive Charms that
+give you extra dice and how they combine with reflexive Charms that give you full parries and dodges, see
+the “Dice Pool Maximums” entry in the Technical Rules Clarifications section of this document.
+
+
+## Dipping Swallow Defense
+
+Cost: 2 motes
+Duration: Instant
+Type: Reflexive
+Minimum Melee: 2
+Minimum Essence: 1
+Prerequisite Charms: Golden Essence Block
+
+The character has achieved further mastery of defensive
+Essence flows and can now more smoothly block
+attacks. Dipping Swallow Defense allows the character to
+use his full Dexterity + Melee dice pool to parry any one
+incoming hand-to-hand attack that he is aware of.
+
+
+## Bulwark Stance
+
+Cost: 5 motes
+Duration: Until next action
+Type: Simple
+Minimum Melee: 3
+Minimum Essence: 1
+Prerequisite Charms: Dipping Swallow Defense
+
+The character now has the ability to use defensive
+Essence flows to gain perfect form and poise. Until her
+next action, the character may use her full Dexterity +
+Melee dice pool to parry any attack she is aware of, so long
+as the attack has a physical component and is not specifically
+noted as being impossible to block.
+
+
+## Heavenly Guardian Defense
+
+Cost: 3 motes, 1 Willpower
+Duration: Instant
+Type: Reflexive
+Minimum Melee: 4
+Minimum Essence: 2
+Prerequisite Charms: Bulwark Stance
+
+The character may block, without his player rolling, any
+one attack against him that he is aware of, even if the attack
+is not normally blockable, such as that from an arrow, a bolt
+of acid or a hurtling boulder. Blocking the tremendously
+powerful attacks of beings such as godlings and demon princes
+will almost certainly cause non-magical weapons to perish,
+but the attack will be stopped at no harm to the Exalted.
+
+Errata:
+It says this can block unblockable attacks &quot;including those from arrows&quot;, implying that you normally can't,
+when the Drama chapter clearly states you can. This is a holdover from earlier versions of the rules, when
+Archery attacks were harder to block. Heavenly Guardian Defense can still block pretty much any sort of
+physical attack, it's just arrows aren't anything special anymore.
+
+
+## Fivefold Bulwark Stance
+
+Cost: 5 motes, 1 Willpower
+Duration: One scene
+Type: Reflexive
+Minimum Melee: 5
+Minimum Essence: 3
+Prerequisite Charms: Bulwark Stance
+
+For the rest of the scene, the character is surrounded by
+glowing Essence arcs, outlining his ideal protective moves
+and guiding his weapon in defense. The character may use
+his full Dexterity + Melee dice pool to parry any attacks
+against him of which he is aware, even missile weapons and
+magical attacks that possess a physical component.
+
+
+## Solar Counterattack
+
+Cost: 3 motes
+Duration: Instant
+Type: Reflexive
+Minimum Melee: 4
+Minimum Essence: 1
+
+Prerequisite Charms: Dipping Swallow Defense
+Essence guides the character's tempo, allowing her
+to strike when her enemy extends for an attack. The
+character may immediately make an attack at her full
+Dexterity + Melee dice pool against anyone executing a
+hand-to-hand attack against her. This attack is made
+after the roll to hit the counterattacking Exalted but
+before damage is determined.
+The Solar Counterattack is not an action and does
+not subtract from the character's dice pools or affect her
+action for the turn. A character can make as many Solar
+Counterattacks in a turn as she can afford to pay for, but a
+character cannot use Solar Counterattack in response to
+Solar Counterattack or any other counterattack Charm.
+
+
+## Ready in Eight Directions Stance
+
+Cost: 5 motes
+Duration: One turn
+Type: Reflexive
+Minimum Melee: 5
+Minimum Essence: 2
+Prerequisite Charms: Solar Counterattack
+
+The character now rides the impulses of Essence
+with supple perfection. To attack him is to invite a lethal
+counterstroke. Until the character's next action, he may
+respond to all incoming hand-to-hand attacks with an
+immediate counterattack at his full Dexterity + Melee
+dice pool. As with Solar Counterattack, Ready in Eight
+Directions Stance comes after the opponent's attack roll
+but before damage effects are applied. Ready in Eight
+Directions Stance in no way mitigates the attack's effects.
+A character cannot use Ready in Eight Directions
+Stance in response to Solar Counterattack or any other
+counterattack Charm.
+
+
+## Whirlwind of Searing Blows
+
+Cost: 7 motes, 1 Willpower
+Duration: One scene
+Type: Supplemental
+Minimum Melee: 4
+Minimum Essence: 3
+Prerequisite Charms: Fire and Stones Strike
+
+The character increases her mastery of her power and learns
+to charge her weapon with Essence for an entire battle. Filled
+with devastating might, the weapon can deliver punishing blows
+to all opponents. Add the character's permanent Essence to the
+weapon's damage for the rest of the scene. Any weapon save one
+of exceptional quality will fall to pieces after the end of this scene,
+and only weapons made of the Five Magical Materials can stand
+up to repeated uses of this Charm. A character can benefit from
+the effects of only one application of this Charm at a time.
+
+
+## Protection of Celestial Bliss
+
+Cost: 7 motes, 1 Willpower
+Duration: Special
+Type: Reflexive
+Minimum Melee: 5
+Minimum Essence: 6
+Prerequisite Charms: Heavenly Guardian Defense, Fivefold Bulwark Stance
+
+The character may block, without rolling, a number
+attacks against him that he is aware of equal to his Melee Ability,
+even if the attack is not normally blockable (like a bolt of acid
+or a hurtling boulder). Blocking even a single strong attack by
+a powerful spirit or a Yozi will cause any non-magical weapons
+to perish, but the Charm will blunt the attack at no harm to the
+blocking character. Characters wielding magical weapons can
+parry any number of incredibly powerful attacks without risk.
+
+
+## Dual Slaying Stance
+
+Cost: 1 mote
+Duration: Instant
+Type: Reflexive
+Minimum Melee: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The character guides his hands with Essence, allowing
+him to fight with weapons in both hands. This Charm
+reduces multiple action penalties by 2 for an attack or
+parry action performed by a character wielding two weapons
+and completely eliminates the penalty for using a
+weapon in the character's off hand. The character can
+activate this Charm a maximum number of times per turn
+equal to his Melee score.
+
+
+## Sun and Moon Method
+
+Cost: 2 motes
+Duration: One turn
+Type: Extra Action
+Minimum Melee: 3
+Minimum Essence: 2
+Prerequisite Charms: Dual Slaying Stance
+
+Through harmony with the Essence flows, a character
+holding a weapon in each hand can strike once with
+each weapon without penalties for off-hand use or mul-
+tiple actions. In a single turn, the character can make
+two parries, two attacks or one attack and one parry
+without any penalties for multiple actions. However, a
+character cannot split his dice pool when using this
+Charm, and the character's parry is a normal single-attempt
+parry unless the Exalt is also using Two Swords
+Technique. In order to use this Charm, the character
+must have weapons in both hands. This Charm may
+explicitly be placed in a Combo despite its non-Instant
+duration. This Charm may be activated reflexively but
+Combos as if it were of the Extra Actions type.
+
+
+## Two Swords Technique
+
+Cost: 4 motes
+Duration: One scene
+Type: Reflexive
+Minimum Melee: 4
+Minimum Essence: 2
+Prerequisite Charms: Sun-and-Moon Method
+
+The character can now allow Essence to manage his
+hands for him and receives no penalty for fighting with
+two weapons for an entire scene. He may use either
+weapon to perform any combat action without penalty.
+This does not allow him to take extra actions as if he
+were using Charms, but he may split his dice pool
+normally. In addition, this Charm completely eliminates
+the off-hand penalty and also allows the character
+to sacrifice an action for the turn make a &quot;cascading
+parry.&quot; This consumes both his actions for the turn. The
+cascading parry's dice pool starts at the Exalt's Dexterity
+nt Melee + the sum of the two weapons' defensive
+bonuses and drops by 1 for each successive parry at-
+tempt. A character using Two Swords Technique can
+abort to this defense, just as if he were aborting to a full
+dodge or a full parry. In order to use this Charm, the
+character must have weapons in both hands.
+
+
+## Steel Devil Style
+
+Cost: 5 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Melee: 5
+Minimum Essence: 4
+Prerequisite Charms: Ready in Eight Directions Stance, Two Swords Technique
+
+The character enfolds himself in Essence, allowing it
+to guide his actions as he whirls through a breathtakingly
+graceful whirlwind of deadly blows. So long as he has
+weapons in both hands, a character who has activated this
+Charm is an incredibly deadly opponent.
+Whenever the character is attacked, he may make a
+reflexive automatic parry attempt with whichever of his
+weapons he chooses at his Dexterity + Melee + any other
+modifiers. In addition, he may reflexively counterattack
+any hand-to-hand attack with whichever of his weapons
+he chooses. This counterattack is rolled after the auto-
+matic parry, and if the automatic parry is successful, extra
+successes on the parry attempt are added as bonus dice to
+the counterattack roll.
+The parry and the counterattack are &quot;normal&quot; ac-
+tions for the character, and so, the character could
+enhance his counterattacks with Excellent Strike or his
+defense with Golden Essence Block, but the character
+still cannot invoke the effects of more than one different
+Charm per turn without a Combo. In addition, a char-
+acter under the effects of this Charm may not use or
+benefit from extra action Charms, nor may he use or
+benefit from any effect that causes him to make another
+parry or another riposte. The counterattack bonus dice
+added by extra successes on the parry attempt are a
+Charm bonus and count against the character's At-
+tribute + Ability maximum for bonus dice if he uses
+other Charms to enhance the riposte. The counterattack
+effect of Steel Devil Style cannot be used in response
+to other counterattack effects, but the automatic parry is
+still active against these attacks.
+In order to use this Charm, the character must have
+weapons in both hands. If the character is no longer
+using two weapons, he loses access to the Charm's
+effects, though he can use them again the instant he is
+rearmed. A character under this Charm's effects who no
+longer has a weapon in either hand is still unable to
+activate extra action, full parry or riposte Charms while
+disarmed and must terminate the Charm's eftects (this
+can- be done reflexively and does nor require dice or
+count as an action) in order to permit these types of
+effects to work on him.
+
+
+## Retrieve the Fallen Weapon
+
+Cost: 1 mote
+Duration: Instant
+Type: Simple
+Minimum Melee: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The Exalted may use the bonds that form between a
+weapon and its wielder to call his chosen implement of battle
+to his hand. This Charm can overcome friction and gravity to
+carry the weapon through the air to the character but cannot
+defeat doors, chains and other such substantial hindrances.
+The character must have his weapon hand empty and must be
+able to see the weapon in order to call it to himself. The
+character must have used the weapon and be familiar with it
+to use this Charm on it — it must be his weapon.
+
+
+## Call the Blade
+
+Cost: 3 motes
+Duration: Instant
+Type: Simple
+Minimum Melee: 2
+Minimum Essence: 2
+Prerequisite Charms: Retrieve the Fallen Weapon
+
+The character may call her weapon back to her hand, even
+if she cannot see it. The weapon does not traverse the space
+between its location and the character's hand, it simply flashes into
+her grasp. The call of this Charm reaches only (10x the character's
+Essence) yards, if the weapon is farther than that, the Charm will
+fail. As with Retrieve the Fallen Weapon, the character cannot use
+this power to steal weapons, only to call her own weapon to her.
+
+
+## Summoning the Loyal Steel
+
+Cost: 1 mote to summon or banish
+Duration: Instant
+Type: Reflexive
+Minimum Melee: 3
+Minimum Essence: 1
+Prerequisite Charms: Call the Blade
+
+The character simply gestures, and his weapon flashes to
+his hand, appearing instantly in his grasp regardless of its
+previous location. A character who is holding his weapon can
+also banish it, spending a mote of Essence to place it Elsewhere.
+Weapons that have been placed Elsewhere are gone from the
+world and can only be reached by their Exalted owner through
+the use of Summoning the Loyal Steel. The Exalted must have
+
+
+## Glorious Solar Saber
+
+Cost: 5 motes + 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Melee: 3
+Minimum Essence: 2
+Prerequisite Charms: Call the Blade
+
+The character can now never be disarmed. She can
+concentrate Essence in her hand, forming a glittering
+golden blade of pure magical energy that does a base lethal
+damage equal to the character's Strength plus her Essence
+score. The blade glows brightly enough to light an area
+three or four yards across. Each Exalted's blade is different,
+perfectly matching her personality and fighting style.
+
+Errata:
+The Saber has a Speed of +3, and an Accuracy and Defense of +1 each.
+
+
+## Iron Raptor Technique
+
+Cost: 2 motes
+Duration: Instant
+Type: Simple
+Minimum Melee: 3
+Minimum Essence: 1
+Prerequisite Charms: Retrieve the Fallen Weapon
+
+This Charm allows the character to use his weapon to
+attack up to Dexterity x 5 yards away. The weapon whirls
+through the air to its strike its target, like a bloodthirsty, metal
+bird of prey, and then spins obediently back to the wielder's
+hand. The character attacks with his Melee pool, as usual, and
+the damage is determined using his Strength as if it was anormal
+Melee attack. Iron Raptor attacks can be blocked like normal
+Melee attacks. Botched Iron Raptor attacks can result in stuck
+or lost weapons or injury to the Exalted using the Charm.
+
+
+## Sandstorm-Wind Attack
+
+Cost: 3 motes
+Duration: Instant
+Type: Simple
+Minimum Melee: 4
+Minimum Essence: 2
+Prerequisite Charms: Iron Raptor Technique
+
+The character charges his weapon with Essence and
+strikes a blow at a distant target. A slashing edge of concentrated
+force leaps from the weapon and races toward the target.
+The character attacks with his Dexterity + Melee dice pool and
+does a base lethal damage of his Strength + his Essence. The
+Sandstorm-Wind Attack is blocked as a ranged attack, not as
+a Melee attack. Sandstorm-Wind Attack can strike characters
+up to (10 x the character's Essence) yards away.
+
+
+## Edge of Morning Sunlight
+
+Cost: 1 mote
+Duration: Instant
+Type: Supplemental
+Minimum Melee: 5
+Minimum Essence: 2
+Prerequisite Charms: Iron Raptor Technique
+
+The character concentrates on manifesting his Essence
+through the medium of his weapon. The weapon
+becomes invested with Solar power and is highly effective
+against creatures of darkness, the undead and the Abyssal
+Exalted. The weapon adds the character's Essence to its
+regular damage when used against such creatures.
+
+
+## Corona of Radiance
+
+Cost: 5 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Melee: 5
+Minimum Essence: 2
+Prerequisite Charms: Edge of Morning Sunlight
+
+The character channels Essence through her body, using
+her weapon as an aggressive focus. Her flesh coruscates with
+flickering Solar energy, and attacks against her by undead,
+creatures of the night and Abyssal Exalted are at + 1 difficulty.
+In addition, if such creatures strike her without using a
+weapon, they must soak aggravated damage equal to the
+character's Essence. While Corona of Radiance is active, the
+Exalted's attacks against such creatures do aggravated damage
+and have a damage bonus equal to the character's Essence.
+
+Errata:
+The description of this Charm mentions the Charm “Solar Blaze”. That's what Corona of Radiance was
+before the name changed.
+
+
+## Blazing Solar Bolt
+
+Cost: 3 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Melee: 5
+Minimum Essence: 3
+Prerequisite Charms: Corona of Radiance, Sandstorm-Wind Attack
+
+The character channels pure Solar Essence though herself,
+focusing it with her will and through the medium of her
+weapon. A powerful lance of energy leaps between the Solar's
+Caste Mark, her weapon and the target. The character makes
+an attack with her Dexterity + Melee dice pool, which cannot
+be blocked or dodged without the use of Charms. The attack
+does lethal damage and has a base damage of the Exalted's
+Strength + her Willpower. Against inhabitants of Malfeas and
+the Underworld, Blazing Solar Bolt inflicts aggravated damage.

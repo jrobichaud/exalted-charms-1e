@@ -1,0 +1,434 @@
+```mermaid
+
+flowchart TD
+
+    flawless_handiwork_method["<a class='internal-link' href='#Flawless Handiwork Method'>Flawless Handiwork Method</a>"]
+
+    object_strengthening_touch["<a class='internal-link' href='#Object-Strengthening Touch'>Object-Strengthening<br>Touch</a>"]
+    flawless_handiwork_method --> object_strengthening_touch
+
+    durability_enhancing_technique["<a class='internal-link' href='#Durability-Enhancing Technique'>Durability-Enhancing<br>Technique</a>"]
+    object_strengthening_touch --> durability_enhancing_technique
+
+    shattering_grasp["<a class='internal-link' href='#Shattering Grasp'>Shattering Grasp</a>"]
+    object_strengthening_touch --> shattering_grasp
+
+    craftsman_needs_no_tools["<a class='internal-link' href='#Craftsman Needs No Tools'>Craftsman Needs No Tools</a>"]
+    shattering_grasp ---> craftsman_needs_no_tools
+
+    chaos_resistance_preparation["<a class='internal-link' href='#Chaos-Resistance Preparation'>Chaos-Resistance<br>Preparation</a>"]
+    object_strengthening_touch --> chaos_resistance_preparation
+
+    crack_mending_technique["<a class='internal-link' href='#Crack-Mending Technique'>Crack-Mending Technique</a>"]
+    durability_enhancing_technique ---> crack_mending_technique
+    craftsman_needs_no_tools --> crack_mending_technique
+
+    subgraph time_of_tumult[Time of Tumult]
+        direction TB
+        world_within_a_picture_style["<a class='internal-link' href='#World Within a Picture Style'>World Within a<br>Picture Style</a>"]
+
+        rock_spinning_technique["<a class='internal-link' href='#Rock-Spinning Technique'>Rock-Spinning<br>Technique</a>"]
+
+        spiritual_sustenance["<a class='internal-link' href='#Spiritual Sustenance'>Spiritual Sustenance</a>"]
+    end
+
+    flawless_handiwork_method --> world_within_a_picture_style
+    shattering_grasp --> rock_spinning_technique
+    object_strengthening_touch --> spiritual_sustenance
+
+    subgraph Castebook Twilight
+        direction TB
+        impurity_hammering_blow["<a class='internal-link' href='#Impurity-Hammering Blow'>Impurity-Hammering<br>Blow</a>"]
+
+        body_forging_travail["<a class='internal-link' href='#Body-Forging Travail'>Body-Forging<br>Travail</a>"]
+
+        edifice_smashing_strike["<a class='internal-link' href='#Edifice-Smashing Strike'>Edifice-Smashing<br>Strike</a>"]
+
+        stability_conferring_establishment["<a class='internal-link' href='#Stability-Conferring Establishment'>Stability-Conferring<br>Establishment</a>"]
+    end
+
+    flawless_handiwork_method --> impurity_hammering_blow
+    object_strengthening_touch --> body_forging_travail
+    shattering_grasp --> edifice_smashing_strike
+    chaos_resistance_preparation --> stability_conferring_establishment
+
+```
+
+
+## Flawless Handiwork Method
+
+Cost: 3 motes per success
+Duration: Instant
+Type: Supplemental
+Minimum Craft: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The character channels Essence through his hands and
+tools, enhancing his efforts and making the final produce of his
+work far more impressive than the fruits of any mortal craftsman's
+labor. To use this Charm, the player first makes a regular
+Intelligence or Stamina + Craft roll for the character. Then, the
+player may &quot;buy&quot; additional successes, up to the character's
+Essence rating + the number of successes rolled on the Craft roll.
+Each success bought in this fashion costs 3 motes of Essence.
+Storytellers should consider strongly granting special bonuses
+to objects that are made from good or exceptional
+materials to start and that have astonishing numbers of successes.
+For more details on this, see the &quot;Craft&quot; section of the
+Drama chapter, page 245. Note that Flawless Handiwork
+Method's effects do not occur instantly — the character must
+still take the regular amount of time necessary to construct an
+object of that type, though he need take no longer. An Exalted
+craftsman can knock together in a morning items that would
+take a mortal craftsman months or years to produce.
+
+
+## Object-Strengthening Touch
+
+Cost: 6 motes
+Duration: One Scene
+Type: Simple
+Minimum Craft: 2
+Minimum Essence: 1
+Prerequisite Charms: Flawless Handiwork Method
+
+This Charm strengthens objects, allowing them to
+endure far more damage than normal. Very fragile objects
+such as those made of paper or glass cannot be damaged
+without the full exertion of a Strength at least equal to the
+Essence rating of the character who used the Object-
+Strengthening Touch Charm on them. Objects that are
+not so fragile take roughly twice as much force as normal
+to harm. For rules on breaking and lifting objects, see the
+&quot;Athletics&quot; section of the Drama chapter, page 251.
+Object-Strengthening Touch does not just protect
+against breakage — strengthened objects are also resistant
+to fire, acid, freezing and other forms of damage. The
+character using Object-Strengthening Touch must touch
+the object in order to cause this Charm to take effect.
+Characters can strengthen any object, not just objects that
+are at the focus of the character's Craft Ability. This
+Charm does not work on animals or sentient beings.
+
+
+## Durability-Enhancing Technique
+
+Cost: 10 motes
+Duration: Instant
+Type: Simple
+Minimum Craft: 3
+Minimum Essence: 2
+Prerequisite Charms: Object-Strengthening Touch
+
+Objects subjected to this Charm do not have the immense
+durability of objects subjected to Object-Strengthening
+Touch, but the enhancement is permanent. While objects
+treated with Durability-Enhancing Technique are not completely
+immune to the ravages of time and nature, they are
+very resistant, enduring at least 10 times as long as untreated
+objects. Objects treated with Durability-Enhancing Technique
+add twice the Exalted's score in the Crafts Ability to the
+Strength + Athletics dice pool required to break them. Items
+such as swords and axes that have been treated with
+Durability-Enhancing Technique hold their edges longer, even if
+used to hack through doors or otherwise mistreated
+
+
+## Shattering Grasp
+
+Cost: 5 motes
+Duration: Instant
+Type: Simple
+Minimum Craft: 3
+Minimum Essence: 2
+Prerequisite Charms: Object-Strengthening Touch
+
+Someone who works with a material for a long time
+learns its strengths and weaknesses. A character who knows
+this Charm can channel Essence to intensify this knowledge
+and can rend stone and metal with his bare hands and tear
+apart wooden doors with his fingers. A character using the
+Shattering Grasp Charm multiplies his Strength + Athletics
+by 2 for the purposes of breaking or damaging the basic
+material he works with for the focus of his Craft skill -
+typically metal, stone or wood. If the character is making an
+attack against such an object, double his damage successes.
+Tanners and leathercrafters do not gain the ability to do extra
+damage in hand-to-hand combat with this Charm.
+
+
+## Craftsman Needs No Tools
+
+Cost: 7 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Craft: 5
+Minimum Essence: 3
+Prerequisite Charms: Shattering Grasp
+
+The greatest burden of a craftsman is the pressing need for
+tools and a workshop. For an Exalted who has mastered this
+Charm, that is no problem at all. A character who knows this
+Charm can work directly with her chosen material, shaping it
+with hands and voice, laboring without any need for tools.
+Characters using this Charm slowly croon and purr to their
+work as they shape and form the material with their fingertips
+
+
+## Chaos-Resistance Preparation
+
+Cost: 10 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Craft: 4
+Minimum Essence: 2
+Prerequisite Charms: Object-Strengthening Touch
+The ravages of the Wyld can twist objects, as well as men. For
+every object that is made better suited to its task, 100 are ruined by
+the energies of unbounded change. This Charm makes an object
+far more resistant to the twisting effects of Wyld energy. Chaos
+Resistance Preparation is not as complete as the Lore Charms that:
+stabilize persons, causing an object protected by this Charm to take
+only take 10 times as long to change as it would normally. However,
+the effects of Chaos-Resistance Preparation are permanent. Objects
+treated with this Charm lend no protective qualities to their
+bearers — a suit of Chaos-Resistant armor will not protect the
+character wearing it from Wyld-induced mutation.
+
+
+## Crack-Mending Technique
+
+Cost: 10 motes, 1 Willpower, 1 health level
+Duration: Instant
+Type: Simple
+Minimum Craft: 5
+Minimum Essence: 3
+Prerequisite Charms: Craftsman Needs No Tools, Durability-Enhancing Technique
+
+A character using the Crack-Mending Technique can fix
+any broken object, no matter how severely damaged, so long as
+it was not totally unmade (for example, by powerful sorcery,
+digestion in a Behemoth's gullet or immersion in molten rock).
+The character must spend a number of hours working on the
+object equal to 10 - her Essence, slowly piecing it back together
+and coaxing the fragments to bind to one another.
+This Charm can even remake extremely damaged things
+such as shattered crystal and burnt paper, but it cannot
+remake metaphorical or conceptual things —it cannot mend
+broken hearts, oaths or promises, for example, nor can it
+remake shattered dreams or smashed hopes. Also, it cannot
+remake an object more yards in radius than the character's
+Essence rating. Crack-Mending Technique can restore damaged
+items of First Age manufacture but can do nothing to
+repair those whose magic has fled or been exhausted.
+
+
+## World Within a Picture Style
+
+Cost: 20 motes
+Duration: One day or more
+Type: Simple
+Minimum Craft: 5
+Minimum Occult: 3
+Minimum Essence: 3
+Prerequisite Charms: Flawless Handiwork Method
+
+A Solar who truly masters some form of representational
+art — most obviously painting, but other possibilities
+include tapestry-weaving, carving and metal-casting -
+can fashion miniature worlds within a lifelike representation.
+A being that knows how to expend Essence can step
+into the image and experience it as if it were real. Although
+the examples within the Invisible Fortress are &quot;life sized,&quot;
+a World Within a Picture's physical matrix could be much
+smaller; for instance, a metal brooch chased and enameled
+with an uncannily realistic miniature scene.
+The World Within a Picture can include planes,
+animals or even people, but none of the people are actually
+real. They react only in simple, stereotyped ways, like
+automata. (A Solar can trap real people or spirits within a
+still life to become permanent characters, but this involves
+a spell of Celestial Circle Sorcery.) A World Within a
+Picture's simulated world cannot exceed one acre in area,
+although it may look much larger: A person who tries to
+travel beyond the boundaries of the still life either goes in
+a circle or steps out of the still life.
+Creating a World Within a Picture takes weeks or
+months, depending on the artist's medium and the level of
+detail the artist desires. Once created, a World Within a
+Picture lasts until someone or something destroys it. Other
+Charms and sorceries can piggyback on a World Within a
+Picture if the artist wants to include magical effects within
+the simulated world, such a still life in which people can
+fly, or one that transforms visitors into other forms.
+Entering a World Within a Picture costs 1 mote of
+Essence. Departing is free. Anyone caught within a completely
+destroyed Still Life dies. A Still Life that is merely damaged can
+be repaired, and prisoners retrieved, but only by someone who
+knows the World Within a Picture Style Charm.
+
+
+## Rock-Spinning Technique
+
+Cost: 3 motes
+Duration: One hour
+Type: Simple
+Minimum Craft: 2
+Minimum Essence: 2
+Prerequisite Charms: Shattering Grasp
+
+This Charm enables a Solar to spin raw stone into
+flexible thread or yarn. Rock thread is fireproof but no
+stronger than linen and rather scratchy to wear. It is
+entirely adequate for tapestries, tablecloths, rugs and other
+utilitarian purposes, though, and in large quantities, it
+makes excellent insulation. The thread or yarn remains
+the same color as the original rock, making most spun rock
+rather drab — but a Solar with this Charm can spin jade or
+diamond as easily as slate or sandstone. A handkerchief of
+spun jewels would make an understated yet truly royal gift.
+The basic Charm requires no more than a simple
+drop-spindle or spinning wheel and a quantity of rock. The
+listed Essence cost and duration are for spinning a cubic
+foot of rock into a cubic yard of fluffy fiber. The process
+takes a full hour. A more elaborate apparatus (such as the
+broken machine in the Fortress) reduces the Essence cost
+to 1 mote, and the machine runs by itself once set running.
+Indeed, the apparatus reduces rock-spinning to magic that
+even unExalted mortals can perform.
+
+
+## Spiritual Sustenance
+
+Cost: Variable
+Duration: Variable
+Type: Simple
+Minimum Craft: 3
+Minimum Essence: 2
+Prerequisite Charms: Object-Strengthening Touch
+
+Characters utilizing this Charm can mold
+edible food out of any other material, be it rock,
+wood or even snow. The simpler the food and
+the smaller the portion, the less it costs to make.
+Conjuring a loaf of bread requires just 1 mote of
+Essence and about five minutes, while sculpting
+an entire feast can cost 10 motes or more and
+take an entire day. This food can be stored.
+However, it will gradually lose its reality and
+after a week, it will fade to wisps of Essence
+when handled.
+While it will fill the belly, conjured food
+offers little in the way of vitamins or minerals.
+For every week that food created in this manner,
+makes up more than 50 percent of a character's
+diet, he will lose one dot in Willpower. Obviously,
+if a character has mastered a sorcery that
+allows him to conjure real food, these penalties
+do not apply.
+
+
+## Impurity-Hammering Blow
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Craft: 2
+Minimum Essence: 1
+Prerequisite Charms: Flawless Handiwork Method
+
+With this Charm, an Exalted can purify base metal or
+other raw substances of natural taints and flaws, working
+badly tanned raw leather into butter-soft suede, cheap
+marble into smooth stone worthy of the palace of the
+Empress and flawed jewels into pure specimens of their
+kind. Characters cannot use this Charm to convert raw
+materials into any of the Five Magical Materials - for
+example, turning gold into orichalcum. That must be done
+by the usual long, slow process of extraction. However, the
+Exalt can greatly improve the quality of raw materials by
+invoking this Charm as he creates an item. The character
+may purify the materials for an object in an equal number
+of Dexterity or Stamina + Crafts successes as required to
+create the item. Players may roll for their characters once
+per scene of work. For the purposes of this Charm, each
+scene is normally a day of work, though it can be less (for
+example, if the Solar is using the Charm Craftsman Needs
+No Tools, a scene is probably about an hour).
+
+
+## Body-Forging Travail
+
+Cost: 8 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Craft: 3
+Minimum Essence: 2
+Prerequisite Charms: Object-Strengthening Touch
+
+This Charm allows an Exalt to confer physical integrity
+upon a living being, human or animal, just as he
+might instill strength into an object. The Solar places his
+hands upon the subject of this Charm and uses his powers
+to force the subject's living body to conform to principles
+of stability and good construction, enhancing its ability
+to receive blows or other damage. For the remainder of
+the scene, the subject of the Charm takes half damage
+after soak (but before damage is rolled, to a minimum of
+one die) from all blows struck by beings with a Craft
+Ability equal to or less than that of the Exalted who
+invoked the Charm. The character also has some degree
+of protection from forces such as cold, fire, lightning or
+acid and soaks two additional levels of lethal damage
+from such attacks until the end of the scene. A sorcerer
+can use this Charm on himself.
+
+
+## Edifice-Smashing Strike
+
+Cost: 7 motes
+Duration: Instant
+Type: Simple
+Minimum Craft: 4
+Minimum Essence: 2
+Prerequisite Charms: Shattering Grasp
+
+This Charm enables an Exalted to shake the foundations
+of buildings and pound down walls with his bare fists
+due to his understanding of the nature of craftsmanship
+and the principles of workmanship. When attempting to
+destroy or break any nonliving crafted material of any
+substance, add his Essence + Craft to his Strength +
+Athletics to determine if he can break something or to the
+amount of damage he does in an attack against an object.
+A character can use this Charm against any sort of material,
+regardless of the material she crafts. The only
+requirement is that the subject of his strikes, be it a wall, a
+door, a weapon or a building's foundation, be in some way
+worked or shaped by intelligent beings. This Charm is
+explicitly permitted to be part of a Combo with Charms of
+other Abilities. This Charm cannot be used to attack worn
+or carried gear.
+
+
+## Stability-Conferring Establishment
+
+Cost: 1 mote, 1 Willpower, 1 health level
+Duration: One year
+Type: Simple
+Minimum Craft: 5
+Minimum Essence: 3
+Prerequisite Charms: Chaos-Resistance Preparation
+
+With this Charm, an Exalted can create objects that
+are not only resistant to the effects of the Wyld, but also
+protect those who wear them. Infusing a part of his own life
+into the item — which can be anything from a ring to a full
+suit of armor — the Solar instills a natural aura of order and
+stability into it, causing it to remain safe from changes for
+a full year. As long as the object endures unchanged
+preserved by the Charm, its wearer will also be protected
+from the Wyld's ravages. Remember that the mote in-
+vested remains committed for the duration of the Charm
+or until the magic is canceled by the Exalt.

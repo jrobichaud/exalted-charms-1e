@@ -1,0 +1,379 @@
+```mermaid
+
+flowchart TD
+
+    wise_eyed_courtier_method["<a class='internal-link' href='#Wise-Eyed Courtier Method'>Wise-Eyed Courtier Method</a>"]
+
+    motive_discerning_technique["<a class='internal-link' href='#Motive-Discerning Technique'>Motive-Discerning<br>Technique</a>"]
+    wise_eyed_courtier_method --> motive_discerning_technique
+
+    mastery_of_small_manners["<a class='internal-link' href='#Mastery of Small Manners'>Mastery of Small Manners</a>"]
+
+    understanding_the_court["<a class='internal-link' href='#Understanding the Court'>Understanding the Court</a>"]
+    motive_discerning_technique --> understanding_the_court
+
+    knowing_the_souls_price["<a class='internal-link' href='#Knowing the Soul's Price'>Knowing the Soul's Price</a>"]
+    motive_discerning_technique --> knowing_the_souls_price
+    mastery_of_small_manners --> knowing_the_souls_price
+
+    venomous_rumors_technique["<a class='internal-link' href='#Venomous Rumors Technique'>Venomous Rumors<br>Technique</a>"]
+    knowing_the_souls_price --> venomous_rumors_technique
+    understanding_the_court --> venomous_rumors_technique
+
+    subgraph Cult of the Illuminated
+        graceful_courtier_attitude["<a class='internal-link' href='#Graceful Courtier Attitude'>Graceful Courtier<br>Attitude</a>"]
+    end
+
+    subgraph Castebook Eclipse
+        welcome_guest_method["<a class='internal-link' href='#Welcome Guest Method'>Welcome Guest Method</a>"]
+
+        flawless_discretion_style["<a class='internal-link' href='#Flawless Discretion Style'>Flawless Discretion Style</a>"]
+
+
+        graceful_deflection_technique["<a class='internal-link' href='#Graceful Deflection Technique'>Graceful Deflection Technique</a>"]
+
+        distracting_banter_method["<a class='internal-link' href='#Distracting Banter Method'>Distracting Banter Method</a>"]
+
+        masterful_dissimulation_method["<a class='internal-link' href='#Masterful Dissimulation Method'>Masterful Dissimulation<br>Method</a>"]
+
+        reading_the_heart["<a class='internal-link' href='#Reading the Heart'>Reading the Heart</a>"]
+
+        exalted_accolade["<a class='internal-link' href='#Exalted Accolade'>Exalted Accolade</a>"]
+    end
+
+    mastery_of_small_manners ----> flawless_discretion_style
+    mastery_of_small_manners --> welcome_guest_method
+    mastery_of_small_manners --> graceful_courtier_attitude
+    wise_eyed_courtier_method --> graceful_deflection_technique
+    mastery_of_small_manners --> graceful_deflection_technique
+    graceful_deflection_technique --> distracting_banter_method
+    motive_discerning_technique ----> reading_the_heart
+    motive_discerning_technique --> masterful_dissimulation_method
+    understanding_the_court --> exalted_accolade
+
+```
+
+
+## Wise-Eyed Courtier Method
+
+Cost: 3 motes
+Duration: Instant
+Type: Simple
+Minimum Socialize: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Use of this Charm allows a character to instantly read
+the superficial subtext of a social situation. The surface
+attitudes (&quot;she is angry at him&quot;) and relationships (&quot;she
+respects him a great deal, perhaps he is her father or like a
+father&quot;) of the individuals involved are apparent at a mere
+glance. Characters who are skilled at concealing their
+motives will project the exterior emotions they are pretending.
+It's up to the Storyteller's discretion as to how
+skilled a character must be to appear to feel other than they
+really do - Socialize or Performance 2 and a serious effort
+should suffice. This Charm is not a form of mind reading,
+nor does it offer precise results — it simply allows the
+Exalted get his bearings when faced with confusing or
+unfamiliar social situations.
+
+
+## Motive-Discerning Technique
+
+Cost: 6 motes
+Duration: Instant
+Type: Simple
+Minimum Socialize: 4
+Minimum Essence: 2
+Prerequisite Charms: Wise-Eyed Courtier Method
+
+This Charm allows an Exalted to tell, through a short,
+topical interaction, what the target's true motives in a situation
+are. For example, an Exalted who talked to a woman
+about her sick father would be able to tell if she was at his
+bedside out of love, filial loyalty or greed for her inheritance.
+Where there are mixed motives, the Exalted will gain a rough
+feel of in what proportions they occur. This power is especially
+useful for Exalted leaders, as it lets them keep their entourages
+free of the self-serving and the corrupt.
+
+
+## Mastery of Small Manners
+
+Cost: 3 motes
+Duration: One scene
+Type: Reflexive
+Minimum Socialize: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The character attunes himself to the patterns of human
+interaction and allows Essence to guide his responses to
+social situations. While this Charm is active, the character
+will reflexively respond in the appropriate and mannerly
+fashion for the situation at hand. These manners are not
+deep, covering only simple things such as greetings, eating
+customs, gift customs and flirtation moves. The character
+will never make an unintentional faux pas but is not
+charismatic so much as simply well behaved. Too much
+active interaction spoils the effect of this Charm.
+
+
+## Understanding the Court
+
+Cost: 20 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Socialize: 5
+Minimum Essence: 2
+Prerequisite Charms: Motive-Discerning Technique
+
+This Charm allows an Exalted to read motives on a
+grand scale, gaining a picture of the flows and eddies of
+power in an extended social situation such as a king's court
+or a mercantile community. The character must spend a
+number of days equal to (10 - her Essence score) in
+observation of the situation. The character need not be
+part of the social milieu to observe, she need simply be
+close to it; a character disguised as a servant or maid will be
+able to observe adequately as well. It's up to the Storyteller
+to decide how the information is conveyed. Some Storytellers
+will want to draw a diagram, while others may
+simply explain who says &quot;jump!&quot; and who asks &quot;how high?&quot;
+The character's understanding is limited by what she
+has witnessed - for example, if an important figure is
+absent during her period of observation, she may be able to
+deduce a great deal from how people act in his absence but
+will not know for certain until she can reconstruct her
+picture once he has returned. Also, the character's preternatural
+understanding is rooted in the time it was made.
+Unless the mapped situation is extremely stagnant, events
+will cause the pattern of interactions to change over time.
+Characters relying on years-old understanding are liable to
+make errors in judgment.
+
+
+## Knowing the Soul's Price
+
+Cost: 10 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Socialize: 5
+Minimum Essence: 2
+Prerequisite Charms: Mastery of Small Manners, Motive-Discerning Technique
+
+Everyone has a price, though it may not be in gold. It
+could be aid in a personal endeavor, flattery, sex with an
+unachievable object of desire, the recovery of a lost possession
+or any number of things — but there is invariably
+something that, when offered, will crack the strongest
+morals and ethics. To have it, an individual will betray
+trusts, engage in corruption, plant evidence - almost
+anything. This Charm allows the character to know what
+that thing is for a given individual. It is up to the Storyteller
+to define precisely what a given person's weakness is — the
+things some people require may be difficult or impossible
+to obtain, while other characters may simply need to be
+offered a large sum of money. Generally, the higher a
+character's Temperance score, the more likely her price
+will be something other than money and the more likely it
+will be difficult to arrange.
+
+
+## Venomous Rumors Technique
+
+Cost: 10 motes, 1 Willpower
+Duration: One day
+Type: Simple
+Minimum Socialize: 5
+Minimum Essence: 3
+Prerequisite Charms: Knowing the Soul's Price, Understanding the Court
+
+Through the use of this Charm, an Exalted can turn her
+target into a social outcast. The target's words seem false,
+tentative or devious, by turns, and even his friends notice the
+worst parts of his personality — and all of it is true. This Charm
+is not an illusion. It simply brings the worst parts of the target
+to the fore. The Exalted must touch her target to use this
+Charm. For a full day afterward, the target takes a penalty on all
+social rolls equal to twice the Exalted's Essence score.
+
+Errata:
+This charm is also lacking a Type. It is also Type: Simple.
+
+
+## Graceful Courtier Attitude
+
+Cost: 2 motes per difficulty penalty
+Duration: One scene
+Type: Simple
+Minimum Socialize: 4
+Minimum Essence: 2
+Prerequisite Charms: Mastery of Small Manners
+
+By attuning to the flow of Essence, the Chosen becomes
+virtually unflappable. No matter how difficult or
+unusual the social situation, she navigates it with enviable
+ease and grace. Every 2 motes of Essence spent allows the
+Exalt's player to ignore one point of difficulty on all
+Socialize rolls imposed by conditions such as foreign environment,
+interpersonal tensions, bad weather and bad
+food — even insult and injury. The difficulty of the
+Socialize roll cannot be reduced below 1, and this Charm
+only overcomes penalties that increase the difficulty, it
+does not make normally difficult feats of Socialize easier
+(such as convincing a hated enemy to cooperate). The
+Exalt using this Charm appears graceful and dignified
+under even the worst circumstances.
+
+
+## Welcome Guest Method
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Socialize: 3
+Minimum Essence: 2
+Prerequisite Charms: Mastery of Small Manners
+
+A character using this Charm becomes more socially
+attractive: People find her words charming, her
+appearance and manner intriguing and her overall
+presence pleasant and enjoyable. The Chosen's player
+gains automatic successes equal to his character's
+permanent Essence on Socialize rolls to make new
+acquaintances, gain introductions and so forth.
+
+
+## Flawless Discretion Style
+
+Cost: 8 motes
+Duration: One scene
+Type: Simple
+Minimum Socialize: 3
+Minimum Essence: 3
+Prerequisite Charms: Mastery of Small Manners
+
+While this Charm is in use, any effort to spy on
+the Exalt has its difficulty increased by the character's
+permanent Essence score. Background noise is always
+just loud enough to cover the character's conversations,
+inopportune interruptions prevent others from
+listening in or looking over the character's shoulder,
+and searchers never find anything incriminating in
+the character's quarters or possessions. The Charm
+does not guard against open inquiries or observation:
+The character can still be interrogated or openly
+watched; it only makes it difficult to monitor the
+Chosen covertly.
+
+
+## Graceful Deflection Technique
+
+Cost: 4 motes
+Duration: Instant
+Type: Reflexive
+Minimum Socialize: 3
+Minimum Essence: 1
+Prerequisite Charms: Wise-Eyed Courtier Technique, Master of Small Manners
+
+The Chosen's mastery of social graces can remove
+him from danger in more ways than one.
+Through a combination of reading an opponent's
+body language and the use of witty or engaging
+banter, the character may add a number of dice equal
+to his Socialize Ability to a single dodge attempt in
+combat. The character's opponent must be capable
+of hearing and understanding the Exalt's words, so
+this Charm is ineffective against opponents who are
+deaf, do not speak the same language or are largely
+mindless (such as zombies or beasts).
+
+
+## Distracting Banter Method
+
+Cost: 8 motes
+Duration: One scene
+Type: Simple
+Minimum Socialize: 4
+Minimum Essence: 2
+Prerequisite Charms: Graceful Deflection Technique
+
+The Exalted engages in an almost nonstop stream
+of witty banter with her opponents, intended to distract
+them and keep them off balance. So long as the
+character keeps up the dialog, opponents attacking
+her subtract a number of dice from their pools equal to
+the Exalt's Essence. This Charm only works on opponents
+capable of hearing and understanding the
+character's words and whose Essence is lower than the
+character's. The Charm ends if the Chosen stops
+talking for more than a turn.
+
+
+## Masterful Dissimulation Method
+
+Cost: 5 motes
+Duration: One scene
+Type: Reflexive
+Minimum Socialize: 4
+Minimum Essence: 2
+Prerequisite Charms: Motive-Discerning Technique
+
+This Charm allows the Exalt to conceal his true
+feelings and motivations; a character using this Charm
+can speak pleasantly to a hated enemy without any
+hint of his true feelings showing through. Add the
+Chosen's permanent Essence score to the difficulty of
+rolls to pick up on the Exalt's true feelings and motivations.
+Charms that automatically do so (such as
+Motive-Discerning Technique) require a successful
+reflexive opposed Perception + Socialize roll against
+the Exalt's Wits + Socialize to succeed while this
+Charm is in effect.
+
+
+## Reading the Heart
+
+Cost: 10 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Socialize: 5
+Minimum Essence: 2
+Prerequisite Charms: Motive-Discerning Technique
+
+With a masterful understanding of human (and
+inhuman) nature, the Exalt using this Charm can
+learn a subject's Nature simply by engaging him in
+a brief conversation. This provides the Chosen
+with information about the subject's motivations
+on a broad scale, rather than relating to a specific
+situation (such as that gained from Motive-Discerning
+Technique). While the Exalted gains a
+rough idea of what motivates the subject, she does
+not necessarily know how the subject will react in
+any given situation.
+
+
+## Exalted Accolade
+
+Cost: 10 motes, 1 Willpower
+Duration: One day
+Type: Simple
+Minimum Socialize: 5
+Minimum Essence: 3
+Prerequisite Charms: Understanding the Court
+
+Using this Charm, an Exalt can draw attention to
+someone else's achievements and good qualities, improving
+her reputation and standing within a particular
+social circle. The subject's virtues are emphasized and
+talked about, while others tend to turn a blind eye to
+the subject's faults. The Exalted must touch the subject
+to use this Charm and must offer some praise for
+the subject in a public setting. For a full day afterward,
+the subject's player gains a bonus on all Social rolls
+equal to the Exalted's Essence score. This Charm has
+no effect on characters with a higher Essence than the
+Exalt activating the Charm.

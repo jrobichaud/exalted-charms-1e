@@ -1,0 +1,352 @@
+```mermaid
+
+flowchart TD
+
+    aura_reading_technique["<a class='internal-link' href='#Aura-Reading Technique'>Aura-Reading Technique</a>"]
+
+    delicious_essence_scent["<a class='internal-link' href='#Delicious Essence Scent'>Delicious Essence Scent</a>"]
+    aura_reading_technique --> delicious_essence_scent
+
+    essence_devouring_ghost_touch["<a class='internal-link' href='#Essence-Devouring Ghost Touch'>Essence-Devouring Ghost Touch</a>"]
+    delicious_essence_scent --> essence_devouring_ghost_touch
+
+    feeding_the_lampreys_appetite["<a class='internal-link' href='#Feeding the Lamprey's Appetite'>Feeding the Lamprey's Appetite</a>"]
+    essence_devouring_ghost_touch --> feeding_the_lampreys_appetite
+
+    ravening_life_force_hunger["<a class='internal-link' href='#Ravening Life-Force Hunger'>Ravening Life-Force Hunger</a>"]
+    essence_devouring_ghost_touch --> ravening_life_force_hunger
+
+    blood_drinking_thirst["<a class='internal-link' href='#Blood-Drinking Thirst'>Blood-Drinking Thirst</a>"]
+    ravening_life_force_hunger --> blood_drinking_thirst
+
+    blending_the_streams_of_essence["<a class='internal-link' href='#Blending the Streams of Essence'>Blending the Streams of Essence</a>"]
+    essence_devouring_ghost_touch ----> blending_the_streams_of_essence
+
+    feeding_lifes_fountain["<a class='internal-link' href='#Feeding Life's Fountain'>Feeding Life's Fountain</a>"]
+    blending_the_streams_of_essence --> feeding_lifes_fountain
+
+    filling_the_precious_vial["<a class='internal-link' href='#Filling the Precious Vial'>Filling the Precious Vial</a>"]
+    blending_the_streams_of_essence --> filling_the_precious_vial
+
+    subgraph Players Guide
+        fertile_soul_endowment["<a class='internal-link' href='#Fertile Soul Endowment'>Fertile Soul Endowment</a>"]
+    end
+    feeding_lifes_fountain --> fertile_soul_endowment
+
+```
+
+
+## Aura-Reading Technique
+
+Cost: 2 motes
+Duration: One scene
+Type: Simple
+Minimum Temperance: 1
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Aura-Reading Technique allows a ghost to see how
+much Essence another being — be it a ghost, another spirit
+or an Exalted — contains within her. Use of Aura-Reading
+Technique requires a successful Perception + Larceny roll.
+If the roll is successful, the ghost can perceive the aura of
+anything he looks at for a single scene. This allows the ghost
+to literally see the Essence burbling within the target. The
+ghost cannot do anything about this, nor can he share his
+vision with another. However, this technique does allow
+him to assess those he comes in contact with quickly.
+To a ghost using Aura-Reading Technique, the color
+of the target's aura correlates to the amount of Essence she
+contains. The “aura” the Arcanos displays is not a true
+aura. Rather, it is a colorful display that, to the ghost's eyes,
+appears to overlay the target's silhouette. It is visible
+regardless of ambient light, but the ghost must be aware of
+the target's presence before he can use Aura-Reading
+Technique. In other words, it this Charm cannot be used
+for detection, only assessment.
+
+Color Number of Motes
+Black Zero
+Indigo 1-5
+Green 5-10
+Yellow 10-20
+Orange 20-40
+Red 40+
+
+There is no way for the target of an Aura-Reading
+Technique to know that she has been spied upon in this
+manner. The Technique has an effective range equal to
+the ghost's sight range, and as such, ghosts skilled in its
+usage are often used as lookouts by the Deathlords.
+
+
+## Delicious Essence Scent
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Temperance: 1
+Minimum Essence: 1
+Prerequisite Charms: Aura-Reading Technique
+
+Delicious Essence Scent does not allow a ghost to
+determine how much Essence someone contains. Rather,
+it enables the ghost to sniff out living sources of Essence.
+To use Delicious Essence Scent, the ghost spends a
+mote of Essence, and his player makes a Perception +
+Dexterity roll (difficulty 2). A success immediately fills the
+ghost's nostrils with the scent of Essence, which the ghost
+can follow to its source. The stronger the source, the more
+potent the trail, and the easier it is for the ghost to follow.
+The ghost's player makes a Perception + Temperance roll,
+with a difficulty equal to (4 - the permanent Essence of the
+target [minimum 1]). If the roll is successful, the ghost is
+aware of the character's location and permanent Essence.
+The power has a range of 100 yards.
+As the ghost is detecting pure Essence, Delicious
+Essence Scent pierces illusions, veils and disguises that do
+not also cloak the character's magical nature. If anything
+living is within range, Delicious Essence Scent can find it.
+
+
+## Essence-Devouring Ghost Touch
+
+Cost: 3 motes
+Duration: Instant
+Type: Supplemental
+Minimum Temperance: 1
+Minimum Essence: 2
+Prerequisite Charms: Delicious Essence Scent
+
+Essence-Devouring Ghost Touch lets a ghost absorb
+another ghost's Essence through the brush of a fingertip.
+Any touch is sufficient to let the ghost drain the target's
+energies, though it must, in fact, be a touch. Mere proximity
+is not enough for Essence-Devouring Ghost Touch to
+work. To use Essence-Devouring Ghost Touch, the ghost
+must succeed on an unarmed Brawl or Martial Arts attack,
+which need do no damage.
+When the power activates, the player of the ghost
+makes a difficulty 2 Manipulation + Larceny roll. Each
+success on the roll strips away 2 motes of Essence from the
+victim. This Essence does not flow to the ghost. Rather, it
+dissipates and can be used by no one. When Essence-Devouring
+Ghost Touch is used by several ghosts in
+conjunction, it is a deadly tactic. In particular, it is a
+favorite tool of hungry ghosts, who use it to swarm victims
+under when hunting. This Charm only works on
+ghosts and beings of a ghostly nature.
+
+
+## Feeding the Lamprey's Appetite
+
+Cost: 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Temperance: 2
+Minimum Essence: 2
+PrerequisiteCharms: Essence-DevouringGhost Touch
+
+Feeding the Lamprey's Appetite makes use of the delicious
+Essence wasted by Essence-Devouring Ghost Touch. After this
+Arcanos is invoked, at any point later in the turn, the ghost
+may make a Temperance roll (difficulty 1). A success lets her
+absorb a number of motes equal to half the number stripped
+from the target. These motes are then available for her use, if
+necessary allowing her to retrigger Essence-Devouring Ghost
+Touch.
+
+
+## Ravening Life-Force Hunger
+
+Cost: 4 motes, 1 Willpower
+Duration: Instant
+Type: Supplemental
+Minimum Temperance: 2
+Minimum Essence: 2
+Prerequisite Charms: Essence-Devouring Ghost Touch
+
+Ravening Life-Force Hunger removes the protection the
+living have against the scourge of Essence-Devouring Ghost
+Touch. Not only does Ravening Life-Force Hunger affect
+ghosts, it also affects other spirits, Exalted and any other beings
+unfortunate enough to encounter it. The ghost must be
+materialized for the power to work, however. The technique
+for using Ravening Life-Force Hunger is precisely identical
+to that for Essence-Devouring Ghost Touch. Each success on
+the Manipulation + Larceny roll dissipates 2 motes of Essence
+for each success. The Essence dissipates and cannot be used
+by anyone. Non-Essence channelers who are affected by this
+Charm have their breath disrupted. Those whose players succeed
+at a Stamina + Endurance roll (difficulty 3) will survive,
+those whose players fail will be incapacitated by chills and mad
+hallucinations by the time the sun next crosses the horizon.
+They will die in (their Stamina) days unless they are tended by
+a character with Medicine 3 or higher who can correct their
+disrupted life rhythms.
+
+
+## Blood-Drinking Thirst
+
+Cost: 1 Willpower + 1 Willpower per activation
+Duration: One scene
+Type: Simple
+Minimum Temperance: 2
+Minimum Essence:2
+Prerequisite Charms: Ravening Life-Force Hunger
+Blood-Drinking Thirst does not literally drain blood
+or, indeed, any fluid from the victim, but it does allow
+the ghost to steal the strength of a being besides another
+ghost. It makes available for the ghost's use the Essence
+drained by Ravening Life-Force Hunger. When this Arcanos
+is active, whenever the ghost uses Ravening Life-Force
+Hunger or Essence-Devouring Ghost Touch, she
+can spend a Willpower for her player to make a reflexive
+Temperance roll (difficulty 1). Success lets her absorb a
+number of motes equal to the number stripped from the
+target, which are instantly available for her use. Her Essence
+cannot be increase beyond its maximum through
+the use of this Charm.
+
+
+## Blending the Streams of Essence
+
+Cost: 6 motes
+Duration: Instant
+Type: Supplemental
+Minimum Temperance: 2
+Minimum Essence: 2
+Prerequisite Charms: Essence-Devouring Ghost Touch
+
+Blending the Streams of Essence reverses the flow of
+energy from Essence-Devouring Ghost Touch. Instead of
+draining Essence from the victim, Blending the Streams
+of Essence allows a ghost to give some of her own energy
+to another ghost, which he can then use for whatever
+purpose he desires. This energy can be used instantly by
+the recipient.
+Using Blending the Streams of Essence requires a
+physical touch. If the target resists, it must be delivered
+as part of a successful unarmed Brawl or Martial Arts attack,
+which need do no damage. Once physical contact
+is made, the donor ghost's player must succeed on a Temperance
+roll (difficulty 1). If it succeeds, she may transfer
+a number of motes equal to her Willpower rating to the
+intended recipient. He can, if he chooses, refuse the in-
+fusion, in which case the Essence is lost. The Essence
+given comes from the ghost's own pool, and the ghost
+can never reduce her temporary Essence pool below 1
+with his Charm.
+Blending the Streams of Essence can only be used
+on one ghost per scene. It is only effective on ghosts,
+and any attempt to use it on a living being wastes the
+ghost's energies.
+
+
+## Feeding Life's Fountain
+
+Cost: 7 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Temperance: 2
+Minimum Essence: 2
+Prerequisite Charms: Blending the Streams of Essence
+
+Feeding Life's Fountain allows a ghost to transfer his
+Essence to a living recipient. All of the rules and restrictions
+of Blending the Streams of Essence apply. If used
+on non-Essence-channelers, the effect is one of extreme
+good health and lasts for (the Essence of the ghost activating
+the Arcanos x the number of motes spent) days.
+The victim will have one automatic success on all Stamina
++ Resistance or Stamina + Endurance rolls to resist
+illness or poisoning and will not become ill from fatigue
+even if they eat badly or live under bad conditions. Living
+recipients are also very fertile, and it is through this
+Charm that ancestors answer their descendents' fertility
+problems. This Charm cannot cure actual sterility, only
+reproductive difficulties. Giving birth to the child is often
+difficult for or fatal to the mother if she had difficulty
+bearing live children or carrying them to term.
+
+
+## Filling the Precious Vial
+
+Cost: 7 motes + 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Temperance: 3
+Minimum Essence: 3
+Prerequisite Charms: Blending the Streams of Essence
+
+Masters of this technique create the gems and crystals
+laden with Essence that fuel the Underworld's society.
+Filling the Precious Vial is nothing less than the
+ability to take one's own Essence and pour it into an
+inanimate container for anyone to use.
+Putting this power to use requires both the preparation
+of a suitable container, such as an Essence-containing
+gem or soulfire crystal and a Perception + Larceny
+roll (difficulty 2). Before the roll, the ghost's player must
+announce the number of motes to be invested in the object.
+If the roll is a success, the motes are expended and
+the Essence is sealed in the container. Containers used
+for holding Essence are rare and delicate things. Soulfire
+crystals (see p. 254) are the most popular, followed by
+Essence-containing gems (see p. 255), though there are
+other options such as small carvings and mirrors that enjoy
+a certain amount of popularity. An Essence container
+that is cracked, however, is liable to go up in a massive
+explosion, doing one level of lethal damage per mote
+stored inside to anyone within 10 feet of the blast.
+If the Willpower point is not spent activating this
+Charm, the Vial is still filled, but it will leak a mote a
+day. The expenditure of the Willpower seals the Vial and
+traps the Essence inside.
+
+
+## Fertile Soul Endowment
+
+Cost: 10 motes, 1 Willpower, 1 lethal health level
+Duration: Special
+Type: Simple
+Minimum Temperance: 3
+Minimum Essence: 3
+Prerequisite Charms: Feeding Life's Fountain
+
+With this Arcanos, a ghost may sire offspring with a
+human, God-Blood or Exalted woman. The ghost must be
+materialized, either through Weighted With the Anchor
+of Flesh (see E:Ab, p. 237) or by siring the child in a
+shadowland at night. It is also possible for the living to
+facilitate mating with copious doses of ghost flower tea (see
+Manacle and Coin, p. 45). Fertile Soul Endowment automatically
+fails in the Underworld, as the very principles of
+that dark realm oppose life. The ghost need not actually
+copulate with the living partner, though the two must
+exchange a minimum of a deep, passionate kiss. As such,
+female ghosts may use this Arcanos as readily as males.
+Finally, the living partner cannot already be pregnant.
+If all the appropriate conditions are met, the ghost's
+player rolls Temperance + Essence against a difficulty of
+the partner's Essence rating. Ghosts with appropriate
+Passions may also channel them for additional dice, as
+normal. A failure means the living partner's Essence re-
+jects the energies and no conception takes place. A botch
+means the partner immediately becomes sterile unless her
+player makes a successful Stamina + Resistance roll (difficulty
+2). Exalted and other magical beings do not risk
+sterility from such a union.
+A successful roll on the part of the ghost means the
+partner immediately conceives a Ghost-Blooded offspring,
+which she then carries to term normally. The living partner
+need not be willing or even know that conception has taken
+place. Essence used to power this Arcanos remains commit-
+ted until the birth of the child. The ghost may not voluntarily
+withdraw this commitment, and even the destruction of the
+ghost does not release the Essence prior to birth or end the
+pregnancy. A Ghost-Blooded child born of such a union will
+have innate power appropriate to the total Essence of its
+parents as normal. Ghosts that sire offspring upon Exalted
+women are more apt to produce Half-Caste children, though
+the Arcanos still affords the certainty of conception.

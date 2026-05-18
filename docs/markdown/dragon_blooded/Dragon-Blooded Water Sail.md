@@ -1,0 +1,422 @@
+```mermaid
+
+flowchart TD
+
+    bounding_main_technique["<a class='internal-link' href='#Bounding Main Technique'>Bounding Main Technique</a>"]
+
+    hurricane_predicting_glance["<a class='internal-link' href='#Hurricane-Predicting Glance'>Hurricane-Predicting<br>Glance</a>"]
+
+    storm_outrunning_technique["<a class='internal-link' href='#Storm-Outrunning Technique'>Storm-Outrunning<br>Technique</a>"]
+    hurricane_predicting_glance --> storm_outrunning_technique
+
+    fine_passage_negotiating_style["<a class='internal-link' href='#Fine Passage-Negotiating Style'>Fine Passage-Negotiating<br>Style</a>"]
+    hurricane_predicting_glance --> fine_passage_negotiating_style
+
+    sturdy_bulkhead_concentration["<a class='internal-link' href='#Sturdy Bulkhead Concentration'>Sturdy Bulkhead<br>Concentration</a>"]
+    fine_passage_negotiating_style --> sturdy_bulkhead_concentration
+
+    pirate_masquerading_method["<a class='internal-link' href='#Pirate Masquerading Method'>Pirate Masquerading<br>Method</a>"]
+    fine_passage_negotiating_style ------> pirate_masquerading_method
+
+    subgraph The Outcaste
+        wind_summoning_whistle["<a class='internal-link' href='#Wind-Summoning Whistle'>Wind-Summoning<br>Whistle</a>"]
+
+        terrible_glow_of_nautical_valor["<a class='internal-link' href='#Terrible Glow of Nautical Valor'>Terrible Glow of<br>Nautical Valor</a>"]
+
+        pleasant_convocation_of_the_like_minded["<a class='internal-link' href='#Pleasant Convocation of the Like-Minded'>Pleasant Convocation of the<br>Like-Minded</a>"]
+
+        enemy_fouling_method["<a class='internal-link' href='#Enemy-Fouling Method'>Enemy-Fouling Method</a>"]
+
+        false_color_flying_demonstration["<a class='internal-link' href='#False-Color Flying Demonstration'>False-Color Flying<br>Demonstration</a>"]
+    end
+    storm_outrunning_technique --> wind_summoning_whistle
+    fine_passage_negotiating_style --> terrible_glow_of_nautical_valor
+    fine_passage_negotiating_style --> pleasant_convocation_of_the_like_minded
+    pleasant_convocation_of_the_like_minded --> enemy_fouling_method
+    pirate_masquerading_method ---> false_color_flying_demonstration
+
+    subgraph Aspect Book - Water
+        water_drop_protection_technique["<a class='internal-link' href='#Water Drop Protection Technique'>Water Drop Protection<br>Technique</a>"]
+
+        deck_walking_prana["<a class='internal-link' href='#Deck-Walking Prana'>Deck-Walking Prana</a>"]
+
+        ship_striding_technique["<a class='internal-link' href='#Ship-Striding Technique'>Ship-Striding Technique</a>"]
+
+    end
+
+    storm_outrunning_technique ------> water_drop_protection_technique
+    deck_walking_prana --> ship_striding_technique
+
+```
+
+
+## Bounding Main Technique
+
+Cost: 5 motes
+Duration: 1 hour
+Type: Supplemental
+Minimum Sail: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Dynasts attuned to Water can become some of the
+world's greatest sailors. The Charm makes every sailing
+task just a little bit easier: The wind doesn't die or shift at
+awkward moments, there always seems to be a current in
+the desirable direction, and crewmembers do their jobs
+with skill and efficiency.
+In game terms, every two successes rolled with this
+Charm (rounded up) cancel out one difficulty penalty
+from a Sail-based feat. Thus, if the Storyteller rules that
+threading the narrow, stormy Straits of Hell normally
+would be difficulty 3, one or two successes with this Charm
+would reduce the difficulty to 2, and three or four successes
+would reduce the task to normal difficulty. The player
+must still make Ability rolls and gain at least a simple
+success for tasks, but does not suffer penalties for adverse
+conditions.
+Multiple characters cannot add together successes
+rolled for this Charm. Only the roll with the greatest
+number of successes counts. For instance, if two characters
+both use Bounding Main Technique and one rolls two
+successes while the other rolls three, only the second
+character's Charm has any effect.
+Cascade Charms:
+• A more powerful version of this Charm extends
+over multiple ships, at least if they stay fairly close together.
+• A more skilled and powerful sailor could reverse this
+Charm and use it against an enemy, adding difficulty
+penalties for any sailing task. On the high sea, this merely
+hinders a ship— it doesn't move as quickly, the crew seems
+clumsy and stupid, and so on. Moderately risky tasks (such
+as sailing a narrow passage between rocky shoals) can
+become incredibly dangerous.
+
+
+## Hurricane-Predicting Glance
+
+Cost: 1 mote
+Duration: Instant
+Type: Simple
+Minimum Sail: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+With a look at the sky, the Exalted can predict the
+weather for the next day or so; his empathy with the
+currents of the ocean and air give him real prescience
+regarding the weather. The Charm will fail if the local
+weather is changing in response to a magical event or
+sorcery; this Charm only describes to the character
+what the natural weather will be if nothing unusual
+takes place. Perceptive Dragon-Blooded can sometimes
+use this Charm to predict events other than the
+weather: If, for instance, Admiral Potan's fleet is pre-
+paring to sail on a rebellious prefecture as soon as a
+storm breaks, the user of this Charm can predict
+exactly when they will set sail. And impossibly heavy
+clouds appearing out of clear blue skies might be a
+harbinger of an impending volcanic eruption. This
+Charm only works when the character is on the water;
+it fails when the Exalted's feet are on land.
+
+
+## Storm-Outrunning Technique
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 3
+Minimum Essence: 2
+Prerequisite Charms: Hurricane-Predicting Glance
+
+When time is of the essence and getting a ship into
+safe harbor is more important than the crew's rest and
+safety, a captain or pilot with Storm-Outrunning Technique
+is essential to survival and success. This Charm
+allows a ship's officer to double that ship's rate of
+movement for the current scene. This may enable a
+small ship to beat an enemy fleet to a friendly port,
+giving the city some warning; it may let a ship beat a
+storm to safety; or it may let a crew of merchants beat
+a rival to a choice port. To activate the Charm, the
+Exalt need only spend the necessary Essence. The
+greatly increased speed may require one or more Sail
+rolls, especially if the ship cruises through hazardous
+waters at double normal velocity. Also, note that if
+this Charm is used from the deck of a becalmed sailing
+ship it will have no effect, as a speed of zero, when
+doubled, remains zero.
+
+
+## Fine Passage-Negotiating Style
+
+Cost: 3 motes
+Duration: One scene
+Type: Reflexive
+Minimum Sail: 4
+Minimum Essence: 2
+Prerequisite Charms: Hurricane Predicting Glance
+
+The finest captains and pilots can thread their ships
+through the most dangerous patches of sea, avoiding
+submerged hazards with flair and panache. This Charm is
+the source of more than one pilot's reputation. With it, an
+Exalt gains an instinctive knowledge of any submerged
+hazards within five miles of the ship's current location, as
+well as the prevailing current, danger spots and safe channels
+in the same radius. The net effect of this knowledge is
+that the pilot's Sail dice pool improves by three dice for the
+remainder of the scene for the purpose of avoiding hazards.
+This Charm does not directly protect the ship from such
+hazards: If the pilot makes a bad mistake, the hull might
+still be rent asunder. It also does not give its user any special
+awareness of the activities of other characters: It cannot
+point out an ambush in a narrow passage or the impending
+arrival of an enemy vessel.
+
+
+## Sturdy Bulkhead Concentration
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 3
+Prerequisite Charms: Fine Passage Negotiating Style
+
+A Charm favored by Wood-aspected sailors, Sturdy
+Bulkhead Concentration enhances the strength of a ship's
+hull without making it heavier. When this Charm is
+active, the hull gains three additional health levels and 2
+additional soak. The benefit only remains as long as the
+Exalted who activated the Charm remains aboard the
+vessel. To activate the Charm, the character needs only to
+spend the necessary Essence while aboard the ship.
+
+
+## Pirate Masquerading Method
+
+Cost: 3 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 5
+Minimum Essence: 3
+Prerequisite Charms: Fine Passage Negotiating Style
+
+Whenever a ship under the command of a Dragon-Blooded
+with this Charm comes into contact with hostile ships
+of any stripe, it is temporarily camouflaged as a ship of that
+allegiance: The ship appears to be a merchantman to those
+aboard merchantmen; it looks as a pirate ship does to pirates;
+and so on. The Charm is largely a visual illusion — the vessel's
+flag changes its appearance, and the crew appears, from a
+distance, to be the appropriate sort of crew for a ship of its type.
+The Charm does not change the line of the ship itself, so one
+cannot, for instance, hide an imperial dreadnought among
+fishing smacks and expect to go unnoticed. The Charm also
+fails should any viewer set foot upon the ship; visitors and
+raiders see the ship as it really is, once they are aboard it.
+
+
+## Wind-Summoning Whistle
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 3
+Minimum Essence: 3
+Prerequisite Charms: Storm-Outrunning Technique
+
+By pursing her lips and whistling as she invokes this
+Charm, an Exalt can call the winds into the sails of her ship
+and escape from a dangerous situation — or hurl herself into
+battle. The wider the sails and the mightier the ship, the
+more winds are called, as the spirits of the air hasten to obey
+the Exalt, until the ship is moving at full speed in the desired
+direction. The winds are intensely localized and will affect
+other ships within a couple hundred meters of the Exalt's
+ship. However, they cannot be commanded to alter their
+direction once summoned. The ship may run before the
+wind or tack into it, but it cannot turn back on itself. The
+winds will cause the ship to move at its full rate of speed,
+depending on the type of ship, and will last for up to a scene.
+
+
+## Terrible Glow of Nautical Valor
+
+Cost: 3 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 3
+Prerequisite Charms: Fine Passage Negotiating Style
+
+When this Charm is activated, all those who see the
+ship on which the Exalt stands perceive it as an awesome
+naval battleship, haloed with strange lights and manned by
+deadly warriors —even if it's a rickety old piece of wood held
+together by worn-out nails and crewed by the sweepings of
+the local port. While common sense cuts in a moment later
+and the ship is clearly visible as what it actually is, the players
+of all those who were looking at the ship when the Charm
+took effect must succeed in a reflexive Willpower roll for the
+characters to attack it. This Charm is normally used in order
+to gain the advantage of surprise. A wise captain can have
+half the enemy crew slaughtered before it manages to pull
+itself together and fight back.
+
+
+## Pleasant Convocation of the Like-Minded
+
+Cost: 5 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 3
+Prerequisite Charms: Fine Passage Negotiating Style
+
+By spending 5 motes of Essence and invoking this
+Charm, an Exalt can whisper his name into the waves
+around his vessel, and it will be carried to all sea spirits,
+pelagials or other sentient inhabitants of the ocean within
+five miles of his ship. All those who have no particular and
+personal reason to hate that Exalt will be instinctively
+reminded of the power and authority of the Exalted and will
+travel to the vessel to pay their respects and to find out why
+the Exalt has declared his presence. Particularly powerful
+creatures or minor gods may send a representative rather
+than attend themselves. This Charm can be used while at
+port, but fewer creatures of the sea are likely to answer the
+summons. Any beings who will arrive do so within half an
+hour at the most. Their behavior and the length of time they
+remain depends upon the attitude or requests of the Exalt.
+
+
+## Enemy-Fouling Method
+
+Cost: 5 motes
+Duration: Instant
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 3
+Prerequisite Charms: Pleasant Convocation of the Like-Minded
+
+By invoking this Charm, the Exalt summons a great
+swarm of lampreys and similar clinging creatures, which
+adhere to the hull of the target ship, slowing it and possibly
+even causing it to founder if the weather conditions are
+exceptionally bad. The target ship, which must be within
+a mile of the Exalt, has its speed reduced by 10 percent for
+every mote of the Exalt's permanent Essence and will
+remain at this reduced speed until its hull is cleaned or for
+a week, whichever is sooner. This may require a formal dry-docking,
+if the crew has no facilities to do so at sea. This
+Charm fails to work on any ships whose hulls are crafted
+from the Five Magical Materials or other imperishable
+First Age materials, though the Essence is still lost, as such
+ships are of too noble a substance to be so fouled.
+
+
+## False-Color Flying Demonstration
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 5
+Minimum Essence: 4
+Prerequisite Charms: Pirate-Masquerading Method
+
+This Charm invokes the powers of the Exalted to
+disguise the ship, clothing it in the appearance of an ally —
+or even an enemy. When a ship with this Exalt on board
+flies the colors of a particular person or group and comes
+into contact with other ships, the Exalt's ship temporarily
+appears to be the ship of the captain who flies those colors
+or a typical ship of that group. This is a visual illusion and
+even goes so far as to alter the perceived lines of the ship
+if necessary, so that a warship may appear to be a slaver's
+dhow or even a common fishing vessel. The Charm fails
+the moment that any outsider sets foot on the ship or if any
+damage (such as that of a flaming arrow or a barrel of pitch)
+is done to it. It has no mechanical effects in terms of sailing
+speed, defense or anything else.
+
+
+## Water Drop Protection Technique
+
+Cost: 5 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 2
+Prerequisite Charms: Storm-Outrunning Technique
+
+This Charm is specifically designed to work with Northern air boats. The character can completely protect her air
+boat from the effects of storms. This Charm does nothing to
+affect the storm. Instead, it sheathes the air boat in a large
+bubble of protective Essence. The winds of the storm
+continues to push the air boat forward, but the Charm
+completely protects both the vessel and everyone on board
+from all environmental damage. The entire air boat and all
+of its rigging are completely calm, even if gale-force winds
+are blowing a few feet away. This Charm can be recast as
+necessary, but most air-boat pilots use it as a chance to
+outrun a small storm or to land and stake down the air boat
+to protect it from the effects of a prolonged storm.
+
+
+## Deck-Walking Prana
+
+Cost: 3 motes
+Duration: One scene
+Type: Reflexive
+Minimum Sail: 3
+Minimum Essence: 2
+Prerequisite Charms: None
+
+Whether the character is on a trireme off the coast of
+the Blessed Isle or on an air boat high above Diamond
+Hearth, the deck and rigging of any ship can become
+exceedingly treacherous during a storm, a battle or any other
+emergency, and a single misstep can cause a character to fall
+to her death. This Charm effectively removes such risks. A
+character using Deck-Walking Prana can move across the
+deck or up and down the rigging of a storm-tossed ship as
+safely as if she were doing so while the ship was in dry dock.
+The Charm also negates all movement penalties associated
+with environmental factors such as ice, snow, water or
+motion. If an action such as sliding rapidly down the rigging
+would normally require a roll to be safely performed, then
+the character's player must still roll, but this Charm removes
+all penalties associated with adverse environmental conditions. This Charm only works on board a ship, and it does
+not allow the character to perform actions that would
+normally be impossible, such as walking along the side of the
+hull or striding across the canvas of a billowing sail. In
+addition to being able to use this Charm herself, the character can also cast it on anyone she can touch.
+
+
+## Ship-Striding Technique
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 2
+Prerequisite Charms: Deck-Walking Prana
+
+This Charm allows the character employing it to move
+about a ship in any possible fashion and under any conditions. She can walk along the underside of a flying air boat
+or stand on the bottom of the keel of a ship sailing through
+a storm, with no risk of slipping or falling off. The character
+can completely defy gravity with this Charm, but the object
+she is standing upon must be able to physically bear her
+weight. The character can also use this Charm on anyone
+she can touch. Although this Charm allows the character to
+stand firmly upon the hull in calm conditions, if she is
+buffeted by waves or high winds, her player must make a
+successful Dexterity + Athletics roll for the Exalt to avoid
+falling — the difficulty of this roll would be 1 for the normal
+motion of a ship through water or on an air boat during a
+gale. The difficulty only rises to 5 during a storm so severe
+that it is almost certain to destroy the vessel.

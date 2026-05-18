@@ -356,8 +356,9 @@ flowchart TD
         "
 
 
-    subgraph Craft
+    subgraph craft[Craft Charms]
+        direction TB
         bone_graft_technique[Bone Graft Technique]
     end
-    flesh_mending_discipline ~~~ Craft
+    flesh_mending_discipline ~~~ craft
     flesh_mending_discipline --> bone_graft_technique

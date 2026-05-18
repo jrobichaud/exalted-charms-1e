@@ -1,0 +1,357 @@
+```mermaid
+
+flowchart TD
+
+    %% described in Storyteller's Companion
+    subgraph water_socialize[Water Socialize Charms]
+        direction TB
+
+        loyalty_eroding_method["<a class='internal-link' href='#Loyalty Eroding Method'>Loyalty Eroding Method</a>"]
+
+    end
+
+```
+
+```mermaid
+
+flowchart TD
+
+    loquacious_courtier_technique["<a class='internal-link' href='#Loquacious Courtier Technique'>Loquacious Courtier<br>Technique</a>"]
+
+    sweeten_the_tap_method["<a class='internal-link' href='#Sweeten the Tap Method'>Sweeten the Tap Method</a>"]
+    loquacious_courtier_technique --> sweeten_the_tap_method
+
+    wary_yellow_dog_attitude["<a class='internal-link' href='#Wary Yellow Dog Attitude'>Wary Yellow Dog Attitude</a>"]
+    sweeten_the_tap_method --> wary_yellow_dog_attitude
+
+    seizing_the_tongue_technique["<a class='internal-link' href='#Seizing the Tongue Technique'>Seizing the Tongue<br>Technique</a>"]
+    loquacious_courtier_technique --> seizing_the_tongue_technique
+
+    brother_against_brother_insinuation["<a class='internal-link' href='#Brother-Against-Brother Insinuation'>Brother-Against-Brother<br>Insinuation</a>"]
+    seizing_the_tongue_technique --> brother_against_brother_insinuation
+
+    warm_faced_seduction_style["<a class='internal-link' href='#Warm-Faced Seduction Style'>Warm-Faced Seduction<br>Style</a>"]
+    loquacious_courtier_technique -----> warm_faced_seduction_style
+
+    friend_to_all_nations_attitude["<a class='internal-link' href='#Friend-to-All-Nations Attitude'>Friend-to-All-Nations<br>Attitude</a>"]
+    warm_faced_seduction_style --> friend_to_all_nations_attitude
+
+    smoothing_over_the_past_technique["<a class='internal-link' href='#Smoothing-Over-the-Past Technique'>Smoothing-Over-the-Past<br>Technique</a>"]
+    warm_faced_seduction_style --> smoothing_over_the_past_technique
+
+subgraph Aspect Book - Fire
+    jade_defense["<a class='internal-link' href='#Jade Defense'>Jade Defense</a>"]
+
+    loyalty_reading_meditation["<a class='internal-link' href='#Loyalty-Reading Meditation'>Loyalty-Reading<br>Meditation</a>"]
+end
+
+sweeten_the_tap_method --> jade_defense
+brother_against_brother_insinuation --> loyalty_reading_meditation
+
+```
+
+
+## Loyalty Eroding Method
+
+Cost: 3 motes
+Duration: Varies
+Type: Simple
+Minimum Socialize: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+Fire destroys quickly; water erodes slowly, subtly, but
+no less completely. Those who study the metaphysical
+aspects of the elements declare Water the most sinister and
+deadly of the elements. Masters of the Essence of Water
+can stir currents of doubt in the minds of others, eroding
+trust in favor of treachery.
+This Charm requires nothing more than a few minutes
+in which to talk to a person. The Storyteller sets the
+difficulty, based on the target's degree of devotion and
+faith in another person, institution, belief or cause. The
+Dragon-Blooded's player rolls Manipulation + Socialize. If
+he rolls enough successes, the target person becomes
+suspicious, cynical and hostile enough to betray whoever
+or whatever the Dynast wanted. The treacherous dislike
+persists for at least an hour after the Charm's use; if the
+Dynast received more successes than the minimum necessary,
+the hatred can last for days.
+A Dynast who uses the Loyalty-Eroding Method on
+several well-chosen targets can turn an entire town against
+a victim. Rousing suspicion and hatred on such a large
+scale often runs out of control, though. After the affected
+people banish or lynch the target of their ire, the Storyteller
+secretly rolls one die for every person in the community
+affected by the Loyalty-Eroding Method. For each success
+rolled, the community attacks one more scapegoat as old
+enmities flare — and the Dynast has no control over who
+the people choose.
+Cascade Charms:
+• A more subtle and advanced Charm instills a seed
+of betrayal that grows and blossoms later instead of right
+away. Such a delayed-effect Charm might have a time
+limit, or prime a person for treachery when a certain
+condition is met or signal given.
+
+
+## Loquacious Courtier Technique
+
+Cost: 1 mote per two dice
+Duration: One scene
+Type: Simple
+Minimum Socialize: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+The character's stories and idle chitchat become more
+entertaining to those around him. Her every turn of phrase
+becomes wittier, her every comment more topical. Mechanically,
+this Charm allows the character to add two dice to her
+Socialize Ability for the scene for every mote she spends; she
+can add no more dice than she has dots in Socialize.
+
+
+## Sweeten the Tap Method
+
+Cost: 2 motes
+Duration: One scene
+Type: Simple
+Minimum Socialize: 3
+Minimum Essence: 1
+Prerequisite Charms: Loquacious Courtier Technique
+
+Nearly any gathering of Terrestrial Exalted involves
+the consumption of alcohol, often in great quantity. A
+Dragon-Blood can use the Sweeten-the-Tap Method while
+near a quantity of alcohol - he expends a minimum of
+Essence, and the drink noticeably improves in quality,
+strength and taste. This will usually improve the general
+mood of the room, reducing by 1 the difficulty of all
+Socialize rolls for anyone present and imbibing for the rest
+of the evening. However, should anyone botch a Socialize
+roll during the rest of the scene, an overreaction is more
+likely to take place — possibly tempers will fray, or characters
+may make ill-advised seduction attempts. This side
+effect has no particular game mechanic; the Storyteller's
+judgment should be the guide.
+
+
+## Wary Yellow Dog Attitude
+
+Cost: 1 mote
+Duration: Instant
+Type: Reflexive
+Minimum Socialize: 3
+Minimum Essence: 2
+Prerequisite Charms: Sweeten-the-Tap Method
+
+When the Dragon-Blooded who knows this Charm is
+caught in a social situation that unexpectedly turns violent,
+she can quickly focus. During an unexpected combat - that
+is to say, not a military battle or one that comes at the end of
+a search-and-destroy mission for some hinterlands monster
+— the character can activate this Charm to add 3 to her
+Initiative roll. This Charm can only be used during the first
+three turns of an unexpected combat.
+
+
+## Seizing the Tongue Technique
+
+Cost: 2 motes
+Duration: Instant
+Type: Reflexive
+Minimum Socialize: 3
+Minimum Essence: 2
+Prerequisite Charms: Loquacious Courtier Technique
+
+In a social situation, a quick-witted Dragon-Blooded
+can often nimbly step out of a verbal pit and reestablish the
+grounds of a conversation without giving offense to another
+party. By expending the necessary Essence, the
+Dragon-Blood's player can immediately reroll any Socialize
+roll. She must accept the second roll even if it is worse
+than the first, and she cannot spend additional Essence to
+make subsequent rerolls after the first, Additionally, if
+Seizing the Tongue Technique is part of any Combo,
+then Essence must be spent to reactivate all the other
+Charms in that Combo when the reroll takes place, if those
+Charms have separate dice rolls associated with them, they
+are not rerolled
+
+
+## Brother-Against-Brother Insinuation
+
+Cost: 4 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Socialize: 3
+Minimum Essence: 2
+Prerequisite Charms: Seizing-the-Tongue Technique
+
+The personal connections between arrogant and aggressive
+beings such as the Dragon-Blooded are often
+tenuous; it barely takes a spark to destroy the connection
+between two such individuals for a short while.
+To activate this Charm, both the target individual and the
+character she is to be set against must be present. The Exalt
+spends the necessary motes of Essence and makes a simple
+comment to one individual about the other - &quot;I hear he's got
+plans that don't include you&quot; or the like works well enough.
+That is sufficient to weaken the bonds of friendship or love
+between the two characters for the remainder of the scene. The
+characters' reaction to this conflict is up to the Storyteller, of
+course; it may be both parties stomping off to cool their heads
+or engaging in a vicious argument or even coming to blows.
+Neither party immediately remembers the character who
+started the disagreement between them, though other parties
+present may notice the character's activity. When the scene is
+over, cooler heads prevail, and both characters remember the
+strength of their friendship. Unless something horrifically bad
+happened between the two (again, a matter for the Storyteller's
+discretion), they will return to their previous relationship.
+When the Charm ends, the character who was the
+original target of the Charm may remember the Exalted's
+well-timed turn of phrase (requires a successful Intelligence
++ Socialize roll with a difficulty equal to the Manipulation
+of the Exalt who used this Charm). This Charm is well-
+known in the Realm, and those who use it in social situations
+can be brought up on charges or disgraced.
+This Charm does not work if either target character has
+an Essence higher than that of the Exalt using the Charm.
+
+
+## Warm-Faced Seduction Style
+
+Cost: 1 mote
+Duration: Instant
+Type: Supplemental
+Minimum Socialize: 3
+Minimum Essence: 2
+Prerequisite Charms: Loquacious Courtier Technique
+
+The Exalted coaxes the seductive aura of a flickering
+candle in the dark to coalesce around her face, and she briefly
+becomes far more attractive to a character that she is attempting
+to seduce. The Dragon-Blood who uses this Charm
+momentarily increases her Socialize dice pool by, up to five
+dice, solely for the purpose of seducing the Charm's target.
+Warm-Faced Seduction Style cannot increase the character's
+Socialize Trait no more than double its base value.
+
+
+## Friend-to-All-Nations Attitude
+
+Cost: 2 motes
+Duration: One scene
+Type: Simple
+Minimum Socialize: 3
+Minimum Essence: 2
+Prerequisite Charms: Warm-Faced Seduction Style
+
+The Dragon-Blooded with Friend-to-All-Nations
+Attitude finds herself to be equally at home on the Blessed
+Isle, in the Scavenger Lands or even in the barbaric
+reaches of the Wyld. While this Charm is active, the Exalt
+suffers no penalties to her Socialize Ability for being in a
+strange land, so long as she speaks the local tongue. If she
+does not, she may suffer a penalty at the Storyteller's
+discretion, but even so, that penalty will be relatively
+minor, as she instinctively knows all of the moves and basic
+manners of the culture into which she immerses herself.
+Strangely, this Charm is somewhat less effective in
+melting-pot cultures such as Nexus, as the character picks
+up on cultural standards from several groups simultaneously.
+Thankfully, people in such melting pots are, on
+average, more tolerant of cultural differences, so the net
+effect of the Charm is the same.
+
+
+## Smoothing-Over-the-Past Technique
+
+Cost: 3 motes, 1 Willpower
+Duration: One scene
+Type: Reflexive
+Minimum Socialize: 5
+Minimum Essence: 3
+Prerequisite Charms: Warm-Faced Seduction Style
+
+This Charm enables the Dragon-Blood who uses it to
+cause a target's mind to temporarily skip over a past event
+involving the Exalted that would reflect poorly on the
+current discussion. That is to say, she makes the target
+forget about a single event in the past — an event that
+must have included the Exalt herself — just for the current
+scene. She can cause the target to forget about multiple
+events if she wishes, but that requires multiple uses of this
+Charm, just as with any other reflexive Charm.
+When the scene is over, the target will be aware of what
+has happened to her, and she is likely to be quite unhappy
+about any bargains reached while she was not quite herself.
+That means that future uses of this Charm on the same:
+individual will require the Exalt to first use the Charm to
+smooth over the target's memories of having been previously
+fooled through the use of Smoothing Over-the-Past
+Technique. Covering up for careless use of this Charm can
+quickly become impossibly expensive in Essence.
+This Charm does not work on characters whose
+Essence Traits are higher than that of the character
+using the Charm.
+
+
+## Jade Defense
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Socialize: 3
+Minimum Essence: 2
+Prerequisite Charms: Sweeten-the-Tap Method
+
+Jade Defense is used to protect the Exalt from con
+games, seduction and intimidation attempts and similar
+forms of social or emotional manipulation. Years of
+interminable intriguing attune the Dragon-Blooded to
+a wide variety of political and social engineering techniques.
+Wise social operators quickly learn that any
+manipulation technique they can use on others can just
+as easily be used on them. Any Exalt feeling that he
+might be the subject of such techniques can spend
+Essence to amplify his own sense of ennui and sheer
+jadedness and, thereby, render himself resistant to any
+and all social control or manipulation techniques being
+used on him. Activating this Charm increases the difficulty
+of all Charisma, Manipulation and Socialize rolls
+used against the Exalt by half his Socialize (round up),
+rendering him utterly bored with nearly everything,
+including those using Socialize Charms on him. For the
+duration of this Charm, the character's Essence is considered
+one higher than it really is when he's targeted by
+mind-affecting or social Charms that do not work on
+individuals of high Essence.
+
+
+## Loyalty-Reading Meditation
+
+Cost: 5 motes
+Duration: One scene
+Type: Simple
+Minimum Socialize: 4
+Minimum Essence: 2
+Prerequisite Charms: Brother-Against-Brother Insinuation
+
+Clever courtiers learn early on to watch and analyze
+every gesture made by others in a social setting to see how
+— and in which direction — the wheels of loyalty and
+obligation turn. Knowing whom to trust with dirt on
+another — and whom not to — can be critical to a Dragon-
+Blood wanting to go far in Dynastic society.
+This Charm heightens the Dragon-Blood's sensitivity
+to the minute details of social interaction: whose eyebrow
+goes up at what comment, who's especially ingratiating to
+whom, who laughs just a bit too loudly at another's tired
+witticisms, etc. This Charm can let the Dragon-Blood
+know (among other things): if a particular individual is
+loyal to her, whom in the room an individual is loyal to and
+who is feigning loyalty to whom. This Charm does not
+explain these loyalties in any way. It simply reveals them.

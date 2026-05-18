@@ -1,0 +1,438 @@
+```mermaid
+
+flowchart TD
+
+    harmonious_presence_meditation["<a class='internal-link' href='#Harmonious Presence Meditation'>Harmonious Presence<br>Meditation</a>"]
+
+    listener_swaying_argument["<a class='internal-link' href='#Listener-Swaying Argument'>Listener-Swaying<br>Argument</a>"]
+    harmonious_presence_meditation --> listener_swaying_argument
+
+    hypnotic_tongue_technique["<a class='internal-link' href='#Hypnotic Tongue Technique'>Hypnotic Tongue Technique</a>"]
+    listener_swaying_argument --> hypnotic_tongue_technique
+
+    majestic_radiant_presence["<a class='internal-link' href='#Majestic Radiant Presence'>Majestic Radiant Presence</a>"]
+    harmonious_presence_meditation --> majestic_radiant_presence
+
+    underlying_promoting_touch["<a class='internal-link' href='#Underlying Promoting Touch'>Underlying Promoting<br>Touch</a>"]
+    majestic_radiant_presence --> underlying_promoting_touch
+
+    terrifying_apparition_of_glory["<a class='internal-link' href='#Terrifying Apparition of Glory'>Terrifying Apparition<br>of Glory</a>"]
+    majestic_radiant_presence --> terrifying_apparition_of_glory
+
+    subgraph Castebook Dawn
+        command_voice["<a class='internal-link' href='#Command Voice'>Command Voice</a>"]
+    end
+
+    hypnotic_tongue_technique --> command_voice
+
+    subgraph Castebook Zenith
+        impassioned_orator_technique["<a class='internal-link' href='#Impassioned Orator Technique'>Impassioned Orator<br>Technique</a>"]
+
+        countenance_of_vast_wrath["<a class='internal-link' href='#Countenance of Vast Wrath'>Countenance of Vast<br>Wrath</a>"]
+        impassioned_orator_technique --> countenance_of_vast_wrath
+    end
+
+    listener_swaying_argument --> impassioned_orator_technique
+
+    subgraph Castebook Eclipse
+        rose_lipped_seduction_style["<a class='internal-link' href='#Rose-Lipped Seduction Style'>Rose-Lipped<br>Seduction Style</a>"]
+    end
+
+    harmonious_presence_meditation --> rose_lipped_seduction_style
+
+    subgraph Cult of the Illuminated
+        prey_freezing_gaze["<a class='internal-link' href='#Prey-Freezing Gaze'>Prey-Freezing Gaze</a>"]
+
+        soul_shaping_words_technique["<a class='internal-link' href='#Soul-Shaping Words Technique'>Soul-Shaping Words<br>Technique</a>"]
+
+        true_harmony_revelation["<a class='internal-link' href='#True Harmony Revelation'>True Harmony<br>Revelation</a>"]
+        horizon_to_horizon_presence_method["<a class='internal-link' href='#Horizon-to-Horizon Presence Method'>Horizon-to-Horizon<br>Presence Method</a>"]
+
+    end
+    harmonious_presence_meditation --> prey_freezing_gaze
+    listener_swaying_argument --> soul_shaping_words_technique
+    soul_shaping_words_technique --> true_harmony_revelation
+    hypnotic_tongue_technique --> horizon_to_horizon_presence_method
+    terrifying_apparition_of_glory ---> horizon_to_horizon_presence_method
+
+```
+
+
+## Harmonious Presence Meditation
+
+Cost: 6 motes
+Duration: One hour
+Type: Simple
+Minimum Presence: 3
+Minimum Essence: 1
+Prerequisite Charms: None
+
+An Exalted using this Charm increases her personal magnetism
+greatly, making her words seem wise and her arguments
+persuasive. While this Charm is in effect, add a number of dice
+equal to her permanent Essence to any Socialize, Presence or
+Bureaucracy rolls that involve one-on-one interactions.
+
+
+## Listener-Swaying Argument
+
+Cost: 2 motes per die, 1 Willpower
+Duration: Instant
+Type: Supplemental
+Minimum Presence: 3
+Minimum Essence: 2
+Prerequisite Charms: Harmonious Presence Meditation
+
+The character can use Essence to make himself almost
+irresistibly persuasive. For every two motes of Essence spent
+on this Charm, add another die to any Socialize, Presence or
+Bureaucracy roll involving one-on-one interaction. A character
+cannot more than double his pool using this Charm.
+
+
+## Hypnotic Tongue Technique
+
+Cost: 10 motes, 1 Willpower
+Duration: Special
+Type: Simple
+Minimum Presence: 5
+Minimum Essence: 3
+Prerequisite Charms: Listener-Swaying Argument
+
+Through this Charm, an Exalted can program a target to
+undertake an action at a future time. The Exalted must touch
+the target, and the player makes an opposed Willpower roll.
+If the Exalted wins the Willpower roll, she may give the target
+an unspoken command. This command can be as specific and
+elaborate as the character wishes, and the target will not be
+aware of having received it. The suggestion will stay in place
+for a number of days equal to the Charisma of the Exalted
+using the Charm, after which the target forgets it.
+The command can take no more time to execute than the
+Exalted's Essence score in turns. The target can forget or remember
+the act after executing it, at the choice of the Exalted when the
+suggestion is implanted. Characters will not attack themselves or
+others unless already strongly predisposed to do so. If the target wins
+the Willpower roll, she is instantly aware of what the Exalted has
+attempted to do and what the suggestion and conditions were.
+
+
+## Majestic Radiant Presence
+
+Cost: 8 motes
+Duration: One scene
+Type: Simple
+Minimum Presence: 4
+Minimum Essence: 3
+Prerequisite Charms: Harmonious Presence Meditation
+
+A character with this Charm active burns with the
+incandescent radiance of the Unconquered Sun. The
+players of characters attempting to attack the Exalted or to
+stand against him in argument must make a successful
+Willpower roll to have their characters do so. This Charm
+is not compatible with the Dawn Caste anima power.
+
+
+## Underlying Promoting Touch
+
+Cost: 10 motes, 1 Willpower
+Duration: One day
+Type: Simple
+Minimum Presence: 5
+Minimum Essence: 3
+Prerequisite Charms: Majestic Radiant Presence
+
+This Charm causes the target (typically a mortal servant
+of the Exalted) to be imbued with the majesty of the Exalted's
+office. While this Charm is in effect, individuals will treat him
+with the respect and deference they would normally reserve for
+the Exalted who used the Charm (or for any powerful magical
+being, if they are not acquainted with the target's benefactor).
+Players who wish their characters to do otherwise must succeed
+at a Willpower roll with a difficulty of 1 + the Essence score of
+the Exalted who deputized the character.
+
+
+## Terrifying Apparition of Glory
+
+Cost: 10 motes, 1 Willpower
+Duration: One scene
+Type: Simple
+Minimum Presence: 5
+Minimum Essence: 3
+Prerequisite Charms: Majestic Radiant Presence
+
+If the Majestic Radiant Presence Charm makes the character
+seem terrible and powerful, then Terrifying Apparition of
+Glory makes him unspeakably so. While Terrifying Apparition
+of Glory is in effect, a successful Valor roll is required to attack
+the character. Most animals, even trained attack animals, will
+simply flee. Players of characters who are not actively hostile to
+the Exalted using Terrifying Apparition of Glory must make a
+successful Conviction roll not to obey immediately any non-suicidal
+orders the character gives. This compulsion lasts for at
+least a scene after the target leaves the Exalted's presence.
+Those who are able to attack the Exalted do so at a die penalty
+equal to the character's Essence score. This Charm is not
+compatible with the Dawn Caste's anima ability.
+
+
+## Command Voice
+
+Cost: 8 motes
+Duration: One scene
+Type: Simple
+Minimum Presence: 5
+Minimum Essence: 4
+Prerequisite Charms: Hypnotic Tongue Technique
+
+The character surrounds herself with a potent aura of
+authority. Unlike Terrifying Apparition of Glory, this Charm
+does not produce an obvious or overwhelming effect. Instead,
+everyone who is inclined to follow orders — including
+peasants, servants, shop assistants, enlisted military person-
+nel and similar individuals— will obey the character as if she
+were in a position of authority over them. Any target that
+makes a successful opposed Willpower roll against the char-
+acter realizes that the character does not have the authority
+to command him. Everyone else will obey all reasonable-
+sounding commands given by the character. Orders to
+commit suicide, go on killing rampages, or requests to give
+the character most or all of the target's money or possessions
+will end the character's influence over the target, However,
+requests for information or admittance to otherwise restricted
+areas will be instantly granted, as will demands for
+moderately expensive merchandise (up to Resources ••) in
+a shop, even if the character does not pay for it.
+Targets may make another opposed Willpower roll to
+disobey the character if a recognized superior contradicts the
+character's orders. Targets who fail this roll will ignore their
+actual superior's requests. One of this Charm's most potent
+and useful features is that others observing the interaction
+will see nothing odd or magical about the character or the
+target'sreaction. This Charm has no effect on beings with an
+Essence greater than 1, though it has proven effective on Fair
+Folk commoners and other supernatural creatures of an
+inherently servile nature.
+
+
+## Impassioned Orator Technique
+
+Cost: 5 motes
+Duration: One turn
+Type: Supplemental
+Minimum Presence: 3
+Minimum Essence: 2
+Prerequisite Charms: Listener-Swaying Argument
+
+An Exalted acting in accordance with virtue is an
+impressive figure indeed — an Exalted using this Charm
+is even more so. By using this Charm, the Chosen puts
+the weight of her passions behind her arguments. She
+may add one of her Virtue ratings in automatic successes
+to a single Presence roll. The Virtue may be chosen
+when the Charm is invoked, but the Exalted must be
+acting in accordance with the virtue in question. If the
+Exalted is not, or does not, act according to the Virtue,
+the Essence is spent, but no bonus is gained. Invoking
+this Charm automatically adds one point to the
+character's Limit.
+
+
+## Countenance of Vast Wrath
+
+Cost: 10 motes
+Duration: One scene
+Type: Simple
+Minimum Presence: 4
+Minimum Essence: 2
+Prerequisite Charms: Impassioned Orator Technique
+
+When driven by his passions, an Exalted can be an
+almost irresistible force. Through the use of this Charm,
+one of the Chosen may spend Essence to let the
+strength of her virtue strike fear in the hearts of those
+who would oppose her. For the remainder of the Scene,
+any character with a Willpower lower than the Exalted's
+current Limit suffers a penalty to his dice pools equal
+to the Exalt's Essence when attempting to attack her.
+Invoking this Charm automatically adds one point to
+the character's Limit, which counts toward the
+character's Limit for the purposes of determining this
+Charm's effect.
+
+
+## Rose-Lipped Seduction Style
+
+Cost: 1 mote
+Duration: Instant
+Type: Supplemental
+Minimum Presence: 3
+Minimum Essence: 2
+Prerequisite Charms: Harmonious Presence Meditation
+
+Infused with Essence, the Exalt becomes incredibly
+attractive to a particular person that she wishes
+to seduce. The Chosen's Presence Ability is doubled
+for the purpose of seducing her chosen target. These
+are Charm bonus dice and count against dice pool
+maximums.
+
+
+## Prey-Freezing Gaze
+
+Cost: 3 motes, 1 Willpower
+Duration: One scene or special
+Type: Simple
+Minimum Presence: 3
+Minimum Essence: 2
+Prerequisite Charms: Harmonious Presence Meditation
+
+When the character uses this Charm, she impresses
+a single target with the overwhelming power of her
+commanding nature. Targets whose players fail a Valor
+roll at a difficulty of 3 are frozen in place, unable to move
+for the next scene. This paralysis is emotional rather than
+physical, but cannot be broken as long as the attacking
+character continues to gaze intently at the target. While
+keeping this eye contact, the character can be no more
+than five yards from the target. She also cannot move
+faster than a walk or perform any complex or difficult
+actions (such as combat). The target's player receives
+additional Valor rolls whenever anyone harms or obviously
+attempts to harm him. If the character ceases to
+gaze at the target, the paralysis continues for the next
+three full turns, but the target instantly breaks free if
+anyone harms or obviously attempts to harm him. This
+Charm has no effect on targets whose Essence is higher
+than the character using the Charm.
+
+
+## Soul-Shaping Words Technique
+
+Cost: 3 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Presence: 5
+Minimum Essence: 3
+Prerequisite Charms: Listener-Swaying Argument
+
+The words of an Illuminated Solar are as forceful as his
+fists, allowing him to assert dominion over a social conflict.
+The saintly Solar turns to his target and speaks
+profound words, a deep insight fueled with Essence. The
+effect is immediate and powerful. As the target of his words
+contemplates their meaning, and either he accepts the
+fundamental truth of the words and the inherent sainthood
+of the Solar, finding his spirit uplifted, or he rejects
+them and the Solar, the words ripping through his soul like
+spurs. The Solar selects the target of his words and reveals
+his sagacious truth, his player rolling the Solar's Charisma
++ Presence at a difficulty of his opponent's Essence.
+If the roll is successful, the target has a choice:
+submission or defiance. For one who submits to the Solar,
+accepting him as divine, everything in the world makes
+sense, and her place in the world is reaffirmed, and the
+target gains a temporary point of Willpower. For one who
+defies the inherent lordship of the Solar, she suffers
+beneath the weight of her own, false world view, unable
+to reconcile the truth of the Solar's statement with her
+own ideology, losing a number of temporary points of
+Willpower equal to the number of successes the Solar's
+player rolled beyond the requisite difficulty, to a maximum
+number of Willpower points equal to the Solar's
+own Essence. The Solar cannot reduce a target below 0
+Willpower points, and those who have no Willpower left
+as a result of this Charm can no longer bear the sight of
+the Solar and immediately flee his presence. This technique
+is as useful as a weapon against unbelievers as it is
+a way of strengthening the righteous. However, the
+Charm can only be used upon beings who truly are
+beneath the Solar and is not effective against anyone
+with an Essence equal to or higher than the Solar.
+
+
+## True Harmony Revelation
+
+Cost: 15 motes, 1 Willpower
+Duration: Instant
+Type: Simple
+Minimum Presence: 5
+Minimum Essence: 4
+Prerequisite Charms: Soul-Shaping Words Technique
+
+The desperate, the downtrodden and the weak can
+find new hope and new joy in the words of the saintly
+Illuminated. With a gentle whisper and uncommon insight,
+a Solar may reveal someone's true nature to herself,
+so that she may find the sense of purpose she longs for. This
+Charm only affects characters who have no remaining
+temporary Willpower points. The Solar makes a Manipulation
++ Presence roll at a difficulty of his target's
+Conviction. If successful, the Solar molds the spent will of
+the target into a new form, and the Solar may select a new
+Nature to replace the target's old one. For each success
+beyond the required difficulty, the Solar may rearrange
+one point of Virtue, making a cowardly man brave or a
+loving man cold and hard. The effects normally last a
+month. However, the Solar may spend 1 experience point
+to make the Nature change permanent, and 1 experience
+point per Virtue dot shifted during the target's change to
+make that permanent. Some characters of strong will may
+overcome even these permanent changes with time. After
+a minimum number of months equal to (11 - the character's
+Willpower), at the Storyteller's discretion, even the permanent
+effects of this Charm subside. This Charm will not
+affect beings whose Essence exceeds the Solar's.
+
+
+## Horizon-to-Horizon Presence Method
+
+Cost: 5 motes, 1 Willpower
+Duration: Instant
+Type: Reflexive
+Minimum Presence: 5
+Minimum Essence: 5
+Prerequisite Charms: Hypnotic Tongue Technique, Terrifying Apparition of Glory
+
+While any Solar who masters the Charms of Presence
+has a weighty aura of charisma and influence, those who
+master Horizon-to-Horizon Presence Method have vast
+auras that insinuate themselves into all aspects of life.
+Such an Exalt impacts people whom she has never met.
+Assassins abandon their quest for her destruction after
+seeing a painting of her. Hopeless young men devote their
+entire lives to her upon hearing mere stories of her deeds.
+The character may influence the world without raising a
+finger through the power of her charisma alone.
+Upon activating this Charm, the Solar may make a
+single use of her Presence Ability, usually rolled with
+either Charisma or Manipulation, against any single
+character irregardless of distance. The difficulty rating of
+the Presence roll is increased by an amount equal to the
+target's Essence. The Solar need not speak or interact
+with the target in anyway. Indeed, the Charm may be
+activated unconsciously as the character's charismatic
+aura affects people and events completely outside of her
+knowledge. However, the Charm requires some interaction,
+even if only distant rumor. The target must hear of
+her deeds or witness the impact the character has made
+upon the world. Further, when the character fails to
+impress someone through the use of this Charm, it
+diminishes in usefulness. Anytime the Charm is activated
+but fails to achieve a number of successes equal to
+the target's Essence, the Charm may not be activated
+again for a full day, and the target of the Charm is
+rendered immune to its use for a month (or longer at the
+Storyteller's discretion). Finally, the Charm only creates
+emotional impressions and vague ideas, not specific messages.
+While Horizon-to-Horizon Presence Method could
+persuade a king to seek the Solar's amorous affections, it
+could not, for example, convey a secret password to him
+or convince him to perform a very specific task.
+While the primary use of this Charm is long-ranged
+interactions, the strength of the character's aura does not
+diminish in close proximity. The Charm may be activated
+to affect someone in the character's presence, allowing for
+powerful nonverbal interaction.

@@ -1,0 +1,387 @@
+```mermaid
+
+flowchart TD
+
+    salty_dog_method["<a class='internal-link' href='#Salty Dog Method'>Salty Dog Method</a>"]
+
+    perfect_reckoning_technique["<a class='internal-link' href='#Perfect Reckoning Technique'>Perfect Reckoning<br>Technique</a>"]
+    salty_dog_method --> perfect_reckoning_technique
+
+    shipwreck_surviving_stamina["<a class='internal-link' href='#Shipwreck-Surviving Stamina'>Shipwreck-Surviving<br>Stamina</a>"]
+    salty_dog_method --> shipwreck_surviving_stamina
+
+    weather_anticipating_intuition["<a class='internal-link' href='#Weather-Anticipating Intuition'>Weather-Anticipating<br>Intuition</a>"]
+    perfect_reckoning_technique --> weather_anticipating_intuition
+
+    depth_plumbing_intuition["<a class='internal-link' href='#Depth-Plumbing Intuition'>Depth-Plumbing<br>Intuition</a>"]
+    perfect_reckoning_technique ---> depth_plumbing_intuition
+
+    wind_defying_course_technique["<a class='internal-link' href='#Wind-Defying Course Technique'>Wind-Defying<br>Course Technique</a>"]
+    salty_dog_method --> wind_defying_course_technique
+
+    storm_weathering_essence_infusion["<a class='internal-link' href='#Storm-Weathering Essence Infusion'>Storm-Weathering<br>Essence Infusion</a>"]
+    wind_defying_course_technique --> storm_weathering_essence_infusion
+
+    hull_preserving_technique["<a class='internal-link' href='#Hull-Preserving Technique'>Hull-Preserving<br>Technique</a>"]
+    storm_weathering_essence_infusion --> hull_preserving_technique
+
+    subgraph savage_seas[Savage Seas]
+        direction TB
+        seeking_the_earths_bounty_method["<a class='internal-link' href='#Seeking the Earth's Bounty Method'>Seeking the Earth's<br>Bounty Method</a>"]
+
+        fires_kiss_resistance_prana["<a class='internal-link' href='#Fire's Kiss Resistance Prana'>Fire's Kiss<br>Resistance Prana</a>"]
+
+        ignore_the_winds_course_technique["<a class='internal-link' href='#Ignore the Wind's Course Technique'>Ignore the Wind's<br>Course Technique</a>"]
+
+        masts_unbreakable_will_prana["<a class='internal-link' href='#Mast's Unbreakable Will Prana'>Mast's Unbreakable<br>Will Prana</a>"]
+
+        harden_the_hull_practice["<a class='internal-link' href='#Harden the Hull Practice'>Harden the Hull<br>Practice</a>"]
+    end
+
+    perfect_reckoning_technique ----> seeking_the_earths_bounty_method
+    wind_defying_course_technique --> fires_kiss_resistance_prana
+    wind_defying_course_technique --> ignore_the_winds_course_technique
+    wind_defying_course_technique --> masts_unbreakable_will_prana
+    storm_weathering_essence_infusion ---> harden_the_hull_practice
+
+    subgraph Castebook Eclipse
+        golden_essence_sails["<a class='internal-link' href='#Golden Essence Sail'>Golden Essence Sail</a>"]
+
+        phantom_crew_charm["<a class='internal-link' href='#Phantom Crew Charm'>Phantom Crew Charm</a>"]
+
+        glorious_solar_ship["<a class='internal-link' href='#Glorious Solar Ship'>Glorious Solar Ship</a>"]
+    end
+
+    salty_dog_method --> golden_essence_sails
+    golden_essence_sails --> phantom_crew_charm
+    phantom_crew_charm --> glorious_solar_ship
+
+```
+
+
+## Salty Dog Method
+
+Cost: 3 motes
+Duration: One day
+Type: Reflexive
+Minimum Sail: 2
+Minimum Essence: 1
+Prerequisite Charms: None
+
+While this Charm remains in effect, it gives the
+character perfect sea legs. While the Charm lasts, the
+character will not lose his balance or footing, even on the
+most storm-tossed ship, though collisions and so forth may
+still require Dexterity + Athletics rolls. Characters using
+this Charm will not become seasick, even on rough seas.
+
+
+## Perfect Reckoning Technique
+
+Cost: 4 motes
+Duration: Instant
+Type: Simple
+Minimum Sail: 3
+Minimum Essence: 1
+Prerequisite Charms: Salty Dog Method
+
+Through the use of this Charm, the character may
+learn exactly where her ship lies in relation to landmarks
+and locations she already knows. This knowledge allows
+her to pinpoint her location, but only in regard to known
+landmarks. The Charm does not allow the character to
+indirectly divine the local geography by sensing her distance
+from previously uncharted reefs or lost islands.
+
+
+## Shipwreck-Surviving Stamina
+
+Cost: 5 motes
+Duration: One day
+Type: Reflexive
+Minimum Sail: 3
+Minimum Essence: 1
+Prerequisite Charms: Salty Dog Method
+
+A character using this Charm can survive indefinitely
+in water. She will never tire from treading water and may
+drink seawater without ill effect. She is protected from
+sunburn and other exposure effects and can hold her
+breath for up to five minutes per point of Stamina. This
+Charm does nothing to ward off hostile sea life, nor does it
+protect a character from inclement weather.
+
+
+## Weather-Anticipating Intuition
+
+Cost: 6 motes
+Duration: Instant
+Type: Simple
+Minimum Sail: 3
+Minimum Essence: 1
+Prerequisite Charms: Perfect Reckoning Technique
+
+By placing her finger in the water, the character can
+instantly predict future weather for a number of days equal
+to the Chosen's permanent Essence. The only thing that
+will cause this forecast to err is the influence of powerful
+magic changing the weather - this Charm will foresee
+even freak squalls and unexpected fogs.
+
+
+## Depth-Plumbing Intuition
+
+Cost: 4 motes
+Duration: One scene
+Type: Reflexive
+Minimum Sail: 4
+Minimum Essence: 1
+Prerequisite Charms: Perfect Reckoning Technique
+
+By feeling the Essence flows in the world around
+him, the character can sense the depth of the water for
+(100 x his Essence rating) yards. This knowledge allows
+him to discern harbor channels, sense reefs and so on.
+Note that awareness of a hazard doesn't necessarily mean
+that the character's ship is agile or well-handled enough
+to avoid the obstacle.
+
+
+## Wind-Defying Course Technique
+
+Cost: 6 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 3
+Minimum Essence: 2
+Prerequisite Charms: Salty Dog Method
+
+A character using this Charm while aboard a ship can
+tack much more closely to the wind than would be normal
+for his ship and rigging. Ships affected by this Charm
+cannot sail directly into the wind, but they can sail very
+near to it and, in general, handle more lightly and responsively
+than normal. Aside from additions to maneuverability
+and speed, which vary from ship to ship, the pilot may add
+the Essence rating of the character invoking the Charm to
+her Dexterity + Sail for ship handling. A ship that has had
+multiple Exalted use this Charm on it only benefits from
+the character with the highest Essence score.
+
+
+## Storm-Weathering Essence Infusion
+
+Cost: 6 motes, 1 Willpower
+Duration: One day
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 2
+Prerequisite Charms: Wind-Defying Course Technique
+
+Storms are great banes of ships, particularly the lightly
+built galleys that ferry cargo between the ports of the Inner
+Sea. Storms can snap masts and oars, capsize ships or simply
+smash them beneath vast swells. While under the protection
+of this Charm, a ship is safe from these and other weather-related
+disasters, so long as it has a competent helmsman —
+no Charm can protect a ship drifting without steerage in a
+gale. A character with this Charm can protect a ship of up to
+(20 x the character's Essence rating) feet in length.
+
+
+## Hull-Preserving Technique
+
+Cost: 8 motes, 1 Willpower, 1 health level
+Duration: One turn
+Type: Simple
+Minimum Sail: 5
+Minimum Essence: 3
+Prerequisite Charms: Storm-Weathering Essence Infusion
+
+Even more dangerous to a boat than a storm is a sharp
+impact — from the ram of a warship or from a rock or shoal.
+Even running aground on a sandbank can gut a ship or
+damage it so severely it founders. By bracing herself against
+the ship and channeling Essence through it at the moment
+of impact, the character can cause her magic to absorb the
+damage, leaving the ship unharmed. This effect can cause
+severe damage to a ramming vessel, as the preserved ship
+yields only as much as the impact of the ram pushes it
+sideways through the water. The character may have to use
+this Charm multiple turns in a row if the ship suffers
+multiple impacts. For example, if the ship fails to turn away
+and scrapes longways across a reef, the character may have
+to renew the Charm every turn the scraping continues. As
+with Storm-Weathering Essence Infusion, a character
+cannot use this Charm to protect a ship of more than (20
+x the character's Essence rating) feet in length.
+
+
+## Seeking the Earth's Bounty Method
+
+Cost: 6 motes
+Duration: One turn
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 2
+Prerequisite Charms: Perfect Reckoning Technique
+
+By casting his will forth upon the waters, the Chosen
+can uncover where the nearest safe harbor or beaching site
+is located and how to get there. Although the approach to
+the harbor will be clear of hazards and the beach there
+usable for small craft (even if the vessel itself cannot
+beach), the harbor will not necessarily be safe for the crew.
+There might well be monsters in the bay or surroundings,
+the nearby natives (if any) may be unfriendly, or other
+hidden dangers may exist.
+
+
+## Fire's Kiss Resistance Prana
+
+Cost: 6 motes, 1 Willpower
+Duration: One day
+Type: Simple
+Minimum Sail: 4
+Minimum Essence: 2
+Prerequisite Charms: Wind-Defying Course Technique
+
+Fire is rightly feared on all sea-going vessels. Even a ship
+with a First Age hull is filled with furnishings and supplies
+that will burn — and the crew has nowhere to go. Even small
+fires are tolerated only because of necessity, and the galley
+on a ship is the most carefully designed part of most vessels.
+This Charm renders a vessel completely immune to the
+ravages of fire altogether; while it is in effect, no natural fire
+can start aboard the ship. Although existing fires will not be
+affected, neither will they spread further, confining themselves
+to destroying what they are actually burning at that
+moment; any fuel added to the fire will simply refuse to burn.
+Magical or elemental fires can be set normally, but they will
+burn for half as long and take half the effort to douse than
+usual. While burning, they will inflict whatever damage
+they normally would, however.
+
+
+## Ignore the Wind's Course Technique
+
+Cost: 10 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 5
+Minimum Essence: 2
+Prerequisite Charms: Wind-Defying Course Technique
+
+By dint of this Charm, an Exalted helmsman can not
+only tack deeper into the wind than any mortal helmsman,
+she may ignore its direction completely. So long as the
+Charm is in effect, her vessel moves as if the wind were full
+in its sails, no matter what direction the winds actually blow
+or what course the helmsman sets. Anyone watching the
+Exalted's vessel while it sails in defiance of the winds will
+obviously know that some sort of powerful magic is in use.
+
+
+## Mast's Unbreakable Will Prana
+
+Cost: 4 motes
+Duration: One scene
+Type: Simple
+Minimum Sail: 3
+Minimum Essence: 2
+Prerequisite Charms: Wind-Defying Course Method
+
+A ship's mast is its life; without the mast, a sailing vessel
+is utterly subject to tide and current, and few vessels survive
+an attack or sudden squall that wrecks the mast. By way of
+this Charm, the Exalt can render the mast of a ship he is on
+immune to even the greatest winds or the strongest attacks.
+Only actions taken by Deathlords, extremely powerful
+elementals or spirits and the most powerful Exalted (those
+with a permanent Essence of 6 or greater) can hope to
+destroy a ship's mast while this Charm is in effect.
+
+
+## Harden the Hull Practice
+
+Cost: 3 motes + 2 per (Essence)L of soak
+Duration: One scene
+Type: Reflexive
+Minimum Sail: 4
+Minimum Essence: 2
+Prerequisite Charms: Storm-Weathering Essence Infusion
+
+Unseen hazards and dangers are a threat to every sailing
+vessel. Using this Charm, an Exalt can reinforce the hull of
+her vessel to resist these unforeseen problems. For every 2
+motes of Essence she spends, the hull gains lethal soak equal
+to the Exalted's permanent Essence. This Charm can be
+applied multiple times to the same vessel in a scene, but
+under no circumstances can the soak gained through the use
+of this Charm exceed the highest Stamina + Sail total of any
+Exalt who used this Charm on the ship during the scene.
+
+
+## Golden Essence Sail
+
+Cost: 6 motes, 1 Willpower
+Duration: One day
+Type: Simple
+Minimum Sail: 3
+Minimum Essence: 2
+Prerequisite Charms: Salty Dog Method
+
+The character using this Charm weaves sails out
+of pure Essence for a ship that has no sails (or badly
+damaged ones). The new sails are of a shimmering
+golden cloth, as light as silk but stronger than canvas.
+They appear on the ship's masts and furl or unfurl at
+their creator's command. They may bear an emblem of
+the Chosen's anima, if she wishes it. Golden Essence
+Sails have a soak value of (the Exalt's permanent
+Essence score + 2) for resisting attacks against the
+ship's rigging or sails, and they do not accumulate
+damage (they ignore any attack insufficient to damage
+them, just like the ship itself does). See Savage Seas,
+pages 92-93, for more information.
+
+
+## Phantom Crew Charm
+
+Cost: 8 motes, 1 Willpower
+Duration: One day
+Type: Simple
+Minimum Sail: 5
+Minimum Essence: 3
+Prerequisite Charms: Golden Essence Sails
+
+With this Charm, the Chosen calls into being
+phantom sailors able to crew any ship the character is
+aboard. The phantom crew speaks only when necessary
+and obeys all of its summoner's orders. The
+phantom sailors will sail the ship anywhere and perform
+any shipboard duties, although they will not
+fight and should be treated as extras with relevant
+Abilities equal to the Exalted's Essence. The character
+can summon a crew sufficient for a ship of up to
+(Essence x 40) feet in length.
+
+
+## Glorious Solar Ship
+
+Cost: 15 motes, 1 Willpower
+Duration: One day
+Type: Simple
+Minimum Sail: 5
+Minimum Essence: 4
+Prerequisite Charms: Phantom Crew Charm
+
+The Exalted conjures an entire vessel from pure
+Essence, capable of bearing him and a number of
+passengers and crew. The ship has a maximum length
+of (the character's Essence rating x 20) feet and
+appears ready to sail, with all of the necessary equipment
+on board. The Glorious Solar Ship has no crew;
+it is up to the Chosen to provide one, either mortal or
+otherwise. Other Sail Charms can be applied normally
+to the Glorious Solar Ship.
