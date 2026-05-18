@@ -81,7 +81,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 3
 Minimum Essence: 1
-Prerequisite Charms: Precision of the Striking Raptor
+Prerequisite Charms: [[#Precision of the Striking Raptor]]
 
 The character attacks, not only to do damage, but to
 stun or cripple his opponent. The character attacks and
@@ -105,7 +105,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Joint-Wounding Attack
+Prerequisite Charms: [[#Joint-Wounding Attack]]
 
 This deadly Charm is the friend of assassins everywhere.
 The Exalted charges her weapon with Essence and strikes from
@@ -123,7 +123,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 3
 Minimum Essence: 2
-Prerequisite Charms: Joint-Wounding Attack
+Prerequisite Charms: [[#Joint-Wounding Attack]]
 
 The art of thrown weapons is an art often practiced by
 assassins and others who attack from ambush. Through the use
@@ -147,7 +147,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 4
 Minimum Essence: 2
-Prerequisite Charms: Observer-Deceiving Attack
+Prerequisite Charms: [[#Observer-Deceiving Attack]]
 
 The character strikes his unsuspecting opponent with a
 weapon imbued with Essence, stifling her outcry and muting
@@ -176,7 +176,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 2
 Minimum Essence: 2
-Prerequisite Charms: Precision of the Striking Raptor
+Prerequisite Charms: [[#Precision of the Striking Raptor]]
 
 The character can bounce any thrown weapon off of an
 object and have it hit its intended target without penalty.
@@ -198,7 +198,7 @@ Duration: Instant
 Type: Extra Actions
 Minimum Thrown: 4
 Minimum Essence: 3
-Prerequisite Charms: Ricochet Weapon Technique
+Prerequisite Charms: [[#Ricochet Weapon Technique]]
 
 When a character makes a Thrown attack using this Charm,
 the weapon ricochets from one target to the next, until it finally
@@ -216,7 +216,7 @@ Duration: One scene or special
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Reaping the Bloody Wheat
+Prerequisite Charms: [[#Reaping the Bloody Wheat]]
 
 Once thrown, a weapon using this Charm continues to
 strike targets for the duration of the scene. Bouncing off of
@@ -250,7 +250,7 @@ Duration: One scene
 Type: Supplemental
 Minimum Thrown: 3
 Minimum Essence: 1
-Prerequisite Charms: Precision of the Striking Raptor
+Prerequisite Charms: [[#Precision of the Striking Raptor]]
 
 Any thrown weapon used by the character in this scene
 returns to his hand at the end of the turn in which it was thrown.
@@ -283,7 +283,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 3
 Minimum Essence: 3
-Prerequisite Charms: Triple-Distance Attack Technique
+Prerequisite Charms: [[#Triple-Distance Attack Technique]]
 
 The character hurls dozens or even hundreds of Essence
 duplicates of his favored throwing weapon, saturating
@@ -305,7 +305,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Thrown: 5
 Minimum Essence: 2
-Prerequisite Charms: Cascade of Cutting Terror
+Prerequisite Charms: [[#Cascade of Cutting Terror]]
 
 The Exalted hurls a number of throwing weapons with
 the same hand. The character makes one attack roll but
@@ -324,7 +324,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Cascade of Cutting Terror
+Prerequisite Charms: [[#Cascade of Cutting Terror]]
 
 The character hurls a mote of burning light at her target.
 This mote does a lethal damage of 6 + the number of extra

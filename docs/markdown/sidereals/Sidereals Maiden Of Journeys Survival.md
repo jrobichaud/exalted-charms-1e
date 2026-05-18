@@ -50,7 +50,7 @@ Duration: One scene
 Type: Simple
 Minimum Survival: 2
 Minimum Essence: 2
-Prerequisite Charms: Becoming the Wilderness
+Prerequisite Charms: [[#Becoming the Wilderness]]
 
 In turn, the character can make his soul mirror the land,
 imposing the pattern of its fate upon the flows of his Essence.
@@ -68,7 +68,7 @@ Duration: Five days
 Type: Simple
 Minimum Survival: 4
 Minimum Essence: 3
-Prerequisite Charms: Adopting the Untamed Face
+Prerequisite Charms: [[#Adopting the Untamed Face]]
 
 As she mirrors herself to the land, the character
 bends the wild directly to her will. Under the pressure of
@@ -120,7 +120,7 @@ Duration: Instant
 Type: Simple
 Minimum Survival: 4
 Minimum Essence: 2
-Prerequisite Charms: Sky and Rain Mantra
+Prerequisite Charms: [[#Sky and Rain Mantra]]
 
 The character strives to mirror the fate of an air
 spirit or elemental to the flows of her own Essence, and
@@ -145,7 +145,7 @@ Duration: Five days
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 4
-Prerequisite Charms: Dreaming the Wild Lands, Sky Spirit Demand
+Prerequisite Charms: [[#Dreaming the Wild Lands]], [[#Sky Spirit Demand]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden Entombed. The character casts

@@ -57,7 +57,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 3
 Minimum Essence: 1
-Prerequisite Charms: Reed in the Wind
+Prerequisite Charms: [[#Reed in the Wind]]
 
 Like shadows over water, the Exalted moves with perfect,
 fluid grace and speed. The character may dodge a single
@@ -73,7 +73,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 5
 Minimum Essence: 1
-Prerequisite Charms: Shadow Over Water
+Prerequisite Charms: [[#Shadow Over Water]]
 
 From Shadows Over Water to shadow itself, the
 character is too quick to be hit at all. The character can use
@@ -90,7 +90,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 3
 Minimum Essence: 1
-Prerequisite Charms: Reed in the Wind
+Prerequisite Charms: [[#Reed in the Wind]]
 
 The character's attunement to the interaction of her
 anima with the ambient Essence of Creation makes her
@@ -116,7 +116,7 @@ Duration: One scene
 Type: Simple
 Minimum Dodge: 5
 Minimum Essence: 3
-Prerequisite Charms: Reflex Sidestep Technique, Seven Shadow Evasion
+Prerequisite Charms: [[#Reflex Sidestep Technique]], [[#Seven Shadow Evasion]]
 
 The character permeates his being with Essence,
 becoming partly atomized. He moves with an impossible
@@ -133,7 +133,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 3
 Minimum Essence: 2
-Prerequisite Charms: Shadow Over Water
+Prerequisite Charms: [[#Shadow Over Water]]
 
 When attacked, the Exalted makes a prodigious leap
 to take herself out of harms way. When making any dodge

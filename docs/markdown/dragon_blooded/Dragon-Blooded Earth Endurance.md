@@ -86,7 +86,7 @@ Duration: One day
 Type: Simple
 Minimum Endurance: 3
 Minimum Essence: 2
-Prerequisite Charms: Unsleeping Earth Meditation
+Prerequisite Charms: [[#Unsleeping Earth Meditation]]
 
 Stone does not need nourishment, and with this Charm,
 neither do the Dragon-Blooded. A character under the influence
@@ -109,7 +109,7 @@ Duration: One scene
 Type: Simple
 Minimum Endurance: 4
 Minimum Essence: 2
-Prerequisite Charms: Uneating Earth Meditation
+Prerequisite Charms: [[#Uneating Earth Meditation]]
 
 The mountains do not breathe, Neither need a Dynast who
 has mastered this Charm. For the rest of the scene after activating
@@ -131,7 +131,7 @@ Duration: Varies
 Type: Reflexive
 Minimum Endurance: 3
 Minimum Essence: 2
-Prerequisite Charms: Unbreathing Earth Meditation
+Prerequisite Charms: [[#Unbreathing Earth Meditation]]
 
 The pain and frailty of mortal flesh may be avoided for very
 short periods of time by the invocation of this Charm. Once
@@ -148,7 +148,7 @@ Duration: One day
 Type: Simple
 Minimum Endurance: 3
 Minimum Essence: 2
-Prerequisite Charms: Unsleeping Earth Meditation
+Prerequisite Charms: [[#Unsleeping Earth Meditation]]
 
 This Charm roots the Dragon-Blooded's Essence down
 into the elemental Earth, magically sustaining him. As long as
@@ -169,7 +169,7 @@ Duration: Until satisfied
 Type: Simple
 Minimum Endurance: 4
 Minimum Essence: 4
-Prerequisite Charms: Unfeeling Earth Meditation, Untiring Earth Meditation
+Prerequisite Charms: [[#Unfeeling Earth Meditation]], [[#Untiring Earth Meditation]]
 
 As well as protecting an Exalted's flesh from harm, the
 steady strength of the Earth Dragon can be used to fuel the
@@ -214,7 +214,7 @@ Duration: One hour
 Type: Simple
 Minimum Endurance: 4
 Minimum Essence: 2
-Prerequisite Charms: Unsleeping Earth Meditation
+Prerequisite Charms: [[#Unsleeping Earth Meditation]]
 
 The Exalt assumes a meditative position and becomes
 perfectly still, clearing his mind of all thoughts as
@@ -247,7 +247,7 @@ Duration: Until broken
 Type: Simple
 Minimum Endurance: 4
 Minimum Essence: 3
-Prerequisite Charms: Sleep of Stones Trance
+Prerequisite Charms: [[#Sleep of Stones Trance]]
 
 The character sinks into deep meditation, opening
 her consciousness and soul to the breath of the Elemental
@@ -285,7 +285,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Endurance: 4
 Minimum Essence: 2
-Prerequisite Charms: Uneating Earth Meditation
+Prerequisite Charms: [[#Uneating Earth Meditation]]
 
 The Terrestrial Exalted calls upon the blood of the
 Elemental Dragons to awaken and cleanse her body of

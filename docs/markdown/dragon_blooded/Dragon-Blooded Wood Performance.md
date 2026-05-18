@@ -66,7 +66,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Performance: 3
 Minimum Essence: 2
-Prerequisite Charms: Memorable Performance Technique
+Prerequisite Charms: [[#Memorable Performance Technique]]
 
 The character with Talented Improvisation can catch
 herself in a misstep in any performance and work her way out
@@ -90,7 +90,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Performance: 4
 Minimum Essence: 2
-Prerequisite Charms: Talented Improvisation
+Prerequisite Charms: [[#Talented Improvisation]]
 
 Occasionally, a Dragon-Blooded warrior has no choice
 but to engage in combat in a crowded area or finds himself in
@@ -119,7 +119,7 @@ Duration: Instant
 Type: Simple
 Minimum Performance: 4
 Minimum Essence: 2
-Prerequisite Charms: Memorable Performance Technique
+Prerequisite Charms: [[#Memorable Performance Technique]]
 
 At this level of mastery, the Dragon-Blood's performances
 become so awe-inspiring, so staggeringly beautiful,
@@ -155,7 +155,7 @@ Duration: Until performance ends
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 3
-Prerequisite Charms: Enchanting Performance
+Prerequisite Charms: [[#Enchanting Performance]]
 
 This performance lends a bit of defensive magic to an
 entire crowd of viewers. This magic can be used to protect
@@ -179,7 +179,7 @@ Duration: Instant
 Type: Simple
 Minimum Performance: 3
 Minimum Essence: 2
-Prerequisite Charms: Memorable Performance Technique
+Prerequisite Charms: [[#Memorable Performance Technique]]
 
 The songs of the Dragon-Blooded can inspire even
 the most slovenly unit to incredible feats of endurance. As
@@ -236,7 +236,7 @@ Duration: One month per dot of permanent Essence, or until training program is u
 Type: Simple
 Minimum Performance: 3
 Minimum Essence: 2
-Prerequisite Charms: Flawless Training Execution
+Prerequisite Charms: [[#Flawless Training Execution]]
 
 During the First Age, the Dragon-Blooded relied
 on the Celestial Exalted and their superior training
@@ -311,7 +311,7 @@ Duration: Special
 Type: Reflexive
 Minimum Performance: 3
 Minimum Essence: 2
-Prerequisite Charms: Memorable Performance Technique
+Prerequisite Charms: [[#Memorable Performance Technique]]
 
 In the courts of the Dragon-Blooded, the love of
 musical and theatrical performances is commonplace. A
@@ -336,7 +336,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Performance: 4
 Minimum Essence: 2
-Prerequisite Charms: Dance of Flashing Swords
+Prerequisite Charms: [[#Dance of Flashing Swords]]
 
 The Dragon-Blooded are social creatures, enamored
 with culture and art, but they are also creatures of violence,

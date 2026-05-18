@@ -71,7 +71,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 4
 Minimum Essence: 4
-Prerequisite Charms: Terrestrial Circle Sorcery
+Prerequisite Charms: [[#Terrestrial Circle Sorcery]]
 
 Similar to, but more powerful than, magic of the
 Terrestrial Circle, Celestial Circle magic is mighty indeed.
@@ -91,7 +91,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 5
 Minimum Essence: 5
-Prerequisite Charms: Celestial Circle Sorcery
+Prerequisite Charms: [[#Celestial Circle Sorcery]]
 
 The most powerful form of magic available to the
 Exalted. Sorcery of the Solar Circle rivals the anger of the Five
@@ -138,7 +138,7 @@ Type: Supplemental
 Minimum Occult: 2
 Minimum Essence: 2
 
-Prerequisite Charms: Spirit-Detecting Glance
+Prerequisite Charms: [[#Spirit Detecting Glance]]
 This Charm allows the character to launch a single
 attack at an unmanifested spirit. For the purposes of the
 individual attack, the character attacks the spirit as if it
@@ -159,7 +159,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Occult: 4
 Minimum Essence: 3
-Prerequisite Charms: Spirit-Cutting Attack
+Prerequisite Charms: [[#Spirit-Cutting Attack]]
 
 This Charm is similar to Spirit-Cutting Attack, but the
 character's blows are much more dangerous. Name aside, the
@@ -186,7 +186,7 @@ Duration: One scene
 Type: Simple
 Minimum Occult: 5
 Minimum Essence: 2
-Prerequisite Charms: Spirit-Cutting Attack
+Prerequisite Charms: [[#Spirit-Cutting Attack]]
 
 Through the use of this Charm, characters can drive away
 unmaterialized spirits from an area and bar them from entry. The
@@ -208,7 +208,7 @@ Duration: One scene
 Type: Simple
 Minimum Occult: 5
 Minimum Essence: 2
-Prerequisite Charms: Spirit-Detecting Glance
+Prerequisite Charms: [[#Spirit Detecting Glance]]
 
 This powerful Charm allows a character to perceive the
 flows of Essence at work in the world around him. Far more
@@ -233,7 +233,7 @@ Duration: Varies
 Type: Simple
 Minimum Occult: 4
 Minimum Essence: 5
-Prerequisite Charms: Spirit-Cutting Attack
+Prerequisite Charms: [[#Spirit-Cutting Attack]]
 
 By giving voice to the arcane patterns of this Charm,
 an Exalted can hamper an enemy's ability to use Essence.
@@ -262,7 +262,7 @@ Duration: Multiple Turns
 Type: Supplemental
 Minimum Occult: 6
 Minimum Essence: 5
-Prerequisite Charms: All-Encompassing Sorcerer's Sight, Power-Draining Whisper
+Prerequisite Charms: [[#All-Encompassing Sorcerer's Sight]], [[#Power-Draining Whisper]]
 
 With a barehanded blow, the character using this
 Charm makes it impossible for his target to make any
@@ -300,7 +300,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 6
 Minimum Essence: 6
-Prerequisite Charms: Spirit-Repelling Diagram
+Prerequisite Charms: [[#Spirit-Repelling Diagram]]
 
 An Exalted can use this Charm to ward a building or
 room from unwanted entry by spirits. For the Charm to

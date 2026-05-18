@@ -74,7 +74,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 3
 Minimum Essence: 2
-Prerequisite Charms: Sensory Acuity Prana
+Prerequisite Charms: [[#Sensory Acuity Prana]]
 
 The character channels Essence into one of his senses,
 heightening his perceptions to an immense degree. When
@@ -119,7 +119,7 @@ Type: Simple
 Minimum Awareness: 5
 Minimum Essence: 2
 
-Prerequisite Charms: Keen (Sense) Technique
+Prerequisite Charms: [[#Keen (Sense) Technique]]
 The character channels Essence to hone one of her
 senses As with Keen (Sense) Technique, above, the character
 must choose a sense to be enhanced when she
@@ -163,7 +163,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Awareness: 3
 Minimum Essence: 2
-Prerequisite Charms: Sensory Acuity Prana
+Prerequisite Charms: [[#Sensory Acuity Prana]]
 
 The character develops a preternatural sense for haz-
 ard. Whenever she is about to be placed in immediate
@@ -205,7 +205,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 3
 Minimum Essence: 2
-Prerequisite Charms: Sensory Acuity Prana
+Prerequisite Charms: [[#Sensory Acuity Prana]]
 
 This Charm allows the user to see in darkness as if she
 were in broad daylight. The Exalted needs no light source
@@ -231,7 +231,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 4
 Minimum Essence: 2
-Prerequisite Charms: Keen Sight Technique
+Prerequisite Charms: [[#Keen (Sense) Technique|Keen Sight Technique]]
 
 The Exalted shifts his vision so that he can see in
 water as if in air. For the duration of the Charm, he can
@@ -254,7 +254,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 5
 Minimum Essence: 2
-Prerequisite Charms: Unsurpassed Sight Discipline
+Prerequisite Charms: [[#Unsurpassed (Sense) Discipline|Unsurpassed Sight Discipline]]
 
 Whereas, before, the Exalted could extend his vision
 out to a mile or more using the Unsurpassed Sight Discipline,
@@ -276,7 +276,7 @@ Duration: One day
 Type: Simple
 Minimum Awareness: 4
 Minimum Essence: 2
-Prerequisite Charms: Sensory Acuity Prana
+Prerequisite Charms: [[#Sensory Acuity Prana]]
 
 A character who uses this Charm can see in absolute
 darkness without penalty. For the next full day, the
@@ -297,7 +297,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 5
 Minimum Essence: 3
-Prerequisite Charms: Unsurpassed (Sense) Discipline
+Prerequisite Charms: [[#Unsurpassed (Sense) Discipline]]
 
 The character can transcend physical limits and
 extend her senses past a single barrier. The character can
@@ -317,7 +317,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 6
 Minimum Essence: 6
-Prerequisite Charms: Unsurpassed Sight Discipline
+Prerequisite Charms: [[#Unsurpassed (Sense) Discipline|Unsurpassed Sight Discipline]]
 
 This potent Charm allows the character to pierce all
 forms of deception and disguise. Everyone using magical

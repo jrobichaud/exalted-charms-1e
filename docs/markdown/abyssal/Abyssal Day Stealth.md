@@ -53,7 +53,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Stealth: 4
 Minimum Essence: 2
-Prerequisite Charms: Concealing Distraction Discipline
+Prerequisite Charms: [[#Concealing Distraction Discipline]]
 
 Despite their prowess, even the most stealthy and
 nimble Day Castes get caught from time to time. With this
@@ -80,7 +80,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Stealth: 5
 Minimum Essence: 2
-Prerequisite Charms: Encounter-Banishing Gesture
+Prerequisite Charms: [[#Encounter-Banishing Gesture]]
 
 This Charm duplicates the effects and rules of En-
 counter-Banishing Gesture, except that its effects extend
@@ -95,7 +95,7 @@ Duration: Stealth in minutes
 Type: Reflexive
 Minimum Stealth: 4
 Minimum Essence: 3
-Prerequisite Charms:Concealing Distraction Discipline
+Prerequisite Charms: [[#Concealing Distraction Discipline]]
 
 Enveloped in the stillness of the grave, an Abyssal
 with this Charm active makes no noise whatsoever. Her
@@ -115,7 +115,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Stealth: 5
 Minimum Essence: 3
-Prerequisite Charms: Noiseless Phantom Style
+Prerequisite Charms: [[#Noiseless Phantom Style]]
 
 The Abyssal focuses on a single victim within line of
 sight and smothers his voice with Essence. Until the end
@@ -133,7 +133,7 @@ Duration: Stealth in turns
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 3
-Prerequisite Charms: Noiseless Phantom Style
+Prerequisite Charms: [[#Noiseless Phantom Style]]
 
 The Abyssal cocoons himself in pure darkness, taking
 on the wraithlike appearance of a solidified shadow.
@@ -152,7 +152,7 @@ Duration: Varies
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 4
-Prerequisite Charms:Concealing Distraction Discipline
+Prerequisite Charms: [[#Concealing Distraction Discipline]]
 
 The Abyssal vanishes wholly from sight, dissolving in
 a ripple of scattering shadows. For a number of turns equal

@@ -53,7 +53,7 @@ Duration: Special
 Type: Reflexive
 Minimum Strength: 3
 Minimum Essence: 2
-Prerequisite Charms: Personal Gravity Manipulation Apparatus
+Prerequisite Charms: [[#Personal Gravity Manipulation Apparatus]]
 
 The character further reduces his reliance upon the
 strictures of gravity by channeling Essence through his lower

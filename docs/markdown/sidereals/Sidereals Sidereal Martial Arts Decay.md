@@ -182,7 +182,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Feverish Essence Discharge Atemi, Disjointed Essence Infectious Atemi, Convulsive Displacement Infectious Atemi
+Prerequisite Charms: [[#Feverish Essence Discharge Atemi]], [[#Disjointed Essence Infectious Atemi]], [[#Convulsive Displacement Infectious Atemi]]
 
 From whence this malady its birth received.
 The character's understanding of the art of infectious
@@ -312,7 +312,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Spirit and Body Purification Touch
+Prerequisite Charms: [[#Spirit and Body Purification Touch]]
 
 His throat laid open to the lifted knife, but interceding
 Gaia spared his life,
@@ -337,7 +337,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Perfect Reconstruction Method
+Prerequisite Charms: [[#Perfect Reconstruction Method]]
 
 Method, Spirit and Body Purification Touch
 commands them in his stead a heifer slay, for the sun's
@@ -359,7 +359,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: One complete martial art (all Charms), Essence-Disrupting Infectious Atemi, Inner Dragon Unbinding, Flare of Invulnerability Method
+Prerequisite Charms: One complete martial art (all Charms), [[#Essence Disrupting Infectious Atemi]], [[#Inner Dragon Unbinding]], [[#Flare of Invulnerability Method]]
 
 ...From him the malady received its name.
 The character moves in a sinuous pattern that
@@ -419,7 +419,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 6
 Minimum Essence: 6
-Prerequisite Charms: Citrine Poxes of Contagion Form
+Prerequisite Charms: [[#Citrine Poxes of Contagion Form]]
 
 The Elder Sutra of Decay: Once, there was a crippled
 maiden…
@@ -449,7 +449,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 6
 Minimum Essence: 7
-Prerequisite Charms: Spiritual Perfection
+Prerequisite Charms: [[#Spiritual Perfection]]
 ...who told me this: &quot;You shall know your enemies when
 they teach you to forget
 One who approaches mastery of Decay-style martial
@@ -488,7 +488,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 6
 Minimum Essence: 7
-Prerequisite Charms: Spiritual Perfection
+Prerequisite Charms: [[#Spiritual Perfection]]
 what is whole
 The character learns to guard himself and others
 from even the most terrible attacks. This Charm
@@ -508,7 +508,7 @@ Duration: One turn
 Type: Simple
 Minimum Martial Arts: 7
 Minimum Essence: 7
-Prerequisite Charms: Gentle Touch of the Wicked Hand, Glorious Sidereal Protection
+Prerequisite Charms: [[#Gentle Touch of the Wicked Hand]], [[#Glorious Sidereal Protection]]
 and what is diseased.&quot;&quot;
 The character's fists blur as she pounds them
 against the air, shattering the currents of the world

@@ -101,7 +101,7 @@ Duration: One day
 Type: Simple
 Minimum Endurance: 3
 Minimum Essence: 1
-Prerequisite Charms: Armored Scout's Invigoration
+Prerequisite Charms: [[#Armored Scout's Invigoration]]
 
 This Charm is a more powerful version of the Armored
 Scout's Invigoration. This Charm reduces the fatigue value and
@@ -118,7 +118,7 @@ Duration: One day
 Type: Simple
 Minimum Endurance: 4
 Minimum Essence: 2
-Prerequisite Charms: Front-Line Warrior's Stamina
+Prerequisite Charms: [[#Front-Line Warrior's Stamina]]
 
 The most powerful of the armor Charms, Tiger-Warrior's
 Endurance reduces the fatigue value and mobility penalty of
@@ -152,7 +152,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Endurance: 3
 Minimum Essence: 2
-Prerequisite Charms: Essence-Gathering Temper
+Prerequisite Charms: [[#Essence-Gathering Temper]]
 
 With this Charm, the character does not simply tap her
 inner rage and pain to refill her Essence pool, but internalizes it
@@ -171,7 +171,7 @@ Duration: One scene
 Type: Simple
 Minimum Endurance: 3
 Minimum Essence: 2
-Prerequisite Charms: Willpower-Enhancing Spirit
+Prerequisite Charms: [[#Willpower-Enhancing Spirit]]
 
 Through the use of this Charm, the character taps his
 inner rage, not to replenish his stores of Essence, but in
@@ -201,7 +201,7 @@ Duration: One scene
 Type: Simple
 Minimum Endurance: 4
 Minimum Essence: 2
-Prerequisite Charms: Battle Fury Focus
+Prerequisite Charms: [[#Battle Fury Focus]]
 
 The battle-trance engendered by Bloodthirsty Sword-Dancer
 Spirit is similar to that of Battle Fury Focus, but greater
@@ -262,7 +262,7 @@ Duration: Three days
 Type: Simple
 Minimum Endurance: 3
 Minimum Essence: 3
-Prerequisite Charms: Empty Stomach Fasting Meditation
+Prerequisite Charms: [[#Empty Stomach Fasting Meditation]]
 
 In the harsh conditions of the wilderness, even fresh
 water can be hard to come by. The Exalted who has
@@ -299,7 +299,7 @@ Duration: Special
 Type: Simple
 Minimum Endurance: 4
 Minimum Essence: 4
-Prerequisite Charms: Controlled Breathing Exercise
+Prerequisite Charms: [[#Controlled Breathing Exercise]]
 
 Through the use of this Charm, an Exalted can give
 the illusion of death. Her heartbeat slows to
@@ -344,7 +344,7 @@ Duration: Special
 Type: Simple
 Minimum Endurance: 3
 Minimum Essence: 3
-Prerequisite Charms: Unsleeping Watchman Technique
+Prerequisite Charms: [[#Unsleeping Watchman Technique]]
 
 An Exalted with Tireless Runner's Stride can run for
 an extended period to complete her tasks. The Chosen
@@ -369,7 +369,7 @@ Duration: Permanent
 Type: Special
 Minimum Endurance: 7
 Minimum Essence: 7
-Prerequisite Charms: Empty Stomach Fasting Meditation, Sleep of Death Technique, Tireless Runner's Stride
+Prerequisite Charms: [[#Empty Stomach Fasting Meditation]], [[#Sleep of Death Technique]], [[#Tireless Runner's Stride]]
 
 The Exalted who masters this Charm has his natural life
 extended many times, staving off the reaper with his righteousness.

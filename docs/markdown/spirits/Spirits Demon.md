@@ -18,7 +18,7 @@ Minimum Compassion: 3
 Minimum Conviction: 5
 Minimum Valor: 4
 Minimum Essence: 7
-Prerequisite Charms: Endowment, Geas, Memory Transference, Scourge
+Prerequisite Charms: [[Spirits Compassion Blessings#Endowment|Endowment]], Geas, Memory Transference, [[Spirits Valor Curses#Scourge|Scourge]]
 
 With this Charm, a Demon Prince may stain an
 Exalted Essence to create a prince among akuma. The rite

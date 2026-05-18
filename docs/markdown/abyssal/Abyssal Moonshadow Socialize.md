@@ -51,7 +51,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Exquisite Etiquette Style
+Prerequisite Charms: [[#Exquisite Etiquette Style]]
 
 The Abyssal concentrates on a victim in his line of
 sight, silently projecting a surge of visceral anger into her
@@ -75,7 +75,7 @@ Duration: Varies
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Exquisite Etiquette Style
+Prerequisite Charms: [[#Exquisite Etiquette Style]]
 
 Caressing a victim's mind with the corrupting taint of
 the Void, an Abyssal with this Charm can plant seeds of
@@ -101,7 +101,7 @@ Duration: Instant
 Type: Simple
 Minimum Socialize: 4
 Minimum Essence: 2
-Prerequisite Charms: Loyalty Withering Technique
+Prerequisite Charms: [[#Loyalty-Withering Technique]]
 
 By infecting a target's very soul with festering Essence,
 the Abyssal can scour a heart of honor and righteousness.
@@ -137,7 +137,7 @@ Duration: Instant
 Type: Simple
 Minimum Socialize: 5
 Minimum Essence: 2
-Prerequisite Charms: Heart-Hardening Method
+Prerequisite Charms: [[#Heart-Hardening Method]]
 
 As cynical as they are pragmatic, characters with this
 Charm recognize that everyone can be bought. Their price
@@ -199,7 +199,7 @@ Duration: One day
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Passion-Unveiling Glance
+Prerequisite Charms: [[#Passion-Unveiling Glance]]
 
 Some Abyssal Exalted are particularly adept at seed-
 ing the minds of mortals with such doubts about the true

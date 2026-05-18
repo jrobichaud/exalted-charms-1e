@@ -78,7 +78,7 @@ Duration: One scene
 Type: Simple
 Minimum Valor: 1
 Minimum Essence: 1
-Prerequisite Charms: Whisper
+Prerequisite Charms: [[#Whisper]]
 
 Marsh Light allows a ghost to create a light or a small
 group of lights in the living world in the spot correspond-
@@ -102,7 +102,7 @@ Duration: One minute per success
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 2
-Prerequisite Charms: Marsh Light
+Prerequisite Charms: [[#Marsh Light]]
 
 Sweet Winsome Light creates a beautiful bobbing
 light that attracts all who see it. Ghosts use this Arcanos
@@ -135,7 +135,7 @@ Duration: One scene
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 2
-Prerequisite Charms: Marsh Light
+Prerequisite Charms: [[#Marsh Light]]
 
 A ghost using Tinker's Body can assemble a patch-
 work body for himself in the living world out of nearby
@@ -172,7 +172,7 @@ Duration: One scene
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 2
-Prerequisite Charms: Marsh Light
+Prerequisite Charms: [[#Marsh Light]]
 
 Sleeper's Caul enables a ghost to make a static solid
 body in the land of the living. This body is not truly the
@@ -193,7 +193,7 @@ Duration: One scene
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 3
-Prerequisite Charms: Sleeper's Caul
+Prerequisite Charms: [[#Sleeper's Caul]]
 
 Embody allows a ghost who is disembodied in the
 material world to create himself a temporary body out of
@@ -218,7 +218,7 @@ Duration: One scene
 Type: Simple
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Embody
+Prerequisite Charms: [[#Embody]]
 
 This Arcanos allows a ghost to bring a single ghost
 animal into a manifest form when he manifests. He must
@@ -238,7 +238,7 @@ Duration: Five minutes per success
 Type: Simple
 Minimum Valor: 4
 Minimum Essence: 3
-Prerequisite Charms: Embody
+Prerequisite Charms: [[#Embody]]
 
 Birth the Warrior Form allows the ghost to use his
 Essence and Willpower to create a body that is prepared for
@@ -267,7 +267,7 @@ Duration: Five minutes per success
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 3
-Prerequisite Charms: Embody
+Prerequisite Charms: [[#Embody]]
 
 Ghosts exist outside of the formal strictures of Creation.
 The body that a ghost creates for himself does not
@@ -290,7 +290,7 @@ Duration: One turn per success
 Type: Simple
 Minimum Valor: 4
 Minimum Essence: 4
-Prerequisite Charms: Birth the Warrior Form, Birth the Perfected Master
+Prerequisite Charms: [[#Birth the Warrior Form]], [[#Birth the Perfected Master]]
 
 The ghost experiences his first birth in Creation, and
 his second birth comes when he enters the Underworld as
@@ -329,7 +329,7 @@ Duration: One hour per success
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Pole the Black Depths, Tinker's Body
+Prerequisite Charms: [[Arcanoi Common#Pole the Black Depths|Pole the Black Depths]], [[#Tinker's Body]]
 
 Conjure the Defeated Vessel allows a ghost to bring a
 single ship, regardless of size, from the Underworld into
@@ -370,7 +370,7 @@ Duration: One hour per success
 Type: Simple
 Minimum Conviction: 4
 Minimum Essence: 4
-Prerequisite Charms: Conjure the Defeated Vessel
+Prerequisite Charms: [[#Conjure the Defeated Vessel]]
 
 While Conjure the Defeated Vessel enables a boat's
 pilot to make that single vessel manifest in Creation,

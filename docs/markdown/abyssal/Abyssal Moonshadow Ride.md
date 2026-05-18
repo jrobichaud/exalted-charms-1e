@@ -53,7 +53,7 @@ Duration: One scene
 Type: Simple
 Minimum Ride: 4
 Minimum Essence: 2
-Prerequisite Charms: Soul Reins
+Prerequisite Charms: [[#Soul Reins]]
 
 Similar to Soul Reins, this Charm allows a deathknight
 to dominate a steed and subsume its will to her own. Unlike
@@ -85,7 +85,7 @@ Duration: Varies
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 2
-Prerequisite Charms: Mount-Breaking Method
+Prerequisite Charms: [[#Mount-Breaking Method]]
 
 With this Charm, a mounted character can briefly
 sustain and push his horse with raw Essence. Tireless
@@ -111,7 +111,7 @@ Duration: Instant
 Type: Simple
 Minimum Ride: 3
 Minimum Essence: 2
-Prerequisite Charms: Soul Reins
+Prerequisite Charms: [[#Soul Reins]]
 
 An Abyssal with this Charm can silently summon her
 mount from great distances. The steed feels the bite of
@@ -138,7 +138,7 @@ Duration: One day
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Forceful Spirit Spur
+Prerequisite Charms: [[#Forceful Spirit Spur]]
 
 With this Charm, a character may summon a ghost
 horse from the Essence of the Underworld. Materializing
@@ -160,7 +160,7 @@ Duration: Instant
 Type: Simple
 Minimum Ride: 4
 Minimum Essence: 2
-Prerequisite Charms: Soul Reins
+Prerequisite Charms: [[#Soul Reins]]
 
 The Abyssal pours Essence into his voice, unleashing
 an unholy shriek that terrifies most steeds. All living
@@ -183,7 +183,7 @@ Duration: One scene
 Type: Simple
 Minimum Ride: 4
 Minimum Essence: 3
-Prerequisite Charms: Mount-Spooking Shout
+Prerequisite Charms: [[#Mount-Spooking Shout]]
 
 Gesturing sharply at a mount in her line of sight, the
 Abyssal curses her target with weakness and pain. The

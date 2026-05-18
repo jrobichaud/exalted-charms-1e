@@ -67,7 +67,7 @@ Duration: One hour
 Type: Simple
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Theft of Face
+Prerequisite Charms: [[#Theft of Face]]
 
 This Charm duplicates the effects of Theft of Face
 with one exception: The Exalt also steals intuitive knowl-
@@ -86,7 +86,7 @@ Duration: Until released
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 3
-Prerequisite Charms: Theft of Mien
+Prerequisite Charms: [[#Theft of Mien]]
 
 With this Charm, an Abyssal may consume the flesh
 and spirit of a victim to steal her very identity. The
@@ -121,7 +121,7 @@ Duration: One day
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 4
-Prerequisite Charms:Flawless Doppelganger Disguise
+Prerequisite Charms: [[#Flawless Doppelganger Disguise]]
 
 By channeling the nascent spark of Solar Essence
 trapped within her, an Abyssal with this Charm can shift
@@ -170,7 +170,7 @@ Duration: One scene
 Type: Simple
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Cunning Criminal Style
+Prerequisite Charms: [[#Cunning Criminal Style]]
 
 With this Charm active, an Abyssal leaves no more
 evidence of her passing than a ghost. She can be spotted
@@ -189,7 +189,7 @@ Duration: Instant
 Type: Simple
 Minimum Larceny: 3
 Minimum Essence: 2
-Prerequisite Charms: Cunning Criminal Style
+Prerequisite Charms: [[#Cunning Criminal Style]]
 
 With this Charm, an Exalt can instantly bypass any
 mundane lock with a gentle touch. The lock rusts away
@@ -206,7 +206,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Evidence-Erasure Method, Lock-Weathering Touch
+Prerequisite Charms: [[#Evidence-Erasure Method]], [[#Lock-Weathering Touch]]
 
 Through the use of this Charm, an Abyssal becomes
 preternaturally deft at sleight of hand and may
@@ -230,7 +230,7 @@ Duration: Instant
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 3
-Prerequisite Charms: Artful Conjuration Trick
+Prerequisite Charms: [[#Artful Conjuration Trick]]
 
 The Abyssal extends his hand in a lightning-fast
 clutching gesture, reaching out with his Essence to steal an

@@ -112,7 +112,7 @@ Duration: One scene
 Type: Instant
 Minimum Temperance: 2
 Minimum Essence: 1
-Prerequisite Charms: Illuminate the Shadow Constraint
+Prerequisite Charms: [[#Illuminate the Shadow Constraint]]
 
 This simple Charm allows a ghost to detect the
 presence of criminals against the local natural order. It
@@ -133,7 +133,7 @@ Duration: One scene
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 2
-Prerequisite Charms: Illuminate the Shadow Constraint
+Prerequisite Charms: [[#Illuminate the Shadow Constraint]]
 
 Brief Exemption allows a ghost to tiptoe around a
 taboo of the Underworld, whether it is a “natural” taboo,
@@ -153,7 +153,7 @@ Duration: One scene
 Type: Simple
 Minimum Temperance: 4
 Minimum Essence: 2
-Prerequisite Charms: Brief Exemption
+Prerequisite Charms: [[#Brief Exemption]]
 
 Accept Amercement allows a learned ghost to forgive
 another's trespass of local taboo. The violator does not
@@ -175,7 +175,7 @@ Duration: One scene
 Type: Simple
 Minimum Temperance: 4
 Minimum Essence: 2
-Prerequisite Charms: Accept Amercement
+Prerequisite Charms: [[#Accept Amercement]]
 
 The intensity of punishment for violating a taboo varies
 wildly. This Arcanos allows a ghostly magistrate to add his
@@ -204,7 +204,7 @@ Duration: Permanent (see below)
 Type: Simple
 Minimum Temperance: 4
 Minimum Essence: 3
-Prerequisite Charms: Levy Fine
+Prerequisite Charms: [[#Levy Fine]]
 
 The successful use of House Arrest forces a living
 violator of an Underworld taboo to remain in the Under-
@@ -223,7 +223,7 @@ Duration: Instant (see below)
 Type: Simple
 Minimum Temperance: 4
 Minimum Essence: 4
-Prerequisite Charms: House Arrest
+Prerequisite Charms: [[#House Arrest]]
 
 Hide the Living Name turns a living transgressor into
 a ghost for all intents and purposes until his crime is
@@ -273,7 +273,7 @@ Duration: Three days per success
 Type: Simple
 Minimum Temperance: 4
 Minimum Essence: 4
-Prerequisite Charms: Levy Fine
+Prerequisite Charms: [[#Levy Fine]]
 
 The ghost using Impose Stricture can create a short-
 term taboo in his local area — within one mile per point
@@ -306,7 +306,7 @@ Duration: Instant
 Type: Special
 Minimum Temperance: 4
 Minimum Essence: 4
-Prerequisite Charms: Impose Stricture
+Prerequisite Charms: [[#Impose Stricture]]
 
 A magistrate-ghost uses Curse of the Damned to
 apply a permanent taboo to another being — be it a spirit,

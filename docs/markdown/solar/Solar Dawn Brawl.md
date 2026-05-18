@@ -92,7 +92,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 3
 Minimum Essence: 1
-Prerequisite Charms: Ferocious Jab
+Prerequisite Charms: [[#Ferocious Jab]]
 
 The character suffuses her fists with Essence, hardening
 them into deadly weapons. Until her next action, her
@@ -109,7 +109,7 @@ Duration: Instant
 Type: Simple
 Minimum Brawl: 4
 Minimum Essence: 1
-Prerequisite Charms: Fists of Iron Technique
+Prerequisite Charms: [[#Fist of Iron Technique]]
 
 The character concentrates her anima around her fist
 and smashes it into her enemy, stunning and disorienting
@@ -138,7 +138,7 @@ Duration: Varies
 Type: Simple
 Minimum Brawl: 4
 Minimum Essence: 1
-Prerequisite Charms: Fists of Iron Technique
+Prerequisite Charms: [[#Fist of Iron Technique]]
 
 The character may wrap his opponents in his mighty
 arms and crush the very life from them. The character makes
@@ -166,7 +166,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Brawl: 3
 Minimum Essence: 1
-Prerequisite Charms: Ferocious Jab
+Prerequisite Charms: [[#Ferocious Jab]]
 
 The character pours Essence into quickening her
 motions and rushes aggressively toward her enemy. She
@@ -183,7 +183,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Brawl: 4
 Minimum Essence: 2
-Prerequisite Charms: Thunderclap Rush Attack
+Prerequisite Charms: [[#Thunderclap Rush Attack]]
 
 The character suffuses his body with Essence, turning
 him into a virtual killing machine, with arms like pounding
@@ -223,7 +223,7 @@ Duration: Instant
 Type: Simple
 Minimum Brawl: 2
 Minimum Essence: 1
-Prerequisite Charms: Sledgehammer Fist Punch
+Prerequisite Charms: [[#Sledgehammer Fist Punch]]
 
 The character tightly focuses his anima, making him
 able to apply his Strength more effectively. In addition to
@@ -247,7 +247,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 3
 Minimum Essence: 1
-Prerequisite Charms: Sledgehammer Fist Punch
+Prerequisite Charms: [[#Sledgehammer Fist Punch]]
 
 The character fully concentrates his anima, gathering
 dense Essence around his fists. Not only do the character's
@@ -268,7 +268,7 @@ Duration: Instant
 Type: Simple
 Minimum Brawl: 4
 Minimum Essence: 1
-Prerequisite Charms: Crashing Wave Throw
+Prerequisite Charms: [[#Crashing Wave Throw]]
 
 The character burns with Essence, increasing her
 strength and agility to superhuman levels. She seizes one
@@ -301,7 +301,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 4
 Minimum Essence: 3
-Prerequisite Charms: Ox-Stunning Blow
+Prerequisite Charms: [[#Ox-Stunning Blow]]
 
 With greater skill and Essence comes greater power and
 control. This Charm allows the character to precisely gauge the
@@ -332,7 +332,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 5
 Minimum Essence: 5
-Prerequisite Charms: Heaven Thunder Hammer
+Prerequisite Charms: [[#Heaven Thunder Hammer]]
 
 The character concentrates vast amounts of Essence
 around her hands, allowing her to inflict terrible wounds. The
@@ -354,7 +354,7 @@ Duration: One scene
 Type: Supplemental
 Minimum Brawl: 5
 Minimum Essence: 6
-Prerequisite Charms: Heaven Thunder Hammer, Hammer on Iron Technique
+Prerequisite Charms: [[#Heaven Thunder Hammer]], [[#Hammer on Iron Technique]]
 
 Essence concentrates around the character's hands, infusing
 them with great and lasting power. For the next full scene, the
@@ -373,7 +373,7 @@ Duration: Until used
 Type: Simple
 Minimum Brawl: 5
 Minimum Essence: 1
-Prerequisite Charms: Fist of Iron Technique
+Prerequisite Charms: [[#Fist of Iron Technique]]
 
 A master warrior must have complete knowledge of
 his own skills and prowess. With a moment of focus, the
@@ -420,7 +420,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Brawl: 3
 Minimum Essence: 2
-Prerequisite Charms: Thunderclap Rush Attack
+Prerequisite Charms: [[#Thunderclap Rush Attack]]
 
 A master warrior must have complete knowledge of
 his surroundings and the progression of the fight. For a
@@ -449,7 +449,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Brawl: 3
 Minimum Essence: 3
-Prerequisite Charms: Irrepressible Bravery Tactic
+Prerequisite Charms: [[#Irrepressible Bravery Tactic]]
 
 A master warrior must have complete knowledge of
 his opponent, understanding the true extent of the danger
@@ -473,7 +473,7 @@ Duration: One scene or until used
 Type: Reflexive
 Minimum Brawl: 5
 Minimum Essence: 3
-Prerequisite Charms: Inevitable Victory Meditation, Dancing with Strife Technique
+Prerequisite Charms: [[#Inevitable Victory Meditation]], [[#Dancing with Strife Technique]]
 
 A true warrior has mastered himself, his battlefield
 and his foes. Every movement, every attack, every action of
@@ -513,7 +513,7 @@ Type: Simple
 Minimum Brawl: 5
 Minimum Endurance: 5
 Minimum Essence: 4
-Prerequisite Charms: Supremacy of War Method, Bloodthirsty Sword-Dancer Spirit
+Prerequisite Charms: [[#Supremacy of War Method]], [[Solar Zenith Endurance#Bloodthirsty Sword-Dancer Spirit|Bloodthirsty Sword-Dancer Spirit]]
 
 By combining his pure, instinctive awareness of
 combat mastered through Supremacy of War Method

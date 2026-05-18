@@ -49,7 +49,7 @@ Duration: One scene
 Type: Simple
 Minimum Larceny: 3
 Minimum Essence: 1
-Prerequisite Charms: Creation Smuggling Procedures
+Prerequisite Charms: [[#Creation Smuggling Procedure]]
 
 Again, the character summons the weave of events,
 but now, she crosses her wrists and deftly switches
@@ -95,7 +95,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Name Pilfering Practices
+Prerequisite Charms: [[#Name Pilfering Practices]]
 
 Bumping casually into his target or otherwise making
 physical contact, and after a successful Wits + Larceny
@@ -139,7 +139,7 @@ Duration: Varies
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 4
-Prerequisite Charms: Sidereal Shell Games, Dream Confiscation Approach, Honorable Thief Spirit
+Prerequisite Charms: [[#Sidereal Shell Games]], [[#Dream Confiscation Approach]], [[#Honorable Thief Spirit]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Savory Maiden. The Sidereal holds it up

@@ -93,7 +93,7 @@ Duration: Instant
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 3
-Prerequisite Charms: Favorable Inflection Procedure, Blue Vervain Binding, Ice and Fire Binding
+Prerequisite Charms: [[#Favorable Inflection Procedure]], [[#Blue Vervain Binding]], [[#Ice and Fire Binding]]
 
 This Charm uses a long prayer strip marked with the
 scripture of the Bride. The Sidereal and a consenting

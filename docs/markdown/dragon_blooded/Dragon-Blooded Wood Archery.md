@@ -122,7 +122,7 @@ Duration: Instant
 Type: Extra Actions
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms: Spring Follows Winter
+Prerequisite Charms: [[#Spring Follows Winter]]
 
 The physical limitations of wood and sinew are overcome
 by this Charm, allowing the Exalted archer to
@@ -140,7 +140,7 @@ Duration: Instant
 Type: Simple
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms:
+Prerequisite Charms: 
 Spring Follows Winter
 A Wood-aspected Dragon-Blood may go to hunt with
 an empty quiver yet never lack for arrows. Anything that
@@ -161,7 +161,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 5
 Minimum Essence: 3
-Prerequisite Charms: Harvest of the Hunter
+Prerequisite Charms: [[#Harvest of the Hunter]]
 
 In the hands of the Dragon-Blooded, an arrow is not
 merely a pointy stick — it is an extension of the living tree
@@ -185,7 +185,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms: Spring Follows Winter
+Prerequisite Charms: [[#Spring Follows Winter]]
 
 Dragon-Blooded students of the bow have learned,
 through hard practice, to track the expected path of a
@@ -207,7 +207,7 @@ Duration: One turn
 Type: Simple
 Minimum Archery: 4
 Minimum Essence: 2
-Prerequisite Charms: Dragonfly Finds Mate
+Prerequisite Charms: [[#Dragonfly Finds Mate]]
 
 An Exalt with this Charm is now a master of the
 arrow's flight. By filling the sky above her allies with a
@@ -232,7 +232,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Archery: 5
 Minimum Essence: 3
-Prerequisite Charms: Seven-Year Swarm Volley
+Prerequisite Charms: [[#Seven-Year Swarm Volley]]
 
 Using this Charm, a Dragon-Blooded archer may
 imbue an arrow fired from his bow with enough Essence
@@ -256,7 +256,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms: Harvest of the Hunter
+Prerequisite Charms: [[#Harvest of the Hunter]]
 
 Using this Charm, the archer infuses an arrow with
 her Essence, harmonizing it to the element of wood. An
@@ -280,7 +280,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 5
 Minimum Essence: 3
-Prerequisite Charms: Life-Swelling Sap Strike
+Prerequisite Charms: [[#Life-Swelling Sap Strike]]
 
 Feared by those who know of it, this lethal attack awakens the Essence currents in a wooden arrow,
 transforming its pattern into that of a root seeking

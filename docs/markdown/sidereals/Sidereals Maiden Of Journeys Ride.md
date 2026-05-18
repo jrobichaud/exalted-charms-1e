@@ -69,7 +69,7 @@ Duration: Instant
 Type: Simple
 Minimum Ride: 3
 Minimum Essence: 3
-Prerequisite Charms: Ordained Bridle of Mercury
+Prerequisite Charms: [[#Ordained Bridle of Mercury]]
 
 Drawing on her understanding of the spirit world,
 the character forces a metamorphosis upon one of her
@@ -109,7 +109,7 @@ Duration: Instant
 Type: Simple
 Minimum Ride: 4
 Minimum Essence: 4
-Prerequisite Charms: Spirit-Shape Companion
+Prerequisite Charms: [[#Spirit-Shape Companion]]
 
 The character arranges a promotion for his
 familiar. Its Essence and Intelligence increase to
@@ -143,7 +143,7 @@ Duration: Until the character applies Mercury's bit
 Type: Simple
 Minimum Ride: 2
 Minimum Essence: 2
-Prerequisite Charms: Ordained Bridle of Mercury
+Prerequisite Charms: [[#Ordained Bridle of Mercury]]
 
 The character petitions Mercury to weave a mortal
 companion into her destiny. Each time she invokes
@@ -204,7 +204,7 @@ Duration: Five minutes
 Type: Simple
 Minimum Ride: 3
 Minimum Essence: 2
-Prerequisite Charms: Yellow Path
+Prerequisite Charms: [[#Yellow Path]]
 
 A nimbus of Mercury's light wraps around the
 character's mount, and it develops the ability to overcome
@@ -226,7 +226,7 @@ Duration: One scene
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 4
-Prerequisite Charms: Godly Companion, Breaking the Wild Mortal, Glory Path
+Prerequisite Charms: [[#Godly Companion]], [[#Breaking the Wild Mortal]], [[#Glory Path]]
 
 This Charm uses a prayer strip inscribed with the
 scripture of the Desirable Maiden. The character affixes it to

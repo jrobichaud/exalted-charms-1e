@@ -79,7 +79,7 @@ Duration: One scene
 Type: Simple
 Minimum Conviction: 1
 Minimum Essence: 2
-Prerequisite Charms: Corpse-Fed Radiance
+Prerequisite Charms: [[#Corpse-Fed Radiance]]
 
 Darkness is more potent than light. Every dead man
 knows this. Thus does Black Breath of the Abyss surpass
@@ -111,7 +111,7 @@ Duration: One scene
 Type: Simple
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Black Breath of the Abyss
+Prerequisite Charms: [[#Black Breath of the Abyss]]
 
 Mere light is not always enough to work a ghost's will.
 Storytellers among the dead use illusions to illustrate their
@@ -148,7 +148,7 @@ Duration: One scene
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 2
-Prerequisite Charms: Painting the Sunset Picture
+Prerequisite Charms: [[#Painting the Sunset Picture]]
 
 Any ghost with a modicum of training can create a
 simple illusion. It is far more difficult to create a complex
@@ -191,7 +191,7 @@ Duration: One hour
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 2
-Prerequisite Charms: Midnight Canvas Unfurled
+Prerequisite Charms: [[#Midnight Canvas Unfurled]]
 
 This Charm gives the user the ability to summon large
 quantities of any sort of foul, harmless fluid out of thin air,
@@ -219,7 +219,7 @@ Duration: One hour
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 2
-Prerequisite Charms: The Ichor Cauldron
+Prerequisite Charms: [[#The Ichor Cauldron]]
 
 This Charm creates vermin and gives them brief life.
 The Messenger takes the form of a deathwatch beetle, rat
@@ -258,7 +258,7 @@ Duration: One hour
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Messenger of the Grave
+Prerequisite Charms: [[#Messenger of the Grave]]
 
 One rat. One spider. One serpent. A single example
 of any of these species can be overlooked, swatted or
@@ -305,7 +305,7 @@ Duration: Instant
 Type: Simple
 Minimum Conviction: 1
 Minimum Essence: 1
-Prerequisite Charms: Corpse-Fed Radiance
+Prerequisite Charms: [[#Corpse-Fed Radiance]]
 
 Not all of the dead are content to paint pictures in the
 air. Some wish to affect the lands of the living in a more
@@ -342,7 +342,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Hand of the Wind
+Prerequisite Charms: [[#Hand of the Wind]]
 
 What Strike of Dead Hands gives a ghost is physical
 power, pure and simple. By adding brute force to a blow
@@ -370,7 +370,7 @@ Duration: One scene
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Black Breath of the Abyss, Strike of Dead Hands
+Prerequisite Charms: [[#Black Breath of the Abyss]], [[#Strike of Dead Hands]]
 
 One of the ultimate powers of the dead, Ebon Grasp of
 Oblivion strikes mercilessly and takes its victims back with
@@ -410,7 +410,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Conviction: 3
 Minimum Essence: 2
-Prerequisite Charms: Strike of Dead Hands
+Prerequisite Charms: [[#Strike of Dead Hands]]
 
 By exploiting their ghostly nature, the dead can cause
 the distortions of time, space and speed peculiar to night-
@@ -437,7 +437,7 @@ Duration: Varies (see below)
 Type: Simple
 Minimum Compassion: 4
 Minimum Essence: 4
-Prerequisite Charms: Flying Time Technique
+Prerequisite Charms: [[#Flying Time Technique]]
 
 Staggered Dark Stars Movement allows a powerful
 ghost to take advantage of Setesh's Calendar in such a way
@@ -470,7 +470,7 @@ Duration: Varies (see below)
 Type: Simple
 Minimum Compassion: 4
 Minimum Essence: 5
-Prerequisite Charms: Staggered Dark Stars Movement
+Prerequisite Charms: [[#Staggered Dark Stars Movement]]
 
 Hours Like Autumn Leaves allows the most powerful
 ghosts to pull themselves and nearby companions

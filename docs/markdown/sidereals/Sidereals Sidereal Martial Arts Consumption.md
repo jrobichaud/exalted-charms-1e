@@ -75,7 +75,7 @@ Duration: Five turns
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Unnatural Many-Step Stride
+Prerequisite Charms: [[#Unnatural Many-Step Stride]]
 
 Arrows fell upon her, forcing her to descend.
 This Charm emulates a spider's motion, balanced
@@ -196,7 +196,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Rain of Unseen Threads
+Prerequisite Charms: [[#Rain of Unseen Threads]]
 
 And the small maiden began
 Hundreds of near-invisible filaments spun from the
@@ -234,7 +234,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: One complete martial art (all Charms), Dance of the Hungry Spider, Maw of Dripping Venom, Nest of Living Strands
+Prerequisite Charms: One complete martial art (all Charms), [[#Dance of the Hungry Spider]], [[#Maw of Dripping Venom]], [[#Nest of Living Strands]]
 
 to climb the waterspout again.
 The character moves in the fashion of an arachnid
@@ -283,7 +283,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 6
 Minimum Essence: 6
-Prerequisite Charms: Charcoal March of Spiders Form
+Prerequisite Charms: [[#Charcoal March of Spider's Form]]
 
 The Elder Sutra of Consumption: The maiden became
 a mother...
@@ -317,7 +317,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Martial Arts: 6
 Minimum Essence: 6
-Prerequisite Charms: Cannibalistic Heritage Technique
+Prerequisite Charms: [[#Cannibalistic Heritage Technique]]
 
 And to one child she said, &quot;I have many things to
 show you.&quot;
@@ -355,7 +355,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 6
 Minimum Essence: 6
-Prerequisite Charms: Cannibalistic Heritage Technique
+Prerequisite Charms: [[#Cannibalistic Heritage Technique]]
 
 And to another, she said, &quot;You may rest within my
 home, and eat; no need to fly.&quot;
@@ -398,7 +398,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 6
 Minimum Essence: 6
-Prerequisite Charms: Cannibalistic Heritage Technique
+Prerequisite Charms: [[#Cannibalistic Heritage Technique]]
 
 And to a third, she said, &quot;How beautiful you are.&quot;
 In the oceans of the West live green hunting spiders,
@@ -439,7 +439,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 6
 Minimum Essence: 6
-Prerequisite Charms: Thumbnail Spider March, Jumping Spider Strike, Water Spider Bite
+Prerequisite Charms: [[#Thumbnail Spider March]], [[#Jumping Spider Strike]], [[#Water Spider Bite]]
 
 And as each heard her words and came to the center of
 her web,
@@ -494,7 +494,7 @@ Duration: One turn
 Type: Simple
 Minimum Martial Arts: 6
 Minimum Essence: 7
-Prerequisite Charms: Pattern Spider Touch
+Prerequisite Charms: [[#Pattern Spider Touch]]
 
 she ate them.
 To master this style is to approach the grandeur of

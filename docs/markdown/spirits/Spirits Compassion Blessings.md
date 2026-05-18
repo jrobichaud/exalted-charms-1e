@@ -48,7 +48,7 @@ Duration: One week
 Type: Simple
 Minimum Compassion: 1
 Minimum Essence: 2
-Prerequisite Charms: Tiny Gift
+Prerequisite Charms: [[#Tiny Gift]]
 The effects of this Charm last for one week, and the
 Charm may not be used more than once per week. Some
 possible benefactions:
@@ -73,7 +73,7 @@ Duration: One week
 Type: Simple
 Minimum Compassion: 2
 Minimum Essence: 4
-Prerequisite Charms: Benefaction
+Prerequisite Charms: [[#Benefaction]]
 
 The effects of this Charm last for one week, and the
 Charm may not be used more than once every other week
@@ -111,7 +111,7 @@ Duration: Instant
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 5
-Prerequisite Charms: Largess
+Prerequisite Charms: [[#Largess]]
 
 This blessing is never given lightly. Great tales are told
 of the massive quests that lead to such rewards, and the

@@ -80,7 +80,7 @@ Duration: Instant
 Type: Simple
 Minimum Bureaucracy: 3
 Minimum Essence: 1
-Prerequisite Charms: Frugal Merchant Method
+Prerequisite Charms: [[#Frugal Merchant Method]]
 
 Through the use of this Charm, the character gains an
 intuitive feel for a marketplace at a given instant, allowing
@@ -106,7 +106,7 @@ Duration: Instant
 Type: Simple
 Minimum Bureaucracy: 3
 Minimum Essence: 1
-Prerequisite Charms: Frugal Merchant Method
+Prerequisite Charms: [[#Frugal Merchant Method]]
 
 An Exalted using this Charm may evaluate a given
 buyer's intentions and budget with but a glance. He can
@@ -127,7 +127,7 @@ Duration: One scene
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Consumer-Evaluating Glance, Insightful Buyer Technique
+Prerequisite Charms: [[#Consumer-Evaluating Glance]], [[#Insightful Buyer Technique]]
 
 A character utilizing this Charm becomes the ultimate
 high-pressure salesman, able to sell practically
@@ -181,7 +181,7 @@ Duration: One task
 Type: Simple
 Minimum Bureaucracy: 3
 Minimum Essence: 2
-Prerequisite Charms: Deft Official's Way
+Prerequisite Charms: [[#Deft Official's Way]]
 
 Through the use of this Charm, a character can cause
 a bureaucracy to accomplish a task in record time. An
@@ -205,7 +205,7 @@ Duration: One investigation
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Speed of the Wheels
+Prerequisite Charms: [[#Speed of the Wheels]]
 
 An Exalted who knows this Charm may use it to aid in
 an investigation of corruption in a bureaucracy. In order for
@@ -235,7 +235,7 @@ Duration: One task
 Type: Simple
 Minimum Bureaucracy: 3
 Minimum Essence: 2
-Prerequisite Charms: Deft Official's Way
+Prerequisite Charms: [[#Deft Official's Way]]
 
 Solar Exalted can use their powers to slow as well as
 hasten the actions of a bureaucracy. Through the use of the
@@ -268,7 +268,7 @@ Duration: One task
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Indolent Official Charm
+Prerequisite Charms: [[#Indolent Official Charm]]
 
 The character can cause a request, project or initiative
 to become the kiss of death for a bureaucracy. Meetings
@@ -296,7 +296,7 @@ Duration: Special
 Type: Simple
 Minimum Bureaucracy: 4
 Minimum Essence: 2
-Prerequisite Charms: Indolent Official Charm
+Prerequisite Charms: [[#Indolent Official Charm]]
 
 Using this Charm, a character can effectively
 cause a single item to disappear into the depths of a
@@ -319,7 +319,7 @@ Duration: Instant
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Indolent Official Charm
+Prerequisite Charms: [[#Indolent Official Charm]]
 
 Forgetful Bureau Charm allows an Exalted character
 to erase all evidence of one item or individual

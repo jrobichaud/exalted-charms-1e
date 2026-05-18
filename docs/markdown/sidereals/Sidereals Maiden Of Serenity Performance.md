@@ -93,7 +93,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 4
 Minimum Essence: 3
-Prerequisite Charms: Perfection in Life
+Prerequisite Charms: [[#Perfection in Life]]
 
 Infusing herself with the Essence of the dance, the
 character sees the perfect completion to every enemy
@@ -110,7 +110,7 @@ Duration: Instant
 Type: Simple
 Minimum Performance: 3
 Minimum Essence: 2
-Prerequisite Charms: Perfection in Life
+Prerequisite Charms: [[#Perfection in Life]]
 
 Singing in the language of the Old Realm - which
 she must, of course, know — the character answers the
@@ -183,7 +183,7 @@ Duration: Five days
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 4
-Prerequisite Charms: Defense of ShiningJoy, Song of Spirit Persuasion, Faultless Ceremony, Heart-Brightening Presentation Style
+Prerequisite Charms: [[#Defense of Shining Joy]], [[#Song of Spirit Persuasion]], [[#Faultless Ceremony]], [[#Heart-Brightening Presentation Style]]
 
 This Charm uses a long prayer strip marked with the
 scripture of the Dancer. The character binds it around

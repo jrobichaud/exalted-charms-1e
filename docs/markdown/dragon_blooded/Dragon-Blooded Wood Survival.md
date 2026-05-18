@@ -155,7 +155,7 @@ Type: Reflexive
 Minimum Survival: 2
 Minimum Essence: 2
 
-Prerequisite Charms: Wild-Wandering Forester Charm
+Prerequisite Charms: [[#Wild-Wandering Forester Charm]]
 The Exalt with this Charm is able to beg a brief favor
 of the spirits of the natural world when he has given offense
 or behaved in an inappropriate manner before them. In so
@@ -176,7 +176,7 @@ Duration: One day
 Type: Simple
 Minimum Survival: 3
 Minimum Essence: 2
-Prerequisite Charms: Wild-Wandering Forester Charm
+Prerequisite Charms: [[#Wild-Wandering Forester Charm]]
 
 With this Charm, the Exalted can track the passage
 of nearly any creature that is not using magic (such as
@@ -206,7 +206,7 @@ Duration: One day
 Type: Simple
 Minimum Survival: 3
 Minimum Essence: 2
-Prerequisite Charms: Quarry Revelation Technique
+Prerequisite Charms: [[#Quarry Revelation Technique]]
 
 The Exalted using Trail Concealing Measurement
 knows instinctually how to hide signs of his passage. He
@@ -226,7 +226,7 @@ Duration: One hunt
 Type: Simple
 Minimum Survival: 3
 Minimum Essence: 2
-Prerequisite Charms: Quarry Revelation Technique
+Prerequisite Charms: [[#Quarry Revelation Technique]]
 
 Ration-Enhancing Method doubles the effectiveness
 of any hunting expedition the character takes part in
@@ -244,7 +244,7 @@ Duration: 1 Day
 Type: Simple
 Minimum Survival: 4
 Minimum Essence: 2
-Prerequisite Charms: Wild-Wandering Forester Charm
+Prerequisite Charms: [[#Wild-Wandering Forester Charm]]
 
 This Charm enables an Exalt and his companions to
 avoid the worst effects of hostile environments. In a hot
@@ -273,7 +273,7 @@ Duration: One scene
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 3
-Prerequisite Charms: Hostile Environment Preparation
+Prerequisite Charms: [[#Hostile Environment Preparation]]
 
 The character calls upon helpful spirits of Wood
 (and, if appropriate, other elements) to help him build
@@ -300,7 +300,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Survival: 3
 Minimum Essence: 2
-Prerequisite Charms: Wild-Wandering Forester Charm
+Prerequisite Charms: [[#Wild-Wandering Forester Charm]]
 
 Wood-aspected Dragon-Blooded are known for their
 great expertise in herbalism and natural healing lore. With

@@ -90,7 +90,7 @@ Duration: Instant
 Type: Simple
 Minimum Performance: 3
 Minimum Essence: 3
-Prerequisite Charms: Respect Commanding Attitude
+Prerequisite Charms: [[#Respect Commanding Attitude]]
 
 Violent mobs can endanger even the Exalted. Their numbers
 can drag down even the mightiest of the Chosen, but those who
@@ -110,7 +110,7 @@ Duration: 3 turns
 Type: Simple
 Minimum Performance: 4
 Minimum Essence: 3
-Prerequisite Charms: Unruly Mob Dispersing Rebuke
+Prerequisite Charms: [[#Unruly Mob-Dispersing Rebuke]]
 
 If an angry mob is a danger to its victims, then a stampeding
 crowd or a routing unit is a danger to everyone in the
@@ -137,7 +137,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 3
 Minimum Essence: 3
-Prerequisite Charms: Unruly Mob Dispersing Rebuke
+Prerequisite Charms: [[#Unruly Mob-Dispersing Rebuke]]
 
 The persuasive power of an Exalted channeling Essence
 into Social Charms can raise mobs as well as disperse them.
@@ -157,7 +157,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 4
 Minimum Essence: 3
-Prerequisite Charms: Fury Inciting Presence
+Prerequisite Charms: [[#Fury Inciting Presence]]
 
 The Solar Exalted can inspire far more than simple
 mob violence. An Exalted in battle can radiate the
@@ -181,7 +181,7 @@ Type: Simple
 Minimum Performance: 5
 Minimum Essence: 3
 
-Prerequisite Charms: Heroism-Encouraging Presence, Rout-Stemming Gesture
+Prerequisite Charms: [[#Heroism-Encouraging Presence]], [[#Rout-Stemming Gesture]]
 Actual combat is only the end of a long process that
 begins with the recruitment and training of the soldiers.
 Exalted who know the Tiger- Warrior Training Technique
@@ -225,7 +225,7 @@ Duration: One scene
 Type: Supplemental
 Minimum Performance: 3
 Minimum Essence: 2
-Prerequisite Charms: Masterful Performance Exercise, Respect-Commanding Attitude
+Prerequisite Charms: [[#Masterful Performance Exercise]], [[#Respect Commanding Attitude]]
 
 A character who possesses this Charm can give a
 performance so compelling that it plays out in the form
@@ -248,7 +248,7 @@ Duration: One scene
 Type: Supplemental
 Minimum Performance: 4
 Minimum Essence: 2
-Prerequisite Charms: Masterful Performance Exercise
+Prerequisite Charms: [[#Masterful Performance Exercise]]
 
 The character can channel Essence through her performance
 to evoke a certain emotion in those who witness it.
@@ -271,7 +271,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 3
-Prerequisite Charms: Heart-Compelling Methodology, Phantom-Conjuring Performance
+Prerequisite Charms: [[#Heart-Compelling Methodology]], [[#Phantom Conjuring Performance]]
 
 This Charm allows a character to weave a narrative
 so plausible and so compelling that those who hear it
@@ -298,7 +298,7 @@ Duration: Instant
 Type: Simple
 Minimum Performance: 4
 Minimum Essence: 3
-Prerequisite Charms: Heroism-Encouraging Presence
+Prerequisite Charms: [[#Heroism-Encouraging Presence]]
 
 One of the greatest dangers of warfare is troops being out
 of touch with their commander. This Charm allows the caster
@@ -318,7 +318,7 @@ Duration: Instant
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 4
-Prerequisite Charms: Commanding the Ideal Celestial Army
+Prerequisite Charms: [[#Commanding the Ideal Celestial Army]]
 
 As with Commanding the Ideal Celestial Army, a
 character using this Charm can give an order audible to all
@@ -340,7 +340,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 6
-Prerequisite Charms: General of the All-Seeing Sun
+Prerequisite Charms: [[#General of the All-Seeing Sun]]
 
 The fog of war is banished for those who are truly blessed
 by the Unconquered Sun. For the rest of the scene, a
@@ -362,7 +362,7 @@ Duration: One day
 Type: Simple
 Minimum Performance: 3
 Minimum Essence: 1
-Prerequisite Charms: Phantom-Conjuring Performance
+Prerequisite Charms: [[#Phantom Conjuring Performance]]
 
 Sometimes, there are places that a woman can go
 that a man cannot, and vice-versa, This Charm helps
@@ -407,7 +407,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 4
 Minimum Essence: 2
-Prerequisite Charms: Gender-Concealing Meditation, Graceful Reed Dancing
+Prerequisite Charms: [[#Gender-Concealing Meditation]], [[#Graceful Reed Dancing]]
 
 This Charm raises the art of seduction through
 dance to a supernatural level. So long as an Exalt using
@@ -431,7 +431,7 @@ Duration: Special
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 3
-Prerequisite Charms: Husband-Seducing Demon's Dance
+Prerequisite Charms: [[#Husband-Seducing Demons Dance]]
 
 By combining song and dance with the art of seduction,
 the Exalted invoking this Charm weaves a spell of
@@ -535,7 +535,7 @@ Type: Simple
 Minimum Performance: 5
 Minimum Presence: 3
 Minimum Essence: 2
-Prerequisite Charms: King of Masks Technique
+Prerequisite Charms: [[#King of Masks Technique]]
 
 Impenetrable Identity is initially identical to King
 of Masks Technique, but with some significant enhancements.

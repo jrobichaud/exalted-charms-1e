@@ -91,7 +91,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Dexterity: 2
 Minimum Essence: 2
-Prerequisite Charms: Steel Paw Style
+Prerequisite Charms: [[#Steel Paw Style]]
 
 In clear terrain, up to five opponents can attack a
 single target in a turn. By using the Ground-Denying
@@ -131,7 +131,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Steel Paw Style
+Prerequisite Charms: [[#Steel Paw Style]]
 
 The preternatural speed of a Lunar Exalted gives
 him a substantial advantage when seeking to parry an
@@ -152,7 +152,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Golden Tiger Block
+Prerequisite Charms: [[#Golden Tiger Block]]
 
 Using this Charm, a Lunar can attempt to parry an
 attack directed at him, even if he is unaware of it (for
@@ -174,7 +174,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 4
 Minimum Essence: 2
-Prerequisite Charms: Steel Paw Style
+Prerequisite Charms: [[#Steel Paw Style]]
 
 Like a cat, the Lunar is always ready to respond to
 attacks. By means of the Feline Guard Technique, a
@@ -198,7 +198,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 4
 Minimum Essence: 3
-Prerequisite Charms: Feline Guard Technique
+Prerequisite Charms: [[#Feline Guard Technique]]
 
 Using his superhuman reflexes, a Lunar Exalted
 who has yet to act may activate this Charm and abort
@@ -220,7 +220,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 4
 Minimum Essence: 2
-Prerequisite Charms: Feline Guard Technique
+Prerequisite Charms: [[#Feline Guard Technique]]
 
 A skilled Lunar can turn his opponent's attack
 into a deadly counter, the Lunar extending and twist-
@@ -271,7 +271,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Bowing Reed Technique
+Prerequisite Charms: [[#Bowing Reed Technique]]
 
 Using this Charm, a Lunar can use his Essence to
 enhance his dodging efforts. Upon activating this Charm,
@@ -303,7 +303,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 4
 Minimum Essence: 2
-Prerequisite Charms: Bending Before the Storm
+Prerequisite Charms: [[#Bending Before the Storm]]
 
 Simply dodging an attack may not be enough to save
 an Exalt from harm — his opponent may have multiple
@@ -337,7 +337,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Manipulation: 3
 Minimum Essence: 1
-Prerequisite Charms: Bowing Reed Technique
+Prerequisite Charms: [[#Bowing Reed Technique]]
 
 By locking his eyes with his attacker and activating
 this Charm, the Lunar may distract his opponent
@@ -370,7 +370,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 3
 Minimum Essence: 1
-Prerequisite Charms: Bowing Reed Technique
+Prerequisite Charms: [[#Bowing Reed Technique]]
 
 Dodges usually require the defender to maneuver
 and are thus impossible if the character cannot give
@@ -395,7 +395,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Unmoving Bear Defense
+Prerequisite Charms: [[#Unmoving Bear Defense]]
 
 If, during hand-to-hand combat, an opponent seeks
 to move away from the Lunar, he may activate this
@@ -417,7 +417,7 @@ Duration: Instant
 Type: Simple
 Minimum Charisma: 4
 Minimum Essence: 3
-Prerequisite Charms: Unmoving Bear Defense
+Prerequisite Charms: [[#Unmoving Bear Defense]]
 
 For a dodge to be effective, the character must be
 able to move away from the source of possible injury.
@@ -458,7 +458,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 4
 Minimum Essence: 3
-Prerequisite Charms: Unmoving Bear Defense
+Prerequisite Charms: [[#Unmoving Bear Defense]]
 
 Using this Charm, a Lunar can use his preternatural
 abilities to help defend his associates. If an ally is attacked,
@@ -491,7 +491,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Manipulation: 5
 Minimum Essence: 3
-Prerequisite Charms: Flowing Body Evasion, Pack-Saving Method
+Prerequisite Charms: [[#Flowing Body Evasion]], [[#Pack-Saving Method]]
 
 Using a mix of Dexterity, shapeshifting and illusion to
 confuse his opponent, a Lunar can employ this Charm to
@@ -552,7 +552,7 @@ Duration: One scene
 Type: Simple
 Minimum Stamina: 3
 Minimum Essence: 2
-Prerequisite Charms: Hide-Toughening Essence
+Prerequisite Charms: [[#Hide Toughening Essence]]
 
 The Armor-Forming Technique creates bony plates
 in the Exalt's body and limbs and hides vital organs
@@ -593,7 +593,7 @@ Duration: One scene
 Type: Simple
 Minimum Stamina: 3
 Minimum Essence: 2
-Prerequisite Charms: Hide-Toughening Essence
+Prerequisite Charms: [[#Hide Toughening Essence]]
 
 Using this Charm, the Lunar causes a large bony
 growth to appear on one of his arms (usually the off
@@ -614,7 +614,7 @@ Duration: One scene
 Type: Simple
 Minimum Stamina: 4
 Minimum Essence: 3
-Prerequisite Charms: Armor-Forming Technique
+Prerequisite Charms: [[#Armor-Forming Technique]]
 
 Using this Charm, a Lunar can transform his skin
 to resemble the hide of a ferocious Celestial dragon. His
@@ -652,7 +652,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Stamina: 5
 Minimum Essence: 4
-Prerequisite Charms: Limb-Shielding Growth, Scales of the Dragon
+Prerequisite Charms: [[#Limb-Shielding Growth]], [[#Scales of the Dragon]]
 
 By activating this Charm, the Lunar shields
 herself in a carapace of moonsilver, which appears to

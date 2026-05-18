@@ -76,7 +76,7 @@ Duration: One week/instant
 Type: Supplemental
 Minimum Temperance: 1
 Minimum Essence: 1
-Prerequisite Charms: World-Bridging Meditation
+Prerequisite Charms: [[#World-Bridging Meditation]]
 
 Sometimes, a momentary glimpse isn't enough. In
 these cases, the ghost wishes to establish a more permanent
@@ -106,7 +106,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Temperance: 2
 Minimum Essence: 1
-Prerequisite Charms: World-Bridging Meditation
+Prerequisite Charms: [[#World-Bridging Meditation]]
 
 Extension of the Friendly Gaze allows a ghost to peer
 in on another ghost's Fetters. By laying a hand on her
@@ -145,7 +145,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 4
 Minimum Essence: 2
-Prerequisite Charms: Extension of the Friendly Gaze
+Prerequisite Charms: [[#Extension of the Friendly Gaze]]
 
 With Veil-Piercing Binding, a ghost can do for others
 what Death-Avoiding Monitor allows him to do for himself.
@@ -174,7 +174,7 @@ Duration: One week
 Type: Simple
 Minimum Temperance: 2
 Minimum Essence: 2
-Prerequisite Charms: Death-Avoiding Monitor
+Prerequisite Charms: [[#Death-Avoiding Monitor]]
 
 The Mark of the Relentless Hunter allows a ghost to
 not only know the rough condition of a Fetter, but also to
@@ -220,7 +220,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 2
 Minimum Essence: 2
-Prerequisite Charms: Aura-Reading Technique, Extension of the Friendly Gaze
+Prerequisite Charms: [[Arcanoi Essence Measuring Thief Arts#Aura-Reading Technique|Aura-Reading Technique]], [[#Extension of the Friendly Gaze]]
 
 Sensing the Delicate Strands allows a ghost to get a
 mental image of the things that are important to another
@@ -252,7 +252,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 3
-Prerequisite Charms: Mark of the Relentless Hunter
+Prerequisite Charms: [[#Mark of the Relentless Hunter]]
 
 Chain-Shattering Discipline is the inverse of powers
 such as Veil-Piercing Binding. Instead of binding a ghost to
@@ -284,7 +284,7 @@ Duration: One day
 Type: Reflexive
 Minimum Temperance: 2
 Minimum Essence: 2
-Prerequisite Charms: Sensing the Delicate Strands
+Prerequisite Charms: [[#Sensing the Delicate Strands]]
 
 Any ghost who can touch another's Fetters is painfully
 aware that someone may be doing the same thing to them.
@@ -319,7 +319,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Temperance: 3
 Minimum Essence: 3
-Prerequisite Charms: Weaver Guards the Loom
+Prerequisite Charms: [[#Weaver Guards the Loom]]
 
 Weaver Guards the Loom provides awareness of intrusion.
 Farmer Defends the Unharvested Field allows the

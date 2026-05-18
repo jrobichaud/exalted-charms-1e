@@ -89,7 +89,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Eagle Eye Advantage
+Prerequisite Charms: [[#Eagle Eye Advantage]]
 
 By listening to his animal instincts, a Lunar can
 compensate for adverse environmental effects such as
@@ -109,7 +109,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Nature's Harmony Advantage
+Prerequisite Charms: [[#Nature's Harmony Advantage]]
 
 Cover is a target's best defense against missile attacks,
 but the preternaturally enhanced senses and reflexes
@@ -126,7 +126,7 @@ Duration: Instant
 Type: Extra action
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Knowing the Arrow's Path
+Prerequisite Charms: [[#Knowing the Arrow's Path]]
 
 By using his Essence to alter the arrow's flight, a
 Lunar can attack two targets with a single arrow, usually
@@ -151,7 +151,7 @@ Duration: Instant
 Type: Extra action
 Minimum Dexterity: 4
 Minimum Essence: 2
-Prerequisite Charms: Two-Target Method
+Prerequisite Charms: [[#Two-Target Method]]
 
 Shifting her body to give it an efficient, fluid grace,
 a Lunar archer can load and fire her bow with preternatural
@@ -178,7 +178,7 @@ Duration: Instant
 Type: Extra action
 Minimum Dexterity: 5
 Minimum Essence: 3
-Prerequisite Charms: Silver Waterfall Technique
+Prerequisite Charms: [[#Silver Waterfall Technique]]
 
 Using this Charm to speed his drawing and firing,
 the Lunar can loft a series of arrows before the first has
@@ -207,7 +207,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Perception: 4
 Minimum Essence: 2
-Prerequisite Charms: Knowing the Arrow's Path
+Prerequisite Charms: [[#Knowing the Arrow's Path]]
 
 To an Exalt who can hit a dipping swallow at 100
 yards, striking a projectile in flight is only slightly more
@@ -233,7 +233,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Perception: 5
 Minimum Essence: 3
-Prerequisite Charms: Finding the Needle's Eye
+Prerequisite Charms: [[#Finding the Needle's Eye]]
 
 While Finding the Needle's Eye allows an Exalt to
 use arrows to defend himself from enemy missile
@@ -259,7 +259,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Knowing the Arrow's Path
+Prerequisite Charms: [[#Knowing the Arrow's Path]]
 
 Using this Charm, a Lunar can negate an opponent's
 cover by bouncing his missile off of several surfaces, his
@@ -279,7 +279,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Shaping the Once-Living<br> Form, Nature's Harmony Advantage
+Prerequisite Charms: [[Lunar Shapeshifting#Shaping the Once-Living Form|Shaping the Once-Living Form]], [[#Nature's Harmony Advantage]]
 
 So long as he is surrounded by raw materials — stones,
 twigs, bones, reeds, long blades of grass and the like — a
@@ -306,7 +306,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Perception: 2
 Minimum Essence: 1
-Prerequisite Charms: Eagle Eye Advantage
+Prerequisite Charms: [[#Eagle Eye Advantage]]
 
 By sharpening his senses, a Lunar can offset the
 disadvantage of poor visibility (but not for the effects of
@@ -329,7 +329,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Wolf Eye Advantage
+Prerequisite Charms: [[#Wolf Eye Advantage]]
 
 Range is the main enemy of archers, but by enhancing
 his senses to observe the flows of Essence within the
@@ -349,7 +349,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Strength: 3
 Minimum Essence: 2
-Prerequisite Charms: Wind-Wings Carry Technique
+Prerequisite Charms: [[#Wind-Wings Carry Technique]]
 
 All bows have a pull, and beyond this upper limit, the
 archer's strength has no appreciable effect, except perhaps
@@ -376,7 +376,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Strength: 4
 Minimum Essence: 2
-Prerequisite Charms: Bow-Bending Method
+Prerequisite Charms: [[#Bow-Bending Method]]
 
 While the Bow Bending Method attempts to use
 brute force to increase archery damage, the Body-Pinning
@@ -395,7 +395,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Strength: 4
 Minimum Essence: 3
-Prerequisite Charms: Body-Pinning Style
+Prerequisite Charms: [[#Body-Pinning Style]]
 
 By allowing his subconscious mind control and by
 shaping his body to the needs of the shot, the Lunar can
@@ -417,7 +417,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Strength: 5
 Minimum Essence: 2
-Prerequisite Charms: Body-Pinning Style
+Prerequisite Charms: [[#Body-Pinning Style]]
 
 Some attacks are so swift and powerful that the target
 doesn't see the blow coming and has no chance to avoid it.
@@ -439,7 +439,7 @@ Duration: Instant
 Type: Simple
 Minimum Perception: 4
 Minimum Essence: 4
-Prerequisite Charms: Wind-Wings Carry Technique
+Prerequisite Charms: [[#Wind-Wings Carry Technique]]
 
 By using this Charm, the Lunar can tap into the
 flows of Essence and the senses of beasts in the area

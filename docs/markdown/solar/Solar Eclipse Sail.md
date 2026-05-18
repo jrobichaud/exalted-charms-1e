@@ -83,7 +83,7 @@ Duration: Instant
 Type: Simple
 Minimum Sail: 3
 Minimum Essence: 1
-Prerequisite Charms: Salty Dog Method
+Prerequisite Charms: [[#Salty Dog Method]]
 
 Through the use of this Charm, the character may
 learn exactly where her ship lies in relation to landmarks
@@ -101,7 +101,7 @@ Duration: One day
 Type: Reflexive
 Minimum Sail: 3
 Minimum Essence: 1
-Prerequisite Charms: Salty Dog Method
+Prerequisite Charms: [[#Salty Dog Method]]
 
 A character using this Charm can survive indefinitely
 in water. She will never tire from treading water and may
@@ -119,7 +119,7 @@ Duration: Instant
 Type: Simple
 Minimum Sail: 3
 Minimum Essence: 1
-Prerequisite Charms: Perfect Reckoning Technique
+Prerequisite Charms: [[#Perfect Reckoning Technique]]
 
 By placing her finger in the water, the character can
 instantly predict future weather for a number of days equal
@@ -136,7 +136,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Sail: 4
 Minimum Essence: 1
-Prerequisite Charms: Perfect Reckoning Technique
+Prerequisite Charms: [[#Perfect Reckoning Technique]]
 
 By feeling the Essence flows in the world around
 him, the character can sense the depth of the water for
@@ -154,7 +154,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 3
 Minimum Essence: 2
-Prerequisite Charms: Salty Dog Method
+Prerequisite Charms: [[#Salty Dog Method]]
 
 A character using this Charm while aboard a ship can
 tack much more closely to the wind than would be normal
@@ -176,7 +176,7 @@ Duration: One day
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 2
-Prerequisite Charms: Wind-Defying Course Technique
+Prerequisite Charms: [[#Wind-Defying Course Technique]]
 
 Storms are great banes of ships, particularly the lightly
 built galleys that ferry cargo between the ports of the Inner
@@ -196,7 +196,7 @@ Duration: One turn
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 3
-Prerequisite Charms: Storm-Weathering Essence Infusion
+Prerequisite Charms: [[#Storm-Weathering Essence Infusion]]
 
 Even more dangerous to a boat than a storm is a sharp
 impact — from the ram of a warship or from a rock or shoal.
@@ -224,7 +224,7 @@ Duration: One turn
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 2
-Prerequisite Charms: Perfect Reckoning Technique
+Prerequisite Charms: [[#Perfect Reckoning Technique]]
 
 By casting his will forth upon the waters, the Chosen
 can uncover where the nearest safe harbor or beaching site
@@ -244,7 +244,7 @@ Duration: One day
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 2
-Prerequisite Charms: Wind-Defying Course Technique
+Prerequisite Charms: [[#Wind-Defying Course Technique]]
 
 Fire is rightly feared on all sea-going vessels. Even a ship
 with a First Age hull is filled with furnishings and supplies
@@ -270,7 +270,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 2
-Prerequisite Charms: Wind-Defying Course Technique
+Prerequisite Charms: [[#Wind-Defying Course Technique]]
 
 By dint of this Charm, an Exalted helmsman can not
 only tack deeper into the wind than any mortal helmsman,
@@ -289,7 +289,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 3
 Minimum Essence: 2
-Prerequisite Charms: Wind-Defying Course Technique
+Prerequisite Charms: [[#Wind-Defying Course Technique]]
 
 A ship's mast is its life; without the mast, a sailing vessel
 is utterly subject to tide and current, and few vessels survive
@@ -309,7 +309,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Sail: 4
 Minimum Essence: 2
-Prerequisite Charms: Storm-Weathering Essence Infusion
+Prerequisite Charms: [[#Storm-Weathering Essence Infusion]]
 
 Unseen hazards and dangers are a threat to every sailing
 vessel. Using this Charm, an Exalt can reinforce the hull of
@@ -329,7 +329,7 @@ Duration: One day
 Type: Simple
 Minimum Sail: 3
 Minimum Essence: 2
-Prerequisite Charms: Salty Dog Method
+Prerequisite Charms: [[#Salty Dog Method]]
 
 The character using this Charm weaves sails out
 of pure Essence for a ship that has no sails (or badly
@@ -353,7 +353,7 @@ Duration: One day
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 3
-Prerequisite Charms: Golden Essence Sails
+Prerequisite Charms: [[#Golden Essence Sail]]
 
 With this Charm, the Chosen calls into being
 phantom sailors able to crew any ship the character is
@@ -374,7 +374,7 @@ Duration: One day
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 4
-Prerequisite Charms: Phantom Crew Charm
+Prerequisite Charms: [[#Phantom Crew Charm]]
 
 The Exalted conjures an entire vessel from pure
 Essence, capable of bearing him and a number of

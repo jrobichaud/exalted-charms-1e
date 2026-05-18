@@ -80,7 +80,7 @@ Duration: Varies
 Type: Supplemental
 Minimum Craft: 3
 Minimum Essence: 2
-Prerequisite Charms: Elegant Patterns of Fate
+Prerequisite Charms: [[#Elegant Patterns of Fate]]
 
 Having planned some work of mundane or magical
 craftsmanship, the character weaves that plan into the
@@ -126,7 +126,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Craft: 3
 Minimum Essence: 2
-Prerequisite Charms: World-Shaping Artistic Vision
+Prerequisite Charms: [[#World-Shaping Artistic Vision]]
 
 The character can intertwine the fate of objects
 with her own, binding to her a total number of objects no
@@ -215,7 +215,7 @@ Duration: Varies
 Type: Simple
 Minimum Craft: 4
 Minimum Essence: 4
-Prerequisite Charms: Excellent Implementation of Objectives
+Prerequisite Charms: [[#Excellent Implementation of Objectives]]
 
 of Objectives, Destiny-Knitting Entanglement, Elemental
 Vision, Mending Warped Designs

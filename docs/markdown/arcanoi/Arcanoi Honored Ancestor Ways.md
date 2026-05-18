@@ -44,7 +44,7 @@ Duration: One day
 Type: Simple
 Minimum Compassion: 2
 Minimum Essence: 1
-Prerequisite Charms: Courier in Dreams
+Prerequisite Charms: [[#Courier in Dreams]]
 
 A ghost can use this Arcanos to send a minor blessing to
 an appropriately pious living descendant. The ghost simply
@@ -66,7 +66,7 @@ Duration: One hour per success
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 2
-Prerequisite Charms: Courier in Dreams
+Prerequisite Charms: [[#Courier in Dreams]]
 
 This Arcanos is, in most ways, the opposite of Honorable
 Descendant Blessing. It can only be used on living

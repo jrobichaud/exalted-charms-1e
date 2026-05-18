@@ -102,7 +102,7 @@ Duration: One day
 Type: Simple
 Minimum Survival: 4
 Minimum Essence: 2
-Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+Prerequisite Charms: [[#Hardship-Surviving Mendicant Spirit]]
 
 With this Charm, the character can find his way safely and
 surely through even the worst terrain. The character (and a
@@ -122,7 +122,7 @@ Duration: One hour
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 2
-Prerequisite Charms: Trackless Region Navigation Charm
+Prerequisite Charms: [[#Trackless Region Navigation Charm]]
 
 A character with this Charm will never go hungry. In
 a hour of foraging for food, she can gather enough nuts,
@@ -145,7 +145,7 @@ Duration: One day
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 2
-Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+Prerequisite Charms: [[#Hardship-Surviving Mendicant Spirit]]
 
 The character can track anyone in the wilderness,
 following the most minute signs and, sometimes, nothing
@@ -169,7 +169,7 @@ Duration: One day
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 3
-Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+Prerequisite Charms: [[#Hardship-Surviving Mendicant Spirit]]
 
 Trough the use of this Charm, the character can conceal
 himself or an object no bigger around than his Essence rating
@@ -199,7 +199,7 @@ Duration: One day
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 3
-Prerequisite Charms: Unshakeable Bloodhound Technique
+Prerequisite Charms: [[#Unshakeable Bloodhound Technique]]
 
 Through the use of this Charm, the character can
 make his passage and the passage of additional persons
@@ -218,7 +218,7 @@ Duration: One day
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 3
-Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+Prerequisite Charms: [[#Hardship-Surviving Mendicant Spirit]]
 
 Through the use of this Charm, the character becomes
 able to survive in any environment. The character
@@ -238,7 +238,7 @@ Duration: One day
 Type: Supplemental
 Minimum Survival: 4
 Minimum Essence: 1
-Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+Prerequisite Charms: [[#Hardship-Surviving Mendicant Spirit]]
 
 When invoking this Charm, the Exalted names a
 single breed of animal, which may include &quot;human.&quot; He
@@ -271,7 +271,7 @@ Type: Simple
 Minimum Survival: 3
 Minimum Essence: 1
 
-Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+Prerequisite Charms: [[#Hardship-Surviving Mendicant Spirit]]
 This Charm protects the invoker from the adverse
 affects of natural weather. The Exalted may move through
 heavy winds without being impeded by them, travel
@@ -292,7 +292,7 @@ Type: Simple
 Minimum Survival: 3
 Minimum Essence: 2
 
-Prerequisite Charms: Hardship-Surviving Mendicant Spirit
+Prerequisite Charms: [[#Hardship-Surviving Mendicant Spirit]]
 Through the use of this Charm, the Exalted can
 light small, controlled fires. These are normal fires in
 every way. They can cause no damage by themselves,
@@ -310,7 +310,7 @@ Duration: Instant
 Type: Simple
 Minimum Survival: 3
 Minimum Essence: 2
-Prerequisite Charms: Salamander's Touch Technique
+Prerequisite Charms: [[#Salamander's Touch Technique]]
 
 When all the available wood is soaked or, worse,
 when there is no wood to be found, even the most skilled
@@ -331,7 +331,7 @@ Type: Simple
 Minimum Survival: 5
 Minimum Essence: 3
 
-Prerequisite Charms: Unquenchable Conflagration Technique
+Prerequisite Charms: [[#Unquenchable Conflagration Technique]]
 
 Through the use of this Charm, the Exalted rains
 down solar fire upon a single opponent. After investing
@@ -353,7 +353,7 @@ Duration: One week
 Type: Supplemental
 Minimum Survival: 4
 Minimum Essence: 2
-Prerequisite Charms: Game-Snaring Huntsman's Method
+Prerequisite Charms: [[#Game-Snaring Huntsman's Method]]
 
 The Devil-Pit Technique functions in many ways
 like the Game-Snaring Huntsman's Method. The Exalted
@@ -401,7 +401,7 @@ Duration: Instant
 Type: Simple
 Minimum Survival: 3
 Minimum Essence: 2
-Prerequisite Charms: Friendship With Animals Approach
+Prerequisite Charms: [[#Friendship with Animals Approach]]
 
 By handling an animal, feeding it, petting and scratching
 it and otherwise interacting with it, a character who
@@ -429,7 +429,7 @@ Duration: One scene
 Type: Simple
 Minimum Survival: 4
 Minimum Essence: 2
-Prerequisite Charms: Spirit-Tied Pet
+Prerequisite Charms: [[#Spirit-Tied Pet]]
 
 Through the use of this Charm, a character can gain
 the traits of her Spirit-Tied Pet. Each use of this Charm

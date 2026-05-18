@@ -90,7 +90,7 @@ Duration: One Turn
 Type: Reflexive
 Minimum Athletics: 1
 Minimum Essence: 1
-Prerequisite Charms: Graceful Crane Stance
+Prerequisite Charms: [[#Graceful Crane Stance]]
 
 The character leaps with the grace of a flying crane and
 the speed of a striking hawk. Rather than make her normal
@@ -107,7 +107,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Monkey Leap Technique
+Prerequisite Charms: [[#Monkey Leap Technique]]
 
 The character leaps high into the air, swinging his
 weapon (or fist or feet) in a brilliant Essence-laden arc. The
@@ -127,7 +127,7 @@ Duration: One Turn
 Type: Reflexive
 Minimum Athletics: 2
 Minimum Essence: 1
-Prerequisite Charms: Graceful Crane Stance
+Prerequisite Charms: [[#Graceful Crane Stance]]
 
 The character becomes a blur of motion, Essence
 leaking from her anima in fine streaks, as she flashes from
@@ -144,7 +144,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Lightning Speed
+Prerequisite Charms: [[#Lightning Speed]]
 
 When using this Charm, the character's speed and
 balance become so heightened that she can perform acts of
@@ -170,7 +170,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Lightning Speed
+Prerequisite Charms: [[#Lightning Speed]]
 
 The Exalted lightens her footfalls with Essence and spreads
 her weight, allowing her to walk or run across fluid surfaces such as
@@ -194,7 +194,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 5
 Minimum Essence: 3
-Prerequisite Charms: Thunder's Might
+Prerequisite Charms: [[#Thunder's Might]]
 
 By burning vast quantities of Essence, a character can
 increase his physical might greatly for a few moments. For
@@ -219,7 +219,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Lightning Speed
+Prerequisite Charms: [[#Lightning Speed]]
 
 The character flashes toward his opponent, attacking
 as he blurs past her. The character makes the attack as
@@ -242,7 +242,7 @@ Duration: One hour
 Type: Simple
 Minimum Athletics: 5
 Minimum Essence: 2
-Prerequisite Charms: Monkey Leap Technique, Spider-Foot Style
+Prerequisite Charms: [[#Monkey Leap Technique]], [[#Spider-Foot Style]]
 
 The character attunes himself to his own Essence and
 that of the world around him and moves as though in a
@@ -284,7 +284,7 @@ Duration: One scene
 Type: Simple
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Increasing Strength Exercise
+Prerequisite Charms: [[#Increasing Strength Exercise]]
 
 Through the use of this Charm, the character can
 increase his Strength even further. For every 2 motes of
@@ -326,7 +326,7 @@ Duration: One hour
 Type: Simple
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Fish Swimming Technique
+Prerequisite Charms: [[#Fish Swimming Technique]]
 
 The Character can now swim at twice her movement
 rate if unarmored and at her normal movement rate if
@@ -350,7 +350,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Monkey Leap Technique
+Prerequisite Charms: [[#Monkey Leap Technique]]
 
 As a part of any attack, the character may vault over
 the head of any foe she is facing. At the end of this vault,
@@ -371,7 +371,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Monkey Leap Technique
+Prerequisite Charms: [[#Monkey Leap Technique]]
 Supported by both air and Essence, the character can
 almost fly, leaping vast distances in a single fantastic
 bound. Rather than making an ordinary movement action,
@@ -391,7 +391,7 @@ Duration: One scene
 Type: Simple
 Minimum Athletics: 5
 Minimum Essence: 4
-Prerequisite Charms: Soaring Crane Leap
+Prerequisite Charms: [[#Soaring Crane Leap]]
 
 This Charm allows the character to leap long distances
 in a single bound, which takes the remainder of
@@ -419,7 +419,7 @@ Duration: One scene
 Type: Simple
 Minimum Athletics: 5
 Minimum Essence: 2
-Prerequisite Charms: Spider-Foot Style, Feather-Foot Style
+Prerequisite Charms: [[#Spider-Foot Style]], [[#Feather-Foot Style]]
 
 Through the use of this Charm, the Exalt can obtain
 the effects of Spider-Foot Style and Feather-Foot Style for
@@ -438,7 +438,7 @@ Duration: One Scene
 Type: Simple
 Minimum Athletics: 5
 Minimum Essence: 3
-Prerequisite Charms: Spider-Foot Style, Feather-Foot Style
+Prerequisite Charms: [[#Spider-Foot Style]], [[#Feather-Foot Style]]
 
 The character can focus her Essence to actually
 repel the ground — she leaps and will continue to move

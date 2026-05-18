@@ -49,7 +49,7 @@ Duration: One minute per success
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 2
-Prerequisite Charms: Unseemly Librarian Nature
+Prerequisite Charms: [[#Unseemly Librarian Nature]]
 
 The ghost scholar who knows Discerning Student
 Technique has whole libraries of information buried within
@@ -81,7 +81,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 2
-Prerequisite Charms: Discerning Student Technique
+Prerequisite Charms: [[#Discerning Student Technique]]
 
 The ghost-scholar using Masterly Pedagogical Inquiry
 can force his subject to answer a single question
@@ -104,7 +104,7 @@ Duration: One day
 Type: Simple
 Minimum Conviction: 4
 Minimum Essence: 3
-Prerequisite Charms: Masterly Pedagogical Inquiry
+Prerequisite Charms: [[#Masterly Pedagogical Inquiry]]
 
 Imperious Instructor's Dictate allows a ghost to issue
 a single command to her subject, which must be followed
@@ -132,7 +132,7 @@ Duration: Varies (see below)
 Type: Simple
 Minimum Compassion: 4
 Minimum Essence: 3
-Prerequisite Charms: Imperious Instructor's Dictate
+Prerequisite Charms: [[#Imperious Instructor's Dictate]]
 
 The ghost with this Charm manipulates another
 ghost's hun, rendering that ghost friendly to the Arcanos'
@@ -177,7 +177,7 @@ Duration: Special (see below)
 Type: Special (see below)
 Minimum Compassion: 5
 Minimum Essence: 3
-Prerequisite Charms: Favored-Student Charm
+Prerequisite Charms: [[#Favored Student Charm]]
 
 The wise ghost-scholar can manipulate a student's
 hun sufficiently to permanently implant an order in another

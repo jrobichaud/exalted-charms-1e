@@ -70,7 +70,7 @@ Type: Simple
 Minimum Sail: 3
 Minimum Essence: 2
 
-Prerequisite Charms: Stone Skipping Spirit
+Prerequisite Charms: [[#Stone Skipping Spirit]]
 
 The character casts salt into a puddle or body of
 water beneath her. Its surface breaks and dissolves into
@@ -113,7 +113,7 @@ Duration: One hazard
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 4
-Prerequisite Charms: Salt into Ash Sleight, Mirror Shattering Method
+Prerequisite Charms: [[#Salt Into Ash Sleight]], [[#Mirror-Shattering Method]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden at Sea. The character casts it at

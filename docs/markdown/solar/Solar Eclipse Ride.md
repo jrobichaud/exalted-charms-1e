@@ -65,7 +65,7 @@ Duration: Instant
 Type: Simple
 Minimum Ride: 3
 Minimum Essence: 2
-Prerequisite Charms: Master Horseman's Eye
+Prerequisite Charms: [[#Master Horseman's Eye]]
 
 Through the use of this Charm, the character silently
 summons her mount, which will move toward her at the best
@@ -86,7 +86,7 @@ Duration: One day
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Horse-Summoning Whistle
+Prerequisite Charms: [[#Horse-Summoning Whistle]]
 
 This Charm allows a character to summon up from raw
 Essence a great white steed with a burning golden mane and
@@ -101,7 +101,7 @@ Duration: One scene
 Type: Simple
 Minimum Ride: 2
 Minimum Essence: 1
-Prerequisite Charms: Master Horseman's Eye
+Prerequisite Charms: [[#Master Horseman's Eye]]
 
 Horses' instincts are to run away from what they perceive as
 danger — the smells of fire and blood or the sounds of conflict and
@@ -119,7 +119,7 @@ Duration: One day's march
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 1
-Prerequisite Charms: Spirit-Steadying Assurances
+Prerequisite Charms: [[#Spirit-Steadying Assurances]]
 
 While their speed in battle is tremendously greater than
 that of a man on foot, traveling long distances with mounts is
@@ -143,7 +143,7 @@ Duration: Instant
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Steed-Sustaining Method
+Prerequisite Charms: [[#Steed-Sustaining Method]]
 
 A sick or injured mount is a serious problem for its rider.
 Even outside of a battle, the loss of an animal can be a tremendous
@@ -163,7 +163,7 @@ Duration: One scene
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Spirit-Steadying Assurances
+Prerequisite Charms: [[#Spirit-Steadying Assurances]]
 
 Through the use of this Charm, the Exalted and her mount
 become as one. The player need never roll for her character to
@@ -179,7 +179,7 @@ Duration: One scene
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Steed-Sustaining Method
+Prerequisite Charms: [[#Steed-Sustaining Method]]
 
 By using this Charm, the Exalted can imbue his steed
 with endless energy. While under the effect of this Charm,
@@ -196,7 +196,7 @@ Duration: One day
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 4
-Prerequisite Charms: Phantom Steed
+Prerequisite Charms: [[#Phantom Steed]]
 
 This Charm summons a horse of pure Essence,
 much like Phantom Steed, except the Chosen's mount
@@ -212,7 +212,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Ride: 4
 Minimum Essence: 2
-Prerequisite Charms: Spirit-Steadying Assurances
+Prerequisite Charms: [[#Spirit-Steadying Assurances]]
 
 The Exalted infuses Essence into her mount, lightening
 its steps and distributing its weight. The mount
@@ -234,7 +234,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Feathery Gallop Exercise
+Prerequisite Charms: [[#Feathery Gallop Exercise]]
 
 When the Chosen uses this Charm, her mount
 can run on the empty air between two solid surfaces as
@@ -253,7 +253,7 @@ Duration: One scene
 Type: Simple
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Steed-Sustaining Method, Flawless Partnership Meditation
+Prerequisite Charms: [[#Steed-Sustaining Method]], [[#Flawless Partnership Meditation]]
 
 This Charm infuses the Exalted's mount with
 Essence, granting it extraordinary speed. The mount

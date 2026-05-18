@@ -75,7 +75,7 @@ Duration: One turn
 Type: Extra Action
 Minimum Brawl: 4
 Minimum Essence: 2
-Prerequisite Charms: Drowning Embrace
+Prerequisite Charms: [[#Drowning Embrace]]
 
 A brawler using this Charm is capable of wrestling up
 to four opponents at once — theoretically, one for each
@@ -108,7 +108,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 2
 Minimum Essence: 1
-Prerequisite Charms: Drowning Embrace
+Prerequisite Charms: [[#Drowning Embrace]]
 
 Not even the Blessed Isle is immune to the inexorable
 power of water, as it is slowly shaped over the eons
@@ -135,7 +135,7 @@ Duration: Instant
 Type: Extra Actions
 Minimum Brawl: 4
 Minimum Essence: 2
-Prerequisite Charms: Pounding Surf Style
+Prerequisite Charms: [[#Pounding Surf Style]]
 
 A Dragon-Blood using this Charm attacks her enemies to
 all sides with lightning-quick, accurate strikes. Each extra attack
@@ -168,7 +168,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 3
 Minimum Essence: 2
-Prerequisite Charms: Blade-Deflecting Palm
+Prerequisite Charms: [[#Blade-Deflecting Palm]]
 
 This Charm turns the Dragon-Blood's brawling strikes into
 deadly, crushing blows that are extremely difficult for an unarmed
@@ -186,7 +186,7 @@ Duration: One turn
 Type: Supplemental
 Minimum Brawl: 5
 Minimum Essence: 2
-Prerequisite Charms: Riptide Method, Pounding Surf Style, Become the Hammer
+Prerequisite Charms: [[#Riptide Method]], [[#Pounding Surf Style]], [[#Become the Hammer]]
 
 A master brawler unafraid to go toe to toe with a powerful
 enemy can use this Charm to aid her allies' attacks. While
@@ -211,7 +211,7 @@ Duration: Essence in turns
 Type: Supplemental
 Minimum Brawl: 3
 Minimum Essence: 2
-Prerequisite Charms: Riptide Method
+Prerequisite Charms: [[#Riptide Method]]
 
 Just as ice on a frozen sea can hold a ship fast in place,
 the character can use bonds of Essence to maintain a hold
@@ -237,7 +237,7 @@ Duration: Essence in turns
 Type: Supplemental
 Minimum Brawl: 5
 Minimum Essence: 4
-Prerequisite Charms: Bonds of Unbreakable Ice Technique
+Prerequisite Charms: [[#Bonds of Unbreakable Ice Technique]]
 
 The character can now also maintain a clinch after she
 ceases to touch her opponent. The character makes a
@@ -261,7 +261,7 @@ Duration: Brawl in turns
 Type: Supplemental
 Minimum Brawl: 5
 Minimum Essence: 4
-Prerequisite Charms: Crushing Glacier Prana
+Prerequisite Charms: [[#Crushing Glacier Prana]]
 
 Just as a tidal wave can crush many people at once,
 the character can attempt to hold a number of targets
@@ -288,7 +288,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 3
 Minimum Essence: 2
-Prerequisite Charms: Drowning Embrace
+Prerequisite Charms: [[#Drowning Embrace]]
 
 As water flows past all obstacles, the character can
 escape from clinches and holds by literally flowing through
@@ -309,7 +309,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Brawl: 4
 Minimum Essence: 3
-Prerequisite Charms: Slippery Escape Method
+Prerequisite Charms: [[#Slippery Escape Method]]
 
 Like a stream of water runs rapidly past stationary
 obstacles, the character can use this Charm to allow his
@@ -328,7 +328,7 @@ Duration: Instant
 Type: Simple
 Minimum Brawl: 4
 Minimum Essence: 3
-Prerequisite Charms: Become the Hammer
+Prerequisite Charms: [[#Become the Hammer]]
 
 Even the most skilled brawlers know the difficulties
 they have when facing well-armed opponents. This Charm

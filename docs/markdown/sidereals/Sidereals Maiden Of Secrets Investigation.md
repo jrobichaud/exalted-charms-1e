@@ -112,7 +112,7 @@ Duration: Five days
 Type: Simple
 Minimum Investigation: 2
 Minimum Essence: 2
-Prerequisite Charms: Efficient Secretary Technique
+Prerequisite Charms: [[#Efficient Secretary Technique]]
 
 Clapping his hands, the Sidereal causes a small
 plant to grow into the shape of a dedicated scholar and
@@ -136,7 +136,7 @@ Duration: Five days
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 3
-Prerequisite Charms: Marvelous Inclusion of Details, Research Assistant Invocation
+Prerequisite Charms: [[#Marvelous Inclusion of Details]], [[#Research Assistant Invocation]]
 
 This Charm uses a prayer strip marked with the
 scripture of That Old Thing. The Sidereal forms a

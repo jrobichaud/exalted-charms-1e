@@ -52,7 +52,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Bureaucracy: 2
 Minimum Essence: 2
-Prerequisite Charms:Authority-Eroding Technique
+Prerequisite Charms: [[#Authority-Eroding Technique]]
 
 By speaking brusquely and projecting an aura of
 menace, an Abyssal with this Charm can cut through the
@@ -75,7 +75,7 @@ Duration: Instant
 Type: Supplementary
 Minimum Bureaucracy: 4
 Minimum Essence: 2
-Prerequisite Charms: Argument-Slaying Remark
+Prerequisite Charms: [[#Argument-Slaying Remark]]
 
 This Charm allows an Exalt to vocalize a course of
 action or point of view with such eloquence and grace that
@@ -122,7 +122,7 @@ Duration: One week
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Corruption-Sensing Scrutiny
+Prerequisite Charms: [[#Corruption-Sensing Scrutiny]]
 With a few artfully placed rumors and whispers, an
 Abyssal with this Charm can sow the seeds of discord and
 mistrust within a particular bureau or organization. Tem-
@@ -153,7 +153,7 @@ Duration: One week
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Cunning Subversion Style
+Prerequisite Charms: [[#Cunning Subversion Style]]
 
 This Charm closely parallels Cunning Subversion
 Style. Rather than targeting an organization, however, the
@@ -184,8 +184,7 @@ Duration: One week
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 4
-Prerequisite Charms: Alluring Eloquence Method,
-Regime-Toppling Insinuation
+Prerequisite Charms: [[#Alluring Eloquence Method]], [[#Regime-Toppling Insinuation]]
 Exuding menace and prowess in equal measure, an
 Abyssal can enchant his very authority to sow fear and
 discourage rebellion. The character must have some

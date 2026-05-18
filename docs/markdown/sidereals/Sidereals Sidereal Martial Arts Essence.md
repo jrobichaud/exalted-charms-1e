@@ -147,7 +147,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: One complete martial art (all Charms), Deadly Starmetal Offensive, Orichalcum Sheathing Stance, Flickering Moonsilver Approach, Five Jade Fury
+Prerequisite Charms: One complete martial art (all Charms), [[#Deadly Starmetal Offensive (JI)]], [[#Orichalcum Sheathing Stance (PENG)]], [[#Flickering Moonsilver Approach (LU)]], [[#Five Jade Fury (ZHOU)]]
 
 and HOU TUI
 The character attunes herself to the Essence of the
@@ -250,7 +250,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Charm Redirection Technique
+Prerequisite Charms: [[#Charm Redirection Technique(AN)]]
 
 This Charm extends the Charm Redirection Technique,
 allowing the character to:
@@ -376,7 +376,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: One complete martial art (all Charms), Sequential Charm Disruption, Spell-Shattering Palm, Astrology Interruption Method
+Prerequisite Charms: One complete martial art (all Charms), [[#Sequential Charm Disruption (CAJ)]], [[#Spell-Shattering Palm (LI)]], [[#Astrology Interruption Method (HUA JI)]]
 
 and QIAN JING
 The character balances her actions so perfectly to
@@ -471,7 +471,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: One complete martial art (all Charms), God-Ways, one Exalt Ways Charm
+Prerequisite Charms: One complete martial art (all Charms), [[#God-Ways (ZUO GU)]], one Exalt Ways Charm
 
 and WU JI
 The character adopts the attitude and posture of the
@@ -534,7 +534,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: One complete martial art (all Charms), Demesne Emulation Practice
+Prerequisite Charms: One complete martial art (all Charms), [[#Demesne Emulation Practice (KAO)]]
 
 and CHUNG TING!
 The character adopts the stately grandeur of a temple
@@ -564,7 +564,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: Four Magical Materials Form, Soul Fire Shaper Form, Games of Divinity Form, Demesne and Manse Form
+Prerequisite Charms: [[#Four Magical Materials Form(HOU TUI)]], [[#Soul Fire Shaper Form (QIAN JING)]], [[#Games of Divinity Form (WU JI)]], [[#Demesne and Manse Form (CHUNG TING)]]
 
 The Elder Sutra of Essence: The last maiden's name was
 TAO. These were their names, but they knew them not.

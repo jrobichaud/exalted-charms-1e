@@ -53,7 +53,7 @@ Duration: One scene
 Type: Simple
 Minimum Occult: 3
 Minimum Essence: 2
-Prerequisite Charms: Mark of Exaltation
+Prerequisite Charms: [[#Mark of Exaltation]]
 
 To help the character better untangle the threads of
 fate, impelled by the earliest laws of Creation, the
@@ -99,7 +99,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 3
 Minimum Essence: 2
-Prerequisite Charms: Mark of Exaltation, Incite Decorum
+Prerequisite Charms: [[#Mark of Exaltation]], [[#Incite Decorum]]
 
 Wrapped in the terrible grandeur of the Maiden
 that sponsors her, the Sidereal can present a compelling
@@ -126,7 +126,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 4
 Minimum Essence: 3
-Prerequisite Charms: Innocuous Maneuver
+Prerequisite Charms: [[#Innocuous Maneuver]]
 
 Sidereals with a deep understanding of the ways of
 the Wyld and the dead can apply it to their manipulation
@@ -166,7 +166,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 4
 Minimum Essence: 4
-Prerequisite Charms: Terrestrial Circle Sorcery, one prayer strip Charm
+Prerequisite Charms: [[#Terrestrial Circle Sorcery]], one prayer strip Charm
 
 Those Sidereal Exalted who attain the pinnacle of
 one constellation's Charms, learning to understand and

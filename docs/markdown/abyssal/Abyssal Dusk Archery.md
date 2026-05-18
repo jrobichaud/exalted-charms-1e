@@ -67,7 +67,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms: Bloodthirsty Arrow
+Prerequisite Charms: [[#Bloodthirsty Arrow]]
 
 Empowered with rage and seething Essence, the
 Abyssal's arrow twists cruelly within its target to inflict
@@ -100,7 +100,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms: Twisting Spiteful Shaft
+Prerequisite Charms: [[#Twisting Spiteful Shaft]]
 
 With this Charm, an Abyssal's arrow becomes a
 conduit for his life-draining anima. The Exalt regains one
@@ -118,7 +118,7 @@ Duration: Instant
 Type: Simple
 Minimum Archery: 4
 Minimum Essence: 2
-Prerequisite Charms: Bloodthirsty Arrow
+Prerequisite Charms: [[#Bloodthirsty Arrow]]
 
 The character's eyes glint with power as he attunes his
 gaze to the glow of Essence in his victim. For 3 motes, the
@@ -138,7 +138,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 5
 Minimum Essence: 2
-Prerequisite Charms: Pulse of the Prey
+Prerequisite Charms: [[#Pulse of the Prey]]
 
 Guided by the grim certainty of death, the Abyssal
 blocks out all distractions. From the time he draws his
@@ -160,7 +160,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Archery: 5
 Minimum Essence: 2
-Prerequisite Charms: Flawless Archer Discipline
+Prerequisite Charms: [[#Flawless Archer Discipline]]
 
 Her arms and fingers a flickering blur of motion, an
 Abyssal with this Charm may empty her entire quiver
@@ -202,7 +202,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms: Iron Sleet Attack
+Prerequisite Charms: [[#Iron Sleet Attack]]
 
 The character draws his bow, and a savagely barbed
 shaft materializes under his touch. Arrows created with
@@ -218,7 +218,7 @@ Duration: Instant
 Type: Simple
 Minimum Archery: 4
 Minimum Essence: 2
-Prerequisite Charms: Relic Arrow Method
+Prerequisite Charms: [[#Relic Arrow Method]]
 
 The Abyssal draws a bolt of crackling Oblivion across
 his bow. This bolt is fired as a normal arrow, but inflicts a
@@ -242,7 +242,7 @@ Duration: One scene
 Type: Simple
 Minimum Archery: 4
 Minimum Essence: 3
-Prerequisite Charms: Relic Arrow Method
+Prerequisite Charms: [[#Relic Arrow Method]]
 
 Sculpting his anima with a thought, the Abyssal
 summons a bow of calcified Essence and memory into her
@@ -262,7 +262,7 @@ Duration: Instant
 Type: Simple
 Minimum Archery: 5
 Minimum Essence: 3
-Prerequisite Charms: Pulse of the Prey, Splinter of the Void
+Prerequisite Charms: [[#Pulse of the Prey]], [[#Splinter of the Void]]
 
 As with Relic Arrow Method, the Exalt summons a
 shaft of pure Essence. This translucent arrow glows softly

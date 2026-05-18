@@ -144,7 +144,7 @@ Duration: One hour
 Type: Simple
 Minimum Occult: 2
 Minimum Essence: 1
-Prerequisite Charms: Spirit-Detecting Mirror Technique
+Prerequisite Charms: [[#Spirit-Detecting Mirror Technique]]
 
 The Dragon-Blooded are not born occultists and
 magicians like some Celestial Exalted, but a number of
@@ -174,7 +174,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 3
 Minimum Essence: 3
-Prerequisite Charms: Spirit-Detecting Mirror Technique
+Prerequisite Charms: [[#Spirit-Detecting Mirror Technique]]
 
 The Dragon-Bloods must protect the common people
 of the Realm from the various supernatural beings that
@@ -206,7 +206,7 @@ Duration: 5 minutes
 Type: Supplemental
 Minimum Occult: 4
 Minimum Essence: 3
-Prerequisite Charms: Spirit-Grounding Shout
+Prerequisite Charms: [[#Spirit-Grounding Shout]]
 
 This Charm allows the Dragon-Blooded to immobilize
 spirit beings, which is often the first step toward
@@ -235,7 +235,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Occult: 5
 Minimum Essence: 3
-Prerequisite Charms: Spirit-Grounding Shout
+Prerequisite Charms: [[#Spirit-Grounding Shout]]
 
 Sometimes, restraining a spirit is not enough, and
 destruction becomes necessary. The Spirit-Shredding
@@ -329,7 +329,7 @@ Duration: One scene
 Type: Simple
 Minimum Occult: 3
 Minimum Essence: 2
-Prerequisite Charms: Minding the Dragon's Eggs
+Prerequisite Charms: [[#Minding the Dragon's Eggs]]
 
 Using a refined version of the technique behind
 Minding the Dragon's Eggs, a Terrestrial occultist can
@@ -347,7 +347,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 4
 Minimum Essence: 3
-Prerequisite Charms: Fivefold Resonance Sense
+Prerequisite Charms: [[#Fivefold Resonance Sense]]
 
 With much of the documentation lost on how
 magical artifacts were crafted in the First Age, modern

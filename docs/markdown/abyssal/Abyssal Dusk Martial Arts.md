@@ -72,7 +72,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 2
 Minimum Essence: 2
-Prerequisite Charms: Essence Discerning Glance
+Prerequisite Charms: [[#Essence Discerning Glance]]
 
 The character suffuses her hands with the spectral
 Essence of the Underworld, causing them to flicker like
@@ -92,7 +92,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Shrouded Claw Attack
+Prerequisite Charms: [[#Shrouded Claw Attack]]
 
 The Exalted takes on the visage and attitude of a
 ravening shade, his pallid flesh growing cold and faintly
@@ -118,7 +118,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Hungry Ghost Form
+Prerequisite Charms: [[#Hungry Ghost Form]]
 
 Executing a series of quick slashes in the air, the Exalt
 reaches forth her anima to siphon up expended Essence as
@@ -149,7 +149,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Power Reaping Prana
+Prerequisite Charms: [[#Power Reaping Prana]]
 
 Lashing out with a soul-numbing tendril of power, the
 Exalt stifles her enemy's magic before it even takes form.
@@ -182,7 +182,7 @@ Duration: Instant
 Type: Supplementary
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Hungry Ghost Form
+Prerequisite Charms: [[#Hungry Ghost Form]]
 
 The character brings to bear the ravaging power of
 Oblivion in a crackling nimbus around her hand. In
@@ -203,7 +203,7 @@ Duration: Instant
 Type: Supplementary
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Consuming Entropy Strike
+Prerequisite Charms: [[#Consuming Entropy Strike]]
 
 The character's fingers tighten in rigid claws, and his
 skin becomes numbingly cold to the touch. In addition to
@@ -230,7 +230,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Hungry Ghost Form
+Prerequisite Charms: [[#Hungry Ghost Form]]
 
 The character's motions take on the unsettling jerkiness
 of the walking dead as she wavers between impossible
@@ -249,7 +249,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Unnatural Shambling Deftness
+Prerequisite Charms: [[#Unnatural Shambling Deftness]]
 
 The Abyssal rushes forward, twisting and dematerializing
 as he pounces so that he passes through his enemy
@@ -266,7 +266,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms:Charm Smothering Technique, Blood Freezing Technique, Lunging Phantom Method
+Prerequisite Charms: [[#Charm Smothering Technique]], [[#Blood Freezing Technique]], [[#Lunging Phantom Method]]
 
 The deathknight delivers a powerful open-handed
 blow, Essence crackling around his clawed fingers in moaning

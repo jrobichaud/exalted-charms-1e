@@ -60,7 +60,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Investigation: 2
 Minimum Essence: 1
-Prerequisite Charms: Excellent Inquisitor Attitude
+Prerequisite Charms: [[#Excellent Inquisitor Attitude]]
 
 This Charm allows a character to look at an individual
 and perceive the slight taint of unrighteousness left
@@ -80,7 +80,7 @@ Duration: One scene
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 2
-Prerequisite Charms: Deception-Piercing Stare
+Prerequisite Charms: [[#Deception-Piercing Stare]]
 
 With this Charm, an Abyssal inflicts terrible pain on
 anyone who disrespectfully answers her questions with lies
@@ -113,7 +113,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 5
 Minimum Essence: 3
-Prerequisite Charms: Unsurpassed Interrogation Method
+Prerequisite Charms: [[#Unsurpassed Interrogation Method]]
 
 Building on the principle of Unsurpassed Interrogation
 Method, this Charm allows a character to torture
@@ -144,7 +144,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 3
 Minimum Essence: 1
-Prerequisite Charms: Excellent Inquisitor Attitude
+Prerequisite Charms: [[#Excellent Inquisitor Attitude]]
 Through careful examination of undisturbed physical
 evidence at a scene, the character can mentally recon-
 struct the process that led to that evidence. For example,
@@ -168,7 +168,7 @@ Duration: One scene
 Type: Simple
 Minimum Investigation: 5
 Minimum Essence: 3
-Prerequisite Charms: Unsurpassed Interrogation Method, Cunning Scrutiny Style
+Prerequisite Charms: [[#Unsurpassed Interrogation Method]], [[#Cunning Scrutiny Style]]
 
 Potent memories linger in the flesh, even after death.
 This Charm allows an Abyssal to extract those memories,
@@ -195,7 +195,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 5
 Minimum Essence: 3
-Prerequisite Charms:Corpse Questioning Technique
+Prerequisite Charms: [[#Corpse Questioning Technique]]
 
 Important or emotionally charged events leave a psychic
 imprint on the location and objects involved. Such

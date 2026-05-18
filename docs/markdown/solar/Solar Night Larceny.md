@@ -69,7 +69,7 @@ Duration: One day
 Type: Simple
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Seasoned Criminal Method
+Prerequisite Charms: [[#Seasoned Criminal Method]]
 
 By means of this Charm, the character can disguise her
 appearance, her voice and even her scent. The player may not
@@ -92,7 +92,7 @@ Duration: One hour
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 3
-Prerequisite Charms: Flawlessly Impenetrable Disguise
+Prerequisite Charms: [[#Flawlessly Impenetrable Disguise]]
 
 This Charm allows a character to perfectly imitate someone
 she is very familiar with. While this Charm is active, not even the
@@ -131,7 +131,7 @@ Duration: Instant
 Type: Simple
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Flawless Pickpocketing Technique
+Prerequisite Charms: [[#Flawless Pickpocketing Technique]]
 
 This Charm is much like Flawless Pickpocketing Technique,
 allowing a character to steal an item without any
@@ -158,7 +158,7 @@ Duration: Instant
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 3
-Prerequisite Charms: Stealing From Plain Sight Spirit
+Prerequisite Charms: [[#Stealing from Plain Sight Spirit]]
 
 This Charm is similar to Stealing From Plain Sight
 Spirit, in that it allows objects to be stolen from plain view
@@ -179,7 +179,7 @@ Duration: Instant
 Type: Simple
 Minimum Larceny: 3
 Minimum Essence: 1
-Prerequisite Charms: Flawless Pickpocketing Technique
+Prerequisite Charms: [[#Flawless Pickpocketing Technique]]
 
 Through the use of this Charm, the character can
 instantly pick any lock. He needs no tools — all he need
@@ -198,7 +198,7 @@ Duration: Instant
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 3
-Prerequisite Charms: Lock-Opening Touch
+Prerequisite Charms: [[#Lock-Opening Touch]]
 
 Some doors do not have locks to pick, being bound
 closed with bars or sorcery. Other doors are equipped
@@ -220,7 +220,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Seasoned Criminal Method
+Prerequisite Charms: [[#Seasoned Criminal Method]]
 
 None can challenge the ability of the Night Caste to
 walk among criminals, leam their methods and infiltrate
@@ -251,7 +251,7 @@ Duration: Special
 Type: Reflexive
 Minimum Larceny: 4
 Minimum Essence: 3
-Prerequisite Charms: Lock-Opening Touch
+Prerequisite Charms: [[#Lock-Opening Touch]]
 
 Sometimes, locking a door is as valuable as opening
 one. With a single touch, the character can lock any

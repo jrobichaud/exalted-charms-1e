@@ -64,7 +64,7 @@ Duration: Permanent
 Type: Special
 Minimum Survival: 2
 Minimum Essence: 2
-Prerequisite Charms:Essence Engorgement Technique
+Prerequisite Charms: [[#Essence Engorgement Technique]]
 
 Once an Abyssal masters this Charm, he can subsist
 entirely on a diet of human blood. The character must drink
@@ -104,7 +104,7 @@ Duration: Instant
 Type: Simple
 Minimum Survival: 3
 Minimum Essence: 2
-Prerequisite Charms: Superior Predator Style
+Prerequisite Charms: [[#Superior Predator Style]]
 
 By beating an animal into submission or otherwise
 abusing it to establish dominance, an Abyssal with this
@@ -129,7 +129,7 @@ Duration: Permanent
 Type: Special
 Minimum Survival: 3
 Minimum Essence: 2
-Prerequisite Charms: Superior Predator Style
+Prerequisite Charms: [[#Superior Predator Style]]
 
 While most deathknights can only absorb Essence
 from the blood and flesh of other sentient beings, a few
@@ -172,7 +172,7 @@ Duration: Until released
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 3
-Prerequisite Charms: Enduring Huntsman Method
+Prerequisite Charms: [[#Enduring Huntsman Method]]
 
 Pulling his arms and legs together like a corpse ready for
 burial, an Abyssal with this Charm can mystically sink into
@@ -197,7 +197,7 @@ Duration: One hour
 Type: Simple
 Minimum Survival: 4
 Minimum Essence: 2
-Prerequisite Charms: Enduring Huntsman Method
+Prerequisite Charms: [[#Enduring Huntsman Method]]
 
 By definition, few environments are as inhospitable
 and lifeless as the dim recesses of the Underworld. The
@@ -215,7 +215,7 @@ Duration: Instant
 Type: Simple
 Minimum Survival: 4
 Minimum Essence: 2
-Prerequisite Charms: Enduring Huntsman Method
+Prerequisite Charms: [[#Enduring Huntsman Method]]
 
 With this Charm, an Abyssal can mentally unlock the
 twisting paths of a labyrinth to find a desired course or
@@ -236,7 +236,7 @@ Duration: Until released
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 2
-Prerequisite Charms: Enduring Huntsman Method
+Prerequisite Charms: [[#Enduring Huntsman Method]]
 
 With this Charm, an Abyssal can pursue a quarry with
 supernatural prowess and determination. The player can
@@ -261,7 +261,7 @@ Duration: One day
 Type: Simple
 Minimum Survival: 5
 Minimum Essence: 3
-Prerequisite Charms: Infallible Barghest Mien
+Prerequisite Charms: [[#Infallible Barghest Mien]]
 
 For the duration of this Charm, the character passes as
 unobtrusively as a phantom. She leaves no footprints or

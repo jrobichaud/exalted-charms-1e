@@ -57,7 +57,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Crypt Bolt
+Prerequisite Charms: [[#Crypt Bolt]]
 
 The character extends his arm, and a bolt of coruscating
 energy flies from his fingertips. If this bolt strikes a being
@@ -82,7 +82,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 2
-Prerequisite Charms: Essence-Scattering Blast
+Prerequisite Charms: [[#Essence-Scattering Blast]]
 
 With this Charm, an Abyssal may feed on a target's
 life force directly without even touching her. The player
@@ -108,7 +108,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Crypt Bolt
+Prerequisite Charms: [[#Crypt Bolt]]
 
 By forcing death Essence into the land around her, the
 deathknight can destroy all the plant life in the vicinity
@@ -129,7 +129,7 @@ Duration: Special
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Crypt Bolt
+Prerequisite Charms: [[#Crypt Bolt]]
 
 Whereas the Wyld embodies growth and untamed
 possibility, the Underworld represents death and ultimate
@@ -154,7 +154,7 @@ Duration: One scene
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Wyld Shield Meditation
+Prerequisite Charms: [[#Wyld-Shield Meditation]]
 
 With this Charm, an Abyssal may channel soul-
 numbing death Essence into a weapon. For the rest of the
@@ -169,7 +169,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 3
-Prerequisite Charms: Radiant Blight Technique, Chaos-Searing Treatment
+Prerequisite Charms: [[#Radiant Blight Technique]], [[#Chaos-Searing Treatment]]
 
 With this Charm, an Abyssal may unleash the full
 force of the Underworld against the twin enemies of life

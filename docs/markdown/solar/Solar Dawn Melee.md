@@ -125,7 +125,7 @@ Duration: Instant
 Type: Minimum Melee
 Supplemental: 2
 Minimum Essence: 1
-Prerequisite Charms: Excellent Strike
+Prerequisite Charms: [[#Excellent Strike]]
 
 To activate the Hungry Tiger Technique, the Exalted
 charges her body and weapon with Essence, unifying the
@@ -143,7 +143,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 3
 Minimum Essence: 1
-Prerequisite Charms: Hungry Tiger Technique
+Prerequisite Charms: [[#Hungry Tiger Technique]]
 
 The character focuses her Essence into her weapon and
 swings a terrible blow against her opponent. If the blow is
@@ -175,7 +175,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Melee: 2
 Minimum Essence: 1
-Prerequisite Charms: Excellent Strike
+Prerequisite Charms: [[#Excellent Strike]]
 
 The Exalted charges her weapon arm with Essence,
 and it becomes as fast as a striking snake. The character
@@ -192,7 +192,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Melee: 3
 Minimum Essence: 1
-Prerequisite Charms: One Weapon, Two Blows
+Prerequisite Charms: [[#One Weapon, Two Blows]]
 
 The Exalted surrounds herself with a nimbus of Essence,
 and her movements become as rapid and smooth as
@@ -220,7 +220,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Melee: 5
 Minimum Essence: 2
-Prerequisite Charms: Peony Blossom Attack
+Prerequisite Charms: [[#Peony Blossom Attack]]
 
 The character permeates his body with raw Essence,
 so much that it wraps around him in a gauzy corona and
@@ -267,7 +267,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 2
 Minimum Essence: 1
-Prerequisite Charms: Golden Solar Block
+Prerequisite Charms: [[#Golden Solar Block]]
 
 The character has achieved further mastery of defensive
 Essence flows and can now more smoothly block
@@ -283,7 +283,7 @@ Duration: Until next action
 Type: Simple
 Minimum Melee: 3
 Minimum Essence: 1
-Prerequisite Charms: Dipping Swallow Defense
+Prerequisite Charms: [[#Dipping Swallow Defense]]
 
 The character now has the ability to use defensive
 Essence flows to gain perfect form and poise. Until her
@@ -300,7 +300,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Bulwark Stance
+Prerequisite Charms: [[#Bulwark Stance]]
 
 The character may block, without his player rolling, any
 one attack against him that he is aware of, even if the attack
@@ -324,7 +324,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Melee: 5
 Minimum Essence: 3
-Prerequisite Charms: Bulwark Stance
+Prerequisite Charms: [[#Bulwark Stance]]
 
 For the rest of the scene, the character is surrounded by
 glowing Essence arcs, outlining his ideal protective moves
@@ -342,7 +342,7 @@ Type: Reflexive
 Minimum Melee: 4
 Minimum Essence: 1
 
-Prerequisite Charms: Dipping Swallow Defense
+Prerequisite Charms: [[#Dipping Swallow Defense]]
 Essence guides the character's tempo, allowing her
 to strike when her enemy extends for an attack. The
 character may immediately make an attack at her full
@@ -365,7 +365,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Melee: 5
 Minimum Essence: 2
-Prerequisite Charms: Solar Counterattack
+Prerequisite Charms: [[#Solar Counterattack]]
 
 The character now rides the impulses of Essence
 with supple perfection. To attack him is to invite a lethal
@@ -388,7 +388,7 @@ Duration: One scene
 Type: Supplemental
 Minimum Melee: 4
 Minimum Essence: 3
-Prerequisite Charms: Fire and Stones Strike
+Prerequisite Charms: [[#Fire and Stone Strike]]
 
 The character increases her mastery of her power and learns
 to charge her weapon with Essence for an entire battle. Filled
@@ -408,7 +408,7 @@ Duration: Special
 Type: Reflexive
 Minimum Melee: 5
 Minimum Essence: 6
-Prerequisite Charms: Heavenly Guardian Defense, Fivefold Bulwark Stance
+Prerequisite Charms: [[#Heavenly Guardian Defense]], [[#Fivefold Bulwark Stance]]
 
 The character may block, without rolling, a number
 attacks against him that he is aware of equal to his Melee Ability,
@@ -446,7 +446,7 @@ Duration: One turn
 Type: Extra Action
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Dual Slaying Stance
+Prerequisite Charms: [[#Dual Slaying Stance]]
 
 Through harmony with the Essence flows, a character
 holding a weapon in each hand can strike once with
@@ -471,7 +471,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Sun-and-Moon Method
+Prerequisite Charms: [[#Sun and Moon Method]]
 
 The character can now allow Essence to manage his
 hands for him and receives no penalty for fighting with
@@ -499,7 +499,7 @@ Duration: One scene
 Type: Simple
 Minimum Melee: 5
 Minimum Essence: 4
-Prerequisite Charms: Ready in Eight Directions Stance, Two Swords Technique
+Prerequisite Charms: [[#Ready in Eight Directions Stance]], [[#Two Swords Technique]]
 
 The character enfolds himself in Essence, allowing it
 to guide his actions as he whirls through a breathtakingly
@@ -572,7 +572,7 @@ Duration: Instant
 Type: Simple
 Minimum Melee: 2
 Minimum Essence: 2
-Prerequisite Charms: Retrieve the Fallen Weapon
+Prerequisite Charms: [[#Retrieve the Fallen Weapon]]
 
 The character may call her weapon back to her hand, even
 if she cannot see it. The weapon does not traverse the space
@@ -590,7 +590,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 3
 Minimum Essence: 1
-Prerequisite Charms: Call the Blade
+Prerequisite Charms: [[#Call the Blade]]
 
 The character simply gestures, and his weapon flashes to
 his hand, appearing instantly in his grasp regardless of its
@@ -608,7 +608,7 @@ Duration: One scene
 Type: Simple
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Call the Blade
+Prerequisite Charms: [[#Call the Blade]]
 
 The character can now never be disarmed. She can
 concentrate Essence in her hand, forming a glittering
@@ -629,7 +629,7 @@ Duration: Instant
 Type: Simple
 Minimum Melee: 3
 Minimum Essence: 1
-Prerequisite Charms: Retrieve the Fallen Weapon
+Prerequisite Charms: [[#Retrieve the Fallen Weapon]]
 
 This Charm allows the character to use his weapon to
 attack up to Dexterity x 5 yards away. The weapon whirls
@@ -649,7 +649,7 @@ Duration: Instant
 Type: Simple
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Iron Raptor Technique
+Prerequisite Charms: [[#Iron Raptor Technique]]
 
 The character charges his weapon with Essence and
 strikes a blow at a distant target. A slashing edge of concentrated
@@ -668,7 +668,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 5
 Minimum Essence: 2
-Prerequisite Charms: Iron Raptor Technique
+Prerequisite Charms: [[#Iron Raptor Technique]]
 
 The character concentrates on manifesting his Essence
 through the medium of his weapon. The weapon
@@ -685,7 +685,7 @@ Duration: One scene
 Type: Simple
 Minimum Melee: 5
 Minimum Essence: 2
-Prerequisite Charms: Edge of Morning Sunlight
+Prerequisite Charms: [[#Edge of Morning Sunlight]]
 
 The character channels Essence through her body, using
 her weapon as an aggressive focus. Her flesh coruscates with
@@ -709,7 +709,7 @@ Duration: Instant
 Type: Simple
 Minimum Melee: 5
 Minimum Essence: 3
-Prerequisite Charms: Corona of Radiance, Sandstorm-Wind Attack
+Prerequisite Charms: [[#Corona of Radiance]], [[#Sandstorm-Wind Attack]]
 
 The character channels pure Solar Essence though herself,
 focusing it with her will and through the medium of her

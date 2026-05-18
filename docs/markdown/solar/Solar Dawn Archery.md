@@ -81,7 +81,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 3
 Minimum Essence: 1
-Prerequisite Charms: Wise Arrow
+Prerequisite Charms: [[#Wise Arrow]]
 
 The character opens her eyes not to the visual world,
 but to the world of Essence and senses her target in that
@@ -97,7 +97,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 5
 Minimum Essence: 1
-Prerequisite Charms: Sight Without Eyes
+Prerequisite Charms: [[#Sight Without Eyes]]
 
 The character extends her sense of the local Essence flows
 to greater heights and can now shoot with perfect assurance. The
@@ -118,7 +118,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 4
 Minimum Essence: 1
-Prerequisite Charms: Sight Without Eyes
+Prerequisite Charms: [[#Sight Without Eyes]]
 
 The character's Essence flows into the bow and arrow, and he
 fires with a perfect, supple grace. The character may make a
@@ -135,7 +135,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Archery: 3
 Minimum Essence: 1
-Prerequisite Charms: Wise Arrow
+Prerequisite Charms: [[#Wise Arrow]]
 
 The character flows with soft and unhesitating grace
 through the motions of firing her weapon. Before the
@@ -164,7 +164,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Archery: 5
 Minimum Essence: 2
-Prerequisite Charms: Trance of Unhesitating Speed
+Prerequisite Charms: [[#Trance of Unhesitating Speed]]
 
 The character's motions become smooth and economical,
 optimized for the release of arrows with a minimal
@@ -202,7 +202,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms: Fiery Arrow Attack
+Prerequisite Charms: [[#Fiery Arrow Attack]]
 
 The character pours greater amounts of Essence into an
 arrow, and it roars and flashes with Essence as it streaks toward its
@@ -227,7 +227,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 3
 Minimum Essence: 2
-Prerequisite Charms: Fiery Arrow Attack
+Prerequisite Charms: [[#Fiery Arrow Attack]]
 
 The bane of the archer is his dependence on ammunition.
 Through the use of this Charm, the Exalted can
@@ -248,7 +248,7 @@ Duration: Instant
 Type: Simple
 Minimum Archery: 4
 Minimum Essence: 2
-Prerequisite Charms: Phantom Arrow Technique
+Prerequisite Charms: [[#Phantom Arrow Technique]]
 
 The character pulls a blazing bolt of Essence across her
 bow. This is fired as a normal arrow, but does a base damage
@@ -279,7 +279,7 @@ Duration: One Scene
 Type: Simple
 Minimum Archery: 4
 Minimum Essence: 3
-Prerequisite Charms: Phantom Arrow Technique
+Prerequisite Charms: [[#Phantom Arrow Technique]]
 
 The Exalted can not only substitute his Essence for
 ammunition, but for his weapon as well. Through this
@@ -300,7 +300,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 4
 Minimum Essence: 3
-Prerequisite Charms: Phantom Arrow Technique
+Prerequisite Charms: [[#Phantom Arrow Technique]]
 
 The character bundles Essence tightly around the arrow as
 she fires, and as the shaft arcs toward the target, it is multiplied.
@@ -317,7 +317,7 @@ Duration: Instant
 Type: Simple
 Minimum Archery: 6
 Minimum Essence: 6
-Prerequisite Charms: Solar Spike
+Prerequisite Charms: [[#Solar Spike]]
 
 The character pulls a bolt of fiery Essence across his bow.
 The character makes a normal Dexterity + Archery roll, but
@@ -336,7 +336,7 @@ Duration: One scene
 Type: Simple
 Minimum Archery: 5
 Minimum Essence: 4
-Prerequisite Charms: Solar Spike, Rain of Feathered Death
+Prerequisite Charms: [[#Solar Spike]], [[#Rain of Feathered Death]]
 
 The character can fight an entire battle without needing
 to worry about arrows. For the rest of thes cene, every time
@@ -355,7 +355,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 5
 Minimum Essence: 4
-Prerequisite Charms: There Is No Wind
+Prerequisite Charms: [[#There Is No Wind]]
 
 The character's Essence propels the arrow at the speed of
 thought. Environmental penalties do notapply to the character's

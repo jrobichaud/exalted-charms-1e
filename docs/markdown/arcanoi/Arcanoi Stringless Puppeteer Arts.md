@@ -83,7 +83,7 @@ Duration: One scene
 Type: Simple
 Minimum Compassion: 1
 Minimum Essence: 1
-Prerequisite Charms: Spirit-Catching Eye Technique
+Prerequisite Charms: [[#Spirit-Catching Eye Technique]]
 
 This technique allows a ghost to sense a target's
 surface thoughts and feelings, picking up the rough gist of
@@ -132,7 +132,7 @@ Duration: One scene
 Type: Simple
 Minimum Compassion: 1
 Minimum Essence: 2
-Prerequisite Charms: Soul-Whispering Empathy Discipline
+Prerequisite Charms: [[#Soul-Whispering Empathy Discipline]]
 
 Skin-Riding Prana builds upon the base established
 by Soul-Whispering Empathy Discipline. However, in
@@ -169,7 +169,7 @@ Duration: One day
 Type: Simple
 Minimum Compassion: 2
 Minimum Essence: 1
-Prerequisite Charms: Spirit-Catching Eye Technique, Skin-Riding Prana
+Prerequisite Charms: [[#Spirit-Catching Eye Technique]], [[#Skin-Riding Prana]]
 
 A Six Demon Bag is a boon to ghostly smugglers,
 assassins and couriers of all persuasions. It is equally the
@@ -211,7 +211,7 @@ Duration: One hour
 Type: Supplemental
 Minimum Compassion: 2
 Minimum Essence: 1
-Prerequisite Charms: Soul-Whispering Empathy Discipline
+Prerequisite Charms: [[#Soul-Whispering Empathy Discipline]]
 
 Mortal-Shadowing Technique is the next step on the
 road to possession. A ghost using Mortal-Shadowing Technique
@@ -253,7 +253,7 @@ Duration: One hour
 Type: Supplemental
 Minimum Compassion: 3
 Minimum Essence: 2
-Prerequisite Charms: Mortal-Shadowing Technique
+Prerequisite Charms: [[#Mortal-Shadowing Technique]]
 
 Unlike Mortal Shadowing Technique, this Arcanos
 allows for true possession. Once in command of the
@@ -296,7 +296,7 @@ Duration: One day
 Type: Simple
 Minimum Compassion: 2
 Minimum Essence: 2
-Prerequisite Charms: Mortal-Shadowing Technique
+Prerequisite Charms: [[#Mortal-Shadowing Technique]]
 
 This Arcanos allows a ghost to acquire a host more
 pliable and convenient than a living human. Instead of a
@@ -328,7 +328,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 2
-Prerequisite Charms: Nemissary's Ride
+Prerequisite Charms: [[#Nemissary's Ride]]
 
 The possession of the human form is easiest for the
 dead, as they were themselves once human. Yet, with
@@ -351,7 +351,7 @@ Duration: Permanent
 Type: Special
 Minimum Compassion: 2
 Minimum Essence: 3
-Prerequisite Charms: Mortal-Shadowing Technique
+Prerequisite Charms: [[#Mortal-Shadowing Technique]]
 
 This Arcanos is a type of Ox-Body Charm that works
 only on vessels the ghost is riding or possessing. While it
@@ -380,7 +380,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Compassion: 2
 Minimum Essence: 3
-Prerequisite Charms: Nemissary's Ride
+Prerequisite Charms: [[#Nemissary's Ride]]
 
 With this Arcanos, a nemissary refines her ability to
 possess and animate dead flesh. She may automatically
@@ -414,7 +414,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Compassion: 3
 Minimum Essence: 4
-Prerequisite Charms: The Embalmer's Art
+Prerequisite Charms: [[#The Embalmer's Art]]
 
 Among the most powerful — and sometimes most
 painful — Arcanoi used by nemissaries, Instauration of the
@@ -476,7 +476,7 @@ Duration: One day
 Type: Simple
 Minimum Compassion: 2
 Minimum Essence: 4
-Prerequisite Charms: Nemissary's Ride
+Prerequisite Charms: [[#Nemissary's Ride]]
 
 Nemissary's Ride allows a ghost to possess and ani-
 mate a shell as large as a very large (eight feet tall, 400

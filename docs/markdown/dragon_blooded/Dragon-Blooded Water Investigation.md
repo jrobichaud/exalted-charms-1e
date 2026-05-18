@@ -143,7 +143,7 @@ Duration: One scene
 Type: Simple
 Minimum Investigation: 3
 Minimum Essence: 2
-Prerequisite Charms: Scent-of-Crime Method
+Prerequisite Charms: [[#Scent of Crime Method]]
 
 The Exalted's ability to sense dishonesty finally reaches
 supernatural levels when he learns this Charm. With it, he
@@ -168,7 +168,7 @@ Duration: One scene
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 2
-Prerequisite Charms: Indisputable Physical Analysis Technique, Scent-of-Crime Method
+Prerequisite Charms: [[#Indisputable Physical Analysis Technique]], [[#Scent of Crime Method]]
 
 The Exalted spends around 10 minutes walking around
 the scene of a crime (or any event he wishes to investigate);
@@ -191,7 +191,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 2
-Prerequisite Charms: Indisputable Physical Analysis Technique
+Prerequisite Charms: [[#Indisputable Physical Analysis Technique]]
 
 By simply meeting a person and coming within a few
 yards of him, the Exalted can sense the identities of his
@@ -216,7 +216,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 5
 Minimum Essence: 3
-Prerequisite Charms: Revelation of Associates Hunch
+Prerequisite Charms: [[#Revelation of Associates Hunch]]
 
 By simply meeting a person and coming within a few
 yards of him, the Exalted can determine the place that the
@@ -269,7 +269,7 @@ Duration: One scene
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 3
-Prerequisite Charms: Atsiluth's Bounty, Falsehood Unearthing Attitude
+Prerequisite Charms: [[#Atsiluth's Bounty]], [[#Falsehood-Unearthing Attitude]]
 
 The Exalt sprinkles a few drops of blood upon the dust of
 Atsiluth Eternal and calls forth her vision soul: an image of
@@ -297,7 +297,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 3
 Minimum Essence: 2
-Prerequisite Charms: Indisputable Physical Analysis Technique
+Prerequisite Charms: [[#Indisputable Physical Analysis Technique]]
 
 A character using this Charm can instantly tell if an
 object has been tampered with and how the tampering was
@@ -320,7 +320,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 5
 Minimum Essence: 3
-Prerequisite Charms: Tampering Detection Technique
+Prerequisite Charms: [[#Tampering Detection Technique]]
 
 When a character examines a room or a similar-sized
 location to determine what occurred there, one of the
@@ -352,7 +352,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 2
-Prerequisite Charms: Indisputable Physical Analysis Technique
+Prerequisite Charms: [[#Indisputable Physical Analysis Technique]]
 
 This Charm does not help the character find the
 sources he is looking for, but it does provide equally
@@ -378,7 +378,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Investigation: 5
 Minimum Essence: 3
-Prerequisite Charms: Eye of the Enlightened Reader
+Prerequisite Charms: [[#Eye of the Enlightened Reader]]
 
 When confronted with a great library or some other
 large collection of books and/or other records, the primary

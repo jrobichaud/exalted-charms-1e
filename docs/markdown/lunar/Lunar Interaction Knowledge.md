@@ -125,7 +125,7 @@ Duration: 30 minutes + 10 minutes per die
 Type: Simple
 Minimum Intelligence: 3
 Minimum Essence: 2
-Prerequisite Charms: Tale-Spinning Mastery
+Prerequisite Charms: [[#Tale-Spinning Mastery]]
 
 Most Lunars do not believe in writing. Instead,
 their history, traditions and knowledge are conveyed
@@ -159,7 +159,7 @@ Duration: 1 hour +
 Type: Simple
 Minimum Perception: 4
 Minimum Essence: 3
-Prerequisite Charms: Lore-Speaking Method
+Prerequisite Charms: [[#Lore-Speaking Method]]
 
 Sometimes, a Lunar has need of information he does
 not know. In routine matters, he can turn to the No
@@ -216,7 +216,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Charisma: 3
 Minimum Essence: 3
-Prerequisite Charms: Tale-Spinning Mastery
+Prerequisite Charms: [[#Tale-Spinning Mastery]]
 Using this Charm to expand his lungs and vocal cords,
 a Lunar can transform his normal voice into a formidable
 roar. Anything the Lunar says while the Charm is in effect is
@@ -242,7 +242,7 @@ Duration: Instant
 Type: Simple
 Minimum Wits: 3
 Minimum Essence: 3
-Prerequisite Charms: Lion Roar Method
+Prerequisite Charms: [[#Lion-Roar Method]]
 
 Winds circulate around the world, and while not as
 skilled as the Dragon-Blooded at manipulating the elements,
@@ -269,7 +269,7 @@ Duration: Instant
 Type: Simple
 Minimum Wits: 4
 Minimum Essence: 3
-Prerequisite Charms: Wind-Speaking Method
+Prerequisite Charms: [[#Wind-Speaking Method]]
 
 A more powerful version of the Wind-Speaking
 Method, River of Words allows messages that are more
@@ -292,7 +292,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Tale-Spinning Mastery
+Prerequisite Charms: [[#Tale-Spinning Mastery]]
 
 The Emotion Shaping Technique enhances a Lunar's
 already considerable presence, using a combination of
@@ -327,7 +327,7 @@ Duration: Instant
 Type: Simple
 Minimum Charisma: 4
 Minimum Essence: 3
-Prerequisite Charms: Emotion-Shaping Technique
+Prerequisite Charms: [[#Emotion-Shaping Technique]]
 
 In broad terms, the Crowd-Inciting Method follows
 the same principals as the Emotion-Shaping
@@ -353,7 +353,7 @@ Duration: Instant
 Type: Simple
 Minimum Charisma: 4
 Minimum Essence: 3
-Prerequisite Charms: Crowd-Inciting Method
+Prerequisite Charms: [[#Crowd-Inciting Method]]
 
 The Crowd-Calming Pronouncement functions in
 the same manner as the Crowd-Inciting Method, save
@@ -374,7 +374,7 @@ Duration: One battle
 Type: Simple
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Crowd-Calming Pronouncement
+Prerequisite Charms: [[#Crowd-Calming Pronouncement]]
 
 In battle, numbers are rarely the deciding factor.
 Instead, troop quality is often the key, and courage is the
@@ -400,7 +400,7 @@ Duration: 5 turns
 Type: Supplemental/Special
 Minimum Charisma: 5
 Minimum Essence: 3
-Prerequisite Charms: Courage-Building Address
+Prerequisite Charms: [[#Courage-Building Address]]
 
 Lunars are adept at combat, and they excel on the
 battlefield. They are a fearsome presence — demoralizing
@@ -424,7 +424,7 @@ Duration: One turn
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Emotion-Shaping Technique
+Prerequisite Charms: [[#Emotion-Shaping Technique]]
 
 Insults are part of Lunar combat ritual — deriding an
 opponent's reputation is almost as effective a wound as
@@ -462,7 +462,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Foe-Taunting Utterance
+Prerequisite Charms: [[#Foe-Taunting Utterance]]
 
 The Glib Tongue Technique builds on a Lunar's
 presence, allowing him to persuade an individual to act
@@ -490,7 +490,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Charisma: 4
 Minimum Essence: 2
-Prerequisite Charms: Emotion-Shaping Technique
+Prerequisite Charms: [[#Emotion-Shaping Technique]]
 
 Using this Charm, a Lunar can overwhelm someone
 he is speaking to with his physical presence. Some use
@@ -510,7 +510,7 @@ Duration: Instant
 Type: Simple
 Minimum Charisma: 4
 Minimum Essence: 2
-Prerequisite Charms: Imposing Presence Attitude
+Prerequisite Charms: [[#Imposing Presence Attitude]]
 
 The battle-form of a Lunar is a fearsome sight and
 more-or-less guarantees the success of an intimidation
@@ -529,7 +529,7 @@ Duration: Instant
 Type: Simple
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Fearful Lunar Form
+Prerequisite Charms: [[#Fearful Lunar Form]]
 
 A Lunar may focus his intimidation efforts on a
 single individual, seeking not only to force him into
@@ -576,7 +576,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 3
-Prerequisite Charms: Unspeaking Aura of Dread
+Prerequisite Charms: [[#Unspeaking Aura of Dread]]
 
 Using this Charm, a Lunar can modify the mental
 state of a beast or a group of animals. This may be a
@@ -600,7 +600,7 @@ Duration: Special
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 3
-Prerequisite Charms: Beast Calming Method
+Prerequisite Charms: [[#Beast-Calming Method]]
 
 Using this Charm, a Lunar can seek to command
 beasts to do his bidding. To do so, his player must make
@@ -642,7 +642,7 @@ Duration: Instant
 Type: Simple
 Minimum Charisma: 3
 Minimum Essence: 2
-Prerequisite Charms: Unspeaking Aura of Dread
+Prerequisite Charms: [[#Unspeaking Aura of Dread]]
 Using this Charm, a Lunar can focus the attention of
 those in the immediate vicinity upon himself without
 speaking. Doing so requires a Charisma + Presence roll.
@@ -661,7 +661,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Manipulation: 4
 Minimum Essence: 2
-Prerequisite Charms: Attention Demanding Presence
+Prerequisite Charms: [[#Attention-Demanding Presence]]
 
 A Lunar may use this Charm when seeking to seduce
 another character, exploiting his animal magnetism and
@@ -717,7 +717,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Dexterity: 3
 Minimum Essence: 3
-Prerequisite Charms: Brotherhood of Lake and River
+Prerequisite Charms: [[#Brotherhood of Lake and River]]
 
 A Lunar hunting alone is a fearsome sight. One
 hunting with her associates is a nightmare for her enemies.
@@ -741,7 +741,7 @@ Duration: Instant
 Type: Simple
 Minimum Charisma: 3
 Minimum Essence: 3
-Prerequisite Charms: Brotherhood of Lake and River
+Prerequisite Charms: [[#Brotherhood of Lake and River]]
 
 By crying into the wind and sounding the Pack-Calling
 Cry, a Lunar uses the blood ties to his wolf-siblings

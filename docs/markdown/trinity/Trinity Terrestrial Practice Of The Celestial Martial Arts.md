@@ -40,7 +40,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 3
-Prerequisite Charms: Walker-Among-Irises Perception
+Prerequisite Charms: [[#Walker-Among Irises Perception]]
 
 This Charm works exactly like the Immaculate Martial
 Arts Charm Spirit Walking. However, because this
@@ -102,7 +102,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Tiger-and-Bear Awareness
+Prerequisite Charms: [[#Tiger-and-Bear Awareness]]
 
 The character's awareness of his environment allows
 him to strike true against even the hardiest foes.

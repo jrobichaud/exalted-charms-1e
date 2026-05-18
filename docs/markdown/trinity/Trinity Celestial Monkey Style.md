@@ -65,7 +65,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 2
 Minimum Essence: 1
-Prerequisite Charms: Monkey Tail Distraction Strike
+Prerequisite Charms: [[#Monkey Tail Distraction Strike]]
 
 Also known as the &quot;Monkey Dance,&quot; this Charm
 enables the martial artist using it to be frustratingly hard to
@@ -108,7 +108,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Body of War Meditation
+Prerequisite Charms: [[#Body of War Meditation]]
 
 Instead of extending himself to strike his opponent's
 body, the martial artist makes an attack against his foe's
@@ -135,7 +135,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Flowing Mirror of Opposition Technique, Withering Paw Strike
+Prerequisite Charms: [[#Flowing Mirror of Opposition Technique]], [[#Withering Paw Strike]]
 
 The disciples of this style practice a state of being
 known as &quot;Selfless Mind.&quot; Through diligent, introspective
@@ -168,7 +168,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Celestial Monkey Form
+Prerequisite Charms: [[#Celestial Monkey Form]]
 
 The masters who discovered and developed martial
 arts obtained the principles of their fighting styles through
@@ -214,7 +214,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Walking in the Footsteps of Ten Thousand Things
+Prerequisite Charms: [[#Walking in the Footsteps of Ten Thousand Things]]
 
 The fact that Essence flows through all things and
 that martial arts is a way to channel and direct these
@@ -261,7 +261,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Four Halo Golden Monkey Palm
+Prerequisite Charms: [[#Four Halo Golden Monkey Palm]]
 
 With this Charm, the martial artist is able manipulate
 his own Gates of Virtue with virtuosity. They no
@@ -293,7 +293,7 @@ Duration: Permanent
 Type: Special
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Four Halo Golden Monkey Realignment
+Prerequisite Charms: [[#Four Halo Golden Monkey Realignment]]
 
 Masters of the Celestial Monkey Style are so acutely
 aware of how they move through Creation — or, more

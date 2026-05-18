@@ -65,7 +65,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Athletics: 1
 Minimum Essence: 1
-Prerequisite Charms: Raiton's Nimble Perch
+Prerequisite Charms: [[#Raiton's Nimble Perch]]
 
 Muscles strengthened beyond human limits, the Abyssal
 lunges impossibly far and fast in the blink of an eye. The
@@ -86,7 +86,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Spider Pounce Technique
+Prerequisite Charms: [[#Spider Pounce Technique]]
 
 Further buoying her body with Essence, the character
 falls softly and quietly as a feather. The character can fall
@@ -109,7 +109,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Spider Pounce Technique
+Prerequisite Charms: [[#Spider Pounce Technique]]
 
 The Abyssal springs into the air, adding deadly momentum
 to her blow as she descends. Her attack is eerily
@@ -133,7 +133,7 @@ Duration: Special
 Type: Simple
 Minimum Athletics: 5
 Minimum Essence: 3
-Prerequisite Charms: Autumn Leaf's Descent, Falling Scythe Attack
+Prerequisite Charms: [[#Autumn Leaf's Descent]], [[#Falling Scythe Attack]]
 
 Where he could only glide with Autumn Leaf's Descent,
 an Abyssal with this Charm can truly — if briefly —
@@ -171,7 +171,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Raiton's Nimble Perch
+Prerequisite Charms: [[#Raiton's Nimble Perch]]
 
 With this Charm, a character may dramatically increase
 her speed for short dashes. Upon activation, the
@@ -192,7 +192,7 @@ Duration: Instant
 Type: Supplementary
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Shadow Races the Light
+Prerequisite Charms: [[#Shadow Races the Light]]
 
 With this Charm, an Exalt delivers a single devastating
 blow as he rushes past an opponent. While executing
@@ -217,7 +217,7 @@ Duration: Special
 Type: Reflexive
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Shadow Races the Light
+Prerequisite Charms: [[#Shadow Races the Light]]
 
 The character hunches over and stretches at inhuman
 angles, gaining unnatural flexibility and balance for
@@ -245,7 +245,7 @@ Duration: Special
 Type: Reflexive
 Minimum Athletics: 5
 Minimum Essence: 2
-Prerequisite Charms: Shadow Races the Light
+Prerequisite Charms: [[#Shadow Races the Light]]
 
 Stepping with the weightless poise of a ghost, a
 character with this Charm can tread on water and other
@@ -327,7 +327,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 5
 Minimum Essence: 3
-Prerequisite Charms: Infirmity Inflicting Gesture
+Prerequisite Charms: [[#Infirmity-Inflicting Gesture]]
 
 With this Charm, an Abyssal can rob a living victim of
 her potency and add it to his own might. The character must

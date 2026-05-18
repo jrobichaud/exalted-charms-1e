@@ -98,7 +98,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 2
 Minimum Essence: 1
-Prerequisite Charms: Furious Blade
+Prerequisite Charms: [[#Furious Blade]]
 
 With this Charm, the Abyssal focuses fury and Essence
 through his weapon to strike horrible rending blows.
@@ -114,7 +114,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Savage Shade Style
+Prerequisite Charms: [[#Savage Shade Style]]
 
 Striking with cruel precision, an Abyssal with this
 Charm aims his blow to sever limbs and mutilate his
@@ -148,7 +148,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 2
 Minimum Essence: 2
-Prerequisite Charms: Furious Blade
+Prerequisite Charms: [[#Furious Blade]]
 
 The character's blade shrieks and moans as it be-
 comes a conduit for her insatiable hunger. The
@@ -167,7 +167,7 @@ Duration: One scene
 Type: Simple
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Slashing Ghost Talon
+Prerequisite Charms: [[#Slashing Ghost Talon]]
 
 With this Charm, the character harvests power
 from every blow that draws blood. Crimson Banquet
@@ -188,7 +188,7 @@ Duration: One scene
 Type: Simple
 Minimum Melee: 5
 Minimum Essence: 2
-Prerequisite Charms: Crimson Banquet Method
+Prerequisite Charms: [[#Crimson Banquet Method]]
 
 The deathknight suffuses her body and weapon with
 necrotic Essence, wreathing herself in a nimbus of cold
@@ -208,7 +208,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Slashing Ghost Talon
+Prerequisite Charms: [[#Slashing Ghost Talon]]
 
 Projecting the spiritual cold of Oblivion through
 his weapon, the Abyssal can assault the very soul and
@@ -234,7 +234,7 @@ Duration: Instant
 Type: Simple
 Minimum Melee: 5
 Minimum Essence: 4
-Prerequisite Charms:Reaper of Men, Soul-Searing Blow
+Prerequisite Charms: [[#Reaper of Men]], [[#Soul-Searing Blow]]
 
 The greatest swordsmen of the deathknights can slice
 through souls as easily as others carve flesh. Upon invoking
@@ -268,7 +268,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 2
 Minimum Essence: 1
-Prerequisite Charms: Furious Blade
+Prerequisite Charms: [[#Furious Blade]]
 
 The Abyssal's arm and weapon flickers, blossoming
 into a confusing spray of shadows and afterimages. The
@@ -287,7 +287,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Five Shadow Feint
+Prerequisite Charms: [[#Five Shadow Feint]]
 
 Drawing his blade and lunging in a single fluid mo-
 tion, an Abyssal with this Charm may strike faster than
@@ -314,7 +314,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Five Shadow Feint
+Prerequisite Charms: [[#Five Shadow Feint]]
 
 The Abyssal spins and thrusts in a rapid cascade of
 blows. The Charm takes its name from the wispy con-
@@ -336,7 +336,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Melee: 5
 Minimum Essence: 3
-Prerequisite Charms: Unfurling Iron Lotus
+Prerequisite Charms: [[#Unfurling Iron Lotus]]
 
 Blade flashing in a spiral of blood and pain and death,
 the Abyssal scythes through her opponents like a tornado.
@@ -375,7 +375,7 @@ Duration: Instant
 Type: Simple
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Blade-Summoning Gesture
+Prerequisite Charms: [[#Blade-Summoning Gesture]]
 
 Instead of retrieving her own weapon, an Abyssal
 with Thieving Raiton Claws may attempt
@@ -406,7 +406,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Blade-Summoning Gesture
+Prerequisite Charms: [[#Blade-Summoning Gesture]]
 
 With a moment's concentration,
 an Abyssal who knows this
@@ -430,7 +430,7 @@ Duration: One Scene
 Type: Simple
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Void Sheath Technique
+Prerequisite Charms: [[#Void Sheath Technique]]
 
 Raising her hand imperiously, a character with this
 Charm freezes raw Essence into her ideal weapon. This
@@ -484,7 +484,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 2
 Minimum Essence: 1
-Prerequisite Charms: Elegant Flowing Deflection
+Prerequisite Charms: [[#Elegant Flowing Deflection]]
 
 Shifting quickly from defense to offense, the char-
 acter parries one incoming strike with a swift blow to
@@ -507,7 +507,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Vengeful Riposte
+Prerequisite Charms: [[#Vengeful Riposte]]
 
 Filling his blade with necrotic Essence as he parries, the
 Abyssal rots or rusts his opponent's weapon to dust as it strikes
@@ -530,7 +530,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 4
 Minimum Essence: 3
-Prerequisite Charms: Corrosive Parry
+Prerequisite Charms: [[#Corrosive Parry]]
 
 With this Charm, an Abyssal can dissipate the Essence
 empowering a magical weapon, rendering it
@@ -558,7 +558,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Elegant Flowing Deflection
+Prerequisite Charms: [[#Elegant Flowing Deflection]]
 
 With growing mastery, the Abyssal's weapon dances
 to intercept attacks as a moth spiraling a torch. The
@@ -574,7 +574,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Fluttering Moth Defense
+Prerequisite Charms: [[#Fluttering Moth Defense]]
 
 Sometimes, the best defense is a good offense. Building
 on this principle, the Abyssal stands motionless and traces
@@ -600,7 +600,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Hundred Razor Circle
+Prerequisite Charms: [[#Hundred Razor Circles]]
 
 The Abyssal may effortlessly deflect any attack she is
 aware of without her player making a roll. This Charm can
@@ -619,7 +619,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Melee: 5
 Minimum Essence: 3
-Prerequisite Charms: Hundred Razor Circle
+Prerequisite Charms: [[#Hundred Razor Circles]]
 
 With this Charm, the Abyssal becomes a point of
 serene calm in a vortex of steel and howling shadows. The

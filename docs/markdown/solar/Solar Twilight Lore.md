@@ -86,7 +86,7 @@ Duration: One hour
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Integrity-Protecting Prana
+Prerequisite Charms: [[#Integrity-Protecting Prana]]
 
 Through the use of this Charm, the character protects
 his possessions from the warping influence of the Wyld.
@@ -114,7 +114,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 3
-Prerequisite Charms: Chaos-Repelling Pattern
+Prerequisite Charms: [[#Chaos-Repelling Pattern]]
 
 There are few of their abilities that the Exalted fear
 using. They are, after all, the anointed of the gods. They do
@@ -187,7 +187,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 2
 Minimum Essence: 2
-Prerequisite Charms: Essence-Lending Method
+Prerequisite Charms: [[#Essence-Lending Method]]
 
 Exalted can share more than simple power. The touch
 of a Solar can bring new strength to the downcast heart and
@@ -214,7 +214,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Will-Bolstering Method
+Prerequisite Charms: [[#Will-Bolstering Method]]
 
 Through the use of this Charm, the Exalted can give the
 gift of his very life energy. The character must be in skin-to-skin
@@ -237,7 +237,7 @@ Duration: One day
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 3
-Prerequisite Charms: Wound-Accepting Technique
+Prerequisite Charms: [[#Wound-Accepting Technique]]
 
 Through the use of this Charm, the Exalted can lend some
 of her power to a normal mortal recipient. For each point of the
@@ -260,7 +260,7 @@ Duration: One day
 Type: Simple
 Minimum Lore: 4
 Minimum Essence: 2
-Prerequisite Charms: Chaos-Repelling Pattern
+Prerequisite Charms: [[#Chaos-Repelling Pattern]]
 
 With this Charm, an Exalted can protect a large area
 from the ravages of the Wyld for a single day. While it lasts,
@@ -282,7 +282,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 4
 Minimum Essence: 2
-Prerequisite Charms: Wound-Accepting Technique
+Prerequisite Charms: [[#Wound-Accepting Technique]]
 
 With this Charm, an Exalt may transfer his current
 injuries to another person. The character must be in skin-to-skin
@@ -310,7 +310,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 4
-Prerequisite Charms: Chaos-Repelling Pattern
+Prerequisite Charms: [[#Chaos-Repelling Pattern]]
 
 By means of this Charm, an Exalt can use his singular
 knowledge of both chaos and order to restore a Wyld-corrupted
@@ -336,7 +336,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 6
 Minimum Essence: 6
-Prerequisite Charms: Power-Awarding Prana
+Prerequisite Charms: [[#Power-Awarding Prana]]
 
 By means of this Charm, a character can lend one of
 her spells to another Exalted sorcerer. For each dot of the
@@ -365,7 +365,7 @@ Duration: One week
 Type: Simple
 Minimum Lore: 4
 Minimum Essence: 3
-Prerequisite Charms: Chaos-Repelling Pattern
+Prerequisite Charms: [[#Chaos-Repelling Pattern]]
 
 The Exalt must spend an entire scene (30 minutes)
 boiling a small pot of water. During this time, she meditates
@@ -407,7 +407,7 @@ Duration: One day
 Type: Simple
 Minimum Lore: 4
 Minimum Essence: 3
-Prerequisite Charms: Brewing Venom Technique
+Prerequisite Charms: [[#Brewing Venom Technique]]
 
 With a seemingly harmless touch, the character can
 envenom a single weapon, a single plate of food or a
@@ -433,7 +433,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Lore: 5
 Minimum Essence: 3
-Prerequisite Charms: Envenomed Weapon Prana
+Prerequisite Charms: [[#Envenomed Weapon Prana]]
 
 The character can use this Charm to either envenom
 a single weapon on the same turn that it is used to strike

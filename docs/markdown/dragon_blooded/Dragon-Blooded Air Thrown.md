@@ -117,7 +117,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 3
 Minimum Essence: 2
-Prerequisite Charms: Seeking Throw Technique
+Prerequisite Charms: [[#Seeking Throw Technique]]
 
 This Charm allows an Exalt to ensure that a particularly
 valuable weapon (or weapons) will return safely to
@@ -150,7 +150,7 @@ Duration: Essence in turns
 Type: Simple
 Minimum Thrown: 3
 Minimum Essence: 2
-Prerequisite Charms: Loyal Weapon
+Prerequisite Charms: [[#Loyal Weapon]]
 
 Currents of elemental Air can be used to sustain a
 thrown missile's deadly flight long after its energy would
@@ -185,7 +185,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 4
 Minimum Essence: 3
-Prerequisite Charms: Persistent Hornet Attack
+Prerequisite Charms: [[#Persistent Hornet Attack]]
 
 To invoke this potent Charm, the character simply
 tosses a weapon (or weapons) into the air and sends it
@@ -246,7 +246,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Thrown: 4
 Minimum Essence: 2
-Prerequisite Charms: Whirlwind Shield Form
+Prerequisite Charms: [[#Whirlwind Shield Form]]
 
 Beyond just deflecting an enemy's attack, Vengeful
 Gust Counterattack lets a character strike back at the one.
@@ -284,7 +284,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Persistent Hornet Attack, Vengeful Gust Counterattack
+Prerequisite Charms: [[#Persistent Hornet Attack]], [[#Vengeful Gust Counterattack]]
 
 Once sufficient connection with the Air Dragon has
 formed, the skilled Dragon-Blooded can move beyond
@@ -325,7 +325,7 @@ Duration: One scene per point of permanent Essence
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Vengeful Gust Counterattack
+Prerequisite Charms: [[#Vengeful Gust Counterattack]]
 
 By further refining the control needed to form a
 Whirlwind Shield, the character learns to form invisible
@@ -354,7 +354,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 2
 Minimum Essence: 1
-Prerequisite Charms: Seeking Throw Technique
+Prerequisite Charms: [[#Seeking Throw Technique]]
 
 This is the first of what are collectively known as
 the Crosswind Techniques, a group of Charms predicated
@@ -383,7 +383,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Thrown: 3
 Minimum Essence: 2
-Prerequisite Charms: Crosswind Offense
+Prerequisite Charms: [[#Crosswind Offense]]
 
 &quot;One: As the wind shepherds a leaf, shepherd the
 target. Two: As the wind drives the rain, drive your
@@ -411,7 +411,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 3
 Minimum Essence: 2
-Prerequisite Charms: Crosswind Offense
+Prerequisite Charms: [[#Crosswind Offense]]
 
 Learning to more fully emulate the Essence of
 wind, a Terrestrial with this Charm can throw her
@@ -432,7 +432,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 2
 Minimum Essence: 2
-Prerequisite Charms: Crosswind Offense
+Prerequisite Charms: [[#Crosswind Offense]]
 
 Using a more focused version of the principles
 behind the Crosswind Gale technique, a Dragon-Blood

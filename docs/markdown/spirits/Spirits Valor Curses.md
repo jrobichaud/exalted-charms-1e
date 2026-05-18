@@ -50,7 +50,7 @@ Duration: One week
 Type: Simple
 Minimum Valor: 1
 Minimum Essence: 2
-Prerequisite Charms: Tiny Damnation
+Prerequisite Charms: [[#Tiny Damnation]]
 
 The effects of this Charm last for one week, and it may
 not be cast more than once per week on the same target.
@@ -73,7 +73,7 @@ Duration: One week
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 4
-Prerequisite Charms: Imprecation
+Prerequisite Charms: [[#Imprecation]]
 
 The effects of this Charm last for one week, and it may
 not be used on a target more than once every two weeks.
@@ -104,7 +104,7 @@ Duration: Instant
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 5
-Prerequisite Charms: Malediction
+Prerequisite Charms: [[#Malediction]]
 
 This curse is never cast lightly, and it may not be cast
 more than once per year. Only spirits that have been

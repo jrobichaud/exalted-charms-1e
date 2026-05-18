@@ -136,7 +136,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 2
 Minimum Essence: 1
-Prerequisite Charms: Hide of the Cunning Hunter
+Prerequisite Charms: [[#Hide of the Cunning Hunter]]
 
 This Charm makes it harder to perceive the
 Lunar's Tell. While this Charm is active, it is impossible
@@ -207,7 +207,7 @@ Duration: Instant
 Type: Simple
 Minimum Manipulation: 2
 Minimum Essence: 1
-Prerequisite Charms: Finding the Spirit's Shape
+Prerequisite Charms: [[#Finding the Spirit's Shape]]
 
 This Charm allows the Lunar to make minor
 cosmetic changes to the appearance of any of his true
@@ -242,7 +242,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Charisma: 2
 Minimum Essence: 2
-Prerequisite Charms: Finding the Spirit's Shape
+Prerequisite Charms: [[#Finding the Spirit's Shape]]
 
 This powerful Charm allows the Lunar to shift its
 shape into a monstrous hybrid of the human form and its
@@ -328,7 +328,7 @@ Duration: Scene
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Deadly Beastman Transformation
+Prerequisite Charms: [[#Deadly Beastman Transformation]]
 
 By means of this Charm, a Lunar can draw forth the
 power of one of his gifts when not in Beastman form.
@@ -348,7 +348,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Charisma: 4
 Minimum Essence: 3
-Prerequisite Charms: Calling Luna's Favor
+Prerequisite Charms: [[#Calling Luna's Favor]]
 
 This Charm is an extension of the Charm Calling
 Luna's Favor. By activating this Charm while in
@@ -368,7 +368,7 @@ Duration: Indefinite
 Type: Special
 Minimum Charisma: 3
 Minimum Essence: 2
-Prerequisite Charms: Finding the Spirit's Shape
+Prerequisite Charms: [[#Finding the Spirit's Shape]]
 
 Knowledge of this Charm allows the Lunar to as-
 sume a form larger than an elk but no larger than a Tyrant
@@ -387,7 +387,7 @@ Duration: Indefinite
 Type: Special
 Minimum Charisma: 3
 Minimum Essence: 2
-Prerequisite Charms: Finding the Spirit's Shape
+Prerequisite Charms: [[#Finding the Spirit's Shape]]
 
 Knowledge of this Charm allows the Lunar to
 shapeshift into a form smaller than a cat but no smaller
@@ -406,7 +406,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Charisma: 4
 Minimum Essence: 2
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 By means of this Charm, the Exalted changes gender,
 males becoming females and vice versa though their
@@ -427,7 +427,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Charisma: 4
 Minimum Essence: 3
-Prerequisite Charms: Towering Beast Form, Humble Mouse Shape
+Prerequisite Charms: [[#Towering Beast Form]], [[#Humble Mouse Shape]]
 
 Mouse Shape, Many-Faced Moon Transformation
 This Charm allows the Lunar to assume the outward
@@ -464,7 +464,7 @@ Duration: One day
 Type: Simple
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 By allowing a subject to taste his blood and activating
 this Charm, the Lunar can make minor
@@ -493,7 +493,7 @@ Duration: One day
 Type: Simple
 Minimum Manipulation: 5
 Minimum Essence: 4
-Prerequisite Charms: Prey's Skin Disguise, Lunar Blood Reshaping Technique
+Prerequisite Charms: [[#Prey's Skin Disguise]], [[#Lunar Blood Reshaping Technique]]
 
 A more powerful version of the Lunar
 Blood Reshaping Technique, this Charm
@@ -526,7 +526,7 @@ Duration: Indefinite/Instant
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 3
-Prerequisite Charms: Lunar Blood Reshaping Technique
+Prerequisite Charms: [[#Lunar Blood Reshaping Technique]]
 
 By means of this Charm, a Lunar can reshape inert
 once-living material into another form. He can turn a
@@ -570,7 +570,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Charisma: 3
 Minimum Essence: 3
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 Using this Charm, a Lunar transforms his limbs to
 enhance his swimming abilities, turning his limbs into
@@ -593,7 +593,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 2
 Minimum Essence: 2
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 Most Lunars abhor the trappings of civilization, but
 this does not mean that they don't occasionally require
@@ -628,7 +628,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 2
 Minimum Essence: 2
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 By means of this Charm, the Lunar's bones, muscles
 and organs become capable of immense deformation, allowing
@@ -673,7 +673,7 @@ Duration: Varies
 Type: Simple
 Minimum Charisma: 3
 Minimum Essence: 2
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 Lunars employ Essence to enhance their muscles via
 this Charm, using a series of stances and static exercises
@@ -705,7 +705,7 @@ Duration: Varies
 Type: Simple
 Minimum Charisma: 3
 Minimum Essence: 2
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 By performing a series of limbering up exercises and
 stances as he directs Essence through his muscles, a
@@ -735,7 +735,7 @@ Duration: Instant
 Type: Simple
 Minimum Intelligence: 4
 Minimum Essence: 3
-Prerequisite Charms: Crouching Tiger Exercise, Moonsilver Monkey Exercise
+Prerequisite Charms: [[#Crouching Tiger Exercise]], [[#Moonsilver Monkey Exercise]]
 
 In addition to using his Essence to fortify his body,
 a Lunar can draw on his strength of spirit to fortify his
@@ -759,7 +759,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Wits: 4
 Minimum Essence: 4
-Prerequisite Charms: Regaining Breath Exercise
+Prerequisite Charms: [[#Regaining Breath Exercise]]
 
 The death of an individual releases her body's
 Essence, which forms the target's lower or &quot;animal&quot;
@@ -781,7 +781,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 Using this Charm, the Lunar gains preternatural
 balance beyond that of even the greatest feline hunter.
@@ -805,7 +805,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Predator Grace Method
+Prerequisite Charms: [[#Predator Grace Method]]
 
 Using this Charm, the Lunar's legs shift into the
 likeness of the legs of a giant cat, and his whole body
@@ -831,7 +831,7 @@ Duration: One Scene
 Type: Simple
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Panther Stride Stance
+Prerequisite Charms: [[#Panther Stride Stance]]
 
 By creating a flap of skin between his arms and legs,
 a Lunar can drastically extend his leaping abilities.
@@ -859,7 +859,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Predator Grace Method
+Prerequisite Charms: [[#Predator Grace Method]]
 
 Using this Charm, a Lunar greatly improves his
 ability to avoid damage from a fall. He will always land
@@ -876,7 +876,7 @@ Duration: One scene
 Type: Simple
 Minimum Dexterity: 3
 Minimum Essence: 3
-Prerequisite Charms: Shaping the Ideal Form
+Prerequisite Charms: [[#Shaping the Ideal Form]]
 
 Using his protean abilities to grow claws and to
 adapt his skeleton and muscles, a Lunar Exalted can
@@ -900,7 +900,7 @@ Duration: One scene
 Type: Simple
 Minimum Dexterity: 4
 Minimum Essence: 4
-Prerequisite Charms: Tree-Dwelling Jaguar Claws
+Prerequisite Charms: [[#Tree-Dwelling Jaguar Claws]]
 
 Using this Charm, a Lunar may ascend, descend or
 traverse any surface with relative ease, even if there are

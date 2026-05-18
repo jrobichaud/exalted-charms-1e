@@ -81,7 +81,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Presence: 3
 Minimum Essence: 2
-Prerequisite Charms: Harmonious Presence Meditation
+Prerequisite Charms: [[#Harmonious Presence Meditation]]
 
 The character can use Essence to make himself almost
 irresistibly persuasive. For every two motes of Essence spent
@@ -97,7 +97,7 @@ Duration: Special
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Listener-Swaying Argument
+Prerequisite Charms: [[#Listener-Swaying Argument]]
 
 Through this Charm, an Exalted can program a target to
 undertake an action at a future time. The Exalted must touch
@@ -124,7 +124,7 @@ Duration: One scene
 Type: Simple
 Minimum Presence: 4
 Minimum Essence: 3
-Prerequisite Charms: Harmonious Presence Meditation
+Prerequisite Charms: [[#Harmonious Presence Meditation]]
 
 A character with this Charm active burns with the
 incandescent radiance of the Unconquered Sun. The
@@ -141,7 +141,7 @@ Duration: One day
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Majestic Radiant Presence
+Prerequisite Charms: [[#Majestic Radiant Presence]]
 
 This Charm causes the target (typically a mortal servant
 of the Exalted) to be imbued with the majesty of the Exalted's
@@ -161,7 +161,7 @@ Duration: One scene
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Majestic Radiant Presence
+Prerequisite Charms: [[#Majestic Radiant Presence]]
 
 If the Majestic Radiant Presence Charm makes the character
 seem terrible and powerful, then Terrifying Apparition of
@@ -185,7 +185,7 @@ Duration: One scene
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 4
-Prerequisite Charms: Hypnotic Tongue Technique
+Prerequisite Charms: [[#Hypnotic Tongue Technique]]
 
 The character surrounds herself with a potent aura of
 authority. Unlike Terrifying Apparition of Glory, this Charm
@@ -224,7 +224,7 @@ Duration: One turn
 Type: Supplemental
 Minimum Presence: 3
 Minimum Essence: 2
-Prerequisite Charms: Listener-Swaying Argument
+Prerequisite Charms: [[#Listener-Swaying Argument]]
 
 An Exalted acting in accordance with virtue is an
 impressive figure indeed — an Exalted using this Charm
@@ -247,7 +247,7 @@ Duration: One scene
 Type: Simple
 Minimum Presence: 4
 Minimum Essence: 2
-Prerequisite Charms: Impassioned Orator Technique
+Prerequisite Charms: [[#Impassioned Orator Technique]]
 
 When driven by his passions, an Exalted can be an
 almost irresistible force. Through the use of this Charm,
@@ -270,7 +270,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Presence: 3
 Minimum Essence: 2
-Prerequisite Charms: Harmonious Presence Meditation
+Prerequisite Charms: [[#Harmonious Presence Meditation]]
 
 Infused with Essence, the Exalt becomes incredibly
 attractive to a particular person that she wishes
@@ -287,7 +287,7 @@ Duration: One scene or special
 Type: Simple
 Minimum Presence: 3
 Minimum Essence: 2
-Prerequisite Charms: Harmonious Presence Meditation
+Prerequisite Charms: [[#Harmonious Presence Meditation]]
 
 When the character uses this Charm, she impresses
 a single target with the overwhelming power of her
@@ -316,7 +316,7 @@ Duration: Instant
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Listener-Swaying Argument
+Prerequisite Charms: [[#Listener-Swaying Argument]]
 
 The words of an Illuminated Solar are as forceful as his
 fists, allowing him to assert dominion over a social conflict.
@@ -360,7 +360,7 @@ Duration: Instant
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 4
-Prerequisite Charms: Soul-Shaping Words Technique
+Prerequisite Charms: [[#Soul-Shaping Words Technique]]
 
 The desperate, the downtrodden and the weak can
 find new hope and new joy in the words of the saintly
@@ -394,7 +394,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Presence: 5
 Minimum Essence: 5
-Prerequisite Charms: Hypnotic Tongue Technique, Terrifying Apparition of Glory
+Prerequisite Charms: [[#Hypnotic Tongue Technique]], [[#Terrifying Apparition of Glory]]
 
 While any Solar who masters the Charms of Presence
 has a weighty aura of charisma and influence, those who

@@ -170,7 +170,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Medicine: 3
 Minimum Essence: 2
-Prerequisite Charms: Infection-Banishing Prana
+Prerequisite Charms: [[#Infection-Banishing Prana]]
 
 The character's knowledge of the medicinal arts
 and the sources of infection has grown to such levels
@@ -195,7 +195,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 2
-Prerequisite Charms: Infection-Banishing Prana
+Prerequisite Charms: [[#Infection-Banishing Prana]]
 
 With this technique, the Dragon-Blood becomes
 like a healer out of legend. He can remove all but the
@@ -227,7 +227,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Disease-Banishing Technique
+Prerequisite Charms: [[#Disease-Banishing Technique]]
 
 With this simple Charm, the Exalted can rapidly close
 open and bleeding wounds on his body, allowing himself to
@@ -249,7 +249,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 3
-Prerequisite Charms: Wound-Closing Touch
+Prerequisite Charms: [[#Wound-Closing Touch]]
 
 This complex Charm allows the Exalted to turn
 truly horrific injuries, such as those inflicted by supernatural
@@ -273,7 +273,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 3
 Minimum Essence: 2
-Prerequisite Charms: Infection-Banishing Prana
+Prerequisite Charms: [[#Infection-Banishing Prana]]
 
 This Charm allows a Dragon-Blood to analyze another
 character and see what external influences there are
@@ -296,7 +296,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Wound-Closing Touch, Madness Analysis Stare
+Prerequisite Charms: [[#Wound-Closing Touch]], [[#Madness Analysis Stare]]
 
 With a strike of the palm and a touch of the lips, an
 Exalted with this level of mastery over the medicinal arts
@@ -349,7 +349,7 @@ Duration: One scene
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 3
-Prerequisite Charms: Purity of Mind Method
+Prerequisite Charms: [[#Purity of Mind Method]]
 
 Through extended insight meditation and the reining
 of the mind's wandering tendencies, a Dragon-Blooded who
@@ -370,7 +370,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 4
-Prerequisite Charms: Dread Infection Strike, Grievous Wound Alteration Energy, Purity of Mind Method
+Prerequisite Charms: [[#Dread Infection Strike]], [[#Grievous Wound Alteration Energy]], [[#Purity of Mind Method]]
 
 As one of the most dangerous and powerful of the
 internal medicine techniques devised by Dragon-Blooded
@@ -402,7 +402,7 @@ Duration: One scene
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 5
-Prerequisite Charms: Jade Crucible Method
+Prerequisite Charms: [[#Jade Crucible Method]]
 
 As the five elements intertwine to form all things
 within Creation, so too does each Dragon-Blooded contain a piece of all five elements within his Essence. As a

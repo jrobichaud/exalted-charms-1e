@@ -50,7 +50,7 @@ Duration: One scene
 Type: Simple
 Minimum Charisma: 3
 Minimum Essence: 3
-Prerequisite Charms: Stealthy Fox Method
+Prerequisite Charms: [[#Stealthy Fox Method]]
 
 Using this Charm, a Lunar can mimic the skin of the
 chameleon and becomes able to adjust the texture and color
@@ -75,7 +75,7 @@ Duration: One day
 Type: Simple
 Minimum Wits: 3
 Minimum Essence: 3
-Prerequisite Charms: Chameleon Skin Disguise
+Prerequisite Charms: [[#Chameleon Skin Disguise]]
 
 The Object-Concealing Method allows a Lunar
 both to find a suitable place of concealment for an item
@@ -99,7 +99,7 @@ Duration: One scene
 Type: Simple
 Minimum Wits: 4
 Minimum Essence: 3
-Prerequisite Charms: Object-Concealing Method
+Prerequisite Charms: [[#Object-Concealing Method]]
 
 This Charm functions as per the Object-Concealing
 Method save that the object being hidden is another
@@ -120,7 +120,7 @@ Duration: One day
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Stealthy Fox Method
+Prerequisite Charms: [[#Stealthy Fox Method]]
 
 Lunars are crafty in the ways of the wild, adept at
 following — or hiding — signs of passage. There are
@@ -144,7 +144,7 @@ Duration: One day
 Type: Simple
 Minimum Charisma: 3
 Minimum Essence: 3
-Prerequisite Charms: Traceless Passage Technique
+Prerequisite Charms: [[#Traceless Passage Technique]]
 
 Using this Charm, the Lunar can extend the benefits
 of Traceless Passage Technique to his companions,

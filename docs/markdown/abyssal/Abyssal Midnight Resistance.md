@@ -64,7 +64,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 4
 Minimum Essence: 2
-Prerequisite Charms: Spirit-Hardened Frame
+Prerequisite Charms: [[#Spirit-Hardened Frame]]
 
 The Abyssal seeps Essence into her skeleton, forcing
 hundreds of bony spines through her skin to blossom into
@@ -90,7 +90,7 @@ Type: Simple
 Minimum Brawl: 2
 Minimum Resistance: 4
 Minimum Essence: 2
-Prerequisite Charms: Ivory Blossom Carapace
+Prerequisite Charms: [[#Ivory Blossom Carapace]]
 
 This multipurpose Charm allows characters to ex-
 trude spikes and razor spines over their entire body or to
@@ -128,7 +128,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 5
 Minimum Essence: 3
-Prerequisite Charms: Ivory Blossom Carapace
+Prerequisite Charms: [[#Ivory Blossom Carapace]]
 
 Upon activation of this Charm, blood gushes from
 every pore of the character's skin and shapes itself into a
@@ -154,7 +154,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Resistance: 5
 Minimum Essence: 3
-Prerequisite Charms: Crimson Petal Armor
+Prerequisite Charms: [[#Crimson Petal Armor]]
 
 Building on the principle of Crimson Petal Armor,
 this Charm allows an Abyssal to momentarily liquefy her
@@ -182,7 +182,7 @@ Duration: Permanent
 Type: Special
 Minimum Resistance: 4
 Minimum Essence: 2
-Prerequisite Charms: Spirit-Hardened Frame
+Prerequisite Charms: [[#Spirit-Hardened Frame]]
 
 Some Abyssal Exalted become highly resistant to
 disease as a result of their consecration to the Malfeans. As
@@ -206,7 +206,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Resistance: 3
 Minimum Essence: 2
-Prerequisite Charms: Spirit-Hardened Frame
+Prerequisite Charms: [[#Spirit-Hardened Frame]]
 
 The character amplifies her metabolism with Essence,
 strengthening her body's resistance to poison. For
@@ -230,7 +230,7 @@ Duration: Permanent
 Type: Special
 Minimum Resistance: 5
 Minimum Essence: 2
-Prerequisite Charms: Snake Bites Its Tail
+Prerequisite Charms: [[#Snake Bites Its Tail]]
 
 Corrupted in body and spirit by the power of the
 Malfeans, some Abyssal Exalted find their very blood
@@ -271,7 +271,7 @@ Duration: Instant
 Type: Simple
 Minimum Resistance: 4
 Minimum Essence: 3
-Prerequisite Charms: Armor-Calling Kata
+Prerequisite Charms: [[#Armor-Calling Kata]]
 
 An Abyssal who knows this Charm can store his armor
 Elsewhere, recalling it only as needed for battle. The character
@@ -294,7 +294,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 5
 Minimum Essence: 3
-Prerequisite Charms: Void-Banished Mail
+Prerequisite Charms: [[#Void-Banished Mail]]
 
 The Abyssal's anima hardens, encasing her in a suit of
 obsidian-black plate mail. This armor is an expression of

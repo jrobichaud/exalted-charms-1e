@@ -121,7 +121,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 2
 Minimum Essence: 2
-Prerequisite Charms: Precision Observation Method
+Prerequisite Charms: [[#Precision Observation Method]]
 
 While under the aegis of this Charm, the character
 cannot be surprised by any means, magical or otherwise.
@@ -145,7 +145,7 @@ Duration: Instant
 Туре: Simple
 Minimum Awareness: 3
 Minimum Essence: 2
-Prerequisite Charms: All-Encompassing Earth Sense
+Prerequisite Charms: [[#All-Encompassing Earth Sense]]
 
 By taking a few moments to attune herself to the pulse
 of the Earth Dragon, the Dragon-Blooded invoking this
@@ -183,7 +183,7 @@ Duration: Five minutes
 Type: Simple
 Minimum Awareness: 4
 Minimum Essence: 2
-Prerequisite Charms: Feeling the Dragon's Bones
+Prerequisite Charms: [[#Feeling the Dragon's Bones]]
 
 Earth is the most static and quiescent of the elements,
 and while it's all encompassing nature enhances the awareness
@@ -220,7 +220,7 @@ Duration: Until disrupted
 Type: Simple
 Minimum Awareness: 3
 Minimum Essence: 2
-Prerequisite Charms: Precision Observation Method
+Prerequisite Charms: [[#Precision Observation Method]]
 
 A Dragon-Blood truly in tune with the world can
 project her sense into others, riding along and perceiving:
@@ -283,7 +283,7 @@ Duration: One turn per point of permanent Essence
 Type: Supplemental
 Minimum Awareness: 4
 Minimum Essence: 3
-Prerequisite Charms: (Sense)-Riding Technique for the appropriate sense
+Prerequisite Charms: [[#Sense Riding Technique|(Sense)-Riding Technique for the appropriate sense]]
 
 This Charm is a cluster of three Charms just like
 (Sense) Riding Technique, and it functions in much the
@@ -321,7 +321,7 @@ Duration: One turn per dot of permanent Essence
 Type: Supplemental
 Minimum Awareness: 5
 Minimum Essence: 4
-Prerequisite Charms: All three (Sense) - Destroying Method Charms
+Prerequisite Charms: [[#Sense Destroying Method|All three (Sense) - Destroying Method Charms]]
 
 After perfecting the art of suppressing another's physical
 sense, a truly skilled Earth-aspected Dynast can actually
@@ -376,7 +376,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Awareness: 5
 Minimum Essence: 3
-Prerequisite Charms: All-Encompassing Earth Sense
+Prerequisite Charms: [[#All-Encompassing Earth Sense]]
 
 Upon activating this Charm, cataracts like white
 jade cloud over the character's eyes, and he becomes
@@ -426,7 +426,7 @@ Duration: One turn
 Type: Reflexive or Simple
 Minimum Awareness: 5
 Minimum Essence: 3
-Prerequisite Charms: Feeling the Dragon's Bones
+Prerequisite Charms: [[#Feeling the Dragon's Bones]]
 
 The Dragon-Blood concentrates and spends 3 motes
 as a simple action, allowing his consciousness to flow

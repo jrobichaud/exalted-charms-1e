@@ -253,7 +253,7 @@ Duration: Variable
 Type: Reflexive
 Minimum Valor: 2
 Minimum Essence: 1
-Prerequisite Charms: Details
+Prerequisite Charms: [[#Details]]
 
 The spirit may take on another's physical form upon a
 successful Charisma + Valor check. This requires the spirit
@@ -328,7 +328,7 @@ Duration: One scene
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 1
-Prerequisite Charms: Will-o-Wisp
+Prerequisite Charms: [[#Will-o-Wisp]]
 
 The spirit may cause the same manifestations as Will-o-Wisp,
 again making a Manipulation + Valor check. This
@@ -400,7 +400,7 @@ Duration: One scene
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 3
-Prerequisite Charms: Affinity Element Control
+Prerequisite Charms: [[#Affinity Element Control]]
 The same as Affinity Element Control, except that
 the spirit can control any element, not just one to which
 it is attuned.
@@ -413,7 +413,7 @@ Duration: Instant
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 2
-Prerequisite Charms: Affinity Element Control
+Prerequisite Charms: [[#Affinity Element Control]]
 
 This Charm allows the spirit to control the weather.
 Note that this may duplicate some effects of the Element
@@ -480,7 +480,7 @@ Duration: One week
 Type: Reflexive
 Minimum Valor: 2
 Minimum Essence: 2
-Prerequisite Charms: Element Touch
+Prerequisite Charms: [[#Element Touch]]
 
 This Charm is the same as Element Touch, but it lasts
 for one week or until the spirit chooses to release the target,
@@ -497,7 +497,7 @@ Duration: One month
 Type: Reflexive
 Minimum Valor: 3
 Minimum Essence: 3
-Prerequisite Charms: Element Kiss
+Prerequisite Charms: [[#Element Kiss]]
 
 This Charm is similar to the lesser Element Kiss and
 Element Touch Charms, but lasts for one month or until

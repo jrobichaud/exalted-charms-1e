@@ -107,7 +107,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dexterity: 2
 Minimum Essence: 1
-Prerequisite Charms: Sensing the Deadly Flow
+Prerequisite Charms: [[#Sensing the Deadly Flow]]
 
 Using this Charm, a Lunar can imbue his weapon
 with preternatural speed, using his Essence and instincts
@@ -129,7 +129,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Strength: 2
 Minimum Essence: 2
-Prerequisite Charms: Striking Mospid Method
+Prerequisite Charms: [[#Striking Mospid Method]]
 
 By fortifying his attacking weapon with Essence, a
 Lunar can make it very difficult for his opponent to block
@@ -156,7 +156,7 @@ Duration: Instant
 Type: Extra action
 Minimum Dexterity: 4
 Minimum Essence: 2
-Prerequisite Charms: Striking Mospid Method
+Prerequisite Charms: [[#Striking Mospid Method]]
 
 By using the Dance of the Living Blade, the
 Lunar can make multiple Melee attacks per turn.
@@ -181,7 +181,7 @@ Duration: Instant
 Type: Extra action
 Minimum Dexterity: 5
 Minimum Essence: 3
-Prerequisite Charms: Dance of the Living Blade
+Prerequisite Charms: [[#Dance of the Living Blade]]
 
 Using this Charm, a Lunar can face multiple
 foes and force them onto the defensive. The Irresistible
@@ -211,7 +211,7 @@ Duration: Instant
 Type: Extra action
 Minimum Dexterity: 3
 Minimum Essence: 3
-Prerequisite Charms: Dance of the Living Blade
+Prerequisite Charms: [[#Dance of the Living Blade]]
 
 By means of this Charm, activated immediately
 after rolling initiative, a Lunar armed with two hand-to-hand
@@ -233,7 +233,7 @@ Duration: Instant
 Type: Extra action
 Minimum Dexterity: 4
 Minimum Essence: 2
-Prerequisite Charms: Spinning Blade Attack
+Prerequisite Charms: [[#Spinning Blade Attack]]
 
 The Lightning Sword Method allows a Lunar armed
 with two weapons to attack one or two opponents in the
@@ -251,7 +251,7 @@ Duration: Varies
 Type: Reflexive
 Minimum Dexterity: 5
 Minimum Essence: 3
-Prerequisite Charms: Spinning Blade Attack
+Prerequisite Charms: [[#Spinning Blade Attack]]
 
 Using this Charm, the Lunar becomes a whirling
 killing machine, constantly moving and attacking, ever
@@ -275,7 +275,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Striking Mospid Method
+Prerequisite Charms: [[#Striking Mospid Method]]
 
 By suddenly transforming his body — extending
 his reach, adding an extra joint in an arm and so forth
@@ -299,7 +299,7 @@ Duration: Instant
 Type: Extra action
 Minimum Charisma: 4
 Minimum Essence: 3
-Prerequisite Charms: Twisting Surprise Attack
+Prerequisite Charms: [[#Twisting Surprise Attack]]
 
 This Charm allows the Lunar to extend his body in
 wild and improbable ways, wrong-footing his opponent,
@@ -327,7 +327,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Sensing the Deadly Flow
+Prerequisite Charms: [[#Sensing the Deadly Flow]]
 
 The Lunar may combine his mastery of weapons and
 his protean nature to counter the efforts of an unwary
@@ -351,7 +351,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Monkey Paw Advance
+Prerequisite Charms: [[#Monkey Paw Advance]]
 Using this Charm, the Lunar can elongate one of his
 arms to retrieve a weapon that has been knocked from his
 grasp or to otherwise arm himself. The arm may extend
@@ -371,7 +371,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Charisma: 3
 Minimum Essence: 3
-Prerequisite Charms: Weapon Clutching Method
+Prerequisite Charms: [[#Weapon-Clutching Method]]
 
 In addition to proving a major advantage in weaving
 past an opponents defenses, a Lunar's protean flexibility
@@ -394,7 +394,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Manipulation: 4
 Minimum Essence: 2
-Prerequisite Charms: Monkey Paw Advance
+Prerequisite Charms: [[#Monkey Paw Advance]]
 
 Even allowing for the reach of limbs and weapons,
 melee combat requires the combatants to be within a
@@ -422,7 +422,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Sensing the Deadly Flow
+Prerequisite Charms: [[#Sensing the Deadly Flow]]
 
 By means of this Charm, a Lunar's control over his
 weapon is without peer, and he can steer his attack to its
@@ -443,7 +443,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Strength: 3
 Minimum Essence: 2
-Prerequisite Charms: Sensing the Deadly Flow
+Prerequisite Charms: [[#Sensing the Deadly Flow]]
 
 By lunging at his foe and binding Essence into his
 attacks, a Lunar can inflict monstrous damage on his
@@ -476,7 +476,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Dexterity: 4
 Minimum Essence: 2
-Prerequisite Charms: Tiger Claw Swat
+Prerequisite Charms: [[#Tiger Claw Swat]]
 
 Scars are an integral part of Lunar Exalted society,
 maintaining the Lunars' form and used as a means of
@@ -505,7 +505,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Tiger Claw Swat
+Prerequisite Charms: [[#Tiger Claw Swat]]
 
 By making a series of swift and decisive blows, a
 Lunar can unbalance his opponent. By using the
@@ -536,7 +536,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Dexterity: 4
 Minimum Essence: 2
-Prerequisite Charms: Ferocious Avalanche Technique
+Prerequisite Charms: [[#Ferocious Avalanche Technique]]
 
 Using the Limb-Maiming Flourish, a Lunar uses
 Essence to maximize the lethal effect of her weapon,
@@ -563,7 +563,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Strength: 3
 Minimum Essence: 3
-Prerequisite Charms: Tiger Claw Swat
+Prerequisite Charms: [[#Tiger Claw Swat]]
 
 Most competent swordsmen can adjust their blows
 so as to cause bashing damage to their targets. The
@@ -594,7 +594,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Dexterity: 3
 Minimum Essence: 2
-Prerequisite Charms: Sensing the Deadly Flow
+Prerequisite Charms: [[#Sensing the Deadly Flow]]
 
 By means of this Charm, the Lunar's weapon becomes
 an extension of his body. When making a single
@@ -614,7 +614,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Wits: 2
 Minimum Essence: 3
-Prerequisite Charms: Weapon Fusion Method
+Prerequisite Charms: [[#Weapon Fusion Method]]
 
 Using this Charm, a Lunar can pick up any piece of
 wood or bone and imbue it with his Essence to transform
@@ -634,7 +634,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Manipulation: 3
 Minimum Essence: 3
-Prerequisite Charms: Weapon Fusion Method
+Prerequisite Charms: [[#Weapon Fusion Method]]
 
 The Lunar's mastery of moonsilver weapons allows
 her to imbue such a weapon with Essence, causing it to
@@ -652,7 +652,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Stunning Moonsilver Blow
+Prerequisite Charms: [[#Stunning Moonsilver Blow]]
 
 Moonsilver weapons have an innate link to the
 Lunar Exalted, affording them considerable advantages
@@ -680,7 +680,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Stunning Moonsilver Blow
+Prerequisite Charms: [[#Stunning Moonsilver Blow]]
 
 By means of this Charm, a Lunar can further
 exploit his weapon's fluid form, rendering it into a truly
@@ -705,7 +705,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Charisma: 4
 Minimum Essence: 4
-Prerequisite Charms: Surprising Moonsilver Deformation, Deadly Moonsilver Affinity
+Prerequisite Charms: [[#Surprising Moonsilver Deformation]], [[#Deadly Moonsilver Affinity]]
 
 A moonsilver weapon's edge is its most lethal aspect,
 inflicting heinous damage on the Lunar's foes. It is

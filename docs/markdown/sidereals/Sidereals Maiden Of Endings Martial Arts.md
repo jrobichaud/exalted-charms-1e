@@ -61,7 +61,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Martial Arts: 2
 Minimum Essence: 1
-Prerequisite Charms: Secrets of Future Strife
+Prerequisite Charms: [[#Secret of Future Strife]]
 
 The character moves with the swift precision of one
 who knows her destiny. For each mote of Essence spent,
@@ -79,7 +79,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Secrets of Future Strife
+Prerequisite Charms: [[#Secret of Future Strife]]
 
 Essence shines around the characters hands (or
 weapons), tracing with their every movement crim-
@@ -102,7 +102,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Martial Arts: 2
 Minimum Essence: 1
-Prerequisite Charms: Secrets of Future Strife
+Prerequisite Charms: [[#Secret of Future Strife]]
 
 Those who routinely face terrible odds can learn to
 take some measure of happiness in each moment's
@@ -123,7 +123,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Flight of Mercury, Blade of the Battle Maiden, Joy in Adversity Stance
+Prerequisite Charms: [[#Flight of Mercury]], [[#Blade of the Battle Maiden]], [[#Joy in Adversity Stance]]
 
 The character adopts the cold detachment with
 which Saturn makes her Sign against those things whose
@@ -156,7 +156,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Violet Bier of Sorrows Form
+Prerequisite Charms: [[#Violet Bier of Sorrows Form]]
 
 In a blur of violet Essence, the character's blade
 catches an attack that might otherwise have killed
@@ -173,7 +173,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Violet Bier of Sorrows Form
+Prerequisite Charms: [[#Violet Bier of Sorrows Form]]
 
 Drawing on the Essence of Endings, a character can
 add power to a blow that he realizes is about to pierce his
@@ -195,7 +195,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Life-Severing Blow
+Prerequisite Charms: [[#Life-Severing Blow]]
 
 Not even the most cunning of opponents can evade
 a sword that strikes everywhere at once. For each 3 motes
@@ -213,7 +213,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Death-Parrying Stroke, Metal Storm
+Prerequisite Charms: [[#Death-Parrying Stroke]], [[#Metal Storm]]
 
 At the pinnacle of the Violet Bier of Sorrows
 Style, a character learns to draw strength from the pain

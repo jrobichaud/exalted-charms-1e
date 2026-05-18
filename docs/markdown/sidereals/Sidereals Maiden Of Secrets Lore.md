@@ -68,7 +68,7 @@ Duration: Until the character sleeps
 Type: Reflexive
 Minimum Lore: 2
 Minimum Essence: 2
-Prerequisite Charms: Systematic Understanding of Everything
+Prerequisite Charms: [[#Systematic Understanding of Everything]]
 
 This Charm extends Systematic Understanding of
 Everything, providing a specialty that gives a +3 bonus
@@ -91,7 +91,7 @@ Duration: Three hours
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Systematic Understanding of Everything
+Prerequisite Charms: [[#Systematic Understanding of Everything]]
 
 Scuttling on the paths of fate are the seven Heptarchs
 of Tragedy, gods of those truths and futures displeasing to
@@ -124,7 +124,7 @@ Duration: Three hours
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Systematic Understanding of Everything
+Prerequisite Charms: [[#Systematic Understanding of Everything]]
 
 Charting the paths of the future can help to resolve
 even the stickiest of situations. Gathering together for
@@ -159,7 +159,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Lore: 4
 Minimum Essence: 3
-Prerequisite Charms: Systematic Understanding of Everything
+Prerequisite Charms: [[#Systematic Understanding of Everything]]
 
 Averting her eyes from the truth that is, the character
 invokes a truth she wishes to create. She may lower
@@ -173,7 +173,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 3
-Prerequisite Charms: Of the Shape of the World
+Prerequisite Charms: [[#Of the Shape of the World]]
 
 The Sidereal weaves one of the nets of Neferuaten,
 made from filaments of destiny thinner than the distance
@@ -206,7 +206,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 4
 Minimum Essence: 2
-Prerequisite Charms: Systematic Understanding of Everything
+Prerequisite Charms: [[#Systematic Understanding of Everything]]
 
 Hissing a long susurration, the character illumines
 an elemental or spirit of the earth in a verdant glow and
@@ -246,7 +246,7 @@ Duration: Until used
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 4
-Prerequisite Charms: The Methodology of Secrets, Of Truths Best Unspoken, Of Things Desired and Feared, Of Horrors Best Unknown, Of Secrets Yet Untold, Avoiding the Truth Technique
+Prerequisite Charms: [[#The Methodology of Secrets]], [[#Of Truths Best Unspoken]], [[#Of Things Desired and Feared]], [[#Of Horrors Best Unknown]], [[#Of Secrets Yet Untold]], [[#Avoiding the Truth Technique]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden in Terror, which glows a sickly

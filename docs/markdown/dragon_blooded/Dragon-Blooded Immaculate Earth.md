@@ -127,7 +127,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Force of the Mountain, Unmoving Mountain Stance, Stone Dragon's Skin
+Prerequisite Charms: [[#Force of the Mountain]], [[#Unmoving Mountain Stance]], [[#Stone Dragon's Skin]]
 
 By executing a series of katas, the Earth Immaculate
 comes into true contact with the Earth Dragon and can
@@ -154,7 +154,7 @@ Duration: Martial Arts in turns
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Earth Dragon Form
+Prerequisite Charms: [[#Earth Dragon Form]]
 
 The raw power of the elemental Earth is fearsome to
 behold. By channeling this power into his body, an Im-
@@ -183,7 +183,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 3
-Prerequisite Charms: Shattering Fist Strike
+Prerequisite Charms: [[#Shattering Fist Strike]]
 
 This maneuver can be attempted either bare handed
 or with martial arts weapons. Roll normally to parry an
@@ -213,7 +213,7 @@ Duration: Special
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Earth Dragon Form
+Prerequisite Charms: [[#Earth Dragon Form]]
 
 With a precision martial arts attack, the Immaculate not
 only strikes at certain critical nerve junctures, she instill a
@@ -236,7 +236,7 @@ Duration: Until line of sight is broken or the character is incapacitated
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Stillness of Stone
+Prerequisite Charms: [[#Stillness of Stone]]
 
 The Exalted invokes this Charm as he makes a normal
 attack, raining a flurry of blows down upon his opponent,
@@ -278,7 +278,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Earth Dragon Form
+Prerequisite Charms: [[#Earth Dragon Form]]
 
 To use this Charm, the martial artist must be standing
 on the earth itself or on an earthen surface (stone, masonry,
@@ -303,7 +303,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Earthshaker Attack
+Prerequisite Charms: [[#Earthshaker Attack]]
 
 After a moment of focus, the Exalt crouches down and
 seems to simply strike the ground with an open palm. But
@@ -346,7 +346,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Weapon-Breaking Defense Technique, Avalanche Method, Hungry Earth Strike
+Prerequisite Charms: [[#Weapon-Breaking Defense Technique]], [[#Avalanche Method]], [[#Hungry Earth Strike]]
 
 With a carefully placed melee strike, the Earth
 Dragon warrior infuses a bit of elemental Earth directly
@@ -389,7 +389,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: Ghost-Grounding Blow
+Prerequisite Charms: [[#Ghost-Grounding Blow]]
 
 This Charm is the pinnacle of the Earth Dragon Path,
 representing the Immaculate truly becoming one with the

@@ -102,7 +102,7 @@ Duration: Varies
 Type: Reflexive
 Minimum Resistance: 2
 Minimum Essence: 1
-Prerequisite Charms: Durability of Oak Meditation
+Prerequisite Charms: [[#Durability of Oak Meditation]]
 
 The character's anima hardens, and his skin is made incredibly
 difficult to cut or pierce. The player makes a Stamina +
@@ -123,7 +123,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 3
 Minimum Essence: 2
-Prerequisite Charms: Durability of Oak Meditation
+Prerequisite Charms: [[#Durability of Oak Meditation]]
 
 The Solar pours Essence into her skin and muscles,
 hardening and toughening them far beyond those of any
@@ -151,7 +151,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Resistance: 5
 Minimum Essence: 3
-Prerequisite Charms: Iron Skin Concentration, Spirit Strengthens the Skin
+Prerequisite Charms: [[#Iron Skin Concentration]], [[#Spirit Strengthens the Skin]]
 
 Through the use of this Charm, the Exalted hardens
 his skin into impenetrability, sacrificing some of his life
@@ -183,7 +183,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Resistance: 3
 Minimum Essence: 1
-Prerequisite Charms: Durability of Oak Meditation
+Prerequisite Charms: [[#Durability of Oak Meditation]]
 
 This Charm strengthens the character's awareness of the
 world around him and allows him to resist even unanticipated
@@ -201,7 +201,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Resistance: 5
 Minimum Essence: 2
-Prerequisite Charms: Unfailing Tortoise Technique
+Prerequisite Charms: [[#Unfailing Tortoise Technique]]
 
 As Unfailing Tortoise Technique, but the character's
 Resistance is also added to her lethal soak as well.
@@ -272,7 +272,7 @@ Type: Reflexive
 Minimum Resistance: 2
 Minimum Performance: 2
 Minimum Essence: 1
-Prerequisite Charms: Alcohol-Resisting Prana
+Prerequisite Charms: [[#Alcohol-Resisting Prana]]
 The Drunken Warrior Technique allows the invoking
 Exalted to harness the unpredictability of
 drunkenness in combat. When this Charm is invoked,
@@ -299,7 +299,7 @@ Type: Reflexive
 Minimum Resistance: 4
 Minimum Performance: 3
 Minimum Essence: 1
-Prerequisite Charms: Drunken Warrior Technique, Spirit Strengthens the Skin
+Prerequisite Charms: [[#Drunken Warrior Technique]], [[#Spirit Strengthens the Skin]]
 
 The Inebriated Fool Defense allows the Exalted to
 utilize the effects alcohol has on the human body,
@@ -352,7 +352,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Resistance: 3
 Minimum Essence: 2
-Prerequisite Charms: Interrogation-Resisting Attitude, Durability of Oak Meditation
+Prerequisite Charms: [[#Interrogation-Resisting Attitude]], [[#Durability of Oak Meditation]]
 The cumulative effects of pain can bring down even
 the hardiest of Exalted. This Charm allows a Chosen to
 ignore pain through the application of Essence. To activate
@@ -373,7 +373,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 2
 Minimum Essence: 2
-Prerequisite Charms: Durability of Oak Meditation
+Prerequisite Charms: [[#Durability of Oak Meditation]]
 
 Through the expenditure of Essence, this Charm
 allows the Exalted to reinforce his ability to withstand
@@ -410,7 +410,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 3
 Minimum Essence: 3
-Prerequisite Charms: Armor of Virtue Technique
+Prerequisite Charms: [[#Armor of Virtue Technique]]
 
 Through the expenditure of Essence, the Fivefold
 Armor of Virtue Technique allows the Exalted to reinforce
@@ -460,7 +460,7 @@ Duration: Instant
 Type: Simple
 Minimum Resistance: 3
 Minimum Essence: 3
-Prerequisite Charms: Whirlwind Armor-Donning Prana
+Prerequisite Charms: [[#Whirlwind Armor-Donning Prana]]
 
 This Charm allows a character to call her armor to her. In
 an eyeblink, it appears on her. She is instantly fully armored,
@@ -480,7 +480,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 4
 Minimum Essence: 3
-Prerequisite Charms: Hauberk-Summoning Gesture
+Prerequisite Charms: [[#Hauberk-Summoning Gesture]]
 
 The characters materializes his Essence into a suit of
 golden lamellar armor. This armor is an expression of the
@@ -551,7 +551,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 5
 Minimum Essence: 3
-Prerequisite Charms: Poison-Resisting Meditation
+Prerequisite Charms: [[#Poison-Resisting Meditation]]
 
 The Exalted's body becomes a perfect vessel of Essence,
 immune to all toxins and poisons. The character is immune

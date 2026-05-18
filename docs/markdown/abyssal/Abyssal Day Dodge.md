@@ -50,7 +50,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 3
 Minimum Essence: 2
-Prerequisite Charms: Flitting Shadow Form
+Prerequisite Charms: [[#Flitting Shadow Form]]
 
 Whenever a character with this Charm is attacked,
 she feels a sense of impending dread and may attempt to
@@ -70,7 +70,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 4
 Minimum Essence: 2
-Prerequisite Charms: Flitting Shadow Form
+Prerequisite Charms: [[#Flitting Shadow Form]]
 
 Moving faster than the shadows cast by a guttering
 candle, the Abyssal may evade blows with supernatural
@@ -88,7 +88,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 5
 Minimum Essence: 2
-Prerequisite Charms: Fivefold Shadow Form
+Prerequisite Charms: [[#Fivefold Shadow Form]]
 
 The Abyssal ripples and vanishes like smoke in a stiff
 breeze, coalescing a split second later a short distance
@@ -110,7 +110,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 5
 Minimum Essence: 3
-Prerequisite Charms: Flickering Wisp Technique
+Prerequisite Charms: [[#Flickering Wisp Technique]]
 
 In addition to teleporting out of harm's way, an
 Abyssal with this Charm can ensure that she materializes
@@ -131,7 +131,7 @@ Duration: One scene
 Type: Simple
 Minimum Dodge: 5
 Minimum Essence: 3
-Prerequisite Charms: Uncanny Impulse Evasion, Flickering Wisp Technique
+Prerequisite Charms: [[#Uncanny Impulse Evasion]], [[#Flickering Wisp Technique]]
 
 Suffusing his body with spectral Essence, the Abyssal
 becomes translucent and partially dematerialized. In addition

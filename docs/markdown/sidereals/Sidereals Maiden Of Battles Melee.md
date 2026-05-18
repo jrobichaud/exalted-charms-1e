@@ -58,7 +58,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Harmony of Blows
+Prerequisite Charms: [[#Harmony of Blows]]
 
 Calm and precision envelops the character as she
 strikes. She adds dice to one Melee attack, increasing it
@@ -77,7 +77,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Harmony of Blows
+Prerequisite Charms: [[#Harmony of Blows]]
 
 Manipulating the local flow of a conflict through
 the ripple effects of her own actions, the character
@@ -110,7 +110,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Harmony of Blows, Impeding the Flow
+Prerequisite Charms: [[#Harmony of Blows]], [[#Impeding the Flow]]
 
 Stirring the currents of fate with the tip of her weapon,
 the character disrupts the path of any attack made against
@@ -145,7 +145,7 @@ Duration: One scene
 Type: Simple
 Minimum Melee: 5
 Minimum Essence: 3
-Prerequisite Charms: Meditation on War, Orchestration of Conflict, Serenity in Blood, Smiling at the Damned
+Prerequisite Charms: [[#Meditation on War]], [[#Orchestration of Conflict]], [[#Serenity in Blood]], [[#Smiling at the Damned]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden on the Shelf. The character

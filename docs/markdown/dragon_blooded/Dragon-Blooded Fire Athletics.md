@@ -106,7 +106,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 2
 Minimum Essence: 1
-Prerequisite Charms: Effortlessly Rising Flame
+Prerequisite Charms: [[#Effortlessly Rising Flame]]
 
 Fire lifts the Exalt's every footstep. The Dragon-Blooded
 with Falling Star Maneuver may jump, tumble, roll or
@@ -131,7 +131,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Falling Star Maneuver
+Prerequisite Charms: [[#Falling Star Maneuver]]
 
 The Exalt can double his movement rate for the scene
 with this Charm. As he does so, he leaves fiery footprints in the
@@ -153,7 +153,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Bellows-Pumping Stride
+Prerequisite Charms: [[#Bellows-Pumping Stride]]
 
 Like a burning ember, the Exalt is propelled away from the
 ground beneath him, so long as he has a surface to guide his feet.
@@ -178,7 +178,7 @@ Duration: Instant
 Type: Simple
 Minimum Athletics: 5
 Minimum Essence: 3
-Prerequisite Charms: Incense Smoke Ladder
+Prerequisite Charms: [[#Incense Smoke Ladder]]
 
 The character drifts upward, buoyed by a hot updraft. He
 may move a distance up to nice his ordinary movement rate
@@ -198,7 +198,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Athletics: 5
 Minimum Essence: 2
-Prerequisite Charms: Falling Star Maneuver
+Prerequisite Charms: [[#Falling Star Maneuver]]
 
 The character's affinity for fire's movement continues to
 grow as he learns this Charm. So long as the Exalt maintains ar
@@ -223,7 +223,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 2
 Minimum Essence: 1
-Prerequisite Charms: Effortlessly Rising Flame
+Prerequisite Charms: [[#Effortlessly Rising Flame]]
 
 The Exalted feels a burning in his veins as he pushes his
 body to its limits. Using this Charm, the Dragon-Blooded
@@ -244,7 +244,7 @@ Duration: One scene
 Type: Simple
 Minimum Athletics: 4
 Minimum Essence: 2
-Prerequisite Charms: Bellows-Pumping Stride, Fiery Prowess
+Prerequisite Charms: [[#Bellows-Pumping Stride]], [[#Fiery Prowess]]
 
 The Dragon-Blood with Swift Legion Technique can
 greatly increase the swiftness of his traveling companions
@@ -270,7 +270,7 @@ Duration: One scene
 Type: Simple
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Effortlessly Rising Flame
+Prerequisite Charms: [[#Effortlessly Rising Flame]]
 
 Use of this Charm grants the Dragon-Blood the
 ability to maintain his footing and move gracefully regardless

@@ -78,7 +78,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Ride: 3
 Minimum Essence: 2
-Prerequisite Charms: Scattered Pearl Hoof Falls
+Prerequisite Charms: [[#Scattered Pearl Hoof Falls]]
 
 With the aid of this Charm, a rider and steed pair can
 clear prodigious distances with a single jump, safely landing
@@ -97,7 +97,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Heaven-Gracing Leap
+Prerequisite Charms: [[#Heaven-Gracing Leap]]
 
 A mount emboldened with this Charm does not
 actually take to the skies, but its feet barely brush the
@@ -120,7 +120,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Ride: 3
 Minimum Essence: 2
-Prerequisite Charms: Scattered Pearl Hoof Falls
+Prerequisite Charms: [[#Scattered Pearl Hoof Falls]]
 
 The simple advantages of height and mobility enjoyed
 by a mounted swordsman wreak havoc on the
@@ -141,7 +141,7 @@ Duration: One charge
 Type: Supplemental
 Minimum Ride: 5
 Minimum Essence: 2
-Prerequisite Charms: Ebony Spur Technique
+Prerequisite Charms: [[#Ebony Spur Technique]]
 
 Only the Exalted dare to stand and meet this deadly
 charge with any hope of success. The Dragon-Blooded
@@ -169,7 +169,7 @@ Duration: One turn per success
 Type: Reflexive
 Minimum Ride: 3
 Minimum Essence: 2
-Prerequisite Charms: Scattered Pearl Hoof Falls
+Prerequisite Charms: [[#Scattered Pearl Hoof Falls]]
 
 The beasts typically chosen for mounts are (with the
 possible exception of the ass) generally considered to be
@@ -199,7 +199,7 @@ Duration: Special
 Type: Supplemental
 Minimum Ride: 5
 Minimum Essence: 3
-Prerequisite Charms: Great Heart Companion
+Prerequisite Charms: [[#Great Heart Companion]]
 
 The great beastmasters of the Dragon-Blooded do not
 restrict themselves to average mounts. Fierce bears, big-toothed
@@ -230,7 +230,7 @@ Duration: One scene
 Type: Simple
 Minimum Ride: 4
 Minimum Essence: 3
-Prerequisite Charms: Great Heart Companion
+Prerequisite Charms: [[#Great Heart Companion]]
 
 The powerful elemental anima of a Dragon-Blood
 often injures all those nearby. This is especially problematic

@@ -81,7 +81,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 3
 Minimum Essence: 1
-Prerequisite Charms: Graceful Tortoise Technique
+Prerequisite Charms: [[#Graceful Tortoise Technique]]
 
 Through the use of this Charm, the martial artist
 gains an acute awareness enabling her to use her polearm
@@ -98,7 +98,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Speardancer Concentration
+Prerequisite Charms: [[#Speardancer Concentration]]
 
 To master the Form Charm, the martial artist has
 spent years developing her technique. Her muscles have
@@ -124,7 +124,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Crimson Pentacle Blade Form
+Prerequisite Charms: [[#Crimson Pentacle Blade Form]]
 
 The first thing learned in the Eastern posture is how
 to move together in a group and to use a shield effectively
@@ -155,7 +155,7 @@ Duration: Varies
 Type: Varies
 Minimum Martial Arts: Varies
 Minimum Essence: Varies
-Prerequisite Charms: Eastern Root Protocol
+Prerequisite Charms: [[#Eastern Root Protocol]]
 
 One of the most potent aspects of this martial-arts
 style is the ability for speardancers to work together in
@@ -289,7 +289,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Crimson Pentacle Blade Form
+Prerequisite Charms: [[#Crimson Pentacle Blade Form]]
 
 Although all martial artists of this style are capable of
 dazzling feats of fighting prowess, it is through the cold,
@@ -306,7 +306,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Northern Lotus Petal Discernment Meditation
+Prerequisite Charms: [[#Northern Lotus Petal Discernment Meditation]]
 
 Like the majestic stag fleeing the huntsman's bow, the
 acrobatic derring-do of the martial artist aids in her defense.
@@ -324,7 +324,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Crimson Pentacle Blade Form
+Prerequisite Charms: [[#Crimson Pentacle Blade Form]]
 
 To break as waves against a defiant reef, such is
 the fate of any who would dare attack a disciple
@@ -365,7 +365,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Western Shield Crush Counterattack
+Prerequisite Charms: [[#Western Shield-Crush Counterattack]]
 
 With this Charm, the Exalt is able to fortify herself
 with Essence. She takes a breath and concentrates. When
@@ -392,7 +392,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Crimson Pentacle Blade Form
+Prerequisite Charms: [[#Crimson Pentacle Blade Form]]
 
 As the martial artist adopts the flamboyant and
 sensual attitude of the Southern posture, she can use her
@@ -429,7 +429,7 @@ Duration: Until next turn
 Type: Reflexive
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Glorious Southern Harbinger of War and Fury
+Prerequisite Charms: [[#Glorious Southern Harbinger of War and Fury]]
 
 During the scene in which the martial artist has
 invoked the Glorious Southern Harbinger of War and
@@ -450,7 +450,7 @@ Duration: One scene
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Crimson Pentacle Blade Form
+Prerequisite Charms: [[#Crimson Pentacle Blade Form]]
 
 Speardancer masters believe that once one is committed
 to battle it is dishonorable to retreat. With this
@@ -476,7 +476,7 @@ Duration: One day
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Retribution of Honorable Guardianship Attitude
+Prerequisite Charms: [[#Retribution of Honorable Guardianship Attitude]]
 
 The Central posture is more of a mode of conduct
 than a speardancing style. Living life in a state of honorable
@@ -504,7 +504,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Eastern Root Protocol, Sprinting Stag Defense, Blessing of Jeweled Vambraces and Mantle, Furious Battle Scythe, Call to the Blade of Righteousness
+Prerequisite Charms: [[#Eastern Root Protocol]], [[#Sprinting Stag Defense]], [[#Blessing of Jeweled Vambraces and Mantle]], [[#Furious Battle Scythe]], [[#Call to the Blade of Righteousness]]
 
 On the field of battle, a master of the Crimson
 Pentacle Blade Style is a weapon specialist without peer.

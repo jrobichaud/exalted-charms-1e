@@ -53,7 +53,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Athletics: 3
 Minimum Essence: 2
-Prerequisite Charms: Burn Life
+Prerequisite Charms: [[#Burn Life]]
 
 With a single blow, the character consumes the
 destiny of an object, bringing that destiny partway
@@ -111,7 +111,7 @@ Duration: One day
 Type: Simple
 Minimum Athletics: 4
 Minimum Essence: 3
-Prerequisite Charms: Hungry Touch, Forgotten Earth, Inexorable Advance
+Prerequisite Charms: [[#Hungry Touch]], [[#Forgotten Earth]], [[#Inexorable Advance]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden and the Dust. The character

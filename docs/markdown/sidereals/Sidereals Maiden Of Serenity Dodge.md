@@ -42,7 +42,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 3
 Minimum Essence: 2
-Prerequisite Charms: Absence
+Prerequisite Charms: [[#Absence]]
 
 The character sees impending danger rippling toward
 her in the skein of fate and, as with Absence,
@@ -66,7 +66,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 3
 Minimum Essence: 3
-Prerequisite Charms: Duck Fate
+Prerequisite Charms: [[#Duck-Fate]]
 
 Sometimes, the best answer to trouble is not being
 there at all. In the first two turns of combat or the first
@@ -92,7 +92,7 @@ Duration: One scene
 Type: Simple
 Minimum Dodge: 4
 Minimum Essence: 2
-Prerequisite Charms: Duck Fate
+Prerequisite Charms: [[#Duck-Fate]]
 
 Generous Sidereals learn to spot impending danger
 to others as well. When activating this Charm, the
@@ -130,7 +130,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Dodge: 5
 Minimum Essence: 4
-Prerequisite Charms: Avoidance Kata, Trouble Reduction Strategy
+Prerequisite Charms: [[#Avoidance Kata]], [[#Trouble Reduction Strategy]]
 
 This Charm uses a long prayer strip marked with the
 scripture of the Hunted Maiden. The character twists it

@@ -165,7 +165,7 @@ Duration: One turn per success
 Type: Simple
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Pyre Smoke Form
+Prerequisite Charms: [[#Pyre Smoke Form]]
 
 Breeze-Carried Ash Form allows a ghost to fly through
 the air at any speed up to his maximum running pace, so
@@ -242,7 +242,7 @@ Duration: One turn per success
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 2
-Prerequisite Charms: Assassin's Subtle Escape
+Prerequisite Charms: [[#Assassin's Subtle Escape]]
 
 Motivated Shell can only be activated once a ghost
 inhabits an object through Assassin's Subtle Escape
@@ -263,7 +263,7 @@ Duration: One turn
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 2
-Prerequisite Charms: Assassin's Subtle Escape
+Prerequisite Charms: [[#Assassin's Subtle Escape]]
 
 This Charm allows the ghost to use Assassin's Subtle
 Escape to inhabit an object made of the Five Magical
@@ -287,7 +287,7 @@ Duration: Three turns
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Two World Vision, Assassin's Subtle Escape
+Prerequisite Charms: [[#Two-World Vision]], [[#Assassin's Subtle Escape]]
 
 This Arcanos allows an angry ghost to harness his rage
 into a storm of flying objects in Creation. This storm will

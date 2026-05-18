@@ -80,7 +80,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Brawl: 4
 Minimum Essence: 2
-Prerequisite Charms: Horrific Wreath
+Prerequisite Charms: [[#Horrific Wreath]]
 
 Coming to an accommodation with an enemy's
 movements, the character learns to interrupt an enemy's
@@ -110,7 +110,7 @@ Duration: One battle
 Type: Simple
 Minimum Brawl: 5
 Minimum Essence: 3
-Prerequisite Charms: Unobstructed Blow, Tolerant Strife, Crimson Palm Counterstrike
+Prerequisite Charms: [[#Unobstructed Blow]], [[#Tolerant Strife]], [[#Crimson Palm Counterstrike]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Drowning Maiden. The character knots

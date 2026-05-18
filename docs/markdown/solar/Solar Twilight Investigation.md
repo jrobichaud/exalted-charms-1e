@@ -66,7 +66,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 3
 Minimum Essence: 1
-Prerequisite Charms: Ten Magistrate Eyes
+Prerequisite Charms: [[#Ten Magistrate Eyes]]
 
 By examining the undisturbed physical evidence of
 an event, the character can reconstruct the physical
@@ -94,7 +94,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Investigation: 2
 Minimum Essence: 1
-Prerequisite Charms: Ten Magistrate Eyes
+Prerequisite Charms: [[#Ten Magistrate Eyes]]
 
 This Charm allows the character to tell if a specific
 individual is lying to her. This Charm is infallible, within its
@@ -116,7 +116,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 2
-Prerequisite Charms: Judge's Ear Technique
+Prerequisite Charms: [[#Judge's Ear Technique]]
 
 By sorting through possessions, physical evidence and so
 on left by a particular individual, an Exalted using this Charm
@@ -138,7 +138,7 @@ Duration: One scene
 Type: Simple
 Minimum Investigation: 3
 Minimum Essence: 2
-Prerequisite Charms: Judge's Ear Technique
+Prerequisite Charms: [[#Judge's Ear Technique]]
 
 An Exalted using this Charm can make her questions
 impossible to resist. During the extended interrogation of a
@@ -169,7 +169,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 5
 Minimum Essence: 3
-Prerequisite Charms: Crafty Observation Method, Evidence-Discerning Method
+Prerequisite Charms: [[#Crafty Observation Method]], [[#Evidence-Discerning Method]]
 
 By visiting the scene of an event and attuning himself to
 local Essence flows and residues, the Exalted can psychically
@@ -194,7 +194,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 2
 Minimum Essence: 1
-Prerequisite Charms: Ten Magistrate Eyes
+Prerequisite Charms: [[#Ten Magistrate Eyes]]
 
 When a character uses this Charm, he will perceive
 blood dripping from the hands of anyone within 10 yards of
@@ -218,7 +218,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 2
-Prerequisite Charms: Crafty Observation Method
+Prerequisite Charms: [[#Crafty Observation Method]]
 
 This Charm allows the Exalted to scan a crowd of
 people or a landscape, as far as the eye can see, searching
@@ -246,7 +246,7 @@ Duration: One scene
 Type: Simple
 Minimum Investigation: 3
 Minimum Essence: 2
-Prerequisite Charms: Judge's Ear Technique
+Prerequisite Charms: [[#Judge's Ear Technique]]
 
 With this Charm, an Exalt can hear the private
 whispers of guilt that underlie most speech, betraying the
@@ -276,7 +276,7 @@ Duration: Instant
 Type: Simple
 Minimum Investigation: 4
 Minimum Essence: 2
-Prerequisite Charms: Crafty Observation Method
+Prerequisite Charms: [[#Crafty Observation Method]]
 
 By touching a weapon, the character can instantly
 determine the appearance of the person who was killed by

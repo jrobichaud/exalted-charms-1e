@@ -76,7 +76,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 2
 Minimum Essence: 2
-Prerequisite Charms: Air Dragon's Sight
+Prerequisite Charms: [[#Air Dragon Sight]]
 
 Bolstered by the wings of the Air Dragon, the
 Immaculate's speed increases greatly, and she moves with
@@ -92,7 +92,7 @@ Duration: Martial Arts in turns.
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 1
-Prerequisite Charms: Air Dragon's Sight
+Prerequisite Charms: [[#Air Dragon Sight]]
 
 Not every blow struck by the Immaculates is intended
 to kill. The disciples of the Air Dragon have a special
@@ -123,7 +123,7 @@ Duration: Martial Arts in turns
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Air Dragon's Sight
+Prerequisite Charms: [[#Air Dragon Sight]]
 
 The realm of the Air Dragon is the realm of hidden
 things, concealed secrets and quiet movement. By gathering
@@ -160,7 +160,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Wind Dragon Speed, Breath-Seizing Technique, Shrouding the Body and Mind
+Prerequisite Charms: [[#Wind Dragon Speed]], [[#Breath-Seizing Technique]], [[#Shrouding the Body and Mind]]
 
 With a quick series of hand movements cutting the air
 in front of him and a deep cleansing breath, the Immaculate
@@ -190,7 +190,7 @@ Duration: Instant
 Type: Extra Actions
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Air Dragon Form
+Prerequisite Charms: [[#Air Dragon Form]]
 
 The powerful force of tornadoes can be tapped by an
 Air Immaculate, turning her into a whirlwind of death —
@@ -208,7 +208,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Tornado Offense Technique
+Prerequisite Charms: [[#Tornado Offense Technique]]
 
 By infusing an attack with a tiny bit of the gusting
 breath of the Air Dragon, an Immaculate can send a
@@ -235,7 +235,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Avenging Wind Strike
+Prerequisite Charms: [[#Avenging Wind Strike]]
 
 With a mighty Essence-focusing shout, a savage
 blast of wind issues from the character's mouth, wreaking
@@ -273,7 +273,7 @@ Duration: Martial Arts in turns
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Air Dragon Form
+Prerequisite Charms: [[#Air Dragon Form]]
 
 The Air Dragon can lighten the tread of his disciples,
 opening paths to them that are closed to their earth-bound
@@ -308,7 +308,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Cloud Treading Method
+Prerequisite Charms: [[#Cloud Treading Method]]
 
 The realm of the Air Dragon is the realm of the
 storm, and its disciples can tap into the force of this to
@@ -351,7 +351,7 @@ Duration: Martial Arts in turns
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Thunderclap Kata
+Prerequisite Charms: [[#Thunderclap Kata]]
 
 When this Charm is invoked, blue and white flickers
 of electricity arc across the character's body, lighting his
@@ -373,7 +373,7 @@ Duration: Martial Arts in turns
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Wrathful Winds Maneuver, Lightning Strike Style
+Prerequisite Charms: [[#Wrathful Winds Maneuver]], [[#Lightning Strike Style]]
 
 The Exalt becomes a whirlwind of speed and mayhem
 for the duration of the Charm. While using the Hurricane

@@ -68,7 +68,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 2
 Minimum Essence: 2
-Prerequisite Charms: Strength of Stone Technique
+Prerequisite Charms: [[#Strength of Stone Technique]]
 
 With this Charm in effect, a Dragon-Blood's skin
 gains the toughness of the native rock of the earth itself.
@@ -88,7 +88,7 @@ Duration: One turn
 Type: Supplemental
 Minimum Resistance: 2
 Minimum Essence: 2
-Prerequisite Charms: Strength of Stone Technique
+Prerequisite Charms: [[#Strength of Stone Technique]]
 
 Through this Charm, a Dragon-Blooded character
 links his own Essence to the Essence within any great mass.
@@ -113,7 +113,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 3
 Minimum Essence: 2
-Prerequisite Charms: Impervious Skin of Stone Meditation
+Prerequisite Charms: [[#Impervious Skin of Stone Meditation]]
 
 This is actually a cluster of five separate Charms, each
 offering protection from the harmful effects of the element
@@ -141,7 +141,7 @@ Duration: 5 motes, 1 Willpower
 Type: Simple
 Minimum Resistance: 3
 Minimum Essence: 3
-Prerequisite Charms: (Element) Protection Form
+Prerequisite Charms: [[#(Element) Protection Form]]
 
 The disruptive predations of beings and creatures of
 the Wyld are a constant danger to the Realm. Naturally,
@@ -162,7 +162,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 5
 Minimum Essence: 4
-Prerequisite Charms: Chaos-Warding Prana
+Prerequisite Charms: [[#Chaos-Warding Prana]]
 
 The most powerful of the Terrestrial Exalted know
 methods to shield themselves from the powerful magic of the
@@ -182,7 +182,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 3
 Minimum Essence: 2
-Prerequisite Charms: Strength of Stone Technique
+Prerequisite Charms: [[#Strength of Stone Technique]]
 
 The Exalt focuses, invoking the durability of the Earth
 as an enchantment upon his armor. The degree of benefit
@@ -209,7 +209,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 5
 Minimum Essence: 3
-Prerequisite Charms: Appropriate (Element) Protection Form
+Prerequisite Charms: [[#(Element) Protection Form|Appropriate (Element) Protection Form]]
 
 Like the lesser (Element) Protection Form upon
 which this Charm builds, Mantle of (Element) Invulnerability
@@ -238,7 +238,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 5
 Minimum Essence: 5
-Prerequisite Charms: All five Mantle of (Element) Invulnerability Charms
+Prerequisite Charms: [[#Mantle of (Element) Invulnerability|All five Mantle of (Element) Invulnerability Charms]]
 
 The Exalt dons the fivefold aegis of the Elemental
 Dragons, his anima roaring out in a gale of destructive
@@ -263,7 +263,7 @@ Duration: Instant
 Type: Simple
 Minimum Resistance: 5
 Minimum Essence: 4
-Prerequisite Charms: Chaos-Warding Prana
+Prerequisite Charms: [[#Chaos-Warding Prana]]
 
 The Dragon-Blood kneels in humble supplication
 to the Elemental Dragons, briefly setting aside his

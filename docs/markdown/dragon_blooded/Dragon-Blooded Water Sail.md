@@ -128,7 +128,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 3
 Minimum Essence: 2
-Prerequisite Charms: Hurricane-Predicting Glance
+Prerequisite Charms: [[#Hurricane-Predicting Glance]]
 
 When time is of the essence and getting a ship into
 safe harbor is more important than the crew's rest and
@@ -156,7 +156,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Sail: 4
 Minimum Essence: 2
-Prerequisite Charms: Hurricane Predicting Glance
+Prerequisite Charms: [[#Hurricane-Predicting Glance]]
 
 The finest captains and pilots can thread their ships
 through the most dangerous patches of sea, avoiding
@@ -183,7 +183,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 3
-Prerequisite Charms: Fine Passage Negotiating Style
+Prerequisite Charms: [[#Fine Passage-Negotiating Style]]
 
 A Charm favored by Wood-aspected sailors, Sturdy
 Bulkhead Concentration enhances the strength of a ship's
@@ -202,7 +202,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 3
-Prerequisite Charms: Fine Passage Negotiating Style
+Prerequisite Charms: [[#Fine Passage-Negotiating Style]]
 
 Whenever a ship under the command of a Dragon-Blooded
 with this Charm comes into contact with hostile ships
@@ -226,7 +226,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 3
 Minimum Essence: 3
-Prerequisite Charms: Storm-Outrunning Technique
+Prerequisite Charms: [[#Storm-Outrunning Technique]]
 
 By pursing her lips and whistling as she invokes this
 Charm, an Exalt can call the winds into the sails of her ship
@@ -250,7 +250,7 @@ Duration: Instant
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 3
-Prerequisite Charms: Fine Passage Negotiating Style
+Prerequisite Charms: [[#Fine Passage-Negotiating Style]]
 
 When this Charm is activated, all those who see the
 ship on which the Exalt stands perceive it as an awesome
@@ -274,7 +274,7 @@ Duration: Instant
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 3
-Prerequisite Charms: Fine Passage Negotiating Style
+Prerequisite Charms: [[#Fine Passage-Negotiating Style]]
 
 By spending 5 motes of Essence and invoking this
 Charm, an Exalt can whisper his name into the waves
@@ -300,7 +300,7 @@ Duration: Instant
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 3
-Prerequisite Charms: Pleasant Convocation of the Like-Minded
+Prerequisite Charms: [[#Pleasant Convocation of the Like-Minded]]
 
 By invoking this Charm, the Exalt summons a great
 swarm of lampreys and similar clinging creatures, which
@@ -325,7 +325,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 4
-Prerequisite Charms: Pirate-Masquerading Method
+Prerequisite Charms: [[#Pirate Masquerading Method]]
 
 This Charm invokes the powers of the Exalted to
 disguise the ship, clothing it in the appearance of an ally —
@@ -350,7 +350,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 2
-Prerequisite Charms: Storm-Outrunning Technique
+Prerequisite Charms: [[#Storm-Outrunning Technique]]
 
 This Charm is specifically designed to work with Northern air boats. The character can completely protect her air
 boat from the effects of storms. This Charm does nothing to
@@ -403,7 +403,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 4
 Minimum Essence: 2
-Prerequisite Charms: Deck-Walking Prana
+Prerequisite Charms: [[#Deck-Walking Prana]]
 
 This Charm allows the character employing it to move
 about a ship in any possible fashion and under any conditions. She can walk along the underside of a flying air boat

@@ -122,7 +122,7 @@ Duration: 10 turns
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 1
-Prerequisite Charms: Sense-Sharpening Change
+Prerequisite Charms: [[#Sense-Sharpening Change]]
 
 This Charm is actually three different Charms,
 one each for sight, for scent and taste and for hearing
@@ -155,7 +155,7 @@ Duration: Sustained
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Sense-Sharpening Change, Pack-Forming Presence
+Prerequisite Charms: [[#Sense-Sharpening Change]], [[Lunar Interaction Knowledge#Pack-Forming Presence|Pack-Forming Presence]]
 
 Using this Charm, a Lunar can attach his perceptions
 to the senses of another human or an animal. The
@@ -197,7 +197,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Perception: 2
 Minimum Essence: 1
-Prerequisite Charms: Sense-Sharpening Change
+Prerequisite Charms: [[#Sense-Sharpening Change]]
 
 Lunars are very aware of their environments and,
 thus, very difficult to ambush. When the character is
@@ -216,7 +216,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Perception: 3
 Minimum Essence: 1
-Prerequisite Charms: Ever-Wary Fox Technique
+Prerequisite Charms: [[#Ever-Wary Fox Technique]]
 
 This reflexive Charm allows a Lunar to know if he is
 being watched, either by normal senses or magic. It activates
@@ -240,7 +240,7 @@ Duration: Instant
 Type: Simple
 Minimum Wits: 2
 Minimum Essence: 1
-Prerequisite Charms: Ever-Wary Fox Technique
+Prerequisite Charms: [[#Ever-Wary Fox Technique]]
 
 Lunars with this Charm can track and predict the
 weather, using Essence to build on and extend their
@@ -269,7 +269,7 @@ Duration: Instant
 Type: Simple
 Minimum Wits: 2
 Minimum Essence: 1
-Prerequisite Charms: Ever-Wary Fox Technique
+Prerequisite Charms: [[#Ever-Wary Fox Technique]]
 
 After activating this Charm, the Lunar instinctively
 knows the direction of the Imperial Mountain.
@@ -294,7 +294,7 @@ Duration: One hour
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 3
-Prerequisite Charms: Unerring Earth Direction Sense
+Prerequisite Charms: [[#Unerring Earth-Direction Sense]]
 
 The Moonsilver-Scenting Sense hones the Lunar's
 olfactory nerves, allowing her to scent deposits of
@@ -320,7 +320,7 @@ Duration: Instant
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 1
-Prerequisite Charms: Ever-Wary Fox Technique
+Prerequisite Charms: [[#Ever-Wary Fox Technique]]
 
 Having existed on the edge of the world, Lunar Exalted
 are ever watchful for the warping effects of the Wyld.
@@ -348,7 +348,7 @@ Duration: One lunar month
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Wyld-Sensing Instincts
+Prerequisite Charms: [[#Wyld-Sensing Instincts]]
 
 A character who activates this Charm is immune to
 Wyld addiction while the Charm's effects persist. Characters
@@ -365,7 +365,7 @@ Duration: Instant
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Wyld-Sensing Instincts
+Prerequisite Charms: [[#Wyld-Sensing Instincts]]
 
 Although all Exalted can attempt to discern if
 something is safe to remove from the Wyld and will
@@ -386,7 +386,7 @@ Duration: Instant
 Type: Simple
 Minimum Intelligence: 4
 Minimum Essence: 3
-Prerequisite Charms: Wyld Object Appraisal Method, Wondrous Lunar Transformation
+Prerequisite Charms: [[#Wyld-Object Appraisal Method]], [[Lunar Shapeshifting#Wondrous Lunar Transformation|Wondrous Lunar Transformation]]
 
 A Lunar skilled in the ways of the Wyld can force his
 will upon it, causing it to accede to his whims. While he
@@ -406,7 +406,7 @@ Duration: A number of lunar months equal to permanent Essence
 Type: Simple
 Minimum Intelligence: 5
 Minimum Essence: 4
-Prerequisite Charms: Harmony With Reality Technique
+Prerequisite Charms: [[#Harmony with Reality Technique]]
 
 There are many places on the edges of Creation that
 are kept safe only through the use of ancient rituals,
@@ -433,7 +433,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Heightened Sight Method
+Prerequisite Charms: [[#Heightened (Sense) Methods|Heightened Sight Method]]
 
 By means of this Charm, a Lunar modifies the shape
 of his face and the nature of his eyes. He gains 360-degree
@@ -452,7 +452,7 @@ Duration: One scene
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 1
-Prerequisite Charms: Heightened Sight Method
+Prerequisite Charms: [[#Heightened (Sense) Methods|Heightened Sight Method]]
 
 Using this Charm, a Lunar alters his eyes to allow
 him to see perfectly in low-light conditions. As such, he
@@ -473,7 +473,7 @@ Duration: One scene
 Type: Simple
 Minimum Manipulation: 3
 Minimum Essence: 2
-Prerequisite Charms: Night Is Day
+Prerequisite Charms: [[#Night Is Day]]
 
 Some animals can see light incomprehensible to
 humans, most often the spectral glows of heat and cold.
@@ -492,7 +492,7 @@ Duration: One scene
 Type: Simple
 Minimum Wits: 2
 Minimum Essence: 1
-Prerequisite Charms: Heightened Hearing and Touch Method
+Prerequisite Charms: [[#Heightened (Sense) Methods|Heightened Hearing and Touch Method]]
 
 This Charm allows a Lunar to understand - in
 general terms if not the exact meaning of words — any
@@ -516,7 +516,7 @@ Duration: One scene
 Type: Simple
 Minimum Wits: 3
 Minimum Essence: 2
-Prerequisite Charms: Comprehending Ears Meditation
+Prerequisite Charms: [[#Comprehending-Ears Meditation]]
 
 By activating this Charm, a Lunar can attempt to
 both understand and speak any language or dialect
@@ -544,7 +544,7 @@ Duration: One scene
 Type: Simple
 Minimum Wits: 2
 Minimum Essence: 2
-Prerequisite Charms: Comprehending Ears Meditation
+Prerequisite Charms: [[#Comprehending-Ears Meditation]]
 
 This Charm allows a Lunar to understand and communicate
 with — in general if not in precise terms — any
@@ -569,7 +569,7 @@ Duration: One scene
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Heightened Hearing and Touch Method
+Prerequisite Charms: [[#Heightened (Sense) Methods|Heightened Hearing and Touch Method]]
 
 Using this Charm — which, in any form, causes his
 ears to enlarge and resemble those of a rabbit or stiff-eared
@@ -603,7 +603,7 @@ Duration: One scene
 Type: Simple
 Minimum Perception: 4
 Minimum Essence: 2
-Prerequisite Charms: Rabbit Ear Method
+Prerequisite Charms: [[#Rabbit-Ear Method]]
 
 By focusing his hearing, a Lunar can build a mental
 picture of the surrounding area. Unlike the Rabbit Ear
@@ -655,7 +655,7 @@ Duration: Instant
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Heightened Smell and Taste Method
+Prerequisite Charms: [[#Heightened (Sense) Methods|Heightened Smell and Taste Method]]
 
 Using this Charm, a Lunar can immediately sense
 the blood ties between other individuals. A Lunar's
@@ -681,7 +681,7 @@ Duration: One day
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Heightened Smell and Taste Method
+Prerequisite Charms: [[#Heightened (Sense) Methods|Heightened Smell and Taste Method]]
 
 By means of the Charm, a Lunar can track an
 opponent (or opponents) through almost any terrain.
@@ -704,7 +704,7 @@ Duration: Instant
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 2
-Prerequisite Charms: Heightened Smell and Taste Method
+Prerequisite Charms: [[#Heightened (Sense) Methods|Heightened Smell and Taste Method]]
 
 Using this Charm, a Lunar can sense the emotional
 state of her subject, even if there are no outward signs.
@@ -730,7 +730,7 @@ Duration: One scene
 Type: Simple
 Minimum Perception: 4
 Minimum Essence: 2
-Prerequisite Charms: Emotion-Revealing Scent
+Prerequisite Charms: [[#Emotion-Revealing Scent]]
 
 By observing subtle physical and chemical responses
 in his subject, a Lunar can determine whether a person

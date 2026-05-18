@@ -146,7 +146,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 3
 Minimum Essence: 2
-Prerequisite Charms: Threshold Warding Stance
+Prerequisite Charms: [[#Threshold-Warding Stance]]
 
 When this Charm is activated, the Dragon-Blooded's
 dives to avoid attack become truly pronounced. The
@@ -168,7 +168,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 4
 Minimum Essence: 2
-Prerequisite Charms: Hopping Firecracker Evasion
+Prerequisite Charms: [[#Hopping Firecracker Evasion]]
 
 This altruistic Charm allows its wielder to move his
 allies out of the way of incoming attacks. When he
@@ -211,7 +211,7 @@ Duration: One scene
 Type: Simple
 Minimum Dodge: 4
 Minimum Essence: 2
-Prerequisite Charms: Flickering Candle Meditation
+Prerequisite Charms: [[#Flickering Candle Meditation]]
 
 The Exalted conjures up a visual distraction for his
 enemies, allowing his allies to more easily avoid their blows.
@@ -242,7 +242,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 4
 Minimum Essence: 2
-Prerequisite Charms: Flickering Candle Meditation
+Prerequisite Charms: [[#Flickering Candle Meditation]]
 
 In a fashion similar to Virtuous Negation Defense, the
 Dragon-Blooded moves toward another person as an attack
@@ -268,7 +268,7 @@ Duration: One scene
 Type: Simple
 Minimum Dodge: 5
 Minimum Essence: 3
-Prerequisite Charms: Safety Among Enemies
+Prerequisite Charms: [[#Safety Among Enemies]]
 
 This Charm creates a coruscating aura of fire that,
 radiates for a few feet around the Exalted who activates it.
@@ -296,7 +296,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 5
 Minimum Essence: 3
-Prerequisite Charms: Virtuous Negation Defense, Smoke Obscuring Effect, Safety Among Enemies
+Prerequisite Charms: [[#Virtuous Negation Defense]], [[#Smoke Obscuring Effect]], [[#Safety Among Enemies]]
 
 The character's talent at avoiding attack and placing
 himself to take advantage of a foe's weakness has been
@@ -319,7 +319,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Dodge: 5
 Minimum Essence: 4
-Prerequisite Charms: Smoldering Karma Strike
+Prerequisite Charms: [[#Smoldering Karma Strike]]
 
 Perhaps the most difficult of all the Dodge Charms
 known to the Dragon-Blooded, Unassailable Body of Flame

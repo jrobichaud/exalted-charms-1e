@@ -145,7 +145,7 @@ Duration: One scene
 Type: Simple
 Minimum Presence: 3
 Minimum Essence: 2
-Prerequisite Charms: Phantom Fire-Warrior Horde
+Prerequisite Charms: [[#Phantom Fire-Warrior Horde]]
 
 The Exalted calls up a fiery passion in soldiers under his
 command, and they charge to the offensive, heedless of
@@ -192,7 +192,7 @@ Duration: One scene
 Type: Simple
 Minimum Presence: 4
 Minimum Essence: 2
-Prerequisite Charms: Glowing Coal Radiance
+Prerequisite Charms: [[#Glowing Coal Radiance]]
 
 The character's overwhelming force of personality takes
 on a life of its own, as he can stare down even the strongest foe,
@@ -215,7 +215,7 @@ Duration: One scene or instant
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Blazing Courageous Swordsmen Inspiration, Aura of Invulnerability
+Prerequisite Charms: [[#Blazing Courageous Swordsmen Inspiration]], [[#Aura of Invulnerability]]
 
 The Exalt's aura of might and his overwhelming charisma
 combine to sway the loyalty of nearly any character.
@@ -240,7 +240,7 @@ Duration: Exalt's Essence in turns
 Type: Simple
 Minimum Presence: 2
 Minimum Essence: 1
-Prerequisite Charms: Glowing Coal Radiance
+Prerequisite Charms: [[#Glowing Coal Radiance]]
 
 The Dragon-Blood becomes adept at getting an-
 other person's attention and, in so doing, making that
@@ -265,7 +265,7 @@ Duration: One turn
 Type: Simple
 Minimum Presence: 4
 Minimum Essence: 2
-Prerequisite Charms: Unbearable Taunt Technique
+Prerequisite Charms: [[#Unbearable Taunt Technique]]
 
 The character using this Charm becomes an irresistible
 target to the Charm's subject. The target of this Charm will
@@ -351,7 +351,7 @@ Duration: Instant
 Type: Simple
 Minimum Presence: 4
 Minimum Essence: 3
-Prerequisite Charms: Aura of Invulnerability
+Prerequisite Charms: [[#Aura of Invulnerability]]
 
 The Dragon-Blood using this Charm binds his powerful
 affinity with the Fire Dragon to his voice, resulting in

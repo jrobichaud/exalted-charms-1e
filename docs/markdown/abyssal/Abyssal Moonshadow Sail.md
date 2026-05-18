@@ -59,7 +59,7 @@ Duration: One day
 Type: Reflexive
 Minimum Sail: 3
 Minimum Essence: 2
-Prerequisite Charms: Master Sailor's Memory
+Prerequisite Charms: [[#Master Sailor's Memory]]
 
 The character digs deeper into the memories of sailors
 long dead, allowing the stolen expertise to guide his every
@@ -80,7 +80,7 @@ Duration: One day
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 3
-Prerequisite Charms: Ghost on the Deck
+Prerequisite Charms: [[#Ghost on the Deck]]
 
 Channeling the Essence of the Underworld and his
 own life force, the character may reduce a crew's need for
@@ -116,7 +116,7 @@ Duration: One day
 Type: Reflexive
 Minimum Sail: 3
 Minimum Essence: 2
-Prerequisite Charms: Master Sailor's Memory
+Prerequisite Charms: [[#Master Sailor's Memory]]
 
 With this Charm, a character channels Essence to
 patch the rips and tears of a damaged sail and rigging. The
@@ -137,7 +137,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 2
-Prerequisite Charms: Phantom Sail Technique
+Prerequisite Charms: [[#Phantom Sail Technique]]
 
 The Abyssal stands on deck, arms upraised and
 crackling with Essence as she summons a cold wind from
@@ -160,7 +160,7 @@ Duration: One scene
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 3
-Prerequisite Charms: Ghost on the Deck, Ghost Wind Prana
+Prerequisite Charms: [[#Ghost on the Deck]], [[#Ghost Wind Prana]]
 
 With this Charm, an Abyssal can extend a zone of
 stillness from him, displacing even the fiercest gales
@@ -189,7 +189,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Sail: 5
 Minimum Essence: 2
-Prerequisite Charms: Ghost Wind Prana
+Prerequisite Charms: [[#Ghost Wind Prana]]
 
 By laying hands against a ship and willing Essence to
 flow through its timbers, an Abyssal with this Charm can
@@ -211,7 +211,7 @@ Duration: Special
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 3
-Prerequisite Charms: Hull-Hardening Technique
+Prerequisite Charms: [[#Hull-Hardening Technique]]
 
 The Abyssal extends his anima in a myriad of tendrils
 through the hull, caulking and patching breaches
@@ -248,7 +248,7 @@ Duration: One day
 Type: Simple
 Minimum Sail: 5
 Minimum Essence: 4
-Prerequisite Charms: Hull-Restoring Meditation
+Prerequisite Charms: [[#Hull-Restoring Meditation]]
 
 Although it is possible to strengthen and repair vessels
 with lesser Charms, an Abyssal with Unsinkable

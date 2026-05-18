@@ -58,7 +58,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 3
 Minimum Essence: 1
-Prerequisite Charms: Smooth Transition
+Prerequisite Charms: [[#Smooth Transition]]
 
 As with Smooth Transition, this Charm instantly,
 painlessly and perfectly kills its target. The target need not
@@ -79,7 +79,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 2
 Minimum Essence: 2
-Prerequisite Charms: Smooth Transition
+Prerequisite Charms: [[#Smooth Transition]]
 
 The character casts forth the violet radiance of
 Endings, stillness coming to the weave of fate. He brings
@@ -119,7 +119,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Peaceful Conclusion, Invocation of the Storm-Following Silence, Terminate Illness
+Prerequisite Charms: [[#Peaceful Conclusion]], [[#Invocation of the Storm-Following Silence]], [[#Terminate Illness]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden and the Road. The character

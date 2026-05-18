@@ -80,7 +80,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 3
 Minimum Essence: 2
-Prerequisite Charms: Language-Learning Ritual
+Prerequisite Charms: [[#Language-Learning Ritual]]
 
 The far-ranging colonial interests of the Dragon-
 Blooded combine with the Air-aspected Exalt's close
@@ -112,7 +112,7 @@ Duration: Concentration
 Type: Simple
 Minimum Linguistics: 3
 Minimum Essence: 3
-Prerequisite Charms: Thousand Tongues Meditation
+Prerequisite Charms: [[#Thousand Tongues Meditation]]
 
 This Charm allows an Exalted to &quot;hijack&quot; another's
 conversation. The effect is subtle, but it can be deadly if
@@ -153,7 +153,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 3
-Prerequisite Charms: Poisoned Tongue Technique
+Prerequisite Charms: [[#Poisoned Tongue Technique]]
 
 With more complete mastery of the Air element, the
 Dragon-Blooded can use this Charm to enhance the effect
@@ -214,7 +214,7 @@ Duration: One minute
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 3
-Prerequisite Charms: Wind-Carried Words Technique
+Prerequisite Charms: [[#Wind-Carried Words Technique]]
 
 Speech requires breath, the very air of life. Some
 Dynasts of Air can extend their senses through the air and
@@ -255,7 +255,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 5
 Minimum Essence: 2
-Prerequisite Charms: Voices on the Wind, Voice of Mastery
+Prerequisite Charms: [[#Voices on the Wind]], [[#Voice of Mastery]]
 
 A Dynast of Air can enable a group of people to know
 each other's surface thoughts. What one sees, all the others
@@ -300,7 +300,7 @@ Duration: Instant
 Type: Simple
 Minimum Linguistics: 2
 Minimum Essence: 1
-Prerequisite Charms: Language-Learning Ritual
+Prerequisite Charms: [[#Language-Learning Ritual]]
 
 In the matters of governance, commerce and
 military action that are the focus of Dynastic society,
@@ -343,7 +343,7 @@ Duration: Instant
 Type: Simple
 Minimum Linguistics: 3
 Minimum Essence: 3
-Prerequisite Charms: Cipher Missive
+Prerequisite Charms: [[#Cipher Missive]]
 
 In a society as complex and often frenetic as that
 of the Realm, the ability to smoothly convey a com-
@@ -380,7 +380,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 3
 Minimum Essence: 3
-Prerequisite Charms: Voices on the Wind, Cipher Missive
+Prerequisite Charms: [[#Voices on the Wind]], [[#Cipher Missive]]
 
 The ability to silently convey complex information
 allows for a much greater degree of coordination
@@ -434,7 +434,7 @@ Type: Simple
 Minimum Linguistics: 3
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Language-Learning Ritual
+Prerequisite Charms: [[#Language-Learning Ritual]]
 
 Ritual, Elemental Concentration Trance
 This Charm allows the Dragon-Blood to parse

@@ -88,7 +88,7 @@ Duration: One hour
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 1
-Prerequisite Charms: Waxen Ghostly Flesh
+Prerequisite Charms: [[#Waxen Ghostly Flesh]]
 
 With Nine Terrors Visage, a ghost can instantly
 assume another face without so much as moving a muscle.
@@ -146,7 +146,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Compassion: 2
 Minimum Essence: 1
-Prerequisite Charms: Waxen Ghostly Flesh
+Prerequisite Charms: [[#Waxen Ghostly Flesh]]
 
 The ghost's spirit form becomes soft and pliable upon
 impact, rendering her more resistant to damage. The
@@ -177,7 +177,7 @@ Duration: One day/success
 Type: Simple
 Minimum Compassion: 2
 Minimum Essence: 3
-Prerequisite Charms: Yielding Spirit Form
+Prerequisite Charms: [[#Yielding Spirit Form]]
 
 Steeling the Spirit lets a ghost fix in place his altered
 features or form. A Willpower roll determines how many
@@ -198,7 +198,7 @@ Duration: One scene
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 2
-Prerequisite Charms: Nine Terrors Visage, Steeling the Spirit
+Prerequisite Charms: [[#Nine Terrors Visage]], [[#Steeling the Spirit]]
 
 Ghost-Devil Form allows the ghost to adopt not just
 a new face, but rather, a new form entirely. This form can
@@ -247,7 +247,7 @@ Duration: One hour
 Type: Simple
 Minimum Compassion: 5
 Minimum Essence: 3
-Prerequisite Charms: Ghost-Devil Form
+Prerequisite Charms: [[#Ghost-Devil Form]]
 
 When Weighted With the Anchor of Flesh, a ghost
 obtains the ability to materialize in the lands of the living.
@@ -276,7 +276,7 @@ Duration: One hour per permanent Essence
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 2
-Prerequisite Charms: Waxen Ghostly Flesh
+Prerequisite Charms: [[#Waxen Ghostly Flesh]]
 
 Stolen Wax Discipline allows a ghost to reshape the
 unliving tissues of another ghost. It only works on willing
@@ -302,7 +302,7 @@ Duration: Instant or one hour
 Type: Supplementary
 Minimum Compassion: 3
 Minimum Essence: 3
-Prerequisite Charms: Stolen Wax Discipline
+Prerequisite Charms: [[#Stolen Wax Discipline]]
 Unlike Stolen Wax Discipline, Broken Mold Strike
 allows a ghost to inflict the horrors of reshaped flesh on an
 unwilling target. Using Broken Mold Strike requires a
@@ -361,7 +361,7 @@ Duration: One week per success
 Type: Supplemental
 Minimum Compassion: 4
 Minimum Essence: 3
-Prerequisite Charms: Broken Mold Strike
+Prerequisite Charms: [[#Broken Mold Strike]]
 
 Prison of the New Form enables a ghost to seal her
 target into his current form, willing or no. The character

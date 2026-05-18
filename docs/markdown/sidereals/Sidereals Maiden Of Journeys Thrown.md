@@ -90,7 +90,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 4
 Minimum Essence: 3
-Prerequisite Charms: Life Gets Worse Approach
+Prerequisite Charms: [[#Life Gets Worse Approach]]
 
 The blade of a knife is the gate between life and
 death. The target's fate is to suffer its touch. The character
@@ -144,7 +144,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 4
-Prerequisite Charms: Willful Weapon Method, Essence Thorn Practice, Pain Amplification Stratagem
+Prerequisite Charms: [[#Willful Weapon Method]], [[#Essence Thorn Practice]], [[#Pain Amplification Stratagem]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden and Shadow. The character casts

@@ -71,7 +71,7 @@ Duration: Instant
 Type: Extra Actions
 Minimum Archery: 4
 Minimum Essence: 2
-Prerequisite Charms: Any Direction Arrow
+Prerequisite Charms: [[#Any-Direction Arrow]]
 
 The character fires a number of arrows no
 greater than her Essence, which first scatter and
@@ -107,7 +107,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Archery: 4
 Minimum Essence: 3
-Prerequisite Charms: Every Direction Arrow, Opportune Shot
+Prerequisite Charms: [[#Every-Direction Arrow]], [[#Opportune Shot]]
 
 If skill does not suffice to make her shot, then a
 character may trust to the world's esteem for her. If not
@@ -126,7 +126,7 @@ Duration: One scene
 Type: Simple
 Minimum Archery: 5
 Minimum Essence: 4
-Prerequisite Charms: Generalized Ammunition Technique, Five Seasons Approach
+Prerequisite Charms: [[#Generalized Ammunition Technique]], [[#Five Seasons Approach]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Clay Maiden. The Exalt casts it into the

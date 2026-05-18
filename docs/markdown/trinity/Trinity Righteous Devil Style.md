@@ -70,7 +70,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 2
 Minimum Essence: 2
-Prerequisite Charms: Kiss of the Sun Concentration
+Prerequisite Charms: [[#Kiss of the Sun Concentration]]
 
 At this level, the character becomes more intimately
 aware of how Essence flows through her and her weapon
@@ -93,7 +93,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Kiss of the Sun Concentration
+Prerequisite Charms: [[#Kiss of the Sun Concentration]]
 With this Charm, the martial artist need not have
 her weapon in hand before Initiative is rolled to use it.
 Vibrant cobalt lightning crackles and coalesces about
@@ -112,7 +112,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Blossom of Inevitable Demise Technique
+Prerequisite Charms: [[#Blossom of Inevitable Demise Technique]]
 
 By entering this meditative state, the Exalt becomes
 a conduit for the righteous fury of the sun itself.
@@ -155,7 +155,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Lightning Draw Stance
+Prerequisite Charms: [[#Lightning Draw Stance]]
 
 Despite the superior damage capabilities of
 firewands, there are certain drawbacks to using them:
@@ -191,7 +191,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Blessing of Righteous Solar Spark Meditation, Cloud of Ebon Devils
+Prerequisite Charms: [[#Blessing of Righteous Solar Spark Meditation]], [[#Cloud of Ebon Devils]]
 
 The martial artist takes on an executioner's terrible
 stillness. Shadows seem to darken about his eyes and
@@ -224,7 +224,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Righteous Devil Form
+Prerequisite Charms: [[#Righteous Devil Form]]
 
 With this Charm, a martial artist can extend the
 range of his weapon. Upon activating this Charm, a
@@ -245,7 +245,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Phoenix Flies on Golden Wings Attack
+Prerequisite Charms: [[#Phoenix Flies on Golden Wings Attack]]
 
 The martial artist using this Charm draws a controlled,
 deep breath and holds it. She extends her senses
@@ -306,7 +306,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Righteous Devil Form
+Prerequisite Charms: [[#Righteous Devil Form]]
 
 With this Charm, the Exalt now has the ability to use
 a firewand or similar weapon in either hand without the
@@ -321,7 +321,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Twin Salamander Fist
+Prerequisite Charms: [[#Twin Salamander Fist]]
 
 Martial artists knowledgeable of this Charm are deadly
 foes, especially in close quarters, with little to hide behind.
@@ -346,7 +346,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Righteous Devil Form
+Prerequisite Charms: [[#Righteous Devil Form]]
 
 When invoking this Charm, the Celestial martial
 artist breathes deeply, tapping her inner reservoir of Essence,
@@ -365,7 +365,7 @@ Duration: Varies
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Phantom Flamebolt Prana
+Prerequisite Charms: [[#Phantom Flamebolt Prana]]
 
 A master of this style has an acute and profound
 understanding into the nature of Essence. The invisible

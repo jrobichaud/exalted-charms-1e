@@ -71,7 +71,7 @@ Duration: One scene
 Type: Simple
 Minimum Bureaucracy: 4
 Minimum Essence: 3
-Prerequisite Charms: Icy Hand
+Prerequisite Charms: [[#Icy Hand]]
 
 Sometimes, all it takes to kill a god is a word in the
 right ear. To invoke this Charm, the Exalt's player
@@ -159,7 +159,7 @@ Duration: Instant
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Terminal Sanction, Underling Invisibility Practice
+Prerequisite Charms: [[#Terminal Sanction]], [[#Underling Invisibility Practice]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden's Promise, which explodes in

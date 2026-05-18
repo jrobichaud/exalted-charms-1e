@@ -96,7 +96,7 @@ Duration: Stamina x 10 minutes
 Type: Simple
 Minimum Stamina: 3
 Minimum Essence: 3
-Prerequisite Charms: Beast Instinct Method
+Prerequisite Charms: [[#Beast Instinct Method]]
 
 Using this Charm, a Lunar replicates the breath
 control of a diving whale and need not breath for a
@@ -122,7 +122,7 @@ Duration: One day
 Type: Reflexive
 Minimum Manipulation: 4
 Minimum Essence: 3
-Prerequisite Charms: Whale-Breath Technique
+Prerequisite Charms: [[#Whale-Breath Technique]]
 
 By activating this Charm, the Lunar manipulates
 his body to form gills. This allows him to breath as well
@@ -138,7 +138,7 @@ Duration: One day
 Type: Simple
 Minimum Stamina: 3
 Minimum Essence: 2
-Prerequisite Charms: Beast Instinct Method
+Prerequisite Charms: [[#Beast Instinct Method]]
 
 By activating this Charm, the Lunar protects himself
 from cold conditions. The exact method differs from
@@ -160,7 +160,7 @@ Duration: One day
 Type: Simple
 Minimum Stamina: 3
 Minimum Essence: 2
-Prerequisite Charms: Beast Instinct Method
+Prerequisite Charms: [[#Beast Instinct Method]]
 
 This Charm has the opposite effect of Sealskin
 Endurance, resulting in a lean, sleek Lunar adapted to
@@ -182,7 +182,7 @@ Duration: 10 turns
 Type: Simple
 Minimum Stamina: 3
 Minimum Essence: 3
-Prerequisite Charms: Heat Adapting Method
+Prerequisite Charms: [[#Heat-Adapting Method]]
 
 By means of this Charm, the Lunar can — for a
 short time — resist the effects of fire. He may walk
@@ -202,7 +202,7 @@ Duration: One scene
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 1
-Prerequisite Charms: Beast Instinct Method
+Prerequisite Charms: [[#Beast Instinct Method]]
 
 Using this Charm, a Lunar can unerringly find
 shelter for himself and a number of associates. The
@@ -224,7 +224,7 @@ Duration: Varies
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 1
-Prerequisite Charms: Beast Instinct Method
+Prerequisite Charms: [[#Beast Instinct Method]]
 
 By using this Charm, a Lunar will never go hungry.
 If he is traveling during the day in hospitable terrain,
@@ -251,7 +251,7 @@ Duration: Varies
 Type: Simple
 Minimum Perception: 3
 Minimum Essence: 1
-Prerequisite Charms: Beast Instinct Method
+Prerequisite Charms: [[#Beast Instinct Method]]
 
 Using this Charm, a Lunar can find sufficient water
 to meet his needs for a day. This moisture may be from
@@ -276,7 +276,7 @@ Duration: Until released
 Type: Simple
 Minimum Stamina: 4
 Minimum Essence: 2
-Prerequisite Charms: Food-Scenting Method, Water-Providing Technique
+Prerequisite Charms: [[#Food-Scenting Method]], [[#Water-Providing Technique]]
 
 Many wild beasts can go for days without nourishment,
 and the Wolf Endurance Method allows the Lunar
@@ -301,7 +301,7 @@ Duration: 1 month
 Type: Simple
 Minimum Stamina: 4
 Minimum Essence: 2
-Prerequisite Charms: Wolf Endurance Method
+Prerequisite Charms: [[#Wolf-Endurance Method]]
 
 By activating this Charm, the Lunar can place
 himself in a deep sleep, during which time he need not
@@ -329,7 +329,7 @@ Duration: One day
 Type: Simple
 Minimum Stamina: 4
 Minimum Essence: 3
-Prerequisite Charms: Wolf Endurance Method
+Prerequisite Charms: [[#Wolf-Endurance Method]]
 
 Constant activity places a great strain on the body,
 and even Exalts become fatigued after prolonged activity.
@@ -354,7 +354,7 @@ Duration: One day
 Type: Simple
 Minimum Stamina: 3
 Minimum Essence: 2
-Prerequisite Charms: Wolf Endurance Method
+Prerequisite Charms: [[#Wolf-Endurance Method]]
 
 By using Essence to reinvigorate his limbs, a Lunar
 can go for 24 hours without sleep and suffer no penalties
@@ -399,7 +399,7 @@ Duration: Varies
 Type: Reflexive
 Minimum Stamina: 4
 Minimum Essence: 2
-Prerequisite Charms: Pain-Numbing Prana
+Prerequisite Charms: [[#Pain-Numbing Prana]]
 
 Will of the Stoic Warrior allows the Lunar to suppress
 moderate to severe pain, such as the result of severe
@@ -418,7 +418,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Stamina: 5
 Minimum Essence: 3
-Prerequisite Charms: Will of the Stoic Warrior
+Prerequisite Charms: [[#Will of the Stoic Warrior]]
 
 By calling on Luna's Fortitude, a Lunar ignores all
 wounds, period. Any wounds already present remain,
@@ -464,7 +464,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Stamina: 3
 Minimum Essence: 2
-Prerequisite Charms: Infection-Resisting Method
+Prerequisite Charms: [[#Infection-Resisting Method]]
 
 Using this Charm, a Lunar Exalted can purge his
 body of even the foulest plagues and infections. When
@@ -481,7 +481,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Stamina: 3
 Minimum Essence: 1
-Prerequisite Charms: Infection-Resisting Method
+Prerequisite Charms: [[#Infection-Resisting Method]]
 
 The minor contusions represented by bashing damage
 are of almost negligible concern to a Lunar Exalted,
@@ -506,7 +506,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Stamina: 3
 Minimum Essence: 2
-Prerequisite Charms: Bruise-Relief Technique
+Prerequisite Charms: [[#Bruise Relief Technique]]
 
 By exploiting his shapeshifting abilities, a Lunar
 Exalted is able to quickly deal with cuts and other
@@ -534,7 +534,7 @@ Duration: Instant
 Type: Simple
 Minimum Wits: 2
 Minimum Essence: 2
-Prerequisite Charms: Infection-Resisting Method
+Prerequisite Charms: [[#Infection-Resisting Method]]
 
 Using this Charm while licking a subject's wounds
 or breathing vapors into her face allows the Lunar to use
@@ -552,7 +552,7 @@ Duration: Instant
 Type: Simple
 Minimum Perception: 4
 Minimum Essence: 3
-Prerequisite Charms: Halting the Scarlet Flow, Lick Wound
+Prerequisite Charms: [[#Halting the Scarlet Flow]], [[#Lick Wound]]
 
 By infusing his hands with Essence and touching a
 subject's wounds, a Lunar is able to heal or alleviate those

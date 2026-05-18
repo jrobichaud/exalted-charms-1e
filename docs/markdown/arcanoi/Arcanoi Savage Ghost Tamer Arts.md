@@ -81,7 +81,7 @@ Duration: Instant
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 1
-Prerequisite Charms: Taste the Demon Wind
+Prerequisite Charms: [[#Taste the Demon Wind]]
 
 Summoning a hungry ghost — or a pack of them — is
 not the brightest thing a ghost can do. However, there are
@@ -125,7 +125,7 @@ Duration: One hour
 Type: Simple
 Minimum Valor: 4
 Minimum Essence: 3
-Prerequisite Charms: Call the Ravening Hound
+Prerequisite Charms: [[#Call the Ravening Hound]]
 
 Hungry ghosts are relentless, savage hunters. This is why
 many ghosts find it useful to unleash them on their enemies.
@@ -162,7 +162,7 @@ Duration: One scene
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 1
-Prerequisite Charms: Call the Ravening Hound
+Prerequisite Charms: [[#Call the Ravening Hound]]
 
 The flip side of detecting the location of a nearby
 hungry ghost is preventing it from detecting you. While
@@ -235,7 +235,7 @@ Duration: Instant
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 2
-Prerequisite Charms: Call the Ravening Hound
+Prerequisite Charms: [[#Call the Ravening Hound]]
 
 There are times when it is not enough to divert a
 hungry ghost. Occasionally, it is useful to harness the
@@ -279,7 +279,7 @@ Duration: One scene
 Type: Simple
 Minimum Valor: 2
 Minimum Essence: 3
-Prerequisite Charms: Command the Hungry Devil
+Prerequisite Charms: [[#Command the Hungry Devil]]
 
 Dust Commands Litany is an extension of the power
 of Command the Hungry Devil. Rather than a single
@@ -298,7 +298,7 @@ Duration: One month
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 3
-Prerequisite Charms: Tame the Wicked Appetite, Command the Hungry Devil
+Prerequisite Charms: [[#Tame the Wicked Appetite]], [[#Command the Hungry Devil]]
 
 There are some among the dead who devote their
 existence to dealing with the scourge of hungry ghosts in
@@ -337,7 +337,7 @@ Duration: Instant
 Type: Simple
 Minimum Valor: 3
 Minimum Essence: 3
-Prerequisite Charms: Ghostly Harness Exercise
+Prerequisite Charms: [[#Ghostly Harness Exercise]]
 
 Spirit-Handling Leash is not nearly so powerful as its
 prerequisite. It does, however, have one virtue that Ghostly

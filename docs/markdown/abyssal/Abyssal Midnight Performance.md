@@ -56,7 +56,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Performance: 3
 Minimum Essence: 2
-Prerequisite Charms: Haunting Inflection Trick
+Prerequisite Charms: [[#Haunting Inflection Trick]]
 
 A deathknight can channel Essence into a mourn-
 ful song so that members of his audience, willing or
@@ -83,7 +83,7 @@ Duration: Instant
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 2
-Prerequisite Charms: Withering Dirge
+Prerequisite Charms: [[#Withering Dirge]]
 
 An Abyssal with this Charm can transform her voice
 into a terrible weapon. The character opens her mouth
@@ -106,7 +106,7 @@ Duration: Special
 Type: Simple
 Minimum Performance: 4
 Minimum Essence: 2
-Prerequisite Charms: Haunting Inflection Trick
+Prerequisite Charms: [[#Haunting Inflection Trick]]
 
 Preaching the veneration of death and the dead is
 seen as a sacred obligation by many deathknights. Such
@@ -162,7 +162,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 2
-Prerequisite Charms: Haunting Inflection Trick, Morbid Fascination Style
+Prerequisite Charms: [[#Haunting Inflection Trick]], [[#Morbid Fascination Style]]
 
 An Abyssal with this Charm can inflame or harden
 the passions of the living and the dead alike. The character
@@ -200,7 +200,7 @@ Duration: One scene
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 3
-Prerequisite Charms: Withering Dirge, Heart-Sculpting Oration
+Prerequisite Charms: [[#Withering Dirge]], [[#Heart-Sculpting Oration]]
 
 An Abyssal Exalt who knows this Charm can radiate
 a nimbus of cold dread that saps the morale of enemies. All
@@ -220,7 +220,7 @@ Duration: One week
 Type: Simple
 Minimum Performance: 5
 Minimum Essence: 3
-Prerequisite Charms: Morale-Shattering Method
+Prerequisite Charms: [[#Morale-Shattering Method]]
 
 Although many deathknight generals prefer mute
 legions of zombies to unpredictable mortal troops, a few

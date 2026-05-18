@@ -91,7 +91,7 @@ Duration: One Scene
 Type: Simple
 Minimum Craft: 2
 Minimum Essence: 1
-Prerequisite Charms: Flawless Handiwork Method
+Prerequisite Charms: [[#Flawless Handiwork Method]]
 
 This Charm strengthens objects, allowing them to
 endure far more damage than normal. Very fragile objects
@@ -119,7 +119,7 @@ Duration: Instant
 Type: Simple
 Minimum Craft: 3
 Minimum Essence: 2
-Prerequisite Charms: Object-Strengthening Touch
+Prerequisite Charms: [[#Object-Strengthening Touch]]
 
 Objects subjected to this Charm do not have the immense
 durability of objects subjected to Object-Strengthening
@@ -142,7 +142,7 @@ Duration: Instant
 Type: Simple
 Minimum Craft: 3
 Minimum Essence: 2
-Prerequisite Charms: Object-Strengthening Touch
+Prerequisite Charms: [[#Object-Strengthening Touch]]
 
 Someone who works with a material for a long time
 learns its strengths and weaknesses. A character who knows
@@ -165,7 +165,7 @@ Duration: One scene
 Type: Simple
 Minimum Craft: 5
 Minimum Essence: 3
-Prerequisite Charms: Shattering Grasp
+Prerequisite Charms: [[#Shattering Grasp]]
 
 The greatest burden of a craftsman is the pressing need for
 tools and a workshop. For an Exalted who has mastered this
@@ -183,7 +183,7 @@ Duration: Instant
 Type: Simple
 Minimum Craft: 4
 Minimum Essence: 2
-Prerequisite Charms: Object-Strengthening Touch
+Prerequisite Charms: [[#Object-Strengthening Touch]]
 The ravages of the Wyld can twist objects, as well as men. For
 every object that is made better suited to its task, 100 are ruined by
 the energies of unbounded change. This Charm makes an object
@@ -204,7 +204,7 @@ Duration: Instant
 Type: Simple
 Minimum Craft: 5
 Minimum Essence: 3
-Prerequisite Charms: Craftsman Needs No Tools, Durability-Enhancing Technique
+Prerequisite Charms: [[#Craftsman Needs No Tools]], [[#Durability-Enhancing Technique]]
 
 A character using the Crack-Mending Technique can fix
 any broken object, no matter how severely damaged, so long as
@@ -232,7 +232,7 @@ Type: Simple
 Minimum Craft: 5
 Minimum Occult: 3
 Minimum Essence: 3
-Prerequisite Charms: Flawless Handiwork Method
+Prerequisite Charms: [[#Flawless Handiwork Method]]
 
 A Solar who truly masters some form of representational
 art — most obviously painting, but other possibilities
@@ -276,7 +276,7 @@ Duration: One hour
 Type: Simple
 Minimum Craft: 2
 Minimum Essence: 2
-Prerequisite Charms: Shattering Grasp
+Prerequisite Charms: [[#Shattering Grasp]]
 
 This Charm enables a Solar to spin raw stone into
 flexible thread or yarn. Rock thread is fireproof but no
@@ -306,7 +306,7 @@ Duration: Variable
 Type: Simple
 Minimum Craft: 3
 Minimum Essence: 2
-Prerequisite Charms: Object-Strengthening Touch
+Prerequisite Charms: [[#Object-Strengthening Touch]]
 
 Characters utilizing this Charm can mold
 edible food out of any other material, be it rock,
@@ -336,7 +336,7 @@ Duration: One scene
 Type: Simple
 Minimum Craft: 2
 Minimum Essence: 1
-Prerequisite Charms: Flawless Handiwork Method
+Prerequisite Charms: [[#Flawless Handiwork Method]]
 
 With this Charm, an Exalted can purify base metal or
 other raw substances of natural taints and flaws, working
@@ -365,7 +365,7 @@ Duration: One scene
 Type: Simple
 Minimum Craft: 3
 Minimum Essence: 2
-Prerequisite Charms: Object-Strengthening Touch
+Prerequisite Charms: [[#Object-Strengthening Touch]]
 
 This Charm allows an Exalt to confer physical integrity
 upon a living being, human or animal, just as he
@@ -392,7 +392,7 @@ Duration: Instant
 Type: Simple
 Minimum Craft: 4
 Minimum Essence: 2
-Prerequisite Charms: Shattering Grasp
+Prerequisite Charms: [[#Shattering Grasp]]
 
 This Charm enables an Exalted to shake the foundations
 of buildings and pound down walls with his bare fists
@@ -419,7 +419,7 @@ Duration: One year
 Type: Simple
 Minimum Craft: 5
 Minimum Essence: 3
-Prerequisite Charms: Chaos-Resistance Preparation
+Prerequisite Charms: [[#Chaos-Resistance Preparation]]
 
 With this Charm, an Exalted can create objects that
 are not only resistant to the effects of the Wyld, but also

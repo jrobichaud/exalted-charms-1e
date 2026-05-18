@@ -85,7 +85,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Brawl: 3
 Minimum Essence: 2
-Prerequisite Charms: Dead Man's Grasp
+Prerequisite Charms: [[#Dead Man's Grasp]]
 
 Fueling his hunger with Essence, an Abyssal with this
 Charm can drain blood far more quickly. The Exalt can
@@ -102,7 +102,7 @@ Duration: Until released
 Type: Supplemental
 Minimum Brawl: 3
 Minimum Essence: 2
-Prerequisite Charms: Dead Man's Grasp
+Prerequisite Charms: [[#Dead Man's Grasp]]
 
 With this Charm, an Abyssal can grab a victim and
 choke him to death without making a sound. The player
@@ -131,7 +131,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 4
 Minimum Essence: 2
-Prerequisite Charms: Inescapable Iron Grip
+Prerequisite Charms: [[#Inescapable Iron Grip]]
 
 The character surges forward in a burst of speed,
 allowing him to grab and pin an enemy before she can
@@ -172,7 +172,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 2
 Minimum Essence: 2
-Prerequisite Charms: Ravaging Strike
+Prerequisite Charms: [[#Ravaging Strike]]
 
 The Abyssal concentrates his anima into a roiling
 corona of Oblivion. His attack inflicts normal damage,
@@ -191,7 +191,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Brawl: 3
 Minimum Essence: 2
-Prerequisite Charms: Ravaging Strike
+Prerequisite Charms: [[#Ravaging Strike]]
 
 With this Charm, the character envelops her hand in
 a cyclone of howling shadows. With a normal strike or
@@ -211,7 +211,7 @@ Duration: Instant
 Type: Supplementary
 Minimum Brawl: 4
 Minimum Essence: 2
-Prerequisite Charms: Lashing Tempest Attack
+Prerequisite Charms: [[#Lashing Tempest Attack]]
 
 The character strikes with horrible crushing force,
 inflicting lethal wounds with her assault. If she inflicts at
@@ -232,7 +232,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Brawl: 4
 Minimum Essence: 2
-Prerequisite Charms: Lashing Tempest Attack
+Prerequisite Charms: [[#Lashing Tempest Attack]]
 
 The character sprouts wicked bone claws from his
 fingers, allowing him to inflict Strength + 1 lethal damage
@@ -247,7 +247,7 @@ Duration: Instant
 Type: Supplementary
 Minimum Brawl: 5
 Minimum Essence: 2
-Prerequisite Charms: Five Knife Strike
+Prerequisite Charms: [[#Five Knife Strike]]
 
 The Abyssal delivers a vicious open-handed blow to
 an enemy. In addition to inflicting lethal damage, her
@@ -272,7 +272,7 @@ Duration: One scene
 Type: Simple
 Minimum Brawl: 5
 Minimum Essence: 3
-Prerequisite Charms: Blood-Drinking Palm
+Prerequisite Charms: [[#Blood-Drinking Palm]]
 
 With a painful surge of Essence, the Abyssal transforms
 her blood into deadly weapons. At the end of the

@@ -53,7 +53,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Awareness: 3
 Minimum Essence: 2
-Prerequisite Charms: Prior Warning
+Prerequisite Charms: [[#Prior Warning]]
 
 The character has a general idea of the bad things
 that will happen to him in the course of his life. When
@@ -75,7 +75,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 3
 Minimum Essence: 3
-Prerequisite Charms: Expected Pain
+Prerequisite Charms: [[#Expected Pain]]
 
 The character can see the web of fate around her as
 it cascades into the unavoidable reality of the present.
@@ -160,7 +160,7 @@ Duration: Instant
 Type: Simple
 Minimum Awareness: 5
 Minimum Essence: 4
-Prerequisite Charms: Supernal Awareness, Wise Choice, Inevitable Pursuit
+Prerequisite Charms: [[#Supernal Awareness]], [[#Wise Choice]], [[#Inevitable Pursuit]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden and the Scythe. The character

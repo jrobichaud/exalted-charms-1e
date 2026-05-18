@@ -40,7 +40,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 3
-Prerequisite Charms: Wyld Armor
+Prerequisite Charms: [[#Wyld Armor]]
 
 Using this Charm, a spirit can defend a tribe or
 other large group from the ravages of the Wyld. The
@@ -62,7 +62,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 4
-Prerequisite Charms: Wyld Shield
+Prerequisite Charms: [[#Wyld Shield]]
 
 Using this Charm, the spirit can protect a number
 of people from the Wyld equal to twice her

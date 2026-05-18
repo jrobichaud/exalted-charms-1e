@@ -87,7 +87,7 @@ Duration: One scene
 Type: Simple
 Minimum Temperance: 1
 Minimum Essence: 1
-Prerequisite Charms: Aura-Reading Technique
+Prerequisite Charms: [[#Aura-Reading Technique]]
 
 Delicious Essence Scent does not allow a ghost to
 determine how much Essence someone contains. Rather,
@@ -116,7 +116,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Temperance: 1
 Minimum Essence: 2
-Prerequisite Charms: Delicious Essence Scent
+Prerequisite Charms: [[#Delicious Essence Scent]]
 
 Essence-Devouring Ghost Touch lets a ghost absorb
 another ghost's Essence through the brush of a fingertip.
@@ -164,7 +164,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Temperance: 2
 Minimum Essence: 2
-Prerequisite Charms: Essence-Devouring Ghost Touch
+Prerequisite Charms: [[#Essence-Devouring Ghost Touch]]
 
 Ravening Life-Force Hunger removes the protection the
 living have against the scourge of Essence-Devouring Ghost
@@ -193,7 +193,7 @@ Duration: One scene
 Type: Simple
 Minimum Temperance: 2
 Minimum Essence:2
-Prerequisite Charms: Ravening Life-Force Hunger
+Prerequisite Charms: [[#Ravening Life-Force Hunger]]
 Blood-Drinking Thirst does not literally drain blood
 or, indeed, any fluid from the victim, but it does allow
 the ghost to steal the strength of a being besides another
@@ -216,7 +216,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Temperance: 2
 Minimum Essence: 2
-Prerequisite Charms: Essence-Devouring Ghost Touch
+Prerequisite Charms: [[#Essence-Devouring Ghost Touch]]
 
 Blending the Streams of Essence reverses the flow of
 energy from Essence-Devouring Ghost Touch. Instead of
@@ -250,7 +250,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 2
 Minimum Essence: 2
-Prerequisite Charms: Blending the Streams of Essence
+Prerequisite Charms: [[#Blending the Streams of Essence]]
 
 Feeding Life's Fountain allows a ghost to transfer his
 Essence to a living recipient. All of the rules and restrictions
@@ -277,7 +277,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 3
-Prerequisite Charms: Blending the Streams of Essence
+Prerequisite Charms: [[#Blending the Streams of Essence]]
 
 Masters of this technique create the gems and crystals
 laden with Essence that fuel the Underworld's society.
@@ -312,7 +312,7 @@ Duration: Special
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 3
-Prerequisite Charms: Feeding Life's Fountain
+Prerequisite Charms: [[#Feeding Life's Fountain]]
 
 With this Arcanos, a ghost may sire offspring with a
 human, God-Blood or Exalted woman. The ghost must be

@@ -77,7 +77,7 @@ Duration: Instant
 Type: Simple
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Earnest Creditor Technique
+Prerequisite Charms: [[#Earnest Creditor Technique]]
 
 The wise customer takes on only as much debt as he
 knows he can afford to pay back. This Arcanos allows a
@@ -97,7 +97,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Jangling Coin Pouch Sense
+Prerequisite Charms: [[#Jangling Coin Pouch Sense]]
 
 Unlike Careful Debtor Stance, Bold Thief's Way
 enables a ghost-thief or unethical ghost-merchant to
@@ -120,7 +120,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 2
 Minimum Essence: 3
-Prerequisite Charms: Jangling Coin Pouch Sense
+Prerequisite Charms: [[#Jangling Coin Pouch Sense]]
 
 Living descendants of ghosts who have sufficient
 filial piety to remember and honor their ancestors often
@@ -152,7 +152,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 3
-Prerequisite Charms: Bold Thief's Way
+Prerequisite Charms: [[#Bold Thief's Way]]
 
 Ghosts have a difficult time healing damage. Typically,
 they must use Arcanoi or enter Slumber to do so.
@@ -173,7 +173,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 3
-Prerequisite Charms: Bold Thief's Way
+Prerequisite Charms: [[#Bold Thief's Way]]
 
 This Arcanos turns Essence into coinage. To properly
 replicate the local coin, the ghost's player rolls

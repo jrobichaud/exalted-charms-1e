@@ -60,7 +60,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Craft: 3
 Minimum Essence: 2
-Prerequisite Charms: Fault-Finding Scrutiny
+Prerequisite Charms: [[#Fault-Finding Scrutiny]]
 
 The Exalt channels corrosive Essence directly into an
 object, triggering rapid decay. (Material) Withering
@@ -85,7 +85,7 @@ Duration: Instant
 Type: Simple
 Minimum Craft: 4
 Minimum Essence: 2
-Prerequisite Charms: Fault-Finding Scrutiny
+Prerequisite Charms: [[#Fault-Finding Scrutiny]]
 
 This Charm makes an object highly resistant to natu-
 ral and unnatural forms of decay, including corrosion, rust,
@@ -109,8 +109,7 @@ Type: Simple
 Minimum Craft: 4
 Minimum Medicine: 2
 Minimum Essence: 2
-Prerequisite Charms:Decay Resistance Preparation,
-Flesh-Mending Discipline
+Prerequisite Charms: [[#Decay Resistance Preparation]], [[Abyssal Daybreak Medicine#Flesh-Mending Discipline|Flesh-Mending Discipline]]
 With this Charm, an Abyssal can fashion prosthetics
 of iron and carved bone and affix them to living flesh as
 replacements for missing limbs. The Exalt must first build
@@ -136,7 +135,7 @@ Duration: Instant
 Type: Simple
 Minimum Craft: 5
 Minimum Essence: 3
-Prerequisite Charms: All three (Material) Withering Method Charms, Decay Resistance Preparation
+Prerequisite Charms: [[#(Material) Withering Method|All three (Material) Withering Method Charms]], [[#Decay Resistance Preparation]]
 
 This Charm allows a character to repair any broken
 object, so long as some fragment remains. The character

@@ -142,7 +142,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Dragon-Graced Weapon
+Prerequisite Charms: [[#Dragon-Graced Weapon]]
 
 Ghosts and dematerialized spirits cannot be hit by
 ordinary weapons. Though many powerful weapons can
@@ -165,7 +165,7 @@ Duration: One scene
 Type: Simple
 Minimum Melee: 4
 Minimum Essence: 3
-Prerequisite Charms: Dragon-Graced Weapon
+Prerequisite Charms: [[#Dragon-Graced Weapon]]
 
 With a few seconds' concentration, the Exalted can
 conjure up a weapon created entirely from his favored
@@ -206,7 +206,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 5
 Minimum Essence: 3
-Prerequisite Charms: Stoking Bonfire Style
+Prerequisite Charms: [[#Stoking Bonfire Style]]
 
 This particularly costly Charm is also particularly effective.
 Fiery sparks leap from the Exalted's weapon, interposing
@@ -227,7 +227,7 @@ Duration: One scene
 Type: Simple
 Minimum Melee: 4
 Minimum Essence: 2
-Prerequisite Charms: Stoking Bonfire Style
+Prerequisite Charms: [[#Stoking Bonfire Style]]
 
 With this Charm, you briefly empower a group of your
 allies to attack at greatly improved effectiveness. They are
@@ -248,7 +248,7 @@ Duration: One turn
 Type: Simple
 Minimum Melee: 5
 Minimum Essence: 2
-Prerequisite Charms: Stoking Bonfire Style
+Prerequisite Charms: [[#Stoking Bonfire Style]]
 
 There is a practical limit, imposed by geometry and space,
 on the number of people that can attack a single target at once.
@@ -281,7 +281,7 @@ Duration: Instant
 Type: Extra Actions
 Minimum Melee: 5
 Minimum Essence: 3
-Prerequisite Charms: Threshold Floor Technique
+Prerequisite Charms: [[#Threshold Floor Technique]]
 
 With this Charm, a Dragon-Blooded character can keep
 a foe entirely off-balance until he is slain, if his skill is sufficient
@@ -299,7 +299,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Melee: 2
 Minimum Essence: 3
-Prerequisite Charms: Dragon-Graced Weapon
+Prerequisite Charms: [[#Dragon-Graced Weapon]]
 
 Seen by some as a refinement of Dragon-Graced
 Weapon, Fire Incites Water to a Riot of Clouds allows the
@@ -367,7 +367,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Melee: 3
 Minimum Essence: 2
-Prerequisite Charms: Dragon-Graced Weapon
+Prerequisite Charms: [[#Dragon-Graced Weapon]]
 
 It is common in the course of combat for clashing
 weapons to give off sparks. This Charm gives the Exalt the
@@ -396,7 +396,7 @@ Duration: Essence in days
 Type: Supplemental
 Minimum Melee: 4
 Minimum Essence: 3
-Prerequisite Charms: Ghost-Fire Blade
+Prerequisite Charms: [[#Ghost-Fire Blade]]
 
 The Dragon-Blood channels Essence to her weapon
 on an attack, and if that attack succeeds, not only does the

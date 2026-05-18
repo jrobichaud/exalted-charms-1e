@@ -59,7 +59,7 @@ Duration: One scene
 Type: Simple
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Transubstantiation of Flesh
+Prerequisite Charms: [[#Transubstantiation of Flesh]]
 
 Unlike their ghostly parents, the Half-Dead retain
 both higher and lower souls. Although both halves
@@ -98,7 +98,7 @@ Duration: Instant
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Lower Soul Ascendant
+Prerequisite Charms: [[#Lower Soul Ascendant]]
 
 Building on the principles of Lower Soul Ascendant,
 a Ghost-Blood can manifest the wrath of her
@@ -133,7 +133,7 @@ Duration: Varies
 Type: Simple
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Transubstantiation of Flesh
+Prerequisite Charms: [[#Transubstantiation of Flesh]]
 
 A Ghost-Blood employing Wraith Form Transformation
 ripples and fades away with a rustling whisper, her
@@ -170,7 +170,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Conviction: 4
 Minimum Essence: 3
-Prerequisite Charms: Wraith Form Transformation
+Prerequisite Charms: [[#Wraith Form Transformation]]
 
 A Ghost-Blood with this Arcanos may dissolve into
 an incorporeal form in response to physical danger, perceived
@@ -195,7 +195,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Wraith Form Transformation
+Prerequisite Charms: [[#Wraith Form Transformation]]
 
 With the activation of this Arcanos, a Ghost-Blood's
 body falls into a deep coma, and her soul flows from her

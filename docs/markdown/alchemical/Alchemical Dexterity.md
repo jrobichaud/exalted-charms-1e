@@ -40,7 +40,7 @@ Duration: Instant/one scene
 Type: Reflexive
 Minimum Dexterity: 2
 Minimum Essence: 1
-Prerequisite Charms: Dynamic Reaction Enhancement System
+Prerequisite Charms: [[#Dynamic Reaction Enhancement System]]
 
 Although the Reaction Enhancement System makes
 the Alchemical's perception-reaction cycle incredibly

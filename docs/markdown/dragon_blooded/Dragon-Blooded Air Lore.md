@@ -167,7 +167,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 4
 Minimum Essence: 3
-Prerequisite Charms: Elemental Concentration Trance
+Prerequisite Charms: [[#Elemental Concentration Trance]]
 
 Proper knowledge of the Elemental Dragons allows a
 Dynast to draw energy directly from an elemental source,
@@ -194,7 +194,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 3
-Prerequisite Charms: Elemental Empowerment Meditation
+Prerequisite Charms: [[#Elemental Empowerment Meditation]]
 
 In addition to providing raw energy, a Dynast's
 connection to the Elemental Dragons can be a source of
@@ -239,7 +239,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Elemental Bolt Attack
+Prerequisite Charms: [[#Elemental Bolt Attack]]
 
 This Charm has effects similar to Elemental Bolt
 Attack but it creates a blast of elemental power rather
@@ -262,7 +262,7 @@ Duration: One scene
 Type: Simple
 Minimum Lore: 5
 Minimum Essence: 4
-Prerequisite Charms: Elemental Empowerment Meditation, Elemental Burst Technique
+Prerequisite Charms: [[#Elemental Empowerment Meditation]], [[#Elemental Burst Technique]]
 
 Rather than just summoning a temporary damaging
 burst of elemental energy, this Charm creates a deadly
@@ -291,7 +291,7 @@ Duration: Varies
 Type: Supplemental
 Minimum Lore: 3
 Minimum Essence: 2
-Prerequisite Charms: Elemental Concentration Trance
+Prerequisite Charms: [[#Elemental Concentration Trance]]
 
 Diligence and intellect, properly applied, can
 surmount the most difficult of systemic or academic
@@ -336,7 +336,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Lore: 4
 Minimum Essence: 4
-Prerequisite Charms: Careful Insight-Gathering Study
+Prerequisite Charms: [[#Careful Insight-Gathering Study]]
 
 Sometimes, solutions to complicated problems
 are needed on the spot, without the luxury of analysis
@@ -377,7 +377,7 @@ Duration: Instant
 Type: Simple
 Minimum Lore: 3
 Minimum Essence: 3
-Prerequisite Charms: Careful Insight-Gathering Study
+Prerequisite Charms: [[#Careful Insight-Gathering Study]]
 
 With a potential lifespan of centuries, and those
 centuries almost surely densely packed with all manner
@@ -436,7 +436,7 @@ Duration: One day
 Type: Simple
 Minimum Lore: 4
 Minimum Essence: 2
-Prerequisite Charms: Elemental Concentration Trance
+Prerequisite Charms: [[#Elemental Concentration Trance]]
 
 Individual study, for a savant, may be a relaxing
 and prestigious pastime, regardless of the specific area

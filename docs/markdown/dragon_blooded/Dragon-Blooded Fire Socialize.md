@@ -119,7 +119,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 1
-Prerequisite Charms: Loquacious Courtier Technique
+Prerequisite Charms: [[#Loquacious Courtier Technique]]
 
 Nearly any gathering of Terrestrial Exalted involves
 the consumption of alcohol, often in great quantity. A
@@ -144,7 +144,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Sweeten-the-Tap Method
+Prerequisite Charms: [[#Sweeten the Tap Method]]
 
 When the Dragon-Blooded who knows this Charm is
 caught in a social situation that unexpectedly turns violent,
@@ -163,7 +163,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Loquacious Courtier Technique
+Prerequisite Charms: [[#Loquacious Courtier Technique]]
 
 In a social situation, a quick-witted Dragon-Blooded
 can often nimbly step out of a verbal pit and reestablish the
@@ -187,7 +187,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Seizing-the-Tongue Technique
+Prerequisite Charms: [[#Seizing the Tongue Technique]]
 
 The personal connections between arrogant and aggressive
 beings such as the Dragon-Blooded are often
@@ -228,7 +228,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Loquacious Courtier Technique
+Prerequisite Charms: [[#Loquacious Courtier Technique]]
 
 The Exalted coaxes the seductive aura of a flickering
 candle in the dark to coalesce around her face, and she briefly
@@ -247,7 +247,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Warm-Faced Seduction Style
+Prerequisite Charms: [[#Warm-Faced Seduction Style]]
 
 The Dragon-Blooded with Friend-to-All-Nations
 Attitude finds herself to be equally at home on the Blessed
@@ -274,7 +274,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Socialize: 5
 Minimum Essence: 3
-Prerequisite Charms: Warm-Faced Seduction Style
+Prerequisite Charms: [[#Warm-Faced Seduction Style]]
 
 This Charm enables the Dragon-Blood who uses it to
 cause a target's mind to temporarily skip over a past event
@@ -306,7 +306,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Sweeten-the-Tap Method
+Prerequisite Charms: [[#Sweeten the Tap Method]]
 
 Jade Defense is used to protect the Exalt from con
 games, seduction and intimidation attempts and similar
@@ -338,7 +338,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 4
 Minimum Essence: 2
-Prerequisite Charms: Brother-Against-Brother Insinuation
+Prerequisite Charms: [[#Brother-Against-Brother Insinuation]]
 
 Clever courtiers learn early on to watch and analyze
 every gesture made by others in a social setting to see how

@@ -72,7 +72,7 @@ Duration: One scene
 Type: Simple
 Minimum Larceny: 3
 Minimum Essence: 2
-Prerequisite Charms: Observer Awareness Method
+Prerequisite Charms: [[#Observer Awareness Method]]
 
 The greatest spies and thieves of the Realm know that
 the best way to avoid detection in their efforts is to leave as
@@ -101,7 +101,7 @@ Duration:
 Type:
 Minimum Larceny:
 Minimum Essence:
-Prerequisite Charms:
+Prerequisite Charms: 
 1 mote
 One minute
 Simple
@@ -128,7 +128,7 @@ Duration: One turn
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 2
-Prerequisite Charms: Ears of the Snowy Owl
+Prerequisite Charms: [[#Ears of the Snowy Owl]]
 
 Many a time has come when a mortal thief or spy has
 wished for the ability to see what lies beyond a doorway or
@@ -179,7 +179,7 @@ Duration: One turn
 Type: Supplemental
 Minimum Larceny: 3
 Minimum Essence: 2
-Prerequisite Charms: Resetting Tumblers Technique
+Prerequisite Charms: [[#Resetting Tumblers Technique]]
 
 The occasional orphaned Dragon-Blood on the
 streets of hinterland cities such as Nexus might grow up
@@ -204,7 +204,7 @@ Duration: Instant
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 3
-Prerequisite Charms: Window-in-the-Door Technique, Artful Sprinting Theft
+Prerequisite Charms: [[#Window-in-the-Door Technique]], [[#Artful Sprinting Theft]]
 
 With this Charm, the Exalted can cause an object
 to disappear from its current location and reappear in
@@ -307,7 +307,7 @@ Duration: Instant
 Type: Simple
 Minimum Larceny: 3
 Minimum Essence: 2
-Prerequisite Charms: Waters of Honesty Method
+Prerequisite Charms: [[#Waters of Honesty Method]]
 
 This Charm allows the character to control a single
 event during any game of chance. The character can control the
@@ -328,7 +328,7 @@ Duration: One scene
 Type: Supplemental
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Resetting Tumblers Technique
+Prerequisite Charms: [[#Resetting Tumblers Technique]]
 
 Sometimes, the most useful time to be able to pick a
 lock or open a barred door is when no one is expecting the
@@ -353,7 +353,7 @@ Duration: One scene
 Type: Simple
 Minimum Larceny: 5
 Minimum Essence: 3
-Prerequisite Charms: Perfect Gambling Prana
+Prerequisite Charms: [[#Perfect Gambling Prana]]
 
 A gambler using this Charm automatically wins whatever game she is playing. Regardless of whether the character
 is playing craps, cards, roulette or any other game of
@@ -376,7 +376,7 @@ Duration: One scene
 Type: Supplemental
 Minimum Larceny: 4
 Minimum Essence: 2
-Prerequisite Charms: Naked Thief Style
+Prerequisite Charms: [[#Naked Thief Style]]
 
 In emergencies, even the most skilled thieves and
 spies lack the time to adequately prepare a disguise. While

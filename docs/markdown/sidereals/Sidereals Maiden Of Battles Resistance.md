@@ -122,7 +122,7 @@ Duration: One scene
 Type: Simple
 Minimum Resistance: 4
 Minimum Essence: 3
-Prerequisite Charms: Red Haze, Someone Else's Destiny, Water and Fire Legion, Shield of Mars
+Prerequisite Charms: [[#Red Haze]], [[#Someone Else's Destiny]], [[#Water and Fire Legion]], [[#Shield of Mars]]
 
 This Charm uses a prayer strip marked with the
 scripture of the One-Handed Maiden. The character

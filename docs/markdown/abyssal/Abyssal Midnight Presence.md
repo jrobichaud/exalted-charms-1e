@@ -52,7 +52,7 @@ Duration: One day
 Type: Simple
 Minimum Presence: 3
 Minimum Essence: 2
-Prerequisite Charms: Elegant Tyrant's Majesty
+Prerequisite Charms: [[#Elegant Tyrant's Majesty]]
 
 An Abyssal using this Charm may issue orders to the
 dead and demand their obedience. If targeting mindless
@@ -95,7 +95,7 @@ Duration: Instant
 Type: Simple
 Minimum Presence: 3
 Minimum Essence: 3
-Prerequisite Charms: Command the Dead
+Prerequisite Charms: [[#Command the Dead]]
 
 The Abyssal channels a burst of Essence into the
 ground beneath her feet. If a largely whole skeleton is in
@@ -114,7 +114,7 @@ Duration: One scene
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Elegant Tyrant's Majesty
+Prerequisite Charms: [[#Elegant Tyrant's Majesty]]
 
 Irresistible Succubus Style heightens an Abyssal's
 cold beauty, transforming her visage to match her idealized
@@ -152,7 +152,7 @@ Duration: One turn
 Type: Simple
 Minimum Presence: 4
 Minimum Essence: 3
-Prerequisite Charms: Elegant Tyrant's Majesty
+Prerequisite Charms: [[#Elegant Tyrant's Majesty]]
 
 By staring intently at a target, an Abyssal with this
 Charm can sap that victim's will and subjugate her spirit.
@@ -184,7 +184,7 @@ Duration: Special
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Soul-Flaying Gaze
+Prerequisite Charms: [[#Soul-Flaying Gaze]]
 
 Layering his speech with a haunting chorus of voices,
 the Abyssal may implant hidden commands in a target's
@@ -215,7 +215,7 @@ Duration: One scene
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Soul-Flaying Gaze
+Prerequisite Charms: [[#Soul-Flaying Gaze]]
 
 An Abyssal with this Charm blazes with unholy
 power and radiates unimaginable soul-chilling horror,

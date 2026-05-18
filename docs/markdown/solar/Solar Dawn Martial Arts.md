@@ -209,7 +209,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 1
-Prerequisite Charms: Striking Cobra Technique
+Prerequisite Charms: [[#Striking Cobra Technique]]
 
 The character's infuses her anima with Essence, and
 it guides her body to flow with serpentine grace. By
@@ -224,7 +224,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Serpentine Evasion
+Prerequisite Charms: [[#Serpentine Evasion]]
 
 The Exalted adopts the attitude and stance of a wary
 snake - head back, ready to strike or retreat. For the rest
@@ -249,7 +249,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Snake Form
+Prerequisite Charms: [[#Snake Form]]
 
 Thought training and the use of Essence, the character
 learns to harden her fingers into talons, like the fangs of a
@@ -267,7 +267,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Essence Fangs and Scales Technique
+Prerequisite Charms: [[#Essence Fangs and Scales Technique]]
 
 The character can harden her fingers to the degree
 that they can punch through nearly anything and cause
@@ -283,7 +283,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Snake Form
+Prerequisite Charms: [[#Snake Form]]
 
 Like the snake, the Exalted defends herself by attacking.
 Whenever she is successfully attacked, the character
@@ -303,7 +303,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Snake Strikes the Heel
+Prerequisite Charms: [[#Snake Strikes the Heel]]
 
 The character makes a Martial Arts attack as normal,
 including the roll for damage. However, the attack
@@ -321,7 +321,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Snake Form
+Prerequisite Charms: [[#Snake Form]]
 
 The character infuses his anima with Essence and
 lashes out, his anima flashing forward like a striking snake.
@@ -339,7 +339,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Uncoiling Serpent Prana
+Prerequisite Charms: [[#Uncoiling Serpent Prana]]
 
 The character internalizes the reflexes and raw speed
 of a coiled snake. The player rolls the Exalted's Martial
@@ -356,7 +356,7 @@ Duration: Instant
 Type:Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Armor-Penetrating Fang Strike, Crippling Pressure-Point Strike, Striking Serpent Speed
+Prerequisite Charms: [[#Armor-Penetrating Fang Strike]], [[#Crippling Pressure-Point Strike]], [[#Striking Serpent Speed]]
 
 The character concentrates her Essence on the tips of
 two fingers, making her attack as quick as lightning and as
@@ -389,7 +389,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Crimson Leaping Cat Technique
+Prerequisite Charms: [[#Crimson Leaping Cat Technique]]
 
 The character charges her anima with Essence, which in
 turn infuses her hands with the power ofa tiger's deadly claws. Her
@@ -405,7 +405,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Striking Fury Claws Attack
+Prerequisite Charms: [[#Striking Fury Claws Attack]]
 
 The character adopts the attitude and stance of a raging
 tiger — crouching, ready to spring on its prey. While using the
@@ -427,7 +427,7 @@ Duration: One turn
 Type: Supplementary
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Tiger Form
+Prerequisite Charms: [[#Tiger Form]]
 The character can use her Essence to guide her attacks
 in imitation of a tiger leaping on its prey. If her attack strikes
 her opponent, she automatically knocks that opponent
@@ -443,7 +443,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Raging Tiger Pounce
+Prerequisite Charms: [[#Raging Tiger Pounce]]
 
 The character can infuse his hands with Essence, hardening
 them to the degree that they cause massive and deadly
@@ -464,7 +464,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Tiger Form
+Prerequisite Charms: [[#Tiger Form]]
 
 Like the tiger, the Exalted can stealthily stalk her prey.
 Whenever she sneaks up on an opponent, the character may
@@ -487,7 +487,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Stalking Cat Movement Meditation
+Prerequisite Charms: [[#Stalking Cat Movement Meditation]]
 
 The Exalted can spring from cover with the deadly force
 of a tiger leaping onto the back of an unsuspecting gazelle.
@@ -507,7 +507,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Tiger Form
+Prerequisite Charms: [[#Tiger Form]]
 
 Infusing her skin with the toughness of a tiger's hide,
 the character strengthens it against all forms of damage.
@@ -524,7 +524,7 @@ Duration: One scene
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Spine Shattering Bite, Leap From Cloaking Shadows Attack
+Prerequisite Charms: [[#Spine Shattering Bite]], [[#Leap from Cloaking Shadows Attack]]
 
 Cloaking Shadows Attack, Celestial Tiger Hide
 Burning with the passion of an enraged tiger, the character
@@ -577,7 +577,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essences 2
-Prerequisite Charms: Image of Death Technique
+Prerequisite Charms: [[#Image of Death Technique]]
 
 The character using this Charm can climb walls,
 ropes, chains and other vertical surfaces as easily as he can
@@ -595,7 +595,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Wall Climbing Technique
+Prerequisite Charms: [[#Wall-Climbing Technique]]
 
 The character can make a complex sign with her
 fingers and charge it with Essence. This sign distracts and
@@ -617,7 +617,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Distracting Finger-Gesture Attack
+Prerequisite Charms: [[#Distracting Finger-Gesture Attack]]
 
 The Exalt moves with the speed and ease of a
 flickering shadow While using the Ebon Shadow Form,
@@ -645,7 +645,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Ebon Shadow Form
+Prerequisite Charms: [[#Ebon Shadow Form]]
 
 The character uses her Essence to guide her hand,
 foot or weapon so that it strikes the weakest point in her
@@ -662,7 +662,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Seven Points of Weakness Strike
+Prerequisite Charms: [[#Seven Points of Weakness Strike]]
 
 A character trained in the Ebon Shadow Style learns
 all of the weak points found in living bodies. With a slight
@@ -695,7 +695,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Limb-Immobilizing Method
+Prerequisite Charms: [[#Limb-Immobilizing Method]]
 
 This Charm allows the character to stun or incapacitate
 a target with a mere touch to one of the five vital
@@ -727,7 +727,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Ebon Shadow Form
+Prerequisite Charms: [[#Ebon Shadow Form]]
 
 The character becomes as difficult to hit as a dimly
 lit shadow. Until her next action, add a number of dice
@@ -745,7 +745,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Elusive Flicker Evasion
+Prerequisite Charms: [[#Elusive Flicker Evasion]]
 
 The character can make an Essence-enhanced gesture
 that renders his opponent unable to notice or react to
@@ -769,7 +769,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Blow-Concealing Gesture Technique
+Prerequisite Charms: [[#Blow-Concealing Gesture Technique]]
 
 This Charm allows the character to flatten her body in
 order to pass through narrow spaces as easily as a shadow
@@ -800,7 +800,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 5
-Prerequisite Charms: Paralyzing Touch Attack, Shadow-Body Style
+Prerequisite Charms: [[#Paralyzing Touch Attack]], [[#Shadow Body Style]]
 
 In ancient times, Exalted assassins circumvented the
 protections of their enemies by stepping directly through
@@ -851,7 +851,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 1
-Prerequisite Charms: Leaping Mantis Technique
+Prerequisite Charms: [[#Leaping Mantis Technique]]
 
 The character imitates the defensive stance of
 the mantis. The Exalt can add his Martial Arts score
@@ -867,7 +867,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Iron-Arm Block
+Prerequisite Charms: [[#Iron Arm Block]]
 
 The character adopts the stance of a mantis,
 ready to strike or block in an instant. The character
@@ -893,7 +893,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 5
-Prerequisite Charms: Mantis Form
+Prerequisite Charms: [[#Mantis Form]]
 
 The character can snatch weapons away from
 opponents in combat. The character using this Charm
@@ -908,7 +908,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Grasping Claw Method
+Prerequisite Charms: [[#Grasping Claw Method]]
 
 When the character is successfully attacked, he
 may activate this Charm and immediately attempt to
@@ -925,7 +925,7 @@ Duration: One turn or one hold
 Type: Reflexive
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Mantis Form
+Prerequisite Charms: [[#Mantis Form]]
 
 The character can place an opponent in a hold
 that is difficult to break. If the character places
@@ -944,7 +944,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Joint-Locking Technique
+Prerequisite Charms: [[#Joint-Locking Technique]]
 
 Make a martial arts attack roll as normal, including
 rolling damage. However, the attack does no
@@ -960,7 +960,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Mantis Form
+Prerequisite Charms: [[#Mantis Form]]
 
 The Exalt leaps into the air and strikes out with a
 devastating kick. The character's extra attack successes
@@ -975,7 +975,7 @@ Duration: Varies
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Mantis Form
+Prerequisite Charms: [[#Mantis Form]]
 
 When the character executes a clinch attack, the
 attack does Strength + Martial Arts + 2 lethal damage
@@ -989,7 +989,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Grasping Mantis Defense, Joint-Breaking Attack, Flying Mantis Kick, Crushing Claw Technique
+Prerequisite Charms: [[#Grasping Mantis Defense]], [[#Joint-Breaking Attack]], [[#Flying Mantis Kick]], [[#Crushing Claw Technique]]
 
 During the turn this Charm is active, the character
 can launch an immediate Martial Arts
@@ -1039,7 +1039,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 1
-Prerequisite Charms: Living Shield Technique
+Prerequisite Charms: [[#Living Shield Technique]]
 
 A warrior uncaring for his safety can make attacks far
 more effectively than those who restrain themselves with
@@ -1066,7 +1066,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Living Shield Technique
+Prerequisite Charms: [[#Living Shield Technique]]
 
 Except where it serves the Illuminated Ones, the life
 of a Falling Blossom master means nothing. By learning to
@@ -1091,7 +1091,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Undefended Assault Method, Dual Scarlet Blossom Technique
+Prerequisite Charms: [[#Undefended Assault Method]], [[#Dual Scarlet Blossom Technique]]
 
 The character adopts an aggressive, dedicated stance
 as he focuses his entire mind upon the defense and desires
@@ -1138,7 +1138,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Falling Blossom Form
+Prerequisite Charms: [[#Falling Blossom Form]]
 
 Once the martial artist has achieved mastery of the
 basics of Falling Blossom Style, he learns to dedicate his
@@ -1172,7 +1172,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Falling Blossom Form
+Prerequisite Charms: [[#Falling Blossom Form]]
 
 The faith that drives the martial artist exceeds the
 limitations of his mortal frame. By channeling that power
@@ -1193,7 +1193,7 @@ Duration: One day
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Purity of Purpose Attack, Strength of Faith Meditation
+Prerequisite Charms: [[#Purity of Purpose Attack]], [[#Strength of Faith Meditation]]
 
 All warriors die, but a master of Falling Blossom Style
 chooses how and where he shall die, rather than trusting

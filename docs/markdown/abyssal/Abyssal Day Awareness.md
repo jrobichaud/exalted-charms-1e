@@ -54,7 +54,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 4
 Minimum Essence: 2
-Prerequisite Charms: Fivefold Sensory Exercise
+Prerequisite Charms: [[#Fivefold Sensory Exercise]]
 
 With a savage clawing motion, a character who
 knows this Charm may indicate an enemy in her line of
@@ -77,7 +77,7 @@ Duration: Permanent
 Type: Special
 Minimum Awareness: 4
 Minimum Essence: 2
-Prerequisite Charms: Fivefold Sensory Exercise
+Prerequisite Charms: [[#Fivefold Sensory Exercise]]
 
 The character gains a “sixth sense” that warns her
 whenever immediate danger threatens. Such premonitions
@@ -99,7 +99,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 3
 Minimum Essence: 2
-Prerequisite Charms: Fivefold Sensory Exercise
+Prerequisite Charms: [[#Fivefold Sensory Exercise]]
 
 This Charm precisely duplicates the effects of the
 Solar Charm Keen (Sense) Technique (see Exalted, p.
@@ -114,7 +114,7 @@ Duration: Permanent
 Type: Special
 Minimum Awareness: 3
 Minimum Essence: 2
-Prerequisite Charms: Superior Sight Focus
+Prerequisite Charms: [[#Superior (Sense) Focus|Superior Sight Focus]]
 
 Once an Abyssal purchases this Charm, he can thereafter
 see in darkness without penalty. His enhanced vision
@@ -140,7 +140,7 @@ Duration: One scene
 Type: Simple
 Minimum Awareness: 5
 Minimum Essence: 2
-Prerequisite Charms: Superior (Sense) Focus
+Prerequisite Charms: [[#Superior (Sense) Focus]]
 
 This Charm precisely duplicates the effects of the Solar
 Charm Unsurpassed (Sense) Discipline (see Exalted, p.

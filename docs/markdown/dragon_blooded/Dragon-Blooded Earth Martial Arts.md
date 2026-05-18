@@ -82,7 +82,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Five-Dragon Fortitude
+Prerequisite Charms: [[#Five-Dragon Fortitude]]
 
 The powerful claws of the Elemental Dragons easily
 bat away attacks upon them. This Charm lets a Dragon-Blood
@@ -121,7 +121,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Five-Dragon Claw
+Prerequisite Charms: [[#Five-Dragon Claw]]
 
 The character makes a normal martial arts attack, but
 he does double the normal base damage (extra successes do
@@ -141,7 +141,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Five-Dragon Blocking Technique, Five-Dragon-Force Blow
+Prerequisite Charms: [[#Five-Dragon Blocking Technique]], [[#Five-Dragon Force Blow]]
 
 Once a Dragon-Blooded has mastered the basic of the
 Five-Dragon Path, she may master the physical emulation
@@ -169,7 +169,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Five-Dragon Form
+Prerequisite Charms: [[#Five-Dragon Form]]
 
 With a mighty effort, the martial artist channels some
 of the raw fury of the Five Elemental Dragons. The Dynast
@@ -187,7 +187,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Five Dragon Form
+Prerequisite Charms: [[#Five-Dragon Form]]
 
 Invoking this Charm allows the Exalt to completely
 ignore damage from any single non-magical atrack. If the
@@ -204,7 +204,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Five-Dragon Invulnerability, Five-Dragon Fist
+Prerequisite Charms: [[#Five-Dragon Invulnerability]], [[#Five-Dragon Fist]]
 
 Suffused with the energy of the Five Elemental Dragons,
 the Exalted explodes into a flurry of action. His hands
@@ -251,7 +251,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Pillar of Marble Stance
+Prerequisite Charms: [[#Pillar of Marble Stance]]
 
 The Exalt performs a slow kata with both feet
 planted firmly on the earth. At the conclusion of these
@@ -307,7 +307,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 3
-Prerequisite Charms: Boulder-Crushing Grasp
+Prerequisite Charms: [[#Boulder-Crushing Grasp]]
 
 The Exalt holds an opponent with implacable
 strength, preventing any possibility of ending a locked
@@ -326,7 +326,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Fortress of One, Sliding Glacier Grip
+Prerequisite Charms: [[#Fortress of One]], [[#Sliding Glacier Grip]]
 
 The Exalt strikes an impossibly forceful blow at the
 earth beneath his feet and straightens to his full majesty.
@@ -361,7 +361,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Jade Mountain Form
+Prerequisite Charms: [[#Jade Mountain Form]]
 
 The Exalt gives ground a step and stamps thunderously
 as she suffers injury, transferring the energy of a
@@ -392,7 +392,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Pasiap Still Stands
+Prerequisite Charms: [[#Pasiap Still Stands]]
 
 The Exalt turns the leverage of weight and Essence
 to crush an opponent in a brutal, choking hold.

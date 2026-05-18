@@ -78,7 +78,7 @@ Duration: Instant
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Shun the Smiling Lady
+Prerequisite Charms: [[#Shun the Smiling Lady]]
 
 Quickly sketching a proposed relationship in the
 plans for future fate, the character increases the power
@@ -104,7 +104,7 @@ Duration: Instant
 Type: Simple
 Minimum Socialize: 4
 Minimum Essence: 2
-Prerequisite Charms: Cash and Murder Games
+Prerequisite Charms: [[#Cash and Murder Games]]
 
 As with legal crimes, the right tricks can make social
 crimes... disappear. The Sidereal can instantly erase the
@@ -133,7 +133,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 3
-Prerequisite Charms: Shun the Smiling Lady
+Prerequisite Charms: [[#Shun the Smiling Lady]]
 
 The character wraps himself in the tenor of fate that
 gives rise to lust. He becomes impossible to recognize.
@@ -173,7 +173,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Socialize: 5
 Minimum Essence: 4
-Prerequisite Charms: Life Without Compunction, You and Yours Stance, Hot-Eyed Snake Whispering
+Prerequisite Charms: [[#Life Without Compunction]], [[#You and Yours Stance]], [[#Hot-Eyed Snake Whispering]]
 
 This Charm uses two prayer strips marked with the
 scripture of the Whore. The character holds them up,

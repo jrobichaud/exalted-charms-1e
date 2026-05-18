@@ -81,7 +81,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Endurance: 3
 Minimum Essence: 3
-Prerequisite Charms: Unswerving Juggernaut Principle
+Prerequisite Charms: [[#Unswerving Juggernaut Principle]]
 
 The character's world narrows to his journey. The
 strands of fate that bind him to things behind him
@@ -147,7 +147,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Endurance: 4
 Minimum Essence: 2
-Prerequisite Charms: Optimistic Security Practice, Unwavering Well-Being Meditation
+Prerequisite Charms: [[#Optimistic Security Practice]], [[#Unwavering Well-Being Meditation]]
 
 The character's chest convulses as she swallows her
 heart. This suspends the normal functioning of her body.
@@ -178,7 +178,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Endurance: 5
 Minimum Essence: 4
-Prerequisite Charms: Forward-Thinking Technique, Heartless Maiden Trance
+Prerequisite Charms: [[#Forward-Thinking Technique]], [[#Heartless Maiden Trance]]
 
 This Charm uses a prayer strip marked with the scripture
 of the Eternal Maiden. The character releases it into

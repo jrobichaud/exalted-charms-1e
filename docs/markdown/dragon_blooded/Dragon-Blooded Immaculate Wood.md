@@ -76,7 +76,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Eyes of the Wood Dragon
+Prerequisite Charms: [[#Eyes of the Wood Dragon]]
 
 The followers of the Wood Dragon have mastered the
 flow of life force in their own bodies, and healing minor
@@ -95,7 +95,7 @@ Duration: One turn
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Mind-Over-Body Meditation
+Prerequisite Charms: [[#Mind-Over-Body Meditation]]
 
 Essence surges through the Immaculate's body, bolstering
 her life force with that of the Wood Dragon. For the
@@ -111,7 +111,7 @@ Duration: One scene
 Type: Minimum Martial Arts
 Supplemental 4
 Minimum Essence: 3
-Prerequisite Charms: Wood Dragon Vitality
+Prerequisite Charms: [[#Wood Dragon Vitality]]
 
 To use this Charm, a Wood Dragon Immaculate need
 merely caress her opponent, which results in a sharp pain
@@ -139,7 +139,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Soul-Marking Strike
+Prerequisite Charms: [[#Soul-Marking Strike]]
 
 Invoking the Wood Dragon Form puts the Immaculate
 in deeper touch with his own life force and healing
@@ -170,7 +170,7 @@ Duration: Until abandoned
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Wood Dragon Form
+Prerequisite Charms: [[#Wood Dragon Form]]
 
 By executing a sinuous series of moves and undulations
 of the body, a Wood-aspected Immaculate can
@@ -195,7 +195,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Unbreakable Fascination Kata
+Prerequisite Charms: [[#Unbreakable Fascination Kata]]
 
 The Dynast wishing to make an Enthralling Blow
 Attack must succeed in a normal martial arts attack
@@ -221,7 +221,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Wood Dragon Form
+Prerequisite Charms: [[#Wood Dragon Form]]
 
 When striking a spirit, the Wood Dragon Immaculate's
 knowledge of spirit energy allows her to channel her own
@@ -244,7 +244,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Spirit-Wracking Method
+Prerequisite Charms: [[#Spirit-Wracking Method]]
 
 Much like Spirit-Wracking Method, Spirit-Rending
 Technique allows an Immaculate to strike a spirit being.
@@ -277,7 +277,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Wood Dragon Form
+Prerequisite Charms: [[#Wood Dragon Form]]
 
 Once a Wood Dragon Immaculate is truly attuned to
 the patterns of soul energy, she can perceive the patterns
@@ -311,7 +311,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Death-Pattern Sensing Attitude
+Prerequisite Charms: [[#Death-Pattern Sensing Attitude]]
 
 This technique heals the wounds of others — but the
 Wood-aspected Immaculate cannot dissipate another's
@@ -337,7 +337,7 @@ Duration: Essence in turns or until discharged
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Spirit-Rending Technique, Enthralling Blow Attack, Wood Dragon Succor
+Prerequisite Charms: [[#Spirit-Rending Technique]], [[#Enthralling Blow Attack]], [[#Wood Dragon Succor]]
 
 This Charm is the highest mystery of the Dragon of
 Wood. Few have seen this Charm executed - and even

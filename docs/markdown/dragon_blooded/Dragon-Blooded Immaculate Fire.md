@@ -61,7 +61,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Flash-Fire Technique
+Prerequisite Charms: [[#Flash-Fire Technique]]
 
 After invoking the Flame-Flicker Stance, the
 character's body seems to shift and move like a burning
@@ -101,7 +101,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Searing Fist Attack
+Prerequisite Charms: [[#Searing Fist Attack]]
 
 After the character attacks, but before the defense is
 rolled, the Immaculate's player can choose to reroll the
@@ -116,7 +116,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Flame-Flicker Stance, Perfect Blazing Blow
+Prerequisite Charms: [[#Flame-Flicker Stance]], [[#Perfect Blazing Blow]]
 
 Flames seem to glow in the eyes of the martial artist
 as she completes a quick series of katas to invoke the
@@ -153,7 +153,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Fire Dragon Form
+Prerequisite Charms: [[#Fire Dragon Form]]
 
 A successful Fiery Hand Attack does normal damage
 plus the character's Martial Arts rating, as the flaming
@@ -187,7 +187,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Fiery Hand Attack
+Prerequisite Charms: [[#Fiery Hand Attack]]
 
 With a momentary centering kata, a Fire Immaculate
 can spit a gout of fire up to his Essence in yards. To
@@ -209,7 +209,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Breath of the Fire Dragon
+Prerequisite Charms: [[#Breath of the Fire Dragon]]
 
 With a series of quick nerve touches, the Exalt actually
 causes the Essence in his opponent's body to flare,
@@ -234,7 +234,7 @@ Duration: Until abandoned
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Fire Dragon Form
+Prerequisite Charms: [[#Fire Dragon Form]]
 
 The power and majesty of a raging conflagration can
 cow even the bravest of hearts. By striking an aggressive
@@ -266,7 +266,7 @@ Duration: Varies
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Overwhelming Fire Majesty Stance
+Prerequisite Charms: [[#Overwhelming Fire Majesty Stance]]
 
 This Charm focuses Essence into the Exalt's blow,
 investing the attack with the heat of burning embers. If the
@@ -285,7 +285,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Essence-Igniting Nerve Strike, Smoldering Wound Attack
+Prerequisite Charms: [[#Essence-Igniting Nerve Strike]], [[#Smoldering Wound Attack]]
 
 This Charm enhances the natural anima flare of a Fire
 Exalt. For Aspects of Fire, it triples the fire damage that

@@ -66,7 +66,7 @@ Duration: Varies
 Type: Simple
 Minimum Stealth: 3
 Minimum Essence: 3
-Prerequisite Charms: Feeling the Air Technique.
+Prerequisite Charms: [[#Feeling-the-Air Technique]]
 
 This Charm eliminates the noise of any action taken
 directly by a character under its influence. Gravel crunches
@@ -96,7 +96,7 @@ Duration: One minute per point of permanent Essence
 Type: Simple
 Minimum Stealth: 4
 Minimum Essence: 3
-Prerequisite Charms: Soundless Action Prana
+Prerequisite Charms: [[#Soundless Action Prana]]
 
 By stilling the air to the point where it ceases to
 transmit sound at all, an Air-aspected Exalt may ensure
@@ -171,7 +171,7 @@ Duration: Instant
 Type: Simple
 Minimum Stealth: 3
 Minimum Essence: 2
-Prerequisite Charms: Distracting Breeze Meditation
+Prerequisite Charms: [[#Distracting Breeze Meditation]]
 
 Simply avoiding guards is often not enough to remain
 truly undetected. This Charm summons up subtle but
@@ -196,7 +196,7 @@ Duration: Until broken
 Type: Simple
 Minimum Stealth: 3
 Minimum Essence: 3
-Prerequisite Charms: Trackless Passage Style
+Prerequisite Charms: [[#Trackless Passage Style]]
 
 By invoking this Charm, the character gains the
 ability to move normally along any roughly horizontal
@@ -223,7 +223,7 @@ Duration: One scene
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 4
-Prerequisite Charms: Soundless Action Prana, Wind-Walking Technique
+Prerequisite Charms: [[#Soundless Action Prana]], [[#Wind-Walking Technique]]
 
 With true mastery of the art of stealth comes the
 power to almost completely shroud oneself from the eyes
@@ -256,7 +256,7 @@ Duration: One scene
 Type: Simple
 Minimum Stealth: 3
 Minimum Essence: 3
-Prerequisite Charms: Trackless Passage Style
+Prerequisite Charms: [[#Trackless Passage Style]]
 
 There are situations and environments where
 moving unnoticed is preferable to moving unseen,
@@ -289,7 +289,7 @@ Type: Simple
 Minimum Stealth: 4
 Minimum Larceny: 2
 Minimum Essence: 3
-Prerequisite Charms: Soundless Action Prana
+Prerequisite Charms: [[#Soundless Action Prana]]
 
 Stealth is more than a subtle gait and the ability
 to remain still. There are a great number of mind
@@ -351,7 +351,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Stealth: 5
 Minimum Essence: 4
-Prerequisite Charms: Zone of Silence Stance, Distracting Breeze Meditation
+Prerequisite Charms: [[#Zone of Silence Stance]], [[#Distracting Breeze Meditation]]
 
 With this level of skill, a Dragon-Blood can accomplish
 with the most minimal or sudden of

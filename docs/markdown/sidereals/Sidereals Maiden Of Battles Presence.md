@@ -102,7 +102,7 @@ Duration: Instant
 Type: Simple
 Minimum Presence: 3
 Minimum Essence: 2
-Prerequisite Charms: Impose Nature
+Prerequisite Charms: [[#Impose Nature]]
 
 This Charm allows the Sidereal to channel Essence
 into another being briefly, forcing him to make the
@@ -144,7 +144,7 @@ Duration: Until the relevant battle ends
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Predestined Triumph Practice
+Prerequisite Charms: [[#Predestined Triumph Practice]]
 
 Having applied the Predestined Triumph Practice,
 the character may encourage his troops to fight in the
@@ -194,7 +194,7 @@ Duration: Until the relevant battle ends
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Predestined Triumph Practice
+Prerequisite Charms: [[#Predestined Triumph Practice]]
 
 Having applied the Predestined Triumph Practice,
 the character may encourage her troops to fight in the
@@ -222,7 +222,7 @@ Duration: Until the relevant battle ends
 Type: Simple
 Minimum Presence: 5
 Minimum Essence: 3
-Prerequisite Charms: Presence in Absence Technique, Force Decision, Essence-Draining Battle Pattern, Demon-Blocking Battle Pattern
+Prerequisite Charms: [[#Presence in Absence Technique]], [[#Force Decision]], [[#Essence-Draining Battle Pattern]], [[#Demon-Blocking Battle Pattern]]
 
 This Charm uses a prayer strip marked with the
 scripture of the Maiden at War. The character first

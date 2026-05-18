@@ -84,7 +84,7 @@ Duration: One day
 Type: Simple
 Minimum Linguistics: 3
 Minimum Essence: 2
-Prerequisite Charms: Whirling Brush Method
+Prerequisite Charms: [[#Whirling Brush Method]]
 
 Sometimes a character needs more than a copy of a
 document; sometimes he needs a perfect facsimile. Flawless
@@ -106,7 +106,7 @@ Duration: Instant
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 2
-Prerequisite Charms: Whirling Brush Method
+Prerequisite Charms: [[#Whirling Brush Method]]
 
 By carefully injecting allusions, subtle stresses and
 loaded word choices, the character can imbed a secret
@@ -128,7 +128,7 @@ Duration: One hour
 Type: Simple
 Minimum Linguistics: 5
 Minimum Essence: 2
-Prerequisite Charms: Flawless Brush Discipline, Letter-Within-a- Letter Technique
+Prerequisite Charms: [[#Flawless Brush Discipline]], [[#Letter-Within-a-Letter Technique]]
 
 The character can make out the minute traces of
 writing that was once readable but has now been damaged
@@ -170,7 +170,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 2
 Minimum Essence: 1
-Prerequisite Charms: Sagacious Reading of Intent
+Prerequisite Charms: [[#Sagacious Reading of Intent]]
 
 Exalted with this Charm can convey ideas and concepts
 through pantomime. The character's gestures carry far
@@ -192,7 +192,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 2
-Prerequisite Charms: Letter-Within-a-Letter Technique
+Prerequisite Charms: [[#Letter-Within-a-Letter Technique]]
 
 Technique, Sagacious Reading of Intent
 Twisted Words Technique allows one of the Exalted to
@@ -236,7 +236,7 @@ Duration: Special
 Type: Simple
 Minimum Linguistics: 3
 Minimum Essence: 2
-Prerequisite Charms: Swift Sage's Eye
+Prerequisite Charms: [[#Swift Sage's Eye]]
 
 A character using this Charm can completely
 memorize a written work or illustration in the time it
@@ -272,7 +272,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 2
-Prerequisite Charms: Flawless Brush Discipline
+Prerequisite Charms: [[#Flawless Brush Discipline]]
 
 With a masterful eye and hand for copying, the
 character can produce a flawless forgery of any written
@@ -296,7 +296,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 2
-Prerequisite Charms: Letter-Within-A-Letter Technique
+Prerequisite Charms: [[#Letter-Within-a-Letter Technique]]
 
 Technique, Poetic Expression Style
 The character can speak in a roundabout fashion,
@@ -323,7 +323,7 @@ Type: Simple
 Minimum Linguistics: 5
 Minimum Lore: 3
 Minimum Essence: 3
-Prerequisite Charms: Poetic Expression Style, Twisted Words Technique
+Prerequisite Charms: [[#Poetic Expression Style]], [[#Twisted Words Technique]]
 
 The ability to effectively convey information is
 an important part of teaching. This Charm aids the
@@ -384,7 +384,7 @@ Duration: Special
 Type: Simple
 Minimum Linguistics: 5
 Minimum Essence: 3
-Prerequisite Charms: Poetic Expression Style, Twisted Words Technique
+Prerequisite Charms: [[#Poetic Expression Style]], [[#Twisted Words Technique]]
 
 A character using this Charm can speak in such a magnetic
 and engaging fashion that listeners simply cannot do anything

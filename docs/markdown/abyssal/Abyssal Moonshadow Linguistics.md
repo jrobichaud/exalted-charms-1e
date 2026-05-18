@@ -72,7 +72,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Linguistics: 4
 Minimum Essence: 2
-Prerequisite Charms: Language Absorbing Method
+Prerequisite Charms: [[#Language Absorbing Method]]
 
 As the warrior-poets of the Underworld, many Abyssal
 Exalted speak and write with haunting skill and
@@ -97,7 +97,7 @@ Duration: One hour
 Type: Simple
 Minimum Linguistics: 4
 Minimum Essence: 2
-Prerequisite Charms: Language Absorbing Method
+Prerequisite Charms: [[#Language Absorbing Method]]
 
 With this Charm, an Abyssal can temporarily excise
 a victim's comprehension of a particular language. The
@@ -124,7 +124,7 @@ Duration: One scene
 Type: Simple
 Minimum Linguistics: 5
 Minimum Essence: 3
-Prerequisite Charms: Theft of Words
+Prerequisite Charms: [[#Theft of Words]]
 
 Cursing sharply in the lost tongue of the Malfeans,
 the Abyssal distorts all communication in a zone around
@@ -153,7 +153,7 @@ Duration: Until released
 Type: Simple
 Minimum Linguistics: 5
 Minimum Essence: 3
-Prerequisite Charms: Theft of Words
+Prerequisite Charms: [[#Theft of Words]]
 
 An Abyssal with this Charm may bypass language
 entirely and communicate telepathically. The character
@@ -206,7 +206,7 @@ Type: Simple
 Minimum Linguistics: 2
 Minimum Occult: 4
 Minimum Essence: 2
-Prerequisite Charms: Corpus-Rending Blow, Blood Inscription Technique
+Prerequisite Charms: [[Abyssal Daybreak Occult#Corpus-Rending Blow|Corpus-Rending Blow]], [[#Blood Inscription Technique]]
 
 By tracing a mystical blood rune on a target's forehead,
 an Abyssal with this Charm may protect an individual from
@@ -230,7 +230,7 @@ Duration: One reading
 Type: Simple
 Minimum Linguistics: 3
 Minimum Essence: 2
-Prerequisite Charms: Blood Inscription Technique
+Prerequisite Charms: [[#Blood Inscription Technique]]
 
 By touching a sample of writing, an Abyssal with this
 Charm can attune his mind to the lingering wisps of
@@ -257,7 +257,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Linguistics: 5
 Minimum Essence: 2
-Prerequisite Charms: Peerless Fluency Style, Blood Inscription Technique
+Prerequisite Charms: [[#Peerless Fluency Style]], [[#Blood Inscription Technique]]
 
 A character using this Charm becomes preternaturally
 resistant to all forms of persuasion, from simple

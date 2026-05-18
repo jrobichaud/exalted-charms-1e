@@ -86,7 +86,7 @@ Duration: Instant
 Type: Simple
 Minimum Socialize: 4
 Minimum Essence: 2
-Prerequisite Charms: Wise-Eyed Courtier Method
+Prerequisite Charms: [[#Wise-Eyed Courtier Method]]
 
 This Charm allows an Exalted to tell, through a short,
 topical interaction, what the target's true motives in a situation
@@ -127,7 +127,7 @@ Duration: Instant
 Type: Simple
 Minimum Socialize: 5
 Minimum Essence: 2
-Prerequisite Charms: Motive-Discerning Technique
+Prerequisite Charms: [[#Motive-Discerning Technique]]
 
 This Charm allows an Exalted to read motives on a
 grand scale, gaining a picture of the flows and eddies of
@@ -161,7 +161,7 @@ Duration: Instant
 Type: Simple
 Minimum Socialize: 5
 Minimum Essence: 2
-Prerequisite Charms: Mastery of Small Manners, Motive-Discerning Technique
+Prerequisite Charms: [[#Mastery of Small Manners]], [[#Motive-Discerning Technique]]
 
 Everyone has a price, though it may not be in gold. It
 could be aid in a personal endeavor, flattery, sex with an
@@ -188,7 +188,7 @@ Duration: One day
 Type: Simple
 Minimum Socialize: 5
 Minimum Essence: 3
-Prerequisite Charms: Knowing the Soul's Price, Understanding the Court
+Prerequisite Charms: [[#Knowing the Soul's Price]], [[#Understanding the Court]]
 
 Through the use of this Charm, an Exalted can turn her
 target into a social outcast. The target's words seem false,
@@ -210,7 +210,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 4
 Minimum Essence: 2
-Prerequisite Charms: Mastery of Small Manners
+Prerequisite Charms: [[#Mastery of Small Manners]]
 
 By attuning to the flow of Essence, the Chosen becomes
 virtually unflappable. No matter how difficult or
@@ -235,7 +235,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 2
-Prerequisite Charms: Mastery of Small Manners
+Prerequisite Charms: [[#Mastery of Small Manners]]
 
 A character using this Charm becomes more socially
 attractive: People find her words charming, her
@@ -253,7 +253,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 3
 Minimum Essence: 3
-Prerequisite Charms: Mastery of Small Manners
+Prerequisite Charms: [[#Mastery of Small Manners]]
 
 While this Charm is in use, any effort to spy on
 the Exalt has its difficulty increased by the character's
@@ -276,7 +276,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Socialize: 3
 Minimum Essence: 1
-Prerequisite Charms: Wise-Eyed Courtier Method, Mastery of Small Manners
+Prerequisite Charms: [[#Wise-Eyed Courtier Method]], [[#Mastery of Small Manners]]
 
 The Chosen's mastery of social graces can remove
 him from danger in more ways than one.
@@ -298,7 +298,7 @@ Duration: One scene
 Type: Simple
 Minimum Socialize: 4
 Minimum Essence: 2
-Prerequisite Charms: Graceful Deflection Technique
+Prerequisite Charms: [[#Graceful Deflection Technique]]
 
 The Exalted engages in an almost nonstop stream
 of witty banter with her opponents, intended to distract
@@ -319,7 +319,7 @@ Duration: One scene
 Type: Reflexive
 Minimum Socialize: 4
 Minimum Essence: 2
-Prerequisite Charms: Motive-Discerning Technique
+Prerequisite Charms: [[#Motive-Discerning Technique]]
 
 This Charm allows the Exalt to conceal his true
 feelings and motivations; a character using this Charm
@@ -341,7 +341,7 @@ Duration: Instant
 Type: Simple
 Minimum Socialize: 5
 Minimum Essence: 2
-Prerequisite Charms: Motive-Discerning Technique
+Prerequisite Charms: [[#Motive-Discerning Technique]]
 
 With a masterful understanding of human (and
 inhuman) nature, the Exalt using this Charm can
@@ -363,7 +363,7 @@ Duration: One day
 Type: Simple
 Minimum Socialize: 5
 Minimum Essence: 3
-Prerequisite Charms: Understanding the Court
+Prerequisite Charms: [[#Understanding the Court]]
 
 Using this Charm, an Exalt can draw attention to
 someone else's achievements and good qualities, improving

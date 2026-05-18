@@ -119,7 +119,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 2
-Prerequisite Charms: Demure Carp Feint, Pearlescent Filigree Defense, Lethal Paper Fan Attack
+Prerequisite Charms: [[#Demure Carp Feint]], [[#Pearlescent Filigree Defense]], [[#Lethal Paper Fan Attack]]
 
 As the martial artist affects the demure and sensual
 dance of the Pearl Courtesan, her accoutrements and
@@ -158,7 +158,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Dreaming Pearl Courtesan Form
+Prerequisite Charms: [[#Dreaming Pearl Courtesan Form]]
 
 At this level, the fan dancer has an acute understanding
 of spatial awareness and how the supple flows of air
@@ -198,7 +198,7 @@ Duration: Varies
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 2
-Prerequisite Charms: Flurry of August Leaves Concentration
+Prerequisite Charms: [[#Flurry of August Leaves Concentration]]
 
 With this Charm, the Exalt is able to use her flowing
 garments with a prehensile dexterity to grapple opponents
@@ -233,7 +233,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Motive-Discerning Technique, Dreaming Pearl Courtesan Form
+Prerequisite Charms: [[Solar Eclipse Socialize#Motive-Discerning Technique|Motive-Discerning Technique]], [[#Dreaming Pearl Courtesan Form]]
 
 There is a saying that the most vicious fights are the
 ones between siblings or lovers. The person who knows
@@ -263,7 +263,7 @@ Duration: Until disturbed
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Flurry of August Leaves Concentration
+Prerequisite Charms: [[#Flurry of August Leaves Concentration]]
 
 As the Exalt performs the fluid and languid moves of
 the Fragrant Petal Fascination Kata, hundreds of glowing
@@ -303,7 +303,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Fragrant Petal Fascination Kata
+Prerequisite Charms: [[#Fragrant Petal Fascination Kata]]
 
 The martial artist takes a deep breath and concentrates.
 When she exhales, tendrils of pastel fumes escape
@@ -322,7 +322,7 @@ Duration: Varies
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Knowing the Soul's Price, Resplendent Sash Grapple Technique, Vindictive Concubine's Pillow Book Understanding, Seven Storms Escape Prana
+Prerequisite Charms: [[Solar Eclipse Socialize#Knowing the Soul's Price|Knowing the Soul's Price]], [[#Resplendent Sash Grapple Technique]], [[#Vindictive Concubine's Pillow Book Understanding]], [[#Seven Storms Escape Prana]]
 
 It is believed by the masters of this style that all
 things in Creation are expressions of duality, a marriage

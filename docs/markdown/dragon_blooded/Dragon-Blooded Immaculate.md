@@ -48,7 +48,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 3
-Prerequisite Charms: Spirit Sight
+Prerequisite Charms: [[#Spirit Sight]]
 
 The Immaculates are widely known for their ability
 to interact with and combat spirits. By merely concentrating

@@ -42,7 +42,7 @@ Duration: One scene
 Type: Simple
 Minimum Perception: 4
 Minimum Essence: 3
-Prerequisite Charms: Spirit-Scenting Technique
+Prerequisite Charms: [[#Spirit-Scenting Technique]]
 
 Using this Charm, a Lunar can adapt his senses to
 detect the flows and patterns of Essence in the world
@@ -72,7 +72,7 @@ Duration: One scene
 Type: Simple
 Minimum Wits: 4
 Minimum Essence: 3
-Prerequisite Charms: Spirit-Scenting Technique
+Prerequisite Charms: [[#Spirit-Scenting Technique]]
 
 Using the Devil-Restraining Grip Charm, a Lunar
 can immobilize a spirit with a snare of Essence,
@@ -106,7 +106,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Intelligence: 4
 Minimum Essence: 4
-Prerequisite Charms: Devil-Restraining Grip
+Prerequisite Charms: [[#Devil-Restraining Grip]]
 
 If an encounter with a spirit goes wrong or if the
 being is intrinsically hostile, then the Lunar may have

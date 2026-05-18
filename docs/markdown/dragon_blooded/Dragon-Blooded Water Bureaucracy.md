@@ -73,7 +73,7 @@ Duration: One scene
 Type: Simple
 Minimum Bureaucracy: 3
 Minimum Essence: 2
-Prerequisite Charms: Benevolent Master's Blessing
+Prerequisite Charms: [[#Benevolent Master's Blessing]]
 
 The Essence of bureaucracy is the same everywhere -
 the day-to-day affairs of a household or mercantile establishment
@@ -96,7 +96,7 @@ Duration: One task
 Type: Simple
 Minimum Bureaucracy: 4
 Minimum Essence: 2
-Prerequisite Charms: Confluence of Savant Thought
+Prerequisite Charms: [[#Confluence of Savant Thought]]
 
 An administrator with this Charm can bend her entire
 bureaucratic apparatus to expedite a designated task: tax collec-
@@ -122,7 +122,7 @@ Duration: Special
 Type: Simple
 Minimum Bureaucracy: 4
 Minimum Essence: 3
-Prerequisite Charms: Geese-Flying-South Administration
+Prerequisite Charms: [[#Geese-Flying South Administration]]
 
 This Charm is priceless to Dragon-Blooded who must
 travel but cannot bear to leave their affairs in the hands of
@@ -150,7 +150,7 @@ Duration: One scene
 Type: Simple
 Minimum Bureaucracy: 3
 Minimum Essence: 1
-Prerequisite Charms: Benevolent Master's Blessing
+Prerequisite Charms: [[#Benevolent Master's Blessing]]
 
 There is an art to impeding the flow of a bureaucracy.
 The Thrashing Carp Serenade is only the beginning of that
@@ -171,7 +171,7 @@ Duration: Instant
 Type: Simple
 Minimum Bureaucracy: 4
 Minimum Essence: 2
-Prerequisite Charms: Thrashing Carp Serenade
+Prerequisite Charms: [[#Thrashing Carp Serenade]]
 
 Presenting an appropriate gift can take the edge off an
 uncomfortable social gathering or gain favors and access
@@ -197,7 +197,7 @@ Duration: Instant
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 2
-Prerequisite Charms: Thrashing Carp Serenade
+Prerequisite Charms: [[#Thrashing Carp Serenade]]
 
 The quickest path to disaster for a political gambit is to
 call a vote before knowing how the votes will fall. Armed
@@ -246,7 +246,7 @@ Duration: Instant
 Type: Simple
 Minimum Bureaucracy: 3
 Minimum Essence: 2
-Prerequisite Charms: Finding the Waters' Depths
+Prerequisite Charms: [[#Finding the Waters' Depths]]
 
 This Charm lends special timbre and eloquence the
 character's voice for the purpose of convincing someone to
@@ -266,7 +266,7 @@ Duration: Instant
 Type: Simple
 Minimum Bureaucracy: 4
 Minimum Essence: 2
-Prerequisite Charms: Sparkling Fountains of Eloquence
+Prerequisite Charms: [[#Sparkling Fountains of Eloquence]]
 
 The Dynasts of the Realm must regularly engage in
 trickery to preserve their ancient empire. One of the keys to
@@ -300,7 +300,7 @@ Duration: One task
 Type: Simple
 Minimum Bureaucracy: 5
 Minimum Essence: 3
-Prerequisite Charms: Geese-Flying-South Administration
+Prerequisite Charms: [[#Geese-Flying South Administration]]
 
 Regardless of whether they are working for or against a
 character, large bureaucracies almost always move quite

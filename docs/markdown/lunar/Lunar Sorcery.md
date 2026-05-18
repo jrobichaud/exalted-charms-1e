@@ -70,7 +70,7 @@ Duration: Instant
 Type: Simple
 Minimum Intelligence: 3
 Minimum Essence: 3
-Prerequisite Charms: Form-Fixing Method
+Prerequisite Charms: [[#Form-Fixing Method]]
 
 Using this Charm, a Lunar can engrave or otherwise mark
 an item so that it is immune to the chaotic effects of the Wyld,
@@ -84,7 +84,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Intelligence: 3
 Minimum Essence: 3
-Prerequisite Charms: Tattoo-Cutting Wisdom
+Prerequisite Charms: [[#Tattoo-Cutting Wisdom]]
 
 Though others may attempt to forge moonsilver,
 only a Lunar Exalted has the knowledge and spiritual
@@ -113,7 +113,7 @@ Duration: Instant
 Type: Simple
 Minimum Intelligence: 4
 Minimum Essence: 4
-Prerequisite Charms: Terrestrial Circle Sorcery, Moonsilver-Shaping Rite
+Prerequisite Charms: [[#Terrestrial Circle Sorcery]], [[#Moonsilver-Shaping Rite]]
 
 Celestial sorcery is much harder to learn and master
 than Terrestrial magics, and its practice among the

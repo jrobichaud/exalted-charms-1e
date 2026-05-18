@@ -84,7 +84,7 @@ Duration: One turn per success
 Type: Simple
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Soul Anchor
+Prerequisite Charms: [[#Soul Anchor]]
 
 Essence Binding calls up bands of Essence representing
 the ghost's authority in the name of his ruler(s). He
@@ -119,7 +119,7 @@ Duration: One turn per success
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 2
-Prerequisite Charms: Essence Binding
+Prerequisite Charms: [[#Essence Binding]]
 
 A ghost with Snare the Fleeing Thief can use his
 Essence and his dedication to his liege to halt an enemy in
@@ -144,7 +144,7 @@ Duration: One turn per net success
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 2
-Prerequisite Charms: Essence Binding
+Prerequisite Charms: [[#Essence Binding]]
 
 This Charm works similarly to Essence Binding, save
 that it works at a range of up to 10 yards per point of
@@ -171,7 +171,7 @@ Duration: 1 minute
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Snare the Fleeing Thief, Essence Lasso Form
+Prerequisite Charms: [[#Snare the Fleeing Thief]], [[#Essence Lasso Form]]
 
 Net allows a ghostly magistrate to ensnare a group of
 enemies, binding them hand-and-foot in the name of his

@@ -68,7 +68,7 @@ Duration: One day
 Type: Simple
 Minimum Endurance: 3
 Minimum Essence: 2
-Prerequisite Charms: Ghost Armor Prana
+Prerequisite Charms: [[#Ghost Armor Prana]]
 
 An Abyssal with this Charm may revivify himself with
 Essence, allowing him to act at full strength without penalties
@@ -91,7 +91,7 @@ Duration: Permanent
 Type: Special
 Minimum Endurance: 4
 Minimum Essence: 2
-Prerequisite Charms: Tireless Sentinel Technique
+Prerequisite Charms: [[#Tireless Sentinel Technique]]
 
 Once an Abyssal learns this Charm, death itself
 cannot stop him. If slain, his spirit rises again as a ghost. He
@@ -130,7 +130,7 @@ Duration: Permanent/one scene
 Type: Special/Reflexive
 Minimum Endurance: 3
 Minimum Essence: 2
-Prerequisite Charms: Pain-Eating Focus
+Prerequisite Charms: [[#Pain-Eating Focus]]
 
 Many Abyssal Exalted show disturbing indifference
 to suffering. When this Charm is purchased, the player
@@ -163,7 +163,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Endurance: 3
 Minimum Essence: 2
-Prerequisite Charms: Pain-Eating Focus
+Prerequisite Charms: [[#Pain-Eating Focus]]
 
 Where an Abyssal with Pain-Eating Focus draws
 power from her own torment, a character with this Charm

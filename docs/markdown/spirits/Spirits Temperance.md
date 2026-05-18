@@ -137,7 +137,7 @@ Duration: One scene
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 2
-Prerequisite Charms: Stillness
+Prerequisite Charms: [[#Stillness]]
 
 This Charm allows the spirit to camouflage itself within
 whatever environment it happens to be in. A spirit standing
@@ -178,7 +178,7 @@ Duration: One turn
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 3
-Prerequisite Charms: Hurry Home
+Prerequisite Charms: [[#Hurry Home]]
 
 A successful Intelligence + Temperance check allows
 the spirit to open up a portal large enough for it to step
@@ -201,7 +201,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 4
 Minimum Essence: 4
-Prerequisite Charms: Portal
+Prerequisite Charms: [[#Portal]]
 
 A successful Dexterity + Temperance check allows
 the spirit to transport itself wherever it chooses. For each
@@ -219,7 +219,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 4
 Minimum Essence: 4
-Prerequisite Charms: Transport
+Prerequisite Charms: [[#Transport]]
 With this Charm, a spirit may banish any targets
 within line of site to a random habitable location up one.
 mile distant (Le., a human would not be banished to an
@@ -238,7 +238,7 @@ Duration: Instant
 Type: Simple
 Minimum Temperance: 5
 Minimum Essence: 6
-Prerequisite Charms: Banish
+Prerequisite Charms: [[#Banish]]
 
 With this Charm, a spirit may transport any targets
 within line of site to a location of the spirit's choosing, as
@@ -280,7 +280,7 @@ Duration: Instant
 Type: Simple
 Minimum Essence: 2
 Minimum Essence: 1
-Prerequisite Charms: Sustenance
+Prerequisite Charms: [[#Sustenance]]
 
 The spirit must touch a sleeping mortal in order to
 activate this Charm. Roll the spirit's Strength + Temperance.
@@ -322,7 +322,7 @@ Duration: One week (at least)
 Type: Simple
 Minimum Temperance: 3
 Minimum Essence: 2
-Prerequisite Charms: Sustenance
+Prerequisite Charms: [[#Sustenance]]
 
 The spirit has consensual sex with a mortal in order to
 activate the Charm, so no Brawl or Martial Arts rolls are

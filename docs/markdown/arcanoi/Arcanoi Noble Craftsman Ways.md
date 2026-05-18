@@ -48,7 +48,7 @@ Duration: One day
 Type: Simple
 Minimum Conviction: 2
 Minimum Essence: 2
-Prerequisite Charms: Soulsteel Scream
+Prerequisite Charms: [[#Soulsteel Scream]]
 
 Soulsteel Shaper allows a ghostly artisan to aid in the
 creation of soulsteel items. With Soulsteel Shaper, a ghost
@@ -69,7 +69,7 @@ Duration: One day
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Soulsteel Shaper
+Prerequisite Charms: [[#Soulsteel Shaper]]
 
 As the ghost artisan approaches master status, he
 gains the ability to modify relics that echo into the deadlands
@@ -99,7 +99,7 @@ Duration: One day
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 4
-Prerequisite Charms: Soulsteel Shaper
+Prerequisite Charms: [[#Soulsteel Shaper]]
 
 As the ghost artisan approaches master status, he gains
 the ability to modify soulsteel artifacts. With this Arcanos,
@@ -134,7 +134,7 @@ Duration: One day
 Type: Simple
 Minimum Conviction: 4
 Minimum Essence: 4
-Prerequisite Charms: Soulsteel Rebuilding Technique
+Prerequisite Charms: [[#Soulsteel Rebuilding Technique]]
 
 Given a quantity of raw soulsteel, a ghost-artisan with
 this Charm may help to forge it into a new artifact. Such
@@ -157,7 +157,7 @@ Duration: One hour per success
 Type: Simple
 Minimum Conviction: 3
 Minimum Essence: 3
-Prerequisite Charms: Soulsteel Rebuilding Technique
+Prerequisite Charms: [[#Soulsteel Rebuilding Technique]]
 
 While active, this Charm gives a ghost the same sense
 that a spectre has within the Labyrinth — the ability to

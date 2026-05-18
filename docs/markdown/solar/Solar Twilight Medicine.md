@@ -117,7 +117,7 @@ Duration: Six hours
 Type: Simple
 Minimum Medicine: 2
 Minimum Essence: 1
-Prerequisite Charms: Flawless Diagnosis Technique
+Prerequisite Charms: [[#Flawless Diagnosis Technique]]
 
 The Charm Ailment-Rectifying Method allows an
 Exalted to recover rapidly from even the most serious
@@ -144,7 +144,7 @@ Duration: One day
 Type: Simple
 Minimum Medicine: 3
 Minimum Essence: 2
-Prerequisite Charms: Ailment-Rectifying Method
+Prerequisite Charms: [[#Ailment-Rectifying Method]]
 
 Through the use of this Charm, the character can
 successfully treat serious or even normally incurable diseases.
@@ -168,7 +168,7 @@ Duration: Six hours
 Type: Simple
 Minimum Medicine: 2
 Minimum Essence: 1
-Prerequisite Charms: Body-Mending Meditation
+Prerequisite Charms: [[#Body-Mending Meditation]]
 
 The Touch of Blissful Release allows the character to
 lessen the suffering of wounded or ill individuals, dulling
@@ -188,7 +188,7 @@ Duration: One day
 Type: Simple
 Minimum Medicine: 2
 Minimum Essence: 2
-Prerequisite Charms: Body-Mending Meditation
+Prerequisite Charms: [[#Body-Mending Meditation]]
 
 By channeling Essence through her body, the character
 can increase her rate of healing immensely. Over the
@@ -208,7 +208,7 @@ Duration: One day
 Type: Simple
 Minimum Medicine: 3
 Minimum Essence: 2
-Prerequisite Charms: Grievous Injury Recovery Method, Touch of Blissful Release
+Prerequisite Charms: [[#Grievous Injury Recovery Method]], [[#Touch of Blissful Release]]
 
 Similar in effect to Grievous Injury Recovery Method,
 this Charm allows the character to heal others at an
@@ -231,7 +231,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Contagion-Curing Touch, Wound-Mending Care Technique
+Prerequisite Charms: [[#Contagion-Curing Touch]], [[#Wound-Mending Care Technique]]
 
 This Charm allows the character to actually cure
 injuries with nothing but a touch. Where the character's
@@ -251,7 +251,7 @@ Duration: One hour
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 2
-Prerequisite Charms: Wound-Mending Care Technique
+Prerequisite Charms: [[#Wound-Mending Care Technique]]
 
 The character enters a healing trance, during which he
 loses all awareness of the world around him. For every hour
@@ -274,7 +274,7 @@ Duration: One hour
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 3
-Prerequisite Charms: Anointment of Miraculous Health
+Prerequisite Charms: [[#Anointment of Miraculous Health]]
 
 Health, Bodily Regeneration Prana
 Similar to the Charm Bodily Regeneration Prana, the
@@ -305,7 +305,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Anointment of Miraculous Health
+Prerequisite Charms: [[#Anointment of Miraculous Health]]
 
 With this Charm, an Exalted can cleanse another
 character of any addiction that she may have to alcohol or
@@ -327,7 +327,7 @@ Duration: One scene
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 2
-Prerequisite Charms: Wound-Mending Care Technique
+Prerequisite Charms: [[#Wound-Mending Care Technique]]
 
 In a sense the diametric opposite to the Wound-Mending
 Care Technique, this Charm allows the
@@ -351,7 +351,7 @@ Duration: One day
 Type: Simple
 Minimum Medicine: 6
 Minimum Essence: 6
-Prerequisite Charms: Healing Trance Meditation
+Prerequisite Charms: [[#Healing Trance Meditation]]
 
 With this Charm, an Exalted can heal not only
 wounded bodies, but also salve damaged minds and souls.
@@ -384,7 +384,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 7
 Minimum Essence: 7
-Prerequisite Charms: Healing Trance Meditation
+Prerequisite Charms: [[#Healing Trance Meditation]]
 
 One of the most legendary of Charms, it allows an
 Exalt to restore youth and health to a normal human or
@@ -412,7 +412,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Medicine: 4
 Minimum Essence: 2
-Prerequisite Charms: Grievous Injury Recovery Method
+Prerequisite Charms: [[#Grievous Injury Recovery Method]]
 
 To be effective, characters must use this Charm the
 instant they are subjected to poison damage. This Charm
@@ -427,7 +427,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Wound-Mending Care Technique, Venom Anodyne Method
+Prerequisite Charms: [[#Wound-Mending Care Technique]], [[#Venom Anodyne Method]]
 
 This Charm allows the character to cure others of
 all damage caused by poison or acid provided that he can

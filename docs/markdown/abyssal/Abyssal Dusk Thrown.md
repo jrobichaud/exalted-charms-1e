@@ -60,7 +60,7 @@ Duration: Instant
 Type: Reflexive
 Minimum Thrown: 4
 Minimum Essence: 2
-Prerequisite Charms: Hungry Missile Technique
+Prerequisite Charms: [[#Hungry Missile Technique]]
 
 A character with this Charm moves with impossible
 speed, plucking arrows and other missile weapons from the
@@ -94,7 +94,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Thrown: 3
 Minimum Essence: 2
-Prerequisite Charms: Hungry Missile Technique
+Prerequisite Charms: [[#Hungry Missile Technique]]
 
 An Abyssal with this Charm instinctively knows
 where and how to throw his weapon to deliver a fatal blow.
@@ -135,7 +135,7 @@ Type: Reflexive
 Minimum Thrown: 4
 Minimum Medicine: 1
 Minimum Essence: 2
-Prerequisite Charms: Aid of Ill Wind
+Prerequisite Charms: [[#Aid of Ill Wind]]
 
 With a subtle flick of her wrist, an Abyssal who knows
 this Charm may extrude a slender bone needle from her
@@ -166,7 +166,7 @@ Duration: Instant
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Ivory Spine Attack
+Prerequisite Charms: [[#Ivory Spine Attack]]
 
 The character channels Essence through her entire
 skeleton, growing hundreds of Essence-laden bone needles
@@ -194,7 +194,7 @@ Duration: Varies
 Type: Simple
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Ivory Spine Attack
+Prerequisite Charms: [[#Ivory Spine Attack]]
 
 With this Charm, an Abyssal may fling a burrowing
 splinter of gleaming bone at his target. Upon striking a
@@ -222,7 +222,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Thrown: 5
 Minimum Essence: 2
-Prerequisite Charms:Incomparable Assassin Method, Aid of Ill Wind
+Prerequisite Charms: [[#Incomparable Assassin Method]], [[#Aid of Ill Wind]]
 
 A thrown weapon enchanted with this Charm be-
 comes an extension of its owner's malice, arcing and
@@ -248,7 +248,7 @@ Duration: Instant
 Type: Extra Action
 Minimum Thrown: 5
 Minimum Essence: 3
-Prerequisite Charms: Pitiless Scything Razor
+Prerequisite Charms: [[#Pitiless Scything Razor]]
 
 Imbued with a measure of its master's bloodlust, a
 weapon enchanted with this Charm leaps from its master's

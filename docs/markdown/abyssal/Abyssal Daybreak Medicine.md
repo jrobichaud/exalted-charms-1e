@@ -81,7 +81,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 3
 Minimum Essence: 2
-Prerequisite Charms: Infallible Ailment Sense
+Prerequisite Charms: [[#Infallible Ailment Sense]]
 
 Disease is one of the doors to the Underworld. This
 Charm allows an Abyssal to open that door somewhat,
@@ -132,7 +132,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Contamination of Body
+Prerequisite Charms: [[#Contamination of (Form)|Contamination of Body]]
 
 This Charm duplicates the effects of Contamination
 of Body with two notable exceptions. First, plagues created
@@ -157,7 +157,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 4
 Minimum Essence: 3
-Prerequisite Charms: Contamination of Body
+Prerequisite Charms: [[#Contamination of (Form)|Contamination of Body]]
 
 With this Charm, an Abyssal can expunge the corruption
 of disease from his flesh or the flesh of another. All it
@@ -181,7 +181,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 4
-Prerequisite Charms:Contamination of Spirit, Rampant Pestilence Method, Taint Extraction Method
+Prerequisite Charms: [[#Contamination of (Form)|Contamination of Spirit]], [[#Rampant Pestilence Method]], [[#Taint Extraction Method]]
 
 When the Great Contagion swept across Creation,
 only one in ten survived. Unsurpassed Plague Kiss allows
@@ -226,7 +226,7 @@ Duration: Permanent
 Type: Special
 Minimum Medicine: 1
 Minimum Essence: 2
-Prerequisite Charms: Flesh-Mending Discipline
+Prerequisite Charms: [[#Flesh-Mending Discipline]]
 
 Though Exalted seldom have to worry about bleeding
 to death, the Chosen can still be overcome by blood
@@ -248,7 +248,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 2
 Minimum Essence: 2
-Prerequisite Charms: Flesh-Mending Discipline
+Prerequisite Charms: [[#Flesh-Mending Discipline]]
 
 Death is often a welcome release from suffering. With
 this Charm, an Abyssal can grant that release to a willing
@@ -269,7 +269,7 @@ Duration: Instant
 Type: Supplementary
 Minimum Medicine: 3
 Minimum Essence: 2
-Prerequisite Charms: Blood Mastery Technique
+Prerequisite Charms: [[#Blood Mastery Technique]]
 
 With her knowledge of anatomy, an Abyssal with this
 Charm can aim her blows at an enemy's arteries. In addition
@@ -292,7 +292,7 @@ Duration: Instant
 Type: Supplementary
 Minimum Medicine: 4
 Minimum Essence: 2
-Prerequisite Charms: Crimson Waterfall Attack
+Prerequisite Charms: [[#Crimson Waterfall Attack]]
 
 This Charm allows an Abyssal to infuse a target with
 corrosive entropy. For a full day, the target heals all injuries
@@ -320,7 +320,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 3
 Minimum Essence: 2
-Prerequisite Charms:Touch of Gentle Repose, Blood Mastery Technique
+Prerequisite Charms: [[#Touch of Gentle Repose]], [[#Blood Mastery Technique]]
 
 With this Charm, an Abyssal can channel Essence
 into his wounds, drawing them closed with force of will.
@@ -344,7 +344,7 @@ Duration: Instant
 Type: Simple
 Minimum Medicine: 5
 Minimum Essence: 3
-Prerequisite Charms: Wound-Absorbing Method
+Prerequisite Charms: [[#Wound-Absorbing Method]]
 
 This Charm allows the Abyssal to direct a surge of
 eldritch power through his flesh, turning his most grievous

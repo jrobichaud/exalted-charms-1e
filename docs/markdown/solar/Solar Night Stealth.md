@@ -58,7 +58,7 @@ Duration: One scene
 Type: Simple
 Minimum Stealth: 4
 Minimum Essence: 2
-Prerequisite Charms: Easily Overlooked Presence Method
+Prerequisite Charms: [[#Easily Overlooked Presence Method]]
 
 An extension of Easily Overlooked Presence Method, this
 Charm bends the minds of those seeing the character. Players
@@ -78,7 +78,7 @@ Duration: One day
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 3
-Prerequisite Charms: Mental Invisibility Technique
+Prerequisite Charms: [[#Mental Invisibility Technique]]
 
 The ultimate mental misdirection - the character can
 vanish from all memory. She is no more or less easy to detect
@@ -103,7 +103,7 @@ Duration: Until disturbed
 Type: Simple
 Minimum Stealth: 3
 Minimum Essence: 2
-Prerequisite Charms: Easily Overlooked Presence Method
+Prerequisite Charms: [[#Easily Overlooked Presence Method]]
 
 This Charm allows the Exalted to truly disappear — no
 amount of visual searching, however thorough, will detect him,
@@ -120,7 +120,7 @@ Duration: One scene
 Type: Simple
 Minimum Stealth: 4
 Minimum Essence: 3
-Prerequisite Charms: Invisible Statue Spirit
+Prerequisite Charms: [[#Invisible Statue Spirit]]
 
 This Charm conceals the Exalted, blurring her form
 and allowing her to blend into whatever background she
@@ -148,7 +148,7 @@ Duration: One scene
 Type: Simple
 Minimum Stealth: 4
 Minimum Essence: 3
-Prerequisite Charms: Blurred Form Style
+Prerequisite Charms: [[#Blurred Form Style]]
 
 Visual detection is not the only thing an Exalted must
 fear. Through the use of this Charm, an Exalted can
@@ -168,7 +168,7 @@ Duration: Essence in minutes
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 3
-Prerequisite Charms: Invisible Statue Spirit
+Prerequisite Charms: [[#Invisible Statue Spirit]]
 
 This Charm allows the character to literally vanish
 from sight. She can become completely invisible. The

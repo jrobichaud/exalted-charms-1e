@@ -42,7 +42,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 3
-Prerequisite Charms: Soft Presence Practice
+Prerequisite Charms: [[#Soft Presence Practice]]
 
 Quiet as the Void, the Sidereal steps entirely out of
 the weave of fate. Only those with Essence greater than
@@ -67,7 +67,7 @@ Duration: One minute
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 3
-Prerequisite Charms: Walking Outside Fate
+Prerequisite Charms: [[#Walking Outside Fate]]
 
 The character can only use this Charm while Walking
 Outside Fate. Any spirit or Sidereal present hears the
@@ -109,7 +109,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Stealth: 5
 Minimum Essence: 3
-Prerequisite Charms: Subordinate Inspiration Technique
+Prerequisite Charms: [[#Subordinate Inspiration Technique]]
 
 Technique, Blinding the Boar
 This Charm uses a prayer strip marked with the

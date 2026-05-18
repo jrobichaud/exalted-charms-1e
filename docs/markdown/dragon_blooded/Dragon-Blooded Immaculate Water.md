@@ -69,7 +69,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Flowing Water Defense
+Prerequisite Charms: [[#Flowing Water Defense]]
 
 Like ripples emanating from a pebble dropped into
 the glassy surface of water, the force of an attack enhanced
@@ -93,7 +93,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Ripping Water Strike
+Prerequisite Charms: [[#Ripping Water Strike]]
 
 The body, as anyone can see, contains a lot of water
 - blood. Dragon-Blooded warriors who learn the hidden
@@ -122,7 +122,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 3
 Minimum Essence: 2
-Prerequisite Charms: Ripping Water Strike
+Prerequisite Charms: [[#Ripping Water Strike]]
 
 With a focusing of Essence, the Immaculate can cast
 off any restraint, magical or physical. Chains shatter, ropes
@@ -140,7 +140,7 @@ Duration: One scene
 Type: Simple
 Minimum Martial Arts: 4
 Minimum Essence: 3
-Prerequisite Charms: Drowning-in-Blood Technique, Shrugging Water Dragon Escape
+Prerequisite Charms: [[#Drowning in Blood Technique]], [[#Shrugging Water Dragon Escape]]
 
 Bodies of water absorb force directed against them,
 dissipating damage. With the execution of a few fluid body
@@ -180,7 +180,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Water Dragon Form
+Prerequisite Charms: [[#Water Dragon Form]]
 
 After a successful attack, the player of the Water
 Dragon Immaculate invoking this Charm makes an Essence
@@ -201,7 +201,7 @@ Duration: Until abandoned
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Theft-of-Essence Method
+Prerequisite Charms: [[#Theft-of-Essence Method]]
 
 By executing a few special katas, the Immaculate
 invoking the Ghost-Restraining Whirlpool Stance sets up
@@ -237,7 +237,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Water Dragon Form
+Prerequisite Charms: [[#Water Dragon Form]]
 
 If the Dragon-Blood hits his target, for a fraction of
 a second, every moving fluid in the target's body reverses
@@ -270,7 +270,7 @@ Duration: Instant
 Type: Extra Actions
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Flow Reversal Strike
+Prerequisite Charms: [[#Flow Reversal Strike]]
 
 The ocean pounds the shores with savage fury, and
 Water-aspected Immaculates can channel that fury. Upon
@@ -293,7 +293,7 @@ Duration: One turn
 Type: Reflexive
 Minimum Martial Arts: 5
 Minimum Essence: 3
-Prerequisite Charms: Ghost-Restraining Whirlpool Stance, Crashing Wave Style
+Prerequisite Charms: [[#Ghost-Restraining Whirlpool Stance]], [[#Crashing Wave Style]]
 
 When this Charm is invoked, the Immaculate immediately
 takes a single health level of aggravated damage.
@@ -314,7 +314,7 @@ Duration: Varies
 Type: Supplemental
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Bottomless Depths Defense
+Prerequisite Charms: [[#Bottomless Depths Defense]]
 
 The dark, smothering Essence of the Water Dragon
 can be channeled through a Dynast's blows to douse the
@@ -350,7 +350,7 @@ Duration: Instant
 Type: Simple
 Minimum Martial Arts: 5
 Minimum Essence: 4
-Prerequisite Charms: Essence-Dousing Wave Attack
+Prerequisite Charms: [[#Essence-Dousing Wave Attack]]
 
 The Tsunami Force Shout radiates out from the
 Immaculate in a 45-degree arc, reaching out to her Essence

@@ -59,7 +59,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 4
 Minimum Essence: 4
-Prerequisite Charms: Terrestrial Circle Sorcery
+Prerequisite Charms: [[#Terrestrial Circle Sorcery]]
 
 Easily outstripping the most potent spells of the Dragon-Blooded,
 the magic of the Second Circle is well known in the
@@ -101,7 +101,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 4
 Minimum Essence: 4
-Prerequisite Charms: Shadowlands Circle Necromancy
+Prerequisite Charms: [[#Shadowlands Circle Necromancy]]
 
 Above — or perhaps below — the necromancy of
 the First Circle, Labyrinth Circle magic is the stuff of
@@ -118,7 +118,7 @@ Duration: Instant
 Type: Simple
 Minimum Occult: 5
 Minimum Essence: 5
-Prerequisite Charms: Labyrinth Circle Necromancy
+Prerequisite Charms: [[#Labyrinth Circle Necromancy]]
 
 In true poetic irony, the very death taint that denies
 the Abyssal Exalted access to Solar Circle Sorcery also
@@ -160,7 +160,7 @@ Duration: One scene
 Type: Simple
 Minimum Occult: 5
 Minimum Essence: 2
-Prerequisite Charms: Spirit Sensing Technique
+Prerequisite Charms: [[#Spirit Sensing Technique]]
 
 Even in the most verdant forests, the necrotic Essence
 of the Underworld leaks through into Creation in
@@ -187,7 +187,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Occult: 3
 Minimum Essence: 2
-Prerequisite Charms: Spirit Sensing Technique
+Prerequisite Charms: [[#Spirit Sensing Technique]]
 
 Charging his hand or weapon with spectral energy,
 the character can make one strike against an immaterial
@@ -219,7 +219,7 @@ Duration: Instant
 Type: Supplemental
 Minimum Occult: 5
 Minimum Essence: 3
-Prerequisite Charms: Corpus-Rending Blow
+Prerequisite Charms: [[#Corpus-Rending Blow]]
 
 This Charm allows an Abyssal to infuse a single attack
 with the chill of the Void. The character's blow can strike
@@ -242,7 +242,7 @@ Duration: One scene
 Type: Simple
 Minimum Occult: 5
 Minimum Essence: 3
-Prerequisite Charms: Soul-Eating Strike
+Prerequisite Charms: [[#Soul-Eating Strike]]
 
 Opening himself as a conduit to the Void, the Abyssal
 spreads his arms, and a maelstrom of flickering shadows
