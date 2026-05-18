@@ -2,7 +2,7 @@
 
 flowchart TD
 
-    easily_overlooked_presence_method["<a class='internal-link' href='#Seasoned Criminal Method'>Easily Overlooked<br>Presence Method</a>"]
+    easily_overlooked_presence_method["<a class='internal-link' href='#Easily Overlooked Presence Method'>Easily Overlooked<br>Presence Method</a>"]
 
     mental_invisibility_technique["<a class='internal-link' href='#Mental Invisibility Technique'>Mental Invisibility<br>Technique</a>"]
     easily_overlooked_presence_method --> mental_invisibility_technique
@@ -28,7 +28,7 @@ flowchart TD
 ```
 
 
-## Seasoned Criminal Method
+## Easily Overlooked Presence Method
 
 Cost: 3 motes
 Duration: One scene
