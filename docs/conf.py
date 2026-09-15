@@ -45,10 +45,13 @@ templates_path = ["_templates"]
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
+mermaid_height = "1000px"
 
 
 # Full version
 release = "1.0.0"
+
+mermaid_version = "12.0.0"
 
 # Minor version
 version = "0"
