@@ -4,6 +4,11 @@ config:
 ---
 flowchart TD
 
+    subgraph compassion[Compassion Charms]
+        direction TB
+        dreamscape["Dreamscape"]
+    end
+
     confusion[Confusion]
     click confusion callback "
         Confusion<br>
@@ -117,7 +122,7 @@ flowchart TD
 
 
     dreambane["Dreambane"]
-    dreamscape["... Dreamscape<br>(Compassion)"] --> dreambane
+    dreamscape --> dreambane
     click dreambane callback "
         Dreambane<br>
         <br>

@@ -65,7 +65,6 @@ Awareness
 
 Craft
 ^^^^^
-.. mermaid:: ./mermaid/dragon_blooded/earth_craft_1.mmd
 .. mermaid:: ./mermaid/dragon_blooded/earth_craft_2.mmd
 
 Endurance
