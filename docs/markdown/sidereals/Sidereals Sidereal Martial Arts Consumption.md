@@ -14,7 +14,7 @@ flowchart TD
     nest_of_living_strands["<a class='internal-link' href='#Nest of Living Strands'>Nest of Living Strands</a>"]
     rain_of_unseen_threads --> nest_of_living_strands
 
-    charcoal_march_of_spiders_form["<a class='internal-link' href='#Charcoal March of Spider's Form'>Charcoal March of Spider's Form</a>"]
+    charcoal_march_of_spiders_form["<a class='internal-link' href='#Charcoal March of Spider&apos;s Form'>Charcoal March of Spider's Form</a>"]
     dance_of_the_hungry_spider --> charcoal_march_of_spiders_form
     maw_of_dripping_venom --> charcoal_march_of_spiders_form
     nest_of_living_strands --> charcoal_march_of_spiders_form

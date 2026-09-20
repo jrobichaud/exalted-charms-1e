@@ -16,7 +16,7 @@ flowchart TD
     soulsteel_forging["<a class='internal-link' href='#Soulsteel Forging'>Soulsteel Forging</a>"]
     soulsteel_rebuilding_technique --> soulsteel_forging
 
-    soulsteel_miners_sense["<a class='internal-link' href='#Soulsteel Miner's Sense'>Soulsteel Miner's Sense</a>"]
+    soulsteel_miners_sense["<a class='internal-link' href='#Soulsteel Miner&apos;s Sense'>Soulsteel Miner's Sense</a>"]
     soulsteel_rebuilding_technique --> soulsteel_miners_sense
 
 ```

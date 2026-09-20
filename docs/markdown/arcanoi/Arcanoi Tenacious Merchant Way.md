@@ -9,7 +9,7 @@ flowchart TD
     careful_debtor_stance["<a class='internal-link' href='#Careful Debtor Stance'>Careful Debtor Stance</a>"]
     earnest_creditor_technique --> careful_debtor_stance
 
-    bold_thiefs_way["<a class='internal-link' href='#Bold Thief's Way'>Bold Thief's Way</a>"]
+    bold_thiefs_way["<a class='internal-link' href='#Bold Thief&apos;s Way'>Bold Thief's Way</a>"]
     jangling_coin_pouch_sense --> bold_thiefs_way
 
     redirected_prayer_path["<a class='internal-link' href='#Redirected Prayer Path'>Redirected Prayer Path</a>"]

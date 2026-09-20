@@ -23,7 +23,7 @@ flowchart TD
     great_heart_companion --> dance_of_the_jade_bridle
 
     subgraph Aspect Book - Wood
-        elemental_halos_mercy["<a class='internal-link' href='#Elemental Halo's Mercy'>Elemental Halo's Mercy</a>"]
+        elemental_halos_mercy["<a class='internal-link' href='#Elemental Halo&apos;s Mercy'>Elemental Halo's Mercy</a>"]
     end
     great_heart_companion ---> elemental_halos_mercy
 

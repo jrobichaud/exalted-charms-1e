@@ -21,7 +21,7 @@ flowchart TD
     all_encompassing_earth_sense["<a class='internal-link' href='#All-Encompassing Earth Sense'>All-Encompassing Earth<br>Sense</a>"]
     precision_observation_method --> all_encompassing_earth_sense
 
-    feeling_the_dragons_bones["<a class='internal-link' href='#Feeling the Dragon's Bones'>Feeling the Dragon's Bones</a>"]
+    feeling_the_dragons_bones["<a class='internal-link' href='#Feeling the Dragon&apos;s Bones'>Feeling the Dragon's Bones</a>"]
     all_encompassing_earth_sense --> feeling_the_dragons_bones
 
     entombed_mind_technique["<a class='internal-link' href='#Entombed Mind Technique'>Entombed Mind Technique</a>"]
@@ -41,7 +41,7 @@ flowchart TD
         unfailing_dragon_glance["<a class='internal-link' href='#Unfailing Dragon Glance'>Unfailing Dragon<br>Glance</a>"]
         sight_of_fluttering_tremors["<a class='internal-link' href='#Sight of Fluttering Tremors'>Sight of Fluttering<br>Tremors</a>"]
 
-        pulse_of_the_dragons_soul["<a class='internal-link' href='#Pulse of the Dragon's Soul'>Pulse of the<br>Dragon's Soul</a>"]
+        pulse_of_the_dragons_soul["<a class='internal-link' href='#Pulse of the Dragon&apos;s Soul'>Pulse of the<br>Dragon's Soul</a>"]
 
     end
     all_encompassing_earth_sense --> sight_of_fluttering_tremors

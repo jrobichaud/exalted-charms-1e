@@ -12,7 +12,7 @@ flowchart TD
 ```mermaid
 
 flowchart LR
-    finding_the_spirits_shape["<a class='internal-link' href='#Finding the Spirit's Shape'>🌙 Finding the Spirit's Shape</a>"]
+    finding_the_spirits_shape["<a class='internal-link' href='#Finding the Spirit&apos;s Shape'>🌙 Finding the Spirit's Shape</a>"]
 
     shaping_the_ideal_form["<a class='internal-link' href='#Shaping the Ideal Form'>🌙 Shaping the Ideal Form</a>"]
 
@@ -20,7 +20,7 @@ flowchart LR
 
         deadly_beastman_transformation["<a class='internal-link' href='#Deadly Beastman Transformation'>🌙 Deadly Beastman Transformation</a>"]
 
-        calling_lunas_favor["<a class='internal-link' href='#Calling Luna's Favor'>🌙 Calling Luna's Favor</a>"]
+        calling_lunas_favor["<a class='internal-link' href='#Calling Luna&apos;s Favor'>🌙 Calling Luna's Favor</a>"]
 
         blossom_gift_of_luna["<a class='internal-link' href='#Blossom Gift of Luna'>🌙 Blossom Gift of Luna</a>"]
 
@@ -32,7 +32,7 @@ flowchart LR
 
         many_faced_moon_transformation["<a class='internal-link' href='#Many-Faced Moon Transformation'>🌙 Many-Faced Moon Transformation</a>"]
 
-        preys_skin_disguise["<a class='internal-link' href='#Prey's Skin Disguise'>🌙 Prey's Skin Disguise</a>"]
+        preys_skin_disguise["<a class='internal-link' href='#Prey&apos;s Skin Disguise'>🌙 Prey's Skin Disguise</a>"]
 
         lunar_blood_reshaping_technique["<a class='internal-link' href='#Lunar Blood Reshaping Technique'>🌙 Lunar Blood<br>Reshaping Technique</a>"]
 

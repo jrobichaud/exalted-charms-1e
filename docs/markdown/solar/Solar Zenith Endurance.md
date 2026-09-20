@@ -4,12 +4,12 @@ flowchart TD
 
     ox_body_technique["<a class='internal-link' href='#Ox-Body Technique'>Ox-Body Technique</a>"]
 
-    armored_scouts_invigoration["<a class='internal-link' href='#Armored Scout's Invigoration'>Armored Scout's<br>Invigoration</a>"]
+    armored_scouts_invigoration["<a class='internal-link' href='#Armored Scout&apos;s Invigoration'>Armored Scout's<br>Invigoration</a>"]
 
-    front_line_warriors_stamina["<a class='internal-link' href='#Front-Line Warrior's Stamina'>Front-Line Warrior's<br>Stamina</a>"]
+    front_line_warriors_stamina["<a class='internal-link' href='#Front-Line Warrior&apos;s Stamina'>Front-Line Warrior's<br>Stamina</a>"]
     armored_scouts_invigoration --> front_line_warriors_stamina
 
-    tiger_warriors_endurance["<a class='internal-link' href='#Tiger Warrior's Endurance'>Tiger-Warrior's<br>Endurance</a>"]
+    tiger_warriors_endurance["<a class='internal-link' href='#Tiger Warrior&apos;s Endurance'>Tiger-Warrior's<br>Endurance</a>"]
     front_line_warriors_stamina --> tiger_warriors_endurance
 
     essence_gathering_temper["<a class='internal-link' href='#Essence-Gathering Temper'>Essence-Gathering Temper</a>"]
@@ -26,7 +26,7 @@ flowchart TD
     subgraph Castebook Zenith
         empty_stomach_fasting_meditation["<a class='internal-link' href='#Empty Stomach Fasting Meditation'>Empty Stomach Fasting<br>Meditation</a>"]
 
-        ascetic_monks_purification_discipline["<a class='internal-link' href='#Ascetic Monk's Purification Discipline'>Ascetic Monk's<br>Purification Discipline</a>"]
+        ascetic_monks_purification_discipline["<a class='internal-link' href='#Ascetic Monk&apos;s Purification Discipline'>Ascetic Monk's<br>Purification Discipline</a>"]
         empty_stomach_fasting_meditation --> ascetic_monks_purification_discipline
 
         controlled_breathing_exercise["<a class='internal-link' href='#Controlled Breathing Exercise'>Controlled Breathing<br>Exercise</a>"]
@@ -36,7 +36,7 @@ flowchart TD
 
         unsleeping_watchman_technique["<a class='internal-link' href='#Unsleeping Watchman Technique'>Unsleeping Watchman<br>Technique</a>"]
 
-        tireless_runners_stride["<a class='internal-link' href='#Tireless Runner's Stride'>Tireless Runner's<br>Stride</a>"]
+        tireless_runners_stride["<a class='internal-link' href='#Tireless Runner&apos;s Stride'>Tireless Runner's<br>Stride</a>"]
         unsleeping_watchman_technique -->|or| tireless_runners_stride
 
         extended_life_prana["<a class='internal-link' href='#Extended Life Prana'>Extended Life<br>Prana</a>"]
@@ -46,7 +46,7 @@ flowchart TD
     end
 
     subgraph Cult of the Illuminated
-        tireless_travelers_stamina["<a class='internal-link' href='#Tireless Traveler's Stamina'>Tireless Traveler's<br>Stamina</a>"]
+        tireless_travelers_stamina["<a class='internal-link' href='#Tireless Traveler&apos;s Stamina'>Tireless Traveler's<br>Stamina</a>"]
     end
 
     tireless_travelers_stamina --->|or| tireless_runners_stride

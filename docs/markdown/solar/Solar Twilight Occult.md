@@ -21,7 +21,7 @@ flowchart TD
     spirit_repelling_diagram["<a class='internal-link' href='#Spirit-Repelling Diagram'>Spirit-Repelling Diagram</a>"]
     spirit_cutting_attack --> spirit_repelling_diagram
 
-    all_encompassing_sorcerers_sight["<a class='internal-link' href='#All-Encompassing Sorcerer's Sight'>All-Encompassing<br>Sorcerer's Sight</a>"]
+    all_encompassing_sorcerers_sight["<a class='internal-link' href='#All-Encompassing Sorcerer&apos;s Sight'>All-Encompassing<br>Sorcerer's Sight</a>"]
     spirit_detecting_glance --> all_encompassing_sorcerers_sight
 
     subgraph Castebook Twilight

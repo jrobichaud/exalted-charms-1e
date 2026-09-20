@@ -2,7 +2,7 @@
 
 flowchart TD
 
-    benevolent_masters_blessing["<a class='internal-link' href='#Benevolent Master's Blessing'>Benevolent Master's<br>Blessing</a>"]
+    benevolent_masters_blessing["<a class='internal-link' href='#Benevolent Master&apos;s Blessing'>Benevolent Master's<br>Blessing</a>"]
 
     confluence_of_savant_thought["<a class='internal-link' href='#Confluence of Savant Thought'>Confluence of Savant<br>Thought</a>"]
     benevolent_masters_blessing --> confluence_of_savant_thought
@@ -23,7 +23,7 @@ flowchart TD
     thrashing_carp_serenade --> testing_the_waters
 
     subgraph Aspect Book - Water
-        finding_the_waters_depths["<a class='internal-link' href='#Finding the Waters' Depths'>Finding the Waters' Depths</a>"]
+        finding_the_waters_depths["<a class='internal-link' href='#Finding the Waters&apos; Depths'>Finding the Waters' Depths</a>"]
 
         sparkling_fountains_of_eloquence["<a class='internal-link' href='#Sparkling Fountains of Eloquence'>Sparkling Fountains<br>of Eloquence</a>"]
 

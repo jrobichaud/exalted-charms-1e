@@ -2,7 +2,7 @@
 
 flowchart TD
 
-    master_sailors_memory["<a class='internal-link' href='#Master Sailor's Memory'>Master Sailor's Memory</a>"]
+    master_sailors_memory["<a class='internal-link' href='#Master Sailor&apos;s Memory'>Master Sailor's Memory</a>"]
 
     ghost_on_the_deck["<a class='internal-link' href='#Ghost on the Deck'>Ghost on the Deck</a>"]
     master_sailors_memory --> ghost_on_the_deck

@@ -4,7 +4,7 @@ flowchart TD
 
     withered_touch["<a class='internal-link' href='#Withered Touch'>Withered Touch</a>"]
 
-    dead_mans_grasp["<a class='internal-link' href='#Dead Man's Grasp'>Dead Man's Grasp</a>"]
+    dead_mans_grasp["<a class='internal-link' href='#Dead Man&apos;s Grasp'>Dead Man's Grasp</a>"]
 
     rapacious_lamprey_technique["<a class='internal-link' href='#Rapacious Lamprey Technique'>Rapacious Lamprey Technique</a>"]
     dead_mans_grasp --> rapacious_lamprey_technique

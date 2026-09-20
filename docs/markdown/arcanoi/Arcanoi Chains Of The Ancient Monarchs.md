@@ -4,7 +4,7 @@ flowchart TD
 
     soul_anchor["<a class='internal-link' href='#Soul Anchor'>Soul Anchor</a>"]
 
-    monarchs_glorious_brilliance["<a class='internal-link' href='#Monarch's Glorious Brilliance'>Monarch's Glorious Brilliance</a>"]
+    monarchs_glorious_brilliance["<a class='internal-link' href='#Monarch&apos;s Glorious Brilliance'>Monarch's Glorious Brilliance</a>"]
 
     essence_binding["<a class='internal-link' href='#Essence Binding'>Essence Binding</a>"]
     soul_anchor --> essence_binding

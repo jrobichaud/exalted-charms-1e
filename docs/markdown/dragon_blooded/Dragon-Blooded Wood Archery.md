@@ -6,7 +6,7 @@ flowchart TD
     subgraph air_archery[Air Archery Charms]
         direction TB
 
-        archers_favorable_wind["<a class='internal-link' href='#Archer's Favorable Wind'>Archer's Favorable Wind</a>"]
+        archers_favorable_wind["<a class='internal-link' href='#Archer&apos;s Favorable Wind'>Archer's Favorable Wind</a>"]
 
         fortunate_wind_attack["<a class='internal-link' href='#Fortunate Wind Attack'>Fortunate Wind Attack</a>"]
 
@@ -39,7 +39,7 @@ flowchart TD
     seven_year_swarm_volley --> sparrow_dives_at_hawk
 
     subgraph Aspect Book - Wood
-        unobstructed_hunters_aim["<a class='internal-link' href='#Unobstructed Hunter's Aim'>Unobstructed Hunter's<br>Aim</a>"]
+        unobstructed_hunters_aim["<a class='internal-link' href='#Unobstructed Hunter&apos;s Aim'>Unobstructed Hunter's<br>Aim</a>"]
         ravenous_thorn_technique["<a class='internal-link' href='#Ravenous Thorn Technique'>Ravenous Thorn<br>Technique</a>"]
 
     end

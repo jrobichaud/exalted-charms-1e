@@ -4,13 +4,13 @@ flowchart TD
 
     red_haze["<a class='internal-link' href='#Red Haze'>Red Haze</a>"]
 
-    someone_elses_destiny["<a class='internal-link' href='#Someone Else's Destiny'>Someone Else's Destiny</a>"]
+    someone_elses_destiny["<a class='internal-link' href='#Someone Else&apos;s Destiny'>Someone Else's Destiny</a>"]
 
     water_and_fire_legion["<a class='internal-link' href='#Water and Fire Legion'>Water and Fire Legion</a>"]
 
     shield_of_mars["<a class='internal-link' href='#Shield of Mars'>Shield of Mars</a>"]
 
-    storms_eye_stance["<a class='internal-link' href='#Storm's Eye Stance'>Storm's Eye Stance</a>"]
+    storms_eye_stance["<a class='internal-link' href='#Storm&apos;s Eye Stance'>Storm's Eye Stance</a>"]
     red_haze --> storms_eye_stance
     someone_elses_destiny --> storms_eye_stance
     water_and_fire_legion --> storms_eye_stance

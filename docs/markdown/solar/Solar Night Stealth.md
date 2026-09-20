@@ -7,7 +7,7 @@ flowchart TD
     mental_invisibility_technique["<a class='internal-link' href='#Mental Invisibility Technique'>Mental Invisibility<br>Technique</a>"]
     easily_overlooked_presence_method --> mental_invisibility_technique
 
-    vanishing_from_minds_eye_method["<a class='internal-link' href='#Vanishing from Mind's Eye Method'>Vanishing from Mind's Eye<br>Method</a>"]
+    vanishing_from_minds_eye_method["<a class='internal-link' href='#Vanishing from Mind&apos;s Eye Method'>Vanishing from Mind's Eye<br>Method</a>"]
     mental_invisibility_technique --> vanishing_from_minds_eye_method
 
     invisible_statue_spirit["<a class='internal-link' href='#Invisible Statue Spirit'>Invisible Statue Spirit</a>"]

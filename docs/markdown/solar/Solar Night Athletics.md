@@ -30,7 +30,7 @@ flowchart TD
 
     increasing_strength_exercise["<a class='internal-link' href='#Increasing Strength Exercise'>Increasing Strength<br>Exercise</a>"]
 
-    thunders_might["<a class='internal-link' href='#Thunder's Might'>Thunder's Might</a>"]
+    thunders_might["<a class='internal-link' href='#Thunder&apos;s Might'>Thunder's Might</a>"]
     increasing_strength_exercise --> thunders_might
 
     subgraph Castebook Night

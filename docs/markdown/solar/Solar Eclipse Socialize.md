@@ -12,7 +12,7 @@ flowchart TD
     understanding_the_court["<a class='internal-link' href='#Understanding the Court'>Understanding the Court</a>"]
     motive_discerning_technique --> understanding_the_court
 
-    knowing_the_souls_price["<a class='internal-link' href='#Knowing the Soul's Price'>Knowing the Soul's Price</a>"]
+    knowing_the_souls_price["<a class='internal-link' href='#Knowing the Soul&apos;s Price'>Knowing the Soul's Price</a>"]
     motive_discerning_technique --> knowing_the_souls_price
     mastery_of_small_manners --> knowing_the_souls_price
 

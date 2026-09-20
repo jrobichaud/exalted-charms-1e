@@ -22,10 +22,10 @@ flowchart TD
     subgraph solar_eclipse_socialize[Solar Eclipse Socialize Charms]
         direction TB
         motive_discerning_technique["<a class='internal-link' href='#Motive-Discerning Technique'>Motive-Discerning<br>Technique</a>"]
-        knowing_the_souls_price["<a class='internal-link' href='#Knowing the Soul's Price'>Knowing the Soul's Price</a>"]
+        knowing_the_souls_price["<a class='internal-link' href='#Knowing the Soul&apos;s Price'>Knowing the Soul's Price</a>"]
     end
 
-    vindictive_concubines_pillow_book_understanding["<a class='internal-link' href='#Vindictive Concubine's Pillow Book Understanding'>Vindictive Concubine's<br>Pillow Book Understanding</a>"]
+    vindictive_concubines_pillow_book_understanding["<a class='internal-link' href='#Vindictive Concubine&apos;s Pillow Book Understanding'>Vindictive Concubine's<br>Pillow Book Understanding</a>"]
     motive_discerning_technique --> vindictive_concubines_pillow_book_understanding
     resplendent_sash_grapple_technique --> vindictive_concubines_pillow_book_understanding
 
@@ -36,7 +36,7 @@ flowchart TD
     fragrant_petal_fascination_kata --> seven_storms_escape_prana
 
 
-    invoking_the_chimeras_coils["<a class='internal-link' href='#Invoking the Chimera's Coils'>Invoking the Chimera's Coils</a>"]
+    invoking_the_chimeras_coils["<a class='internal-link' href='#Invoking the Chimera&apos;s Coils'>Invoking the Chimera's Coils</a>"]
     knowing_the_souls_price --> invoking_the_chimeras_coils
     vindictive_concubines_pillow_book_understanding --> invoking_the_chimeras_coils
     resplendent_sash_grapple_technique --> invoking_the_chimeras_coils

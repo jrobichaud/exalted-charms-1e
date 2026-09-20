@@ -10,7 +10,7 @@ flowchart TD
     letter_within_a_letter_technique["<a class='internal-link' href='#Letter-Within-a-Letter Technique'>Letter-Within-a-Letter<br>Technique</a>"]
     whirling_brush_method --> letter_within_a_letter_technique
 
-    discerning_savants_eye["<a class='internal-link' href='#Discerning Savant's Eye'>Discerning Savant's Eye</a>"]
+    discerning_savants_eye["<a class='internal-link' href='#Discerning Savant&apos;s Eye'>Discerning Savant's Eye</a>"]
 
     sagacious_reading_of_intent["<a class='internal-link' href='#Sagacious Reading of Intent'>Sagacious Reading of Intent</a>"]
 
@@ -20,7 +20,7 @@ flowchart TD
 
 
     subgraph Castebook Eclipse
-        swift_sages_eye["<a class='internal-link' href='#Swift Sage's Eye'>Swift Sage's Eye</a>"]
+        swift_sages_eye["<a class='internal-link' href='#Swift Sage&apos;s Eye'>Swift Sage's Eye</a>"]
         perfect_recollection_discipline["<a class='internal-link' href='#Perfect Recollection Discipline'>Perfect Recollection Discipline</a>"]
 
         flawless_forgery_technique["<a class='internal-link' href='#Flawless Forgery Technique'>Flawless Forgery Technique</a>"]
@@ -30,7 +30,7 @@ flowchart TD
     end
 
     subgraph Cult of the Illuminated
-        excellent_emissarys_tongue["<a class='internal-link' href='#Excellent Emissary's Tongue'>Excellent Emissary's<br>Tongue</a>"]
+        excellent_emissarys_tongue["<a class='internal-link' href='#Excellent Emissary&apos;s Tongue'>Excellent Emissary's<br>Tongue</a>"]
     end
 
     unbreakable_fascination_method["<a class='internal-link' href='#Unbreakable Fascination Method'>Unbreakable Fascination<br>Method</a>"]

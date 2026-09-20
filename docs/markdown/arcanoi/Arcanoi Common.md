@@ -8,7 +8,7 @@ flowchart LR
 
     scent_of_sweet_blood["<a class='internal-link' href='#Scent of Sweet Blood'>Scent of Sweet Blood</a>"]
 
-    moons_cold_glow["<a class='internal-link' href='#Moon's Cold Glow'>Moon's Cold Glow</a>"]
+    moons_cold_glow["<a class='internal-link' href='#Moon&apos;s Cold Glow'>Moon's Cold Glow</a>"]
 
     whispers_of_the_living["<a class='internal-link' href='#Whispers of the Living'>Whispers of the Living</a>"]
 
@@ -20,7 +20,7 @@ flowchart LR
 
     two_world_vision["<a class='internal-link' href='#Two-World Vision'>Two-World Vision</a>"]
 
-    assassins_subtle_escape["<a class='internal-link' href='#Assassin's Subtle Escape'>Assassin's Subtle Escape</a>"]
+    assassins_subtle_escape["<a class='internal-link' href='#Assassin&apos;s Subtle Escape'>Assassin's Subtle Escape</a>"]
 
     motivated_shell["<a class='internal-link' href='#Motivated Shell'>Motivated Shell</a>"]
     assassins_subtle_escape --> motivated_shell

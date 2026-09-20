@@ -27,13 +27,13 @@ flowchart TD
 
     subgraph savage_seas[Savage Seas]
         direction TB
-        seeking_the_earths_bounty_method["<a class='internal-link' href='#Seeking the Earth's Bounty Method'>Seeking the Earth's<br>Bounty Method</a>"]
+        seeking_the_earths_bounty_method["<a class='internal-link' href='#Seeking the Earth&apos;s Bounty Method'>Seeking the Earth's<br>Bounty Method</a>"]
 
-        fires_kiss_resistance_prana["<a class='internal-link' href='#Fire's Kiss Resistance Prana'>Fire's Kiss<br>Resistance Prana</a>"]
+        fires_kiss_resistance_prana["<a class='internal-link' href='#Fire&apos;s Kiss Resistance Prana'>Fire's Kiss<br>Resistance Prana</a>"]
 
-        ignore_the_winds_course_technique["<a class='internal-link' href='#Ignore the Wind's Course Technique'>Ignore the Wind's<br>Course Technique</a>"]
+        ignore_the_winds_course_technique["<a class='internal-link' href='#Ignore the Wind&apos;s Course Technique'>Ignore the Wind's<br>Course Technique</a>"]
 
-        masts_unbreakable_will_prana["<a class='internal-link' href='#Mast's Unbreakable Will Prana'>Mast's Unbreakable<br>Will Prana</a>"]
+        masts_unbreakable_will_prana["<a class='internal-link' href='#Mast&apos;s Unbreakable Will Prana'>Mast's Unbreakable<br>Will Prana</a>"]
 
         harden_the_hull_practice["<a class='internal-link' href='#Harden the Hull Practice'>Harden the Hull<br>Practice</a>"]
     end

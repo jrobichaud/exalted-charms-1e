@@ -2,12 +2,12 @@
 
 flowchart TD
 
-    raitons_nimble_perch["<a class='internal-link' href='#Raiton's Nimble Perch'>Raiton's Nimble Perch</a>"]
+    raitons_nimble_perch["<a class='internal-link' href='#Raiton&apos;s Nimble Perch'>Raiton's Nimble Perch</a>"]
 
     spider_pounce_technique["<a class='internal-link' href='#Spider Pounce Technique'>Spider Pounce Technique</a>"]
     raitons_nimble_perch --> spider_pounce_technique
 
-    automn_leafs_descent["<a class='internal-link' href='#Autumn Leaf's Descent'>Autumn Leaf's Descent</a>"]
+    automn_leafs_descent["<a class='internal-link' href='#Autumn Leaf&apos;s Descent'>Autumn Leaf's Descent</a>"]
     spider_pounce_technique --> automn_leafs_descent
 
     falling_scythe_attack["<a class='internal-link' href='#Falling Scythe Attack'>Falling Scythe Attack</a>"]

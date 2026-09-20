@@ -39,7 +39,7 @@ flowchart TD
     hostile_environment_preparation --> shelter_creation_technique
 
     subgraph Aspect Book - Wood
-        natures_healing_bounty["<a class='internal-link' href='#Nature's Healing Bounty'>Nature's Healing Bounty</a>"]
+        natures_healing_bounty["<a class='internal-link' href='#Nature&apos;s Healing Bounty'>Nature's Healing Bounty</a>"]
     end
 
     wild_wandering_forester_charm --> natures_healing_bounty

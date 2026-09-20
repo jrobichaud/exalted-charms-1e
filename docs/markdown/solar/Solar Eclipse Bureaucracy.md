@@ -21,7 +21,7 @@ flowchart TD
 flowchart TD
 
 
-    deft_officials_way["<a class='internal-link' href='#Deft Official's Way'>Deft Official's Way</a>"]
+    deft_officials_way["<a class='internal-link' href='#Deft Official&apos;s Way'>Deft Official's Way</a>"]
 
     speed_of_the_wheels["<a class='internal-link' href='#Speed of the Wheels'>Speed of the Wheels</a>"]
     deft_officials_way --> speed_of_the_wheels

@@ -17,10 +17,10 @@ flowchart TD
     mortal_shadowing_technique["<a class='internal-link' href='#Mortal-Shadowing Technique'>Mortal-Shadowing Technique</a>"]
     soul_whispering_empathy_discipline ----> mortal_shadowing_technique
 
-    puppeteers_masterful_hand["<a class='internal-link' href='#Puppeteer's Masterful Hand'>Puppeteer's Masterful Hand</a>"]
+    puppeteers_masterful_hand["<a class='internal-link' href='#Puppeteer&apos;s Masterful Hand'>Puppeteer's Masterful Hand</a>"]
     mortal_shadowing_technique --> puppeteers_masterful_hand
 
-    nemissarys_ride["<a class='internal-link' href='#Nemissary's Ride'>Nemissary's Ride</a>"]
+    nemissarys_ride["<a class='internal-link' href='#Nemissary&apos;s Ride'>Nemissary&apos;s Ride</a>"]
     mortal_shadowing_technique --> nemissarys_ride
 
     dead_fur_cloak_method["<a class='internal-link' href='#Dead Fur Cloak Method'>Dead Fur Cloak Method</a>"]
@@ -29,7 +29,7 @@ flowchart TD
     subgraph Book of Bone and Ebony
         intangible_guardian_presence["<a class='internal-link' href='#Intangible Guardian Presence'>Intangible Guardian Presence</a>"]
 
-        the_embalmers_art["<a class='internal-link' href='#The Embalmer's Art'>The Embalmer's Art</a>"]
+        the_embalmers_art["<a class='internal-link' href='#The Embalmer&apos;s Art'>The Embalmer's Art</a>"]
 
             instauration_of_the_fleshly_vessel["<a class='internal-link' href='#Instauration of the Fleshly Vessel'>Instauration of the Fleshly Vessel</a>"]
 

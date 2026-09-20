@@ -10,7 +10,7 @@ flowchart TD
     masterly_pedagogical_inquiry["<a class='internal-link' href='#Masterly Pedagogical Inquiry'>Masterly Pedagogical Inquiry</a>"]
     discerning_student_technique --> masterly_pedagogical_inquiry
 
-    imperious_instructors_dictate["<a class='internal-link' href='#Imperious Instructor's Dictate'>Imperious Instructor's Dictate</a>"]
+    imperious_instructors_dictate["<a class='internal-link' href='#Imperious Instructor&apos;s Dictate'>Imperious Instructor's Dictate</a>"]
     masterly_pedagogical_inquiry --> imperious_instructors_dictate
 
     favored_student_charm["<a class='internal-link' href='#Favored Student Charm'>Favored Student Charm</a>"]

@@ -6,7 +6,7 @@ flowchart TD
 
     crafty_observation_method["<a class='internal-link' href='#Crafty Observation Method'>Crafty Observation Method</a>"]
 
-    judges_ear_technique["<a class='internal-link' href='#Judge's Ear Technique'>Judge's Ear Technique</a>"]
+    judges_ear_technique["<a class='internal-link' href='#Judge&apos;s Ear Technique'>Judge's Ear Technique</a>"]
 
     evidence_discerning_method["<a class='internal-link' href='#Evidence-Discerning Method'>Evidence-Discerning<br>Method</a>"]
 

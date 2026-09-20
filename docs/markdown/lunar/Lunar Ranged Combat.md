@@ -4,10 +4,10 @@ flowchart TB
 
     eagle_eye_advantage["<a class='internal-link' href='#Eagle Eye Advantage'>🌑 Eagle Eye Advantage</a>"]
 
-    natures_harmony_advantage["<a class='internal-link' href='#Nature's Harmony Advantage'>🌑 Nature's Harmony Advantage</a>"]
+    natures_harmony_advantage["<a class='internal-link' href='#Nature&apos;s Harmony Advantage'>🌑 Nature's Harmony Advantage</a>"]
     eagle_eye_advantage --> natures_harmony_advantage
 
-    knowing_the_arrows_path["<a class='internal-link' href='#Knowing the Arrow's Path'>🌑 Knowing the Arrow's Path</a>"]
+    knowing_the_arrows_path["<a class='internal-link' href='#Knowing the Arrow&apos;s Path'>🌑 Knowing the Arrow's Path</a>"]
     natures_harmony_advantage --> knowing_the_arrows_path
 
     two_target_method["<a class='internal-link' href='#Two-Target Method'>🌕 Two-Target Method</a>"]
@@ -19,7 +19,7 @@ flowchart TB
     rain_of_feathered_doom["<a class='internal-link' href='#Rain of Feathered Doom'>🌕 Rain of Feathered Doom</a>"]
     silver_waterfall_technique --> rain_of_feathered_doom
 
-    finding_the_needles_eye["<a class='internal-link' href='#Finding the Needle's Eye'>🌑 Finding the Needle's Eye</a>"]
+    finding_the_needles_eye["<a class='internal-link' href='#Finding the Needle&apos;s Eye'>🌑 Finding the Needle's Eye</a>"]
     knowing_the_arrows_path --> finding_the_needles_eye
 
     arrow_breaking_shot["<a class='internal-link' href='#Arrow-Breaking Shot'>🌑 Arrow-Breaking Shot</a>"]
@@ -49,7 +49,7 @@ flowchart TB
     body_pinning_style["<a class='internal-link' href='#Body-Pinning Style'>🌕 Body-Pinning Style</a>"]
     bow_bending_method --> body_pinning_style
 
-    deadly_assassins_shot["<a class='internal-link' href='#Deadly Assassin's Shot'>🌕 Deadly Assassin's Shot</a>"]
+    deadly_assassins_shot["<a class='internal-link' href='#Deadly Assassin&apos;s Shot'>🌕 Deadly Assassin's Shot</a>"]
     body_pinning_style --> deadly_assassins_shot
 
     lighting_stroke_attack["<a class='internal-link' href='#Lighting Stroke Attack'>🌕 Lighting Stroke Attack</a>"]

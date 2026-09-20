@@ -22,7 +22,7 @@ flowchart TD
     falsehood_unearthing_attitude["<a class='internal-link' href='#Falsehood-Unearthing Attitude'>Falsehood-Unearthing<br>Attitude</a>"]
     scent_of_crime_method ----> falsehood_unearthing_attitude
 
-    bloodhounds_nose_technique["<a class='internal-link' href='#Bloodhound's Nose Technique'>Bloodhound's Nose<br>Technique</a>"]
+    bloodhounds_nose_technique["<a class='internal-link' href='#Bloodhound&apos;s Nose Technique'>Bloodhound's Nose<br>Technique</a>"]
     indisputable_physical_analysis_technique --> bloodhounds_nose_technique
     scent_of_crime_method --> bloodhounds_nose_technique
 
@@ -33,7 +33,7 @@ flowchart TD
     revelation_of_associates_hunch --> homeward_trail_discovery_method
 
     subgraph The Outcaste
-        atsiluths_bounty["<a class='internal-link' href='#Atsiluth's Bounty'>Atsiluth's Bounty</a>"]
+        atsiluths_bounty["<a class='internal-link' href='#Atsiluth&apos;s Bounty'>Atsiluth's Bounty</a>"]
 
         vision_outside_time["<a class='internal-link' href='#Vision Outside Time'>Vision Outside Time</a>"]
     end

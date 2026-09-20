@@ -14,7 +14,7 @@ flowchart TD
     subgraph wood_lore[Wood Lore Charms]
         direction TB
 
-        ten_seasons_growth_discipline["<a class='internal-link' href='#Ten Season's Growth Discipline'>Ten Season's Growth<br>Discipline</a>"]
+        ten_seasons_growth_discipline["<a class='internal-link' href='#Ten Season&apos;s Growth Discipline'>Ten Season's Growth<br>Discipline</a>"]
 
     end
 

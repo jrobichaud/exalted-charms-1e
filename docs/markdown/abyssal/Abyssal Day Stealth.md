@@ -7,7 +7,7 @@ flowchart TD
     encounter_banishing_gesture["<a class='internal-link' href='#Encounter-Banishing Gesture'>Encounter-Banishing Gesture</a>"]
     concealing_distraction_discipline --> encounter_banishing_gesture
 
-    splinter_in_the_minds_eye["<a class='internal-link' href='#Splinter in the Mind's Eye'>Splinter in the Mind's Eye</a>"]
+    splinter_in_the_minds_eye["<a class='internal-link' href='#Splinter in the Mind&apos;s Eye'>Splinter in the Mind's Eye</a>"]
     encounter_banishing_gesture --> splinter_in_the_minds_eye
 
     noiseless_phantom_style["<a class='internal-link' href='#Noiseless Phantom Style'>Noiseless Phantom Style</a>"]

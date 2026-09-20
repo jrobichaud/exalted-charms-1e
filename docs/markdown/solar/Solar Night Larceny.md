@@ -14,7 +14,7 @@ flowchart TD
     stealing_from_plain_sight_spirit["<a class='internal-link' href='#Stealing from Plain Sight Spirit'>Stealing from Plain Sight<br>Spirit</a>"]
     flawless_pickpocketing_technique --> stealing_from_plain_sight_spirit
 
-    magpies_invisible_talons["<a class='internal-link' href='#Magpie's Invisible Talons'>Magpie's Invisible Talons</a>"]
+    magpies_invisible_talons["<a class='internal-link' href='#Magpie&apos;s Invisible Talons'>Magpie's Invisible Talons</a>"]
     stealing_from_plain_sight_spirit --> magpies_invisible_talons
 
     lock_opening_touch["<a class='internal-link' href='#Lock-Opening Touch'>Lock-Opening Touch</a>"]

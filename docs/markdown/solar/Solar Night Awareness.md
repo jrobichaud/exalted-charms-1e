@@ -14,7 +14,7 @@ flowchart TD
     sensory_acuity_prana --> surprise_anticipation_method
 
     subgraph savage_seas[Savage Seas]
-        piercing_the_nights_veil_practice["<a class='internal-link' href='#Piercing the Night's Veil Practice'>Piercing the Night's<br>Veil Practice</a>"]
+        piercing_the_nights_veil_practice["<a class='internal-link' href='#Piercing the Night&apos;s Veil Practice'>Piercing the Night's<br>Veil Practice</a>"]
 
         vision_of_the_murky_depths_method["<a class='internal-link' href='#Vision of the Murky Depths Method'>Vision of the Murky<br>Depths Method</a>"]
 

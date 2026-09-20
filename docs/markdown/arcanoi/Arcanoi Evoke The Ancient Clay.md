@@ -10,10 +10,10 @@ flowchart TD
     sweet_winsome_light["<a class='internal-link' href='#Sweet Winsome Light'>Sweet Winsome Light</a>"]
     marsh_light --> sweet_winsome_light
 
-    tinkers_body["<a class='internal-link' href='#Tinker's Body'>Tinker's Body</a>"]
+    tinkers_body["<a class='internal-link' href='#Tinker&apos;s Body'>Tinker's Body</a>"]
     marsh_light ------> tinkers_body
 
-    sleepers_caul["<a class='internal-link' href='#Sleeper's Caul'>Sleeper's Caul</a>"]
+    sleepers_caul["<a class='internal-link' href='#Sleeper&apos;s Caul'>Sleeper's Caul</a>"]
     marsh_light --> sleepers_caul
 
     embody["<a class='internal-link' href='#Embody'>Embody</a>"]

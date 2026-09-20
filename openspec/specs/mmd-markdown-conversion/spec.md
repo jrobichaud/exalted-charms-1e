@@ -64,7 +64,7 @@ The converter SHALL rewrite every Mermaid node definition so its label text is w
 
 - **WHEN** the source contains `raitons_nimble_perch[Raiton's Nimble Perch]`
 - **AND** the matching callback's first content line is `Raiton's Nimble Perch`
-- **THEN** the output contains `raitons_nimble_perch["<a class='internal-link' href='#Raiton's Nimble Perch'>Raiton's Nimble Perch</a>"]`
+- **THEN** the output contains `raitons_nimble_perch["<a class='internal-link' href='#Raiton&apos;s Nimble Perch'>Raiton's Nimble Perch</a>"]`
 
 #### Scenario: Quoted label with parentheses
 

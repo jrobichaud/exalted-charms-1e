@@ -28,7 +28,7 @@ flowchart TD
     aura_of_invulnerability["<a class='internal-link' href='#Aura of Invulnerability'>Aura of Invulnerability</a>"]
     glowing_coal_radiance --> aura_of_invulnerability
 
-    warlords_convocation["<a class='internal-link' href='#Warlord's Convocation'>Warlord's Convocation</a>"]
+    warlords_convocation["<a class='internal-link' href='#Warlord&apos;s Convocation'>Warlord's Convocation</a>"]
     blazing_courageous_swordsmen_inspiration --> warlords_convocation
     aura_of_invulnerability --> warlords_convocation
 

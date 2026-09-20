@@ -10,7 +10,7 @@ flowchart TD
     essence_devouring_ghost_touch["<a class='internal-link' href='#Essence-Devouring Ghost Touch'>Essence-Devouring Ghost Touch</a>"]
     delicious_essence_scent --> essence_devouring_ghost_touch
 
-    feeding_the_lampreys_appetite["<a class='internal-link' href='#Feeding the Lamprey's Appetite'>Feeding the Lamprey's Appetite</a>"]
+    feeding_the_lampreys_appetite["<a class='internal-link' href='#Feeding the Lamprey&apos;s Appetite'>Feeding the Lamprey's Appetite</a>"]
     essence_devouring_ghost_touch --> feeding_the_lampreys_appetite
 
     ravening_life_force_hunger["<a class='internal-link' href='#Ravening Life-Force Hunger'>Ravening Life-Force Hunger</a>"]
@@ -22,7 +22,7 @@ flowchart TD
     blending_the_streams_of_essence["<a class='internal-link' href='#Blending the Streams of Essence'>Blending the Streams of Essence</a>"]
     essence_devouring_ghost_touch ----> blending_the_streams_of_essence
 
-    feeding_lifes_fountain["<a class='internal-link' href='#Feeding Life's Fountain'>Feeding Life's Fountain</a>"]
+    feeding_lifes_fountain["<a class='internal-link' href='#Feeding Life&apos;s Fountain'>Feeding Life's Fountain</a>"]
     blending_the_streams_of_essence --> feeding_lifes_fountain
 
     filling_the_precious_vial["<a class='internal-link' href='#Filling the Precious Vial'>Filling the Precious Vial</a>"]

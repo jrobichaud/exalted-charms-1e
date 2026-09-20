@@ -46,7 +46,7 @@ flowchart LR
     will_of_the_stoic_warrior["<a class='internal-link' href='#Will of the Stoic Warrior'>🌕 Will of the Stoic Warrior</a>"]
     pain_numbing_prana --> will_of_the_stoic_warrior
 
-    lunas_fortitude["<a class='internal-link' href='#Luna's Fortitude'>🌕 Luna's Fortitude</a>"]
+    lunas_fortitude["<a class='internal-link' href='#Luna&apos;s Fortitude'>🌕 Luna's Fortitude</a>"]
     will_of_the_stoic_warrior --> lunas_fortitude
 
     infection_resisting_method["<a class='internal-link' href='#Infection-Resisting Method'>🌕 Infection-Resisting Method</a>"]
@@ -63,7 +63,7 @@ flowchart LR
     lick_wound["<a class='internal-link' href='#Lick Wound'>🌑 Lick Wound</a>"]
     infection_resisting_method --> lick_wound
 
-    mothers_touch["<a class='internal-link' href='#Mother's Touch'>🌑 Mother's Touch</a>"]
+    mothers_touch["<a class='internal-link' href='#Mother&apos;s Touch'>🌑 Mother's Touch</a>"]
     halting_the_scarlet_flow --> mothers_touch
     lick_wound --> mothers_touch
 

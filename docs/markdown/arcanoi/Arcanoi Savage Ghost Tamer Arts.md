@@ -7,7 +7,7 @@ flowchart TD
     call_the_ravening_hound["<a class='internal-link' href='#Call the Ravening Hound'>Call the Ravening Hound</a>"]
     taste_the_demon_wind --> call_the_ravening_hound
 
-    relentless_hunters_mark["<a class='internal-link' href='#Relentless Hunter's Mark'>Relentless Hunter's Mark</a>"]
+    relentless_hunters_mark["<a class='internal-link' href='#Relentless Hunter&apos;s Mark'>Relentless Hunter's Mark</a>"]
     call_the_ravening_hound --> relentless_hunters_mark
 
     diversion_of_the_savage_hunger["<a class='internal-link' href='#Diversion of the Savage Hunger'>Diversion of the Savage Hunger</a>"]

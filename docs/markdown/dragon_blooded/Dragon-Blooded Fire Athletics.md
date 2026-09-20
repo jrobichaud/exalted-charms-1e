@@ -30,7 +30,7 @@ flowchart TD
     dancing_ember_stride["<a class='internal-link' href='#Dancing Ember Stride'>Dancing Ember Stride</a>"]
     incense_smoke_ladder --> dancing_ember_stride
 
-    phoenix_mates_lament["<a class='internal-link' href='#Phoenix-Mate's Lament'>Phoenix-Mate's Lament</a>"]
+    phoenix_mates_lament["<a class='internal-link' href='#Phoenix-Mate&apos;s Lament'>Phoenix-Mate's Lament</a>"]
     falling_star_maneuver --> phoenix_mates_lament
 
     fiery_prowess["<a class='internal-link' href='#Fiery Prowess'>Fiery Prowess</a>"]

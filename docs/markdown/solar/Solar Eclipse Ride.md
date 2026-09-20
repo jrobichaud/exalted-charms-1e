@@ -2,7 +2,7 @@
 
 flowchart TD
 
-    master_horsemans_eye["<a class='internal-link' href='#Master Horseman's Eye'>Master Horseman's Eye</a>"]
+    master_horsemans_eye["<a class='internal-link' href='#Master Horseman&apos;s Eye'>Master Horseman's Eye</a>"]
 
     horse_summoning_whistle["<a class='internal-link' href='#Horse-Summoning Whistle'>Horse-Summoning Whistle</a>"]
     master_horsemans_eye --> horse_summoning_whistle

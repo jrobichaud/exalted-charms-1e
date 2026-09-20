@@ -23,18 +23,18 @@ flowchart TD
     hardship_surviving_mendicant_spirit -----> element_resisting_prana
 
     subgraph Cult of the Illuminated
-        game_snaring_huntsmans_method["<a class='internal-link' href='#Game-Snaring Huntsman's Method'>Game-Snaring<br>Huntsman's Method</a>"]
+        game_snaring_huntsmans_method["<a class='internal-link' href='#Game-Snaring Huntsman&apos;s Method'>Game-Snaring<br>Huntsman's Method</a>"]
     end
 
     subgraph Castebook Zenith
         storm_warden_concentration["<a class='internal-link' href='#Storm Warden Concentration'>Storm Warden<br>Concentration</a>"]
 
-        salamanders_touch_technique["<a class='internal-link' href='#Salamander's Touch Technique'>Salamander's Touch<br>Technique</a>"]
+        salamanders_touch_technique["<a class='internal-link' href='#Salamander&apos;s Touch Technique'>Salamander's Touch<br>Technique</a>"]
 
         unquenchable_conflagration_technique["<a class='internal-link' href='#Unquenchable Conflagration Technique'>Unquenchable<br>Conflagration Technique</a>"]
         salamanders_touch_technique --> unquenchable_conflagration_technique
 
-        suns_flaming_tongue_attack["<a class='internal-link' href='#Sun's Flaming Tongue Attack'>Suns Flaming Tongue<br>Attack</a>"]
+        suns_flaming_tongue_attack["<a class='internal-link' href='#Sun&apos;s Flaming Tongue Attack'>Suns Flaming Tongue<br>Attack</a>"]
         unquenchable_conflagration_technique --> suns_flaming_tongue_attack
 
 
@@ -60,7 +60,7 @@ flowchart TD
     spirit_tied_pet --> bestial_traits_technique
 
     subgraph savage_seas[Savage Seas]
-        earths_unceasing_beacon["<a class='internal-link' href='#Earth's Unceasing Beacon'>Earth's Unceasing Beacon</a>"]
+        earths_unceasing_beacon["<a class='internal-link' href='#Earth&apos;s Unceasing Beacon'>Earth's Unceasing Beacon</a>"]
     end
 
 ```

@@ -6,7 +6,7 @@ flowchart TD
 
     unmoving_mountain_stance["<a class='internal-link' href='#Unmoving Mountain Stance'>Unmoving Mountain Stance</a>"]
 
-    stone_dragons_skin["<a class='internal-link' href='#Stone Dragon's Skin'>Stone Dragon's Skin</a>"]
+    stone_dragons_skin["<a class='internal-link' href='#Stone Dragon&apos;s Skin'>Stone Dragon's Skin</a>"]
 
     earth_dragon_form["<a class='internal-link' href='#Earth Dragon Form'>Earth Dragon Form</a>"]
     force_of_the_mountain --> earth_dragon_form

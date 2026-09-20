@@ -8,7 +8,7 @@ flowchart TD
 
     ice_and_fire_binding["<a class='internal-link' href='#Ice and Fire Binding'>Ice and Fire Binding</a>"]
 
-    lovers_oath["<a class='internal-link' href='#Lover's Oath'>Lover's Oath</a>"]
+    lovers_oath["<a class='internal-link' href='#Lover&apos;s Oath'>Lover's Oath</a>"]
     favorable_inflection_procedure --> lovers_oath
     blue_vervain_binding --> lovers_oath
     ice_and_fire_binding --> lovers_oath

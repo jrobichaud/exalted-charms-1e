@@ -35,11 +35,11 @@ flowchart TD
     terrestrial_circle_sorcery["<a class='internal-link' href='#Terrestrial Circle Sorcery'>Terrestrial Circle Sorcery</a>"]
 
     subgraph Aspect Book - Air
-        minding_the_dragons_eggs["<a class='internal-link' href='#Minding the Dragon's Eggs'>Minding the Dragon's Eggs</a>"]
+        minding_the_dragons_eggs["<a class='internal-link' href='#Minding the Dragon&apos;s Eggs'>Minding the Dragon's Eggs</a>"]
 
         fivefold_resonance_sense["<a class='internal-link' href='#Fivefold Resonance Sense'>Fivefold Resonance Sense</a>"]
 
-        seeing_the_makers_hand["<a class='internal-link' href='#Seeing the Maker's Hand'>Seeing the Maker's Hand</a>"]
+        seeing_the_makers_hand["<a class='internal-link' href='#Seeing the Maker&apos;s Hand'>Seeing the Maker's Hand</a>"]
 
         embracing_the_arcane["<a class='internal-link' href='#Embracing the Arcane'>Embracing the Arcane</a>"]
     end

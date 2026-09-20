@@ -2,7 +2,7 @@
 
 flowchart TD
 
-    elegant_tyrants_majesty["<a class='internal-link' href='#Elegant Tyrant's Majesty'>Elegant Tyrant's Majesty</a>"]
+    elegant_tyrants_majesty["<a class='internal-link' href='#Elegant Tyrant&apos;s Majesty'>Elegant Tyrant's Majesty</a>"]
 
     command_the_dead["<a class='internal-link' href='#Command the Dead'>Command the Dead</a>"]
     elegant_tyrants_majesty --> command_the_dead
