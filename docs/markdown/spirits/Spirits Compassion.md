@@ -19,7 +19,7 @@ flowchart TD
 
     subgraph conviction[Conviction Charms]
         direction TB
-        dreambane["<a class='internal-link' href='#... Dreambane (Conviction)'>... Dreambane<br>(Conviction)</a>"]
+        dreambane["Dreambane"]
     end
 
     dreamspeak["<a class='internal-link' href='#Dreamspeak'>Dreamspeak</a>"]
