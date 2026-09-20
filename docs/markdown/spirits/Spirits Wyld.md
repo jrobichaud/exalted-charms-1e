@@ -23,7 +23,7 @@ Duration: Indefinite
 Type: Simple
 Minimum Compassion: 3
 Minimum Essence: 2
-Prerequisite Charms: Sense Domain
+Prerequisite Charms: [[Spirits Compassion#Sense Domain|Sense Domain]]
 
 Using this Charm, the spirit can protect a number
 of people equal to twice it's Essence from the

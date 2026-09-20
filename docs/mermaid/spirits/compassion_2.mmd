@@ -4,6 +4,11 @@ config:
 ---
 flowchart TD
 
+    subgraph conviction[Conviction Charms]
+        direction TB
+        dreambane["Dreambane"]
+    end
+
     dreamspeak[Dreamspeak]
     click dreamspeak callback "
         Dreamspeak
@@ -232,4 +237,4 @@ flowchart TD
         food is some of the finest nourishment ever tasted.
         "
 
-    dreamscape --> dreambane["... Dreambane<br>(Conviction)"]
+    dreamscape --> dreambane
