@@ -407,11 +407,25 @@ def process_group(group: list[Path], out_path: Path, force: bool, dry_run: bool)
     all_clicks: dict[str, tuple[ParsedFile, Click]] = {}
     cross_ref_ids: set[str] = set()
 
+    # A node inside a cross-reference subgraph with no callback of its own is a
+    # reference to a charm defined elsewhere, not a second definition. Within a
+    # merge group the sibling files render as separate diagrams, so a stub may
+    # legitimately repeat an id its sibling defines; the real definition wins and
+    # the stub's href resolves to it.
+    def is_reference(pf: ParsedFile, nid: str, node: Node) -> bool:
+        return node.in_cross_ref and nid not in pf.clicks
+
     for pf in parsed:
         for nid, node in pf.nodes.items():
             if nid in all_nodes:
-                prev = all_nodes[nid][1]
-                fail(pf.path, node.line, f"duplicate node '{nid}' (also at {all_nodes[nid][0].path}:{prev.line})")
+                prev_pf, prev = all_nodes[nid]
+                if is_reference(pf, nid, node) and not is_reference(prev_pf, nid, prev):
+                    continue  # keep the real definition already recorded
+                if is_reference(prev_pf, nid, prev) and not is_reference(pf, nid, node):
+                    all_nodes[nid] = (pf, node)  # real definition supersedes the stub
+                    cross_ref_ids.discard(nid)
+                    continue
+                fail(pf.path, node.line, f"duplicate node '{nid}' (also at {prev_pf.path}:{prev.line})")
             all_nodes[nid] = (pf, node)
             if node.in_cross_ref:
                 cross_ref_ids.add(nid)
