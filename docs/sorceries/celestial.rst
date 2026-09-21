@@ -682,7 +682,10 @@ Magma Kraken
 | or grapple at their full dice pool, while the others mindlessly
 | smash the closest foe. If the caster’s concentration is broken,
 | the clinch or hold of all of the tentacles is also broken.
-| MERCURY’S DELIVERANCE
+
+Mercury’s Deliverance
+.....................
+
 | Cost: 30 motes
 | Target: Area of effect
 | Mercury’s Deliverance is a spell that creates a barrier

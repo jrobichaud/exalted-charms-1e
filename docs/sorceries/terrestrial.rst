@@ -1991,6 +1991,7 @@ Sting of the Ice Hornet
 | preferred choice of sorcerous assassins.
 
 Summoning of the Lesser Minions of the Eyeless Face
+...................................................
 
 | Cost: 25 motes
 | Target: Summoned automata
