@@ -1,0 +1,60 @@
+Lunar Charms
+============
+
+Shapeshifting and Body Enhancement Charms
+-----------------------------------------
+
+.. mermaid:: ./mermaid/lunar/shapeshifting_1.mmd
+.. mermaid:: ./mermaid/lunar/shapeshifting_2.mmd
+
+Unarmed Combat Charms
+---------------------
+
+.. mermaid:: ./mermaid/lunar/unarmed_combat_1.mmd
+.. mermaid:: ./mermaid/lunar/unarmed_combat_2.mmd
+
+
+Melee Combat Charms
+-------------------
+
+.. mermaid:: ./mermaid/lunar/melee_combat_1.mmd
+
+Ranged Combat Charms
+--------------------
+
+.. mermaid:: ./mermaid/lunar/ranged_combat_1.mmd
+
+Defensive Charms
+----------------
+
+.. mermaid:: ./mermaid/lunar/defensive_1.mmd
+
+Survival and Healing Charms
+---------------------------
+
+.. mermaid:: ./mermaid/lunar/survival_healing_1.mmd
+
+Perception Charms
+-----------------
+
+.. mermaid:: ./mermaid/lunar/perception_1.mmd
+
+Stealth Charms
+--------------
+
+.. mermaid:: ./mermaid/lunar/stealth_1.mmd
+
+Interaction and Knowledge Charms
+--------------------------------
+
+.. mermaid:: ./mermaid/lunar/interaction_knowledge_1.mmd
+
+Spirit Charms
+-------------
+
+.. mermaid:: ./mermaid/lunar/spirit_1.mmd
+
+Sorcery Charms
+--------------
+
+.. mermaid:: ./mermaid/lunar/sorcery_1.mmd
