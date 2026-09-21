@@ -2356,3 +2356,64 @@ Virtuous Guardian of Flame
 | hand attacks in the same turn, the caster must choose
 | which to have the guardian defend against. The guardian
 | cannot choose on its own and cannot defend against both.
+
+Water's Ally
+............
+
+| Cost: 15 motes
+| Target: Caster
+|
+| For a day and a night, the caster becomes a kin to
+| water and can exist in water or air with equal ease. She
+| can swim in the water at the same speed as she moves
+| upon land, may breathe water or air and can see under-
+| water just as she can in the air. She is not affected by the
+| water's crushing depths or its chilling cold. While in the
+| water, she may add two dice to her Stealth dice pool as
+| she blends into the deep colors. The spell provides no
+| protection against predators or other active threats of
+| the ocean. It merely adapts the caster for existence in
+| the water. A sorcerer has to deal with the creatures of
+| the depths on her own.
+
+Water's Chilling Grasp
+......................
+
+| Cost: 15 motes
+| Target: -
+|
+| The sorcerer causes a number of chill tentacles of
+| water equal to twice her permanent Essence to rise up
+| from the waters that surround a nearby vessel (no
+| further than 100 x permanent Essence yards from her)
+| and attack the crew of that ship. Each tentacle is up to
+| 30 feet long and attacks once a turn without direction,
+| randomly attempting to grab a crewmember, lifting him
+| up from the deck and constricting him in its cold grasp.
+| Each tentacle has an Initiative of 6 and an Attack of 5,
+| and each does 8 bashing damage per turn that a foe is in
+| its coils. The tentacles attack as a group; roll one attack,
+| and compare it to each defender's dodge or parry sepa-
+| rately (so, if the tentacles roll 3 successes, each defender
+| needs to roll 4 successes to avoid being grabbed). Only
+| one tentacle will attack each target. If attacked, the
+| tentacles do not dodge or soak and take 20 health levels
+| of damage before dispersing. Edged weapons do half
+| damage to the tentacles, fire-based weapons do double.
+| If the sorcerer wishes, he can take an action and directly
+| control one of the tentacles (using his own Melee pool
+| to attack, at a two dice penalty), or he can reform a
+| tentacle that has been "slain," although this takes the
+| entire turn. The tentacles last for a number of turns
+| equal to the caster's permanent Essence + 2 and then
+| dissolve, leaving the enemy vessel awash in water and
+| any victims either in the ocean or dashed to the decks
+| (50 percent chance of either). Players of victims who
+| fall to the deck must make a Dexterity + Athletics roll
+| (difficulty 2) to avoid their characters taking an addi-
+| tional 8B damage from the fall. Victims that fall into the
+| ocean take no damage but will have to be rescued and
+| will start drowning if they cannot swim. If attacking in
+| group combat, add the caster's Essence rather than her
+| Charisma to a single attack roll, and add 2 to the damage
+| of the attack for each tentacle after the first.

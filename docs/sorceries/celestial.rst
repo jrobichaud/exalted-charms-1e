@@ -1085,6 +1085,36 @@ The Spawning of Monsters
 | monster must be approved by the Storyteller before this
 | spell is used.
 
+Storm Rider Enchantment
+.......................
+
+| Cost: 30 motes
+| Target: Ship
+|
+| With the aid of this spell, a ship can travel in even the
+| mightiest storm without fear or danger, even taking advan-
+| tage of the storm's power to lend speed to its journey. Cast
+| when a ship first encounters a storm, it renders the vessel
+| totally immune to the storm's effects (if cast while the ship
+| is in the storm, this spell has no effect). For the duration of
+| the Charm (which lasts as long as the storm or three days,
+| whichever is shorter), no lightning will strike the ship nor
+| waves dash over its decks. The enchanted ship will sail
+| safely over the deepest swells and the highest waves and
+| remain calm under even the fiercest winds. The ship has
+| only slight control over where it goes but will, at the least,
+| keep somewhat on course for its destination if the naviga-
+| tor and helmsmen are competent (this requires Wits or
+| Stamina + Sail rolls for each, with the difficulty ranging
+| from 2 to 4 depending on the ferocity of the storm. The
+| player or Storyteller may choose whether to use Wits or
+| Stamina, as both quick-thinking or dogged determination
+| can see one through a storm safely). If the storm is traveling
+| in the same general direction as the vessel was heading, the
+| ship will benefit from its passage, typically cutting one to
+| two days (or more in the case of truly savage storms, up to
+| a week) from the length of the journey.
+
 Summon the Army of the Wild
 ...........................
 
@@ -1136,6 +1166,47 @@ Summon the Army of the Wild
 | army lies not in its size or its members, but in its commander’s
 | ability to command and utilize them.
 
+Summon Spirit Boat
+..................
+
+| Cost: 30 motes base, + 2 motes per additional day of existence.
+| Target: -
+|
+| The sorcerer calls forth a sailing ship constructed of
+| pure Essence to take him where he wants to go. This spirit-
+| crafted vessel will remain in existence for a week and a day
+| (plus one day for every additional 2 motes of Essence
+| spent), during which time it will go wherever the sorcerer
+| commands, without need of crew or navigator. A simple
+| command such as "Take me to the city of Lookshy by the
+| most direct path" will suffice to set course and set the vessel
+| upon its journey. If the sorcerer desires, he may place the
+| vessel under the command of another by merely com-
+| manding the ship to take her orders as it would his own. He
+| may also place restrictions upon this gift, as desired; the
+| ship will understand moderately complicated conditions
+| and restrictions placed upon its usage and follow them
+| accordingly. The vessel appears fully stocked with provi-
+| sions and takes whatever form the sorcerer requests, so
+| long as it is a fine one; the spirits will not create a crippled
+| looking scow or an aged rowboat, instead interpreting
+| these commands in ways that better suit their aesthetic
+| sensibilities. There are limits to the size of the vessel this
+| spell can create; ships as large as a large yacht or a small
+| coaster are within its ability, but a ship as large as a blue-
+| water merchant is beyond the spell's ability to construct.
+| While on a course, the vessel travels at three times
+| the normal speed for a ship of its kind, even against the
+| wind or tides, and it will cleverly avoid reefs, shoals and
+| other submerged hazards. It provides no inherent protec-
+| tion against predators or the weather, but local spirits will
+| generally not harass those aboard such a ship unless
+| ordered to do so by another sorcerer who holds sway over
+| them, or their superiors in their spirit court. If attacked,
+| the spirit ship has twice the soak and health levels of
+| vessel of its type, but it is not armed and will attempt to
+| run, not fight.
+
 Summoning the Heart of Darkness
 ...............................
 
@@ -1168,6 +1239,25 @@ Summoning the Heart of Darkness
 | using another sorcerous effect to escape in the confusion.
 | The heart of darkness lasts for 24 hours after being cast,
 | unless countered, even if the caster is slain.
+
+Swift Journey
+.............
+
+| Cost: 25 motes
+| Target: Ship
+|
+| This spell enables the vessel it is cast upon to travel
+| incredible distances in just a single day. When it is cast, the
+| sorcerer specifies a destination, which must be no further
+| away than 1,500 miles times the caster's permanent Es-
+| sence. So long as the final stopping point is within that
+| range, the journey will take no more than a full day from
+| the time the spell is cast. The crew and passengers will
+| notice nothing unusual about their journey, save that it
+| takes such a short time; while this spell is in effect, only
+| great powers such as elemental dragons, the gods and
+| perhaps elder Sidereals and the like can interfere with the
+| ship until it reaches its goal.
 
 Swift Spirit of Winged Transportation
 .....................................
