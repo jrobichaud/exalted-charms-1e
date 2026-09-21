@@ -15,3 +15,4 @@ Contents, indices and tables
   arcanoi
   god_blooded
   trinity
+  sorceries

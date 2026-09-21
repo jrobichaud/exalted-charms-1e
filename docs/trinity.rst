@@ -9,7 +9,7 @@ The Root of the Perfected Lotus
 
 
 Crimson Pentacle Blade Style
-...............................
+............................
 
 .. mermaid:: ./mermaid/trinity/crimson_pentacle_blade_style.mmd
 
