@@ -208,6 +208,36 @@ Chariot of the Blazing Sun
 | and anything within the chariot at the time of the crash.
 
 
+Cleansing Solar Flames
+......................
+
+| Cost: 50+ motes
+| Target: One shadowland
+|
+| In the First Age, this spell was needed only
+| after massive massacres attributed to the Fair Folk
+| or rampaging behemoths, and the sorcerer was
+| invariably protected by the rest of her Circle from
+| the mad voices and obsidian claws of the nephwracks
+| and mortwights. To those who can see Essence, the
+| massing power of the spell is an amazing spectacle,
+| observable from tens of miles away as the bright
+| golden Essence piles ever higher toward the sky. As
+| the spell concludes, the tower of near-solid sunlight
+| bursts into reality and fills the world with a
+| glow for several leagues around - the tower then
+| falls, like a dam has burst in Heaven and let the sun
+| shine over the region again. The darkness is wiped
+| away, and Creation is again separated from the
+| Underworld in that area.
+| Cleansing Solar Flames must be cast from the
+| geomantic center of a shadowland, and the sorcerer
+| must spend 10 minutes in supplication to the
+| Unconquered Sun for every 50 miles of radius that
+| the shadowland covers. The spell costs 50 motes,
+| plus 10 for every additional 50 miles of radius
+| beyond the first.
+
 Curse of Unyielding Mist
 .....................
 
