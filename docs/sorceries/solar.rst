@@ -47,6 +47,28 @@ Abjuration of the Maidens
 | permanent Essence greater than that of the sorcerer — and
 | only at the centermost markings of the spell.
 
+Adamant Countermagic
+....................
+
+| Cost: 20 or 25 motes
+| Target: Solar Circle Spell
+|
+| This spell is similar to Emerald or Sapphire
+| Countermagic, save that it is more expensive and protects
+| against spells of the third circle. However, the side effects
+| of countering Solar Circle spells are very impressive — the
+| shattered fragments of Essence are themselves as powerful
+| as many first circle spells. The effects of shattering a spell
+| of the third circle can kill unprotected mortals and lay
+| waste to the countryside — but compared to the effects of
+| a spell such as Rain of Doom, they are nothing.
+| In addition to its ability to counter magic of the
+| second circle, Adamant Countermagic can also overpower
+| magics of the Terrestrial or Celestial Circles totally.
+| A first or second circle spell countered through the use of
+| Adamant Countermagic is stifled totally, without any side
+| effects from the thwarted Essence.
+
 Benediction of Archgenesis
 ..........................
 
@@ -266,6 +288,42 @@ Curse of Unyielding Mist
 | the initial casting. Otherwise, the unyielding mist remains
 | for eternity — or until the caster’s condition is met.
 
+
+Demon of the Third Circle
+.........................
+
+| Cost: 40+ motes
+| Target: Ritual Circle
+|
+| A very powerful and dangerous spell, this magic calls
+| up one of the demons of the third circle, powerful and
+| dangerous beings who serve as the chief lieutenants and
+| generals of the Yozis. The demon princes themselves
+| cannot be summoned, for the power of the gods imprisons
+| them.
+| As with Demon of the First Circle, this spell is a
+| complex ritual that is difficult to perform outside of the
+| confines of a specially prepared ritual space. It must be
+| started at sundown and end at the stroke of midnight, and
+| it can only be performed during the Calibration, when the
+| powers of light are at their weakest. In the Old Realm, all
+| magicians gathered together at sunset during every night
+| of the Calibration for a great feast that lasted until dawn,
+| so that none might be tempted to dabble with the powers
+| of darkness. This tradition continues to this day among the
+| Dragon-Blooded, though none of them have the power to
+| summon forth such creatures of evil.
+| The casting of Demon of the Third Circle itself costs
+| 40 Essence. The sorcerer and demon engage in a contest of
+| wills, as per Demon of the First Circle. As with Demon of
+| the Second Circle, the cost to reduce the demon’s dice
+| pool is 10 motes per die, not 5. The roll to send the demon
+| back to Malfeas if the binding fails is difficulty 5. A
+| character who forces a Demon of the Third Circle to bow
+| its head to him had best be prepared to deal with the sort
+| of enemy he has just earned.
+
+
 Essence Inversion
 .................
 
@@ -305,6 +363,7 @@ Essence Inversion
 | purple and black colors with which the sorcerer struck the
 | target. When the victim finally dies from the Essence
 | Inversion, its body implodes, leaving no physical remains.
+
 
 Gaia’s Rebuke
 .............
@@ -389,6 +448,134 @@ Incantation of the Invincible Army
 | must sleep for a number of days equal to the amount by
 | which the Stamina roll was failed.
 
+
+Rain of Doom
+............
+
+| Cost: 60 motes
+| Target: Area
+|
+| This spell calls down a supernatural storm of vast
+| proportions on the target. A rain of corrosive venom falls
+| from the sky, while sickly green lightning lashes the
+| ground. The venom falls in sheets from dusk till dawn and
+| is corrosive enough to pit stone and warp glass. Wood
+| bursts into thick red-orange flame at its touch, and metal
+| simply dissolves. Living creatures exposed to the venom
+| suffer terrible burns, and most humans and animals die
+| shortly thereafter in convulsions.
+| For years or even decades after the storm, nothing but
+| stunted scrub will grow on the land washed by the rain, and
+| those areas that catch the runoff of the storm will be similarly
+| blighted. The venom is neutralized by the touch of daylight,
+| and it evaporates easily, so the devastation is limited. However,
+| even several days after event, the venom can be dangerous to
+| areas near the target that are not warmed or lighted by the sun.
+| The mechanical effects of the venom are as follows:
+| • Those exposed to the rain must soak one point of
+| lethal damage on the first turn, two points of lethal damage
+| on the second turn, three points in the third turn and so on.
+| However, after the character leaves the rain, the damage
+| ceases to increase every turn and stays steady at the damage
+| the character received during her last turn of exposure.
+| After a character leaves the rain, she continues to take
+| damage until she has removed her soaked clothing (generally
+| the matter of a single turn’s dice action).
+| A character’s armor adds to her soak. However, it is
+| much harder to remove armor than clothing. An armored
+| character will have to take the regular amount of time to
+| remove her armor. Anything not made from Essence or one
+| of the Five Magical Materials is ruined by exposure to the rain.
+| Characters exposed to the runoff take lethal damage
+| only once. The amount of damage is determined by how
+| much the character is exposed to and how diluted the
+| runoff is with pure water. A character splashed with
+| diluted runoff may only take 1 die of lethal damage, while
+| a character full immersed in a pool of the pure venom
+| might take 20 or more.
+| • Further, players of unExalted characters who come
+| in contact with the rain or runoff must make a Stamina +
+| Resistance roll at difficulty 2 or succumb to a painful,
+| convulsive death over the next several hours.
+| • Also, characters outdoors have a 1 in 10 chance of
+| being hit by lightning on any given turn. Characters hit by
+| lightning suffer 12 dice of lethal damage, which can be
+| soaked only with Stamina.
+| The Rain of Doom spell is somewhat complex to cast.
+| The spell itself takes only three turns to cast, but the magic
+| must be performed after the sun has touched the horizon
+| during the evening. When the casting is complete, the sky
+| beings to darken at unnatural pace with thick, oily clouds.
+| The sorcerer must immediately begin traveling. He can
+| walk, run or ride a beast, but he cannot fly or transport
+| himself magically — he or his mount must actually tread
+| the ground around the target.
+| The caster has from the time he finishes the casting of
+| the spell until night has fallen fully to circumnavigate the
+| area of effect. For the purposes of the spell, this sunset period
+| lasts about an hour. The sorcerer cannot recross his path,
+| and he must reach his starting point before night falls fully.
+| If the character crosses his path or fails to reach his starting
+| point by the time darkness falls, the magic is wasted, and the
+| gathering storm dissipates as though it had never been.
+| However, if the character successfully describes a circuit,
+| then from an hour after nightfall to the rising of the sun,
+| the area within it is lashed by the Rain of Doom. Outside of
+| that area, a thick rain falls, mixed with sleet and hail, but
+| nothing compared to the horror within the area of the spell’s
+| effect. Character who are outside the spell’s area of effect —
+| for example, a besieging army manning the siege lines —
+| must take steps to protect themselves from the spell’s
+| venomous runoff, which is as lethal as the falling rain.
+
+
+Rune of Singular Hate
+.....................
+
+| Cost: 10 motes
+| Target: One Creature
+|
+| This curse is the blackest and most foul that an
+| Exalted can utter, and it sears and twists the soul of the
+| target and of the sorcerer who pronounces it as well. The
+| Rune of Singular Hate is but a single word, a word so sharp
+| edged and hateful that a tongue can give it voice but once
+| in a lifetime. As a result, the casting time is near-instant.
+| A sorcerer who has sufficient Willpower and Essence can
+| pronounce the Rune of Singular Hate as a reflexive action,
+| so long as she is able to speak.
+| To speak the Rune, the character must be within
+| earshot of the target, though the target need not hear the
+| words. Even magical stillness will not prevent the target
+| from hearing the curse in his heart if the sound would
+| normally have reached him. The Rune of Hate can target
+| only single individual, but if he is less than a god, a Yozi or
+| a Malfean, the Rune will sear him.
+| The player of the target of the Rune immediately rolls the
+| value of each of his character’s Abilities, Attributes and Virtues
+| — including Essence and Willpower — that he possesses a
+| score in, one at a time. The player cannot botch these rolls, and
+| 10s do not count as two successes on them. For every success the
+| player rolls testing an Ability, Attribute or Virtue, his character
+| retains one dot in it. Dice on which the player does not roll a
+| success represent a dot that is lost, immediately and forever,
+| from that Ability, Attribute or Virtue.
+| A character who is left without any dots in his Wits or
+| Intelligence is reduced to a mindless vegetable. A character
+| who is left without any dots in his Perception is
+| deprived of all senses and cut off forever from the outside
+| world. A character who is left without any dots in Willpower
+| is reduced to will-less automaton, similar to what
+| remains after the Fair Folk consume a being’s dreams and
+| hope. A character whose Essence is reduced to zero dies as
+| his life force is snuffed out. An Exalted character whose
+| Essence and Abilities are reduced below the minimum
+| levels required to learn a Charm is unable to use it until he
+| raises his Essence and Abilities back to the requisite levels.
+| The sorcerer pronouncing the Rune loses one dot in
+| every Attribute, Ability and Virtue that she possesses a score
+| in. As implied earlier in the description, a character can
+| pronounce the Rune of Singular Hate but once in her life.
 
 Total Annihilation
 ..................

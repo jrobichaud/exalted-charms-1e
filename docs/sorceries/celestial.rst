@@ -83,6 +83,49 @@ Between the Minute and the Hour
 | maintain concentration, with the difficulty equal to the
 | number of health levels she has taken.
 
+Blood of Boiling Oil
+....................
+
+| Cost: 30 motes
+| Target: Caster
+|
+| The character gathers a roiling ball of Essence between
+| her hands. This sphere glows brighter and brighter
+| as the power within it grows. It starts a dull brick red, but
+| the color grows in brightness and saturation until it is, first,
+| the color of red-hot iron and, then, an unearthly, glittering
+| scarlet. The sphere then vanishes noiselessly and without
+| display, but the sorcerer’s hands are left covered with
+| glowing scarlet arcane characters.
+| If the sorcerer lays a hand on another living being, the
+| power flows from her hands into the unfortunate victim,
+| transmuting his blood to boiling oil. Most mortals die
+| instantly when subjected to this attack, and even the
+| Exalted can be slain with but a single touch.
+| To resolve this attack, the sorcerer must make a successful
+| unarmed attack on the target. This attack can be combined
+| with a regular attack, a Charm or even a Combo, allowing a
+| powerful warrior-mage to unleash an attack of unparalleled
+| power. The first time the sorcerer makes a successful unarmed
+| attack, her player must immediately make a reflexive Charisma
+| \+ Occult roll. For every success, the target takes the
+| sorcerer’s Essence in levels of lethal damage. This damage is
+| applied before any other damage from the attack and can be
+| soaked only by the victim’s Stamina.
+| The Exalted are resistant to transmutation. When this
+| Charm is used on an Exalted target (or any similar target, such
+| as one of the Fair Folk or an embodied spirit), subtract the
+| target’s Essence from the number of successes the sorcerer’s
+| player achieves on the Charisma + Occult roll before determining
+| damage. If the sorcerer’s successes are reduced to 0 or
+| less, then the magic dissipates but does no harm to the target.
+| This spell persists for a number of minutes equal to the
+| sorcerer’s Essence or until the first time she touches a living
+| creature. The sorcerer cannot touch herself by accident,
+| but can accidentally touch an unintended target. This
+| spell has no effect on unliving creatures.
+
+
 Bone Lion
 .........
 
@@ -224,6 +267,69 @@ Cloud Trapeze
 | and affords little protection from attack. Attacks can be
 | made against a trapeze’s occupants as if the attackers were
 | assaulting an unseen foe.
+
+Demon of the Second Circle
+..........................
+
+| Cost: 30+ motes
+| Target: Ritual Circle
+|
+| This spell is very similar to Demon of the First Circle,
+| save that the being it calls forth is a more powerful
+| creature. Rather than a mere servant of darkness, the being
+| summoned is powerful and dangerous, capable of wreaking
+| great evil in the world of men — or performing great feats
+| when bound to the will of a sorcerer.
+| As with Demon of the First Circle, this spell is a
+| complex ritual that must be started at sundown and ended
+| at the stroke of midnight, but it can only be cast on the
+| night of the new moon or during the Calibration. The
+| actual spell itself costs 30 Essence.
+| The sorcerer and demon engage in a contest of Willpower
+| + Essence, as per Demon of the First Circle. However,
+| the cost to reduce the demon’s dice pool is 10 motes per die,
+| not 5. The roll to send the demon back to the demon world
+| is still difficulty 3, though the Exalted is much less likely to
+| be able to defeat the demon if his summoning fails.
+| Demons of the second and higher circles are vengeful,
+| intelligent creatures. Though they cannot reach the world
+| of men on their own, if somehow given an opportunity to
+| avenge themselves on a sorcerer who treated them cruelly
+| or enslaved them, they will.
+
+Dolorous Reflection
+...................
+
+| Cost: 20 motes
+| Target: Caster
+|
+| The character extends his hands, then crosses them in a
+| defensive posture, and hundreds of bands of mystical energy swirl
+| around him in a brilliant, surging cocoon. The bands fade from
+| view within a few seconds, but their effects remain. The effects
+| of Dolorous Reflection persist for as long as the caster maintains
+| his defensive stance and linger for a number of minutes afterward
+| equal to twice the character’s permanent Essence score.
+| Until the effects of the spell end, any missile attack on
+| the character is caught in the swirling bands of Essence,
+| whirled around her at tremendous speed and hurled back at
+| the character who launched it. The sorcerer’s player makes
+| a reflexive Wits + Occult roll for each reflected attack. This
+| roll acts as the attack roll for the reflected attack, and the
+| character who launched the attack may dodge it as if it was
+| a normal attack. Reflected attacks are made without range
+| penalties and do their original base damage — the stronger
+| the attack, the stronger the reflecting force.
+| Unlike the Impenetrable Frost Barrier, Dolorous Reflection
+| effects large missiles, such as ballista bolts and
+| trebuchet-hurled boulders. However, Dolorous Reflection
+| has no effect on attacks composed of Essence, such as the
+| Archery Charm Solar Spike. It does effect Essence-spawned
+| material attacks, such as Death of Obsidian Butterflies or
+| Phantom Arrow Technique. Dolorous Reflection also has
+| no effect on hand-to-hand attacks.
+| This spell is a favorite of Lunar Exalted warriors, who
+| prefer to fight their opponents hand to hand.
 
 Eternal Crystalline Encasement
 ..............................
@@ -555,6 +661,46 @@ Change B to L         1 mote
 +1L Damage            1 mote
 +100 Range            1 mote
 ===================== =========
+
+Incomparable Body Arsenal
+.........................
+
+| Cost: 30 motes
+| Target: Caster
+|
+| For a number of hours equal to her Essence score, the
+| character transforms her body into an automaton of rust-streaked
+| black iron. This form is roughly similar to her
+| natural body, but it appears roughly cast and is studded
+| with rivets where the “segments” meet. A character used
+| this spell need not breathe and is immune to poison and
+| the effects of exposure to extreme temperatures.
+| Incomparable Body Arsenal grants the character +10
+| soak against both bashing and lethal damage. If an attack does
+| less than 10 dice of raw damage to her, not a single damage die
+| is rolled. In addition, the character’s body is a trove of hidden
+| weapons. Her skin can sprout rusty iron spikes at will; double-bladed,
+| eight-inch knives flick from her fingertips; barbed
+| iron spears extend from her palms at whim; and her mouth
+| can drop open, puppet-like, to fire a razor-sharp multi-bladed
+| projectile on a long iron chain. Whatever sort of weapon she
+| needs simply extends from her metallic form.
+| The character’s Strength and Stamina both increase by
+| 2, even if that causes them to rise above 5. The character does
+| Strength + 8 lethal damage in a clinch. She may make Speed
+| + 3, Accuracy + 1 hand-to-hand attacks using her Brawl,
+| Martial Arts or Melee (whatever the character prefers) that
+| do Strength + 6 lethal damage. The character can make these
+| attacks out to a range in yards equal to her permanent Essence.
+| This spell is not compatible with the use of armor or
+| weapons, for such accoutrements fade into the character’s
+| statue-like form. The character moves at normal speed,
+| and unlike the Invulnerable Skin of Bronze, the character
+| weighs no more than normal while under the effect of this
+| spell. While she cannot swim, she need not worry about
+| sinking into deep mud or falling through wooden floors.
+| This spell is a favorite of the Abyssal Exalted, who use
+| it to carry out assassinations and strike fear into their foes.
 
 Insidious Tendrils of Hate
 ..........................
@@ -893,6 +1039,27 @@ Rolling Earth Carpet
 | Rolling Earth Carpet lasts as long as the sorcerer
 | commits the necessary Essence. The effect also ends if the
 | casting sorcerer is killed while her Essence is committed.
+
+Sapphire Countermagic
+.....................
+
+| Cost: 15 or 20 motes
+| Target: Celestial Circle Spell
+|
+| This spell is similar to Emerald Countermagic, save
+| that it protects against spells of the second circle. Other than
+| its increased cost in Essence and Willpower and its ability to
+| effect spells of the second circle, this spell is identical to
+| Emerald Countermagic. However, the side effects of countering
+| the spell are greater because more Essence is released
+| when the spell is cast. These side effects can even cause some
+| damage, in cases where the countered spell is very powerful.
+| In addition to its ability to counter magic of the
+| second circle, Sapphire Countermagic can also overpower
+| the magic of the Terrestrial Circle totally. A Terrestrial
+| Circle spell countered through the use of Sapphire
+| Countermagic is hushed instantly, with no collateral dam-
+| age from the released Essence.
 
 Servant of Infaillible Location
 ...............................
@@ -1425,6 +1592,44 @@ Torrential Cascade
 | devastated by the spell will remain partially flooded. What
 | was once dry earth will become knee-deep mud, and where
 | plants grew in abundance, there will be an ankle-deep marsh.
+
+Travel Without Distance
+.......................
+
+| Cost: 25 motes
+| Target: Caster
+|
+| The mighty among Exalted sorcerers can travel across
+| the face of the world in an instant, if they must. The
+| character gathers a blazing corona of Essence around him
+| and shapes it through a complex series of finger and hand
+| gestures. When he releases the magic, he is wrapped in
+| whirling clouds of Essence and energy. When the clouds
+| dissipate, he is gone. The character can choose to reappear
+| in any location he has seen before, either with his own eyes
+| or through scrying, so long as the destination is within 10
+| miles per point of the character’s permanent Essence and
+| it is not warded against magical travel and spying.
+| The character’s arrival is as spectacular as his departure,
+| with the same whirling clouds gathering out of
+| nothingness and then dissipating to reveal the character,
+| still wrapped in a corona of Essence and channeling the
+| magic with complicated gestures. This arrival takes the
+| same amount of time as the character’s departure — two
+| full turns — during which the character is vulnerable to
+| attack. If the character is disrupted on arrival, there is no
+| chance of a botch: The spell’s Essence has been expended
+| carrying him to his destination. However, the character
+| will be disoriented (-2 to all actions) for (6 - his Stamina)
+| hours. Travel via this spell is quite safe — the character
+| need not worry about appearing inside a chair if the
+| furniture has been rearranged or about appearing in midair
+| if the building has been burnt down or demolished. Instead,
+| he will simply be displaced to the nearest stable,
+| open space with solid footing.
+| This spell is a favorite of the Sidereal Exalted, who use it
+| to come and go undetected from their meeting places, some
+| of which can only be reached through the use of this spell.
 
 Unity of Dreams
 ...............
