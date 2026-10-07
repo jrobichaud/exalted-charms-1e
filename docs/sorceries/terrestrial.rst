@@ -410,6 +410,70 @@ Dance of the Smoke Cobras
 | Smoke        | (Caster's Essence)        | 1L      | 2L      | 3 minutes/-6     |
 +--------------+---------------------------+---------+---------+------------------+
 
+Death of Obsidian Butterflies
+.............................
+
+| Cost: 15 motes
+| Target: One Creature
+|
+| Death of Obsidian Butterflies calls forth a cascade of
+| sculpted obsidian butterflies with razor-sharp wings, whose
+| wingspans vary from an inch across to almost a foot. Flashing
+| over the character’s shoulders and past her sides in a glassy
+| black torrent, they slash through the air in a pattern approximately
+| 30 yards wide, 100 yards long and 10 yards high.
+| Brush, grass and small trees are cut off near the ground.
+| Larger trees and wooden structures suffer serious damage.
+| Stone is defaced but structurally unharmed.
+| When the character releases the magic, her player makes
+| a Perception + Occult roll and adds a number of automatic
+| successes equal to the sorcerer’s permanent Essence. Everyone
+| in the attack pattern not behind an inch or more of stone or
+| several inches of wood is subject to attack. Characters who wish
+| to defend against the Death of Obsidian Butterflies do so as if
+| it were a hand-to-hand attack that had scored as many successes
+| as the caster’s player achieved on her Perception + Occult roll.
+| The obsidian butterflies have a raw damage of 8, plus extra
+| successes on the attack roll. This damage is lethal. The thou-
+| sands of shattered glass butterflies don’t go away afterward, and
+| walking barefoot in the area is not recommended.
+
+Demon of the First Circle
+.........................
+
+| Cost: 20+ motes
+| Target: Ritual Space
+|
+| The spell calls up one of the lesser inhabitants of the
+| demon realm — a twisted, hellish world, different from our
+| own. Though these wicked creatures resent being called into
+| the burningly clean air and bright yellow sunlight of our own
+| world, they can be shackled into magical bondage by a
+| cunning sorcerer. Casting this spell is a ritual of many hours,
+| which must be begun at sundown and end at the stroke of
+| midnight, and it involves a great number of ritual implements
+| and protective sigils — casting it outside a dedicated ritual
+| space is difficult. The actual spell itself costs 20 Essence, to
+| open the portal to the demon realm and call forth the target.
+| Once summoned, the sorcerer and demon engage in a
+| contest of wills, reflected by opposed Willpower + Essence rolls.
+| During the casting of the spell, the character may spend
+| temporary Essence in 5 mote increments to decrease the
+| demon’s dice pool. Every 5 motes of Essence so spent decreases
+| the demon’s Willpower + Essence pool by one die. Continue
+| to roll, once per turn, until one of them accumulates three more
+| successes than the other. If the character gains three or more
+| successes, the demon will serve him loyally for a year and a day
+| or perform one task, which can be of indefinite duration. If the
+| demon wins, the character’s player may make a Wits + Occult
+| roll at difficulty 3 to banish the demon back to Malfeas. If he
+| fails, the demon is free of the protective diagram. Typically, this
+| means an excruciating death for the sorcerer, as he rarely has
+| the Essence to defend himself.
+| Demons are the favored tools of the sorcerer because
+| their actions cost no Essence and their capture does not
+| outrage the Celestial Hierarchy.
+
 Disguise of the New Face
 ........................
 
@@ -474,6 +538,38 @@ Emerald Circle Banishment
 | on the first Willpower + Essence roll. A sorcerer using
 | Adamant Circle Banishment on a First Circle demon
 | automatically succeeds in banishing it.
+
+Emerald Countermagic
+....................
+
+| Cost: 10 or 20 motes
+| Target: Terrestrial Circle spell
+|
+| Through the use of Emerald Countermagic, the Exalted
+| can protect herself and her companions from hostile
+| sorcery. If the character spends 10 motes of Essence, she
+| can secure her own person against hostile magic. She
+| crosses her arms or makes a gesture of defense and is
+| surrounded by a nimbus of multicolored energy. Until the
+| end of the next turn, any hostile magic of the Terrestrial
+| Circle that attempts to affect her shatters, and its effects
+| are wasted. However, the character must partially maintain
+| her defensive stance and is thus at a -2 penalty on
+| combat, athletics and similar actions during her next turn.
+| The caster can also opt to spend 20 motes of Essence
+| and halt the effects of a Terrestrial Circle spell within a
+| radius of (the caster’s permanent Essence x 50) feet. Spells
+| in the midst of being cast are shattered, and spells that are
+| currently in effect are undone.
+| Emerald Countermagic is fast and requires no shaping — it
+| takes effect as soon as the character spends the Willpower.
+| Countermagic cannot banish demons or other spirits.
+| Countermagic is not a clean or quiet process — spells in the midst
+| of being cast are huffed out in a puff of Essence, and already
+| existing magics are deliberately torn asunder. While the magician
+| who used the countermagic will remain safe, those nearby
+| may receive minor flashburns, small fires may be kindled, and
+| weak “echo” effects of the disrupted spell may wash over the area.
 
 Eye of Alliance
 ...............
@@ -908,6 +1004,25 @@ Hypnotic Piping
 | When all of the amethyst-colored jewels have broken and
 | turned black, the pipes crumble into colorless bone powder.
 
+Impenetrable Frost Barrier
+..........................
+
+| Cost: 20 motes
+| Target: Party
+|
+| This magic protects the sorcerer and his companions from
+| attacks by enemies with ranged weapons. A thin, cold blue-gray
+| plume of mist issues from the magician, extended 10 to 15 feet
+| from him, depending on the wind conditions and the local
+| temperature. The mists swirl about any incoming missile attacks,
+| buffeting them and coating them in ice. Most such weapons are
+| dragged hopelessly off course, and the impacts of the rest are
+| cushioned. For the next 20 minutes, attacks by ranged weapons
+| against the sorcerer or anyone standing in the mist suffer a
+| difficulty penalty equal to twice the sorcerer’s permanent Essence
+| rating. The mists are of limited power — they cannot stop attacks
+| from large weapons such as ballista bolts and hurled boulders.
+
 Incantation of Spiritual Discretion
 ...................................
 
@@ -937,6 +1052,23 @@ Incantation of Spiritual Discretion
 | tual Discretion. A shortened version of the original ritual
 | must be performed, taking one hour, and the 20 motes of
 | Essence must be paid again.
+
+Infallible Messenger
+....................
+
+| Cost: 10 motes
+| Target: Same dimension
+|
+| The sorcerer conjures up a minor spirit, a cherub, purely from
+| Essence. Cherubs are multicolored humanoid figures only a few
+| feet tall, with six glittering blue-chrome wings. The sorcerer
+| whispers his message, which can be no longer than a few minutes,
+| into the cherub’s ear. He then names and describes a target. The
+| cherub is able to travel from one point to another nearly instantly
+| — traveling hundreds of miles an hour, it can traverse the world in
+| less than a day. Unless the target’s location is mystically obscured,
+| the cherub will find the recipient, deliver the message perfectly to
+| her ear (even using the original sender’s voice), then dissipate.
 
 Internal Flame
 ..............
@@ -980,6 +1112,25 @@ Internal Flame
 | mortals targeted by this spell will surely die within a month
 | at most, from the destruction of their marrow. Exalts, spirits
 | and fey will recover normally from these wounds.
+
+Invulnerable Skin of Bronze
+...........................
+
+| Cost: 20 motes
+| Target: Caster
+|
+| Until the sun next crosses the horizon, the character’s
+| skin hardens into shining bronze, as supple and as flexible
+| as silk, but as invulnerable and cold as any metal. The
+| character has +6 soak against lethal damage and +12
+| against bashing. Moreover, if the damage is totally absorbed
+| by the Skin (that is, under 6 dice of lethal or 12 dice
+| of bashing), the attacker rolls no damage dice at all. The
+| character inflicts an extra two dice of bashing damage in
+| bare-handed combat and weighs an extra 100 or so pounds.
+| While Invulnerable Skin of Bronze does not impede his
+| motions or slow him, caution is advised near bodies of
+| water and deep mud.
 
 Lightning Spider
 ................
@@ -1990,6 +2141,60 @@ Sting of the Ice Hornet
 | a small, quickly drying pool of water, making this spell a
 | preferred choice of sorcerous assassins.
 
+Stormwind Rider
+...............
+
+| Cost: 15 motes
+| Target: Caster
+|
+| The sorcerer calls up a mighty wind and wraps herself
+| in it. The result is a dust devil — a tornado-like vortex
+| that’s smaller and less devastating to the landscape. The
+| dust devil flies low, usually just touching the ground. The
+| stormwind vortex can jump obstacles 50 feet wide or 30
+| feet high but cannot actually fly. It can survive falls of 30
+| feet and completely protects the sorcerer and any other
+| contents during such short falls. If the vortex falls any
+| farther, it will dissipate on impact. The vortex will
+| completely absorb the damage of falls up to 60 feet and
+| reduces the damage caused by longer falls. Treat long falls
+| as if they were 60 feet shorter for the purposes of determining
+| damage.
+| The dust devil carries the sorcerer and 200 pounds per
+| point of her Essence at speeds of nearly 100 miles an hour.
+| The vortex is immensely maneuverable, and a careful
+| magician can even fly one through a forest, so long as the
+| growth isn’t too thick. The first time the character sets foot
+| on the ground, the vortex, and the magic, dissipate.
+| Characters inside the vortex can see out, but it
+| requires some concentration to fly it, and this consumes
+| the sorcerer’s attention. The roaring winds add 2 to the
+| difficulty of missile attacks into or out of the vortex and
+| render speech nearly impossible. It is very hard to see who
+| is riding in a stormwind vortex, so it’s generally considered
+| polite, if you are using one to travel, to land a fair
+| distance away and approach on foot.
+
+Summon Elemental
+................
+
+| Cost: 10+ motes
+| Target: Conjured creature
+|
+| This spell is much like Demon of the First Circle and
+| uses, generally, the same rules, with the following exceptions:
+| • It can be cast any time — the ritual takes four hours
+| and need not start at sunset or end at midnight.
+| • The roll to banish the elemental if the binding fails
+| is at regular difficulty, not at +2 difficulty.
+| • The elemental will not serve for more than a lunar
+| month, and any task it is set to cannot take longer than a
+| year and a day.
+| • The kidnap and enslavement of elementals can
+| outrage the Celestial Hierarchy. Characters who mistreat
+| their servants or who bind the subjects of a powerful spirit
+| entity are likely to earn the ire of the spirit world.
+
 Summoning of the Lesser Minions of the Eyeless Face
 ...................................................
 
@@ -2417,3 +2622,26 @@ Water's Chilling Grasp
 | group combat, add the caster's Essence rather than her
 | Charisma to a single attack roll, and add 2 to the damage
 | of the attack for each tentacle after the first.
+
+Wood Dragon’s Claw
+..................
+
+| Cost: 10 motes
+| Target: Caster
+|
+| Until the character wishes otherwise, the her hands
+| warp and twist into the shape of huge gnarled claws of oak,
+| lesser replicas of those that adorn the forepaws of the great
+| elemental dragons of Wood. The character does Strength +
+| 4 lethal damage in unarmed combat, and he can harmlessly
+| block lethal attacks with his Dexterity + Brawl pool. The
+| Wood Dragon’s Claw offers no protection against aggravated
+| attacks. The character’s clinches automatically do
+| Strength + 2 lethal damage rather than bashing damage,
+| and holds do 2 points of lethal damage per turn, soaked as
+| normal. For more information on holds and clinches, see
+| page 239 of the Drama chapter.
+| The character’s hands do actually turn into thorny
+| paws several times their normal size — fine manipulation is
+| impossible, and attempts to hold or carry anyone automatically
+| inflict 2 points of lethal damage, soaked as normal.
