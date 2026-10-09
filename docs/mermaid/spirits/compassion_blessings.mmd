@@ -130,6 +130,10 @@ flowchart TD
         duration.<br>
         "
 
+    subgraph Compassion Charms
+        dreamspeak[Dreamspeak]
+    end
+
     subgraph Players Guide
         conditional_blessing[Conditional Blessing]
         click conditional_blessing callback "
@@ -175,6 +179,44 @@ flowchart TD
             perceiving Essence at work can see the mark of an extant
             Conditional Blessing/Curse.
             "
+
+        essence_gifting_method[Essence-Gifting Method]
+        click essence_gifting_method callback "
+            Essence-Gifting Method<br>
+            <br>
+            Cost: 1 mote per mote granted, plus 1 mote committed per 4 motes granted<br>
+            Duration: Until released<br>
+            Type: Simple<br>
+            Minimum Compassion: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Benefaction, Dreamspeak<br>
+            <br>
+            Spirits sometimes use this Charm to aid their mortal
+            servants, granting them some measure of power to wield on
+            their behalf. To use the Charm, the spirit normally marks
+            the mortal in some fashion — this may be as simple as a
+            pendant or pin proclaiming the mortal is aligned with the
+            spirit, or it may be as elaborate as whole-body tattoos, ritual
+            scarification or a stain on the mortal's soul. After doing
+            this, the spirit can channel Essence to the mortal through
+            this Charm. The spirit can channel up to twice the
+            mortal's Willpower + permanent Essence in motes to the
+            mortal, paying 1 mote for each mote transferred and
+            committing 1 additional mote per 4 motes granted. These
+            motes are committed until the spirit chooses to drop the
+            Charm, at which point, the mortal loses all Essence granted.
+            Motes granted in this fashion do not regenerate normally
+            — in order to gain more power, the mortal must once again
+            be granted motes by the spirit. Motes gained in this fashion
+            may be used in any way mortals may normally spend
+            Essence, including committing them to attune to artifacts,
+            if the mortal has the right Merits. Artifacts attuned in this
+            fashion function for one week before becoming de-attuned
+            — the motes committed do not regenerate normally, and
+            so, eventually, their power fades.
+            "
     end
 
     benefaction --> conditional_blessing
+    benefaction --> essence_gifting_method
+    dreamspeak --> essence_gifting_method

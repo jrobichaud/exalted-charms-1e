@@ -451,3 +451,40 @@ flowchart TD
     chaos_repelling_pattern --> brewing_venom_technique
     brewing_venom_technique --> envenomed_weapon_prana
     envenomed_weapon_prana --> mastery_of_poison_technique
+
+    subgraph Player's Guide
+        power_investing_prana[Power-Investing Prana]
+        click power_investing_prana callback "
+            Power-Investing Prana<br>
+            <br>
+            Cost: 3 motes<br>
+            Duration: Until released<br>
+            Type: Simple<br>
+            Minimum Lore: 3<br>
+            Minimum Essence: 2<br>
+            Prerequisite Charms: Will-Bolstering Method<br>
+            <br>
+            Solars of the First Age used this Charm to empower
+            their trusted servants and most skilled mortal warriors with
+            enough Essence to make use of the weapons and armor that
+            could be crafted for their use and to power minor artifacts
+            to aid them in their service to the Exalted. To use this
+            Charm, the character must spend a turn in skin-to-skin
+            contact with the recipient and spend 3 motes of Essence —
+            these motes are committed so long as the Charm is in
+            effect. Upon doing this, the Exalt can transfer up to three
+            times her permanent Essence to the mortal, up to a limit of
+            three times the mortal's Willpower. These motes do not
+            regenerate normally — once they have all been spent, the
+            Charm ends. If the Solar withdraws her commitment, the
+            Charm also ends immediately, and the mortal loses all
+            granted motes. Motes gained in this fashion may be used in
+            any way mortals may normally spend Essence, including
+            committing them to attune to artifacts, if the mortal has
+            the right Merits. Artifacts attuned in this fashion function
+            for one week before becoming de-attuned. The motes
+            committed to the subject do not regenerate normally.
+            "
+    end
+
+    will_bolstering_method --> power_investing_prana
