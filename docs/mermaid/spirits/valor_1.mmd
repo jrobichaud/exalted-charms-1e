@@ -173,3 +173,23 @@ flowchart TD
             "
     end
 
+
+    subgraph Exalted Errata
+        touch_the_real["Touch the Real"]
+        click touch_the_real callback "
+            Touch the Real<br>
+            <br>
+            Cost: 10 motes, 1 Willpower<br>
+            Duration: One scene<br>
+            Type: Simple<br>
+            Minimum Valor: 3<br>
+            Minimum Essence: 3<br>
+            Prerequisite Charms: Materialize<br>
+            <br>
+            For the remainder of the Scene, a dematerialized spirit
+            can use Charms to affect materialized targets. This
+            Charm is rare and coveted by spirits, for obvious reasons.
+        "
+    end
+
+    materialize --> touch_the_real
