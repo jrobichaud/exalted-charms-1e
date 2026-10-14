@@ -1278,6 +1278,60 @@ Mists of Eventide
 | The mists fade and disappear after three turns, leaving
 | no mundane trace of the spell having been cast.
 
+
+Open the Spirit Door
+....................
+
+| Cost: 15 motes + 5 motes per additional target
+|
+| This spell allows the caster and anyone she cares to bring
+| with her to physically enter the sanctum of any spirit with
+| an Essence that is equal to or lower than the caster's. The
+| caster can also use this spell to enter the sanctums of more
+| powerful spirits, but only with the owner's permission. This
+| spell does not allow the caster to dematerialize, it can only
+| be used to enter a small god's sanctum, and the caster
+| rematerializes when he leaves the sanctum. To cast this
+| spell the sorcerer and everyone she is bringing along with
+| her must be within three yards of one of the sanctum's entrance.
+| To locate a sanctum, the caster can either ask a spirit, use
+| the Spirit Detecting Glance charm or make perform a complex
+| divination. This divination requires several hours and a
+| Perception + Occult roll of difficulty 3. If this roll
+| succeeds, the sorcerer locates all sanctum entrances within
+| a 100-yard radius.
+|
+| Once the entrance has been found, the sorcerer and her
+| companions need only stand before it and she then cast the
+| spell. In the next instant, they all find themselves on the
+| threshold of the sanctum. For the duration of this spell,
+| everyone under its influence can interact physically with
+| the sanctum - and all of its inhabitants and furnishings.
+| This spell lasts until the sun next crosses the horizon.
+| If the caster wishes to leave the sanctum before the duration
+| of the spell is up, she can simply cast the spell again, and
+| she and everyone she brings with her will find themselves back
+| in the mortal world. Regardless of how the caster and her
+| companions leave the sanctum, they always find themselves back
+| in the exact place where the spell was first cast. While a
+| number of clever Exalted have used this spell as a method of
+| hiding from mundane pursuit, it cannot be used to intangibly
+| move through space.
+|
+| Anyone using this spell can carry out items and furnishings
+| from the sanctum as long as he can pick them up and carry
+| them. Spirits generally object strongly to having their
+| sanctums invaded by greedy or aggressive Exalts. Anyone who
+| is known to make a habit of attacking the sanctums of small
+| gods will eventually have to deal with the wrath of more
+| powerful spirits who object to their underlings being harmed
+| or robbed. This spell can also be used to gain entrance to
+| the Celestial City of Yu-Shan, but anyone attempting to enter
+| Yu-Shan in this fashion must also talk their way past the
+| celestial lions who guard it. See page 21 for information on
+| entering Yu-Shan.
+
+
 Paralyzing contradiction
 ........................
 

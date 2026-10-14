@@ -607,6 +607,7 @@ Rune of Singular Hate
 | in. As implied earlier in the description, a character can
 | pronounce the Rune of Singular Hate but once in her life.
 
+
 Total Annihilation
 ..................
 
@@ -650,6 +651,42 @@ Total Annihilation
 | created, then casting Adamant Countermagic against it
 | will only reflect the spell as if it were parried with a magical
 | weapon, not interrupt it.
+
+
+Transference of the Sanctum
+...........................
+
+| Cost: 45 motes
+|
+| This spell allows an Exalted to transfer a small god's sanctum
+| into the mortal world. If the sanctum is modeled on the spirit's
+| charge, such as a tree or a building, then the sanctum physically
+| replaces this object. Until the sun next crosses the horizon, this
+| sanctum will be physically present and accessible to all mortals
+| and Exalted. Also, anything that is removed from the sanctum will
+| remain in the mortal world once this spell ends. At the end of this
+| spell, the sanctum and everything inside it will dematerialize and
+| be replaced by whatever was previously in that location. The caster
+| need not fight the sanctum's owner to move the sanctum, although
+| she may have to battle an angry spirit once this spell has been cast.
+|
+| This spell can also be used to permanently move a small god's sanctum
+| into the mortal world. To accomplish this prodigious feat, the caster
+| must perform a complex ritual lasting from sunrise to sunset. Unless
+| she has the permission of all of the sanctum's current residents, at
+| the end of this ritual, the sorcerer's player must make an opposed
+| Willpower + Essence roll with the Storyteller for each and every spirit
+| that has made the sanctum it's home. Every 5 motes of temporary Essence
+| the caster spends reduces the Essence + Willpower dice pool of her
+| current opponent by one die. In addition to having to fight these
+| spirits, many small gods call upon all of their allies when their home
+| is attacked in such a direct fashion. While a sanctum may make a
+| wonderfully secure new home and can be used as the basis for a potent
+| Manse, capturing a sanctum that belongs to a powerful spirit often
+| requires an epic battle. This spell can only be used upon sanctums that
+| are controlled by spirits whose permanent Essence is no greater than the
+| caster's. It is impossible to affect the sanctums of the greatest gods
+| with this spell.
 
 
 Wrath of the Five Elements
