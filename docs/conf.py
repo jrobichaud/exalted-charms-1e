@@ -51,7 +51,7 @@ mermaid_height = "1000px"
 # Full version
 release = "1.0.0"
 
-mermaid_version = "12.0.0"
+mermaid_version = "12.3.0"
 
 # Minor version
 version = "0"
