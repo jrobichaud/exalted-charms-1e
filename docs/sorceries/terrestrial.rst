@@ -1530,6 +1530,33 @@ Private Plaza of Downcast Eyes
 | nal ritual must be performed, taking one hour, and the 20
 | motes of Essence must be paid again.
 
+Raising the Earth's Bones
+.........................
+
+| Cost: 25 motes
+|
+| The Seventh Legion prefers not to fight from static
+| positions when possible, but when necessary, it is perfectly
+| capable of doing so, and this spell lets its soldiers quickly
+| raise defenses when needed. The Exalt first marks out the
+| rough outline of the area he wants to work with, using
+| freshly cut sapling branches cut into marking poles. Once
+| this outline is laid down, he must clear the area of any
+| living creature larger than a rabbit and begin casting. If
+| there is a creature larger than a rabbit in the area of effect,
+| the spell fails
+|
+| As he casts the spell, the Exalt visualizes the defensive
+| structures, which can include any kind of earthen ramparts,
+| stone walls, small fortifications or other defenses.
+| These protections must be completely contained within
+| the area the sorcerer has marked out, which can be no
+| larger than (Intelligence + Occult + the character's Craft
+| (War) Ability, if any x 10) square yards in size. Stone
+| buildings, fortifications or other defensive structures summoned
+| in this fashion cannot exceed three stories in
+| height and are of durable but not imperishable construction,
+| equal to stone or brick.
 
 The Ravenous Fire
 .................
